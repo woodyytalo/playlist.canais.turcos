@@ -4,8 +4,7 @@
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
 
-#EXTINF:-1 tvg-id="EdessaTV.tr" tvg-name="Edessa TV" group-title="Regionais",Edessa TV
-https://canli.edessatv.com/hls/stream.m3u8
+
 
 #EXTINF:-1 tvg-name="EKOL SPORTS" group-title="ESPORTES",EKOL SPORTS
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8
@@ -195,25 +194,25 @@ https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 #EXTINF:-1 tvg-name="K+ Kayseri" tvg-logo="https://www.tvlogo.org/turkey/kplus-kayseri-tr.png" group-title="Regionais",K+ Kayseri
 https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Kanal 19 Çorum" tvg-logo="https://www.tvlogo.org/turkey/kanal-19-tr.png" group-title="Regionais",Kanal 19 Çorum
+#EXTINF:-1 tvg-name="Kanal 19" tvg-logo="https://www.tvlogo.org/turkey/kanal-19-tr.png" group-title="Regionais",Kanal 19 
 https://live.euromediacenter.com/kanal19/index.m3u8
 
-#EXTINF:-1 tvg-name="Kanal 23 Elazığ" tvg-logo="https://www.tvlogo.org/turkey/kanal-23-tr.png" group-title="Regionais",Kanal 23 Elazığ
+#EXTINF:-1 tvg-name="Kanal 23" tvg-logo="https://www.tvlogo.org/turkey/kanal-23-tr.png" group-title="Regionais",Kanal 23 
 https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Kanal 26 Eskişehir" tvg-logo="https://www.tvlogo.org/turkey/kanal-26-tr.png" group-title="Regionais",Kanal 26 Eskişehir
+#EXTINF:-1 tvg-name="Kanal 26 Eskişehir" tvg-logo="https://www.tvlogo.org/turkey/kanal-26-tr.png" group-title="Regionais",Kanal 26 
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Kanal 3 Afyonkarahisar" tvg-logo="https://www.tvlogo.org/turkey/kanal3-tr.png" group-title="Regionais",Kanal 3 Afyonkarahisar
+#EXTINF:-1 tvg-name="Kanal 3 " tvg-logo="https://www.tvlogo.org/turkey/kanal3-tr.png" group-title="Regionais",Kanal 3 
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Kanal 34 İstanbul" tvg-logo="https://www.tvlogo.org/turkey/kanal-34-tr.png" group-title="Regionais",Kanal 34 İstanbul
+#EXTINF:-1 tvg-name="Kanal 34 " tvg-logo="https://www.tvlogo.org/turkey/kanal-34-tr.png" group-title="Regionais",Kanal 34
 https://live.euromediacenter.com/kanal34/index.m3u8
 
-#EXTINF:-1 tvg-name="Kanal 53 Rize" tvg-logo="https://www.tvlogo.org/turkey/kanal-53-tr.png" group-title="Regionais",Kanal 53 Rize
+#EXTINF:-1 tvg-name="Kanal 53 "tvg-logo="https://www.tvlogo.org/turkey/kanal-53-tr.png" group-title="Regionais",Kanal 53 
 https://kanal53.ozelip.com:3448/hybrid/play.m3u8
 
-#EXTINF:-1 tvg-name="Kay TV Kayseri" tvg-logo="https://www.tvlogo.org/turkey/tv-kayseri-tr.png" group-title="Regionais",Kay TV Kayseri
+#EXTINF:-1 tvg-name="Kay TV " tvg-logo="https://www.tvlogo.org/turkey/tv-kayseri-tr.png" group-title="Regionais",Kay TV 
 https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Konya KTV" tvg-logo="https://www.tvlogo.org/turkey/konya-ktv-tr.png" group-title="Regionais",Konya KTV
@@ -249,10 +248,10 @@ https://baskentaudiovideo.xyz/LiveApp/streams/mUE22idl26lA1683879097431.m3u8
 #EXTINF:-1 tvg-name="Kanal V" tvg-logo="https://www.tvlogo.org/turkey/kanal-v-tr.png" group-title="Locais",Kanal V
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TV 264 Sakarya" tvg-logo="https://www.tvlogo.org/turkey/tv-264-sakarya-tr.png" group-title="Locais",TV 264 Sakarya
+#EXTINF:-1 tvg-name="TV 264 * tvg-logo="https://www.tvlogo.org/turkey/tv-264-sakarya-tr.png" group-title="Locais",TV 264 
 http://mc1.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="TV 41 Kocaeli" tvg-logo="https://www.tvlogo.org/turkey/tv-41-kocaeli-tr.png" group-title="Locais",TV 41 Kocaeli
+#EXTINF:-1 tvg-name="TV 41 " tvg-logo="https://www.tvlogo.org/turkey/tv-41-kocaeli-tr.png" group-title="Locais",TV 41
 https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TV DEN" tvg-logo="https://www.tvlogo.org/turkey/tv-den-tr.png" group-title="Locais",TV DEN
@@ -361,8 +360,7 @@ https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
 https://flashhaber-live.ercdn.net/flashhaber/flashhaber_1080p.m3u8
 
 
-#EXTINF:-1 tvg-name="FRT TV" group-title="Regionais",FRT TV
-https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
+
 
 #EXTINF:-1 tvg-id="GrandCinema.tr" tvg-name="Grand Cinema" group-title="Filmes e Séries",Grand Cinema
 https://gcinemahls.wns.live/hls/stream.m3u8
@@ -397,5 +395,5 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV" group-title="CULTURA",Luys TV
-http://185.234.111.229:8000/play/a06i
+#EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV" group-title=CULTURA",Luys TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
