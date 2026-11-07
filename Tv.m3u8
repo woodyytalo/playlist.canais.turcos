@@ -4,8 +4,6 @@
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
 
-
-
 #EXTINF:-1 tvg-name="EKOL SPORTS" group-title="ESPORTES",EKOL SPORTS
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8
 
@@ -384,8 +382,11 @@ https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 https://h1.intechmedia.net/intech/ch27.m3u8
 
 
+
 #EXTINF:-1 tvg-name="TV karadeniz" group-title="CULTURA",TV Karadeniz
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+
+
 
 #EXTINF:-1 tvg-id="KanalFirat.tr" tvg-name="Kanal Fırat" group-title="Regionais",Kanal Fırat
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
@@ -395,5 +396,26 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV" group-title=CULTURA",Luys TV
+
+#EXTINF:-1 tvg-id="ElsharqTV.tr" tvg-name="Elsharq TV" group-title="Internacionais",Elsharq TV
+https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV.tr" group-title=CULTURA",Luys TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
+
+
+
+
+#EXTINF:-1 tvg-name="Kanal Avrupa" group-title="Internacionais",Kanal Avrupa
+http://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/index.m3u8
+
+
+
+#EXTINF:-1 tvg-id="KentTurk.tr" tvg-name="Kent Türk TV" group-title="Regionais",Kent Türk TV
+https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-id="RehberTV.tr" tvg-name="Rehber TV" group-title="Religiosos",Rehber TV
+https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
