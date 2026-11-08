@@ -453,14 +453,12 @@ https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="EuroStar.tr" tvg-name="Euro StarTV" group-title="Internacionais",Euro Star
-https://canlitvulusal.xyz/live/eurostar/index.m3u8
+#EXTINF:-1 tvg-id="EuroStar.tr" tvg-name="Euro StarTV group-title="ENTRETENIMENTO",Euro Star TV 
+https://tgn.bozztv.com/trn03/gt-eurostar/index.m3u8
 
 
+#EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max " group-title="ENTRETENIMENTO",Show Max 
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
 
-#EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max " group-title="Internacionais",Show Max HD
-https://canlitvulusal.xyz/live/showmax/index.m3u8
-
-
-#EXTINF:-1 tvg-id="ATVAvrupa.tr" tvg-name="ATV Avrupa HD" group-title="Internacionais",ATV Avrupa HD
-https://tgn.bozztv.com/dvrfl05/gin-atvavrupa/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ATVAvrupa.tr" tvg-name="ATV Avrupa " group-title="ENTRETENIMENTO",ATV Avrupa 
+https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
