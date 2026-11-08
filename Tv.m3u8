@@ -1,5 +1,4 @@
-
-
+j
 #EXTINF:-1 tvg-name="CİNE1" group-title="Filmes e Séries",CİNE1
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
@@ -453,12 +452,12 @@ https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="EuroStar.tr" tvg-name="Euro StarTV group-title="ENTRETENIMENTO",Euro Star TV 
+#EXTINF:-1 tvg-id="EuroStar.tr" tvg-name="Euro StarTV group-title=Internacionais",Euro Star TV 
 https://tgn.bozztv.com/trn03/gt-eurostar/index.m3u8
 
 
-#EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max " group-title="ENTRETENIMENTO",Show Max 
+#EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max " group-title="Internacionais",Show Max 
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
 
-#EXTINF:-1 tvg-id="ATVAvrupa.tr" tvg-name="ATV Avrupa " group-title="ENTRETENIMENTO",ATV Avrupa 
+#EXTINF:-1 tvg-id="ATVAvrupa.tr" tvg-name="ATV Avrupa " group-title="Internacionais",ATV Avrupa 
 https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
