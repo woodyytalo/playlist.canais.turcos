@@ -2,6 +2,11 @@ name: Selecionar fluxos SD 480p confirmados
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - ".github/workflows/selecionar-sd-480.yml"
 
 permissions:
   contents: write
