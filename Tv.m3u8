@@ -400,5 +400,5 @@ https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max HD" group-title="Internacionais",Show Max HD
-https://www.youtube.com/watch?v=Y3vGHFr
+#EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max " group-title="Internacionais",Show Max
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
