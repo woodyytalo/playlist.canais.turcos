@@ -1,0 +1,112 @@
+name: Selecionar fluxos SD 480p confirmados
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  selecionar-sd:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Verificar manifestos HLS e selecionar 480p quando disponível
+        run: |
+          python - <<'PY'
+          import re
+          import urllib.request
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from pathlib import Path
+          from urllib.parse import urljoin
+
+          path = Path("Tv.m3u8")
+          if not path.exists():
+              raise SystemExit("ERRO: Tv.m3u8 não foi encontrado.")
+
+          lines = path.read_text(encoding="utf-8").splitlines()
+          jobs = []
+          for i, line in enumerate(lines):
+              url = line.strip()
+              if url.startswith(("http://", "https://")) and url.lower().split("?", 1)[0].endswith(".m3u8"):
+                  name = "Canal sem nome"
+                  for prev in reversed(lines[:i]):
+                      if prev.strip().startswith("#EXTINF"):
+                          name = prev.rsplit(",", 1)[-1].strip() or name
+                          break
+                  jobs.append((i, name, url))
+
+          def inspect(item):
+              i, name, url = item
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept": "*/*"})
+                  with urllib.request.urlopen(req, timeout=12) as response:
+                      if response.status != 200:
+                          return i, name, url, None, f"HTTP {response.status}"
+                      data = response.read(512 * 1024).decode("utf-8", "replace")
+                  if "#EXT-X-STREAM-INF" not in data:
+                      return i, name, url, None, "manifesto direto; não anuncia variantes"
+                  rows = data.splitlines()
+                  variants = []
+                  for n, row in enumerate(rows):
+                      if row.strip().startswith("#EXT-X-STREAM-INF:"):
+                          attrs = row
+                          m = re.search(r"RESOLUTION=(\d+)x(\d+)", attrs, re.I)
+                          if not m or n + 1 >= len(rows):
+                              continue
+                          width, height = map(int, m.groups())
+                          if height != 480:
+                              continue
+                          next_url = rows[n + 1].strip()
+                          if not next_url or next_url.startswith("#"):
+                              continue
+                          bw = re.search(r"(?:AVERAGE-BANDWIDTH|BANDWIDTH)=(\d+)", attrs, re.I)
+                          bandwidth = int(bw.group(1)) if bw else 10**12
+                          variants.append((bandwidth, urljoin(url, next_url)))
+                  if not variants:
+                      return i, name, url, None, "master sem variante 480p"
+                  variants.sort(key=lambda x: x[0])
+                  return i, name, url, variants[0][1], "480p confirmado"
+              except Exception as e:
+                  return i, name, url, None, f"não confirmado: {type(e).__name__}: {e}"
+
+          results = []
+          with ThreadPoolExecutor(max_workers=12) as pool:
+              futures = [pool.submit(inspect, item) for item in jobs]
+              for future in as_completed(futures):
+                  results.append(future.result())
+
+          changed = 0
+          for i, name, old, new, status in sorted(results):
+              if new and new != old:
+                  lines[i] = new
+                  changed += 1
+                  print(f"ALTERADO para 480p: {name}")
+              else:
+                  print(f"MANTIDO: {name} — {status}")
+
+          if changed:
+              path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+          print(f"\nResumo: {len(jobs)} links HLS examinados; {changed} links trocados por variantes 480p anunciadas pelo servidor.")
+          print("Links sem variante 480p confirmada foram mantidos intactos.")
+          PY
+
+      - name: Salvar somente as variantes 480p confirmadas
+        run: |
+          if git diff --quiet -- Tv.m3u8; then
+            echo "Nenhuma variante 480p confirmada; playlist preservada."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add Tv.m3u8
+            git commit -m "Selecionar variantes SD 480p confirmadas"
+            git push
+          fi
