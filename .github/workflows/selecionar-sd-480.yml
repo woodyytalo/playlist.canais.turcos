@@ -6,6 +6,7 @@ on:
     branches:
       - "github/workflows/atualizar-logos.yml"
     paths:
+      - "Tv.m3u8"
       - ".github/workflows/selecionar-sd-480.yml"
 
 permissions:
