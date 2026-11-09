@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: kanal-d-drama-redirect
+    runtime: node
+    rootDir: redirect-kanald
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    plan: free
