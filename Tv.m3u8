@@ -402,8 +402,4 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max HD" group-title="Internacionais",Show Max HD
-https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showmax.m3u8
-
-
-#EXTINF:-1 tvg-id="EuroStar.tr" tvg-name="Euro Star" group-title="Internacionais",Euro Star
-https://raw.githubusercontent.com/proefem/titel1/main/ODEBOX
+https://www.showmax.com.tr/canli-yayin/
