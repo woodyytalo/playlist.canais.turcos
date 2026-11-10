@@ -351,6 +351,8 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91
 #EXTVLCOPT:network-caching=1000
 http://54.36.110.140/live3/live3.m3u8
 
+#EXTINF:-1 tvg-id="MekameleenTV.tr@SD" group-title="Regionais",Mekameleen TV (1080p)
+https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Fq0ZvYG/meltemtvt.png" tvg-id="MeltemTV.tr" tvg-name="Meltem TV" group-title="Religiosos",Meltem TV
 #EXTVLCOPT:network-caching=1000
 https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
