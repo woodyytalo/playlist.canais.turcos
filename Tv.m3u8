@@ -23,7 +23,7 @@ https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-2
  #EXTINF:-1 tvg-name="Euro D" tvg-logo="https://www.tvlogo.org/turkey/euro-d-tr.png" group-title="ENTRETENIMENTO",Euro D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 
-#EXTINF:-1 tvg-id="EuroStar.tr" tvg-name="Euro Star" tvg-logo="https://i.ibb.co/CbdPSX6/euro-star.png" group-title="ENTRETENIMENTO",Euro Star
+#EXTINF:-1 tvg-id="EuroStar.tr" tvg-name="Euro Star" tvg-logo="https://i.ibb.co/CbdPSX6/euro-star.png" group-title="Internacionais",Euro Star
 https://mn-nl.mncdn.com/blutv_eurostar2/live.m3u8
 
  #EXTINF:-1 tvg-name="TV8" tvg-logo="https://www.tvlogo.org/turkey/tv8-tr.png" group-title="ENTRETENIMENTO",TV8
