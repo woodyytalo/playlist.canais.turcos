@@ -1,4 +1,3 @@
-#EXTINF
 #EXTINF:-1 tvg-name="CİNE1" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cine-1-tr.png" group-title="Filmes e Séries",CİNE1 1
 #EXTVLCOPT:network-caching=1000
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
@@ -112,6 +111,7 @@ https://dogus.daioncdn.net/ntv/ntv_720p.m3u8
 
 
 #EXTINF:-1 tvg-id="BloombergHT.tr" tvg-name="Bloomberg HT" tvg-logo="https://i.ibb.co/HXKrJRC/blght22.png" group-title="NOTÍCIAS",Bloomberg HT
+#EXTVLCOPT:network-caching=1000
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 
 #EXTINF:-1 tvg-id="CNBCe.tr" tvg-name="CNBC-e" tvg-logo="https://i.ibb.co/kcpSwmK/cnbce.png" group-title="NOTÍCIAS",CNBC-e
@@ -390,6 +390,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_48
 
 #EXTINF:-1 tvg-name="Minika GO" tvg-logo="https://www.tvlogo.org/turkey/minika-go-tr.png" group-title="Infantis",Minika GO
 #EXTVLCOPT:network-caching=1000
+https://trkvz-live.daioncdn.net/minikago/minikago_720p.m3u8
 
 #EXTINF:-1 tvg-id="ZarokTV.tr" tvg-name="Zarok TV Kurmanji" tvg-logo="https://www.tvlogo.org/turkey/zarok-tv-tr.png" group-title="Infantis",Zarok TV Kurmanji
 #EXTVLCOPT:network-caching=1000
@@ -397,7 +398,7 @@ https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 
 #EXTINF:-1 tvg-id="ZarokTV.tr" tvg-name="Zarok TV Sorani" tvg-logo="https://www.tvlogo.org/turkey/zarok-tv-tr.png" group-title="Infantis",Zarok TV Sorani
 #EXTVLCOPT:network-caching=1000
-https://zindisorani.zaroktv.com.tr/hls/stream.m3u8https://trkvz-live.daioncdn.net/minikago/minikago_720p.m3u8
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="NR1 Damar" tvg-logo="https://www.tvlogo.org/turkey/nr1-damar-tr.png" group-title="MÚSICA",NR1 Damar
 #EXTVLCOPT:network-caching=1000
@@ -580,16 +581,21 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 
 #EXTINF:-1 tvg-id="KanalHayat.tr@SD" group-title="RELIGIOSOS",Kanal Hayat (1080p)
+#EXTVLCOPT:network-caching=1000
 https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
 
 #EXTINF:-1 tvg-id="Sat7Turk.cy@SD" group-title="RELIGIOSOS",Sat7 Türk (1080p)
+#EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 
 #EXTINF:-1 tvg-id="SemerkandTV.tr@SD" group-title="RELIGIOSOS",Semerkand TV (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="VavTV.tr@SD" group-title="RELIGIOSOS",Vav TV (1080p)
+#EXTVLCOPT:network-caching=1000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist/2.m3u8
 
 #EXTINF:-1 tvg-id="CNNTurk.tr@SD" group-title="NOTÍCIAS",CNN Turk (1080p)
+#EXTVLCOPT:network-caching=1000
 http://85.117.61.84/cnnturk/index.m3u8
