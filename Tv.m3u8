@@ -285,7 +285,7 @@ https://hls.4utv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QEHKGnG.png" tvg-name="Al-Zahra TV Turkic" group-title="Religiosos",Al-Zahra TV Turkic
 https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_480p/chunks.m3u8
 
- #EXTINF:-1 tvg-name="Aksu TV" group-title="Regionais",Aksu TV
+ #EXTINF:-1 tvg-name="Aksu TV" tvg-logo="https://www.tvlogo.org/turkey/aksu-tv-tr.png" group-title="Regionais",Aksu TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 
  #EXTINF:-1 tvg-name="Alanya Posta TV" group-title="Regionais",Alanya Posta TV
@@ -331,7 +331,7 @@ https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/aSKwxSY.png" tvg-id="DenizPostasiTV.tr" tvg-name="Deniz Postası TV" group-title="Regionais",Deniz Postası TV
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 
- #EXTINF:-1 tvg-id="EdessaTV.tr" tvg-name="Edessa TV" group-title="Regionais",Edessa TV
+ #EXTINF:-1 tvg-id="EdessaTV.tr" tvg-name="Edessa TV" tvg-logo="https://www.tvlogo.org/turkey/edessa-tv-tr.png" group-title="Regionais",Edessa TV
 https://canli.edessatv.com/hls/stream.m3u8
 
 #EXTINF:-1 tvg-id="24TV.tr" tvg-name="24 TV" tvg-logo="https://www.tvlogo.org/turkey/24-tr.png" group-title="NOTÍCIAS",24 TV
@@ -364,7 +364,7 @@ https://h1.intechmedia.net/intech/ch27.m3u8
 #EXTINF:-1 tvg-name="TV karadeniz" group-title="CULTURA",TV Karadeniz
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
- #EXTINF:-1 tvg-id="KanalFirat.tr" tvg-name="Kanal Fırat" group-title="Regionais",Kanal Fırat
+ #EXTINF:-1 tvg-id="KanalFirat.tr" tvg-name="Kanal Fırat" tvg-logo="https://www.tvlogo.org/turkey/kanal-firat-tr.png" group-title="Regionais",Kanal Fırat
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Kanal33.tr" tvg-name="Kanal 33" tvg-logo="https://www.tvlogo.org/turkey/kanal-33-tr.png" group-title="Regionais",Kanal 33
