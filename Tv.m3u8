@@ -1,5 +1,5 @@
 #EXTINF
-#EXTINF:-1 tvg-name="CİNE1" group-title="Filmes e Séries",CİNE1 1
+#EXTINF:-1 tvg-name="CİNE1" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cine-1-tr.png" group-title="Filmes e Séries",CİNE1 1
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
 #EXTINF:-1 tvg-name="EKOL SPORTS" group-title="ESPORTES",EKOL SPORTS 
@@ -279,7 +279,7 @@ https://trkvz-live.daioncdn.net/minikago/minikago_720p.m3u8
 #EXTINF:-1 tvg-name="NR1 Damar" tvg-logo="https://www.tvlogo.org/turkey/nr1-damar-tr.png" group-title="MÚSICA",NR1 Damar
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="4U TV" group-title="ENTRETENIMENTO",4U TV
+#EXTINF:-1 tvg-name="4U TV" tvg-logo="https://www.lyngsat.com/logo/tv/num/4u-tv-tr.png" group-title="ENTRETENIMENTO",4U TV
 https://hls.4utv.live/hls/stream.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QEHKGnG.png" tvg-name="Al-Zahra TV Turkic" group-title="Religiosos",Al-Zahra TV Turkic
@@ -316,7 +316,7 @@ https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 #EXTINF:-1 tvg-neme="Teve2.tr" tvg-name="teve2" tvg-logo="https://www.tvlogo.org/turkey/teve2-tr.png" group-title="ENTRETENIMENTO",teve2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
 
-#EXTINF:-1 tvg-name="BirTV.tr" tvg-name="BİR TV" group-title="ENTRETENIMENTO",BİR TV
+#EXTINF:-1 tvg-name="BirTV.tr" tvg-name="BİR TV" tvg-logo="https://www.lyngsat.com/logo/tv/bb/bir-tv-tr.png" group-title="ENTRETENIMENTO",BİR TV
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CayTV.tr" tvg-name="Çay TV" tvg-logo="https://www.tvlogo.org/turkey/cay-tv-tr.png" group-title="Regionais",Çay TV
@@ -370,7 +370,7 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 #EXTINF:-1 tvg-id="Kanal33.tr" tvg-name="Kanal 33" tvg-logo="https://www.tvlogo.org/turkey/kanal-33-tr.png" group-title="Regionais",Kanal 33
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ElsharqTV.tr" tvg-name="Elsharq TV" group-title="Internacionais",Elsharq TV
+#EXTINF:-1 tvg-id="ElsharqTV.tr" tvg-name="Elsharq TV" tvg-logo="https://www.lyngsat.com/logo/tv/ee/elsharq-tv-tr.png" group-title="Internacionais",Elsharq TV
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
 
  #EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV.tr" group-title=CULTURA",Luys TV
