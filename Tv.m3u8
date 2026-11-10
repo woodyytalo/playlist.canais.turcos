@@ -41,11 +41,11 @@ https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=l4ymfrye8cKo8r5AZ
 
  #EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-name="TRT 2" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trt2.png" group-title="TRT",TRT 2
 #EXTVLCOPT:network-caching=1000
-https://tv-trt2.medya.trt.com.tr/master.m3u8
+https://tv-trt2.medya.trt.com.tr/master_480.m3u8
 
 #EXTINF:-1 tvg-id="TRTGenc.tr@SD" tvg-name="TRT Genç" group-title="TRT",TRT Genç
 #EXTVLCOPT:network-caching=1000
-https://tv-trtgenc.medya.trt.com.tr/master.m3u8
+https://tv-trtgenc.medya.trt.com.tr/master_480.m3u8
 #EXTINF:-1 tvg-name="TRT Türk" tvg-logo="https://www.tvlogo.org/turkey/trt-turk-tr.png" group-title="TRT",TRT Türk
 #EXTVLCOPT:network-caching=1000
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
