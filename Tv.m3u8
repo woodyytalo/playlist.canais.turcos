@@ -39,7 +39,14 @@ https://tv8.daioncdn.net/tv8/tv8_480p.m3u8?&sid=8wn2omysa566&app=7ddc255a-ef47-4
 #EXTVLCOPT:network-caching=1000
 https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=l4ymfrye8cKo8r5AZbddMQ&sid=8wn2omte00vo&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 
- #EXTINF:-1 tvg-name="TRT Türk" tvg-logo="https://www.tvlogo.org/turkey/trt-turk-tr.png" group-title="TRT",TRT Türk
+ #EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-name="TRT 2" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trt2.png" group-title="TRT",TRT 2
+#EXTVLCOPT:network-caching=1000
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-id="TRTGenc.tr@SD" tvg-name="TRT Genç" group-title="TRT",TRT Genç
+#EXTVLCOPT:network-caching=1000
+https://tv-trtgenc.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT Türk" tvg-logo="https://www.tvlogo.org/turkey/trt-turk-tr.png" group-title="TRT",TRT Türk
 #EXTVLCOPT:network-caching=1000
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 
