@@ -201,7 +201,7 @@ https://demiroren.daioncdn.net/kanald/kanald_480p.m3u8?&sid=8wn2osfl4gk2&app=da2
 
 #EXTINF:-1 tvg-name="Kanal D Drama" tvg-logo="https://www.tvlogo.org/turkey/kanal-d-tr.png" group-title="ENTRETENIMENTO",Kanal D Drama
 #EXTVLCOPT:network-caching=1000
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
+https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371fb4d7475349d6f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8
 
  #EXTINF:-1 tvg-name="Dim TV" tvg-logo="https://www.tvlogo.org/turkey/dim-tv-tr.png" group-title="Regionais",Dim TV
 #EXTVLCOPT:network-caching=1000
