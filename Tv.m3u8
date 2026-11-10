@@ -401,5 +401,5 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max " group-title="Internacionais",Show Max
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=3000
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
