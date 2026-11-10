@@ -298,7 +298,7 @@ https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GgEeTNr.png" tvg-name="Almahriah TV" group-title="Internacionais",Almahriah TV
 https://starmenajo.com/hls/almahriah/index.m3u8
 
-#EXTINF:-1 tvg-name="Anadolu TV" group-title="Regionais",Anadolu TV
+#EXTINF:-1 tvg-name="Anadolu TV" tvg-logo="https://canlitv.com/kanal/logo/13394.jpg" group-title="Regionais",Anadolu TV
 https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JsDCyWG.png" tvg-name="ARAS TV" group-title="Regionais",ARAS TV
