@@ -142,7 +142,7 @@ https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8
 
- #EXTINF:-1 tvg-name="TRT EBA" tvg-logo="https://www.tvlogo.org/turkey/trt-eba-tr.png" group-title="TRT",TRT EBA
+ #EXTINF:-1 tvg-id="TRTEBAOrtaokul.tr" tvg-name="TRT EBA Ortaokul" tvg-logo="https://www.tvlogo.org/turkey/trt-eba-tr.png" group-title="EDUCATIVOS",TRT EBA Ortaokul
 #EXTVLCOPT:network-caching=1000
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
