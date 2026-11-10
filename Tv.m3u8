@@ -32,10 +32,10 @@ https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=l4ymfrye8cKo8r5AZ
  #EXTINF:-1 tvg-name="TRT Türk" tvg-logo="https://www.tvlogo.org/turkey/trt-turk-tr.png" group-title="TRT",TRT Türk
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 
- #EXTINF:-1 tvg-name="Power Dance TV" group-title="MÚSICA",Power Dance TV
+ #EXTINF:-1 tvg-name="Power Dance TV" tvg-logo="https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_40.png" group-title="MÚSICA",Power Dance TV
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 
- #EXTINF:-1 tvg-name="Power Love TV" group-title="MÚSICA",Power Love TV
+ #EXTINF:-1 tvg-name="Power Love TV" tvg-logo="https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2559.png" group-title="MÚSICA",Power Love TV
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PowerTürk Akustik TV" tvg-logo="https://www.tvlogo.org/turkey/powerturk-tr.png" group-title="MÚSICA",PowerTürk Akustik TV
@@ -288,7 +288,7 @@ https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_48
  #EXTINF:-1 tvg-name="Aksu TV" tvg-logo="https://www.tvlogo.org/turkey/aksu-tv-tr.png" group-title="Regionais",Aksu TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 
- #EXTINF:-1 tvg-name="Alanya Posta TV" group-title="Regionais",Alanya Posta TV
+ #EXTINF:-1 tvg-name="Alanya Posta TV" tvg-logo="https://www.alanyapostatv.com/wp-content/uploads/2019/03/ap_logo_trnsp_red.png" group-title="Regionais",Alanya Posta TV
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 
 
