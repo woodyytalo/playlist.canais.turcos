@@ -370,7 +370,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_48
 #EXTVLCOPT:network-caching=1000
 https://trkvz-live.daioncdn.net/minikago/minikago_720p.m3u8
 
-#EXTINF:-1 tvg-id="MTurkTV.tr@SD" group-title="Regionais",MTürk TV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xj1gvrq.png" tvg-id="MTurkTV.tr@SD" group-title="Regionais",MTürk TV (1080p)
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
  #EXTINF:-1 tvg-id="NOW.tr" tvg-name="NOW" tvg-logo="https://www.tvlogo.org/turkey/now-tr.png" group-title="ENTRETENIMENTO",NOW 
 #EXTVLCOPT:network-caching=1000
