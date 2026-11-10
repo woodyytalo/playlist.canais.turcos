@@ -356,8 +356,6 @@ http://54.36.110.140/live3/live3.m3u8
 https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="MercanTV.tr@SD" group-title="REGIONAIS",Mercan TV (576p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 #EXTINF:-1 tvg-name="Minika Çocuk" tvg-logo="https://www.tvlogo.org/turkey/minika-cocuk-tr.png" group-title="Infantis",Minika Çocuk
 #EXTVLCOPT:network-caching=1000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8
