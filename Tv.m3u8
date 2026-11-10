@@ -282,7 +282,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198
 #EXTINF:-1 tvg-name="4U TV" group-title="ENTRETENIMENTO",4U TV
 https://hls.4utv.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-name="Al-Zahra TV Turkic" group-title="Religiosos",Al-Zahra TV Turkic
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QEHKGnG.png" tvg-name="Al-Zahra TV Turkic" group-title="Religiosos",Al-Zahra TV Turkic
 https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_480p/chunks.m3u8
 
  #EXTINF:-1 tvg-name="Aksu TV" group-title="Regionais",Aksu TV
@@ -295,13 +295,13 @@ https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Altas TV" tvg-logo="https://www.tvlogo.org/turkey/altas-tv-tr.png" group-title="Regionais",Altas TV
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Almahriah TV" group-title="Internacionais",Almahriah TV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GgEeTNr.png" tvg-name="Almahriah TV" group-title="Internacionais",Almahriah TV
 https://starmenajo.com/hls/almahriah/index.m3u8
 
 #EXTINF:-1 tvg-name="Anadolu TV" group-title="Regionais",Anadolu TV
 https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8
 
-#EXTINF:-1 tvg-name="ARAS TV" group-title="Regionais",ARAS TV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JsDCyWG.png" tvg-name="ARAS TV" group-title="Regionais",ARAS TV
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="ATV Alanya" group-title="Regionais",ATV Alanya
@@ -325,7 +325,7 @@ https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="CiftciTV.tr" tvg-name="Çiftçi TV" tvg-logo="https://www.tvlogo.org/turkey/ciftci-tv-tr.png" group-title="CULTURA",Çiftçi TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="DHA.tr" tvg-name="DHA" group-title="NOTÍCIAS",DHA
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/DHA%20logo.png" tvg-id="DHA.tr" tvg-name="DHA" group-title="NOTÍCIAS",DHA
 https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DenizPostasiTV.tr" tvg-name="Deniz Postası TV" group-title="Regionais",Deniz Postası TV
@@ -340,13 +340,13 @@ https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 #EXTINF:-1 tvg-id="FortunaTV.tr" tvg-name="Fortuna TV" group-title="ESTILO DE VIDA",Fortuna TV
 https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Flash Haber TV" group-title="NOTÍCIAS",Flash Haber TV
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Flash_haber_tv_2025.png" tvg-name="Flash Haber TV" group-title="NOTÍCIAS",Flash Haber TV
 https://flashhaber-live.ercdn.net/flashhaber/flashhaber_1080p.m3u8
 
 #EXTINF:-1 tvg-id="GrandCinema.tr" tvg-name="Grand Cinema" group-title="Filmes e Séries",Grand Cinema
 https://gcinemahls.wns.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-id="HTSporTV.tr" tvg-name="HT Spor TV" group-title="ESPORTES",HT Spor TV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ht-spor-buyuk.webp/275px-Ht-spor-buyuk.webp.png" tvg-id="HTSporTV.tr" tvg-name="HT Spor TV" group-title="ESPORTES",HT Spor TV
 https://ciner.daioncdn.net/ht-spor/ht-spor_480p.m3u8?ex=0&sid=8wn2p2rpc61m&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 
  #EXTINF:-1 tvg-id="IlkeTV.tr" tvg-name="İlke TV" group-title="NOTÍCIAS",İlke TV
