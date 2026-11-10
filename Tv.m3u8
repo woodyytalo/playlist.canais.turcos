@@ -43,7 +43,7 @@ https://starmenajo.com/hls/almahriah/index.m3u8
 #EXTVLCOPT:network-caching=1000
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Anadolu TV" tvg-logo="https://canlitv.com/kanal/logo/13394.jpg" group-title="Regionais",Anadolu TV
+#EXTINF:-1 tvg-logo="https://images.weserv.nl/?url=canlitv.com%2Fkanal%2Flogo%2F13394.jpg&output=png" tvg-name="Anadolu TV"  group-title="Regionais",Anadolu TV
 #EXTVLCOPT:network-caching=1000
 https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8
 
