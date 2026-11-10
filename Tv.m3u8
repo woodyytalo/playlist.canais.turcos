@@ -366,7 +366,14 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_48
 
 #EXTINF:-1 tvg-name="Minika GO" tvg-logo="https://www.tvlogo.org/turkey/minika-go-tr.png" group-title="Infantis",Minika GO
 #EXTVLCOPT:network-caching=1000
-https://trkvz-live.daioncdn.net/minikago/minikago_720p.m3u8
+
+#EXTINF:-1 tvg-id="ZarokTV.tr" tvg-name="Zarok TV Kurmanji" tvg-logo="https://www.tvlogo.org/turkey/zarok-tv-tr.png" group-title="Infantis",Zarok TV Kurmanji
+#EXTVLCOPT:network-caching=1000
+https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
+
+#EXTINF:-1 tvg-id="ZarokTV.tr" tvg-name="Zarok TV Sorani" tvg-logo="https://www.tvlogo.org/turkey/zarok-tv-tr.png" group-title="Infantis",Zarok TV Sorani
+#EXTVLCOPT:network-caching=1000
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8https://trkvz-live.daioncdn.net/minikago/minikago_720p.m3u8
 
 #EXTINF:-1 tvg-name="NR1 Damar" tvg-logo="https://www.tvlogo.org/turkey/nr1-damar-tr.png" group-title="MÚSICA",NR1 Damar
 #EXTVLCOPT:network-caching=1000
