@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-name="CİNE1" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cine-1-tr.png" group-title="Filmes e Séries",CİNE1 1
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
-#EXTINF:-1 tvg-name="EKOL SPORTS" group-title="ESPORTES",EKOL SPORTS 
+#EXTINF:-1 tvg-name="EKOL SPORTS" tvg-logo="https://assets.uzunmuhalefet.com/logos/d34e5e05-83e3-41d5-a8a9-fc7b3603aeb7.png" group-title="ESPORTES",EKOL SPORTS 
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8
 
  #EXTINF:-1 tvg-name="ATV" tvg-logo="https://www.tvlogo.org/turkey/atv-tr.png" group-title="ENTRETENIMENTO",ATV 
@@ -50,7 +50,7 @@ https://dost.stream.emsal.im/tv/live.m3u8
 #EXTINF:-1 tvg-name="Lalegül TV" tvg-logo="https://www.tvlogo.org/turkey/lalegul-tv-tr.png" group-title="Religiosos",Lalegül TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
 
- #EXTINF:-1 tvg-name="Sercem TV" group-title="Religiosos",Sercem TV
+ #EXTINF:-1 tvg-name="Sercem TV" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sercem-tv-tr.png" group-title="Religiosos",Sercem TV
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 
  #EXTINF:-1 tvg-name="Beyaz TV" tvg-logo="https://www.tvlogo.org/turkey/beyaz-tv-tr.png" group-title="ENTRETENIMENTO",Beyaz TV
@@ -352,16 +352,16 @@ https://ciner.daioncdn.net/ht-spor/ht-spor_480p.m3u8?ex=0&sid=8wn2p2rpc61m&app=d
  #EXTINF:-1 tvg-id="IlkeTV.tr" tvg-name="İlke TV" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="NOTÍCIAS",İlke TV
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 
-#EXTINF:-1 tvg-name="İçel TV" group-title="Regionais",İçel TV
+#EXTINF:-1 tvg-name="İçel TV" tvg-logo="https://i.imgur.com/CGwImKv.png" group-title="Regionais",İçel TV
 https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="KocaeliTV.tr" tvg-name="Kocaeli TV" tvg-logo="https://www.tvlogo.org/turkey/kocaeli-tv-tr.png" group-title="Regionais",Kocaeli TV
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="UFA TV" group-title="Internacionais",UFA TV
+#EXTINF:-1 tvg-name="UFA TV" tvg-logo="https://cdn.ksa.my.id/ufa.png" group-title="Internacionais",UFA TV
 https://h1.intechmedia.net/intech/ch27.m3u8
 
-#EXTINF:-1 tvg-name="TV karadeniz" group-title="CULTURA",TV Karadeniz
+#EXTINF:-1 tvg-name="TV karadeniz" tvg-logo="https://asset.artidijitalmedya.com/image/400x400/channels/v1/logo_103.png?v=15" group-title="CULTURA",TV Karadeniz
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
  #EXTINF:-1 tvg-id="KanalFirat.tr" tvg-name="Kanal Fırat" tvg-logo="https://www.tvlogo.org/turkey/kanal-firat-tr.png" group-title="Regionais",Kanal Fırat
@@ -373,7 +373,7 @@ https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="ElsharqTV.tr" tvg-name="Elsharq TV" tvg-logo="https://www.lyngsat.com/logo/tv/ee/elsharq-tv-tr.png" group-title="Internacionais",Elsharq TV
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
 
- #EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV.tr" group-title=CULTURA",Luys TV
+ #EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV.tr" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/luys-tv.png" group-title=CULTURA",Luys TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Kanal Avrupa" tvg-logo="https://www.tvlogo.org/turkey/kanal-avrupa-tr.png" group-title="Internacionais",Kanal Avrupa
@@ -396,7 +396,7 @@ https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV1.tr" tvg-name="TV 1 " tvg-logo="https://www.tvlogo.org/turkey/tv1-tr.png" group-title="Regionais",TV 1
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="LifeTV.tr" tvg-name="Life TV" group-title="NOTÍCIAS",Life TV
+#EXTINF:-1 tvg-id="LifeTV.tr" tvg-name="Life TV" tvg-logo="https://i.ibb.co/9hCVNks/life-tv.png" group-title="NOTÍCIAS",Life TV
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
 
