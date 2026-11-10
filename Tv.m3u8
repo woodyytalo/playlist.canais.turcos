@@ -343,7 +343,7 @@ https://lbl.netmedya.net/hls/lalegultv.m3u8
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
 
- #EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV.tr" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/luys-tv.png" group-title=CULTURA",Luys TV
+ #EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV.tr" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/luys-tv.png" group-title="CULTURA",Luys TV
 #EXTVLCOPT:network-caching=1000
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
 
@@ -417,11 +417,11 @@ https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b2096000_s
 #EXTVLCOPT:network-caching=1000
 https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="Sat7Turk.cy@SD" group-title="RELIGIOSOS",Sat7 Türk (1080p)
+#EXTINF:-1 tvg-id="Sat7Turk.cy@SD" group-title="Religiosos",Sat7 Türk (1080p)
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SemerkandTV.tr@SD" group-title="RELIGIOSOS",Semerkand TV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="SemerkandTV.tr@SD" group-title="Religiosos",Semerkand TV (1080p) [Not 24/7]
 #EXTVLCOPT:network-caching=1000
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
 
@@ -591,7 +591,7 @@ https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="VavTV.tr@SD" group-title="RELIGIOSOS",Vav TV (1080p)
+#EXTINF:-1 tvg-id="VavTV.tr@SD" group-title="Religiosos",Vav TV (1080p)
 #EXTVLCOPT:network-caching=1000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist/2.m3u8
 
