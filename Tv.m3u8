@@ -534,6 +534,15 @@ https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8
 #EXTVLCOPT:network-caching=3000
 https://tv-trtmuzik.medya.trt.com.tr/master_480.m3u8
 
+#EXTINF:-1 tvg-name="KRAL POP" tvg-id="Kral.Pop.Radyo.tr" tvg-logo="https://i.ibb.co/vk0bKz0/kral-pop.png" group-title="MÚSICA",KRAL POP
+#EXTVLCOPT:network-caching=3000
+http://dygvideo.dygdigital.com/live/hls/kralpop
+
+#EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-id="" tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="MÚSICA",NR1 FASHION ONE
+#EXTVLCOPT:network-caching=3000
+http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
+
+
 #EXTINF:-1 tvg-name="TRT Türk" tvg-logo="https://www.tvlogo.org/turkey/trt-turk-tr.png" group-title="TRT",TRT Türk
 #EXTVLCOPT:network-caching=3000
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
