@@ -14,6 +14,10 @@ https://hls.4utv.live/hls/stream.m3u8
 #EXTVLCOPT:network-caching=1000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_480p.m3u8
 
+#EXTINF:-1 tvg-name="A Para" tvg-logo="https://www.tvlogo.org/turkey/a-para-tr.png" group-title="NOTÍCIAS",A Para
+#EXTVLCOPT:network-caching=1000
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Para.m3u
+
 #EXTINF:-1 tvg-name="A Spor" tvg-logo="https://www.tvlogo.org/turkey/a-spor-tr.png" group-title="ESPORTES",A Spor
 #EXTVLCOPT:network-caching=1000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_720p.m3u8
