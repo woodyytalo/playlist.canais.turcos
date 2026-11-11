@@ -619,3 +619,12 @@ https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://www.tvlogo.org/turkey/euro-star-tr.png" tvg-name="Euro Star TV" group-title="Internacionais",Euro Star TV
 #EXTVLCOPT:network-caching=1000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
+
+#EXTINF:-1 tvg-name="Arzu Film" group-title="Filmes e Séries",Arzu Film
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u
+
+#EXTINF:-1 tvg-name="Sözcü TV" group-title="NOTÍCIAS",Sözcü TV
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Sozcu_TV.m3u
+
+#EXTINF:-1 tvg-name="beIN Sports Haberler" group-title="ESPORTES",beIN Sports Haberler
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bein_Sports_Haberler.m3u
