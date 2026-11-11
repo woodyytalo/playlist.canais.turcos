@@ -1,55 +1,53 @@
 #EXTM3U
-#EXTINF:0,Euro_Star_TV
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
-#EXTINF:0,Kanal_Euro_D
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_Euro_D.m3u
-#EXTINF:0,Show_Max
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Show_Max.m3u
-#EXTINF:0,A2
+#EXTINF:-1 tvg-name="A2" group-title="ENTRETENIMENTO",A2
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A2.m3u
-#EXTINF:0,NOW
+#EXTINF:-1 tvg-name="NOW" group-title="ENTRETENIMENTO",NOW
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/NOW.m3u
-#EXTINF:0,Kanal_7_Avrupa
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_7_Avrupa.m3u
-#EXTINF:0,Teve2
+#EXTINF:-1 tvg-name="Show Max" group-title="ENTRETENIMENTO",Show Max
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Show_Max.m3u
+#EXTINF:-1 tvg-name="Teve2" group-title="ENTRETENIMENTO",Teve2
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Teve2.m3u
-#EXTINF:0,A_Spor
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Spor.m3u
-#EXTINF:0,A_Haber
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Haber.m3u
-#EXTINF:0,Arzu_Film
+#EXTINF:-1 tvg-name="Arzu Film" group-title="Filmes e Séries",Arzu Film
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u
-#EXTINF:0,Kemal_Sunal_1
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kemal_Sunal_1.m3u
-#EXTINF:0,Kemal_Sunal_2
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kemal_Sunal_2.m3u
-#EXTINF:0,A_Para
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Para.m3u
-#EXTINF:0,CNN_Turk
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/CNN_Turk.m3u
-#EXTINF:0,Haber_Global
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Haber_Global.m3u
-#EXTINF:0,Bloomberg_HT
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bloomberg_HT.m3u
-#EXTINF:0,NTV
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/NTV.m3u
-#EXTINF:0,TV100
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TV100.m3u
-#EXTINF:0,24_TV
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/24_TV.m3u
-#EXTINF:0,Sozcu_TV
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Sozcu_TV.m3u
-#EXTINF:0,Ulke_TV
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Ulke_TV.m3u
-#EXTINF:0,TVNET
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TVNET.m3u
-#EXTINF:0,TGRT_Haber
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TGRT_Haber.m3u
-#EXTINF:0,TRT_Haber
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TRT_Haber.m3u
-#EXTINF:0,Bein_Sports_Haberler
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bein_Sports_Haberler.m3u
-#EXTINF:0,Ask-i_Memnu
+#EXTINF:-1 tvg-name="Aşk-ı Memnu" group-title="Filmes e Séries",Aşk-ı Memnu
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Ask-i_Memnu.m3u
-#EXTINF:0,Kurtar_Vadisi_Pusu
+#EXTINF:-1 tvg-name="Kemal Sunal 1" group-title="Filmes e Séries",Kemal Sunal 1
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kemal_Sunal_1.m3u
+#EXTINF:-1 tvg-name="Kemal Sunal 2" group-title="Filmes e Séries",Kemal Sunal 2
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kemal_Sunal_2.m3u
+#EXTINF:-1 tvg-name="Kurtlar Vadisi Pusu" group-title="Filmes e Séries",Kurtlar Vadisi Pusu
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kurtar_Vadisi_Pusu.m3u
+#EXTINF:-1 tvg-name="Euro Star TV" group-title="Internacionais",Euro Star TV
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
+#EXTINF:-1 tvg-name="Kanal 7 Avrupa" group-title="Internacionais",Kanal 7 Avrupa
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_7_Avrupa.m3u
+#EXTINF:-1 tvg-name="Kanal Euro D" group-title="Internacionais",Kanal Euro D
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_Euro_D.m3u
+#EXTINF:-1 tvg-name="A Haber" group-title="NOTÍCIAS",A Haber
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Haber.m3u
+#EXTINF:-1 tvg-name="A Para" group-title="NOTÍCIAS",A Para
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Para.m3u
+#EXTINF:-1 tvg-name="24 TV" group-title="NOTÍCIAS",24 TV
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/24_TV.m3u
+#EXTINF:-1 tvg-name="Bloomberg HT" group-title="NOTÍCIAS",Bloomberg HT
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bloomberg_HT.m3u
+#EXTINF:-1 tvg-name="CNN Türk" group-title="NOTÍCIAS",CNN Türk
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/CNN_Turk.m3u
+#EXTINF:-1 tvg-name="Haber Global" group-title="NOTÍCIAS",Haber Global
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Haber_Global.m3u
+#EXTINF:-1 tvg-name="NTV" group-title="NOTÍCIAS",NTV
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/NTV.m3u
+#EXTINF:-1 tvg-name="Sözcü TV" group-title="NOTÍCIAS",Sözcü TV
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Sozcu_TV.m3u
+#EXTINF:-1 tvg-name="TGRT Haber" group-title="NOTÍCIAS",TGRT Haber
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TGRT_Haber.m3u
+#EXTINF:-1 tvg-name="TRT Haber" group-title="NOTÍCIAS",TRT Haber
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TRT_Haber.m3u
+#EXTINF:-1 tvg-name="TV100" group-title="NOTÍCIAS",TV100
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TV100.m3u
+#EXTINF:-1 tvg-name="TVNET" group-title="NOTÍCIAS",TVNET
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TVNET.m3u
+#EXTINF:-1 tvg-name="A Spor" group-title="ESPORTES",A Spor
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Spor.m3u
+#EXTINF:-1 tvg-name="beIN Sports Haberler" group-title="ESPORTES",beIN Sports Haberler
+https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bein_Sports_Haberler.m3u
