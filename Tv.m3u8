@@ -409,9 +409,6 @@ https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Power TV" tvg-logo="https://www.tvlogo.org/turkey/power-tv-tr.png" group-title="MÚSICA",Power TV
-#EXTVLCOPT:network-caching=3000
-https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b2096000_sltur.m3u8?nimblesessionid=1170242692
 
 #EXTINF:-1 tvg-name="PowerTürk Akustik TV" tvg-logo="https://www.tvlogo.org/turkey/powerturk-tr.png" group-title="MÚSICA",PowerTürk Akustik TV
 #EXTVLCOPT:network-caching=3000
