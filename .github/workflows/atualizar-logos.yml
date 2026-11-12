@@ -23,6 +23,42 @@ jobs:
       - name: Baixar repositório
         uses: actions/checkout@v4
 
+      - name: Garantir teleguia automático para canais novos
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          path = Path("Tv.m3u8")
+          lines = path.read_text(encoding="utf-8").splitlines()
+          epg = "https://iptv-epg.org/files/epg-tr.xml"
+
+          # Mantém o cabeçalho XMLTV sempre presente para todos os canais da lista.
+          if lines and lines[0].startswith("#EXTM3U"):
+              header = lines[0]
+              if "url-tvg=" not in header:
+                  header += f' url-tvg="{epg}"'
+              if "x-tvg-url=" not in header:
+                  header += f' x-tvg-url="{epg}"'
+              lines[0] = header
+          else:
+              lines.insert(0, f'#EXTM3U url-tvg="{epg}" x-tvg-url="{epg}"')
+
+          # Para entradas novas, completa tvg-name com o nome exibido se estiver ausente.
+          # Não inventa tvg-id: o ID precisa corresponder ao channel id do XMLTV.
+          for i, line in enumerate(lines):
+              if not line.startswith("#EXTINF"):
+                  continue
+              display = line.rsplit(",", 1)[-1].strip()
+              if display and not re.search(r'\\btvg-name="[^"]+"', line, re.I):
+                  line = re.sub(r"^#EXTINF:([^,]*),", lambda m: m.group(0).replace(",", f' tvg-name="{display}",', 1), line, count=1)
+                  lines[i] = line
+
+          path.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+          print("Cabeçalho XMLTV garantido e tvg-name preenchido quando ausente.")
+          PY
+
       - name: Preparar Python
         uses: actions/setup-python@v5
         with:
