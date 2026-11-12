@@ -666,7 +666,7 @@ https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8#all
 #EXTINF:-1 tvg-name="YOL TV" tvg-logo="https://i.imgur.com/rTBX6lS.png" group-title="REGIONAIS",YOL TV
 https://live.yoltv.com/hls/stream.m3u8#all
 
-#EXTINF:-1 tvg-name="RTG International" tvg-logo="https://i.imgur.com/ZpUNou4.png" group-title="REGIONAIS",RTG International
+#EXTINF:-1 tvg-name="RTG International" tvg-logo="https://i.imgur.com/ZpUNou4.png" group-title="INTERNACIONAIS",RTG International
 http://213.91.179.28:8000/play/a0bw
 #EXTINF:-1 tvg-name="Kanal Ada" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKA%3C/text%3E%3C/svg%3E" group-title="REGIONAIS",Kanal Ada
 http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum
