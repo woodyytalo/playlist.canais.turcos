@@ -170,7 +170,7 @@ https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="CiftciTV.tr" tvg-name="Çiftçi TV" tvg-logo="https://www.tvlogo.org/turkey/ciftci-tv-tr.png" group-title="CULTURA",Çiftçi TV
+#EXTINF:-1 tvg-name="CiftciTV.tr" tvg-name="Çiftçi TV" tvg-logo="https://www.tvlogo.org/turkey/ciftci-tv-tr.png" group-title="CULTURA/EDUCAÇÃO",Çiftçi TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 
@@ -523,7 +523,7 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV.tr" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/luys-tv.png" group-title="CULTURA",Luys TV
+#EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV.tr" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/luys-tv.png" group-title="CULTURA/EDUCAÇÃO",Luys TV
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
 
@@ -844,7 +844,7 @@ http://canli.tvden.com.tr/hls/live.m3u8
 
 
 
-#EXTINF:-1 tvg-name="TV karadeniz" tvg-logo="https://asset.artidijitalmedya.com/image/400x400/channels/v1/logo_103.png?v=15" group-title="CULTURA",TV Karadeniz
+#EXTINF:-1 tvg-name="TV karadeniz" tvg-logo="https://asset.artidijitalmedya.com/image/400x400/channels/v1/logo_103.png?v=15" group-title="CULTURA/EDUCAÇÃO",TV Karadeniz
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
@@ -969,13 +969,13 @@ https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m
 
 
 
-#EXTINF:-1 tvg-id="TABİİ.tr" tvg-name="Tabii" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="FILMES E SÉRIES", Tabii
+#EXTINF:-1 tvg-id="TABİİ.tr" tvg-name="Tabii" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Filmes e Séries", Tabii
 #EXTVLCOPT:network-caching=5000
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_360p.m3u8?sid=yoAHas4-h0yTN6NtBHZwpw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=1000000
 
 
 
-#EXTINF:-1 tvg-name="BBC First Turkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="FILMES E SÉRIES", BBC First Turkiye
+#EXTINF:-1 tvg-name="BBC First Turkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="Filmes e Séries", BBC First Turkiye
 #EXTVLCOPT:network-caching=5000
 http://88.212.15.29/live/bbc_first/index.m3u8
 
@@ -987,19 +987,19 @@ https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8#all
 
 
 
-#EXTINF:-1 tvg-id="SyriaTV.tr" group-title="INTERNACIONAIS", Syria TV (1080p)
+#EXTINF:-1 tvg-id="SyriaTV.tr" group-title="Internacionais", Syria TV (1080p)
 #EXTVLCOPT:network-caching=5000
 https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/chunks_dvr.m3u8
 
 
 
-#EXTINF:-1 group-title="INTERNACIONAIS", BALKAN TÜRK
+#EXTINF:-1 group-title="Internacionais", BALKAN TÜRK
 #EXTVLCOPT:network-caching=5000
 https://live.euromediacenter.com/balkanturktv/index.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Thaqalayn TV" tvg-logo="https://i.imgur.com/u02FSgI.png" group-title="INTERNACIONAIS", Thaqalayn TV
+#EXTINF:-1 tvg-name="Thaqalayn TV" tvg-logo="https://i.imgur.com/u02FSgI.png" group-title="Internacionais", Thaqalayn TV
 #EXTVLCOPT:network-caching=5000
 http://62.60.207.173:8080/hls/thaqalayn/index.m3u8#all
 
