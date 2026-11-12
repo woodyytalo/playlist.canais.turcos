@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://m3u-edit.com/epg-source.php?file=TR3.xml.gz"
 #EXTINF:-1 tvg-id="24TV.tr" tvg-name="24 TV" tvg-logo="https://www.tvlogo.org/turkey/24-tr.png" group-title="NOTÍCIAS",24 TV
 #EXTVLCOPT:network-caching=15000
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
