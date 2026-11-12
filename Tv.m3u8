@@ -638,3 +638,15 @@ https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_360p.m3u8?sid=yoAHas4-h0yTN6NtBHZwp
 
 #EXTINF:-1 tvg-name="BBC First Turkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="FILMES E SÉRIES", BBC First Turkiye
 http://88.212.15.29/live/bbc_first/index.m3u8
+
+#EXTINF:-1 tvg-name="Ekol TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ekoturk-tr.png" group-title="NOTÍCIAS", Ekol TV
+https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8#all
+
+#EXTINF:-1 tvg-id="SyriaTV.tr" group-title="INTERNACIONAIS", Syria TV (1080p)
+https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAIS", BALKAN TÜRK
+https://live.euromediacenter.com/balkanturktv/index.m3u8
+
+#EXTINF:-1 tvg-name="Thaqalayn TV" tvg-logo="https://i.imgur.com/u02FSgI.png" group-title="INTERNACIONAIS", Thaqalayn TV
+http://62.60.207.173:8080/hls/thaqalayn/index.m3u8#all
