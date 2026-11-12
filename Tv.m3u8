@@ -423,7 +423,7 @@ http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PowerTürk TV" tvg-logo="https://www.tvlogo.org/turkey/powerturk-tr.png" group-title="MÚSICA",PowerTürk TV
 #EXTVLCOPT:network-caching=3000
-https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b2096000_sltur.m3u8?nimblesessionid=1170242691
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="RehberTV.tr" tvg-name="Rehber TV" tvg-logo="https://www.tvlogo.org/turkey/rehber-tv-tr.png" group-title="Religiosos",Rehber TV
 #EXTVLCOPT:network-caching=3000
