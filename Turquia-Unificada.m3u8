@@ -837,8 +837,6 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe46
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TMB.tr" group-title="Turquia",TMB
 https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-tv.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/az/c/c2/TMB_TV_loqosu.png" group-title="Turquia",TMB TV
-https://www.tvkaista.net/stream-forwarder/get.php?x=TMBTV
 #EXTINF:-1 tvg-id="TonTV.tr" group-title="Turquia",Ton TV (720p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 #EXTINF:-1 tvg-id="24TV.tr" group-title="Turquia",TR24 TV (720p) [Not 24/7]
