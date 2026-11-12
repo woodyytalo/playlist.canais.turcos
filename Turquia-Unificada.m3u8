@@ -159,21 +159,21 @@ https://sy.wns.live/hls/stream.m3u8
 https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ww/w_network_east.png" group-title="LIFE STYLE",Waypoint TV (1080p)
 https://waypoint-waypointtv-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="DreamTurk.tr" tvg-logo="https://i.ibb.co/fxRrKmB/dream-turk.png" group-title="MÚSICA",DREAM TURK
+#EXTINF:-1 tvg-id="DreamTurk.tr" tvg-logo="https://i.ibb.co/fxRrKmB/dream-turk.png" group-title="POWER / NR1 / DREAM TURK / KRAL POP",DREAM TURK
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 tvg-id="Kral.Pop.Radyo.tr" tvg-logo="https://i.ibb.co/vk0bKz0/kral-pop.png" group-title="MÚSICA",KRAL POP
+#EXTINF:-1 tvg-id="Kral.Pop.Radyo.tr" tvg-logo="https://i.ibb.co/vk0bKz0/kral-pop.png" group-title="POWER / NR1 / DREAM TURK / KRAL POP",KRAL POP
 http://dygvideo.dygdigital.com/live/hls/kralpop
-#EXTINF:-1 tvg-id="Number1TV.tr" tvg-logo="https://i.ibb.co/sybLTBG/nr1.png" group-title="MÚSICA",NR1
+#EXTINF:-1 tvg-id="Number1TV.tr" tvg-logo="https://i.ibb.co/sybLTBG/nr1.png" group-title="POWER / NR1 / DREAM TURK / KRAL POP",NR1
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1Ask.tr" tvg-logo="https://i.ibb.co/5cJ0KtQ/nr1-ask.png" group-title="MÚSICA",NR1 ASK
+#EXTINF:-1 tvg-id="Number1Ask.tr" tvg-logo="https://i.ibb.co/5cJ0KtQ/nr1-ask.png" group-title="POWER / NR1 / DREAM TURK / KRAL POP",NR1 ASK
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1Damar.tr" tvg-logo="https://i.ibb.co/2yCF7ms/nr1-damar.png" group-title="MÚSICA",NR1 DAMAR
+#EXTINF:-1 tvg-id="Number1Damar.tr" tvg-logo="https://i.ibb.co/2yCF7ms/nr1-damar.png" group-title="POWER / NR1 / DREAM TURK / KRAL POP",NR1 DAMAR
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1Dance.tr" tvg-logo="https://i.ibb.co/kXFSFTN/nr1-dance.png" group-title="MÚSICA",NR1 DANCE
+#EXTINF:-1 tvg-id="Number1Dance.tr" tvg-logo="https://i.ibb.co/kXFSFTN/nr1-dance.png" group-title="POWER / NR1 / DREAM TURK / KRAL POP",NR1 DANCE
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="MÚSICA",NR1 FASHION ONE
+#EXTINF:-1 tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="POWER / NR1 / DREAM TURK / KRAL POP",NR1 FASHION ONE
 http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F5K5xs9/powerturk-taptaze.png" group-title="MÚSICA",POWER TURK TAPTAZE
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F5K5xs9/powerturk-taptaze.png" group-title="POWER / NR1 / DREAM TURK / KRAL POP",POWER TURK TAPTAZE
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Tatlıses.Tv.tr" tvg-logo="https://i.ibb.co/yRy9zwt/tatlises-tv.png" group-title="MÚSICA",TATLISES TV
 https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/chunks.m3u8
@@ -189,7 +189,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Muzik_NumberOneTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5e415748866ac31d980eb317" group-title="MÚSICA",NumberOne TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Muzik_PowerTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6" group-title="MÚSICA",Power Türk
+#EXTINF:-1 tvg-id="Muzik_PowerTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6" group-title="POWER / NR1 / DREAM TURK / KRAL POP",Power Türk
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Muzik_PowerTurkAkustik" tvg-logo="https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2542.png" group-title="MÚSICA",PowerTürk Akustik
 https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
@@ -275,7 +275,7 @@ https://yayin.santraltr.com/hls/zeynotv.m3u8
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA",Number1 Dance
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA",Power Türk Love
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="POWER / NR1 / DREAM TURK / KRAL POP",Power Türk Love
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA",PowerTürk
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/chunks.m3u8
@@ -761,7 +761,7 @@ https://live.artidijitalmedya.com/artidijital_kaytv/kaytv1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 #EXTINF:-1 tvg-id="KonyaOlayTV.tr" group-title="Turquia",Konya Olay TV (720p)
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
-#EXTINF:-1 tvg-id="KralPopTV.tr" group-title="MÚSICA",KRAL Pop TV (720p)
+#EXTINF:-1 tvg-id="KralPopTV.tr" group-title="POWER / NR1 / DREAM TURK / KRAL POP",KRAL Pop TV (720p)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 #EXTINF:-1 tvg-id="LalegulTV.tr" group-title="Turquia",Lalegul TV (1080p)
 https://lbl.netmedya.net/hls/lalegultv.m3u8
@@ -801,17 +801,17 @@ https://live.artidijitalmedya.com/artidijital_kanal16/kanal16/playlist.m3u8
 https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="OncuTV.tr" group-title="Turquia",Öncü TV (1024p) [Not 24/7]
 https://edge1.socialsmart.tv/oncurtv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerDance.tr" group-title="MÚSICA",Power Dance (1080p)
+#EXTINF:-1 tvg-id="PowerDance.tr" group-title="POWER / NR1 / DREAM TURK / KRAL POP",Power Dance (1080p)
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerLove.tr" group-title="MÚSICA",Power Love (1080p)
+#EXTINF:-1 tvg-id="PowerLove.tr" group-title="POWER / NR1 / DREAM TURK / KRAL POP",Power Love (1080p)
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="MÚSICA",Power Turk (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="POWER / NR1 / DREAM TURK / KRAL POP",Power Turk (1080p) [Not 24/7]
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkAkustik.tr" group-title="MÚSICA",Power Türk Akustik (1080p)
+#EXTINF:-1 tvg-id="PowerTurkAkustik.tr" group-title="POWER / NR1 / DREAM TURK / KRAL POP",Power Türk Akustik (1080p)
 https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkSlow.tr" group-title="MÚSICA",Power Türk Slow (1080p)
+#EXTINF:-1 tvg-id="PowerTurkSlow.tr" group-title="POWER / NR1 / DREAM TURK / KRAL POP",Power Türk Slow (1080p)
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTV.tr" group-title="MÚSICA",Power TV (720p)
+#EXTINF:-1 tvg-id="PowerTV.tr" group-title="POWER / NR1 / DREAM TURK / KRAL POP",Power TV (720p)
 https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="MÚSICA",PowerTürk TV (720p)
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
