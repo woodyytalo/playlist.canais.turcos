@@ -4337,7 +4337,7 @@ https://livetv.canbroadcast.com:7443/canlican/tv.m3u8
 #EXTINF:-1 tvg-id="CekmekoyTV.tr@SD" tvg-logo="https://i.imgur.com/sjAGFWu.png" group-title="REGIONAIS", 1421 - Cekmeköy TV (1080p)
 https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Cine1.tr@SD" tvg-logo="" group-title="General", 1422 - Cine 1
+#EXTINF:-1 tvg-id="Cine1.tr@SD" tvg-logo="" group-title="FILMES E SÉRIES", 1422 - Cine 1
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
 #EXTINF:-1 tvg-id="CiftciTV.tr@SD" tvg-logo="https://i.imgur.com/CLzP4vL.png" group-title="CULTURA / EDUCAÇÃO", 1423 - Çiftçi TV (1080p) [Not 24/7]
@@ -4460,7 +4460,7 @@ https://edge1.socialsmart.tv/kanal58/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalAvrupa.tr@SD" tvg-logo="https://i.imgur.com/bIGk6RN.png" group-title="INTERNACIONAIS", 1462 - Kanal Avrupa (1080p)
 http://51.15.2.151/hls/kanalavrupa.m3u8
 
-#EXTINF:-1 tvg-id="KanalB.tr@SD" tvg-logo="https://i.imgur.com/bUsbxTQ.png" group-title="General", 1463 - Kanal B (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="KanalB.tr@SD" tvg-logo="https://i.imgur.com/bUsbxTQ.png" group-title="CULTURA / EDUCAÇÃO", 1463 - Kanal B (480p) [Not 24/7]
 http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8
 
 #EXTINF:-1 tvg-id="KanalDDrama.tr@SD" tvg-logo="https://i.imgur.com/WIeZMKT.png" group-title="FILMES E SÉRIES", 1464 - Kanal D Drama (1080p)
@@ -4526,7 +4526,7 @@ https://trt.daioncdn.net/trt-1/master_1080p.m3u8?&sid=6mxtrw74fwk5&app=ed3904e8-
 #EXTINF:-1 tvg-id="atv.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="ENTRETENIMENTO", 1484 - atv
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
 
-#EXTINF:-1 tvg-id="Kanal D.tr" tvg-logo="https://i.imgur.com/9o1atM6.png" group-title="general", 1485 - Kanal D
+#EXTINF:-1 tvg-id="Kanal D.tr" tvg-logo="https://i.imgur.com/9o1atM6.png" group-title="ENTRETENIMENTO", 1485 - Kanal D
 https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
 
 #EXTINF:-1 tvg-id="Show TV.tr" tvg-logo="https://i.imgur.com/1l7SCCu.png" group-title="ENTRETENIMENTO", 1486 - Show TV
@@ -4538,7 +4538,7 @@ http://185.234.111.229:8000/play/a019
 #EXTINF:-1 tvg-id="24 TV.tr" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="NOTÍCIAS", 1488 - 24 TV
 http://185.234.111.229:8000/play/a059
 
-#EXTINF:-1 tvg-id="Sozcu TV.tr" tvg-logo="https://i.imgur.com/BxpdvsG.png" group-title="general", 1489 - Sozcu TV
+#EXTINF:-1 tvg-id="Sozcu TV.tr" tvg-logo="https://i.imgur.com/BxpdvsG.png" group-title="NOTÍCIAS", 1489 - Sozcu TV
 http://185.234.111.229:8000/play/a00y
 
 #EXTINF:-1 tvg-id="Ekoturk.tr" tvg-logo="https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65" group-title="NOTÍCIAS", 1490 - Ekoturk
@@ -4553,7 +4553,7 @@ https://dogus-live.daioncdn.net/dmax/dmax.m3u8
 #EXTINF:-1 tvg-id="YABAN TV.tr" tvg-logo="http://assets.tvcdn.net/808e5d06-f9a6-4989-ac8c-63f686e61ea0.png" group-title="DOCUMENTÁRIOS", 1493 - YABAN TV
 http://185.234.111.229:8000/play/a011
 
-#EXTINF:-1 tvg-id="Koy TV.tr" tvg-logo="https://i.imgur.com/RcjEHAG.png" group-title="general", 1494 - Koy TV
+#EXTINF:-1 tvg-id="Koy TV.tr" tvg-logo="https://i.imgur.com/RcjEHAG.png" group-title="REGIONAIS", 1494 - Koy TV
 http://185.234.111.229:8000/play/a05v
 
 #EXTINF:-1 tvg-id="BILSEM BIZIM TV.tr" tvg-logo="http://assets.tvcdn.net/255087c9-0b06-471a-8c46-502c825a4797.jpg" group-title="INFANTIS", 1495 - BILSEM BIZIM TV
@@ -4574,7 +4574,7 @@ https://edge1.socialsmart.tv/altastv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="DERIN TV KARABÜK.tr" tvg-logo="http://assets.tvcdn.net/29c01584-57d8-440c-a7af-dbea29d19c35.png" group-title="REGIONAIS", 1500 - DERIN TV KARABÜK
 https://waw2.artiyerelmedya.net/dimtv/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="DRT TV.tr" tvg-logo="https://i.imgur.com/IVh3YST.png" group-title="general", 1501 - DRT TV
+#EXTINF:-1 tvg-id="DRT TV.tr" tvg-logo="https://i.imgur.com/IVh3YST.png" group-title="REGIONAIS", 1501 - DRT TV
 http://185.234.111.229:8000/play/a06a
 
 #EXTINF:-1 tvg-id="DÜZCE TV.tr" tvg-logo="http://assets.tvcdn.net/88553157-968b-4284-b82b-f86773c3ef2e.png" group-title="REGIONAIS", 1502 - DÜZCE TV
@@ -4601,7 +4601,7 @@ https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal Avrupa.tr" tvg-logo="https://i.imgur.com/bIGk6RN.png" group-title="INTERNACIONAIS", 1509 - Kanal Avrupa
 http://185.234.111.229:8000/play/a066
 
-#EXTINF:-1 tvg-id="Kent Turk.tr" tvg-logo="https://i.imgur.com/FQKPjsm.png" group-title="general", 1510 - Kent Turk
+#EXTINF:-1 tvg-id="Kent Turk.tr" tvg-logo="https://i.imgur.com/FQKPjsm.png" group-title="REGIONAIS", 1510 - Kent Turk
 https://waw2.artiyerelmedya.net/38kenttv/bant1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="KOCAELI TV.tr" tvg-logo="http://assets.tvcdn.net/af084b20-c036-4884-91ff-3ca3accec3ab.png" group-title="REGIONAIS", 1511 - KOCAELI TV
