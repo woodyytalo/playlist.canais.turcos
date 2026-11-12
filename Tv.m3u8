@@ -613,7 +613,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/E
 #EXTVLCOPT:network-caching=15000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Sozcu_TV.m3u
 
-#EXTINF:-1 tvg-id="beINSportsHaber.tr" tvg-name="beIN Sports Haberler" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/beinhaber.png" group-title="ESPORTES",beIN Sports Haber
+#EXTINF:-1 tvg-id="beINSportsHaber.tr" tvg-name="beIN Sports Haber" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/beinhaber.png" group-title="ESPORTES",beIN Sports Haber
 #EXTVLCOPT:network-caching=15000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bein_Sports_Haberler.m3u
 
@@ -686,7 +686,7 @@ https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8#all
 #EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" tvg-logo="https://tbbweb.tv/img/logo.png" group-title="REGIONAIS",1475 - Trabzon Buyuksehir Belediyesi TV
 #EXTVLCOPT:network-caching=15000
 https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
-#EXTINF:-1 group-title="REGIONAIS", 513 - Urfanatik TV
+#EXTINF:-1 tvg-name="Urfanatik TV" group-title="REGIONAIS",513 - Urfanatik TV
 #EXTVLCOPT:network-caching=15000
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
 #EXTINF:-1 tvg-id="Koy TV.tr" tvg-logo="https://i.imgur.com/RcjEHAG.png" group-title="REGIONAIS", 1494 - Koy TV
