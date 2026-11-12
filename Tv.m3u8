@@ -70,7 +70,7 @@ https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://images.weserv.nl/?url=canlitv.com%2Fkanal%2Flogo%2F13394.jpg&output=png" tvg-name="Anadolu TV"  group-title="Regionais",Anadolu TV
+#EXTINF:-1 tvg-id="AnadoluTV.tr" tvg-logo="https://images.weserv.nl/?url=canlitv.com%2Fkanal%2Flogo%2F13394.jpg&output=png" tvg-name="Anadolu TV"  group-title="Regionais",Anadolu TV
 #EXTVLCOPT:network-caching=10000
 https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8
 
@@ -112,7 +112,7 @@ https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Bi-kanal-logo.png" tvg-name="Bİ KANAL" group-title="ENTRETENIMENTO",Bİ KANAL
+#EXTINF:-1 tvg-id="BiKanal.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Bi-kanal-logo.png" tvg-name="Bİ KANAL" group-title="ENTRETENIMENTO",Bİ KANAL
 #EXTVLCOPT:network-caching=10000
 https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 
@@ -135,7 +135,7 @@ https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 https://tv.ensonhaber.com/bloomberght/bloomberght_480p.m3u8
 
 
-#EXTINF:-1 tvg-name="BRTV Karabük" tvg-logo="https://www.tvlogo.org/turkey/brtv-tr.png" group-title="Regionais",BRTV Karabük
+#EXTINF:-1 tvg-id="BRTV.tr" tvg-name="BRTV Karabük" tvg-logo="https://www.tvlogo.org/turkey/brtv-tr.png" group-title="Regionais",BRTV Karabük
 #EXTVLCOPT:network-caching=10000
 https://live.artidijitalmedya.com/artidijital_brtv/brtv/chunks.m3u8
 
@@ -224,7 +224,7 @@ https://canli.edessatv.com/hls/stream.m3u8
 
 
 
-#EXTINF:-1 tvg-name="EKOL SPORTS" tvg-logo="https://assets.uzunmuhalefet.com/logos/d34e5e05-83e3-41d5-a8a9-fc7b3603aeb7.png" group-title="ESPORTES",EKOL SPORTS 
+#EXTINF:-1 tvg-id="EkolSports.tr" tvg-name="EKOL SPORTS" tvg-logo="https://assets.uzunmuhalefet.com/logos/d34e5e05-83e3-41d5-a8a9-fc7b3603aeb7.png" group-title="ESPORTES",EKOL SPORTS 
 #EXTVLCOPT:network-caching=10000
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport_480p.m3u8
 
@@ -242,13 +242,13 @@ https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="ER TV Malatya" tvg-logo="https://www.tvlogo.org/turkey/er-tv-malatya-tr.png" group-title="Regionais",ER TV Malatya
+#EXTINF:-1 tvg-id="ERTV.tr" tvg-name="ER TV Malatya" tvg-logo="https://www.tvlogo.org/turkey/er-tv-malatya-tr.png" group-title="Regionais",ER TV Malatya
 #EXTVLCOPT:network-caching=10000
 https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Erciyes TV" tvg-logo="https://www.tvlogo.org/turkey/erciyes-tv-tr.png" group-title="Regionais",Erciyes TV
+#EXTINF:-1 tvg-id="ErciyesTV.tr" tvg-name="Erciyes TV" tvg-logo="https://www.tvlogo.org/turkey/erciyes-tv-tr.png" group-title="Regionais",Erciyes TV
 #EXTVLCOPT:network-caching=10000
 https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8
 
@@ -266,7 +266,7 @@ https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="ETV" tvg-logo="https://www.tvlogo.org/turkey/etv-tr.png" group-title="Regionais",ETV
+#EXTINF:-1 tvg-id="ETV.tr" tvg-name="ETV" tvg-logo="https://www.tvlogo.org/turkey/etv-tr.png" group-title="Regionais",ETV
 #EXTVLCOPT:network-caching=10000
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 
@@ -278,7 +278,7 @@ https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Ezgi TV" tvg-logo="https://www.tvlogo.org/turkey/ezgi-tv-tr.png" group-title="Regionais",Ezgi TV
+#EXTINF:-1 tvg-id="EzgiTV.tr" tvg-name="Ezgi TV" tvg-logo="https://www.tvlogo.org/turkey/ezgi-tv-tr.png" group-title="Regionais",Ezgi TV
 #EXTVLCOPT:network-caching=10000
 https://live.euromediacenter.com/ezgitv/index.m3u8
 
@@ -301,7 +301,7 @@ https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="FRT TV" tvg-logo="https://www.tvlogo.org/turkey/frt-tv-tr.png" group-title="Locais",FRT TV
+#EXTINF:-1 tvg-id="FRTTV.tr" tvg-name="FRT TV" tvg-logo="https://www.tvlogo.org/turkey/frt-tv-tr.png" group-title="Locais",FRT TV
 #EXTVLCOPT:network-caching=10000
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 
@@ -313,7 +313,7 @@ https://gcinemahls.wns.live/hls/stream.m3u8
 
 
 
-#EXTINF:-1 tvg-name="GRT Gaziantep TV" tvg-logo="https://www.tvlogo.org/turkey/grt-tv-tr.png" group-title="Locais",GRT Gaziantep TV
+#EXTINF:-1 tvg-id="GRT.tr" tvg-name="GRT Gaziantep TV" tvg-logo="https://www.tvlogo.org/turkey/grt-tv-tr.png" group-title="Locais",GRT Gaziantep TV
 #EXTVLCOPT:network-caching=10000
 https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 
@@ -355,7 +355,7 @@ https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="İçel TV" tvg-logo="https://i.imgur.com/CGwImKv.png" group-title="Regionais",İçel TV
+#EXTINF:-1 tvg-id="IcelTV.tr" tvg-name="İçel TV" tvg-logo="https://i.imgur.com/CGwImKv.png" group-title="Regionais",İçel TV
 #EXTVLCOPT:network-caching=10000
 https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
 
@@ -367,7 +367,7 @@ https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 
 
 
-#EXTINF:-1 tvg-name="K+ Kayseri" tvg-logo="https://www.tvlogo.org/turkey/kplus-kayseri-tr.png" group-title="Regionais",K+ Kayseri
+#EXTINF:-1 tvg-id="KPlusKayseri.tr" tvg-name="K+ Kayseri" tvg-logo="https://www.tvlogo.org/turkey/kplus-kayseri-tr.png" group-title="Regionais",K+ Kayseri
 #EXTVLCOPT:network-caching=10000
 https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
 
@@ -385,7 +385,7 @@ https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Kanal 19" tvg-logo="https://www.tvlogo.org/turkey/kanal-19-tr.png" group-title="Regionais",Kanal 19 
+#EXTINF:-1 tvg-id="Kanal19.tr" tvg-name="Kanal 19" tvg-logo="https://www.tvlogo.org/turkey/kanal-19-tr.png" group-title="Regionais",Kanal 19 
 #EXTVLCOPT:network-caching=10000
 https://live.euromediacenter.com/kanal19/index.m3u8
 
@@ -427,7 +427,7 @@ https://live.euromediacenter.com/kanal34/index.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Kanal 53 "tvg-logo="https://www.tvlogo.org/turkey/kanal-53-tr.png" group-title="Regionais",Kanal 53 
+#EXTINF:-1 tvg-id="Kanal53.tr" tvg-name="Kanal 53 "tvg-logo="https://www.tvlogo.org/turkey/kanal-53-tr.png" group-title="Regionais",Kanal 53 
 #EXTVLCOPT:network-caching=10000
 https://kanal53.ozelip.com:3448/hybrid/play.m3u8
 
@@ -445,13 +445,13 @@ https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Kanal Avrupa" tvg-logo="https://www.tvlogo.org/turkey/kanal-avrupa-tr.png" group-title="Internacionais",Kanal Avrupa
+#EXTINF:-1 tvg-id="KanalAvrupa.tr" tvg-name="Kanal Avrupa" tvg-logo="https://www.tvlogo.org/turkey/kanal-avrupa-tr.png" group-title="Internacionais",Kanal Avrupa
 #EXTVLCOPT:network-caching=10000
 http://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v3a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Kanal B" tvg-logo="https://www.tvlogo.org/turkey/kanal-b-tr.png" group-title="Locais",Kanal B
+#EXTINF:-1 tvg-id="KanalB.tr" tvg-name="Kanal B" tvg-logo="https://www.tvlogo.org/turkey/kanal-b-tr.png" group-title="Locais",Kanal B
 #EXTVLCOPT:network-caching=10000
 https://baskentaudiovideo.xyz/LiveApp/streams/mUE22idl26lA1683879097431.m3u8
 
@@ -499,7 +499,7 @@ https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Konya KTV" tvg-logo="https://www.tvlogo.org/turkey/konya-ktv-tr.png" group-title="Regionais",Konya KTV
+#EXTINF:-1 tvg-id="KonyaKTV.tr" tvg-name="Konya KTV" tvg-logo="https://www.tvlogo.org/turkey/konya-ktv-tr.png" group-title="Regionais",Konya KTV
 #EXTVLCOPT:network-caching=10000
 https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/chunklist_w16313685.m3u8
 
@@ -671,7 +671,7 @@ https://dogus.daioncdn.net/startv/startv_480p.m3u8?app=a20ac41e-bdc3-4aa1-934d-2
 
 
 
-#EXTINF:-1 tvg-name="TAY TV" tvg-logo="https://www.tvlogo.org/turkey/tay-tv-tr.png" group-title="ESPORTES",TAY TV
+#EXTINF:-1 tvg-id="TAYTV.tr" tvg-name="TAY TV" tvg-logo="https://www.tvlogo.org/turkey/tay-tv-tr.png" group-title="ESPORTES",TAY TV
 #EXTVLCOPT:network-caching=10000
 https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
 
@@ -790,7 +790,7 @@ https://dogus-live.daioncdn.net/kralpoptv/kralpoptv.m3u8
 
 
 
-#EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-id="" tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="MÚSICA",NR1 FASHION ONE
+#EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-id="NR1FashionOne.tr" tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="MÚSICA",NR1 FASHION ONE
 #EXTVLCOPT:network-caching=10000
 http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
 
@@ -844,7 +844,7 @@ http://canli.tvden.com.tr/hls/live.m3u8
 
 
 
-#EXTINF:-1 tvg-name="TV karadeniz" tvg-logo="https://asset.artidijitalmedya.com/image/400x400/channels/v1/logo_103.png?v=15" group-title="CULTURA/EDUCAÇÃO",TV Karadeniz
+#EXTINF:-1 tvg-id="TVKaradeniz.tr" tvg-name="TV karadeniz" tvg-logo="https://asset.artidijitalmedya.com/image/400x400/channels/v1/logo_103.png?v=15" group-title="CULTURA/EDUCAÇÃO",TV Karadeniz
 #EXTVLCOPT:network-caching=10000
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
@@ -874,7 +874,7 @@ https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="UFA TV" tvg-logo="https://cdn.ksa.my.id/ufa.png" group-title="Internacionais",UFA TV
+#EXTINF:-1 tvg-id="UFATV.tr" tvg-name="UFA TV" tvg-logo="https://cdn.ksa.my.id/ufa.png" group-title="Internacionais",UFA TV
 #EXTVLCOPT:network-caching=10000
 https://h1.intechmedia.net/intech/ch27.m3u8
 
@@ -885,7 +885,7 @@ https://h1.intechmedia.net/intech/ch27.m3u8
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-name="Vuslat TV" tvg-logo="https://www.tvlogo.org/turkey/vuslat-tv-tr.png" group-title="Locais",Vuslat TV
+#EXTINF:-1 tvg-id="VuslatTV.tr" tvg-name="Vuslat TV" tvg-logo="https://www.tvlogo.org/turkey/vuslat-tv-tr.png" group-title="Locais",Vuslat TV
 #EXTVLCOPT:network-caching=10000
 https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
 
@@ -921,7 +921,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/E
 
 
 
-#EXTINF:-1 tvg-name="Arzu Film" group-title="Filmes e Séries",Arzu Film
+#EXTINF:-1 tvg-id="ArzuFilm.tr" tvg-name="Arzu Film" group-title="Filmes e Séries",Arzu Film
 #EXTVLCOPT:network-caching=10000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u
 
@@ -975,13 +975,13 @@ https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_360p.m3u8?sid=yoAHas4-h0yTN6NtBHZwp
 
 
 
-#EXTINF:-1 tvg-name="BBC First Turkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="Filmes e Séries", BBC First Turkiye
+#EXTINF:-1 tvg-id="BBCFirst.tr" tvg-name="BBC First Turkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="Filmes e Séries", BBC First Turkiye
 #EXTVLCOPT:network-caching=10000
 http://88.212.15.29/live/bbc_first/index.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Ekol TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ekoturk-tr.png" group-title="NOTÍCIAS", Ekol TV
+#EXTINF:-1 tvg-id="EkolTV.tr" tvg-name="Ekol TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ekoturk-tr.png" group-title="NOTÍCIAS", Ekol TV
 #EXTVLCOPT:network-caching=10000
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8#all
 
@@ -993,19 +993,19 @@ https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="Internacionais", BALKAN TÜRK
+#EXTINF:-1 tvg-id="BalkanTurk.tr" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="Internacionais", BALKAN TÜRK
 #EXTVLCOPT:network-caching=10000
 https://live.euromediacenter.com/balkanturktv/index.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Thaqalayn TV" tvg-logo="https://i.imgur.com/u02FSgI.png" group-title="Internacionais", Thaqalayn TV
+#EXTINF:-1 tvg-id="ThaqalaynTV.tr" tvg-name="Thaqalayn TV" tvg-logo="https://i.imgur.com/u02FSgI.png" group-title="Internacionais", Thaqalayn TV
 #EXTVLCOPT:network-caching=10000
 http://62.60.207.173:8080/hls/thaqalayn/1_2/index.m3u8?tkn=751218219
 
 
 
-#EXTINF:-1 tvg-name="KN Music TV" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" group-title="MÚSICA", KN Music TV
+#EXTINF:-1 tvg-id="KNMusicTV.tr" tvg-name="KN Music TV" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" group-title="MÚSICA", KN Music TV
 #EXTVLCOPT:network-caching=10000
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8#all
 
