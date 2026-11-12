@@ -196,7 +196,7 @@ https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DiyanetTV.tr" tvg-name="Diyanet TV" tvg-logo="https://www.tvlogo.org/turkey/diyanet-tv-tr.png" group-title="Religiosos",Diyanet TV
 #EXTVLCOPT:network-caching=5000
-https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/mt_2.m3u8
 
 
 
@@ -232,7 +232,7 @@ https://ekoltv-live.ercdn.net/ekolsport/ekolsport_480p.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.tvlogo.org/turkey/ekoturk-tr.png" tvg-id="Ekoturk.tr@SD" group-title="NOTÍCIAS",Ekoturk (720p)
 #EXTVLCOPT:network-caching=5000
-https://cdn.ekoturk.net/hls/master.m3u8
+https://cdn.ekoturk.net/hls/320p.m3u8
 
 
 
@@ -501,7 +501,7 @@ https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Konya KTV" tvg-logo="https://www.tvlogo.org/turkey/konya-ktv-tr.png" group-title="Regionais",Konya KTV
 #EXTVLCOPT:network-caching=5000
-https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/playlist.m3u8
+https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/chunklist_w16313685.m3u8
 
 
 
@@ -525,7 +525,7 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV.tr" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/luys-tv.png" group-title="CULTURA/EDUCAÇÃO",Luys TV
 #EXTVLCOPT:network-caching=5000
-https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
+https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/mt_2.m3u8
 
 
 
@@ -537,7 +537,7 @@ http://54.36.110.140/live3/live3.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/q7iVchl.png" tvg-id="MekameleenTV.tr@SD" group-title="Regionais",Mekameleen TV (1080p)
 #EXTVLCOPT:network-caching=5000
-https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
+https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Fq0ZvYG/meltemtvt.png" tvg-id="MeltemTV.tr" tvg-name="Meltem TV" group-title="Religiosos",Meltem TV
@@ -636,7 +636,7 @@ https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.tvlogo.org/turkey/semerkand-tv-tr.png" tvg-id="SemerkandTV.tr@SD" group-title="Religiosos",Semerkand TV (1080p) [Not 24/7]
 #EXTVLCOPT:network-caching=5000
-https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
+https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_2.m3u8
 
 
 
@@ -822,7 +822,7 @@ https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TV264.tr" tvg-name="TV 264 * tvg-logo="https://www.tvlogo.org/turkey/tv-264-sakarya-tr.png" group-title="Locais",TV 264 
 #EXTVLCOPT:network-caching=5000
-http://mc1.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
+http://mc1.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/mt_2.m3u8
 
 
 
@@ -1001,7 +1001,7 @@ https://live.euromediacenter.com/balkanturktv/index.m3u8
 
 #EXTINF:-1 tvg-name="Thaqalayn TV" tvg-logo="https://i.imgur.com/u02FSgI.png" group-title="Internacionais", Thaqalayn TV
 #EXTVLCOPT:network-caching=5000
-http://62.60.207.173:8080/hls/thaqalayn/index.m3u8#all
+http://62.60.207.173:8080/hls/thaqalayn/1_2/index.m3u8?tkn=751218219
 
 
 
@@ -1013,4 +1013,4 @@ https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8#all
 
 #EXTINF:-1 tvg-id="POWER.TV.HD.tr" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="MÚSICA", Power TV
 #EXTVLCOPT:network-caching=5000
-https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8#all
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b2096000_sltur.m3u8?nimblesessionid=1181536323
