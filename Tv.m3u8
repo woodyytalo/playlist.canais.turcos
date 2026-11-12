@@ -613,7 +613,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/E
 #EXTVLCOPT:network-caching=15000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Sozcu_TV.m3u
 
-#EXTINF:-1 tvg-id="beINSportsHaber.tr" tvg-name="beIN Sports Haberler" tvg-logo="https://images.weserv.nl/?url=www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp&output=png" group-title="ESPORTES",beIN Sports Haber
+#EXTINF:-1 tvg-id="beINSportsHaber.tr" tvg-name="beIN Sports Haberler" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/beinhaber.png" group-title="ESPORTES",beIN Sports Haber
 #EXTVLCOPT:network-caching=15000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bein_Sports_Haberler.m3u
 
