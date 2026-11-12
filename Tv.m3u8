@@ -1,4 +1,5 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-tr.xml" x-tvg-url="https://iptv-epg.org/files/epg-tr.xml"
+# Atualização de mapeamento XMLTV executada pelo workflow de EPG
 #EXTINF:-1 tvg-id="24TV.tr" tvg-name="24 TV" tvg-logo="https://www.tvlogo.org/turkey/24-tr.png" group-title="NOTÍCIAS",24 TV
 #EXTVLCOPT:network-caching=8000
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
