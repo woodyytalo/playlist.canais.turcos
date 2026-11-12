@@ -38,7 +38,6 @@ https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_48
 #EXTVLCOPT:network-caching=3000
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GgEeTNr.png" tvg-name="Almahriah TV" group-title="Internacionais",Almahriah TV
 #EXTVLCOPT:network-caching=3000
 https://starmenajo.com/hls/almahriah/index.m3u8
@@ -315,7 +314,6 @@ https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 
-
 #EXTINF:-1 tvg-name="Kanal V" tvg-logo="https://www.tvlogo.org/turkey/kanal-v-tr.png" group-title="Locais",Kanal V
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
@@ -348,7 +346,6 @@ https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
-
  #EXTINF:-1 tvg-id="LuysTV.tr" tvg-name="Luys TV.tr" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/luys-tv.png" group-title="CULTURA",Luys TV
 #EXTVLCOPT:network-caching=3000
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
@@ -362,7 +359,6 @@ https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Fq0ZvYG/meltemtvt.png" tvg-id="MeltemTV.tr" tvg-name="Meltem TV" group-title="Religiosos",Meltem TV
 #EXTVLCOPT:network-caching=3000
 https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
-
 
 #EXTINF:-1 tvg-logo="https://www.tvlogo.org/turkey/mercan-tv-tr.png" tvg-id="MercanTV.tr@SD" group-title="Regionais",Mercan TV (576p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
@@ -396,7 +392,6 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 #EXTVLCOPT:network-caching=3000
 https://dogus.daioncdn.net/ntv/ntv_720p.m3u8
 
-
  #EXTINF:-1 tvg-name="Number 1 TV" tvg-logo="https://www.tvlogo.org/turkey/number-1-tv-tr.png" group-title="MÚSICA",Number 1 TV
 #EXTVLCOPT:network-caching=3000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
@@ -409,15 +404,9 @@ https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
-
-#EXTINF:-1 tvg-name="PowerTürk Akustik TV" tvg-logo="https://www.tvlogo.org/turkey/powerturk-tr.png" group-title="MÚSICA",PowerTürk Akustik TV
-#EXTVLCOPT:network-caching=3000
-https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-id="PowerTurkTaptaze.tr@SD" tvg-name="PowerTürk Taptaze" tvg-logo="https://i.ibb.co/F5K5xs9/powerturk-taptaze.png" group-title="MÚSICA",PowerTürk Taptaze
 #EXTVLCOPT:network-caching=3000
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-
 
 #EXTINF:-1 tvg-id="RehberTV.tr" tvg-name="Rehber TV" tvg-logo="https://www.tvlogo.org/turkey/rehber-tv-tr.png" group-title="Religiosos",Rehber TV
 #EXTVLCOPT:network-caching=3000
@@ -484,7 +473,6 @@ https://tjktv-live.tjk.org/tjktv_1080p.m3u8
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 
-
  #EXTINF:-1 tvg-name="TRT 1" tvg-logo="https://www.tvlogo.org/turkey/trt-1-tr.png" group-title="ENTRETENIMENTO",TRT 1 
 #EXTVLCOPT:network-caching=3000
 https://tv-trt1.medya.trt.com.tr/master_720.m3u8
@@ -536,7 +524,6 @@ http://dygvideo.dygdigital.com/live/hls/kralpop
 #EXTVLCOPT:network-caching=3000
 http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
 
-
 #EXTINF:-1 tvg-name="TRT Türk" tvg-logo="https://www.tvlogo.org/turkey/trt-turk-tr.png" group-title="TRT",TRT Türk
 #EXTVLCOPT:network-caching=3000
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
@@ -564,7 +551,6 @@ https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
  #EXTINF:-1 tvg-id="TV52.tr" tvg-name="TV 52" tvg-logo="https://www.tvlogo.org/turkey/tv52-tr.png" group-title="Regionais",TV 52
 #EXTVLCOPT:network-caching=3000
 https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
-
 
 #EXTINF:-1 tvg-name="TV DEN" tvg-logo="https://www.tvlogo.org/turkey/tv-den-tr.png" group-title="Locais",TV DEN
 #EXTVLCOPT:network-caching=3000
@@ -618,7 +604,6 @@ https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTVLCOPT:network-caching=3000
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 
-
 #EXTINF:-1 tvg-logo="https://www.tvlogo.org/turkey/euro-star-tr.png" tvg-name="Euro Star TV" group-title="Internacionais",Euro Star TV
 #EXTVLCOPT:network-caching=3000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
@@ -635,10 +620,8 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/B
 #EXTINF:-1 tvg-id="NaturalTV.tr@SD" group-title="Regionais",Natural TV (720p) [Not 24/7]
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
 
-
 #EXTINF:-1 tvg-id="SunRTV.tr@SD" group-title="Regionais",Sun RTV (720p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
-
 
 #EXTINF:-1 tvg-id="TBMMTV.tr@SD" group-title="Regionais",TBMM TV (720p)
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
@@ -649,9 +632,6 @@ https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="MÚSICA",PowerTürk TV (720p)
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.trt1.com.tr/public/logo/d60ab555-f948-464a-a139-df5410d2a7b5/TRT-1-Yeni-40px.png" group-title="TRT", TRT 1 HD Yedek
-https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TABİİ.tr" tvg-name="Tabii" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="FILMES E SÉRIES", Tabii
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_360p.m3u8?sid=yoAHas4-h0yTN6NtBHZwpw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=1000000
