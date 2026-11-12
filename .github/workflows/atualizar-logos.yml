@@ -60,7 +60,7 @@ jobs:
                   for row in body.splitlines():
                       row = row.strip()
                       if row.startswith("#EXT-X-STREAM-INF:"):
-                          match = re.search(r"RESOLUTION=(\\d+)x(\\d+)", row)
+                          match = re.search(r"RESOLUTION=(\d+)x(\d+)", row)
                           pending = (int(match.group(1)), int(match.group(2))) if match else None
                       elif row and not row.startswith("#") and pending:
                           width, height = pending
