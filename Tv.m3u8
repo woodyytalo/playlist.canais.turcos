@@ -6,7 +6,7 @@ https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
 #EXTINF:-1 tvg-name="360 TV" tvg-logo="https://www.tvlogo.org/turkey/360-tr.png" group-title="ENTRETENIMENTO",360 TV
 #EXTVLCOPT:network-caching=5000
-https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+https://turkmedya-live.ercdn.net/tv360/tv360_480p.m3u8
 
 
 
@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A
 
 #EXTINF:-1 tvg-name="A Spor" tvg-logo="https://www.tvlogo.org/turkey/a-spor-tr.png" group-title="ESPORTES",A Spor
 #EXTVLCOPT:network-caching=5000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_720p.m3u8
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
 
 
 
@@ -102,7 +102,7 @@ https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Bengü Türk" tvg-logo="https://www.tvlogo.org/turkey/bengu-turk-tr.png" group-title="NOTÍCIAS",Bengü Türk
 #EXTVLCOPT:network-caching=5000
-https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8
+https://tv.ensonhaber.com/benguturk/benguturk_480p.m3u8
 
 
 
@@ -226,7 +226,7 @@ https://canli.edessatv.com/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="EKOL SPORTS" tvg-logo="https://assets.uzunmuhalefet.com/logos/d34e5e05-83e3-41d5-a8a9-fc7b3603aeb7.png" group-title="ESPORTES",EKOL SPORTS 
 #EXTVLCOPT:network-caching=5000
-https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8
+https://ekoltv-live.ercdn.net/ekolsport/ekolsport_480p.m3u8
 
 
 
@@ -291,7 +291,7 @@ http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Flash_haber_tv_2025.png" tvg-name="Flash Haber TV" group-title="NOTÍCIAS",Flash Haber TV
 #EXTVLCOPT:network-caching=5000
-https://flashhaber-live.ercdn.net/flashhaber/flashhaber_1080p.m3u8
+https://flashhaber-live.ercdn.net/flashhaber/flashhaber_480p.m3u8
 
 
 
@@ -321,7 +321,7 @@ https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 
 #EXTINF:-1 tvg-name="Haber Global" tvg-logo="https://www.tvlogo.org/turkey/haber-global-tr.png" group-title="NOTÍCIAS",Haber Global
 #EXTVLCOPT:network-caching=5000
-https://tv.ensonhaber.com/haberglobal/haberglobal_720p.m3u8
+https://tv.ensonhaber.com/haberglobal/haberglobal_480p.m3u8
 
 
 
@@ -339,7 +339,7 @@ https://tv.ensonhaber.com/haberturk/haberturk_480p.m3u8
 
 #EXTINF:-1 tvg-name="Halk TV" tvg-logo="https://www.tvlogo.org/turkey/halk-tv-tr.png" group-title="NOTÍCIAS",Halk TV
 #EXTVLCOPT:network-caching=5000
-https://halktv.daioncdn.net/halktv/halktv_1080p.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609
+https://halktv.daioncdn.net/halktv/halktv_480p.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609
 
 
 
@@ -594,7 +594,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 
 #EXTINF:-1 tvg-name="NTV" tvg-logo="https://www.tvlogo.org/turkey/ntv-tr.png" group-title="NOTÍCIAS",NTV
 #EXTVLCOPT:network-caching=5000
-https://dogus.daioncdn.net/ntv/ntv_720p.m3u8
+https://dogus.daioncdn.net/ntv/ntv_480p.m3u8
 
 
 
@@ -667,7 +667,7 @@ https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 
 #EXTINF:-1 tvg-id="StarTV.tr" tvg-name="Star TV" tvg-logo="https://www.tvlogo.org/turkey/star-tv-tr.png" group-title="ENTRETENIMENTO",Star TV
 #EXTVLCOPT:network-caching=5000
-https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
+https://dogus.daioncdn.net/startv/startv_480p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
 
 
 
@@ -721,7 +721,7 @@ https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TRT 1" tvg-logo="https://www.tvlogo.org/turkey/trt-1-tr.png" group-title="ENTRETENIMENTO",TRT 1 
 #EXTVLCOPT:network-caching=5000
-https://tv-trt1.medya.trt.com.tr/master_720.m3u8
+https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 
 
 
@@ -739,7 +739,7 @@ https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8
 
 #EXTINF:-1 tvg-name="TRT Avaz" tvg-logo="https://www.tvlogo.org/turkey/trt-avaz-tr.png" group-title="TRT",TRT Avaz
 #EXTVLCOPT:network-caching=5000
-https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
+https://tv-trtavaz.medya.trt.com.tr/master_480.m3u8
 
 
 
@@ -768,7 +768,7 @@ https://tv-trtgenc.medya.trt.com.tr/master_480.m3u8
 
 #EXTINF:-1 tvg-name="TRT Haber" tvg-logo="https://www.tvlogo.org/turkey/trt-haber-tr.png" group-title="NOTÍCIAS",TRT Haber
 #EXTVLCOPT:network-caching=5000
-https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
+https://tv-trthaber.medya.trt.com.tr/master_480.m3u8
 
 
 
@@ -798,7 +798,7 @@ http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6
 
 #EXTINF:-1 tvg-name="TRT Türk" tvg-logo="https://www.tvlogo.org/turkey/trt-turk-tr.png" group-title="TRT",TRT Türk
 #EXTVLCOPT:network-caching=5000
-https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
+https://tv-trtturk.medya.trt.com.tr/master_480.m3u8
 
 
 
@@ -852,13 +852,13 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 
 #EXTINF:-1 tvg-name="TV100" tvg-logo="https://www.tvlogo.org/turkey/tv100-tr.png" group-title="NOTÍCIAS",TV100
 #EXTVLCOPT:network-caching=5000
-https://tv100.daioncdn.net/tv100/tv100_1080p.m3u8?app=web
+https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web
 
 
 
 #EXTINF:-1 tvg-name="TV4" tvg-logo="https://www.tvlogo.org/turkey/tv4-tr.png" group-title="ESTILO DE VIDA",TV4
 #EXTVLCOPT:network-caching=5000
-https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
+https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8
 
 
 
