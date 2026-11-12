@@ -645,3 +645,7 @@ https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
 
 #EXTINF:-1 tvg-id="Van65TV.tr@SD" group-title="Regionais",Van 65 TV
 https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="MÚSICA",PowerTürk TV (720p)
+#EXTVLCOPT:network-caching=3000
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
