@@ -927,49 +927,49 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A
 
 
 
-#EXTINF:-1 tvg-name="Sözcü TV" group-title="NOTÍCIAS",Sözcü TV
+#EXTINF:-1 tvg-name="Sözcü TV" tvg-logo="https://i.ibb.co/B40rjP3/szc1.png" group-title="NOTÍCIAS",Sözcü TV
 #EXTVLCOPT:network-caching=5000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Sozcu_TV.m3u
 
 
 
-#EXTINF:-1 tvg-name="beIN Sports Haberler" group-title="ESPORTES",beIN Sports Haberler
+#EXTINF:-1 tvg-name="beIN Sports Haberler" tvg-logo="https://images.weserv.nl/?url=www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp&output=png" group-title="ESPORTES",beIN Sports Haberler
 #EXTVLCOPT:network-caching=5000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bein_Sports_Haberler.m3u
 
 
 
-#EXTINF:-1 tvg-id="NaturalTV.tr@SD" group-title="Regionais",Natural TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="NaturalTV.tr@SD" tvg-logo="https://i.imgur.com/rfcJ674.png" group-title="Regionais",Natural TV (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=5000
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="SunRTV.tr@SD" group-title="Regionais",Sun RTV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="SunRTV.tr@SD" tvg-logo="https://i.imgur.com/64tph9N.png" group-title="Regionais",Sun RTV (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="TBMMTV.tr@SD" group-title="Regionais",TBMM TV (720p)
+#EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" group-title="Regionais",TBMM TV (720p)
 #EXTVLCOPT:network-caching=5000
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
 
 
 
-#EXTINF:-1 tvg-id="Van65TV.tr@SD" group-title="Regionais",Van 65 TV
+#EXTINF:-1 tvg-id="Van65TV.tr@SD" tvg-logo="https://van65tv.com/assets/images/logo/logo.png" group-title="Regionais",Van 65 TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="MÚSICA",PowerTürk TV (720p)
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" tvg-logo="https://www.tvlogo.org/turkey/powerturk-tr.png" group-title="MÚSICA",PowerTürk TV (720p)
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="TABİİ.tr" tvg-name="Tabii" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Filmes e Séries", Tabii
+#EXTINF:-1 tvg-id="TABİİ.tr" tvg-name="Tabii" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Tabii_-_TRT_Logo.png" group-title="Filmes e Séries", Tabii
 #EXTVLCOPT:network-caching=5000
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_360p.m3u8?sid=yoAHas4-h0yTN6NtBHZwpw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=1000000
 
@@ -987,13 +987,13 @@ https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8#all
 
 
 
-#EXTINF:-1 tvg-id="SyriaTV.tr" group-title="Internacionais", Syria TV (1080p)
+#EXTINF:-1 tvg-id="SyriaTV.tr" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Syria_TV_logo_2026.png" group-title="Internacionais", Syria TV (1080p)
 #EXTVLCOPT:network-caching=5000
 https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/chunks_dvr.m3u8
 
 
 
-#EXTINF:-1 group-title="Internacionais", BALKAN TÜRK
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="Internacionais", BALKAN TÜRK
 #EXTVLCOPT:network-caching=5000
 https://live.euromediacenter.com/balkanturktv/index.m3u8
 
