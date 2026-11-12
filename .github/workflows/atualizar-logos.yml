@@ -34,8 +34,7 @@ jobs:
           import re
           import urllib.request
           from pathlib import Path
-          from urllib.parse import urlparse
-
+          
           main = Path("Tv.m3u8")
           if not main.exists():
               raise SystemExit("ERRO: Tv.m3u8 não foi encontrado.")
@@ -107,11 +106,10 @@ jobs:
                   name = line.rsplit(",", 1)[-1].strip()
                   candidate = logo_by_name.get(normalize(name)) or known_logos.get(name)
                   if candidate and image_is_png(candidate):
-                      line = re.sub(
-                          r'(group-title="[^"]+")',
-                          lambda m: f'tvg-logo="{candidate}" {m.group(1)}',
-                          line,
-                          count=1
+                      line = line.replace(
+                          "#EXTINF:",
+                          f'#EXTINF: tvg-logo="{candidate}"',
+                          1
                       )
                       if 'tvg-logo="' in line:
                           changed = True
