@@ -643,7 +643,7 @@ http://88.212.15.29/live/bbc_first/index.m3u8
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8#all
 
 #EXTINF:-1 tvg-id="SyriaTV.tr" group-title="INTERNACIONAIS", Syria TV (1080p)
-https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8
+https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/chunks_dvr.m3u8
 
 #EXTINF:-1 group-title="INTERNACIONAIS", BALKAN TÜRK
 https://live.euromediacenter.com/balkanturktv/index.m3u8
