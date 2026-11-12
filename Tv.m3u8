@@ -686,3 +686,15 @@ https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8#all
 #EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" tvg-logo="https://tbbweb.tv/img/logo.png" group-title="REGIONAIS",1475 - Trabzon Buyuksehir Belediyesi TV
 #EXTVLCOPT:network-caching=15000
 https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
+#EXTINF:-1 group-title="REGIONAIS", 513 - Urfanatik TV
+#EXTVLCOPT:network-caching=15000
+https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
+#EXTINF:-1 tvg-id="Koy TV.tr" tvg-logo="https://i.imgur.com/RcjEHAG.png" group-title="REGIONAIS", 1494 - Koy TV
+#EXTVLCOPT:network-caching=15000
+http://185.234.111.229:8000/play/a05v
+#EXTINF:-1 tvg-name="MADINAH TV" tvg-logo="https://e7.pngegg.com/pngimages/758/259/png-clipart-medina-mecca-television-channel-streaming-media-others-miscellaneous-television.png" group-title="RELIGIOSOS", 616 - MADINAH TV
+#EXTVLCOPT:network-caching=15000
+https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8#all
+#EXTINF:-1 tvg-name="POWER TV" tvg-logo="https://i.ibb.co/xhfcTC7/powertv.png" group-title="MÚSICA", 2710 - POWER TV
+#EXTVLCOPT:network-caching=15000
+http://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
