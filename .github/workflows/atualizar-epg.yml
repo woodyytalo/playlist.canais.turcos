@@ -1,0 +1,52 @@
+name: Atualizar EPG Turquia
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar-epg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+
+      - name: Baixar e validar XMLTV da Turquia
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p epg
+          curl --fail --location --retry 3 --retry-delay 5 \
+            "https://iptv-epg.org/files/epg-tr.xml" \
+            --output epg/epg-tr.xml
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          path = "epg/epg-tr.xml"
+          root = ET.parse(path).getroot()
+          channels = sum(1 for node in root if node.tag == "channel")
+          programmes = sum(1 for node in root if node.tag == "programme")
+          if root.tag != "tv" or channels == 0 or programmes == 0:
+              raise SystemExit("XMLTV inválido ou sem canais/programação; arquivo não será publicado.")
+          print(f"XMLTV validado: {channels} canais, {programmes} programas.")
+          PY
+
+      - name: Publicar atualização no repositório
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add epg/epg-tr.xml
+          if git diff --cached --quiet; then
+            echo "EPG sem alterações; nada para publicar."
+          else
+            git commit -m "Atualiza EPG XMLTV da Turquia"
+            git push
+          fi
