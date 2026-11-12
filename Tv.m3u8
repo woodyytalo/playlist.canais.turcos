@@ -1016,3 +1016,6 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A
 #EXTINF:-1 tvg-name="Ekol Sports" tvg-logo="https://assets.uzunmuhalefet.com/logos/d34e5e05-83e3-41d5-a8a9-fc7b3603aeb7.png" group-title="ESPORTES",Ekol Sports
 #EXTVLCOPT:network-caching=15000
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8#all
+#EXTINF:-1 tvg-name="Kanal Urfa" tvg-logo="https://www.kanalurfa.com/upload/masaustu.png" group-title="REGIONAIS",Kanal Urfa
+#EXTVLCOPT:network-caching=15000
+https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8#all
