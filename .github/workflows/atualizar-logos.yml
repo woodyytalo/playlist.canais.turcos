@@ -199,48 +199,38 @@ jobs:
           lines = path.read_text(encoding="utf-8").splitlines()
           result = []
           channels = 0
-          configured = 0
           i = 0
 
           while i < len(lines):
-              line = lines[i]
-              if not line.startswith("#EXTINF"):
-                  result.append(line)
+              if not lines[i].startswith("#EXTINF"):
+                  result.append(lines[i])
                   i += 1
                   continue
 
               channels += 1
-              result.append(line)
+              result.append(lines[i])
               i += 1
               block = []
               while i < len(lines) and not lines[i].startswith("#EXTINF"):
                   block.append(lines[i])
                   i += 1
 
-              # Padroniza somente a opção de cache; preserva URL, headers,
-              # opções VLC e demais metadados já existentes.
-              found_cache = False
+              cache_written = False
+              clean_block = []
               for item in block:
                   if item.strip().lower().startswith("#extvlcopt:network-caching="):
-                      if not found_cache:
-                          result.append("#EXTVLCOPT:network-caching=8000")
-                          found_cache = True
-                      # Remove opções de cache duplicadas.
+                      if not cache_written:
+                          clean_block.append("#EXTVLCOPT:network-caching=8000")
+                          cache_written = True
                   else:
-                      result.append(item)
+                      clean_block.append(item)
 
-              if not found_cache:
-                  # Insere a opção antes do URL/stream, após as demais opções.
-                  insert_at = len(result)
-                  for pos in range(len(result) - 1, -1, -1):
-                      if result[pos].startswith("#EXTINF"):
-                          break
-                  # O bloco já foi percorrido; a opção entra no início do bloco.
-                  result.insert(insert_at, "#EXTVLCOPT:network-caching=8000")
-              configured += 1
+              if not cache_written:
+                  clean_block.insert(0, "#EXTVLCOPT:network-caching=8000")
+              result.extend(clean_block)
 
-          path.write_text("\\n".join(result) + "\\n", encoding="utf-8")
-          print(f"Buffer de 8 segundos aplicado em {configured}/{channels} canais.")
+          path.write_text("\n".join(result) + "\n", encoding="utf-8")
+          print(f"Buffer de 8 segundos aplicado em {channels} canais.")
           PY
 
       - name: Salvar alterações
