@@ -584,9 +584,6 @@ https://tv8.daioncdn.net/tv8/tv8_480p.m3u8?&sid=8wn2omysa566&app=7ddc255a-ef47-4
 #EXTVLCOPT:network-caching=15000
 https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
 
-#EXTINF:-1 tvg-id="UFATV.tr" tvg-name="UFA TV" tvg-logo="https://cdn.ksa.my.id/ufa.png" group-title="INTERNACIONAIS",UFA TV
-#EXTVLCOPT:network-caching=15000
-https://h1.intechmedia.net/intech/ch27.m3u8
 
 #EXTINF:-1 tvg-id="VuslatTV.tr" tvg-name="Vuslat TV" tvg-logo="https://www.tvlogo.org/turkey/vuslat-tv-tr.png" group-title="REGIONAIS",Vuslat TV
 #EXTVLCOPT:network-caching=15000
