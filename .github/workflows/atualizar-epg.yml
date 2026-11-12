@@ -1,6 +1,11 @@
 name: Atualizar EPG Turquia
 
 on:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Tv.m3u8"
   workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
@@ -10,6 +15,7 @@ permissions:
 
 jobs:
   atualizar-epg:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Baixar repositório
@@ -37,13 +43,80 @@ jobs:
           print(f"XMLTV validado: {channels} canais, {programmes} programas.")
           PY
 
+      - name: Mapear EPG nos canais já existentes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import re
+          import unicodedata
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          xml_path = Path("epg/epg-tr.xml")
+          playlist = Path("Tv.m3u8")
+          root = ET.parse(xml_path).getroot()
+
+          def norm(value):
+              value = unicodedata.normalize("NFKD", value.casefold())
+              value = "".join(c for c in value if not unicodedata.combining(c))
+              return re.sub(r"[^a-z0-9]+", "", value)
+
+          xml_ids = {node.attrib.get("id", "") for node in root.findall("channel")}
+          names = {}
+          for node in root.findall("channel"):
+              cid = node.attrib.get("id", "")
+              for dn in node.findall("display-name"):
+                  key = norm(dn.text or "")
+                  if key:
+                      names.setdefault(key, set()).add(cid)
+
+          lines = playlist.read_text(encoding="utf-8").splitlines()
+          changed = 0
+          matched = 0
+          unmatched = []
+          for i, line in enumerate(lines):
+              if not line.startswith("#EXTINF"):
+                  continue
+              name_match = re.search(r'tvg-name="([^"]+)"', line, re.I)
+              display = name_match.group(1) if name_match else line.rsplit(",", 1)[-1].strip()
+              id_match = re.search(r'tvg-id="([^"]*)"', line, re.I)
+              current_id = id_match.group(1) if id_match else ""
+              base_id = current_id.split("@", 1)[0] if current_id else ""
+
+              if base_id and base_id in xml_ids:
+                  matched += 1
+                  continue
+
+              candidates = names.get(norm(display), set())
+              if len(candidates) == 1:
+                  target = next(iter(candidates))
+                  if id_match:
+                      new_line = line[:id_match.start(1)] + target + line[id_match.end(1):]
+                  else:
+                      comma = line.find(",")
+                      new_line = line[:comma] + f' tvg-id="{target}"' + line[comma:]
+                  if new_line != line:
+                      lines[i] = new_line
+                      changed += 1
+                  matched += 1
+              else:
+                  unmatched.append(display)
+
+          if changed:
+              playlist.write_text("\n".join(lines) + "\n", encoding="utf-8")
+          print(f"Correspondências confirmadas: {matched}/{sum(1 for x in lines if x.startswith('#EXTINF'))}.")
+          print(f"IDs adicionados/corrigidos: {changed}.")
+          print("Sem correspondência XMLTV inequívoca:", "; ".join(unmatched) if unmatched else "nenhum")
+          PY
+
       - name: Publicar atualização no repositório
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add epg/epg-tr.xml
+          git add epg/epg-tr.xml Tv.m3u8
           if git diff --cached --quiet; then
             echo "EPG sem alterações; nada para publicar."
           else
