@@ -34,7 +34,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
 
 
 
-#EXTINF:-1 tvg-name="A2" tvg-logo="https://www.tvlogo.org/turkey/a2-tr.png" group-title="ENTRETENIMENTO",A2
+#EXTINF:-1 tvg-id="A2TV.tr" tvg-name="A2" tvg-logo="https://www.tvlogo.org/turkey/a2-tr.png" group-title="ENTRETENIMENTO",A2
 #EXTVLCOPT:network-caching=10000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_480p.m3u8
 
@@ -147,7 +147,7 @@ http://176.65.153.40:6002/play/a013/index.m3u8
 
 
 
-#EXTINF:-1 tvg-name="CİNE1" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cine-1-tr.png" group-title="Filmes e Séries",CİNE1 1
+#EXTINF:-1 tvg-id="Cine1.tr" tvg-name="CİNE1" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cine-1-tr.png" group-title="Filmes e Séries",CİNE1 1
 #EXTVLCOPT:network-caching=10000
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
@@ -850,7 +850,7 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 
 
 
-#EXTINF:-1 tvg-name="TV100" tvg-logo="https://www.tvlogo.org/turkey/tv100-tr.png" group-title="NOTÍCIAS",TV100
+#EXTINF:-1 tvg-id="TV100.tr" tvg-name="TV100" tvg-logo="https://www.tvlogo.org/turkey/tv100-tr.png" group-title="NOTÍCIAS",TV100
 #EXTVLCOPT:network-caching=10000
 https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web
 
@@ -862,7 +862,7 @@ https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8
 
 
 
-#EXTINF:-1 tvg-name="TV8" tvg-logo="https://www.tvlogo.org/turkey/tv8-tr.png" group-title="ENTRETENIMENTO",TV8
+#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV8" tvg-logo="https://www.tvlogo.org/turkey/tv8-tr.png" group-title="ENTRETENIMENTO",TV8
 #EXTVLCOPT:network-caching=10000
 https://tv8.daioncdn.net/tv8/tv8_480p.m3u8?&sid=8wn2omysa566&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=2
 
@@ -933,7 +933,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/S
 
 
 
-#EXTINF:-1 tvg-name="beIN Sports Haberler" tvg-logo="https://images.weserv.nl/?url=www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp&output=png" group-title="ESPORTES",beIN Sports Haberler
+#EXTINF:-1 tvg-id="beINSportsHaber.tr" tvg-name="beIN Sports Haberler" tvg-logo="https://images.weserv.nl/?url=www.tvyayinakisi.com/wp-content/uploads/2020/05/bein-sports-haber-logo.jpg.webp&output=png" group-title="ESPORTES",beIN Sports Haberler
 #EXTVLCOPT:network-caching=10000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bein_Sports_Haberler.m3u
 
