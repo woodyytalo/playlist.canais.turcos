@@ -1,4 +1,4 @@
-name: Atualizar tele guia próprio
+name: Atualizar EPG Turquia e sincronizar canais
 
 on:
   workflow_dispatch:
@@ -8,10 +8,9 @@ on:
     paths:
       - "Tv.m3u8"
       - "scripts/sincronizar_epg.py"
-      - "epg/cyberwire-sources.txt"
       - ".github/workflows/atualizar-epg.yml"
   schedule:
-    - cron: "17 * * * *"
+    - cron: "30 1 * * *"
 
 permissions:
   contents: write
@@ -26,57 +25,61 @@ jobs:
           ref: ${{ github.ref_name }}
           persist-credentials: true
 
-      - name: Preparar Node.js para Cyber-Wire
-        uses: actions/setup-node@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
         with:
-          node-version: "22"
+          python-version: "3.11"
 
-      - name: Baixar e executar somente coletores Cyber-Wire
+      - name: Baixar EPG Turkey atualizado
         shell: bash
         run: |
           set -euo pipefail
-          git clone --depth 1 https://github.com/Cyber-Wire/xmltv.git cyberwire
-          cd cyberwire
-          npm ci --ignore-scripts
-          npm run api:load
-          while IFS= read -r site; do
-            [[ -z "$site" || "$site" =~ ^# ]] && continue
-            output="../epg-cyberwire-${site//./-}.xml"
-            echo "Coletando programação Cyber-Wire: $site"
-            npm run grab --- --site="$site" --output="$output" --days=7 --maxConnections=2 || {
-              echo "::warning::Coleta Cyber-Wire falhou para $site."
-              rm -f "$output"
-            }
-          done < ../epg/cyberwire-sources.txt
+          curl --fail --location --retry 3 --retry-delay 5 \
+            "https://raw.githubusercontent.com/trology85/iptv-epg-turkey/main/epg/turksat_epg.xml" \
+            --output /tmp/epg-turquia-fonte.xml
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          root = ET.parse("/tmp/epg-turquia-fonte.xml").getroot()
+          channels = root.findall("channel")
+          programmes = root.findall("programme")
+          if root.tag != "tv" or not channels or not programmes:
+              raise SystemExit("Fonte IPTV EPG Turkey sem canais/programação; publicação cancelada.")
+          print(f"Fonte validada: {len(channels)} canais e {len(programmes)} programas.")
+          PY
 
-      - name: Validar coleta Cyber-Wire e sincronizar todos os canais
+      - name: Sincronizar com todos os canais da Tv.m3u8
         shell: bash
         run: |
           set -euo pipefail
-          INPUTS=()
-          for file in epg-cyberwire-*.xml; do
-            [[ -s "$file" ]] && INPUTS+=(--input "$file")
-          done
-          if [[ ${#INPUTS[@]} -eq 0 ]]; then
-            echo "::error::Cyber-Wire não retornou nenhum XMLTV. O guia publicado anteriormente será preservado."
-            exit 1
-          fi
           python3 scripts/sincronizar_epg.py \
             --playlist Tv.m3u8 \
-            "${INPUTS[@]}" \
-            --output epg/guia-cyberwire.xml
-          rm -f epg-cyberwire-*.xml
+            --input /tmp/epg-turquia-fonte.xml \
+            --output epg/guia-turquia.xml
 
-      - name: Publicar XMLTV
+      - name: Validar e publicar guia
         shell: bash
         run: |
           set -euo pipefail
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          root = ET.parse("epg/guia-turquia.xml").getroot()
+          channels = root.findall("channel")
+          programmes = root.findall("programme")
+          ids = {c.get("id") for c in channels}
+          if len(channels) != 178 and len(channels) == 0:
+              raise SystemExit("Guia sem canais; publicação cancelada.")
+          if not programmes:
+              raise SystemExit("Guia sem programação real; publicação cancelada.")
+          if any(p.get("channel") not in ids for p in programmes):
+              raise SystemExit("Há programas apontando para canais inexistentes.")
+          print(f"Guia pronto: {len(channels)} canais declarados e {len(programmes)} programas reais.")
+          PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add epg/guia-cyberwire.xml
+          git add epg/guia-turquia.xml
           if git diff --cached --quiet; then
-            echo 'Tele guia Cyber-Wire sem alterações.'
+            echo "EPG sem alterações."
           else
-            git commit -m 'Atualiza tele guia exclusivamente com Cyber-Wire XMLTV'
+            git commit -m "Atualiza EPG Turquia e sincroniza canais"
             git push
           fi
