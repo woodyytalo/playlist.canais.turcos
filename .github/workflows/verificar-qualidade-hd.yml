@@ -1,0 +1,43 @@
+name: Verificar e atualizar qualidade HD da TV principal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 3 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: qualidade-hd-tv-principal
+  cancel-in-progress: true
+
+jobs:
+  verificar-hd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Verificar as variantes HLS e atualizar somente HD confirmado
+        run: python3 scripts/verificar_qualidade_hd.py
+
+      - name: Publicar playlist e relatório
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Tv.m3u8 relatorios/qualidade-hd.md
+          if git diff --cached --quiet; then
+            echo "Nenhuma variante HD nova confirmada."
+          else
+            git commit -m "Verifica e atualiza variantes HD da TV principal"
+            git push
+          fi
