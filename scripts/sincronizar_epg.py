@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Build an XMLTV whose channel IDs match every entry in Tv.m3u8.
+"""Create XMLTV with an entry for every channel in Tv.m3u8.
 
-All playlist channels are emitted as <channel> records. Real <programme>
-records are copied only when the source has an unambiguous name match.
-No schedules or times are fabricated.
+Programme data is copied only from source XMLTV files and only after an
+unambiguous channel-name match. No programme title or time is fabricated.
 """
 import argparse
 import copy
@@ -25,8 +24,7 @@ def clean_name(value):
     value = unicodedata.normalize('NFKD', value)
     value = ''.join(c for c in value if not unicodedata.combining(c))
     value = value.casefold().replace('&', ' and ')
-    value = re.sub(r'[^a-z0-9]+', '', value)
-    return value
+    return re.sub(r'[^a-z0-9]+', '', value)
 
 def playlist_records(path):
     records = []
@@ -50,49 +48,64 @@ def playlist_records(path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--playlist', default='Tv.m3u8')
-    ap.add_argument('--input', default='epg-source.xml')
+    ap.add_argument('--input', action='append', required=True)
     ap.add_argument('--output', default='epg/guia-proprio.xml')
     args = ap.parse_args()
 
     records = playlist_records(args.playlist)
-    source = ET.parse(args.input).getroot()
-    if source.tag != 'tv':
-        raise SystemExit('A fonte não é um XMLTV válido.')
+    source_channels = {}
+    source_programmes = []
+    source_programme_counts = {}
+    root_attrs = {}
+    for source_path in args.input:
+        source = ET.parse(source_path).getroot()
+        if source.tag != 'tv':
+            raise SystemExit(f'Fonte XMLTV inválida: {source_path}')
+        if not root_attrs:
+            root_attrs = dict(source.attrib)
+        for channel in source.findall('channel'):
+            channel_id = channel.get('id')
+            if channel_id:
+                source_channels[(source_path, channel_id)] = channel
+        for programme in source.findall('programme'):
+            source_id = programme.get('channel')
+            source_programmes.append((source_path, programme))
+            source_programme_counts[(source_path, source_id)] = source_programme_counts.get((source_path, source_id), 0) + 1
 
-    source_channels = source.findall('channel')
-    source_programmes = source.findall('programme')
-    if not source_channels:
-        raise SystemExit('A fonte XMLTV não contém canais; arquivo anterior preservado.')
+    if not source_channels or not source_programmes:
+        raise SystemExit('As fontes XMLTV não trouxeram canais e programas; guia anterior preservado.')
 
-    # Index every source display-name. Only unique normalized names are eligible.
+    # Name index across all sources. When a name exists in multiple sources,
+    # use the channel with the greatest number of real programme records.
     name_index = {}
-    for channel in source_channels:
-        names = [n.text for n in channel.findall('display-name') if n.text]
-        for name in names:
-            key = clean_name(name)
+    for (source_path, source_id), channel in source_channels.items():
+        for item in channel.findall('display-name'):
+            key = clean_name(item.text or '')
             if key:
-                name_index.setdefault(key, set()).add(channel.get('id'))
+                name_index.setdefault(key, {})[(source_path, source_id)] = source_programme_counts.get((source_path, source_id), 0)
 
-    source_by_id = {c.get('id'): c for c in source_channels if c.get('id')}
-    source_to_playlist = {}
-    matched_playlist_ids = set()
-    output = ET.Element('tv', dict(source.attrib))
+    output = ET.Element('tv', root_attrs)
     output.set('generator-info-name', 'Playlist Turquia XMLTV sincronizado')
-
-    # Emit a channel node for every playlist entry, including channels without
-    # guide data, so no tvg-id is absent from the XMLTV document.
+    source_to_playlist = {}
+    matched = set()
     for channel_id, name, logo, category in records:
-        candidates = name_index.get(clean_name(name), set())
-        source_id = next(iter(candidates)) if len(candidates) == 1 else None
-        if source_id:
-            source_to_playlist[source_id] = channel_id
-            matched_playlist_ids.add(channel_id)
-            node = copy.deepcopy(source_by_id[source_id])
+        candidates = name_index.get(clean_name(name), {})
+        source_key = None
+        if candidates:
+            best = max(candidates.values())
+            winners = [key for key, count in candidates.items() if count == best]
+            if best > 0 and len(winners) == 1:
+                source_key = winners[0]
+        if source_key:
+            source_path, source_id = source_key
+            source_to_playlist[source_key] = channel_id
+            matched.add(channel_id)
+            node = copy.deepcopy(source_channels[source_key])
             node.set('id', channel_id)
         else:
             node = ET.Element('channel', {'id': channel_id})
-        existing_names = {n.text for n in node.findall('display-name') if n.text}
-        if name not in existing_names:
+        names = {n.text for n in node.findall('display-name') if n.text}
+        if name not in names:
             ET.SubElement(node, 'display-name').text = name
         if logo.startswith(('http://', 'https://')) and not node.findall('icon'):
             ET.SubElement(node, 'icon', {'src': logo})
@@ -100,35 +113,37 @@ def main():
             ET.SubElement(node, 'category').text = category
         output.append(node)
 
-    copied_programmes = 0
-    for programme in source_programmes:
-        source_id = programme.get('channel')
-        playlist_id = source_to_playlist.get(source_id)
+    copied = 0
+    seen_programmes = set()
+    for source_path, programme in source_programmes:
+        key = (source_path, programme.get('channel'))
+        playlist_id = source_to_playlist.get(key)
         if not playlist_id:
             continue
+        dedupe = (playlist_id, programme.get('start'), programme.get('stop'),
+                  ''.join((x.text or '') for x in programme.findall('title')))
+        if dedupe in seen_programmes:
+            continue
+        seen_programmes.add(dedupe)
         node = copy.deepcopy(programme)
         node.set('channel', playlist_id)
         output.append(node)
-        copied_programmes += 1
+        copied += 1
 
     out = Path(args.output)
     out.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(output).write(out, encoding='utf-8', xml_declaration=True)
-
-    # Re-open and validate exact playlist coverage and programme references.
     check = ET.parse(out).getroot()
-    output_ids = [c.get('id') for c in check.findall('channel')]
-    expected_ids = [r[0] for r in records]
-    if len(output_ids) != len(expected_ids) or set(output_ids) != set(expected_ids):
-        raise SystemExit('Validação falhou: nem todos os canais da playlist estão no XMLTV.')
-    valid_ids = set(output_ids)
-    bad_refs = [p.get('channel') for p in check.findall('programme') if p.get('channel') not in valid_ids]
-    if bad_refs:
-        raise SystemExit('Validação falhou: há programas apontando para canais inexistentes.')
-    print(f'Playlist: {len(records)} canais; XMLTV: {len(output_ids)} canais; '
-          f'{len(matched_playlist_ids)} canais com correspondência na fonte; '
-          f'{len(records)-len(matched_playlist_ids)} sem programação correspondente; '
-          f'{copied_programmes} programas reais copiados. Nenhum horário foi inventado.')
+    expected = {r[0] for r in records}
+    actual = {c.get('id') for c in check.findall('channel')}
+    if len(check.findall('channel')) != len(records) or actual != expected:
+        raise SystemExit('Validação falhou: a saída não contém todos os canais da playlist.')
+    valid_ids = actual
+    if any(p.get('channel') not in valid_ids for p in check.findall('programme')):
+        raise SystemExit('Validação falhou: programa associado a canal inexistente.')
+    print(f'Playlist: {len(records)} canais; XMLTV: {len(actual)} canais; '
+          f'{len(matched)} com programação encontrada; {len(records)-len(matched)} sem '
+          f'correspondência nas fontes; {copied} programas reais copiados.')
 
 if __name__ == '__main__':
     main()
