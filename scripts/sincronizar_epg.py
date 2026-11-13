@@ -80,8 +80,9 @@ def main():
     # use the channel with the greatest number of real programme records.
     name_index = {}
     for (source_path, source_id), channel in source_channels.items():
-        for item in channel.findall('display-name'):
-            key = clean_name(item.text or '')
+        # XMLTV IDs are often already the exact canonical IDs used by M3U.
+        for raw_name in [source_id] + [item.text or '' for item in channel.findall('display-name')]:
+            key = clean_name(raw_name)
             if key:
                 name_index.setdefault(key, {})[(source_path, source_id)] = source_programme_counts.get((source_path, source_id), 0)
 
@@ -97,7 +98,8 @@ def main():
         all_source_names.append((source_key, keys, source_programme_counts.get(source_key, 0)))
     for channel_id, name, logo, category in records:
         target_key = clean_name(name)
-        candidates = name_index.get(target_key, {})
+        id_key = clean_name(channel_id)
+        candidates = name_index.get(id_key, {}) or name_index.get(target_key, {})
         source_key = None
         if candidates:
             best = max(candidates.values())
