@@ -112,7 +112,7 @@ def main():
             continue
 
         display = line.rsplit(",", 1)[-1].strip()
-        attrs = dict(ATTR.findall(line.split(",", 1)[0]))
+        attrs = dict(ATTR.findall(line.rsplit(",", 1)[0]))
         name = attrs.get("tvg-name") or display
         raw_logo = attrs.get("tvg-logo", "")
         # Already a repository PNG: leave it untouched.
@@ -141,7 +141,7 @@ def main():
             print(f"PNG de identificação criado: {name}")
 
         new_url = f"{RAW_BASE}/{filename}"
-        prefix, comma, tail = line.partition(",")
+        prefix, comma, tail = line.rpartition(",")
         # Recover a tvg-id swallowed by an earlier malformed data-URI attribute.
         broken_id = re.search(r'\btvg-id="([^"]+)"', raw_logo)
         if broken_id and not re.search(r'\btvg-id="[^"]+"', prefix):
