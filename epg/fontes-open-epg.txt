@@ -15,3 +15,5 @@ https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml
 
 # O workflow combina as fontes por tvg-id ou display-name exato normalizado.
 # Programação sem correspondência exata não é atribuída a outro canal.
+
+# Fontes complementares são validadas individualmente; fontes fora do ar são ignoradas sem cancelar o guia.
