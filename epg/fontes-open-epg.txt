@@ -14,6 +14,9 @@ https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz
 # FreeEPG Turquia
 https://free-epg.de/api/epg/tr.xml
 
+# IPTV-EPG.org - guia XMLTV Turquia (validado pelo workflow antes de arquivar)
+https://iptv-epg.org/files/epg-tr.xml
+
 # Guias adicionais mantidos em repositórios GitHub
 https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/TurkishEPG.xml
 https://raw.githubusercontent.com/hayatiptv/iptv/master/tr-EPG-guide.xml
