@@ -6,6 +6,7 @@ on:
       - "github/workflows/atualizar-logos.yml"
     paths:
       - "Tv.m3u8"
+      - ".github/workflows/atualizar-epg.yml"
   workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
@@ -24,93 +25,141 @@ jobs:
           ref: ${{ github.ref_name }}
           persist-credentials: true
 
-      - name: Baixar e validar XMLTV da Turquia
-        shell: bash
-        run: |
-          set -euo pipefail
-          mkdir -p epg
-          curl --fail --location --retry 3 --retry-delay 5 \
-            "https://iptv-epg.org/files/epg-tr.xml" \
-            --output epg/epg-tr.xml
-          python3 - <<'PY'
-          import xml.etree.ElementTree as ET
-          path = "epg/epg-tr.xml"
-          root = ET.parse(path).getroot()
-          channels = sum(1 for node in root if node.tag == "channel")
-          programmes = sum(1 for node in root if node.tag == "programme")
-          if root.tag != "tv" or channels == 0 or programmes == 0:
-              raise SystemExit("XMLTV inválido ou sem canais/programação; arquivo não será publicado.")
-          print(f"XMLTV validado: {channels} canais, {programmes} programas.")
-          PY
-
-      - name: Mapear EPG nos canais já existentes
+      - name: Baixar, combinar e associar guias XMLTV
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import re
-          import unicodedata
-          import xml.etree.ElementTree as ET
+          import gzip, hashlib, re, unicodedata, urllib.request, xml.etree.ElementTree as ET
           from pathlib import Path
 
-          xml_path = Path("epg/epg-tr.xml")
-          playlist = Path("Tv.m3u8")
-          root = ET.parse(xml_path).getroot()
+          sources = [
+              "https://iptv-epg.org/files/epg-tr.xml",
+              "https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml",
+              "https://www.open-epg.com/files/turkey1.xml.gz",
+              "https://www.open-epg.com/files/turkey2.xml.gz",
+              "https://www.open-epg.com/files/turkey3.xml.gz",
+              "https://www.open-epg.com/files/turkey4.xml.gz",
+              "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz",
+              "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz",
+          ]
 
-          def norm(value):
-              value = unicodedata.normalize("NFKD", value.casefold())
-              value = "".join(c for c in value if not unicodedata.combining(c))
-              return re.sub(r"[^a-z0-9]+", "", value)
+          def norm(s):
+              s = unicodedata.normalize("NFKD", s.casefold())
+              s = "".join(c for c in s if not unicodedata.combining(c))
+              return re.sub(r"[^a-z0-9]+", "", s)
 
-          xml_ids = {node.attrib.get("id", "") for node in root.findall("channel")}
-          names = {}
-          for node in root.findall("channel"):
-              cid = node.attrib.get("id", "")
-              for dn in node.findall("display-name"):
-                  key = norm(dn.text or "")
-                  if key:
-                      names.setdefault(key, set()).add(cid)
-
-          lines = playlist.read_text(encoding="utf-8").splitlines()
-          changed = 0
-          matched = 0
-          unmatched = []
-          for i, line in enumerate(lines):
-              if not line.startswith("#EXTINF"):
-                  continue
-              name_match = re.search(r'tvg-name="([^"]+)"', line, re.I)
-              display = name_match.group(1) if name_match else line.rsplit(",", 1)[-1].strip()
-              id_match = re.search(r'tvg-id="([^"]*)"', line, re.I)
-              current_id = id_match.group(1) if id_match else ""
-              base_id = current_id.split("@", 1)[0] if current_id else ""
-
-              if base_id and base_id in xml_ids:
-                  matched += 1
-                  continue
-
-              candidates = names.get(norm(display), set())
-              if len(candidates) == 1:
-                  target = next(iter(candidates))
-                  if id_match:
-                      new_line = line[:id_match.start(1)] + target + line[id_match.end(1):]
+          roots=[]
+          for url in sources:
+              try:
+                  req=urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 IPTV-EPG-Builder"})
+                  with urllib.request.urlopen(req, timeout=45) as response:
+                      data=response.read()
+                  if url.endswith(".gz") or data[:2] == b"\x1f\x8b":
+                      data=gzip.decompress(data)
+                  root=ET.fromstring(data)
+                  if root.tag != "tv":
+                      raise ValueError("não é XMLTV")
+                  channels=root.findall("channel")
+                  programmes=root.findall("programme")
+                  if channels and programmes:
+                      roots.append((url,root))
+                      print(f"OK {url}: {len(channels)} canais, {len(programmes)} programas")
                   else:
-                      comma = line.find(",")
-                      new_line = line[:comma] + f' tvg-id="{target}"' + line[comma:]
-                  if new_line != line:
-                      lines[i] = new_line
-                      changed += 1
-                  matched += 1
-              else:
-                  unmatched.append(display)
+                      print(f"IGNORADO {url}: sem canais/programas")
+              except Exception as e:
+                  print(f"FALHA {url}: {e}")
 
-          if changed:
-              playlist.write_text("\n".join(lines) + "\n", encoding="utf-8")
-          print(f"Correspondências confirmadas: {matched}/{sum(1 for x in lines if x.startswith('#EXTINF'))}.")
-          print(f"IDs adicionados/corrigidos: {changed}.")
-          print("Sem correspondência XMLTV inequívoca:", "; ".join(unmatched) if unmatched else "nenhum")
+          if not roots:
+              raise SystemExit("Nenhuma fonte XMLTV válida; não substituir o guia atual.")
+
+          # Índice de canais por nome; conserva apenas correspondências inequívocas.
+          name_ids={}
+          source_channels={}
+          for url,root in roots:
+              for ch in root.findall("channel"):
+                  cid=ch.get("id")
+                  if not cid: continue
+                  source_channels.setdefault(cid,ch)
+                  for dn in ch.findall("display-name"):
+                      key=norm(dn.text or "")
+                      if key: name_ids.setdefault(key,set()).add(cid)
+
+          playlist=Path("Tv.m3u8")
+          lines=playlist.read_text(encoding="utf-8").splitlines()
+          out_lines=[]
+          mapping={}
+          unmatched=[]
+          total=0
+          for line in lines:
+              if not line.startswith("#EXTINF"):
+                  out_lines.append(line); continue
+              total+=1
+              nm=re.search(r'tvg-name="([^"]+)"',line,re.I)
+              display=nm.group(1) if nm else line.rsplit(",",1)[-1].strip()
+              idm=re.search(r'tvg-id="([^"]*)"',line,re.I)
+              candidates=name_ids.get(norm(display),set())
+              if len(candidates)==1:
+                  cid=next(iter(candidates))
+              else:
+                  # Preserve an existing ID only if one of the downloaded guides uses it.
+                  old=idm.group(1).split("@",1)[0] if idm else ""
+                  cid=old if old in source_channels else ""
+              if not cid:
+                  slug=norm(display) or hashlib.sha1(display.encode()).hexdigest()[:10]
+                  cid="custom."+slug
+                  unmatched.append(display)
+              mapping[cid]=display
+              if idm:
+                  line=line[:idm.start(1)]+cid+line[idm.end(1):]
+              else:
+                  comma=line.find(",")
+                  line=line[:comma]+f' tvg-id="{cid}"'+line[comma:]
+              out_lines.append(line)
+
+          playlist.write_text("\n".join(out_lines)+"\n",encoding="utf-8")
+
+          # XMLTV unificado: remapeia os programas para os IDs usados pela playlist.
+          # Canais sem programação real são declarados, mas não recebem programas inventados.
+          final=ET.Element("tv",{"generator-info-name":"Playlist Turquia EPG Aggregator"})
+          cid_to_display={}
+          for cid,display in mapping.items():
+              ch=ET.SubElement(final,"channel",{"id":cid})
+              ET.SubElement(ch,"display-name").text=display
+              cid_to_display[cid]=display
+
+          for url,root in roots:
+              local={}
+              for ch in root.findall("channel"):
+                  old=ch.get("id","")
+                  keys={norm(dn.text or "") for dn in ch.findall("display-name")}
+                  matches={cid for cid,display in mapping.items() if norm(display) in keys and norm(display)}
+                  if len(matches)==1:
+                      local[old]=next(iter(matches))
+              for p in root.findall("programme"):
+                  target=local.get(p.get("channel",""))
+                  if not target: continue
+                  attrs=dict(p.attrib); attrs["channel"]=target
+                  node=ET.SubElement(final,"programme",attrs)
+                  for child in list(p): node.append(child)
+
+          # Deduplica programas idênticos sem fabricar conteúdo.
+          seen=set()
+          for p in list(final.findall("programme")):
+              key=(p.get("channel"),p.get("start"),p.get("stop"),"".join(p.findtext("title","")))
+              if key in seen: final.remove(p)
+              else: seen.add(key)
+
+          Path("epg").mkdir(exist_ok=True)
+          ET.ElementTree(final).write("epg/epg-tr.xml",encoding="utf-8",xml_declaration=True)
+          channels=len(final.findall("channel")); programmes=len(final.findall("programme"))
+          if channels != total:
+              raise SystemExit(f"Falha: {channels}/{total} canais declarados no XMLTV.")
+          print(f"EPG publicado para {total} entradas: {programmes} programas reais; {len(unmatched)} canais sem programação correspondente.")
+          print("Sem programação nas fontes:", "; ".join(unmatched) if unmatched else "nenhum")
           PY
 
-      - name: Publicar atualização no repositório
+      - name: Publicar EPG e playlist
         shell: bash
         run: |
           set -euo pipefail
@@ -120,6 +169,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "EPG sem alterações; nada para publicar."
           else
-            git commit -m "Atualiza EPG XMLTV da Turquia"
+            git commit -m "Gera EPG unificado para a TV principal"
             git push
           fi
