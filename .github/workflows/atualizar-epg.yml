@@ -16,6 +16,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: sincronizar-epg-tv-principal
+  cancel-in-progress: true
+
 jobs:
   sincronizar-epg:
     runs-on: ubuntu-latest
