@@ -63,7 +63,7 @@ jobs:
           python3 scripts/sincronizar_epg.py \
             --playlist Tv.m3u8 \
             "${INPUTS[@]}" \
-            --output epg/guia-proprio.xml
+            --output epg/guia-cyberwire.xml
           rm -f epg-cyberwire-*.xml
 
       - name: Publicar XMLTV
@@ -72,7 +72,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add epg/guia-proprio.xml
+          git add epg/guia-cyberwire.xml
           if git diff --cached --quiet; then
             echo 'Tele guia Cyber-Wire sem alterações.'
           else
