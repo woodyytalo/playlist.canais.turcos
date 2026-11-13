@@ -155,6 +155,9 @@ def main():
         output.append(node)
         copied += 1
 
+    if copied == 0:
+        raise SystemExit('Nenhum programa real foi associado aos canais da playlist. Guia anterior preservado; revisar correspondência de IDs/nomes e fontes.')
+
     destination = Path(args.output)
     destination.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(output).write(destination, encoding='utf-8', xml_declaration=True)
