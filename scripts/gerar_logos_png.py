@@ -142,10 +142,11 @@ def main():
 
         new_url = f"{RAW_BASE}/{filename}"
         prefix, comma, tail = line.rpartition(",")
-        # Recover a tvg-id swallowed by an earlier malformed data-URI attribute.
-        broken_id = re.search(r'\btvg-id="([^"]+)"', raw_logo)
-        if broken_id and not re.search(r'\btvg-id="[^"]+"', prefix):
-            prefix = prefix.replace('tvg-logo="' + raw_logo + '"', f'tvg-id="{broken_id.group(1)}"')
+        # Repair an older malformed entry where tvg-id was placed inside tvg-logo.
+        malformed = re.search(r'tvg-logo="[^"]*?\s+tvg-id="([^"]+)"', prefix)
+        if malformed:
+            recovered_id = malformed.group(1)
+            prefix = prefix[:malformed.start()] + f'tvg-id="{recovered_id}"' + prefix[malformed.end():]
         if re.search(r'\btvg-logo="[^"]*"', prefix):
             prefix = re.sub(r'\btvg-logo="[^"]*"', f'tvg-logo="{new_url}"', prefix, count=1)
         else:
