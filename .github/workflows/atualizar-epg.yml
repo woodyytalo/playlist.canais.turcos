@@ -17,7 +17,6 @@ permissions:
 
 jobs:
   sincronizar-epg:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Baixar repositório
