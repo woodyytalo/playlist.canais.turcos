@@ -78,21 +78,14 @@ jobs:
             fi
           }
 
-          optional_xml "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml" /tmp/epgshare-tr1.xml
           optional_gzip_xml "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz" /tmp/epgshare-tr3.xml
           optional_xml "https://free-epg.de/api/epg/tr.xml" /tmp/free-epg-tr.xml
-          optional_xml "https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml" /tmp/epghost-tr.xml
 
           # Guias publicados no GitHub Pages pelo projeto iptv-org/epg (fontes turcas)
-          optional_xml "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml" /tmp/iptvorg-tvplus.xml
-          optional_xml "https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml" /tmp/iptvorg-digiturk.xml
-          optional_xml "https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml" /tmp/iptvorg-dsmart.xml
-          optional_xml "https://iptv-org.github.io/epg/guides/tr/turksatkablo.com.tr.epg.xml" /tmp/iptvorg-turksatkablo.xml
 
           # Outros XMLTV turcos mantidos em repositórios GitHub
           optional_xml "https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/TurkishEPG.xml" /tmp/ghaleb-turkish.xml
           optional_xml "https://raw.githubusercontent.com/hayatiptv/iptv/master/tr-EPG-guide.xml" /tmp/hayatiptv-turkey.xml
-          optional_gzip_xml "https://dearbulut.github.io/iptv/epg/tr.xml.gz" /tmp/dearbulut-turkey.xml
           optional_gzip_xml "https://teleonline.github.io/epg/epg.xml.gz" /tmp/teleonline-global.xml
 
           python3 - "${files[@]}" <<'PY'
@@ -105,12 +98,23 @@ jobs:
               print(f"{path}: {len(channels)} canais, {len(programmes)} programas")
           PY
 
+          # Arquivar no próprio repositório todas as fontes XMLTV que passaram na validação.
+          mkdir -p epg/fontes
+          cp /tmp/epg-principal.xml epg/fontes/turksat-principal.xml
+          for item in "open-turkey1:open-epg-turkey1" "open-turkey2:open-epg-turkey2" "open-turkey3:open-epg-turkey3" "open-turkey4:open-epg-turkey4"; do
+            src="${item%%:*}"; dest="${item##*:}"
+            cp "/tmp/${src}.xml" "epg/fontes/${dest}.xml"
+          done
+          for item in "epgshare-tr3:epgshare-tr3" "free-epg-tr:free-epg-turquia" "ghaleb-turkish:ghaleb-turkish" "hayatiptv-turkey:hayatiptv-turquia" "teleonline-global:teleonline-global"; do
+            src="${item%%:*}"; dest="${item##*:}"
+            [[ ! -s "/tmp/${src}.xml" ]] || cp "/tmp/${src}.xml" "epg/fontes/${dest}.xml"
+          done
+
       - name: Gerar guia exclusivo Open-EPG
         shell: bash
         run: |
           set -euo pipefail
           args=()
-          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/epghost-tr.xml /tmp/iptvorg-tvplus.xml /tmp/iptvorg-digiturk.xml /tmp/iptvorg-dsmart.xml /tmp/iptvorg-turksatkablo.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/dearbulut-turkey.xml /tmp/teleonline-global.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
           python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-open-epg.xml
@@ -120,7 +124,6 @@ jobs:
         run: |
           set -euo pipefail
           args=(--input /tmp/epg-principal.xml)
-          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/epghost-tr.xml /tmp/iptvorg-tvplus.xml /tmp/iptvorg-digiturk.xml /tmp/iptvorg-dsmart.xml /tmp/iptvorg-turksatkablo.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/dearbulut-turkey.xml /tmp/teleonline-global.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
           python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-turquia.xml
@@ -144,7 +147,7 @@ jobs:
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add epg/guia-open-epg.xml epg/guia-turquia.xml
+          git add epg/guia-open-epg.xml epg/guia-turquia.xml epg/fontes/
           if git diff --cached --quiet; then
             echo "EPGs sem alterações."
           else
