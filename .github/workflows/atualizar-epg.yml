@@ -64,6 +64,10 @@ jobs:
                       raise ValueError("não é XMLTV")
                   channels=root.findall("channel")
                   programmes=root.findall("programme")
+                  if url == "https://epg.pw/xmltv/epg_lite.xml":
+                      Path("epg").mkdir(exist_ok=True)
+                      Path("epg/epg-pw.xml").write_bytes(data)
+                      print(f"XML original do EPG.PW salvo: {len(data)} bytes")
                   if channels and programmes:
                       roots.append((url,root))
                       print(f"OK {url}: {len(channels)} canais, {len(programmes)} programas")
@@ -167,7 +171,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add epg/epg-tr.xml Tv.m3u8
+          git add epg/epg-tr.xml epg/epg-pw.xml Tv.m3u8
           if git diff --cached --quiet; then
             echo "EPG sem alterações; nada para publicar."
           else
