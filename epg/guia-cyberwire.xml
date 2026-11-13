@@ -854,7 +854,7 @@
     <icon src="https://i.imgur.com/ZpUNou4.png" />
     <category>INTERNACIONAIS</category>
   </channel>
-  <channel id="kanalada.local">
+  <channel id="custom.kanalada">
     <display-name>Kanal Ada</display-name>
     <icon src="data:image/svg+xml;charset=utf-8 tvg-id=" />
   </channel>
