@@ -4,7 +4,7 @@
 #EXTVLCOPT:network-caching=8000
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
-#EXTINF:-1 tvg-id="360.tr" tvg-name="360" tvg-logo="https://i.ibb.co/s3gJCGL/360.png" group-title="ENTRETENIMENTO",441 - 360
+#EXTINF:-1 tvg-id="360.tr" tvg-name="360 TV" tvg-logo="https://i.ibb.co/s3gJCGL/360.png" group-title="ENTRETENIMENTO",441 - 360 TV
 #EXTVLCOPT:network-caching=8000
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 
@@ -577,7 +577,7 @@ https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web
 #EXTVLCOPT:network-caching=8000
 https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8
 
-#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV 8" tvg-logo="https://i.ibb.co/Kr5SFY1/tv8.png" group-title="ENTRETENIMENTO",1069 - TV 8
+#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV8" tvg-logo="https://i.ibb.co/Kr5SFY1/tv8.png" group-title="ENTRETENIMENTO",1069 - TV8
 #EXTVLCOPT:network-caching=8000
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-logo="https://www.tvlogo.org/turkey/tvnet-tr.png" group-title="NOTÍCIAS",TVNET
