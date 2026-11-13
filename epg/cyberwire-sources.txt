@@ -1,0 +1,6 @@
+# Cyber-Wire XMLTV — fontes turcas habilitadas
+# Projeto: https://github.com/Cyber-Wire/xmltv
+# Os dados são coletados dos provedores; este arquivo não inventa programação.
+# Cada execução consulta novamente os dois provedores abaixo.
+digiturk.com.tr
+dsmart.com.tr
