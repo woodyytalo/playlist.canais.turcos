@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Build an XMLTV file for every channel in Tv.m3u8 using real source schedules."""
+"""Build XMLTV guides for every playlist channel using exact ID/name matches only."""
 import argparse
 import copy
-import difflib
 import html
 import re
 import unicodedata
@@ -15,10 +14,10 @@ def attrs(line):
     return {k: html.unescape(v) for k, v in ATTR.findall(line)}
 
 def clean_name(value):
-    value = re.sub(r'^\s*(?:TR|TURKEY|TURKIYE)\s*[:|/-]\s*', '', value or '', flags=re.I)
-    value = re.sub(r'\s*(?:HD|SD|FHD|UHD|4K)\s*$', '', value, flags=re.I)
-    value = re.sub(r'\s*\[(?:360|480)\s*SD\]\s*$', '', value, flags=re.I)
-    value = re.sub(r'^\s*\d+\s*-\s*', '', value)
+    value = re.sub(r'^\\s*(?:TR|TURKEY|TURKIYE)\\s*[:|/-]\\s*', '', value or '', flags=re.I)
+    value = re.sub(r'\\s*(?:HD|SD|FHD|UHD|4K)\\s*$', '', value, flags=re.I)
+    value = re.sub(r'\\s*\\[(?:360|480)\\s*SD\\]\\s*$', '', value, flags=re.I)
+    value = re.sub(r'^\\s*\\d+\\s*-\\s*', '', value)
     value = unicodedata.normalize('NFKD', value)
     value = ''.join(c for c in value if not unicodedata.combining(c))
     value = value.casefold().replace('&', ' and ')
@@ -32,8 +31,8 @@ def playlist_records(path):
         meta, _, display = line.partition(',')
         a = attrs(meta)
         name = (a.get('tvg-name') or display).strip()
-        name = re.sub(r'^\s*\d+\s*-\s*', '', name)
-        name = re.sub(r'\s*\[(?:360|480)\s*SD\]\s*$', '', name, flags=re.I).strip()
+        name = re.sub(r'^\\s*\\d+\\s*-\\s*', '', name)
+        name = re.sub(r'\\s*\\[(?:360|480)\\s*SD\\]\\s*$', '', name, flags=re.I).strip()
         channel_id = a.get('tvg-id') or clean_name(name) + '.local'
         records.append((channel_id, name, a.get('tvg-logo', ''), a.get('group-title', '')))
     if not records:
@@ -47,81 +46,57 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--playlist', default='Tv.m3u8')
     ap.add_argument('--input', action='append', required=True)
-    ap.add_argument('--output', default='epg/guia-cyberwire.xml')
+    ap.add_argument('--output', required=True)
     args = ap.parse_args()
 
     records = playlist_records(args.playlist)
-    source_channels = {}
-    source_programmes = []
-    programme_counts = {}
+    source_channels, source_programmes, counts = {}, [], {}
     root_attrs = {}
-
     for source_path in args.input:
-        source = ET.parse(source_path).getroot()
-        if source.tag != 'tv':
+        root = ET.parse(source_path).getroot()
+        if root.tag != 'tv':
             raise SystemExit(f'Fonte XMLTV inválida: {source_path}')
         if not root_attrs:
-            root_attrs = dict(source.attrib)
-        for channel in source.findall('channel'):
-            source_id = channel.get('id')
-            if source_id:
-                key = (source_path, source_id)
+            root_attrs = dict(root.attrib)
+        for channel in root.findall('channel'):
+            sid = channel.get('id')
+            if sid:
+                key = (source_path, sid)
                 source_channels[key] = channel
-        for programme in source.findall('programme'):
-            source_id = programme.get('channel')
-            source_programmes.append((source_path, programme))
-            key = (source_path, source_id)
-            programme_counts[key] = programme_counts.get(key, 0) + 1
+        for programme in root.findall('programme'):
+            key = (source_path, programme.get('channel'))
+            source_programmes.append((key, programme))
+            counts[key] = counts.get(key, 0) + 1
 
     if not source_channels or not source_programmes:
-        raise SystemExit('As fontes XMLTV não trouxeram canais e programas; guia anterior preservado.')
+        raise SystemExit('Fontes XMLTV sem canais/programas; guia anterior preservado.')
 
-    name_index = {}
-    source_names = []
+    id_index, name_index = {}, {}
     for key, channel in source_channels.items():
-        names = {clean_name(key[1])}
-        names.update(clean_name(item.text or '') for item in channel.findall('display-name'))
-        names.discard('')
-        source_names.append((key, names, programme_counts.get(key, 0)))
-        for name in names:
-            name_index.setdefault(name, {})[key] = programme_counts.get(key, 0)
+        sid = clean_name(key[1])
+        if sid:
+            id_index.setdefault(sid, []).append(key)
+        for item in channel.findall('display-name'):
+            name = clean_name(item.text or '')
+            if name:
+                name_index.setdefault(name, []).append(key)
 
     output = ET.Element('tv', root_attrs)
-    output.set('generator-info-name', 'Playlist Turquia XMLTV + Cyber-Wire')
-    source_to_playlist = {}
+    output.set('generator-info-name', 'Playlist Turquia XMLTV - Open-EPG + fonte principal')
+    source_to_playlist, used = {}, set()
     matched = set()
-    used_source_keys = set()
 
     for channel_id, name, logo, category in records:
-        keys = [clean_name(channel_id), clean_name(name)]
-        candidates = {}
-        for candidate in keys:
-            candidates.update(name_index.get(candidate, {}))
-        source_key = None
-        eligible = [(key, count) for key, count in candidates.items()
-                    if count > 0 and key not in used_source_keys]
-        if eligible:
-            best_count = max(count for _, count in eligible)
-            winners = [key for key, count in eligible if count == best_count]
-            if len(winners) == 1:
-                source_key = winners[0]
-
-        if source_key is None:
-            target = clean_name(name)
-            ranked = []
-            for candidate_key, candidate_names, count in source_names:
-                if count <= 0 or candidate_key in used_source_keys:
-                    continue
-                score = max((difflib.SequenceMatcher(None, target, candidate).ratio()
-                             for candidate in candidate_names), default=0)
-                if score >= 0.84:
-                    ranked.append((score, count, candidate_key))
-            ranked.sort(reverse=True)
-            if ranked and (len(ranked) == 1 or ranked[0][0] - ranked[1][0] >= 0.06):
-                source_key = ranked[0][2]
+        # Prefer an exact normalized tvg-id; only then use an exact display-name.
+        candidates = [k for k in id_index.get(clean_name(channel_id), [])
+                      if counts.get(k, 0) > 0 and k not in used]
+        if not candidates:
+            candidates = [k for k in name_index.get(clean_name(name), [])
+                          if counts.get(k, 0) > 0 and k not in used]
+        source_key = max(candidates, key=lambda k: counts.get(k, 0)) if candidates else None
 
         if source_key:
-            used_source_keys.add(source_key)
+            used.add(source_key)
             source_to_playlist[source_key] = channel_id
             matched.add(channel_id)
             node = copy.deepcopy(source_channels[source_key])
@@ -129,8 +104,8 @@ def main():
         else:
             node = ET.Element('channel', {'id': channel_id})
 
-        existing_names = {item.text for item in node.findall('display-name') if item.text}
-        if name not in existing_names:
+        existing = {x.text for x in node.findall('display-name') if x.text}
+        if name not in existing:
             ET.SubElement(node, 'display-name').text = name
         if logo.startswith(('http://', 'https://')) and not node.findall('icon'):
             ET.SubElement(node, 'icon', {'src': logo})
@@ -138,41 +113,35 @@ def main():
             ET.SubElement(node, 'category').text = category
         output.append(node)
 
-    copied = 0
-    seen = set()
-    for source_path, programme in source_programmes:
-        source_key = (source_path, programme.get('channel'))
-        playlist_id = source_to_playlist.get(source_key)
-        if not playlist_id:
+    copied, seen = 0, set()
+    for source_key, programme in source_programmes:
+        target = source_to_playlist.get(source_key)
+        if not target:
             continue
-        dedupe = (playlist_id, programme.get('start'), programme.get('stop'),
-                  ''.join(item.text or '' for item in programme.findall('title')))
+        dedupe = (target, programme.get('start'), programme.get('stop'),
+                  ''.join(x.text or '' for x in programme.findall('title')))
         if dedupe in seen:
             continue
         seen.add(dedupe)
         node = copy.deepcopy(programme)
-        node.set('channel', playlist_id)
+        node.set('channel', target)
         output.append(node)
         copied += 1
 
     if copied == 0:
-        raise SystemExit('Nenhum programa real foi associado aos canais da playlist. Guia anterior preservado; revisar correspondência de IDs/nomes e fontes.')
-
+        raise SystemExit('Nenhum programa real associado; saída não publicada.')
     destination = Path(args.output)
     destination.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(output).write(destination, encoding='utf-8', xml_declaration=True)
 
     check = ET.parse(destination).getroot()
-    expected = {record[0] for record in records}
-    actual = {channel.get('id') for channel in check.findall('channel')}
+    expected = {r[0] for r in records}
+    actual = {c.get('id') for c in check.findall('channel')}
     if len(check.findall('channel')) != len(records) or actual != expected:
-        raise SystemExit('Validação falhou: a saída não contém todos os canais da playlist.')
-    if any(programme.get('channel') not in actual for programme in check.findall('programme')):
-        raise SystemExit('Validação falhou: programa associado a canal inexistente.')
-
-    print(f'Playlist: {len(records)} canais; XMLTV: {len(actual)} canais; '
-          f'{len(matched)} com programação encontrada; {len(records) - len(matched)} sem '
-          f'correspondência nas fontes; {copied} programas reais copiados.')
+        raise SystemExit('Validação falhou: saída não contém todos os canais.')
+    if any(p.get('channel') not in actual for p in check.findall('programme')):
+        raise SystemExit('Programa aponta para canal inexistente.')
+    print(f'{destination}: {len(actual)} canais declarados; {len(matched)} com programação; {len(records)-len(matched)} sem correspondência; {copied} programas reais.')
 
 if __name__ == '__main__':
     main()
