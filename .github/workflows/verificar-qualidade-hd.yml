@@ -1,6 +1,13 @@
 name: Verificar e atualizar qualidade HD da TV principal
 
 on:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Tv.m3u8"
+      - "scripts/verificar_qualidade_hd.py"
+      - ".github/workflows/verificar-qualidade-hd.yml"
   workflow_dispatch:
   schedule:
     - cron: "15 3 * * 1"
