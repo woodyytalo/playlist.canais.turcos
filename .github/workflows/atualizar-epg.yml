@@ -7,7 +7,6 @@ on:
     paths:
       - ".github/workflows/atualizar-epg.yml"
       - "Tv.m3u8"
-  workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
 
