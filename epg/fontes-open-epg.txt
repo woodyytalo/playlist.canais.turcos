@@ -1,0 +1,9 @@
+# Open-EPG Turkey - quatro guias XMLTV oficiais da opção 2
+https://www.open-epg.com/files/turkey1.xml
+https://www.open-epg.com/files/turkey2.xml
+https://www.open-epg.com/files/turkey3.xml
+https://www.open-epg.com/files/turkey4.xml
+
+# O workflow baixa os quatro arquivos diariamente e gera:
+# epg/guia-open-epg.xml (somente Open-EPG)
+# epg/guia-turquia.xml (Open-EPG + fonte XMLTV que já estava ativa)
