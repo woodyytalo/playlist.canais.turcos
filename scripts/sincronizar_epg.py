@@ -20,7 +20,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--playlist", default="Tv.m3u8")
     ap.add_argument("--input", default="epg-source.xml")
-    ap.add_argument("--output", default="epg/epg-pw.xml")
+    ap.add_argument("--output", default="epg/guia-proprio.xml")
     args = ap.parse_args()
 
     playlist = Path(args.playlist).read_text(encoding="utf-8")
