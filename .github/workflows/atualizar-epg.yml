@@ -99,16 +99,17 @@ jobs:
               print(f"{path}: {len(channels)} canais, {len(programmes)} programas")
           PY
 
-          # Arquivar no próprio repositório todas as fontes XMLTV que passaram na validação.
-          mkdir -p epg/fontes
-          cp /tmp/epg-principal.xml epg/fontes/turksat-principal.xml
+          # Arquivar as fontes XMLTV validadas diretamente junto aos guias EPG.
+          mkdir -p epg
+          rm -rf epg/fontes
+          cp /tmp/epg-principal.xml epg/turksat-principal.xml
           for item in "open-turkey1:open-epg-turkey1" "open-turkey2:open-epg-turkey2" "open-turkey3:open-epg-turkey3" "open-turkey4:open-epg-turkey4"; do
             src="${item%%:*}"; dest="${item##*:}"
-            cp "/tmp/${src}.xml" "epg/fontes/${dest}.xml"
+            cp "/tmp/${src}.xml" "epg/${dest}.xml"
           done
           for item in "epgshare-tr3:epgshare-tr3" "free-epg-tr:free-epg-turquia" "ghaleb-turkish:ghaleb-turkish" "hayatiptv-turkey:hayatiptv-turquia" "teleonline-global:teleonline-global" "iptv-epg-tr:iptv-epg-turquia"; do
             src="${item%%:*}"; dest="${item##*:}"
-            [[ ! -s "/tmp/${src}.xml" ]] || cp "/tmp/${src}.xml" "epg/fontes/${dest}.xml"
+            [[ ! -s "/tmp/${src}.xml" ]] || cp "/tmp/${src}.xml" "epg/${dest}.xml"
           done
 
       - name: Gerar guia exclusivo Open-EPG
@@ -150,7 +151,7 @@ jobs:
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add epg/guia-open-epg.xml epg/guia-turquia.xml epg/fontes/
+          git add -A epg/
           if git diff --cached --quiet; then
             echo "EPGs sem alterações."
           else
