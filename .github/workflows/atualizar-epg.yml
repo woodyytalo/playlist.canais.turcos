@@ -8,6 +8,7 @@ on:
     paths:
       - "Tv.m3u8"
       - "scripts/sincronizar_epg.py"
+      - "epg/cyberwire-sources.txt"
       - ".github/workflows/atualizar-epg.yml"
   schedule:
     - cron: "17 * * * *"
@@ -25,7 +26,30 @@ jobs:
           ref: ${{ github.ref_name }}
           persist-credentials: true
 
-      - name: Baixar fontes XMLTV com programação
+      - name: Preparar Node.js para Cyber-Wire
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: ""
+
+      - name: Baixar e executar coletores Cyber-Wire
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 https://github.com/Cyber-Wire/xmltv.git cyberwire
+          cd cyberwire
+          npm ci --ignore-scripts
+          while IFS= read -r site; do
+            [[ -z "$site" || "$site" =~ ^# ]] && continue
+            output="../epg-cyberwire-${site//./-}.xml"
+            echo "Coletando programação: $site"
+            npm run grab -- --site="$site" --output="$output" --days=7 --maxConnections=2 || {
+              echo "::warning::Coleta Cyber-Wire falhou para $site; mantendo as demais fontes."
+              rm -f "$output"
+            }
+          done < ../epg/cyberwire-sources.txt
+
+      - name: Baixar fontes XMLTV complementares
         shell: bash
         run: |
           set -euo pipefail
@@ -45,14 +69,18 @@ jobs:
           PY
 
       - name: Sincronizar todos os canais da TV principal
+        shell: bash
         run: |
           set -euo pipefail
+          INPUTS=(--input epg-source-tr.xml --input epg-source-lite.xml)
+          for file in epg-cyberwire-*.xml; do
+            [[ -s "$file" ]] && INPUTS+=(--input "$file")
+          done
           python3 scripts/sincronizar_epg.py \
             --playlist Tv.m3u8 \
-            --input epg-source-tr.xml \
-            --input epg-source-lite.xml \
+            "${INPUTS[@]}" \
             --output epg/guia-proprio.xml
-          rm -f epg-source-tr.xml epg-source-lite.xml
+          rm -f epg-source-tr.xml epg-source-lite.xml epg-cyberwire-*.xml
 
       - name: Publicar XMLTV
         shell: bash
@@ -64,6 +92,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'Tele guia sem alterações.'
           else
-            git commit -m 'Sincroniza tele guia com todos os canais da TV principal'
+            git commit -m 'Sincroniza tele guia com Cyber-Wire e fontes complementares'
             git push
           fi
