@@ -153,8 +153,8 @@ jobs:
           Path("epg").mkdir(exist_ok=True)
           ET.ElementTree(final).write("epg/epg-tr.xml",encoding="utf-8",xml_declaration=True)
           channels=len(final.findall("channel")); programmes=len(final.findall("programme"))
-          if channels != total:
-              raise SystemExit(f"Falha: {channels}/{total} canais declarados no XMLTV.")
+          if channels != len(mapping):
+              raise SystemExit(f"Falha: {channels}/{len(mapping)} IDs únicos declarados no XMLTV.")
           print(f"EPG publicado para {total} entradas: {programmes} programas reais; {len(unmatched)} canais sem programação correspondente.")
           print("Sem programação nas fontes:", "; ".join(unmatched) if unmatched else "nenhum")
           PY
