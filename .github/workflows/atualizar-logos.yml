@@ -256,17 +256,17 @@ jobs:
               for item in block:
                   if item.strip().lower().startswith("#extvlcopt:network-caching="):
                       if not cache_written:
-                          clean_block.append("#EXTVLCOPT:network-caching=8000")
+                          clean_block.append("#EXTVLCOPT:network-caching=60000")
                           cache_written = True
                   else:
                       clean_block.append(item)
 
               if not cache_written:
-                  clean_block.insert(0, "#EXTVLCOPT:network-caching=8000")
+                  clean_block.insert(0, "#EXTVLCOPT:network-caching=60000")
               result.extend(clean_block)
 
           path.write_text("\n".join(result) + "\n", encoding="utf-8")
-          print(f"Buffer de 8 segundos aplicado em {channels} canais.")
+          print(f"Buffer de 60 segundos aplicado em {channels} canais.")
           PY
 
       - name: Salvar alterações
