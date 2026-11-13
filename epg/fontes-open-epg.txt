@@ -1,4 +1,4 @@
-# Fontes XMLTV arquivadas em epg/fontes/ e sincronizadas automaticamente com Tv.m3u8
+# Fontes XMLTV validadas, arquivadas diretamente em epg/ e sincronizadas automaticamente com Tv.m3u8
 # Fonte base GitHub: Turksat EPG
 https://raw.githubusercontent.com/trology85/iptv-epg-turkey/main/epg/turksat_epg.xml
 
@@ -25,3 +25,10 @@ https://teleonline.github.io/epg/epg.xml.gz
 # As fontes são validadas como XMLTV antes de serem arquivadas e combinadas.
 # A correspondência usa tvg-id ou display-name normalizado exatamente; não inventa programação.
 # Tv.m3u8 dispara a sincronização ao receber alterações; há também execução diária e manual.
+
+# IPTV-org/epg - guia geral e guias das operadoras turcas
+https://iptv-org.github.io/epg/guides/tr.xml
+https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml
+https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml
+https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml
+https://iptv-org.github.io/epg/guides/tr/turksatkablo.com.tr.epg.xml
