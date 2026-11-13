@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Baixar e executar coletores Cyber-Wire
+      - name: Baixar e executar somente coletores Cyber-Wire
         shell: bash
         run: |
           set -euo pipefail
@@ -41,45 +41,30 @@ jobs:
           while IFS= read -r site; do
             [[ -z "$site" || "$site" =~ ^# ]] && continue
             output="../epg-cyberwire-${site//./-}.xml"
-            echo "Coletando programação: $site"
+            echo "Coletando programação Cyber-Wire: $site"
             npm run grab -- --site="$site" --output="$output" --days=7 --maxConnections=2 || {
-              echo "::warning::Coleta Cyber-Wire falhou para $site; mantendo as demais fontes."
+              echo "::warning::Coleta Cyber-Wire falhou para $site."
               rm -f "$output"
             }
           done < ../epg/cyberwire-sources.txt
 
-      - name: Baixar fontes XMLTV complementares
+      - name: Validar coleta Cyber-Wire e sincronizar todos os canais
         shell: bash
         run: |
           set -euo pipefail
-          python3 - <<'PY'
-          import urllib.request
-          sources = {
-              "epg-source-tr.xml": "https://iptv-epg.org/files/epg-tr.xml",
-              "epg-source-lite.xml": "https://epg.pw/xmltv/epg_lite.xml",
-          }
-          for filename, url in sources.items():
-              req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 PlaylistTurquiaEPG"})
-              with urllib.request.urlopen(req, timeout=120) as response:
-                  data = response.read()
-              if not data.lstrip().startswith(b"<?xml") and b"<tv" not in data[:500]:
-                  raise SystemExit(f"Fonte XMLTV inválida: {url}")
-              open(filename, "wb").write(data)
-          PY
-
-      - name: Sincronizar todos os canais da TV principal
-        shell: bash
-        run: |
-          set -euo pipefail
-          INPUTS=(--input epg-source-tr.xml --input epg-source-lite.xml)
+          INPUTS=()
           for file in epg-cyberwire-*.xml; do
             [[ -s "$file" ]] && INPUTS+=(--input "$file")
           done
+          if [[ ${#INPUTS[@]} -eq 0 ]]; then
+            echo "::error::Cyber-Wire não retornou nenhum XMLTV. O guia publicado anteriormente será preservado."
+            exit 1
+          fi
           python3 scripts/sincronizar_epg.py \
             --playlist Tv.m3u8 \
             "${INPUTS[@]}" \
             --output epg/guia-proprio.xml
-          rm -f epg-source-tr.xml epg-source-lite.xml epg-cyberwire-*.xml
+          rm -f epg-cyberwire-*.xml
 
       - name: Publicar XMLTV
         shell: bash
@@ -89,8 +74,8 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add epg/guia-proprio.xml
           if git diff --cached --quiet; then
-            echo 'Tele guia sem alterações.'
+            echo 'Tele guia Cyber-Wire sem alterações.'
           else
-            git commit -m 'Sincroniza tele guia com Cyber-Wire e fontes complementares'
+            git commit -m 'Atualiza tele guia exclusivamente com Cyber-Wire XMLTV'
             git push
           fi
