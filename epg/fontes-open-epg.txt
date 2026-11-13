@@ -8,7 +8,8 @@ https://www.open-epg.com/files/turkey2.xml
 https://www.open-epg.com/files/turkey3.xml
 https://www.open-epg.com/files/turkey4.xml
 
-# EPGShare TR3
+# EPGShare TR1 e TR3 (gzip; validação automática de canais e programas)
+https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz
 
 # FreeEPG Turquia
