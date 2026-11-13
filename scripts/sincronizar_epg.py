@@ -47,7 +47,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--playlist', default='Tv.m3u8')
     ap.add_argument('--input', action='append', required=True)
-    ap.add_argument('--output', default='epg/guia-proprio.xml')
+    ap.add_argument('--output', default='epg/guia-cyberwire.xml')
     args = ap.parse_args()
 
     records = playlist_records(args.playlist)
