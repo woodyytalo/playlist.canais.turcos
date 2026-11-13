@@ -53,7 +53,7 @@ https://starmenajo.com/hls/almahriah/index.m3u8
 #EXTVLCOPT:network-caching=60000
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.anadolutv" tvg-logo="https://images.weserv.nl/?url=canlitv.com%2Fkanal%2Flogo%2F13394.jpg&output=png" tvg-name="Anadolu TV"  group-title="REGIONAIS",Anadolu TV [480 SD]
+#EXTINF:-1 tvg-id="custom.anadolutv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-anadolutv-c7b0ad19d0.png" tvg-name="Anadolu TV"  group-title="REGIONAIS",Anadolu TV [480 SD]
 #EXTVLCOPT:network-caching=60000
 https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8
 
@@ -427,7 +427,7 @@ https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTVLCOPT:network-caching=60000
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="mukabeletv.local" tvg-name="MUKABELE TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="RELIGIOSOS",MUKABELE TV [480 SD]
+#EXTINF:-1 tvg-id="mukabeletv.local" tvg-name="MUKABELE TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/mukabeletv-local-fd8716d6e5.png" group-title="RELIGIOSOS",MUKABELE TV [480 SD]
 #EXTVLCOPT:network-caching=60000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.m3u8
 
@@ -513,7 +513,7 @@ https://tv-trtavaz.medya.trt.com.tr/master_480.m3u8
 #EXTVLCOPT:network-caching=60000
 https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8
 
-#EXTINF:-1 tvg-id="custom.trtdiyanetcocuk" tvg-name="TRT Diyanet Çocuk" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/TRT_Diyanet_%C3%87ocuk_logo.svg/330px-TRT_Diyanet_%C3%87ocuk_logo.svg.png?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org" group-title="INFANTIS",TRT Diyanet Çocuk [480 SD]
+#EXTINF:-1 tvg-id="custom.trtdiyanetcocuk" tvg-name="TRT Diyanet Çocuk" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-trtdiyanetcocuk-560b1abdaa.png" group-title="INFANTIS",TRT Diyanet Çocuk [480 SD]
 #EXTVLCOPT:network-caching=60000
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8
 
@@ -577,7 +577,7 @@ https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=60000
 http://canli.tvden.com.tr/hls/live.m3u8
 
-#EXTINF:-1 tvg-id="custom.tvkaradeniz" tvg-name="TV Karadeniz" tvg-logo="https://asset.artidijitalmedya.com/image/400x400/channels/v1/logo_103.png?v=15" group-title="CULTURA/EDUCAÇÃO",TV Karadeniz [480 SD]
+#EXTINF:-1 tvg-id="custom.tvkaradeniz" tvg-name="TV Karadeniz" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-tvkaradeniz-8b7e958280.png" group-title="CULTURA/EDUCAÇÃO",TV Karadeniz [480 SD]
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
@@ -683,11 +683,11 @@ https://live.yoltv.com/hls/stream.m3u8#all
 #EXTINF:-1 tvg-name="RTG International" tvg-logo="https://i.imgur.com/ZpUNou4.png" group-title="INTERNACIONAIS" tvg-id="custom.rtginternational",RTG International [480 SD]
 #EXTVLCOPT:network-caching=60000
 http://213.91.179.28:8000/play/a0bw
-#EXTINF:-1 tvg-name="Kanal Ada" tvg-logo="data:image/svg+xml;charset=utf-8 tvg-id="custom.kanalada",%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKA%3C/text%3E%3C/svg%3E" group-title="REGIONAIS",Kanal Ada [480 SD]
+#EXTINF:-1 tvg-name="Kanal Ada" tvg-id="custom.kanalada",%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKA%3C/text%3E%3C/svg%3E" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/kanal-ada-75b969db55.png" group-title="REGIONAIS",Kanal Ada [480 SD]
 #EXTVLCOPT:network-caching=60000
 http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum
 
-#EXTINF:-1 tvg-name="Arzu Film" group-title="FILMES E SÉRIES" tvg-id="custom.arzufilm",Arzu Film [480 SD]
+#EXTINF:-1 tvg-name="Arzu Film" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-arzufilm-a9b0c8fb28.png" group-title="FILMES E SÉRIES" tvg-id="custom.arzufilm",Arzu Film [480 SD]
 #EXTVLCOPT:network-caching=60000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u
 #EXTINF:-1 tvg-name="Ekol Sports" tvg-logo="https://assets.uzunmuhalefet.com/logos/d34e5e05-83e3-41d5-a8a9-fc7b3603aeb7.png" group-title="ESPORTES" tvg-id="Ekol.Sports.tr",Ekol Sports [480 SD]
@@ -699,7 +699,7 @@ https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8#all
 #EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" tvg-logo="https://tbbweb.tv/img/logo.png" group-title="REGIONAIS" tvg-id="custom.trabzonbuyuksehirbelediyesitv",Trabzon Buyuksehir Belediyesi TV [480 SD]
 #EXTVLCOPT:network-caching=60000
 https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
-#EXTINF:-1 tvg-name="Urfanatik TV" group-title="REGIONAIS" tvg-id="custom.urfanatiktv",Urfanatik TV [480 SD]
+#EXTINF:-1 tvg-name="Urfanatik TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-urfanatiktv-f715ef79e7.png" group-title="REGIONAIS" tvg-id="custom.urfanatiktv",Urfanatik TV [480 SD]
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
 #EXTINF:-1 tvg-name="MADINAH TV" tvg-logo="https://e7.pngegg.com/pngimages/758/259/png-clipart-medina-mecca-television-channel-streaming-media-others-miscellaneous-television.png" group-title="RELIGIOSOS" tvg-id="custom.madinahtv",MADINAH TV [480 SD]
