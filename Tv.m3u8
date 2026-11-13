@@ -198,6 +198,8 @@ https://flashhaber-live.ercdn.net/flashhaber/flashhaber_480p.m3u8
 
 #EXTINF:-1 tvg-id="custom.fortunatv" tvg-name="Fortuna TV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTbJMXjAlD1xbe1-cdkrKin_Fvjgn31p6OH6kGPCH9tgU3yNA7hnIpVlQujxENFqb_zIYqTgnVQuYDYOn7QMt70H6zdyIMzha0tZfe67edVwDviIkS4HKxBdLoFqa0OVcCemypPzN0bCK4xloJeccUYHs5ONu8_NhpGRZV_0J4Yz9smcnrX6gAFJ7TwE/s277/-%20fortunaTV1080FTV2024F.png" group-title="ESTILO DE VIDA",Fortuna TV
 #EXTVLCOPT:network-caching=8000
+#EXTINF:-1 tvg-name="FASHION ONE" tvg-logo="https://i.ibb.co/9grLJCS/fone22.png" group-title="ESTILO DE VIDA", 2709 - FASHION ONE
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8
 https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="custom.frttv" tvg-name="FRT TV" tvg-logo="https://www.tvlogo.org/turkey/frt-tv-tr.png" group-title="REGIONAIS",FRT TV
