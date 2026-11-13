@@ -1,0 +1,9 @@
+# Fontes turcas adicionais identificadas
+
+## Fonte já integrada ao fluxo principal
+- Turksat EPG (trology85): https://raw.githubusercontent.com/trology85/iptv-epg-turkey/main/epg/turksat_epg.xml
+  Status: já configurada como fonte obrigatória no workflow atualizar-epg.yml.
+
+## Fonte em avaliação automática
+- EPGHost (ahmethascelik): https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml
+  Status na última verificação: contém 141 declarações de canais, mas nenhum elemento <programme>. Portanto, ainda não é um guia com programação utilizável. O workflow agora testa essa fonte em cada execução e só a arquiva/combina quando passar na validação XMLTV com canais e programas.
