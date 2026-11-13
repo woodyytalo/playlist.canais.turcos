@@ -8698,3 +8698,100 @@ https://vavoo.to/vavoo-iptv/play/39856151173297a4afd524
 
 #EXTINF:-1 tvg-name="TRT WORLD RAW" tvg-logo="https://logo.huhu.to/logo?c=4076064178.png" group-title="TRT", 2412 - TRT WORLD RAW
 https://vavoo.to/vavoo-iptv/play/4076064178a12cbf89249a
+
+#EXTINF:-1 group-title="ENTRETENIMENTO" tvg-logo="https://i.imgur.com/XqTj9M3.png",Bi Kanal
+https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
+
+#EXTINF:-1 tvg-name="NOW" tvg-id="NOW.tr" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO",Now TV
+https://dogus.tecostream.xyz/now.m3u8
+
+#EXTINF:-1 tvg-id="ShowMax.tr@HD" group-title="ENTRETENIMENTO" tvg-logo="https://i.imgur.com/456FWA7.png",Show Max
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
+
+#EXTINF:-1 group-title="ENTRETENIMENTO" tvg-logo="https://i.imgur.com/9O3DHRB.png",Star TV
+#EXTVLCOPT:http-referrer=https://www.startv.com.tr/
+#EXTVLCOPT:http-referer=https://www.startv.com.tr/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.startv.com.tr/"}
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://www.startv.com.tr/
+https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9
+
+#EXTINF:-1 tvg-name="STAR TV" tvg-id="STAR.TV.HD.tr" tvg-logo="https://i.ibb.co/DYyDzGV/star22tv.png" group-title="ENTRETENIMENTO",STAR TV
+https://dogus-yayin-gurubu.koprulu2.workers.dev/startv.m3u8
+
+#EXTINF:-1 tvg-id="Teve2.tr@HD" group-title="ENTRETENIMENTO" tvg-logo="https://i.imgur.com/rsoSLih.png",Teve2
+https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TV8" tvg-id="TV8.HD.tr" tvg-logo="https://i.ibb.co/tXKXNDz/tv8.png" group-title="ENTRETENIMENTO",TV 8
+https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?app=tv8_web
+
+#EXTINF:-1 tvg-id="TV85.tr@HD" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv85-tr.png",TV8.5
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
+
+#EXTINF:-1 tvg-name="TYT TÜRK" tvg-id="TYT.TÜRK.tr" tvg-logo="http://ginikoturkish.com/channels/logo/tytturk.jpg" group-title="ENTRETENIMENTO",TYT TÜRK
+https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8
+
+#EXTINF:-1 tvg-name="24 TV" tvg-id="24.HD.tr" tvg-logo="https://i.ibb.co/PhwYjQ7/24tv.png" group-title="NOTÍCIAS",24 TV
+https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
+
+#EXTINF:-1 tvg-name="AHABER" tvg-id="A.HABER.HD.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" group-title="NOTÍCIAS",A HABER
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
+
+#EXTINF:-1 tvg-id="APara.tr@HD" tvg-logo="https://i.tmgrup.com.tr/tmg/turkuvazmedyagrubu/assets/img/logolar/apara.png" group-title="NOTÍCIAS",A Para
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8
+
+#EXTINF:-1 tvg-name="CNN TURK" tvg-id="CNN.TÜRK.HD.tr" tvg-logo="https://i.ibb.co/bFsmkwJ/cnn-turk.png" group-title="NOTÍCIAS",CNN TURK
+http://umperisn.mywire.org/index.php?id=594252&token=DeaTHLesS
+
+#EXTINF:-1 tvg-id="CNNTurk.tr@HD" tvg-logo="https://i.imgur.com/TPAwEBC.png" group-title="NOTÍCIAS",CNN Türk
+https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS" tvg-logo="https://i.imgur.com/6Tw3rUp.png",Habertürk
+#EXTVLCOPT:http-referrer=https://www.haberturk.com/canliyayin
+#EXTVLCOPT:http-referer=https://www.haberturk.com/canliyayin
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.haberturk.com/canliyayin"}
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://www.haberturk.com/canliyayin
+https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=3
+
+#EXTINF:-1 tvg-name="HALK TV" tvg-id="HALK.TV.tr" tvg-logo="https://i.ibb.co/BtYMK4q/halk21a.png" group-title="NOTÍCIAS",Halk TV
+https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8
+
+#EXTINF:-1 tvg-id="KanalB.tr@SD" group-title="NOTÍCIAS" tvg-logo="https://i.imgur.com/bUsbxTQ.png",Kanal B
+https://tv.kanalb.tr/hls/kanalb/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS" tvg-logo="https://i.imgur.com/5B42KwY.png",LİDER HABER TV
+http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="SÖZCÜ TV" tvg-id="SÖZCÜ.TV.tr" tvg-logo="https://i.ibb.co/B40rjP3/szc1.png" group-title="NOTÍCIAS",Sözcü TV
+http://umperisn.mywire.org/index.php?id=594228&token=DeaTHLesS
+
+#EXTINF:-1 tvg-name="TVNET" tvg-id="TVNET.HD.tr" tvg-logo="https://i.ibb.co/1RWhvy4/tvnet.png" group-title="NOTÍCIAS",TV NET
+https://tvnet-live.lg.mncdn.com/tvnet/tvnet/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="KralPopTV.tr@SD" group-title="MÚSICA" tvg-logo="https://i.imgur.com/ch365lh.png",Kral Pop TV
+https://dogus.daioncdn.net/kralpoptv/kralpoptv.m3u8?app=kralpoptv_web
+
+#EXTINF:-1 tvg-name="TRT 1" tvg-id="TRT1.HD.tr" tvg-logo="https://i.ibb.co/thr6mVk/trt-1.png" group-title="TRT",TRT 1
+https://tv-trt1.medya.trt.com.tr/master_1080.m3u8
+
+#EXTINF:-1 tvg-name="TRT 2" tvg-id="TRT.2.HD.tr" tvg-logo="https://i.ibb.co/0JcxnSL/trt-2.png" group-title="TRT",TRT 2
+https://tv-trt2.medya.trt.com.tr/master_1080.m3u8
+
+#EXTINF:-1 tvg-id="MCTV.de@HD" group-title="INTERNACIONAIS" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E",MC TV
+https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
+
+#EXTINF:-1 tvg-id="PersianaTurkiye.fr@SD" group-title="INTERNACIONAIS" tvg-logo="https://i.imgur.com/7p3j0hF.png",Persiana Turkiye
+https://turkhls.persiana.live/hls/stream.m3u8
+
+#EXTINF:-1 tvg-id="TMBTV.tr" group-title="INTERNACIONAIS" tvg-logo="https://i.imgur.com/G53gTsp.png",TMB TV
+https://str.yodacdn.net/tmb_tr_app/tracks-v1a1/mono.m3u8?token=tmb_app_token_13579
+
+#EXTINF:-1 tvg-id="BBCFirst.uk@Turkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="FILMES E SÉRIES",BBC First
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.7.14/live/bbc_first/index.m3u8
+
+#EXTINF:-1 tvg-id="TLC.de@SD" group-title="DOCUMENTÁRIOS" tvg-logo="https://i.imgur.com/AXlHsla.png",TLC
+https://s6.hopslan.com/tlcX/index.m3u8
