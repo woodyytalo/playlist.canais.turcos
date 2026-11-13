@@ -83,6 +83,18 @@ jobs:
           optional_xml "https://free-epg.de/api/epg/tr.xml" /tmp/free-epg-tr.xml
           optional_xml "https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml" /tmp/epghost-tr.xml
 
+          # Guias publicados no GitHub Pages pelo projeto iptv-org/epg (fontes turcas)
+          optional_xml "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml" /tmp/iptvorg-tvplus.xml
+          optional_xml "https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml" /tmp/iptvorg-digiturk.xml
+          optional_xml "https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml" /tmp/iptvorg-dsmart.xml
+          optional_xml "https://iptv-org.github.io/epg/guides/tr/turksatkablo.com.tr.epg.xml" /tmp/iptvorg-turksatkablo.xml
+
+          # Outros XMLTV turcos mantidos em repositórios GitHub
+          optional_xml "https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/TurkishEPG.xml" /tmp/ghaleb-turkish.xml
+          optional_xml "https://raw.githubusercontent.com/hayatiptv/iptv/master/tr-EPG-guide.xml" /tmp/hayatiptv-turkey.xml
+          optional_gzip_xml "https://dearbulut.github.io/iptv/epg/tr.xml.gz" /tmp/dearbulut-turkey.xml
+          optional_gzip_xml "https://teleonline.github.io/epg/epg.xml.gz" /tmp/teleonline-global.xml
+
           python3 - "${files[@]}" <<'PY'
           import sys, xml.etree.ElementTree as ET
           for path in sys.argv[1:]:
@@ -98,7 +110,7 @@ jobs:
         run: |
           set -euo pipefail
           args=()
-          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/epghost-tr.xml; do
+          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/epghost-tr.xml /tmp/iptvorg-tvplus.xml /tmp/iptvorg-digiturk.xml /tmp/iptvorg-dsmart.xml /tmp/iptvorg-turksatkablo.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/dearbulut-turkey.xml /tmp/teleonline-global.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
           python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-open-epg.xml
@@ -108,7 +120,7 @@ jobs:
         run: |
           set -euo pipefail
           args=(--input /tmp/epg-principal.xml)
-          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/epghost-tr.xml; do
+          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/epghost-tr.xml /tmp/iptvorg-tvplus.xml /tmp/iptvorg-digiturk.xml /tmp/iptvorg-dsmart.xml /tmp/iptvorg-turksatkablo.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/dearbulut-turkey.xml /tmp/teleonline-global.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
           python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-turquia.xml
