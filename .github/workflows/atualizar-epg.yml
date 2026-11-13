@@ -66,8 +66,9 @@ jobs:
           channels = root.findall("channel")
           programmes = root.findall("programme")
           ids = {c.get("id") for c in channels}
-          if len(channels) != 178 and len(channels) == 0:
-              raise SystemExit("Guia sem canais; publicação cancelada.")
+          expected = sum(1 for line in open("Tv.m3u8", encoding="utf-8") if line.startswith("#EXTINF:"))
+          if len(channels) != expected:
+              raise SystemExit(f"Guia incompleto: {len(channels)} de {expected} canais; publicação cancelada.")
           if not programmes:
               raise SystemExit("Guia sem programação real; publicação cancelada.")
           if any(p.get("channel") not in ids for p in programmes):
