@@ -82,7 +82,12 @@ jobs:
           optional_xml "https://free-epg.de/api/epg/tr.xml" /tmp/free-epg-tr.xml
           optional_xml "https://iptv-epg.org/files/epg-tr.xml" /tmp/iptv-epg-tr.xml
 
-          # Guias publicados no GitHub Pages pelo projeto iptv-org/epg (fontes turcas)
+          # IPTV-org/epg: guia geral e guias específicos de operadoras turcas
+          optional_xml "https://iptv-org.github.io/epg/guides/tr.xml" /tmp/iptv-org-turquia.xml
+          optional_xml "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml" /tmp/iptv-org-tvplus.xml
+          optional_xml "https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml" /tmp/iptv-org-digiturk.xml
+          optional_xml "https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml" /tmp/iptv-org-dsmart.xml
+          optional_xml "https://iptv-org.github.io/epg/guides/tr/turksatkablo.com.tr.epg.xml" /tmp/iptv-org-turksat-kablo.xml
 
           # Outros XMLTV turcos mantidos em repositórios GitHub
           optional_xml "https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/TurkishEPG.xml" /tmp/ghaleb-turkish.xml
@@ -107,7 +112,7 @@ jobs:
             src="${item%%:*}"; dest="${item##*:}"
             cp "/tmp/${src}.xml" "epg/${dest}.xml"
           done
-          for item in "epgshare-tr3:epgshare-tr3" "free-epg-tr:free-epg-turquia" "ghaleb-turkish:ghaleb-turkish" "hayatiptv-turkey:hayatiptv-turquia" "teleonline-global:teleonline-global" "iptv-epg-tr:iptv-epg-turquia"; do
+          for item in "epgshare-tr3:epgshare-tr3" "free-epg-tr:free-epg-turquia" "ghaleb-turkish:ghaleb-turkish" "hayatiptv-turkey:hayatiptv-turquia" "teleonline-global:teleonline-global" "iptv-epg-tr:iptv-epg-turquia" "iptv-org-turquia:iptv-org-turquia" "iptv-org-tvplus:iptv-org-tvplus" "iptv-org-digiturk:iptv-org-digiturk" "iptv-org-dsmart:iptv-org-dsmart" "iptv-org-turksat-kablo:iptv-org-turksat-kablo"; do
             src="${item%%:*}"; dest="${item##*:}"
             [[ ! -s "/tmp/${src}.xml" ]] || cp "/tmp/${src}.xml" "epg/${dest}.xml"
           done
@@ -117,7 +122,7 @@ jobs:
         run: |
           set -euo pipefail
           args=()
-          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml; do
+          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
           python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-open-epg.xml
@@ -127,7 +132,7 @@ jobs:
         run: |
           set -euo pipefail
           args=(--input /tmp/epg-principal.xml)
-          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml; do
+          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
           python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-turquia.xml
