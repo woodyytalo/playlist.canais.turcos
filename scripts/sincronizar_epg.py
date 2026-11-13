@@ -50,19 +50,25 @@ def main():
     if not root.findall("programme"):
         raise SystemExit("A fonte XMLTV não contém programas; arquivo anterior preservado.")
 
-    existing = {node.get("id") for node in root.findall("channel")}
+    existing = {node.get("id"): node for node in root.findall("channel")}
     added = 0
+    metadata_updated = 0
     for channel_id, name, logo, category in records:
-        if channel_id in existing:
-            continue
-        node = ET.SubElement(root, "channel", {"id": channel_id})
-        ET.SubElement(node, "display-name").text = name
-        if logo.startswith(("https://", "http://")):
+        node = existing.get(channel_id)
+        if node is None:
+            node = ET.SubElement(root, "channel", {"id": channel_id})
+            existing[channel_id] = node
+            added += 1
+        names = [item.text for item in node.findall("display-name") if item.text]
+        changed = False
+        if name not in names:
+            ET.SubElement(node, "display-name").text = name
+            changed = True
+        if logo.startswith(("https://", "http://")) and not node.findall("icon"):
             ET.SubElement(node, "icon", {"src": logo})
-        if category:
-            ET.SubElement(node, "display-name", {"lang": "pt"}).text = category
-        existing.add(channel_id)
-        added += 1
+            changed = True
+        if changed:
+            metadata_updated += 1
 
     out = Path(args.output)
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -70,7 +76,7 @@ def main():
     check = ET.parse(out).getroot()
     if len(check.findall("channel")) < len(records) or not check.findall("programme"):
         raise SystemExit("Validação do XMLTV falhou.")
-    print(f"Playlist: {len(records)} canais; XMLTV: {len(check.findall('channel'))} canais e {len(check.findall('programme'))} programas; {added} metadados adicionados. Nenhum horário foi inventado.")
+    print(f"Playlist: {len(records)} canais; XMLTV: {len(check.findall('channel'))} canais e {len(check.findall('programme'))} programas; {added} canais novos; metadados atualizados em {metadata_updated} canais. Nenhum horário foi inventado.")
 
 if __name__ == "__main__":
     main()
