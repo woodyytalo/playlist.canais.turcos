@@ -29,7 +29,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import urllib.request, xml.etree.ElementTree as ET
+          import urllib.request, xml.etree.ElementTree as ET, re, html
           from pathlib import Path
           url = 'https://epg.pw/xmltv/epg_lite.xml'
           req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0 PlaylistTurquiaEPG'})
@@ -38,13 +38,108 @@ jobs:
           root = ET.fromstring(data)
           if root.tag != 'tv':
               raise SystemExit('O arquivo recebido não é XMLTV.')
+          if not root.findall('channel') or not root.findall('programme'):
+              raise SystemExit('XMLTV sem canais ou sem programação; arquivo anterior preservado.')
+
+          # Inclui no XMLTV todos os IDs declarados na playlist principal.
+          # Para canais sem tvg-id, usa IDs locais estáveis; isso cria a entrada
+          # do canal no guia, mas não inventa horários de programação.
+          playlist = Path('Tv.m3u8').read_text(encoding='utf-8')
+          entries = re.findall(r'^#EXTINF:[^,]*,(.*)
+          PY
+
+      - name: Publicar somente o XML gerado pelo EPG.PW
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add epg/epg-pw.xml
+          if git diff --cached --quiet; then
+            echo 'XML do EPG.PW sem alterações.'
+          else
+            git commit -m 'Atualiza XMLTV gerado pelo EPG.PW'
+            git push
+          fi
+, playlist, re.M)
+          ids = set()
+          missing = []
+          for line in playlist.splitlines():
+              if not line.startswith('#EXTINF:'):
+                  continue
+              id_match = re.search(r'tvg-id="([^"]+)"', line)
+              name_match = re.search(r'tvg-name="([^"]+)"', line)
+              display = line.split(',', 1)[1].strip() if ',' in line else ''
+              display = re.sub(r'\\s*\\[480 SD\\]
+          PY
+
+      - name: Publicar somente o XML gerado pelo EPG.PW
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add epg/epg-pw.xml
+          if git diff --cached --quiet; then
+            echo 'XML do EPG.PW sem alterações.'
+          else
+            git commit -m 'Atualiza XMLTV gerado pelo EPG.PW'
+            git push
+          fi
+, '', display).strip()
+              if id_match:
+                  channel_id = id_match.group(1)
+              else:
+                  base = (name_match.group(1) if name_match else display)
+                  slug = re.sub(r'[^a-z0-9]+', '', base.lower())
+                  channel_id = slug + '.local'
+                  missing.append((line, channel_id))
+              ids.add(channel_id)
+
+          existing = {node.get('id') for node in root.findall('channel')}
+          added = 0
+          for channel_id in sorted(ids - existing):
+              label = channel_id
+              for line in playlist.splitlines():
+                  if not line.startswith('#EXTINF:'):
+                      continue
+                  m = re.search(r'tvg-id="([^"]+)"', line)
+                  n = re.search(r'tvg-name="([^"]+)"', line)
+                  display = line.split(',', 1)[1].strip() if ',' in line else ''
+                  display = re.sub(r'\\s*\\[480 SD\\]
+          PY
+
+      - name: Publicar somente o XML gerado pelo EPG.PW
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add epg/epg-pw.xml
+          if git diff --cached --quiet; then
+            echo 'XML do EPG.PW sem alterações.'
+          else
+            git commit -m 'Atualiza XMLTV gerado pelo EPG.PW'
+            git push
+          fi
+, '', display).strip()
+                  candidate = m.group(1) if m else (re.sub(r'[^a-z0-9]+', '', (n.group(1) if n else display).lower()) + '.local')
+                  if candidate == channel_id:
+                      label = n.group(1) if n else display
+                      break
+              node = ET.Element('channel', {'id': channel_id})
+              ET.SubElement(node, 'display-name').text = label
+              root.append(node)
+              added += 1
+
+          # Mantém o XMLTV íntegro e valida o resultado antes de publicar.
           channels = len(root.findall('channel'))
           programmes = len(root.findall('programme'))
           if not channels or not programmes:
-              raise SystemExit('XMLTV sem canais ou sem programação; arquivo anterior preservado.')
+              raise SystemExit('XMLTV inválido após incluir canais.')
           Path('epg').mkdir(exist_ok=True)
-          Path('epg/epg-pw.xml').write_bytes(data)
-          print(f'EPG.PW salvo: {channels} canais, {programmes} programas, {len(data)} bytes.')
+          ET.ElementTree(root).write('epg/epg-pw.xml', encoding='utf-8', xml_declaration=True)
+          print(f'EPG atualizado: {channels} canais, {programmes} programas, {added} entradas de canal adicionadas. Canais sem dados do provedor ficam sem horários inventados.')
           PY
 
       - name: Publicar somente o XML gerado pelo EPG.PW
