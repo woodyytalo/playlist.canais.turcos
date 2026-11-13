@@ -35,23 +35,57 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Baixar fonte principal e Open-EPG Turkey 1-4
+      - name: Baixar fontes XMLTV disponíveis
         shell: bash
         run: |
           set -euo pipefail
+          files=(/tmp/epg-principal.xml /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml)
           curl --fail --location --retry 3 --retry-delay 5 "https://raw.githubusercontent.com/trology85/iptv-epg-turkey/main/epg/turksat_epg.xml" -o /tmp/epg-principal.xml
           curl --fail --location --retry 3 --retry-delay 5 "https://www.open-epg.com/files/turkey1.xml" -o /tmp/open-turkey1.xml
           curl --fail --location --retry 3 --retry-delay 5 "https://www.open-epg.com/files/turkey2.xml" -o /tmp/open-turkey2.xml
           curl --fail --location --retry 3 --retry-delay 5 "https://www.open-epg.com/files/turkey3.xml" -o /tmp/open-turkey3.xml
           curl --fail --location --retry 3 --retry-delay 5 "https://www.open-epg.com/files/turkey4.xml" -o /tmp/open-turkey4.xml
-          curl --fail --location --retry 3 --retry-delay 5 "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml" -o /tmp/epgshare-tr1.xml
-          curl --fail --location --retry 3 --retry-delay 5 "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml" -o /tmp/epgshare-tr3.xml
-          curl --fail --location --retry 3 --retry-delay 5 "https://free-epg.de/api/epg/tr.xml" -o /tmp/free-epg-tr.xml
-          curl --fail --location --retry 3 --retry-delay 5 "https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml" -o /tmp/epghost-tr.xml
-          python3 - <<'PY'
-          import xml.etree.ElementTree as ET
-          files = ["/tmp/epg-principal.xml", "/tmp/open-turkey1.xml", "/tmp/open-turkey2.xml", "/tmp/open-turkey3.xml", "/tmp/open-turkey4.xml", "/tmp/epgshare-tr1.xml", "/tmp/epgshare-tr3.xml", "/tmp/free-epg-tr.xml", "/tmp/epghost-tr.xml"]
-          for path in files:
+
+          # Fontes complementares são opcionais: uma indisponibilidade não cancela as fontes válidas.
+          optional_xml() {
+            local url="$1" output="$2"
+            if curl --fail --location --silent --show-error --retry 2 --retry-delay 2 "$url" -o "$output"; then
+              if python3 -c 'import sys,xml.etree.ElementTree as E; r=E.parse(sys.argv[1]).getroot(); assert r.tag=="tv" and r.findall("channel") and r.findall("programme")' "$output"; then
+                files+=("$output")
+                echo "Fonte adicional validada: $url"
+              else
+                echo "Fonte adicional ignorada (XMLTV inválido): $url"
+                rm -f "$output"
+              fi
+            else
+              echo "Fonte adicional indisponível; seguindo sem ela: $url"
+              rm -f "$output"
+            fi
+          }
+          optional_gzip_xml() {
+            local url="$1" output="$2" gz="${2}.gz"
+            if curl --fail --location --silent --show-error --retry 2 --retry-delay 2 "$url" -o "$gz" && gzip -dc "$gz" > "$output"; then
+              if python3 -c 'import sys,xml.etree.ElementTree as E; r=E.parse(sys.argv[1]).getroot(); assert r.tag=="tv" and r.findall("channel") and r.findall("programme")' "$output"; then
+                files+=("$output")
+                echo "Fonte gzip validada: $url"
+              else
+                echo "Fonte gzip ignorada (XMLTV inválido): $url"
+                rm -f "$output"
+              fi
+            else
+              echo "Fonte gzip indisponível; seguindo sem ela: $url"
+              rm -f "$gz" "$output"
+            fi
+          }
+
+          optional_xml "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml" /tmp/epgshare-tr1.xml
+          optional_gzip_xml "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz" /tmp/epgshare-tr3.xml
+          optional_xml "https://free-epg.de/api/epg/tr.xml" /tmp/free-epg-tr.xml
+          optional_xml "https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml" /tmp/epghost-tr.xml
+
+          python3 - "${files[@]}" <<'PY'
+          import sys, xml.etree.ElementTree as ET
+          for path in sys.argv[1:]:
               root = ET.parse(path).getroot()
               channels, programmes = root.findall("channel"), root.findall("programme")
               if root.tag != "tv" or not channels or not programmes:
@@ -63,24 +97,21 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 \
-            --input /tmp/open-turkey1.xml --input /tmp/open-turkey2.xml \
-            --input /tmp/open-turkey3.xml --input /tmp/open-turkey4.xml \
-            --input /tmp/epgshare-tr1.xml --input /tmp/epgshare-tr3.xml \
-            --input /tmp/free-epg-tr.xml --input /tmp/epghost-tr.xml \
-            --output epg/guia-open-epg.xml
+          args=()
+          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/epghost-tr.xml; do
+            [[ -s "$file" ]] && args+=(--input "$file")
+          done
+          python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-open-epg.xml
 
-      - name: Combinar Open-EPG com a fonte que já estava ativa
+      - name: Combinar todas as fontes XMLTV com a fonte principal
         shell: bash
         run: |
           set -euo pipefail
-          python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 \
-            --input /tmp/epg-principal.xml \
-            --input /tmp/open-turkey1.xml --input /tmp/open-turkey2.xml \
-            --input /tmp/open-turkey3.xml --input /tmp/open-turkey4.xml \
-            --input /tmp/epgshare-tr1.xml --input /tmp/epgshare-tr3.xml \
-            --input /tmp/free-epg-tr.xml --input /tmp/epghost-tr.xml \
-            --output epg/guia-turquia.xml
+          args=(--input /tmp/epg-principal.xml)
+          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/epghost-tr.xml; do
+            [[ -s "$file" ]] && args+=(--input "$file")
+          done
+          python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-turquia.xml
 
       - name: Validar e publicar os dois guias
         shell: bash
