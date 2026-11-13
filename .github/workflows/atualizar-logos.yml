@@ -16,8 +16,8 @@ permissions:
 
 jobs:
   atualizar-logos:
-    # Evita executar em commits gerados pelo próprio bot.
-    if: github.actor != 'github-actions[bot]'
+    # Executa também em commits automáticos; o passo de commit só grava quando há diferenças,
+    # evitando ciclos quando a playlist já está normalizada.
     runs-on: ubuntu-latest
     steps:
       - name: Baixar repositório
