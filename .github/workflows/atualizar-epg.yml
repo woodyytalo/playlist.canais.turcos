@@ -8,6 +8,7 @@ on:
     paths:
       - "Tv.m3u8"
       - "scripts/sincronizar_epg.py"
+      - "epg/fontes-open-epg.txt"
       - ".github/workflows/atualizar-epg.yml"
   schedule:
     - cron: "30 1 * * *"
@@ -30,57 +31,68 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Baixar EPG Turkey atualizado
+      - name: Baixar fonte principal e Open-EPG Turkey 1-4
         shell: bash
         run: |
           set -euo pipefail
-          curl --fail --location --retry 3 --retry-delay 5 \
-            "https://raw.githubusercontent.com/trology85/iptv-epg-turkey/main/epg/turksat_epg.xml" \
-            --output /tmp/epg-turquia-fonte.xml
+          curl --fail --location --retry 3 --retry-delay 5 "https://raw.githubusercontent.com/trology85/iptv-epg-turkey/main/epg/turksat_epg.xml" -o /tmp/epg-principal.xml
+          curl --fail --location --retry 3 --retry-delay 5 "https://www.open-epg.com/files/turkey1.xml" -o /tmp/open-turkey1.xml
+          curl --fail --location --retry 3 --retry-delay 5 "https://www.open-epg.com/files/turkey2.xml" -o /tmp/open-turkey2.xml
+          curl --fail --location --retry 3 --retry-delay 5 "https://www.open-epg.com/files/turkey3.xml" -o /tmp/open-turkey3.xml
+          curl --fail --location --retry 3 --retry-delay 5 "https://www.open-epg.com/files/turkey4.xml" -o /tmp/open-turkey4.xml
           python3 - <<'PY'
           import xml.etree.ElementTree as ET
-          root = ET.parse("/tmp/epg-turquia-fonte.xml").getroot()
-          channels = root.findall("channel")
-          programmes = root.findall("programme")
-          if root.tag != "tv" or not channels or not programmes:
-              raise SystemExit("Fonte IPTV EPG Turkey sem canais/programação; publicação cancelada.")
-          print(f"Fonte validada: {len(channels)} canais e {len(programmes)} programas.")
+          files = ["/tmp/epg-principal.xml", "/tmp/open-turkey1.xml", "/tmp/open-turkey2.xml", "/tmp/open-turkey3.xml", "/tmp/open-turkey4.xml"]
+          for path in files:
+              root = ET.parse(path).getroot()
+              channels, programmes = root.findall("channel"), root.findall("programme")
+              if root.tag != "tv" or not channels or not programmes:
+                  raise SystemExit(f"Fonte XMLTV inválida ou vazia: {path}")
+              print(f"{path}: {len(channels)} canais, {len(programmes)} programas")
           PY
 
-      - name: Sincronizar com todos os canais da Tv.m3u8
+      - name: Gerar guia exclusivo Open-EPG
         shell: bash
         run: |
           set -euo pipefail
-          python3 scripts/sincronizar_epg.py \
-            --playlist Tv.m3u8 \
-            --input /tmp/epg-turquia-fonte.xml \
+          python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 \
+            --input /tmp/open-turkey1.xml --input /tmp/open-turkey2.xml \
+            --input /tmp/open-turkey3.xml --input /tmp/open-turkey4.xml \
+            --output epg/guia-open-epg.xml
+
+      - name: Combinar Open-EPG com a fonte que já estava ativa
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 \
+            --input /tmp/epg-principal.xml \
+            --input /tmp/open-turkey1.xml --input /tmp/open-turkey2.xml \
+            --input /tmp/open-turkey3.xml --input /tmp/open-turkey4.xml \
             --output epg/guia-turquia.xml
 
-      - name: Validar e publicar guia
+      - name: Validar e publicar os dois guias
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
           import xml.etree.ElementTree as ET
-          root = ET.parse("epg/guia-turquia.xml").getroot()
-          channels = root.findall("channel")
-          programmes = root.findall("programme")
-          ids = {c.get("id") for c in channels}
           expected = sum(1 for line in open("Tv.m3u8", encoding="utf-8") if line.startswith("#EXTINF:"))
-          if len(channels) != expected:
-              raise SystemExit(f"Guia incompleto: {len(channels)} de {expected} canais; publicação cancelada.")
-          if not programmes:
-              raise SystemExit("Guia sem programação real; publicação cancelada.")
-          if any(p.get("channel") not in ids for p in programmes):
-              raise SystemExit("Há programas apontando para canais inexistentes.")
-          print(f"Guia pronto: {len(channels)} canais declarados e {len(programmes)} programas reais.")
+          for path in ["epg/guia-open-epg.xml", "epg/guia-turquia.xml"]:
+              root = ET.parse(path).getroot()
+              channels, programmes = root.findall("channel"), root.findall("programme")
+              ids = {c.get("id") for c in channels}
+              if len(channels) != expected:
+                  raise SystemExit(f"{path}: {len(channels)} de {expected} canais; publicação cancelada.")
+              if not programmes or any(p.get("channel") not in ids for p in programmes):
+                  raise SystemExit(f"{path}: programação vazia ou referência inválida.")
+              print(f"{path}: {len(channels)} canais, {len(programmes)} programas.")
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add epg/guia-turquia.xml
+          git add epg/guia-open-epg.xml epg/guia-turquia.xml
           if git diff --cached --quiet; then
-            echo "EPG sem alterações."
+            echo "EPGs sem alterações."
           else
-            git commit -m "Atualiza EPG Turquia e sincroniza canais"
+            git commit -m "Adiciona Open-EPG Turkey e combina programação"
             git push
           fi
