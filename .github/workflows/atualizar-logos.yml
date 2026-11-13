@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   atualizar-logos:
@@ -279,3 +280,10 @@ jobs:
             git commit -m "Adicionar logos PNG automaticamente"
             git push
           fi
+
+      - name: Disparar sincronização do EPG após atualizar a TV principal
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run atualizar-epg.yml --ref "${GITHUB_REF_NAME}"
+          echo "Sincronização do EPG solicitada para a versão atualizada de Tv.m3u8."
