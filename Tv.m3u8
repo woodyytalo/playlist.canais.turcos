@@ -4,7 +4,7 @@
 #EXTVLCOPT:network-caching=8000
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
-#EXTINF:-1 tvg-id="360.tr" tvg-name="360 TV" tvg-logo="https://i.ibb.co/s3gJCGL/360.png" group-title="ENTRETENIMENTO",441 - 360 TV
+#EXTINF:-1 tvg-id="360.tr" tvg-name="360 TV" tvg-logo="https://i.ibb.co/s3gJCGL/360.png" group-title="ENTRETENIMENTO",360 TV
 #EXTVLCOPT:network-caching=8000
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 
@@ -577,7 +577,7 @@ https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web
 #EXTVLCOPT:network-caching=8000
 https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8
 
-#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV8" tvg-logo="https://i.ibb.co/Kr5SFY1/tv8.png" group-title="ENTRETENIMENTO",1069 - TV8
+#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV8" tvg-logo="https://i.ibb.co/Kr5SFY1/tv8.png" group-title="ENTRETENIMENTO",TV8
 #EXTVLCOPT:network-caching=8000
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-logo="https://www.tvlogo.org/turkey/tvnet-tr.png" group-title="NOTÍCIAS",TVNET
@@ -684,12 +684,12 @@ https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8#all
 #EXTINF:-1 tvg-name="Kanal Urfa" tvg-logo="https://www.kanalurfa.com/upload/masaustu.png" group-title="REGIONAIS",Kanal Urfa
 #EXTVLCOPT:network-caching=8000
 https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" tvg-logo="https://tbbweb.tv/img/logo.png" group-title="REGIONAIS",1475 - Trabzon Buyuksehir Belediyesi TV
+#EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" tvg-logo="https://tbbweb.tv/img/logo.png" group-title="REGIONAIS",Trabzon Buyuksehir Belediyesi TV
 #EXTVLCOPT:network-caching=8000
 https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
-#EXTINF:-1 tvg-name="Urfanatik TV" group-title="REGIONAIS",513 - Urfanatik TV
+#EXTINF:-1 tvg-name="Urfanatik TV" group-title="REGIONAIS",Urfanatik TV
 #EXTVLCOPT:network-caching=8000
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
-#EXTINF:-1 tvg-name="MADINAH TV" tvg-logo="https://e7.pngegg.com/pngimages/758/259/png-clipart-medina-mecca-television-channel-streaming-media-others-miscellaneous-television.png" group-title="RELIGIOSOS",616 - MADINAH TV
+#EXTINF:-1 tvg-name="MADINAH TV" tvg-logo="https://e7.pngegg.com/pngimages/758/259/png-clipart-medina-mecca-television-channel-streaming-media-others-miscellaneous-television.png" group-title="RELIGIOSOS",MADINAH TV
 #EXTVLCOPT:network-caching=8000
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8#all
