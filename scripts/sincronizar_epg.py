@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build XMLTV guides for every playlist channel using exact ID/name matches only."""
+"""Gera XMLTV para todos os canais da playlist, usando correspondências exatas de ID/nome."""
 import argparse
 import copy
 import html
@@ -14,10 +14,10 @@ def attrs(line):
     return {k: html.unescape(v) for k, v in ATTR.findall(line)}
 
 def clean_name(value):
-    value = re.sub(r'^\\s*(?:TR|TURKEY|TURKIYE)\\s*[:|/-]\\s*', '', value or '', flags=re.I)
-    value = re.sub(r'\\s*(?:HD|SD|FHD|UHD|4K)\\s*$', '', value, flags=re.I)
-    value = re.sub(r'\\s*\\[(?:360|480)\\s*SD\\]\\s*$', '', value, flags=re.I)
-    value = re.sub(r'^\\s*\\d+\\s*-\\s*', '', value)
+    value = re.sub(r'^\s*(?:TR|TURKEY|TURKIYE)\s*[:|/-]\s*', '', value or '', flags=re.I)
+    value = re.sub(r'\s*(?:HD|SD|FHD|UHD|4K)\s*$', '', value, flags=re.I)
+    value = re.sub(r'\s*\[(?:360|480)\s*SD\]\s*$', '', value, flags=re.I)
+    value = re.sub(r'^\s*\d+\s*-\s*', '', value)
     value = unicodedata.normalize('NFKD', value)
     value = ''.join(c for c in value if not unicodedata.combining(c))
     value = value.casefold().replace('&', ' and ')
@@ -30,11 +30,12 @@ def playlist_records(path):
             continue
         meta, _, display = line.partition(',')
         a = attrs(meta)
+        display = display.strip()
         name = (a.get('tvg-name') or display).strip()
-        name = re.sub(r'^\\s*\\d+\\s*-\\s*', '', name)
-        name = re.sub(r'\\s*\\[(?:360|480)\\s*SD\\]\\s*$', '', name, flags=re.I).strip()
+        names = {clean_name(name), clean_name(display)}
+        names.discard('')
         channel_id = a.get('tvg-id') or clean_name(name) + '.local'
-        records.append((channel_id, name, a.get('tvg-logo', ''), a.get('group-title', '')))
+        records.append((channel_id, name, names, a.get('tvg-logo', ''), a.get('group-title', '')))
     if not records:
         raise SystemExit('Nenhum canal #EXTINF encontrado na playlist.')
     ids = [r[0] for r in records]
@@ -64,36 +65,36 @@ def main():
                 key = (source_path, sid)
                 source_channels[key] = channel
         for programme in root.findall('programme'):
-            key = (source_path, programme.get('channel'))
-            source_programmes.append((key, programme))
-            counts[key] = counts.get(key, 0) + 1
+            source_key = (source_path, programme.get('channel'))
+            source_programmes.append((source_key, programme))
+            counts[source_key] = counts.get(source_key, 0) + 1
 
     if not source_channels or not source_programmes:
         raise SystemExit('Fontes XMLTV sem canais/programas; guia anterior preservado.')
 
     id_index, name_index = {}, {}
     for key, channel in source_channels.items():
-        sid = clean_name(key[1])
-        if sid:
-            id_index.setdefault(sid, []).append(key)
+        normalized_id = clean_name(key[1])
+        if normalized_id:
+            id_index.setdefault(normalized_id, []).append(key)
         for item in channel.findall('display-name'):
-            name = clean_name(item.text or '')
-            if name:
-                name_index.setdefault(name, []).append(key)
+            normalized = clean_name(item.text or '')
+            if normalized:
+                name_index.setdefault(normalized, []).append(key)
 
     output = ET.Element('tv', root_attrs)
-    output.set('generator-info-name', 'Playlist Turquia XMLTV - Open-EPG + fonte principal')
-    source_to_playlist, used = {}, set()
-    matched = set()
+    output.set('generator-info-name', 'Playlist Turquia XMLTV - Open-EPG + EPGShare + FreeEPG + fontes adicionais')
+    source_to_playlist, used, matched = {}, set(), set()
 
-    for channel_id, name, logo, category in records:
-        # Prefer an exact normalized tvg-id; only then use an exact display-name.
+    for channel_id, name, aliases, logo, category in records:
         candidates = [k for k in id_index.get(clean_name(channel_id), [])
                       if counts.get(k, 0) > 0 and k not in used]
         if not candidates:
-            candidates = [k for k in name_index.get(clean_name(name), [])
-                          if counts.get(k, 0) > 0 and k not in used]
-        source_key = max(candidates, key=lambda k: counts.get(k, 0)) if candidates else None
+            for alias in aliases:
+                candidates.extend(k for k in name_index.get(alias, [])
+                                  if counts.get(k, 0) > 0 and k not in used)
+        # Nunca associa uma programação por semelhança parcial: só ID/nome normalizado exato.
+        source_key = max(set(candidates), key=lambda k: counts.get(k, 0)) if candidates else None
 
         if source_key:
             used.add(source_key)
