@@ -1,11 +1,10 @@
-name: Atualizar EPG Turquia
+name: Atualizar EPG IA
 
 on:
   push:
     branches:
       - "github/workflows/atualizar-logos.yml"
     paths:
-      - "Tv.m3u8"
       - ".github/workflows/atualizar-epg.yml"
   workflow_dispatch:
   schedule:
@@ -15,7 +14,7 @@ permissions:
   contents: write
 
 jobs:
-  atualizar-epg:
+  atualizar-epg-ia:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
@@ -25,156 +24,39 @@ jobs:
           ref: ${{ github.ref_name }}
           persist-credentials: true
 
-      - name: Baixar, combinar e associar guias XMLTV
+      - name: Baixar e validar somente o XML do EPG.PW
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import gzip, hashlib, re, unicodedata, urllib.request, xml.etree.ElementTree as ET
+          import urllib.request, xml.etree.ElementTree as ET
           from pathlib import Path
-
-          sources = [
-              "https://free-epg.de/api/epg/tr.xml",
-              "https://epg.pw/xmltv/epg_lite.xml",
-              "https://iptv-epg.org/files/epg-tr.xml",
-              "https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml",
-              "https://www.open-epg.com/files/turkey1.xml.gz",
-              "https://www.open-epg.com/files/turkey2.xml.gz",
-              "https://www.open-epg.com/files/turkey3.xml.gz",
-              "https://www.open-epg.com/files/turkey4.xml.gz",
-              "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz",
-              "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz",
-          ]
-
-          def norm(s):
-              s = unicodedata.normalize("NFKD", s.casefold())
-              s = "".join(c for c in s if not unicodedata.combining(c))
-              return re.sub(r"[^a-z0-9]+", "", s)
-
-          roots=[]
-          for url in sources:
-              try:
-                  req=urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 IPTV-EPG-Builder"})
-                  with urllib.request.urlopen(req, timeout=45) as response:
-                      data=response.read()
-                  if url.endswith(".gz") or data[:2] == b"\x1f\x8b":
-                      data=gzip.decompress(data)
-                  root=ET.fromstring(data)
-                  if root.tag != "tv":
-                      raise ValueError("não é XMLTV")
-                  channels=root.findall("channel")
-                  programmes=root.findall("programme")
-                  if url == "https://epg.pw/xmltv/epg_lite.xml":
-                      Path("epg").mkdir(exist_ok=True)
-                      Path("epg/epg-pw.xml").write_bytes(data)
-                      print(f"XML original do EPG.PW salvo: {len(data)} bytes")
-                  if channels and programmes:
-                      roots.append((url,root))
-                      print(f"OK {url}: {len(channels)} canais, {len(programmes)} programas")
-                  else:
-                      print(f"IGNORADO {url}: sem canais/programas")
-              except Exception as e:
-                  print(f"FALHA {url}: {e}")
-
-          if not roots:
-              raise SystemExit("Nenhuma fonte XMLTV válida; não substituir o guia atual.")
-
-          # Índice de canais por nome; conserva apenas correspondências inequívocas.
-          name_ids={}
-          source_channels={}
-          for url,root in roots:
-              for ch in root.findall("channel"):
-                  cid=ch.get("id")
-                  if not cid: continue
-                  source_channels.setdefault(cid,ch)
-                  for dn in ch.findall("display-name"):
-                      key=norm(dn.text or "")
-                      if key: name_ids.setdefault(key,set()).add(cid)
-
-          playlist=Path("Tv.m3u8")
-          lines=playlist.read_text(encoding="utf-8").splitlines()
-          out_lines=[]
-          mapping={}
-          unmatched=[]
-          total=0
-          for line in lines:
-              if not line.startswith("#EXTINF"):
-                  out_lines.append(line); continue
-              total+=1
-              nm=re.search(r'tvg-name="([^"]+)"',line,re.I)
-              display=nm.group(1) if nm else line.rsplit(",",1)[-1].strip()
-              idm=re.search(r'tvg-id="([^"]*)"',line,re.I)
-              candidates=name_ids.get(norm(display),set())
-              if len(candidates)==1:
-                  cid=next(iter(candidates))
-              else:
-                  # Preserve an existing ID only if one of the downloaded guides uses it.
-                  old=idm.group(1).split("@",1)[0] if idm else ""
-                  cid=old if old in source_channels else ""
-              if not cid:
-                  slug=norm(display) or hashlib.sha1(display.encode()).hexdigest()[:10]
-                  cid="custom."+slug
-                  unmatched.append(display)
-              mapping[cid]=display
-              if idm:
-                  line=line[:idm.start(1)]+cid+line[idm.end(1):]
-              else:
-                  comma=line.find(",")
-                  line=line[:comma]+f' tvg-id="{cid}"'+line[comma:]
-              out_lines.append(line)
-
-          playlist.write_text("\n".join(out_lines)+"\n",encoding="utf-8")
-
-          # XMLTV unificado: remapeia os programas para os IDs usados pela playlist.
-          # Canais sem programação real são declarados, mas não recebem programas inventados.
-          final=ET.Element("tv",{"generator-info-name":"Playlist Turquia EPG Aggregator"})
-          cid_to_display={}
-          for cid,display in mapping.items():
-              ch=ET.SubElement(final,"channel",{"id":cid})
-              ET.SubElement(ch,"display-name").text=display
-              cid_to_display[cid]=display
-
-          for url,root in roots:
-              local={}
-              for ch in root.findall("channel"):
-                  old=ch.get("id","")
-                  keys={norm(dn.text or "") for dn in ch.findall("display-name")}
-                  matches={cid for cid,display in mapping.items() if norm(display) in keys and norm(display)}
-                  if len(matches)==1:
-                      local[old]=next(iter(matches))
-              for p in root.findall("programme"):
-                  target=local.get(p.get("channel",""))
-                  if not target: continue
-                  attrs=dict(p.attrib); attrs["channel"]=target
-                  node=ET.SubElement(final,"programme",attrs)
-                  for child in list(p): node.append(child)
-
-          # Deduplica programas idênticos sem fabricar conteúdo.
-          seen=set()
-          for p in list(final.findall("programme")):
-              key=(p.get("channel"),p.get("start"),p.get("stop"),"".join(p.findtext("title","")))
-              if key in seen: final.remove(p)
-              else: seen.add(key)
-
-          Path("epg").mkdir(exist_ok=True)
-          ET.ElementTree(final).write("epg/epg-tr.xml",encoding="utf-8",xml_declaration=True)
-          channels=len(final.findall("channel")); programmes=len(final.findall("programme"))
-          if channels != len(mapping):
-              raise SystemExit(f"Falha: {channels}/{len(mapping)} IDs únicos declarados no XMLTV.")
-          print(f"EPG publicado para {total} entradas: {programmes} programas reais; {len(unmatched)} canais sem programação correspondente.")
-          print("Sem programação nas fontes:", "; ".join(unmatched) if unmatched else "nenhum")
+          url = 'https://epg.pw/xmltv/epg_lite.xml'
+          req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0 PlaylistTurquiaEPG'})
+          with urllib.request.urlopen(req, timeout=90) as response:
+              data = response.read()
+          root = ET.fromstring(data)
+          if root.tag != 'tv':
+              raise SystemExit('O arquivo recebido não é XMLTV.')
+          channels = len(root.findall('channel'))
+          programmes = len(root.findall('programme'))
+          if not channels or not programmes:
+              raise SystemExit('XMLTV sem canais ou sem programação; arquivo anterior preservado.')
+          Path('epg').mkdir(exist_ok=True)
+          Path('epg/epg-pw.xml').write_bytes(data)
+          print(f'EPG.PW salvo: {channels} canais, {programmes} programas, {len(data)} bytes.')
           PY
 
-      - name: Publicar EPG e playlist
+      - name: Publicar somente o XML gerado pelo EPG.PW
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add epg/epg-tr.xml epg/epg-pw.xml Tv.m3u8
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add epg/epg-pw.xml
           if git diff --cached --quiet; then
-            echo "EPG sem alterações; nada para publicar."
+            echo 'XML do EPG.PW sem alterações.'
           else
-            git commit -m "Gera EPG unificado para a TV principal"
+            git commit -m 'Atualiza XMLTV gerado pelo EPG.PW'
             git push
           fi
