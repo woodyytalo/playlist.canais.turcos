@@ -20,7 +20,8 @@ def attrs(line):
 
 def clean_name(value):
     value = re.sub(r'^\s*(?:TR|TURKEY|TURKIYE)\s*[:|/-]\s*', '', value or '', flags=re.I)
-    value = re.sub(r'\s*(?:HD|SD|FHD|UHD|4K)\s*
+    value = re.sub(r'\s*(?:HD|SD|FHD|UHD|4K)\s*$', '', value, flags=re.I)
+    value = re.sub(r'\s*\[(?:360|480)\s*SD\]\s*$', '', value, flags=re.I)
     value = re.sub(r'^\s*\d+\s*-\s*', '', value)
     value = unicodedata.normalize('NFKD', value)
     value = ''.join(c for c in value if not unicodedata.combining(c))
