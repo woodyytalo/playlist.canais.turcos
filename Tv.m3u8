@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/epg-tr.xml" x-tvg-url="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/epg-tr.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/epg-pw.xml" x-tvg-url="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/epg-pw.xml"
 # Atualização de mapeamento XMLTV executada pelo workflow de EPG
 #EXTINF:-1 tvg-id="24.TV.tr" tvg-name="24 TV" tvg-logo="https://www.tvlogo.org/turkey/24-tr.png" group-title="NOTÍCIAS",24 TV
 #EXTVLCOPT:network-caching=8000
