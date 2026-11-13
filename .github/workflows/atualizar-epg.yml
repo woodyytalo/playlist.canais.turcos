@@ -135,7 +135,7 @@ jobs:
         run: |
           set -euo pipefail
           args=(--input /tmp/epg-principal.xml)
-          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml; do
+          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
           python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-turquia.xml
