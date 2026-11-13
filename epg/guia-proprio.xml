@@ -1,709 +1,2274 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv generator-info-name="Ahmet" generator-info-url="">
-  <channel id="bbwgmhsmhhoatzg">
-    <display-name>TR: Kanal D</display-name>
-    <display-name>Kanal D</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/-/EU/11785/Thumbnail.png?v=636918654485335758"></icon>
-  </channel>
-  <channel id="5t9s7fotlszq31r">
-    <display-name>TR: Sinema TV</display-name>
-    <display-name>Sinema TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/T/QU/22894/Thumbnail.png?v=637451110741160494"></icon>
-  </channel>
-  <channel id="plwqzwzsanvqant">
-    <display-name>TR: Sinema TV 2</display-name>
-    <display-name>Sinema TV 2</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/Y/3N/22904/Thumbnail.png?v=637451112092517864"></icon>
-  </channel>
-  <channel id="d5qimxwyzm4pt8c">
-    <display-name>TR: Sinema TV Aksiyon</display-name>
-    <display-name>Sinema TV Aksiyon</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/t/tD/22896/Thumbnail.png?v=637451113240734096"></icon>
-  </channel>
-  <channel id="u5krbb8ar62207p">
-    <display-name>TR: Sinema TV Aksiyon 2</display-name>
-    <display-name>Sinema TV Aksiyon 2</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/M/RG/22895/Thumbnail.png?v=637451113519506247"></icon>
-  </channel>
-  <channel id="m4nn4gyja5btdmd">
-    <display-name>TR: Sinema TV Aile</display-name>
-    <display-name>Sinema TV Aile</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/-/EU/22897/Thumbnail.png?v=637451112510519826"></icon>
-  </channel>
-  <channel id="wkgbbew10nqnzrz">
-    <display-name>TR: Sinema TV Aile 2</display-name>
-    <display-name>Sinema TV Aile 2</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/e/Mq/22898/Thumbnail.png?v=637451112840546049"></icon>
-  </channel>
-  <channel id="ykcaqgcp4trt1nc">
-    <display-name>TR: Sinema TV Comedy</display-name>
-    <display-name>Sinema TV Comedy</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/w/9a/22899/Thumbnail.png?v=637451113872971832"></icon>
-  </channel>
-  <channel id="bgylji43wkzbfu1">
-    <display-name>TR: Sinema TV Comedy 2</display-name>
-    <display-name>Sinema TV Comedy 2</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/o/oG/22900/Thumbnail.png?v=637451114172995678"></icon>
-  </channel>
-  <channel id="p7wx1sgvz8ik8dg">
-    <display-name>TR: Sinema TV 1001</display-name>
-    <display-name>Sinema TV 1001</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/g/6y/22901/Thumbnail.png?v=637451111086187905"></icon>
-  </channel>
-  <channel id="oszh5qj31qu5sfh">
-    <display-name>TR: Sinema TV 1002</display-name>
-    <display-name>Sinema TV 1002</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/C/XZ/22902/Thumbnail.png?v=637451111420745737"></icon>
-  </channel>
-  <channel id="yg4t186k8el1lp4">
-    <display-name>TR: FilmScreen</display-name>
-    <display-name>FilmScreen</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/Y/-N/11902/Thumbnail.png?v=638475537514947618"></icon>
-  </channel>
-  <channel id="ox4sx28bnt2houh">
-    <display-name>TR: MovieSmart Classic</display-name>
-    <display-name>MovieSmart Classic</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/y/L4/13864/Thumbnail.png?v=636987853760557953"></icon>
-  </channel>
-  <channel id="jbgocfcj7dky4ki">
-    <display-name>TR: MovieSmart Türk</display-name>
-    <display-name>MovieSmart Türk</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/e/ZI/13863/Thumbnail.png?v=636987856299906443"></icon>
-  </channel>
-  <channel id="alexx097j4waptm">
-    <display-name>TR: DiziSmart Premium</display-name>
-    <display-name>DiziSmart Premium</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/d/9U/12174/Thumbnail.png?v=636987852865799359"></icon>
-  </channel>
-  <channel id="zlq51oung4bvz1n">
-    <display-name>TR: FX</display-name>
-    <display-name>FX</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/w/Uq/16203/Thumbnail.png?v=637080272246525439"></icon>
-  </channel>
-  <channel id="gz6zdrepurv6gan">
-    <display-name>TR: DiziSmart Max</display-name>
-    <display-name>DiziSmart Max</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/k/F2/11913/Thumbnail.png?v=636987852570463393"></icon>
-  </channel>
-  <channel id="noyxnkwhtpbiwfb">
-    <display-name>TR: Ulusal Çoklu Ekran</display-name>
-    <display-name>Ulusal Çoklu Ekran</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/4/Ak/96690/Thumbnail.png?v=638597450250325690"></icon>
-  </channel>
-  <channel id="6vs4sg9183gdxth">
-    <display-name>TR: TEVE 2</display-name>
-    <display-name>TEVE 2</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/h/4C/11904/Thumbnail.png?v=638356364133347347"></icon>
-  </channel>
-  <channel id="pvr08e5grfsebfw">
-    <display-name>TR: Show TV</display-name>
-    <display-name>Show TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/E/aM/11889/Thumbnail.png?v=636932880780190994"></icon>
-  </channel>
-  <channel id="75tz02ooforewap">
-    <display-name>TR: STAR</display-name>
-    <display-name>STAR</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/z/Bk/11905/Thumbnail.png?v=636932878711499780"></icon>
-  </channel>
-  <channel id="2zkzbuscxwyjc4k">
-    <display-name>TR: ATV</display-name>
-    <display-name>ATV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/Q/Eq/13351/Thumbnail.png?v=636932873338148072"></icon>
-  </channel>
-  <channel id="af0zo9et4xguwsk">
-    <display-name>TR: TRT 1</display-name>
-    <display-name>TRT 1</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/Q/ou/11887/Thumbnail.png?v=636926485630162197"></icon>
-  </channel>
-  <channel id="a8t877hb0oandbv">
-    <display-name>TR: Kanal 7</display-name>
-    <display-name>Kanal 7</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/k/0U/13732/Thumbnail.png?v=636934334673308427"></icon>
-  </channel>
-  <channel id="w7x32brlcz26ibb">
-    <display-name>TR: TV8</display-name>
-    <display-name>TV8</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/a/WI/13727/Thumbnail.png?v=636948061871631256"></icon>
-  </channel>
-  <channel id="m0abaihy7vla6ma">
-    <display-name>TR: NOW</display-name>
-    <display-name>NOW</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/2/HH/11906/Thumbnail.png?v=638433526771493494"></icon>
-  </channel>
-  <channel id="jwz70a9vn9i7skl">
-    <display-name>TR: Haber Çoklu Ekran</display-name>
-    <display-name>Haber Çoklu Ekran</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/N/Oj/96692/Thumbnail.png?v=638597449150404142"></icon>
-  </channel>
-  <channel id="ah7mr9ol040kp3b">
-    <display-name>TR: CNN Türk</display-name>
-    <display-name>CNN Türk</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/a/u2/11786/Thumbnail.png?v=636927793050821617"></icon>
-  </channel>
-  <channel id="nyz5s8p798n9cqg">
-    <display-name>TR: NTV</display-name>
-    <display-name>NTV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/F/VA/13721/Thumbnail.png?v=636962982239736458"></icon>
-  </channel>
-  <channel id="in3p7jng04mr97m">
-    <display-name>TR: TRT Haber</display-name>
-    <display-name>TRT Haber</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/6/F9/12895/Thumbnail.png?v=636927788705862725"></icon>
-  </channel>
-  <channel id="gil1w2erz9l7imc">
-    <display-name>TR: Haber Türk</display-name>
-    <display-name>Haber Türk</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/V/gp/13350/Thumbnail.png?v=636958855592697509"></icon>
-  </channel>
-  <channel id="9b7ltozvb9c333g">
-    <display-name>TR: 24</display-name>
-    <display-name>24</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/4/eT/13724/Thumbnail.png?v=636947690631933990"></icon>
-  </channel>
-  <channel id="ql8qf4vb46o1h7t">
-    <display-name>TR: A Haber</display-name>
-    <display-name>A Haber</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/L/oz/13722/Thumbnail.png?v=636958840911967163"></icon>
-  </channel>
-  <channel id="9z32hgan37zhgr6">
-    <display-name>TR: TLC</display-name>
-    <display-name>TLC</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/c/ow/13411/Thumbnail.png?v=636927791219697765"></icon>
-  </channel>
-  <channel id="5i5mds6ap6h7m7w">
-    <display-name>TR: TV 100</display-name>
-    <display-name>TV 100</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/d/Ei/15008/Thumbnail.png?v=637036168349837042"></icon>
-  </channel>
-  <channel id="pr3t0gzb7bxbc27">
-    <display-name>TR: CNBC-E</display-name>
-    <display-name>CNBC-E</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/6/tJ/96832/Thumbnail.png?v=638536021018302048"></icon>
-  </channel>
-  <channel id="3kluptlla8k8re0">
-    <display-name>TR: Ekol TV</display-name>
-    <display-name>Ekol TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/n/1w/96071/Thumbnail.png?v=638500624221448284"></icon>
-  </channel>
-  <channel id="edf3lp61qexxxhl">
-    <display-name>TR: Beyaz TV</display-name>
-    <display-name>Beyaz TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/N/NI/13571/Thumbnail.png?v=636962983923810541"></icon>
-  </channel>
-  <channel id="njoweqtgl6xngkj">
-    <display-name>TR: TV Net</display-name>
-    <display-name>TV Net</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/W/KZ/13523/Thumbnail.png?v=636927753183594806"></icon>
-  </channel>
-  <channel id="bwmpobxuqn2pz87">
-    <display-name>TR: Haber Global</display-name>
-    <display-name>Haber Global</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/d/R2/13858/Thumbnail.png?v=636945436708801114"></icon>
-  </channel>
-  <channel id="cphtdpl9j70cn3a">
-    <display-name>TR: 360</display-name>
-    <display-name>360</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/g/tH/13726/Thumbnail.png?v=637688915842503345"></icon>
-  </channel>
-  <channel id="4nu4fjjhm0y6wqm">
-    <display-name>TR: Bloomberg HT</display-name>
-    <display-name>Bloomberg HT</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/j/Q7/13734/Thumbnail.png?v=636948480200618498"></icon>
-  </channel>
-  <channel id="qz2fp61itc8xm4g">
-    <display-name>TR: TGRT Haber</display-name>
-    <display-name>TGRT Haber</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/A/SU/13405/Thumbnail.png?v=636926423353172180"></icon>
-  </channel>
-  <channel id="6sokobdd9dwe0gl">
-    <display-name>TR: DMAX</display-name>
-    <display-name>DMAX</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/D/5X/11893/Thumbnail.png?v=636962985661490103"></icon>
-  </channel>
-  <channel id="pd29xh24glvq4qz">
-    <display-name>TR: TV 8,5</display-name>
-    <display-name>TV 8,5</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/j/3s/13867/Thumbnail.png?v=636948472402801171"></icon>
-  </channel>
-  <channel id="kanaalkyymvqcjf">
-    <display-name>TR: Ülke TV</display-name>
-    <display-name>Ülke TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/R/oy/13522/Thumbnail.png?v=636927749233817129"></icon>
-  </channel>
-  <channel id="ho3hqyj532i2yns">
-    <display-name>TR: CNN International</display-name>
-    <display-name>CNN International</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/T/PK/11898/Thumbnail.png?v=636958854708564755"></icon>
-  </channel>
-  <channel id="i41ex8qwi3lbfda">
-    <display-name>TR: BBC World News</display-name>
-    <display-name>BBC World News</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/p/XZ/11897/Thumbnail.png?v=636927762970840516"></icon>
-  </channel>
-  <channel id="8yfvm8ak2t1qoe6">
-    <display-name>TR: A Para</display-name>
-    <display-name>A Para</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/v/7e/13515/Thumbnail.png?v=636927795189199961"></icon>
-  </channel>
-  <channel id="g2zooieqp6gaj3p">
-    <display-name>TR: BBC Earth</display-name>
-    <display-name>BBC Earth</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/e/Bj/11896/Thumbnail.png?v=636996527021886315"></icon>
-  </channel>
-  <channel id="ys3u67behnfi0e4">
-    <display-name>TR: Viasat History</display-name>
-    <display-name>Viasat History</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/t/hI/13387/Thumbnail.png?v=636927790293842950"></icon>
-  </channel>
-  <channel id="ft5p8rmwn4g7jvq">
-    <display-name>TR: DocuScreen</display-name>
-    <display-name>DocuScreen</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/_/wh/11899/Thumbnail.png?v=638348556015283678"></icon>
-  </channel>
-  <channel id="j4uiabn5xammx3v">
-    <display-name>TR: Discovery Channel</display-name>
-    <display-name>Discovery Channel</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/r/9C/11894/Thumbnail.png?v=637523447444009285"></icon>
-  </channel>
-  <channel id="2jvihz5pw9wx6d7">
-    <display-name>TR: Discovery ID</display-name>
-    <display-name>Discovery ID</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/b/vE/11891/Thumbnail.png?v=638396909362573214"></icon>
-  </channel>
-  <channel id="iv9gmlmq573m0oh">
-    <display-name>TR: History Channel</display-name>
-    <display-name>History Channel</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/y/Ey/37198/Thumbnail.png?v=637554127141657600"></icon>
-  </channel>
-  <channel id="4em7b4br5vma9yj">
-    <display-name>TR: National Geographic</display-name>
-    <display-name>National Geographic</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/V/zw/16198/Thumbnail.png?v=637080263252321251"></icon>
-  </channel>
-  <channel id="apmg8igi7adzv2b">
-    <display-name>TR: National Geographic WILD</display-name>
-    <display-name>National Geographic WILD</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/U/GH/16199/Thumbnail.png?v=637141612229716915"></icon>
-  </channel>
-  <channel id="88oije83mzjknlj">
-    <display-name>TR: Tarih Tv</display-name>
-    <display-name>Tarih Tv</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/1/Fd/58626/Thumbnail.png?v=638288263696795101"></icon>
-  </channel>
-  <channel id="80spas00o3iq47a">
-    <display-name>TR: TRT Belgesel</display-name>
-    <display-name>TRT Belgesel</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/h/RM/13866/Thumbnail.png?v=636947664979131552"></icon>
-  </channel>
-  <channel id="dhffm2ztdduph7d">
-    <display-name>TR: Fashion TV</display-name>
-    <display-name>Fashion TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/E/I9/11901/Thumbnail.png?v=636996531102325033"></icon>
-  </channel>
-  <channel id="whnrls5cftyh2pq">
-    <display-name>TR: Spor Çoklu Ekran</display-name>
-    <display-name>Spor Çoklu Ekran</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/n/72/96693/Thumbnail.png?v=638597449747727277"></icon>
-  </channel>
-  <channel id="asbn5a2bt7jwmlx">
-    <display-name>TR: GameScreen</display-name>
-    <display-name>GameScreen</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/-/q4/14484/Thumbnail.png?v=638348556708156102"></icon>
-  </channel>
-  <channel id="zh2wdom4ilyc72o">
-    <display-name>TR: NBA TV</display-name>
-    <display-name>NBA TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/o/DZ/11903/Thumbnail.png?v=636927787333409925"></icon>
-  </channel>
-  <channel id="dbd4aka7iu29rko">
-    <display-name>TR: Love Nature</display-name>
-    <display-name>Love Nature</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/u/6a/18359/Thumbnail.png?v=637194414598070635"></icon>
-  </channel>
-  <channel id="jgxiih7f6yhagpj">
-    <display-name>TR: Tay TV</display-name>
-    <display-name>Tay TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/P/4W/13572/Thumbnail.png?v=638552909862866834"></icon>
-  </channel>
-  <channel id="y923gh68shk17yg">
-    <display-name>TR: Eurosport 1</display-name>
-    <display-name>Eurosport 1</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/L/Ra/11892/Thumbnail.png?v=637523448547534467"></icon>
-  </channel>
-  <channel id="06egvxmyr7v63rt">
-    <display-name>TR: Eurosport 2</display-name>
-    <display-name>Eurosport 2</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/h/Ws/11900/Thumbnail.png?v=637523448763020339"></icon>
-  </channel>
-  <channel id="hy60v58wviqi59g">
-    <display-name>TR: Spor Smart</display-name>
-    <display-name>Spor Smart</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/p/el/11909/Thumbnail.png?v=636989786506964094"></icon>
-  </channel>
-  <channel id="spgsorunhgejuu2">
-    <display-name>TR: HT Spor</display-name>
-    <display-name>HT Spor</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/u/S4/98405/Thumbnail.png?v=638621736619578533"></icon>
-  </channel>
-  <channel id="v25znppc6itjprw">
-    <display-name>TR: A Spor</display-name>
-    <display-name>A Spor</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/r/qJ/13729/Thumbnail.png?v=636958841750981510"></icon>
-  </channel>
-  <channel id="p3gh20crf1a3wk9">
-    <display-name>TR: FightScreen</display-name>
-    <display-name>FightScreen</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/6/7E/11911/Thumbnail.png?v=638348556372466529"></icon>
-  </channel>
-  <channel id="3ujaqeerxs18oki">
-    <display-name>TR: Spor Smart 2</display-name>
-    <display-name>Spor Smart 2</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/a/Bl/14585/Thumbnail.png?v=636996602766471783"></icon>
-  </channel>
-  <channel id="jemrsooej8d8jku">
-    <display-name>TR: FB TV</display-name>
-    <display-name>FB TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/g/fi/13391/Thumbnail.png?v=636926454802035450"></icon>
-  </channel>
-  <channel id="9y924hp9aej8sws">
-    <display-name>TR: Sports TV</display-name>
-    <display-name>Sports TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/S/IP/11910/Thumbnail.png?v=636844561916855787"></icon>
-  </channel>
-  <channel id="v0kvdikxec8nngd">
-    <display-name>TR: TRT Spor</display-name>
-    <display-name>TRT Spor</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/l/MK/11888/Thumbnail.png?v=636927786114521514"></icon>
-  </channel>
-  <channel id="1yyvuttcurbkcnr">
-    <display-name>TR: Trt Spor Yıldız</display-name>
-    <display-name>Trt Spor Yıldız</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/h/NK/15953/Thumbnail.png?v=637572951690838556"></icon>
-  </channel>
-  <channel id="rjxdtygyec6mqjz">
-    <display-name>TR: Ulusal TV</display-name>
-    <display-name>Ulusal TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/B/M1/13568/Thumbnail.png?v=636928346850541326"></icon>
-  </channel>
-  <channel id="5zoe73avn97ggnt">
-    <display-name>TR: SZC TV</display-name>
-    <display-name>SZC TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/I/XZ/54352/Thumbnail.png?v=638149808545159761"></icon>
-  </channel>
-  <channel id="8xihgna8cyvdnyd">
-    <display-name>TR: ShowMax</display-name>
-    <display-name>ShowMax</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/f/np/13872/Thumbnail.png?v=636996545585843191"></icon>
-  </channel>
-  <channel id="jgskjh5s5asjefn">
-    <display-name>TR: Cine 1</display-name>
-    <display-name>Cine 1</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/H/00/73067/Thumbnail.png?v=638406348179879850"></icon>
-  </channel>
-  <channel id="dcvjjrhl589eupg">
-    <display-name>TR: Akit</display-name>
-    <display-name>Akit</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/E/lr/13378/Thumbnail.png?v=636926430128106828"></icon>
-  </channel>
-  <channel id="nzdc0yd5xxv43yl">
-    <display-name>TR: TRT 2</display-name>
-    <display-name>TRT 2</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/C/kv/13373/Thumbnail.png?v=636927792336389851"></icon>
-  </channel>
-  <channel id="xe24vekaidpsql3">
-    <display-name>TR: TRT Türk</display-name>
-    <display-name>TRT Türk</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/7/LM/13383/Thumbnail.png?v=636948481384503838"></icon>
-  </channel>
-  <channel id="18ws4yk42js588h">
-    <display-name>TR: TRT Müzik</display-name>
-    <display-name>TRT Müzik</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/0/IE/13382/Thumbnail.png?v=636927792043085296"></icon>
-  </channel>
-  <channel id="4af991lg9bt72h4">
-    <display-name>TR: Dream TV</display-name>
-    <display-name>Dream TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/l/IR/13524/Thumbnail.png?v=636958830545927787"></icon>
-  </channel>
-  <channel id="ttlji9eholru11x">
-    <display-name>TR: Dream Türk</display-name>
-    <display-name>Dream Türk</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/u/4w/13361/Thumbnail.png?v=636958831541944426"></icon>
-  </channel>
-  <channel id="82e4q3ribmz2mt1">
-    <display-name>TR: Power Türk</display-name>
-    <display-name>Power Türk</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/I/9w/13573/Thumbnail.png?v=636948497636014786"></icon>
-  </channel>
-  <channel id="y6b7sdc6s0f0ba0">
-    <display-name>TR: Power TV</display-name>
-    <display-name>Power TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/l/qg/13574/Thumbnail.png?v=636948497425060525"></icon>
-  </channel>
-  <channel id="1e86wcxlfqvru6z">
-    <display-name>TR: Cartoon Network</display-name>
-    <display-name>Cartoon Network</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/c/_s/13870/Thumbnail.png?v=636948470239732792"></icon>
-  </channel>
-  <channel id="ux5d9z3b7159syr">
-    <display-name>TR: Çocuk Smart</display-name>
-    <display-name>Çocuk Smart</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/_/-b/11912/Thumbnail.png?v=638621736129920108"></icon>
-  </channel>
-  <channel id="80jhqxokwm6m8lw">
-    <display-name>TR: Cartoonito</display-name>
-    <display-name>Cartoonito</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/9/Bn/13518/Thumbnail.png?v=638293698417878155"></icon>
-  </channel>
-  <channel id="r8096pfnpfuk6af">
-    <display-name>TR: Baby TV</display-name>
-    <display-name>Baby TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/V/vi/11890/Thumbnail.png?v=636947695571206905"></icon>
-  </channel>
-  <channel id="phekqx3pyw2wiiq">
-    <display-name>TR: Minika GO</display-name>
-    <display-name>Minika GO</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/I/WS/13404/Thumbnail.png?v=638537872180344695"></icon>
-  </channel>
-  <channel id="ybv52n8pldp0lfq">
-    <display-name>TR: TRT Çocuk</display-name>
-    <display-name>TRT Çocuk</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/L/_2/13369/Thumbnail.png?v=637715262329556939"></icon>
-  </channel>
-  <channel id="mg9iynssfpq44mh">
-    <display-name>TR: Da Vinci Learning</display-name>
-    <display-name>Da Vinci Learning</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/r/Qh/11907/Thumbnail.png?v=636844426569873302"></icon>
-  </channel>
-  <channel id="gzvqhrj3ilvy8wp">
-    <display-name>TR: Moonbug</display-name>
-    <display-name>Moonbug</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/0/xE/70184/Thumbnail.png?v=638345059276546324"></icon>
-  </channel>
-  <channel id="1mw2ju4imu3nh0h">
-    <display-name>TR: Disney Junior</display-name>
-    <display-name>Disney Junior</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/n/ct/22903/Thumbnail.png?v=638532647170877888"></icon>
-  </channel>
-  <channel id="52hjq0o16nwpdnq">
-    <display-name>TR: Minika Çocuk</display-name>
-    <display-name>Minika Çocuk</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/2/Q2/13402/Thumbnail.png?v=638537872552128654"></icon>
-  </channel>
-  <channel id="142xf33gzvrsxin">
-    <display-name>TR: TRT EBA</display-name>
-    <display-name>TRT EBA</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/t/jM/18446/Thumbnail.png?v=638403136181073375"></icon>
-  </channel>
-  <channel id="85vcygdgu27fg6o">
-    <display-name>TR: Luys TV</display-name>
-    <display-name>Luys TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/x/-N/41259/Thumbnail.png?v=637698317263843574"></icon>
-  </channel>
-  <channel id="lfy6n9j2a6wggcf">
-    <display-name>TR: ON6 TV</display-name>
-    <display-name>ON6 TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/I/xI/99040/Thumbnail.png?v=638631039820290115"></icon>
-  </channel>
-  <channel id="imohs5fyptw23ih">
-    <display-name>TR: TV 264</display-name>
-    <display-name>TV 264</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/E/rf/54954/Thumbnail.png?v=638161189679837418"></icon>
-  </channel>
-  <channel id="d1exl1gxity48nl">
-    <display-name>TR: Halk TV</display-name>
-    <display-name>Halk TV</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/S/_q/13566/Thumbnail.png?v=637716231154178099"></icon>
-  </channel>
-  <channel id="2m3k6xyjyek7djr">
-    <display-name>TR: Tele 1</display-name>
-    <display-name>Tele 1</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/z/c_/13569/Thumbnail.png?v=636928351928413811"></icon>
-  </channel>
-  <channel id="10bd6fhoe76yplp">
-    <display-name>TR: Flash Haber</display-name>
-    <display-name>Flash Haber</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/9/aZ/46627/Thumbnail.png?v=637873563162407881"></icon>
-  </channel>
-  <channel id="fc29p3wbp8wkgo4">
-    <display-name>TR: a2</display-name>
-    <display-name>a2</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/U/q8/13412/Thumbnail.png?v=636958843746603410"></icon>
-  </channel>
-  <channel id="j1x67766q1lr7r6">
-    <display-name>TR: TRT World</display-name>
-    <display-name>TRT World</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/Z/NK/12176/Thumbnail.png?v=636947699179076182"></icon>
-  </channel>
-  <channel id="u552n6w4dkv49wz">
-    <display-name>TR: TRT Kurdi</display-name>
-    <display-name>TRT Kurdi</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/4/uH/13380/Thumbnail.png?v=636926490261173885"></icon>
-  </channel>
-  <channel id="p6sz5lndgfas2r9">
-    <display-name>TR: TRT Avaz</display-name>
-    <display-name>TRT Avaz</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/N/ix/13413/Thumbnail.png?v=636926486489178825"></icon>
-  </channel>
-  <channel id="xhpe5if509ydrlc">
-    <display-name>TR: TRT El Arabiya</display-name>
-    <display-name>TRT El Arabiya</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/8/qW/13521/Thumbnail.png?v=636945419374933809"></icon>
-  </channel>
-  <channel id="iyek9wzpyn3tiym">
-    <display-name>TR: A News HD</display-name>
-    <display-name>A News HD</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/t/Os/13719/Thumbnail.png?v=636958847745172398"></icon>
-  </channel>
-  <channel id="5fmmsvfol2xgcvw">
-    <display-name>TR: NHK (İngilizce)</display-name>
-    <display-name>NHK (İngilizce)</display-name>
-    <icon src="https://dsmart-static-v2.ercdn.net/content/c/Po/13865/Thumbnail.png?v=636948477832691316"></icon>
-  </channel>
-  <channel id="rwvzrcjs58np9x1">
-    <display-name>TR: beIN SERIES 1</display-name>
-    <display-name>beIN SERIES 1</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/beIN-SERIES-DIGITAL-mono-color-1-250x150.png"></icon>
-  </channel>
-  <channel id="8gyx5oguxub03d8">
-    <display-name>TR: beIN</display-name>
-    <display-name>beIN</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_bein_hd.png"></icon>
-  </channel>
-  <channel id="3nf4auqixd4rba4">
-    <display-name>TR: beIN MOVIES PREMIERE</display-name>
-    <display-name>beIN MOVIES PREMIERE</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_Bein_Movies_Premiere_250x150_2022.png"></icon>
-  </channel>
-  <channel id="k83zn0lwp9hqd4r">
-    <display-name>TR: beIN MOVIES TURK</display-name>
-    <display-name>beIN MOVIES TURK</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_Bein_Movies_Turk_250x150_2022.png"></icon>
-  </channel>
-  <channel id="b1nhamjv2s6dkz5">
-    <display-name>TR: beIN MOVIES STARS</display-name>
-    <display-name>beIN MOVIES STARS</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_Bein_Movies_Stars_250x150_2022.png"></icon>
-  </channel>
-  <channel id="ycq1qsieo2axxxa">
-    <display-name>TR: beIN SERIES 2</display-name>
-    <display-name>beIN SERIES 2</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/beIN-SERIES-DIGITAL-mono-color-2-250x150.png"></icon>
-  </channel>
-  <channel id="9y7146q6c2x1ggv">
-    <display-name>TR: beIN İZ</display-name>
-    <display-name>beIN İZ</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_bein_iz_250x150_2022.png"></icon>
-  </channel>
-  <channel id="ksb59y8cwdwc73h">
-    <display-name>TR: beIN H&amp;E</display-name>
-    <display-name>beIN H&amp;E</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_Bein_HE_250x150_2022.png"></icon>
-  </channel>
-  <channel id="lyt59dflv5fqcie">
-    <display-name>TR: beIN GURME</display-name>
-    <display-name>beIN GURME</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_Gurme_250x150_2022.png"></icon>
-  </channel>
-  <channel id="26jgkrkwnm8i0nc">
-    <display-name>TR: beIN SPORTS 1</display-name>
-    <display-name>beIN SPORTS 1</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport1_250x150_2022.png"></icon>
-  </channel>
-  <channel id="29rskladm0k47lp">
-    <display-name>TR: beIN SPORTS 2</display-name>
-    <display-name>beIN SPORTS 2</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport2_250x150_2022.png"></icon>
-  </channel>
-  <channel id="8652d76fpu36r16">
-    <display-name>TR: beIN SPORTS 3</display-name>
-    <display-name>beIN SPORTS 3</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport3_250x150_2022.png"></icon>
-  </channel>
-  <channel id="vmegi5dthu45z2f">
-    <display-name>TR: beIN SPORTS 4</display-name>
-    <display-name>beIN SPORTS 4</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport4_250x150_2022.png"></icon>
-  </channel>
-  <channel id="dnndu3tyknd1bcw">
-    <display-name>TR: beIN SPORTS 5</display-name>
-    <display-name>beIN SPORTS 5</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/beIN_SPORTS5_250x150.png"></icon>
-  </channel>
-  <channel id="8f0qdc0ylzir13f">
-    <display-name>TR: beIN SPORTS MAX 1</display-name>
-    <display-name>beIN SPORTS MAX 1</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w3_Sport_Max1_250x150_2022.png"></icon>
-  </channel>
-  <channel id="r41n5hb48xa5gbu">
-    <display-name>TR: beIN SPORTS MAX 2</display-name>
-    <display-name>beIN SPORTS MAX 2</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w3_Sport_Max2_250x150_2022.png"></icon>
-  </channel>
-  <channel id="kazwkgx73ijjqob">
-    <display-name>TR: beIN SPORTS HABER</display-name>
-    <display-name>beIN SPORTS HABER</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/bein_sports_yeni_HABER_250x150_.png"></icon>
-  </channel>
-  <channel id="n2285f98f1mgnkw">
-    <display-name>TR: MEZZO</display-name>
-    <display-name>MEZZO</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/MEZZO250.png"></icon>
-  </channel>
-  <channel id="d9p3jtkr10pazku">
-    <display-name>TR: MTV 00s</display-name>
-    <display-name>MTV 00s</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/mtv_00_250x250.png"></icon>
-  </channel>
-  <channel id="15gc2gph348g1f7">
-    <display-name>TR: MCM TOP</display-name>
-    <display-name>MCM TOP</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/MCM_Top250x150.png"></icon>
-  </channel>
-  <channel id="smkbw5kiu41ol68">
-    <display-name>TR: MTV LIVE</display-name>
-    <display-name>MTV LIVE</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/MTV_Live_2021_logo.svg250X150.png"></icon>
-  </channel>
-  <channel id="i1bz1eu5u9xm3hn">
-    <display-name>TR: MTV HITS</display-name>
-    <display-name>MTV HITS</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/mtvhits_240x150.png"></icon>
-  </channel>
-  <channel id="5bas269k1hs5sdw">
-    <display-name>TR: FASHION TV</display-name>
-    <display-name>FASHION TV</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/fashion-250x150.png"></icon>
-  </channel>
-  <channel id="whqmizrqae8ppqz">
-    <display-name>TR: BBC FIRST</display-name>
-    <display-name>BBC FIRST</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/bbc_first_250x150.png"></icon>
-  </channel>
-  <channel id="uuwvvbf0wdjf5hn">
-    <display-name>TR: RAI1</display-name>
-    <display-name>RAI1</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/rai.png"></icon>
-  </channel>
-  <channel id="hqpgt8kixfdtjom">
-    <display-name>TR: CBeebies</display-name>
-    <display-name>CBeebies</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/cbebies_250x150.png"></icon>
-  </channel>
-  <channel id="yn3u7x882ioziyu">
-    <display-name>TR: NICK JR</display-name>
-    <display-name>NICK JR</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/nickjr250x150.png"></icon>
-  </channel>
-  <channel id="7d1ixcc6brehyub">
-    <display-name>TR: NICKELODEON SD</display-name>
-    <display-name>NICKELODEON HD</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/nick_hd_250x150.png"></icon>
-  </channel>
-  <channel id="4mbq1qpwfwed3dq">
-    <display-name>TR: BBC EARTH</display-name>
-    <display-name>BBC EARTH</display-name>
-    <icon src="https://mediacms01.digiturkplay.com/channel_logo/bbcEARTH250X150.png"></icon>
-  </channel>
-</tv>
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20261113080002 +0000" generator-info-name="Playlist Turquia XMLTV sincronizado" generator-info-url="https://epg.pw" source-info-name="FREE EPG" source-info-url="https://epg.pw/xmltv/epg_lite.xml"><channel id="24.TV.tr"><display-name>24 TV</display-name><icon src="https://www.tvlogo.org/turkey/24-tr.png" /><category>NOTÍCIAS</category></channel><channel id="LiderHaber.tr"><display-name>Lider Haber</display-name><icon src="https://i.ibb.co/0j6pWsPt/Liderhaber.png" /><category>NOTÍCIAS</category></channel><channel id="360.tr"><display-name>360 TV</display-name><icon src="https://i.ibb.co/s3gJCGL/360.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.4utv"><display-name>4U TV</display-name><icon src="https://www.lyngsat.com/logo/tv/num/4u-tv-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="A.HABER.tr"><display-name>A Haber</display-name><icon src="https://www.tvlogo.org/turkey/a-haber-tr.png" /><category>NOTÍCIAS</category></channel><channel id="A.PARA.tr"><display-name>A Para</display-name><icon src="https://www.tvlogo.org/turkey/a-para-tr.png" /><category>NOTÍCIAS</category></channel><channel id="ASpor.tr"><display-name>A Spor</display-name><icon src="https://www.tvlogo.org/turkey/a-spor-tr.png" /><category>ESPORTES</category></channel><channel id="A2.tr"><display-name>A2</display-name><icon src="https://www.tvlogo.org/turkey/a2-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.aksutv"><display-name>Aksu TV</display-name><icon src="https://www.tvlogo.org/turkey/aksu-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.alzahratvturkic"><display-name>Al-Zahra TV Turkic</display-name><icon src="https://i.imgur.com/QEHKGnG.png" /><category>RELIGIOSOS</category></channel><channel id="custom.alanyapostatv"><display-name>Alanya Posta TV</display-name><icon src="https://www.alanyapostatv.com/wp-content/uploads/2019/03/ap_logo_trnsp_red.png" /><category>REGIONAIS</category></channel><channel id="custom.almahriahtv"><display-name>Almahriah TV</display-name><icon src="https://i.imgur.com/GgEeTNr.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.altastv"><display-name>Altas TV</display-name><icon src="https://www.tvlogo.org/turkey/altas-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.anadolutv"><display-name>Anadolu TV</display-name><icon src="https://images.weserv.nl/?url=canlitv.com%2Fkanal%2Flogo%2F13394.jpg&amp;output=png" /><category>REGIONAIS</category></channel><channel id="custom.arastv"><display-name>ARAS TV</display-name><icon src="https://i.imgur.com/JsDCyWG.png" /><category>REGIONAIS</category></channel><channel id="AS.TV.tr"><display-name>AS TV</display-name><icon src="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png" /><category>NOTÍCIAS</category></channel><channel id="ATV.tr"><display-name>ATV</display-name><icon src="https://www.tvlogo.org/turkey/atv-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.atvalanya"><display-name>ATV Alanya</display-name><icon src="https://i.imgur.com/bUwarR0.png" /><category>REGIONAIS</category></channel><channel id="custom.benguturk"><display-name>Bengü Türk</display-name><icon src="https://www.tvlogo.org/turkey/bengu-turk-tr.png" /><category>NOTÍCIAS</category></channel><channel id="BEYAZ.TV.tr"><display-name>Beyaz TV</display-name><icon src="https://www.tvlogo.org/turkey/beyaz-tv-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="Bi.Kanal.tr"><display-name>Bİ KANAL</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Bi-kanal-logo.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.birtv"><display-name>Bir TV</display-name><icon src="https://www.lyngsat.com/logo/tv/bb/bir-tv-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="BLOOMBERG.HT.tr"><display-name>Bloomberg HT</display-name><icon src="https://www.tvlogo.org/turkey/bloomberg-ht-tr.png" /><category>NOTÍCIAS</category></channel><channel id="BloombergHT.tr"><display-name>Bloomberg HT 2</display-name><icon src="https://www.tvlogo.org/turkey/bloomberg-ht-tr.png" /><category>NOTÍCIAS</category></channel><channel id="custom.brtvkarabuk"><display-name>BRTV Karabük</display-name><icon src="https://www.tvlogo.org/turkey/brtv-tr.png" /><category>REGIONAIS</category></channel><channel id="CartoonNetwork.tr"><display-name>Cartoon Network Türkiye</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" /><category>INFANTIS</category></channel><channel id="custom.cine1"><display-name>CİNE1</display-name><icon src="https://www.lyngsat.com/logo/tv/cc/cine-1-tr.png" /><category>FILMES E SÉRIES</category></channel><channel id="custom.cnbce"><display-name>CNBC-e</display-name><icon src="https://i.ibb.co/kcpSwmK/cnbce.png" /><category>NOTÍCIAS</category></channel><channel id="CNN.TÜRK.tr"><display-name>CNN Türk</display-name><icon src="https://www.tvlogo.org/turkey/cnn-turk-tr.png" /><category>NOTÍCIAS</category></channel><channel id="custom.caytv"><display-name>Çay TV</display-name><icon src="https://www.tvlogo.org/turkey/cay-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="ÇİFTÇİ.TV.tr"><display-name>Çiftçi TV</display-name><icon src="https://www.tvlogo.org/turkey/ciftci-tv-tr.png" /><category>CULTURA/EDUCAÇÃO</category></channel><channel id="custom.denizpostastv"><display-name>Deniz Postası TV</display-name><icon src="https://i.imgur.com/aSKwxSY.png" /><category>REGIONAIS</category></channel><channel id="custom.dha"><display-name>DHA</display-name><icon src="https://commons.wikimedia.org/wiki/Special:FilePath/DHA%20logo.png" /><category>NOTÍCIAS</category></channel><channel id="custom.dimtv"><display-name>Dim TV</display-name><icon src="https://www.tvlogo.org/turkey/dim-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="DİYANET.TV.tr"><display-name>Diyanet TV</display-name><icon src="https://www.tvlogo.org/turkey/diyanet-tv-tr.png" /><category>RELIGIOSOS</category></channel><channel id="custom.diyartv"><display-name>Diyar TV</display-name><icon src="https://www.tvlogo.org/turkey/diyar-tv-tr.png" /><category>RELIGIOSOS</category></channel><channel id="DOST.TV.tr"><display-name>Dost TV</display-name><icon src="https://www.tvlogo.org/turkey/dost-tv-tr.png" /><category>RELIGIOSOS</category></channel><channel id="DREAM.TÜRK.tr"><display-name>Dream Türk</display-name><icon src="https://www.tvlogo.org/turkey/dream-turk-tr.png" /><category>MÚSICA</category></channel><channel id="custom.edessatv"><display-name>Edessa TV</display-name><icon src="https://www.tvlogo.org/turkey/edessa-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="EKOTÜRK.tr"><display-name>Ekotürk</display-name><icon src="https://www.tvlogo.org/turkey/ekoturk-tr.png" /><category>NOTÍCIAS</category></channel><channel id="custom.elsharqtv"><display-name>Elsharq TV</display-name><icon src="https://www.lyngsat.com/logo/tv/ee/elsharq-tv-tr.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.ertvmalatya"><display-name>ER TV Malatya</display-name><icon src="https://www.tvlogo.org/turkey/er-tv-malatya-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.erciyestv"><display-name>Erciyes TV</display-name><icon src="https://www.tvlogo.org/turkey/erciyes-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.erzurumwebtv"><display-name>Erzurum Web TV</display-name><icon src="https://www.tvlogo.org/turkey/erzurum-web-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.estv"><display-name>ES TV</display-name><icon src="https://www.tvlogo.org/turkey/es-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.etv"><display-name>ETV</display-name><icon src="https://www.tvlogo.org/turkey/etv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.eurod"><display-name>Euro D</display-name><icon src="https://www.tvlogo.org/turkey/euro-d-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.ezgitv"><display-name>Ezgi TV</display-name><icon src="https://www.tvlogo.org/turkey/ezgi-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="FB.TV.tr"><display-name>FB TV</display-name><icon src="https://www.tvlogo.org/turkey/fenerbahce-tv-tr.png" /><category>ESPORTES</category></channel><channel id="FlashHaberTV.tr"><display-name>Flash Haber TV</display-name><icon src="https://commons.wikimedia.org/wiki/Special:FilePath/Flash_haber_tv_2025.png" /><category>NOTÍCIAS</category></channel><channel id="custom.fortunatv"><display-name>Fortuna TV</display-name><icon src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTbJMXjAlD1xbe1-cdkrKin_Fvjgn31p6OH6kGPCH9tgU3yNA7hnIpVlQujxENFqb_zIYqTgnVQuYDYOn7QMt70H6zdyIMzha0tZfe67edVwDviIkS4HKxBdLoFqa0OVcCemypPzN0bCK4xloJeccUYHs5ONu8_NhpGRZV_0J4Yz9smcnrX6gAFJ7TwE/s277/-%20fortunaTV1080FTV2024F.png" /><category>ESTILO DE VIDA</category></channel><channel id="fashionone.local"><display-name>FASHION ONE</display-name><icon src="https://i.ibb.co/9grLJCS/fone22.png" /><category>ESTILO DE VIDA</category></channel><channel id="custom.frttv"><display-name>FRT TV</display-name><icon src="https://www.tvlogo.org/turkey/frt-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.grandcinema"><display-name>Grand Cinema</display-name><icon src="https://www.lyngsat.com/logo/tv/gg/grand-cinema.png" /><category>FILMES E SÉRIES</category></channel><channel id="custom.grtgazianteptv"><display-name>GRT Gaziantep TV</display-name><icon src="https://www.tvlogo.org/turkey/grt-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="HABER.GLOBAL.tr"><display-name>Haber Global</display-name><icon src="https://www.tvlogo.org/turkey/haber-global-tr.png" /><category>NOTÍCIAS</category></channel><channel id="custom.haber61tv"><display-name>Haber61 TV</display-name><icon src="https://www.tvlogo.org/turkey/haber61-tv-tr.png" /><category>NOTÍCIAS</category></channel><channel id="HABERTÜRK.tr"><display-name>Habertürk</display-name><icon src="https://www.tvlogo.org/turkey/haberturk-tr.png" /><category>NOTÍCIAS</category></channel><channel id="HALK.TV.tr"><display-name>Halk TV</display-name><icon src="https://www.tvlogo.org/turkey/halk-tv-tr.png" /><category>NOTÍCIAS</category></channel><channel id="custom.htsportv"><display-name>HT Spor TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ht-spor-buyuk.webp/275px-Ht-spor-buyuk.webp.png" /><category>ESPORTES</category></channel><channel id="custom.guneydogutv"><display-name>Güneydoğu TV</display-name><icon src="https://i.imgur.com/JT5pp3Y.png" /><category>REGIONAIS</category></channel><channel id="custom.hunattv"><display-name>Hunat TV</display-name><icon src="https://www.tvlogo.org/turkey/hunat-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.iceltv"><display-name>İçel TV</display-name><icon src="https://i.imgur.com/CGwImKv.png" /><category>REGIONAIS</category></channel><channel id="custom.ilketv"><display-name>İlke TV</display-name><icon src="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" /><category>NOTÍCIAS</category></channel><channel id="custom.kkayseri"><display-name>K+ Kayseri</display-name><icon src="https://www.tvlogo.org/turkey/kplus-kayseri-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kanal12"><display-name>Kanal 12</display-name><icon src="https://www.tvlogo.org/turkey/kanal-12-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kanal15"><display-name>Kanal 15</display-name><icon src="https://www.tvlogo.org/turkey/kanal-15-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kanal19"><display-name>Kanal 19</display-name><icon src="https://www.tvlogo.org/turkey/kanal-19-tr.png" /><category>REGIONAIS</category></channel><channel id="KANAL.23.tr"><display-name>Kanal 23</display-name><icon src="https://www.tvlogo.org/turkey/kanal-23-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kanal26eskisehir"><display-name>Kanal 26 Eskişehir</display-name><icon src="https://www.tvlogo.org/turkey/kanal-26-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kanal3"><display-name>Kanal 3</display-name><icon src="https://www.tvlogo.org/turkey/kanal3-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kanal32"><display-name>Kanal 32</display-name><icon src="https://www.tvlogo.org/turkey/kanal-32-tr.png" /><category>REGIONAIS</category></channel><channel id="KANAL.33.tr"><display-name>Kanal 33</display-name><icon src="https://www.tvlogo.org/turkey/kanal-33-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kanal34"><display-name>Kanal 34</display-name><icon src="https://www.tvlogo.org/turkey/kanal-34-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kanal53"><display-name>Kanal 53</display-name><icon src="https://www.tvlogo.org/turkey/kanal-53-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kanal58"><display-name>Kanal 58</display-name><icon src="https://www.tvlogo.org/turkey/kanal-58-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kanal7avrupa"><display-name>Kanal 7 Avrupa</display-name><icon src="https://www.tvlogo.org/turkey/kanal-7-avrupa-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.kanalavrupa"><display-name>Kanal Avrupa</display-name><icon src="https://www.tvlogo.org/turkey/kanal-avrupa-tr.png" /><category>INTERNACIONAIS</category></channel><channel id="KANAL.B.tr"><display-name>Kanal B</display-name><icon src="https://www.tvlogo.org/turkey/kanal-b-tr.png" /><category>REGIONAIS</category></channel><channel id="KANAL.D.tr"><display-name>Kanal D</display-name><icon src="https://www.tvlogo.org/turkey/kanal-d-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.kanalddrama"><display-name>Kanal D Drama</display-name><icon src="https://www.tvlogo.org/turkey/kanal-d-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.kanalfrat"><display-name>Kanal Fırat</display-name><icon src="https://www.tvlogo.org/turkey/kanal-firat-tr.png" /><category>REGIONAIS</category></channel><channel id="KANAL.V.tr"><display-name>Kanal V</display-name><icon src="https://www.tvlogo.org/turkey/kanal-v-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kaytv"><display-name>Kay TV</display-name><icon src="https://www.tvlogo.org/turkey/tv-kayseri-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kentturktv"><display-name>Kent Türk TV</display-name><icon src="https://www.tvlogo.org/turkey/kent-turk-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.kocaelitv"><display-name>Kocaeli TV</display-name><icon src="https://www.tvlogo.org/turkey/kocaeli-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.konyaktv"><display-name>Konya KTV</display-name><icon src="https://www.tvlogo.org/turkey/konya-ktv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.konyaolaytv"><display-name>Konya Olay TV</display-name><icon src="https://www.tvlogo.org/turkey/konya-olay-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.lalegultv"><display-name>Lalegül TV</display-name><icon src="https://www.tvlogo.org/turkey/lalegul-tv-tr.png" /><category>RELIGIOSOS</category></channel><channel id="custom.lifetv"><display-name>Life TV</display-name><icon src="https://i.ibb.co/9hCVNks/life-tv.png" /><category>NOTÍCIAS</category></channel><channel id="custom.luystv"><display-name>Luys TV</display-name><icon src="https://www.dsmart.com.tr/api/v1/public/images/kanallar/luys-tv.png" /><category>CULTURA/EDUCAÇÃO</category></channel><channel id="custom.medmuzik"><display-name>Med Müzik</display-name><icon src="https://i.imgur.com/gtUFmCD.png" /><category>MÚSICA</category></channel><channel id="custom.mekameleentv"><display-name>Mekameleen TV</display-name><icon src="https://i.imgur.com/q7iVchl.png" /><category>REGIONAIS</category></channel><channel id="MELTEM.TV.tr"><display-name>Meltem TV</display-name><icon src="https://i.ibb.co/Fq0ZvYG/meltemtvt.png" /><category>RELIGIOSOS</category></channel><channel id="custom.mercantv"><display-name>Mercan TV</display-name><icon src="https://www.tvlogo.org/turkey/mercan-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="MİNİKA.ÇOCUK.tr"><display-name>Minika Çocuk</display-name><icon src="https://www.tvlogo.org/turkey/minika-cocuk-tr.png" /><category>INFANTIS</category></channel><channel id="MİNİKA.GO.tr"><display-name>Minika GO</display-name><icon src="https://www.tvlogo.org/turkey/minika-go-tr.png" /><category>INFANTIS</category></channel><channel id="custom.mturktv"><display-name>MTürk TV</display-name><icon src="https://i.imgur.com/xj1gvrq.png" /><category>REGIONAIS</category></channel><channel id="NOW.tr"><display-name>NOW</display-name><icon src="https://www.tvlogo.org/turkey/now-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.nr1ask"><display-name>NR1 Aşk</display-name><icon src="https://www.tvlogo.org/turkey/nr1-ask-tr.png" /><category>MÚSICA</category></channel><channel id="custom.nr1damar"><display-name>NR1 Damar</display-name><icon src="https://www.tvlogo.org/turkey/nr1-damar-tr.png" /><category>MÚSICA</category></channel><channel id="custom.nr1dance"><display-name>NR1 Dance</display-name><icon src="https://www.tvlogo.org/turkey/nr1-dance-tr.png" /><category>MÚSICA</category></channel><channel id="NTV.tr">
+    <display-name lang="GB">NTV</display-name>
+    <icon src="" />
+  <category>NOTÍCIAS</category></channel>
+  <channel id="custom.number1tv"><display-name>Number 1 TV</display-name><icon src="https://www.tvlogo.org/turkey/number-1-tv-tr.png" /><category>MÚSICA</category></channel><channel id="custom.powerdancetv"><display-name>Power Dance TV</display-name><icon src="https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_40.png" /><category>MÚSICA</category></channel><channel id="custom.powerlovetv"><display-name>Power Love TV</display-name><icon src="https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2559.png" /><category>MÚSICA</category></channel><channel id="custom.powerturktaptaze"><display-name>PowerTürk Taptaze</display-name><icon src="https://i.ibb.co/F5K5xs9/powerturk-taptaze.png" /><category>MÚSICA</category></channel><channel id="mukabeletv.local"><display-name>MUKABELE TV</display-name></channel><channel id="custom.rehbertv"><display-name>Rehber TV</display-name><icon src="https://www.tvlogo.org/turkey/rehber-tv-tr.png" /><category>RELIGIOSOS</category></channel><channel id="custom.sat7turk"><display-name>Sat7 Türk</display-name><icon src="https://www.tvlogo.org/turkey/sat7-turk-tr.png" /><category>RELIGIOSOS</category></channel><channel id="SEMERKAND.TV.tr"><display-name>Semerkand TV</display-name><icon src="https://www.tvlogo.org/turkey/semerkand-tv-tr.png" /><category>RELIGIOSOS</category></channel><channel id="custom.sercemtv"><display-name>Sercem TV</display-name><icon src="https://www.lyngsat.com/logo/tv/ss/sercem-tv-tr.png" /><category>RELIGIOSOS</category></channel><channel id="ShowMax.tr"><display-name>Show Max</display-name><icon src="https://www.tvlogo.org/turkey/show-max-tr.png" /><category>INTERNACIONAIS</category></channel><channel id="SHOW.TV.tr"><display-name>Show TV</display-name><icon src="https://www.tvlogo.org/turkey/show-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.spacetoonturkiye"><display-name>Spacetoon Türkiye</display-name><icon src="https://commons.wikimedia.org/wiki/Special:FilePath/Spacetoon.png" /><category>INFANTIS</category></channel><channel id="STAR.TV.tr"><display-name>Star TV</display-name><icon src="https://www.tvlogo.org/turkey/star-tv-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.taytv"><display-name>TAY TV</display-name><icon src="https://www.tvlogo.org/turkey/tay-tv-tr.png" /><category>ESPORTES</category></channel><channel id="custom.tele1"><display-name>TELE1</display-name><icon src="https://www.tvlogo.org/turkey/tele1-tr.png" /><category>NOTÍCIAS</category></channel><channel id="custom.tempotv"><display-name>Tempo TV</display-name><icon src="https://www.tvlogo.org/turkey/tempo-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="TEVE2.tr"><display-name>teve2</display-name><icon src="https://www.tvlogo.org/turkey/teve2-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="TGRT.HABER.tr"><display-name>TGRT Haber</display-name><icon src="https://www.tvlogo.org/turkey/tgrt-haber-tr.png" /><category>NOTÍCIAS</category></channel><channel id="custom.tivi6"><display-name>Tivi 6</display-name><icon src="https://www.tvlogo.org/turkey/tivi-6-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.tjktv"><display-name>TJK TV</display-name><icon src="https://www.tvlogo.org/turkey/tjk-tv-tr.png" /><category>ESPORTES</category></channel><channel id="custom.tontv"><display-name>Ton TV</display-name><icon src="https://www.tvlogo.org/turkey/ton-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="TRT.1.tr"><display-name>TRT 1</display-name><icon src="https://www.tvlogo.org/turkey/trt-1-tr.png" /><category>ENTRETENIMENTO</category></channel><channel id="TRT.ARABI.tr"><display-name>TRT Arabi</display-name><icon src="https://www.tvlogo.org/turkey/trt-arabi-tr.png" /><category>TRT</category></channel><channel id="TRT.AVAZ.tr"><display-name>TRT Avaz</display-name><icon src="https://www.tvlogo.org/turkey/trt-avaz-tr.png" /><category>TRT</category></channel><channel id="TRT.ÇOCUK.tr"><display-name>TRT Çocuk</display-name><icon src="https://www.tvlogo.org/turkey/trt-cocuk-tr.png" /><category>INFANTIS</category></channel><channel id="custom.trtdiyanetcocuk"><display-name>TRT Diyanet Çocuk</display-name><icon src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/TRT_Diyanet_%C3%87ocuk_logo.svg/330px-TRT_Diyanet_%C3%87ocuk_logo.svg.png?utm_campaign=index&amp;utm_content=thumbnail&amp;utm_source=commons.wikimedia.org" /><category>INFANTIS</category></channel><channel id="custom.trtebaortaokul"><display-name>TRT EBA Ortaokul</display-name><icon src="https://www.tvlogo.org/turkey/trt-eba-tr.png" /><category>CULTURA/EDUCAÇÃO</category></channel><channel id="TRT.GENÇ.tr"><display-name>TRT Genç</display-name><icon src="https://raw.githubusercontent.com/mehmetey03/metvvd/refs/heads/main/image/TRT%20GEN%C3%87.png" /><category>TRT</category></channel><channel id="TRT.HABER.tr"><display-name>TRT Haber</display-name><icon src="https://www.tvlogo.org/turkey/trt-haber-tr.png" /><category>NOTÍCIAS</category></channel><channel id="TRT.KURDİ.tr"><display-name>TRT Kurdî</display-name><icon src="https://www.tvlogo.org/turkey/trt-kurdi-tr.png" /><category>TRT</category></channel><channel id="TRT.MÜZİK.tr"><display-name>TRT Müzik</display-name><icon src="https://i.ibb.co/4gbPpzC/trt-muzik.png" /><category>MÚSICA</category></channel><channel id="custom.kralpop"><display-name>KRAL POP</display-name><icon src="https://i.ibb.co/vk0bKz0/kral-pop.png" /><category>MÚSICA</category></channel><channel id="custom.nr1fashionone"><display-name>NR1 FASHION ONE</display-name><icon src="https://i.ibb.co/HV0x9JZ/fashion-one.png" /><category>MÚSICA</category></channel><channel id="TRT.TÜRK.tr"><display-name>TRT Türk</display-name><icon src="https://www.tvlogo.org/turkey/trt-turk-tr.png" /><category>TRT</category></channel><channel id="TRT.WORLD.tr">
+    <display-name lang="GB">TRT World</display-name>
+    <icon src="" />
+  <category>TRT</category></channel>
+  <channel id="TURKHABER.tr"><display-name>TürkHaber</display-name><icon src="https://www.tvlogo.org/turkey/turk-haber-tr.png" /><category>NOTÍCIAS</category></channel><channel id="TV1.tr"><display-name>TV 1</display-name><icon src="https://www.tvlogo.org/turkey/tv1-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.tv264"><display-name>TV 264</display-name><icon src="https://www.tvlogo.org/turkey/tv-264-sakarya-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.tv41"><display-name>TV 41</display-name><icon src="https://www.tvlogo.org/turkey/tv-41-kocaeli-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.tv52"><display-name>TV 52</display-name><icon src="https://www.tvlogo.org/turkey/tv52-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.tvden"><display-name>TV DEN</display-name><icon src="https://www.tvlogo.org/turkey/tv-den-tr.png" /><category>REGIONAIS</category></channel><channel id="custom.tvkaradeniz"><display-name>TV Karadeniz</display-name><icon src="https://asset.artidijitalmedya.com/image/400x400/channels/v1/logo_103.png?v=15" /><category>CULTURA/EDUCAÇÃO</category></channel><channel id="TV100.tr"><display-name>TV100</display-name><icon src="https://www.tvlogo.org/turkey/tv100-tr.png" /><category>NOTÍCIAS</category></channel><channel id="TV4.tr"><display-name>TV4</display-name><icon src="https://www.tvlogo.org/turkey/tv4-tr.png" /><category>ESTILO DE VIDA</category></channel><channel id="TV8.tr"><display-name>TV8</display-name><icon src="https://i.ibb.co/Kr5SFY1/tv8.png" /><category>ENTRETENIMENTO</category></channel><channel id="TVNET.tr"><display-name>TVNET</display-name><icon src="https://www.tvlogo.org/turkey/tvnet-tr.png" /><category>NOTÍCIAS</category></channel><channel id="custom.vuslattv"><display-name>Vuslat TV</display-name><icon src="https://www.tvlogo.org/turkey/vuslat-tv-tr.png" /><category>REGIONAIS</category></channel><channel id="ÜLKE.TV.tr"><display-name>Ülke TV</display-name><icon src="https://www.tvlogo.org/turkey/ulke-tv-tr.png" /><category>NOTÍCIAS</category></channel><channel id="VAV.TV.tr"><display-name>Vav TV</display-name><icon src="https://www.tvlogo.org/turkey/vav-tv-tr.png" /><category>RELIGIOSOS</category></channel><channel id="custom.zaroktvkurmanji"><display-name>Zarok TV Kurmanji</display-name><icon src="https://www.tvlogo.org/turkey/zarok-tv-tr.png" /><category>INFANTIS</category></channel><channel id="custom.zaroktvsorani"><display-name>Zarok TV Sorani</display-name><icon src="https://www.tvlogo.org/turkey/zarok-tv-tr.png" /><category>INFANTIS</category></channel><channel id="custom.eurostartv"><display-name>Euro Star TV</display-name><icon src="https://www.tvlogo.org/turkey/euro-star-tr.png" /><category>INTERNACIONAIS</category></channel><channel id="SÖZCÜ.TV.tr"><display-name>Sözcü TV</display-name><icon src="https://i.ibb.co/B40rjP3/szc1.png" /><category>NOTÍCIAS</category></channel><channel id="Bein.Sports.Haber.tr"><display-name>beIN Sports Haber</display-name><icon src="https://i0.wp.com/resim.yayins.com/spor/beinhaber.png" /><category>ESPORTES</category></channel><channel id="custom.naturaltv"><display-name>Natural TV</display-name><icon src="https://i.imgur.com/rfcJ674.png" /><category>REGIONAIS</category></channel><channel id="custom.sunrtv"><display-name>Sun RTV</display-name><icon src="https://i.imgur.com/64tph9N.png" /><category>REGIONAIS</category></channel><channel id="custom.tbmmtv"><display-name>TBMM TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" /><category>REGIONAIS</category></channel><channel id="custom.van65tv"><display-name>Van 65 TV</display-name><icon src="https://van65tv.com/assets/images/logo/logo.png" /><category>REGIONAIS</category></channel><channel id="custom.powerturktv"><display-name>PowerTürk TV</display-name><icon src="https://www.tvlogo.org/turkey/powerturk-tr.png" /><category>MÚSICA</category></channel><channel id="custom.tabii"><display-name>Tabii</display-name><icon src="https://commons.wikimedia.org/wiki/Special:FilePath/Tabii_-_TRT_Logo.png" /><category>FILMES E SÉRIES</category></channel><channel id="custom.bbcfirstturkiye"><display-name>BBC First Turkiye</display-name><icon src="https://i.imgur.com/UBoBYUI.png" /><category>FILMES E SÉRIES</category></channel><channel id="EKOL.TV.tr"><display-name>Ekol TV</display-name><icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ekoturk-tr.png" /><category>NOTÍCIAS</category></channel><channel id="custom.syriatv"><display-name>Syria TV</display-name><icon src="https://commons.wikimedia.org/wiki/Special:FilePath/Syria_TV_logo_2026.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.balkanturk"><display-name>Balkan Türk</display-name><icon src="https://i.ibb.co/mHt7rQf/Tryerel.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.thaqalayntv"><display-name>Thaqalayn TV</display-name><icon src="https://i.imgur.com/u02FSgI.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.knmusictv"><display-name>KN Music TV</display-name><icon src="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" /><category>MÚSICA</category></channel><channel id="custom.yoltv"><display-name>YOL TV</display-name><icon src="https://i.imgur.com/rTBX6lS.png" /><category>REGIONAIS</category></channel><channel id="custom.rtginternational"><display-name>RTG International</display-name><icon src="https://i.imgur.com/ZpUNou4.png" /><category>INTERNACIONAIS</category></channel><channel id="kanalada.local"><display-name>Kanal Ada</display-name></channel><channel id="custom.arzufilm"><display-name>Arzu Film</display-name><category>FILMES E SÉRIES</category></channel><channel id="Ekol.Sports.tr"><display-name>Ekol Sports</display-name><icon src="https://assets.uzunmuhalefet.com/logos/d34e5e05-83e3-41d5-a8a9-fc7b3603aeb7.png" /><category>ESPORTES</category></channel><channel id="custom.kanalurfa"><display-name>Kanal Urfa</display-name><icon src="https://www.kanalurfa.com/upload/masaustu.png" /><category>REGIONAIS</category></channel><channel id="custom.trabzonbuyuksehirbelediyesitv"><display-name>Trabzon Buyuksehir Belediyesi TV</display-name><icon src="https://tbbweb.tv/img/logo.png" /><category>REGIONAIS</category></channel><channel id="custom.urfanatiktv"><display-name>Urfanatik TV</display-name><category>REGIONAIS</category></channel><channel id="custom.madinahtv"><display-name>MADINAH TV</display-name><icon src="https://e7.pngegg.com/pngimages/758/259/png-clipart-medina-mecca-television-channel-streaming-media-others-miscellaneous-television.png" /><category>RELIGIOSOS</category></channel><programme channel="TRT.WORLD.tr" start="20261113000000 +0000" stop="20261113010000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113010000 +0000" stop="20261113013000 +0000">
+    <title lang="zh">Just 2 Degrees</title>
+    <desc>A rise of just two degrees in average temperatures means catastrophe for planet Earth. TRT World looks at the cold, hard truths behind a warming planet.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113013000 +0000" stop="20261113014500 +0000">
+    <title lang="zh">One On One</title>
+    <desc>In an interview with TRT World on the sidelines of COP31, Bangladeshi State Minister Humaiun Kobir explained Bangladesh's climate action plans</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113014500 +0000" stop="20261113020000 +0000">
+    <title lang="zh">In Fact</title>
+    <desc>IN FACT explores T?rkiye?s history, policies and culture, uncovering the stories and people shaping the country and its place in the world today</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113020000 +0000" stop="20261113023000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113023000 +0000" stop="20261113030000 +0000">
+    <title lang="zh">Business News</title>
+    <desc>As the world grapples with ever changing politics and crises, economy is always center stage. ?TRT World?s Business News gives you the insight.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113030000 +0000" stop="20261113033000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113033000 +0000" stop="20261113040000 +0000">
+    <title lang="zh">Nextech</title>
+    <desc>NexTech looks at tomorrow?s industries, getting ahead of future trends and understanding the challenges that come with any new technological breakthroughs.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113040000 +0000" stop="20261113050000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113050000 +0000" stop="20261113053000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113053000 +0000" stop="20261113054500 +0000">
+    <title lang="zh">One On One</title>
+    <desc>In an interview with TRT World on the sidelines of COP31, Bangladeshi State Minister Humaiun Kobir explained Bangladesh's climate action plans</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113054500 +0000" stop="20261113060000 +0000">
+    <title lang="zh">Newsfeed</title>
+    <desc>Newsfeed reflects the day`s events and opinions,as reported or discussed on social media.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113060000 +0000" stop="20261113061500 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113061500 +0000" stop="20261113063000 +0000">
+    <title lang="zh">Today At Cop31</title>
+    <desc>As the climate summit continues in T?rkiye, we bring you world leaders and scientists, all debating how to tackle the existential crisis of our time</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113063000 +0000" stop="20261113070000 +0000">
+    <title lang="zh">Across The Balkans</title>
+    <desc>Across The Balkans takes you to a land of breathtaking beauty with a painful past to discover the issues and fault lines shaping Southeast Europe today.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113070000 +0000" stop="20261113073000 +0000">
+    <title lang="zh">Roundtable</title>
+    <desc>Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113073000 +0000" stop="20261113080000 +0000">
+    <title lang="zh">The Newsmakers</title>
+    <desc>With in-depth reports and strong, unfiltered debates - The Newsmakers examine the people and the stories that are shaping our lives.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113080000 +0000" stop="20261113090000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113090000 +0000" stop="20261113093000 +0000">
+    <title lang="zh">News - London</title>
+    <desc>TRT World brings the latest news from around the globe when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113093000 +0000" stop="20261113100000 +0000">
+    <title lang="zh">Focal Point</title>
+    <desc>?Powering T?rkiye?s Future? explains how the country has invested in the sector over the past decades.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113100000 +0000" stop="20261113101500 +0000">
+    <title lang="zh">News - London</title>
+    <desc>TRT World brings the latest news from around the globe when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113101500 +0000" stop="20261113103000 +0000">
+    <title lang="zh">One On One</title>
+    <desc>Speaking to TRT World at COP31, UN General Assembly President Khalilur Rahman discusses the UN?s ability to deliver on its mandate</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113103000 +0000" stop="20261113110000 +0000">
+    <title lang="zh">Nexus</title>
+    <desc>Presented by Matthew Moore, Nexus is a forensic, fast-paced and sometimes irreverent take on the news.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113110000 +0000" stop="20261113120000 +0000">
+    <title lang="zh">Newshour - London</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113120000 +0000" stop="20261113123000 +0000">
+    <title lang="zh">News - London</title>
+    <desc>TRT World brings the latest news from around the globe when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113123000 +0000" stop="20261113130000 +0000">
+    <title lang="zh">Bigger Than Five</title>
+    <desc>Featuring interviews with political leaders and key policy makers from around the world, Bigger Than Five takes a critical look at issues of global injustice.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113130000 +0000" stop="20261113133000 +0000">
+    <title lang="zh">News - London</title>
+    <desc>TRT World brings the latest news from around the globe when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113133000 +0000" stop="20261113134500 +0000">
+    <title lang="zh">Today At Cop31</title>
+    <desc>As the climate summit continues in T?rkiye, we bring you world leaders and scientists, all debating how to tackle the existential crisis of our time</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113134500 +0000" stop="20261113140000 +0000">
+    <title lang="zh">One On One</title>
+    <desc>Speaking to TRT World at COP31, UN General Assembly President Khalilur Rahman discusses the UN?s ability to deliver on its mandate</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113140000 +0000" stop="20261113143000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113143000 +0000" stop="20261113150000 +0000">
+    <title lang="zh">The Newsmakers</title>
+    <desc>With in-depth reports and strong, unfiltered debates - The Newsmakers examine the people and the stories that are shaping our lives.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113150000 +0000" stop="20261113153000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113153000 +0000" stop="20261113160000 +0000">
+    <title lang="zh">Focal Point</title>
+    <desc>?Powering T?rkiye?s Future? explains how the country has invested in the sector over the past decades.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113160000 +0000" stop="20261113163000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113163000 +0000" stop="20261113170000 +0000">
+    <title lang="zh">Nexus</title>
+    <desc>Presented by Matthew Moore, Nexus is a forensic, fast-paced and sometimes irreverent take on the news.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113170000 +0000" stop="20261113171500 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113171500 +0000" stop="20261113173000 +0000">
+    <title lang="zh">Newsfeed</title>
+    <desc>Newsfeed reflects the day`s events and opinions,as reported or discussed on social media.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113173000 +0000" stop="20261113180000 +0000">
+    <title lang="zh">Roundtable</title>
+    <desc>Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113180000 +0000" stop="20261113183000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113183000 +0000" stop="20261113190000 +0000">
+    <title lang="zh">Off The Grid</title>
+    <desc>Off the Grid investigates the impact of developed countries plastic waste on Malaysian people?s health and environment.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113190000 +0000" stop="20261113193000 +0000">
+    <title lang="zh">Bigger Than Five</title>
+    <desc>Featuring interviews with political leaders and key policy makers from around the world, Bigger Than Five takes a critical look at issues of global injustice.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113193000 +0000" stop="20261113200000 +0000">
+    <title lang="zh">The Newsmakers</title>
+    <desc>With in-depth reports and strong, unfiltered debates - The Newsmakers examine the people and the stories that are shaping our lives.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113200000 +0000" stop="20261113203000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113203000 +0000" stop="20261113210000 +0000">
+    <title lang="zh">Beyond The Game</title>
+    <desc>Beyond the Game has the stories behind the action. We?ll be at the biggest events, talking to the biggest names. If sport is your passion, this is your show.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113210000 +0000" stop="20261113213000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113213000 +0000" stop="20261113220000 +0000">
+    <title lang="zh">Nextech</title>
+    <desc>NexTech looks at tomorrow?s industries, getting ahead of future trends and understanding the challenges that come with any new technological breakthroughs.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113220000 +0000" stop="20261113223000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113223000 +0000" stop="20261113230000 +0000">
+    <title lang="zh">Strait Talk</title>
+    <desc>An inside look at the players and policymakers who are shaping the world we live in. To give you a unique perspective on global events.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113230000 +0000" stop="20261113233000 +0000">
+    <title lang="zh">Business News</title>
+    <desc>As the world grapples with ever changing politics and crises, economy is always center stage. ?TRT World?s Business News gives you the insight.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261113233000 +0000" stop="20261114000000 +0000">
+    <title lang="zh">The Newsmakers</title>
+    <desc>With in-depth reports and strong, unfiltered debates - The Newsmakers examine the people and the stories that are shaping our lives.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114000000 +0000" stop="20261114010000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114010000 +0000" stop="20261114020000 +0000">
+    <title lang="zh">Storyteller</title>
+    <desc>Beneath the icy surface of Svalbard, Norway, a diverse community reveals its secrets, as an anthropologist delves into the hearts and minds of its inhabitants.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114020000 +0000" stop="20261114023000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114023000 +0000" stop="20261114030000 +0000">
+    <title lang="zh">One Bite</title>
+    <desc>Discover how Turkish cuisine transforms leftovers and overlooked ingredients, revealing the ingenuity and cultural memory behind a resourceful kitchen.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114030000 +0000" stop="20261114033000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114033000 +0000" stop="20261114040000 +0000">
+    <title lang="zh">Focal Point</title>
+    <desc>?Powering T?rkiye?s Future? explains how the country has invested in the sector over the past decades.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114040000 +0000" stop="20261114050000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114050000 +0000" stop="20261114053000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114053000 +0000" stop="20261114060000 +0000">
+    <title lang="zh">Nexus</title>
+    <desc>Presented by Matthew Moore, Nexus is a forensic, fast-paced and sometimes irreverent take on the news.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114060000 +0000" stop="20261114061500 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114061500 +0000" stop="20261114063000 +0000">
+    <title lang="zh">Today At Cop31</title>
+    <desc>As the climate summit continues in T?rkiye, we bring you world leaders and scientists, all debating how to tackle the existential crisis of our time</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114063000 +0000" stop="20261114070000 +0000">
+    <title lang="zh">Africa Matters</title>
+    <desc>Every week, Africa Matters will bring you the untold, under-reported stories from across the continent and we'll also unpack the issues that matter to Africans.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114070000 +0000" stop="20261114073000 +0000">
+    <title lang="zh">Roundtable</title>
+    <desc>Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114073000 +0000" stop="20261114080000 +0000">
+    <title lang="zh">The Newsmakers</title>
+    <desc>With in-depth reports and strong, unfiltered debates - The Newsmakers examine the people and the stories that are shaping our lives.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114080000 +0000" stop="20261114090000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114090000 +0000" stop="20261114093000 +0000">
+    <title lang="zh">News - London</title>
+    <desc>TRT World brings the latest news from around the globe when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114093000 +0000" stop="20261114100000 +0000">
+    <title lang="zh">Money Talks</title>
+    <desc>Helping the 99% navigate their financial world. With in-depth reports and analysis, Money Talks makes the news your business.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114100000 +0000" stop="20261114101500 +0000">
+    <title lang="zh">News - London</title>
+    <desc>TRT World brings the latest news from around the globe when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114101500 +0000" stop="20261114103000 +0000">
+    <title lang="zh">Newsfeed</title>
+    <desc>Newsfeed reflects the day`s events and opinions,as reported or discussed on social media.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114103000 +0000" stop="20261114110000 +0000">
+    <title lang="zh">Strait Talk</title>
+    <desc>An inside look at the players and policymakers who are shaping the world we live in. To give you a unique perspective on global events.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114110000 +0000" stop="20261114120000 +0000">
+    <title lang="zh">Newshour - London</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114120000 +0000" stop="20261114123000 +0000">
+    <title lang="zh">News - London</title>
+    <desc>TRT World brings the latest news from around the globe when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114123000 +0000" stop="20261114130000 +0000">
+    <title lang="zh">Across The Balkans</title>
+    <desc>Across The Balkans takes you to a land of breathtaking beauty with a painful past to discover the issues and fault lines shaping Southeast Europe today.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114130000 +0000" stop="20261114133000 +0000">
+    <title lang="zh">News - London</title>
+    <desc>TRT World brings the latest news from around the globe when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114133000 +0000" stop="20261114134500 +0000">
+    <title lang="zh">Today At Cop31</title>
+    <desc>As the climate summit continues in T?rkiye, we bring you world leaders and scientists, all debating how to tackle the existential crisis of our time</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114134500 +0000" stop="20261114140000 +0000">
+    <title lang="zh">Newsfeed</title>
+    <desc>Newsfeed reflects the day`s events and opinions,as reported or discussed on social media.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114140000 +0000" stop="20261114143000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114143000 +0000" stop="20261114150000 +0000">
+    <title lang="zh">The Newsmakers</title>
+    <desc>With in-depth reports and strong, unfiltered debates - The Newsmakers examine the people and the stories that are shaping our lives.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114150000 +0000" stop="20261114153000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114153000 +0000" stop="20261114160000 +0000">
+    <title lang="zh">Strait Talk</title>
+    <desc>An inside look at the players and policymakers who are shaping the world we live in. To give you a unique perspective on global events.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114160000 +0000" stop="20261114163000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114163000 +0000" stop="20261114170000 +0000">
+    <title lang="zh">Nextech</title>
+    <desc>NexTech looks at tomorrow?s industries, getting ahead of future trends and understanding the challenges that come with any new technological breakthroughs.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114170000 +0000" stop="20261114171500 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114171500 +0000" stop="20261114173000 +0000">
+    <title lang="zh">Newsfeed</title>
+    <desc>Newsfeed reflects the day`s events and opinions,as reported or discussed on social media.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114173000 +0000" stop="20261114180000 +0000">
+    <title lang="zh">Roundtable</title>
+    <desc>Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114180000 +0000" stop="20261114183000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114183000 +0000" stop="20261114190000 +0000">
+    <title lang="zh">Money Talks</title>
+    <desc>Helping the 99% navigate their financial world. With in-depth reports and analysis, Money Talks makes the news your business.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114190000 +0000" stop="20261114193000 +0000">
+    <title lang="zh">Across The Balkans</title>
+    <desc>Across The Balkans takes you to a land of breathtaking beauty with a painful past to discover the issues and fault lines shaping Southeast Europe today.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114193000 +0000" stop="20261114200000 +0000">
+    <title lang="zh">The Newsmakers</title>
+    <desc>With in-depth reports and strong, unfiltered debates - The Newsmakers examine the people and the stories that are shaping our lives.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114200000 +0000" stop="20261114203000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114203000 +0000" stop="20261114210000 +0000">
+    <title lang="zh">Africa Matters</title>
+    <desc>Every week, Africa Matters will bring you the untold, under-reported stories from across the continent and we'll also unpack the issues that matter to Africans.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114210000 +0000" stop="20261114213000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114213000 +0000" stop="20261114220000 +0000">
+    <title lang="zh">Roundtable</title>
+    <desc>Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114220000 +0000" stop="20261114223000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114223000 +0000" stop="20261114230000 +0000">
+    <title lang="zh">Money Talks</title>
+    <desc>Helping the 99% navigate their financial world. With in-depth reports and analysis, Money Talks makes the news your business.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114230000 +0000" stop="20261114233000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261114233000 +0000" stop="20261115000000 +0000">
+    <title lang="zh">Strait Talk</title>
+    <desc>An inside look at the players and policymakers who are shaping the world we live in. To give you a unique perspective on global events.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115000000 +0000" stop="20261115003000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115003000 +0000" stop="20261115010000 +0000">
+    <title lang="zh">One Bite</title>
+    <desc>Discover how Turkish cuisine transforms leftovers and overlooked ingredients, revealing the ingenuity and cultural memory behind a resourceful kitchen.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115010000 +0000" stop="20261115013000 +0000">
+    <title lang="zh">The Newsmakers</title>
+    <desc>With in-depth reports and strong, unfiltered debates - The Newsmakers examine the people and the stories that are shaping our lives.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115013000 +0000" stop="20261115020000 +0000">
+    <title lang="zh">Just 2 Degrees</title>
+    <desc>A rise of just two degrees in average temperatures means catastrophe for planet Earth. TRT World looks at the cold, hard truths behind a warming planet.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115020000 +0000" stop="20261115023000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115023000 +0000" stop="20261115024500 +0000">
+    <title lang="zh">Debrief</title>
+    <desc>DEBRIEF is a weekly show that delivers the most important news and stories from the week in a concise format.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115024500 +0000" stop="20261115030000 +0000">
+    <title lang="zh">Newsfeed</title>
+    <desc>Newsfeed reflects the day`s events and opinions,as reported or discussed on social media.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115030000 +0000" stop="20261115033000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115033000 +0000" stop="20261115040000 +0000">
+    <title lang="zh">The Future With Hannah Fry - The 150 Yea</title>
+    <desc>Mathematician Professor Hannah Fry joins biohackers and neurologists to experience the latest age-defying techniques.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115040000 +0000" stop="20261115043000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115043000 +0000" stop="20261115050000 +0000">
+    <title lang="zh">Roundtable</title>
+    <desc>Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115050000 +0000" stop="20261115053000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115053000 +0000" stop="20261115060000 +0000">
+    <title lang="zh">Money Talks</title>
+    <desc>Helping the 99% navigate their financial world. With in-depth reports and analysis, Money Talks makes the news your business.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115060000 +0000" stop="20261115061500 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115061500 +0000" stop="20261115063000 +0000">
+    <title lang="zh">Today At Cop31</title>
+    <desc>As the climate summit continues in T?rkiye, we bring you world leaders and scientists, all debating how to tackle the existential crisis of our time</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115063000 +0000" stop="20261115070000 +0000">
+    <title lang="zh">Across The Balkans</title>
+    <desc>Across The Balkans takes you to a land of breathtaking beauty with a painful past to discover the issues and fault lines shaping Southeast Europe today.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115070000 +0000" stop="20261115073000 +0000">
+    <title lang="zh">The Newsmakers</title>
+    <desc>With in-depth reports and strong, unfiltered debates - The Newsmakers examine the people and the stories that are shaping our lives.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115073000 +0000" stop="20261115080000 +0000">
+    <title lang="zh">Strait Talk</title>
+    <desc>An inside look at the players and policymakers who are shaping the world we live in. To give you a unique perspective on global events.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115080000 +0000" stop="20261115083000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115083000 +0000" stop="20261115090000 +0000">
+    <title lang="zh">Nexus</title>
+    <desc>Presented by Matthew Moore, Nexus is a forensic, fast-paced and sometimes irreverent take on the news.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115090000 +0000" stop="20261115093000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115093000 +0000" stop="20261115100000 +0000">
+    <title lang="zh">One Bite</title>
+    <desc>Discover how Turkish cuisine transforms leftovers and overlooked ingredients, revealing the ingenuity and cultural memory behind a resourceful kitchen.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115100000 +0000" stop="20261115103000 +0000">
+    <title lang="zh">Roundtable</title>
+    <desc>Ideas are changing our world. See them discussed and dissected, every weekday.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115103000 +0000" stop="20261115110000 +0000">
+    <title lang="zh">Just 2 Degrees</title>
+    <desc>A rise of just two degrees in average temperatures means catastrophe for planet Earth. TRT World looks at the cold, hard truths behind a warming planet.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115110000 +0000" stop="20261115113000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115113000 +0000" stop="20261115114500 +0000">
+    <title lang="zh">Scoreline</title>
+    <desc>Do you need a fast-paced and punchy show to cover all the weekend?s sport action? TRT World?s Scoreline is your programme on Saturday and Sundays.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115114500 +0000" stop="20261115120000 +0000">
+    <title lang="zh">Debrief</title>
+    <desc>DEBRIEF is a weekly show that delivers the most important news and stories from the week in a concise format.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115120000 +0000" stop="20261115123000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115123000 +0000" stop="20261115130000 +0000">
+    <title lang="zh">Focal Point</title>
+    <desc>?Powering T?rkiye?s Future? explains how the country has invested in the sector over the past decades.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115130000 +0000" stop="20261115133000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115133000 +0000" stop="20261115134500 +0000">
+    <title lang="zh">Today At Cop31</title>
+    <desc>As the climate summit continues in T?rkiye, we bring you world leaders and scientists, all debating how to tackle the existential crisis of our time</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115134500 +0000" stop="20261115140000 +0000">
+    <title lang="zh">Focal Point</title>
+    <desc>Focal Point travels to Angola?s remote central highlands to meet people living on the frontlines of climate change.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115140000 +0000" stop="20261115150000 +0000">
+    <title lang="zh">Storyteller</title>
+    <desc>Like thousands of Africans a year, Bashir attempts to cross the Sahara Desert in a truck. Witness this tough journey on which many have died.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115150000 +0000" stop="20261115153000 +0000">
+    <title lang="zh">News</title>
+    <desc>TRT World brings the latest news from around the globe, when it happens.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115153000 +0000" stop="20261115154500 +0000">
+    <title lang="zh">Scoreline</title>
+    <desc>Do you need a fast-paced and punchy show to cover all the weekend?s sport action? TRT World?s Scoreline is your programme on Saturday and Sundays.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TRT.WORLD.tr" start="20261115154500 +0000" stop="20261116000000 +0000">
+    <title lang="zh">Newsfeed</title>
+    <desc>Newsfeed reflects the day`s events and opinions,as reported or discussed on social media.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113000000 +0000" stop="20261113003000 +0000">
+    <title lang="zh">NTV Europe News</title>
+    <desc>NTV Europe News is being considered as the main news broadcast of NTV Europe which covers a range of contemporary issues across the globe including Britain and Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113003000 +0000" stop="20261113010000 +0000">
+    <title lang="zh">7 Kilo 1 Gram</title>
+    <desc>New NTV Bangla Drama Serial 2026 | Mosharraf Karim | Tanha Tasnia</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113010000 +0000" stop="20261113013000 +0000">
+    <title lang="zh">NTV NEWS- Sokaler Khobor</title>
+    <desc>NTV Morning News from Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113013000 +0000" stop="20261113020000 +0000">
+    <title lang="zh">Law and Justice</title>
+    <desc>A live programme featuring discussion on various legal topics with expert lawyers. Viewers can phone in and ask questions. Produced by Robin Hyder khan.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113020000 +0000" stop="20261113030000 +0000">
+    <title lang="zh">Ek Buk Jala</title>
+    <desc>Popular Bangla Movie</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113030000 +0000" stop="20261113033000 +0000">
+    <title lang="zh">O Piya Tumi Kothay</title>
+    <desc>Bangla Movie</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113033000 +0000" stop="20261113034900 +0000">
+    <title lang="zh">Ek Buk Jala</title>
+    <desc>Popular Bangla Movie</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113034900 +0000" stop="20261113035000 +0000">
+    <title lang="zh">Adhan-e-Zuhr</title>
+    <desc>Call to prayer</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113035000 +0000" stop="20261113035400 +0000">
+    <title lang="zh">Adhan-e-Zuhr</title>
+    <desc>Call to prayer</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113035400 +0000" stop="20261113035500 +0000">
+    <title lang="zh">NTV NEWS-Dupurer Khobor</title>
+    <desc>NTV afternoon news from Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113035500 +0000" stop="20261113042400 +0000">
+    <title lang="zh">Ek Buk Jala</title>
+    <desc>Popular Bangla Movie</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113042400 +0000" stop="20261113044900 +0000">
+    <title lang="zh">O Piya Tumi Kothay</title>
+    <desc>Bangla Movie</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113044900 +0000" stop="20261113050000 +0000">
+    <title lang="zh">O Piya Tumi Kothay</title>
+    <desc>Bangla Movie</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113050000 +0000" stop="20261113053000 +0000">
+    <title lang="zh">NTV Filler Programme</title>
+    <desc>Selected programme clips from the NTV library.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113053000 +0000" stop="20261113060000 +0000">
+    <title lang="zh">Desher Khobor</title>
+    <desc>NTV local news from Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113060000 +0000" stop="20261113062800 +0000">
+    <title lang="zh">NTV Filler Programme</title>
+    <desc>Selected programme clips from the NTV library.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113062800 +0000" stop="20261113063300 +0000">
+    <title lang="zh">Adhan-e-Asr</title>
+    <desc>Call to prayer</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113063300 +0000" stop="20261113070000 +0000">
+    <title lang="zh">Desher Khobor</title>
+    <desc>NTV local news from Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113070000 +0000" stop="20261113070300 +0000">
+    <title lang="zh">Mayajal</title>
+    <desc>NTV Popular Bangla Telefilm</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113070300 +0000" stop="20261113070700 +0000">
+    <title lang="zh">Adhan-e-Asr</title>
+    <desc>Call to prayer</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113070700 +0000" stop="20261113073000 +0000">
+    <title lang="zh">Kajol Bhomora</title>
+    <desc>NTV Special Telefilm starring Samira Khan Mahi, Junaid Bagdadi, Mili Bashar, Abul Hayat, Azom Khan and many more. Directed by Chayanika Chowdhury.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113073000 +0000" stop="20261113080000 +0000">
+    <title lang="zh">NTV NEWS-Shondhar Khobor</title>
+    <desc>NTV evening news from Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113080000 +0000" stop="20261113081900 +0000">
+    <title lang="zh">Apnar Jiggasha</title>
+    <desc>An informative Islamic programme produced by Saifullah Saif.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113081900 +0000" stop="20261113082400 +0000">
+    <title lang="zh">Adhan-e-Maghrib</title>
+    <desc>Call to prayer</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113082400 +0000" stop="20261113083000 +0000">
+    <title lang="zh">Mayajal</title>
+    <desc>NTV Popular Bangla Telefilm</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113083000 +0000" stop="20261113085600 +0000">
+    <title lang="zh">NTV NEWS-Shondhar Khobor</title>
+    <desc>NTV evening news from Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113085600 +0000" stop="20261113090000 +0000">
+    <title lang="zh">Adhan-e-Maghrib</title>
+    <desc>Call to prayer</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113090000 +0000" stop="20261113093000 +0000">
+    <title lang="zh">Apnar Jiggasha</title>
+    <desc>An informative Islamic programme produced by Saifullah Saif.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113093000 +0000" stop="20261113095100 +0000">
+    <title lang="zh">Live Charity Appeal</title>
+    <desc>A live Charity Appeal</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113095100 +0000" stop="20261113095600 +0000">
+    <title lang="zh">Adhan-e-Isha</title>
+    <desc>Call to prayer</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113095600 +0000" stop="20261113100000 +0000">
+    <title lang="zh">Live Charity Appeal</title>
+    <desc>A live Charity Appeal</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113100000 +0000" stop="20261113101500 +0000">
+    <title lang="zh">Evening News</title>
+    <desc>News coverage on a daily basis focusing on contemporary issues.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113101500 +0000" stop="20261113102100 +0000">
+    <title lang="zh">Charity Appeal</title>
+    <desc>A live charity appeal</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113102100 +0000" stop="20261113102300 +0000">
+    <title lang="zh">Adhan-e-Isha</title>
+    <desc>Call to prayer</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113102300 +0000" stop="20261113110000 +0000">
+    <title lang="zh">Charity Appeal</title>
+    <desc>A live charity appeal</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113110000 +0000" stop="20261113111500 +0000">
+    <title lang="zh">Evening News</title>
+    <desc>News coverage on a daily basis focusing on contemporary issues.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113111500 +0000" stop="20261113120000 +0000">
+    <title lang="zh">Live Charity Appeal</title>
+    <desc>A live Charity Appeal</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113120000 +0000" stop="20261113123000 +0000">
+    <title lang="zh">Charity Appeal</title>
+    <desc>A live charity appeal</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113123000 +0000" stop="20261113130000 +0000">
+    <title lang="zh">Moddhorater Khobor</title>
+    <desc>NTV midnight news from Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113130000 +0000" stop="20261113133000 +0000">
+    <title lang="zh">NTV Europe News</title>
+    <desc>NTV Europe News is being considered as the main news broadcast of NTV Europe which covers a range of contemporary issues across the globe including Britain and Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113133000 +0000" stop="20261113140000 +0000">
+    <title lang="zh">NTV NEWS-Moddhorater Khobor</title>
+    <desc>NTV midnight news from Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113140000 +0000" stop="20261113143000 +0000">
+    <title lang="zh">NTV Europe News</title>
+    <desc>NTV Europe News is being considered as the main news broadcast of NTV Europe which covers a range of contemporary issues across the globe including Britain and Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113143000 +0000" stop="20261113150000 +0000">
+    <title lang="zh">Live Charity Appeal</title>
+    <desc>A live Charity Appeal</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113150000 +0000" stop="20261113160000 +0000">
+    <title lang="zh">Live Charity Appeal</title>
+    <desc>A live Charity Appeal</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113160000 +0000" stop="20261113163000 +0000">
+    <title lang="zh">Live Charity Appeal</title>
+    <desc>A live Charity Appeal</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113163000 +0000" stop="20261113170000 +0000">
+    <title lang="zh">Rater Adda</title>
+    <desc>NTV Exclusive reality talk show.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113170000 +0000" stop="20261113173000 +0000">
+    <title lang="zh">Moddhorater Khobor</title>
+    <desc>NTV midnight news from Bangladesh.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113173000 +0000" stop="20261113180000 +0000">
+    <title lang="zh">Rater Adda</title>
+    <desc>NTV Exclusive reality talk show.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113180000 +0000" stop="20261113183000 +0000">
+    <title lang="zh">Food Caravan</title>
+    <desc>A cooking show featuring special recipes presented by Shahbin Mahfuza Jaybin and directed by Abu Rayhan Jewel.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113183000 +0000" stop="20261113190000 +0000">
+    <title lang="zh">Shugondhi</title>
+    <desc>Shugondhi is starring Yash Rohan, Nishat Priom, Sayem Samad, Shilpi Sharkar Apu, Lutfor Rahman George and many more. Directed by Jamal Mallick.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113190000 +0000" stop="20261113193000 +0000">
+    <title lang="zh">Food Caravan</title>
+    <desc>A cooking show featuring special recipes presented by Shahbin Mahfuza Jaybin and directed by Abu Rayhan Jewel.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113193000 +0000" stop="20261113200000 +0000">
+    <title lang="zh">Mayajal</title>
+    <desc>NTV Popular Bangla Telefilm</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113200000 +0000" stop="20261113203000 +0000">
+    <title lang="zh">Todays Kitchen</title>
+    <desc>A cooking show featuring special recipes.Directed by Abu Rayhan Jewel.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113203000 +0000" stop="20261113210000 +0000">
+    <title lang="zh">Gallary</title>
+    <desc>Discussion on sports from around the world. Presented by Nasimul Hasan and produced by Saiful Islam Pollab.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113210000 +0000" stop="20261113210500 +0000">
+    <title lang="zh">Todays Kitchen</title>
+    <desc>A cooking show featuring special recipes.Directed by Abu Rayhan Jewel.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113210500 +0000" stop="20261113213000 +0000">
+    <title lang="zh">Apnar Jiggasha</title>
+    <desc>An informative Islamic programme produced by Saifullah Saif.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113213000 +0000" stop="20261113213100 +0000">
+    <title lang="zh">Shastho Protidin</title>
+    <desc>A health and environment based programme produced by Kazi Mohammad Mostafa.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113213100 +0000" stop="20261113213600 +0000">
+    <title lang="zh">Adhan-a-Fajr</title>
+    <desc>Call to prayer</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113213600 +0000" stop="20261113220000 +0000">
+    <title lang="zh">Gallary</title>
+    <desc>Discussion on sports from around the world. Presented by Nasimul Hasan and produced by Saiful Islam Pollab.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113220000 +0000" stop="20261113223000 +0000">
+    <title lang="zh">Apnar Jiggasha</title>
+    <desc>An informative Islamic programme produced by Saifullah Saif.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113223000 +0000" stop="20261113230000 +0000">
+    <title lang="zh">Shastho Protidin</title>
+    <desc>A health and environment based programme produced by Kazi Mohammad Mostafa.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113230000 +0000" stop="20261113233000 +0000">
+    <title lang="zh">Quranul Kareem</title>
+    <desc>A Quran Tafseer show produced by NTV.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261113233000 +0000" stop="20261114000000 +0000">
+    <title lang="zh">Siddika Kabirs Recipe</title>
+    <desc>A cooking show featuring special recipes presented by Sharmin Nahar and directed by Sara Jaker.</desc>
+    <date>20261113</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114000000 +0000" stop="20261114003000 +0000">
+    <title lang="zh">NTV Europe News</title>
+    <desc>NTV Europe News is being considered as the main news broadcast of NTV Europe which covers a range of contemporary issues across the globe including Britain and Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114003000 +0000" stop="20261114010000 +0000">
+    <title lang="zh">7 Kilo 1 Gram</title>
+    <desc>New NTV Bangla Drama Serial 2026 | Mosharraf Karim | Tanha Tasnia</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114010000 +0000" stop="20261114013000 +0000">
+    <title lang="zh">NTV NEWS- Sokaler Khobor</title>
+    <desc>NTV Morning News from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114013000 +0000" stop="20261114020000 +0000">
+    <title lang="zh">Property Show with Kazi Arif</title>
+    <desc>A live informative and expert advice programme on property.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114020000 +0000" stop="20261114023000 +0000">
+    <title lang="zh">Poroloker Jamai</title>
+    <desc>Popular Bangla movie.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114023000 +0000" stop="20261114030000 +0000">
+    <title lang="zh">Apnar Jiggasha</title>
+    <desc>An informative Islamic programme produced by Saifullah Saif.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114030000 +0000" stop="20261114033000 +0000">
+    <title lang="zh">Biroho Betha</title>
+    <desc>Popular Bangla Movie</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114033000 +0000" stop="20261114035000 +0000">
+    <title lang="zh">Poroloker Jamai</title>
+    <desc>Popular Bangla movie.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114035000 +0000" stop="20261114035500 +0000">
+    <title lang="zh">Adhan-e-Jumuah</title>
+    <desc>Call to prayer</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114035500 +0000" stop="20261114040000 +0000">
+    <title lang="zh">Poroloker Jamai</title>
+    <desc>Popular Bangla movie.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114040000 +0000" stop="20261114043000 +0000">
+    <title lang="zh">NTV NEWS-Dupurer Khobor</title>
+    <desc>NTV afternoon news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114043000 +0000" stop="20261114045500 +0000">
+    <title lang="zh">Biroho Betha</title>
+    <desc>Popular Bangla Movie</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114045500 +0000" stop="20261114050000 +0000">
+    <title lang="zh">Biroho Betha</title>
+    <desc>Popular Bangla Movie</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114050000 +0000" stop="20261114053000 +0000">
+    <title lang="zh">NTV Filler Programme</title>
+    <desc>Selected programme clips from the NTV library.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114053000 +0000" stop="20261114060000 +0000">
+    <title lang="zh">Desher Khobor</title>
+    <desc>NTV local news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114060000 +0000" stop="20261114062700 +0000">
+    <title lang="zh">NTV Filler Programme</title>
+    <desc>Selected programme clips from the NTV library.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114062700 +0000" stop="20261114063200 +0000">
+    <title lang="zh">Adhan-e-Asr</title>
+    <desc>Call to prayer</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114063200 +0000" stop="20261114070000 +0000">
+    <title lang="zh">Desher Khobor</title>
+    <desc>NTV local news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114070000 +0000" stop="20261114070100 +0000">
+    <title lang="zh">Golper Elish</title>
+    <desc>NTV Popular Bangla Telefilm</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114070100 +0000" stop="20261114070300 +0000">
+    <title lang="zh">Adhan-e-Asr</title>
+    <desc>Call to prayer</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114070300 +0000" stop="20261114073000 +0000">
+    <title lang="zh">Monsuba Junction</title>
+    <desc>Bangla Telefilm</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114073000 +0000" stop="20261114080000 +0000">
+    <title lang="zh">NTV NEWS-Shondhar Khobor</title>
+    <desc>NTV evening news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114080000 +0000" stop="20261114081700 +0000">
+    <title lang="zh">Dorsay Hadis</title>
+    <desc>An informative Islamic show.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114081700 +0000" stop="20261114082200 +0000">
+    <title lang="zh">Adhan-e-Maghrib</title>
+    <desc>Call to prayer</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114082200 +0000" stop="20261114083000 +0000">
+    <title lang="zh">Golper Elish</title>
+    <desc>NTV Popular Bangla Telefilm</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114083000 +0000" stop="20261114085400 +0000">
+    <title lang="zh">NTV NEWS-Shondhar Khobor</title>
+    <desc>NTV evening news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114085400 +0000" stop="20261114085900 +0000">
+    <title lang="zh">Adhan-e-Maghrib</title>
+    <desc>Call to prayer</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114085900 +0000" stop="20261114090000 +0000">
+    <title lang="zh">Jibon Jiggasha with NTV</title>
+    <desc>An educational TV show based on Islamic question and answer.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114090000 +0000" stop="20261114093000 +0000">
+    <title lang="zh">Dorsay Hadis</title>
+    <desc>An informative Islamic show.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114093000 +0000" stop="20261114095000 +0000">
+    <title lang="zh">Jibon Jiggasha with NTV</title>
+    <desc>An educational TV show based on Islamic question and answer.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114095000 +0000" stop="20261114095500 +0000">
+    <title lang="zh">Adhan-e-Isha</title>
+    <desc>Call to prayer</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114095500 +0000" stop="20261114100000 +0000">
+    <title lang="zh">Jibon Jiggasha with NTV</title>
+    <desc>An educational TV show based on Islamic question and answer.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114100000 +0000" stop="20261114101500 +0000">
+    <title lang="zh">Evening News</title>
+    <desc>News coverage on a daily basis focusing on contemporary issues.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114101500 +0000" stop="20261114101900 +0000">
+    <title lang="zh">NTV NEWS-Rater Khobor</title>
+    <desc>NTV evening news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114101900 +0000" stop="20261114102300 +0000">
+    <title lang="zh">Adhan-e-Isha</title>
+    <desc>Call to prayer</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114102300 +0000" stop="20261114110000 +0000">
+    <title lang="zh">NTV NEWS-Rater Khobor</title>
+    <desc>NTV evening news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114110000 +0000" stop="20261114111500 +0000">
+    <title lang="zh">Evening News</title>
+    <desc>News coverage on a daily basis focusing on contemporary issues.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114111500 +0000" stop="20261114120000 +0000">
+    <title lang="zh">NTV NEWS-Rater Khobor</title>
+    <desc>NTV evening news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114120000 +0000" stop="20261114123000 +0000">
+    <title lang="zh">Law and Legal Aid</title>
+    <desc>A NTV Live show regarding family law.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114123000 +0000" stop="20261114130000 +0000">
+    <title lang="zh">Moddhorater Khobor</title>
+    <desc>NTV midnight news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114130000 +0000" stop="20261114133000 +0000">
+    <title lang="zh">Gallary</title>
+    <desc>Discussion on sports from around the world. Presented by Nasimul Hasan and produced by Saiful Islam Pollab.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114133000 +0000" stop="20261114140000 +0000">
+    <title lang="zh">NTV NEWS-Moddhorater Khobor</title>
+    <desc>NTV midnight news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114140000 +0000" stop="20261114143000 +0000">
+    <title lang="zh">NTV Europe News</title>
+    <desc>NTV Europe News is being considered as the main news broadcast of NTV Europe which covers a range of contemporary issues across the globe including Britain and Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114143000 +0000" stop="20261114150000 +0000">
+    <title lang="zh">Kajins</title>
+    <desc>NTV Special Natok starring Sharaf Ahmed Jibon, Imtiaz Barshon, Saddam Mal, Saberi Alam and many more.Directed by Golam Muktadir.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114150000 +0000" stop="20261114160000 +0000">
+    <title lang="zh">Shonglap Protidin</title>
+    <desc>NTV Special Show regarding contemporary issues.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114160000 +0000" stop="20261114170000 +0000">
+    <title lang="zh">Biroho Betha</title>
+    <desc>Popular Bangla Movie</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114170000 +0000" stop="20261114173000 +0000">
+    <title lang="zh">NTV NEWS-Moddhorater Khobor</title>
+    <desc>NTV midnight news from Bangladesh.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114173000 +0000" stop="20261114190000 +0000">
+    <title lang="zh">Biroho Betha</title>
+    <desc>Popular Bangla Movie</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114190000 +0000" stop="20261114193000 +0000">
+    <title lang="zh">Apnar Jiggasha</title>
+    <desc>An informative Islamic programme produced by Saifullah Saif.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114193000 +0000" stop="20261114200000 +0000">
+    <title lang="zh">Mohilangon</title>
+    <desc>An Islamic programme based on religious issues of women.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114200000 +0000" stop="20261114203000 +0000">
+    <title lang="zh">Dorsay Hadis</title>
+    <desc>An informative Islamic show.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114203000 +0000" stop="20261114210000 +0000">
+    <title lang="zh">Kajins</title>
+    <desc>NTV Special Natok starring Sharaf Ahmed Jibon, Imtiaz Barshon, Saddam Mal, Saberi Alam and many more.Directed by Golam Muktadir.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114210000 +0000" stop="20261114213000 +0000">
+    <title lang="zh">Biggane Anandho</title>
+    <desc>An educational and informative science and technology program, explores cutting-edge scientific and technological advancements destined to change the way we live.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114213000 +0000" stop="20261114213300 +0000">
+    <title lang="zh">Todays Kitchen</title>
+    <desc>A cooking show featuring special recipes.Directed by Abu Rayhan Jewel.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114213300 +0000" stop="20261114213800 +0000">
+    <title lang="zh">Adhan-a-Fajr</title>
+    <desc>Call to prayer</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114213800 +0000" stop="20261114220000 +0000">
+    <title lang="zh">Todays Kitchen</title>
+    <desc>A cooking show featuring special recipes.Directed by Abu Rayhan Jewel.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114220000 +0000" stop="20261114223000 +0000">
+    <title lang="zh">Apnar Jiggasha</title>
+    <desc>An informative Islamic programme produced by Saifullah Saif.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114223000 +0000" stop="20261114230000 +0000">
+    <title lang="zh">Shastho Protidin</title>
+    <desc>A health and environment based programme produced by Kazi Mohammad Mostafa.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114230000 +0000" stop="20261114233000 +0000">
+    <title lang="zh">Quranul Kareem</title>
+    <desc>A Quran Tafseer show produced by NTV.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261114233000 +0000" stop="20261115000000 +0000">
+    <title lang="zh">Siddika Kabirs Recipe</title>
+    <desc>A cooking show featuring special recipes presented by Sharmin Nahar and directed by Sara Jaker.</desc>
+    <date>20261114</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115000000 +0000" stop="20261115003000 +0000">
+    <title lang="zh">NTV Europe News</title>
+    <desc>NTV Europe News is being considered as the main news broadcast of NTV Europe which covers a range of contemporary issues across the globe including Britain and Bangladesh.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115003000 +0000" stop="20261115010000 +0000">
+    <title lang="zh">Takar Ohongkar</title>
+    <desc>Popular Bangla movie.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115010000 +0000" stop="20261115013000 +0000">
+    <title lang="zh">NTV NEWS- Sokaler Khobor</title>
+    <desc>NTV Morning News from Bangladesh.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115013000 +0000" stop="20261115035000 +0000">
+    <title lang="zh">Takar Ohongkar</title>
+    <desc>Popular Bangla movie.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115035000 +0000" stop="20261115040000 +0000">
+    <title lang="zh">Adhan-e-Zuhr</title>
+    <desc>Call to prayer</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115040000 +0000" stop="20261115043000 +0000">
+    <title lang="zh">NTV NEWS-Dupurer Khobor</title>
+    <desc>NTV afternoon news from Bangladesh.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115043000 +0000" stop="20261115045500 +0000">
+    <title lang="zh">Aine O Adhiker</title>
+    <desc>A live programme featuring discussion on various legal topics with expert lawyers. Viewers can phone in and ask questions. Presented by Kam &amp; produced by Robin Hyder khan.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115045500 +0000" stop="20261115060000 +0000">
+    <title lang="zh">Aine O Adhiker</title>
+    <desc>A live programme featuring discussion on various legal topics with expert lawyers. Viewers can phone in and ask questions. Presented by Kam &amp; produced by Robin Hyder khan.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115060000 +0000" stop="20261115062500 +0000">
+    <title lang="zh">NTV Filler Programme</title>
+    <desc>Selected programme clips from the NTV library.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115062500 +0000" stop="20261115063000 +0000">
+    <title lang="zh">Adhan-e-Asr</title>
+    <desc>Call to prayer</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115063000 +0000" stop="20261115070000 +0000">
+    <title lang="zh">Desher Khobor</title>
+    <desc>NTV local news from Bangladesh.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115070000 +0000" stop="20261115081600 +0000">
+    <title lang="zh">A Lagan Gaan Shunabar</title>
+    <desc>NTV Musical Show</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115081600 +0000" stop="20261115082100 +0000">
+    <title lang="zh">Adhan-e-Maghrib</title>
+    <desc>Call to prayer</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115082100 +0000" stop="20261115083000 +0000">
+    <title lang="zh">A Lagan Gaan Shunabar</title>
+    <desc>NTV Musical Show</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115083000 +0000" stop="20261115090000 +0000">
+    <title lang="zh">NTV NEWS-Shondhar Khobor</title>
+    <desc>NTV evening news from Bangladesh.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115090000 +0000" stop="20261115094900 +0000">
+    <title lang="zh">Ronger Manush</title>
+    <desc>NTV Family Drama Serial</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115094900 +0000" stop="20261115095400 +0000">
+    <title lang="zh">Adhan-e-Isha</title>
+    <desc>Call to prayer</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115095400 +0000" stop="20261115100000 +0000">
+    <title lang="zh">Ronger Manush</title>
+    <desc>NTV Family Drama Serial</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115100000 +0000" stop="20261115110000 +0000">
+    <title lang="zh">Exclusive Interview</title>
+    <desc>NTV Family Drama</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115110000 +0000" stop="20261115111500 +0000">
+    <title lang="zh">Evening News</title>
+    <desc>News coverage on a daily basis focusing on contemporary issues.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115111500 +0000" stop="20261115120000 +0000">
+    <title lang="zh">NTV NEWS-Rater Khobor</title>
+    <desc>NTV evening news from Bangladesh.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115120000 +0000" stop="20261115130000 +0000">
+    <title lang="zh">Obakto Onuvuti</title>
+    <desc>NTV Family Drama</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115130000 +0000" stop="20261115133000 +0000">
+    <title lang="zh">Kurulus Osman Gazi</title>
+    <desc>NTV Drama Serial</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115133000 +0000" stop="20261115140000 +0000">
+    <title lang="zh">NTV NEWS-Moddhorater Khobor</title>
+    <desc>NTV midnight news from Bangladesh.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115140000 +0000" stop="20261115143000 +0000">
+    <title lang="zh">NTV Europe News</title>
+    <desc>NTV Europe News is being considered as the main news broadcast of NTV Europe which covers a range of contemporary issues across the globe including Britain and Bangladesh.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115143000 +0000" stop="20261115150000 +0000">
+    <title lang="zh">Kajins</title>
+    <desc>NTV Special Natok starring Sharaf Ahmed Jibon, Imtiaz Barshon, Saddam Mal, Saberi Alam and many more.Directed by Golam Muktadir.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV.tr" start="20261115150000 +0000" stop="20261116000000 +0000">
+    <title lang="zh">Shonglap Protidin</title>
+    <desc>NTV Special Show regarding contemporary issues.</desc>
+    <date>20261115</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  </tv>
