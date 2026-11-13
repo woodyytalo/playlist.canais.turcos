@@ -1,34 +1,24 @@
-# Fontes XMLTV para ampliar a cobertura da TV principal
-# Open-EPG Turkey 1-4
+# Fontes XMLTV arquivadas em epg/fontes/ e sincronizadas automaticamente com Tv.m3u8
+# Fonte base GitHub: Turksat EPG
+https://raw.githubusercontent.com/trology85/iptv-epg-turkey/main/epg/turksat_epg.xml
+
+# Open-EPG Turquia 1-4
 https://www.open-epg.com/files/turkey1.xml
 https://www.open-epg.com/files/turkey2.xml
 https://www.open-epg.com/files/turkey3.xml
 https://www.open-epg.com/files/turkey4.xml
 
-# EPGShare Turkey TR1 e TR3
-https://epgshare01.online/epgshare01/epg_ripper_TR1.xml
-https://epgshare01.online/epgshare01/epg_ripper_TR3.xml
+# EPGShare TR3
+https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz
 
-# FreeEPG Turquia e EPG independente epghost
+# FreeEPG Turquia
 https://free-epg.de/api/epg/tr.xml
-https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml
 
-# O workflow combina as fontes por tvg-id ou display-name exato normalizado.
-# Programação sem correspondência exata não é atribuída a outro canal.
-
-# Fontes complementares são validadas individualmente; fontes fora do ar são ignoradas sem cancelar o guia.
-
-# Guias públicos do projeto iptv-org/epg (Turquia)
-https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml
-https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml
-https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml
-https://iptv-org.github.io/epg/guides/tr/turksatkablo.com.tr.epg.xml
-
-# Outros guias publicados em repositórios GitHub
+# Guias adicionais mantidos em repositórios GitHub
 https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/TurkishEPG.xml
 https://raw.githubusercontent.com/hayatiptv/iptv/master/tr-EPG-guide.xml
-https://dearbulut.github.io/iptv/epg/tr.xml.gz
 https://teleonline.github.io/epg/epg.xml.gz
 
-# Cada fonte é validada como XMLTV (canal + programa) antes de ser combinada.
-# Guias indisponíveis, vazios ou inválidos são ignorados automaticamente.
+# As fontes são validadas como XMLTV antes de serem arquivadas e combinadas.
+# A correspondência usa tvg-id ou display-name normalizado exatamente; não inventa programação.
+# Tv.m3u8 dispara a sincronização ao receber alterações; há também execução diária e manual.
