@@ -17,3 +17,18 @@ https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml
 # Programação sem correspondência exata não é atribuída a outro canal.
 
 # Fontes complementares são validadas individualmente; fontes fora do ar são ignoradas sem cancelar o guia.
+
+# Guias públicos do projeto iptv-org/epg (Turquia)
+https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml
+https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml
+https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml
+https://iptv-org.github.io/epg/guides/tr/turksatkablo.com.tr.epg.xml
+
+# Outros guias publicados em repositórios GitHub
+https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/TurkishEPG.xml
+https://raw.githubusercontent.com/hayatiptv/iptv/master/tr-EPG-guide.xml
+https://dearbulut.github.io/iptv/epg/tr.xml.gz
+https://teleonline.github.io/epg/epg.xml.gz
+
+# Cada fonte é validada como XMLTV (canal + programa) antes de ser combinada.
+# Guias indisponíveis, vazios ou inválidos são ignorados automaticamente.
