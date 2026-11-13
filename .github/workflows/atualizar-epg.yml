@@ -38,11 +38,12 @@ jobs:
           git clone --depth 1 https://github.com/Cyber-Wire/xmltv.git cyberwire
           cd cyberwire
           npm ci --ignore-scripts
+          npm run api:load
           while IFS= read -r site; do
             [[ -z "$site" || "$site" =~ ^# ]] && continue
             output="../epg-cyberwire-${site//./-}.xml"
             echo "Coletando programação Cyber-Wire: $site"
-            npm run grab -- --site="$site" --output="$output" --days=7 --maxConnections=2 || {
+            npm run grab --- --site="$site" --output="$output" --days=7 --maxConnections=2 || {
               echo "::warning::Coleta Cyber-Wire falhou para $site."
               rm -f "$output"
             }
