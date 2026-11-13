@@ -25,24 +25,34 @@ jobs:
           ref: ${{ github.ref_name }}
           persist-credentials: true
 
-      - name: Obter programação da fonte XMLTV
+      - name: Baixar fontes XMLTV com programação
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
           import urllib.request
-          url = "https://epg.pw/xmltv/epg_lite.xml"
-          req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 PlaylistTurquiaEPG"})
-          with urllib.request.urlopen(req, timeout=90) as response:
-              data = response.read()
-          open("epg-source.xml", "wb").write(data)
+          sources = {
+              "epg-source-tr.xml": "https://iptv-epg.org/files/epg-tr.xml",
+              "epg-source-lite.xml": "https://epg.pw/xmltv/epg_lite.xml",
+          }
+          for filename, url in sources.items():
+              req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 PlaylistTurquiaEPG"})
+              with urllib.request.urlopen(req, timeout=120) as response:
+                  data = response.read()
+              if not data.lstrip().startswith(b"<?xml") and b"<tv" not in data[:500]:
+                  raise SystemExit(f"Fonte XMLTV inválida: {url}")
+              open(filename, "wb").write(data)
           PY
 
-      - name: Sincronizar canais da TV principal no tele guia
+      - name: Sincronizar todos os canais da TV principal
         run: |
           set -euo pipefail
-          python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 --input epg-source.xml --output epg/guia-proprio.xml
-          rm -f epg-source.xml
+          python3 scripts/sincronizar_epg.py \
+            --playlist Tv.m3u8 \
+            --input epg-source-tr.xml \
+            --input epg-source-lite.xml \
+            --output epg/guia-proprio.xml
+          rm -f epg-source-tr.xml epg-source-lite.xml
 
       - name: Publicar XMLTV
         shell: bash
@@ -54,6 +64,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'Tele guia sem alterações.'
           else
-            git commit -m 'Sincroniza tele guia próprio com a TV principal'
+            git commit -m 'Sincroniza tele guia com todos os canais da TV principal'
             git push
           fi
