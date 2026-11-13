@@ -1,5 +1,4 @@
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-tr.xml" x-tvg-url="https://iptv-epg.org/files/epg-tr.xml"
-# url-tvg="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/guia-proprio.xml" x-tvg-url="https://iptv-epg.org/files/epg-tr.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/guia-proprio.xml"
 # Atualização de mapeamento XMLTV executada pelo workflow de EPG
 
 
