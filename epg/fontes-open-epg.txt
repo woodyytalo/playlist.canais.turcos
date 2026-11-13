@@ -1,9 +1,17 @@
-# Open-EPG Turkey - quatro guias XMLTV oficiais da opção 2
+# Fontes XMLTV para ampliar a cobertura da TV principal
+# Open-EPG Turkey 1-4
 https://www.open-epg.com/files/turkey1.xml
 https://www.open-epg.com/files/turkey2.xml
 https://www.open-epg.com/files/turkey3.xml
 https://www.open-epg.com/files/turkey4.xml
 
-# O workflow baixa os quatro arquivos diariamente e gera:
-# epg/guia-open-epg.xml (somente Open-EPG)
-# epg/guia-turquia.xml (Open-EPG + fonte XMLTV que já estava ativa)
+# EPGShare Turkey TR1 e TR3
+https://epgshare01.online/epgshare01/epg_ripper_TR1.xml
+https://epgshare01.online/epgshare01/epg_ripper_TR3.xml
+
+# FreeEPG Turquia e EPG independente epghost
+https://free-epg.de/api/epg/tr.xml
+https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml
+
+# O workflow combina as fontes por tvg-id ou display-name exato normalizado.
+# Programação sem correspondência exata não é atribuída a outro canal.
