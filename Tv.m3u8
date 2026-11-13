@@ -4,10 +4,6 @@
 #EXTVLCOPT:network-caching=8000
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
-#EXTINF:-1 tvg-id="360.tr@SD" tvg-name="360 TV" tvg-logo="https://www.tvlogo.org/turkey/360-tr.png" group-title="ENTRETENIMENTO",360 TV
-#EXTVLCOPT:network-caching=8000
-https://turkmedya-live.ercdn.net/tv360/tv360_480p.m3u8
-
 #EXTINF:-1 tvg-id="4UTV.tr" tvg-name="4U TV" tvg-logo="https://www.lyngsat.com/logo/tv/num/4u-tv-tr.png" group-title="ENTRETENIMENTO",4U TV
 #EXTVLCOPT:network-caching=8000
 https://hls.4utv.live/hls/stream.m3u8
@@ -576,10 +572,6 @@ https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web
 #EXTINF:-1 tvg-id="TV4.tr" tvg-name="TV4" tvg-logo="https://www.tvlogo.org/turkey/tv4-tr.png" group-title="ESTILO DE VIDA",TV4
 #EXTVLCOPT:network-caching=8000
 https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8
-
-#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV8" tvg-logo="https://www.tvlogo.org/turkey/tv8-tr.png" group-title="ENTRETENIMENTO",TV8
-#EXTVLCOPT:network-caching=8000
-https://tv8.daioncdn.net/tv8/tv8_480p.m3u8?&sid=8wn2omysa566&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=2
 
 #EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-logo="https://www.tvlogo.org/turkey/tvnet-tr.png" group-title="NOTÍCIAS",TVNET
 #EXTVLCOPT:network-caching=8000
