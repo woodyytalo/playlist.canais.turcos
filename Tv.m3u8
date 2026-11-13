@@ -485,9 +485,6 @@ https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 #EXTVLCOPT:network-caching=8000
 https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 
-#EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-name="TRT 2" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trt2.png" group-title="TRT",TRT 2
-#EXTVLCOPT:network-caching=8000
-https://tv-trt2.medya.trt.com.tr/master_480.m3u8
 
 #EXTINF:-1 tvg-id="TRTArabi.tr" tvg-name="TRT Arabi" tvg-logo="https://www.tvlogo.org/turkey/trt-arabi-tr.png" group-title="TRT",TRT Arabi
 #EXTVLCOPT:network-caching=8000
