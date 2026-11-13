@@ -34,6 +34,7 @@ jobs:
           from pathlib import Path
 
           sources = [
+              "https://free-epg.de/api/epg/tr.xml",
               "https://epg.pw/xmltv/epg_lite.xml",
               "https://iptv-epg.org/files/epg-tr.xml",
               "https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml",
