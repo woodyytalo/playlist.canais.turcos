@@ -1,6 +1,7 @@
 name: Atualizar tele guia próprio
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - "github/workflows/atualizar-logos.yml"
