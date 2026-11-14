@@ -82,6 +82,8 @@ jobs:
 
           optional_gzip_xml "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz" /tmp/epgshare-tr1.xml
           optional_gzip_xml "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz" /tmp/epgshare-tr3.xml
+          # Dearbulut IPTV Nexus: guia XMLTV específico da Turquia.
+          optional_gzip_xml "https://dearbulut.github.io/iptv/epg/tr.xml.gz" /tmp/dearbulut-turquia.xml
           optional_xml "https://free-epg.de/api/epg/tr.xml" /tmp/free-epg-tr.xml
           optional_xml "https://iptv-epg.org/files/epg-tr.xml" /tmp/iptv-epg-tr.xml
           # EPGFull usa URL pessoal .xml.gz guardada como segredo do GitHub.
@@ -123,7 +125,7 @@ jobs:
             src="${item%%:*}"; dest="${item##*:}"
             cp "/tmp/${src}.xml" "epg/${dest}.xml"
           done
-          for item in "epgshare-tr1:epgshare-tr1" "epgshare-tr3:epgshare-tr3" "free-epg-tr:free-epg-turquia" "ghaleb-turkish:ghaleb-turkish" "hayatiptv-turkey:hayatiptv-turquia" "teleonline-global:teleonline-global" "iptv-epg-tr:iptv-epg-turquia" "epgfull-turquia:epgfull-turquia" "epghost-turkey:epghost-turquia" "iptv-org-turquia:iptv-org-turquia" "iptv-org-tvplus:iptv-org-tvplus" "iptv-org-digiturk:iptv-org-digiturk" "iptv-org-dsmart:iptv-org-dsmart" "iptv-org-turksat-kablo:iptv-org-turksat-kablo"; do
+          for item in "epgshare-tr1:epgshare-tr1" "epgshare-tr3:epgshare-tr3" "dearbulut-turquia:dearbulut-turquia" "free-epg-tr:free-epg-turquia" "ghaleb-turkish:ghaleb-turkish" "hayatiptv-turkey:hayatiptv-turquia" "teleonline-global:teleonline-global" "iptv-epg-tr:iptv-epg-turquia" "epgfull-turquia:epgfull-turquia" "epghost-turkey:epghost-turquia" "iptv-org-turquia:iptv-org-turquia" "iptv-org-tvplus:iptv-org-tvplus" "iptv-org-digiturk:iptv-org-digiturk" "iptv-org-dsmart:iptv-org-dsmart" "iptv-org-turksat-kablo:iptv-org-turksat-kablo"; do
             src="${item%%:*}"; dest="${item##*:}"
             [[ ! -s "/tmp/${src}.xml" ]] || cp "/tmp/${src}.xml" "epg/${dest}.xml"
           done
@@ -133,7 +135,7 @@ jobs:
         run: |
           set -euo pipefail
           args=()
-          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml /tmp/epgfull-turquia.xml /tmp/epghost-turkey.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml; do
+          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/dearbulut-turquia.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml /tmp/epgfull-turquia.xml /tmp/epghost-turkey.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
           python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-open-epg.xml
