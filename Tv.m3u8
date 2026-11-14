@@ -622,9 +622,6 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/E
 #EXTVLCOPT:network-caching=15000
 https://szctvdvr.blutv.com/blutv_szctv_dvr/live_720p4350000kbps/index.m3u8
 
-#EXTINF:-1 tvg-id="Bein.Sports.Haber.tr" tvg-name="beIN Sports Haber" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/beinhaber.png" group-title="ESPORTES",beIN Sports Haber [720p HD]
-#EXTVLCOPT:network-caching=15000
-https://tgn.bozztv.com/dvrfl05/gin-beinsportshaber/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="custom.naturaltv" tvg-name="Natural TV" tvg-logo="https://i.imgur.com/rfcJ674.png" group-title="REGIONAIS",Natural TV [480 SD]
 #EXTVLCOPT:network-caching=15000
