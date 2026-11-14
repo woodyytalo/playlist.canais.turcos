@@ -1,0 +1,112 @@
+name: Monitoramento IPTV - todas as listas
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Tv.m3u8"
+      - "TV2.m3u8"
+      - "Euro.m3u"
+      - "Tvt.m3u"
+      - "Backup.m3u8"
+      - ".github/workflows/iptv-monitoramento.yml"
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: monitoramento-iptv-todas-as-listas
+  cancel-in-progress: true
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Preparar pastas de relatórios
+        run: mkdir -p reports/iptv-check reports/iptv-org reports/dearbulut
+
+      # Dearbulut IPTV Nexus: índice externo, métricas de saúde e alternativas turcas.
+      - name: Consultar Dearbulut - saúde geral e canais da Turquia
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 --retry-delay 3 \
+            https://dearbulut.github.io/iptv/api/v1/health.json \
+            -o reports/dearbulut/health.json
+          curl --fail --location --retry 3 --retry-delay 3 \
+            https://dearbulut.github.io/iptv/api/v1/by-country/tr.json \
+            -o reports/dearbulut/turquia.json
+          echo "Dados Dearbulut baixados. Eles servem como referência externa; não substituem automaticamente os links personalizados."
+
+      # IPTV-CHECK gera cópias filtradas nos relatórios. As playlists originais nunca são sobrescritas.
+      - name: Instalar dependências do IPTV-CHECK
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg yt-dlp
+          python3 -m pip install --upgrade pip
+          python3 -m pip install requests Pillow pytesseract colorama
+          git clone --depth 1 https://github.com/peterpt/IPTV-CHECK.git /tmp/IPTV-CHECK
+
+      - name: IPTV-CHECK - TV principal (prioridade máxima)
+        continue-on-error: true
+        run: python3 /tmp/IPTV-CHECK/iptv_check.py -f Tv.m3u8 -o reports/iptv-check/TV-principal-validos.m3u8 -w 10 -t 10
+
+      - name: IPTV-CHECK - TV2
+        continue-on-error: true
+        run: python3 /tmp/IPTV-CHECK/iptv_check.py -f TV2.m3u8 -o reports/iptv-check/TV2-validos.m3u8 -w 10 -t 10
+
+      - name: IPTV-CHECK - Euro
+        continue-on-error: true
+        run: python3 /tmp/IPTV-CHECK/iptv_check.py -f Euro.m3u -o reports/iptv-check/Euro-validos.m3u8 -w 10 -t 10
+
+      - name: IPTV-CHECK - TVT
+        continue-on-error: true
+        run: python3 /tmp/IPTV-CHECK/iptv_check.py -f Tvt.m3u -o reports/iptv-check/TVT-validos.m3u8 -w 10 -t 10
+
+      - name: IPTV-CHECK - Backup
+        continue-on-error: true
+        run: python3 /tmp/IPTV-CHECK/iptv_check.py -f Backup.m3u8 -o reports/iptv-check/Backup-validos.m3u8 -w 10 -t 10
+
+      # IPTV-org playlist:test testa as URLs, sem usar --fix para não editar as listas.
+      - name: Preparar teste complementar do IPTV-org
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 https://github.com/iptv-org/iptv.git /tmp/iptv-org
+          cd /tmp/iptv-org
+          npm ci --ignore-scripts
+          mkdir -p streams/custom
+          cp "${GITHUB_WORKSPACE}/Tv.m3u8" streams/custom/TV-principal.m3u
+          cp "${GITHUB_WORKSPACE}/TV2.m3u8" streams/custom/TV2.m3u
+          cp "${GITHUB_WORKSPACE}/Euro.m3u" streams/custom/Euro.m3u
+          cp "${GITHUB_WORKSPACE}/Tvt.m3u" streams/custom/TVT.m3u
+          cp "${GITHUB_WORKSPACE}/Backup.m3u8" streams/custom/Backup.m3u
+          npm run playlist:test -- --parallel 8 --timeout 15000 \
+            streams/custom/TV-principal.m3u \
+            streams/custom/TV2.m3u \
+            streams/custom/Euro.m3u \
+            streams/custom/TVT.m3u \
+            streams/custom/Backup.m3u \
+            2>&1 | tee "${GITHUB_WORKSPACE}/reports/iptv-org/playlist-test.log"
+
+      - name: Salvar relatórios e listas filtradas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: monitoramento-iptv-todas-as-listas
+          path: reports/
+          if-no-files-found: warn
+          retention-days: 14
