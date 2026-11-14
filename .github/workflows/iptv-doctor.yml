@@ -1,4 +1,4 @@
-name: IPTV Doctor - verificar listas
+name: IPTV Doctor - verificar todas as listas
 
 on:
   workflow_dispatch:
@@ -7,7 +7,10 @@ on:
       - "github/workflows/atualizar-logos.yml"
     paths:
       - "Tv.m3u8"
+      - "TV2.m3u8"
       - "Tvt.m3u"
+      - "Euro.m3u"
+      - "Backup.m3u8"
       - ".github/workflows/iptv-doctor.yml"
   schedule:
     - cron: "0 */6 * * *"
@@ -22,36 +25,64 @@ concurrency:
 jobs:
   verificar-listas:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - name: Baixar repositório
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
 
-      - name: Verificar TV principal
+      # TV principal é verificada primeiro por ser a lista prioritária.
+      - name: 1 - Verificar TV principal
         uses: xyzs996/iptv-doctor@v1
         with:
           playlist: Tv.m3u8
-          report: reports/TV-principal.html
-          json: reports/TV-principal.json
-          csv: reports/TV-principal.csv
-          badge: reports/TV-principal-badge.json
+          report: reports/01-TV-principal.html
+          json: reports/01-TV-principal.json
+          csv: reports/01-TV-principal.csv
+          badge: reports/01-TV-principal-badge.json
 
-      - name: Verificar TVT
+      - name: 2 - Verificar TV2
+        uses: xyzs996/iptv-doctor@v1
+        with:
+          playlist: TV2.m3u8
+          report: reports/02-TV2.html
+          json: reports/02-TV2.json
+          csv: reports/02-TV2.csv
+          badge: reports/02-TV2-badge.json
+
+      - name: 3 - Verificar Euro
+        uses: xyzs996/iptv-doctor@v1
+        with:
+          playlist: Euro.m3u
+          report: reports/03-Euro.html
+          json: reports/03-Euro.json
+          csv: reports/03-Euro.csv
+          badge: reports/03-Euro-badge.json
+
+      - name: 4 - Verificar TVT
         uses: xyzs996/iptv-doctor@v1
         with:
           playlist: Tvt.m3u
-          report: reports/TVT.html
-          json: reports/TVT.json
-          csv: reports/TVT.csv
-          badge: reports/TVT-badge.json
+          report: reports/04-TVT.html
+          json: reports/04-TVT.json
+          csv: reports/04-TVT.csv
+          badge: reports/04-TVT-badge.json
+
+      - name: 5 - Verificar Backup
+        uses: xyzs996/iptv-doctor@v1
+        with:
+          playlist: Backup.m3u8
+          report: reports/05-Backup.html
+          json: reports/05-Backup.json
+          csv: reports/05-Backup.csv
+          badge: reports/05-Backup-badge.json
 
       - name: Salvar relatórios
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: relatorios-iptv-doctor
+          name: relatorios-iptv-doctor-todas-as-listas
           path: reports/
           if-no-files-found: warn
           retention-days: 14
