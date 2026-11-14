@@ -5214,7 +5214,7 @@ https://vavoo.to/vavoo-iptv/play/40428875846b4e812374d1
 #EXTINF:-1 tvg-name="4K TR: NUMBER1 TV HD" group-title="MÚSICA", 2008 - 4K TR: NUMBER1 TV HD
 https://vavoo.to/vavoo-iptv/play/152660259946902d02c5c6
 
-#EXTINF:-1 tvg-name="4K TR: POWER TURK HD" group-title="MÚSICA", 2009 - 4K TR: POWER TURK HD
+#EXTINF:-1 tvg-name="4K TR: POWER TURK HD" group-title="POWER", 2009 - 4K TR: POWER TURK HD
 https://vavoo.to/vavoo-iptv/play/42444473843632d84d102d
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA", 152 - 70-80 TV (1080P)
@@ -5673,107 +5673,107 @@ https://vdo2.pro-fhi.net:3207/stream/play.m3u8
 #EXTINF:-1 group-title="MÚSICA", 204 - Play TV
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER DANCE" tvg-logo="https://i.ibb.co/5hwZ7xw/power-dance.png" group-title="MÚSICA", 641 - POWER DANCE
+#EXTINF:-1 tvg-name="POWER DANCE" tvg-logo="https://i.ibb.co/5hwZ7xw/power-dance.png" group-title="POWER", 641 - POWER DANCE
 https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8#all
 
-#EXTINF:-1 tvg-name="POWER DANCE" tvg-logo="https://i.ibb.co/5hwZ7xw/power-dance.png" group-title="MÚSICA", 791 - POWER DANCE
+#EXTINF:-1 tvg-name="POWER DANCE" tvg-logo="https://i.ibb.co/5hwZ7xw/power-dance.png" group-title="POWER", 791 - POWER DANCE
 https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER DANCE" tvg-logo="https://logo.huhu.to/logo?c=4234416466.png" group-title="MÚSICA", 2050 - POWER DANCE
+#EXTINF:-1 tvg-name="POWER DANCE" tvg-logo="https://logo.huhu.to/logo?c=4234416466.png" group-title="POWER", 2050 - POWER DANCE
 https://vavoo.to/vavoo-iptv/play/4234416466b6878ac343d7
 
-#EXTINF:-1 tvg-name="POWER DANCE" tvg-logo="https://i.ibb.co/FVNL477/pdance.png" group-title="MÚSICA", 2711 - POWER DANCE
+#EXTINF:-1 tvg-name="POWER DANCE" tvg-logo="https://i.ibb.co/FVNL477/pdance.png" group-title="POWER", 2711 - POWER DANCE
 http://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerDance.tr" group-title="MÚSICA", 402 - Power Dance (1080p)
+#EXTINF:-1 tvg-id="PowerDance.tr" group-title="POWER", 402 - Power Dance (1080p)
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER FM YABANCI M ZIK" group-title="MÚSICA", 1961 - POWER FM YABANCI M ZIK
+#EXTINF:-1 tvg-name="POWER FM YABANCI M ZIK" group-title="POWER", 1961 - POWER FM YABANCI M ZIK
 https://vavoo.to/vavoo-iptv/play/1299417291527618a1ccab
 
-#EXTINF:-1 tvg-name="POWER HD" group-title="MÚSICA", 2051 - POWER HD
+#EXTINF:-1 tvg-name="POWER HD" group-title="POWER", 2051 - POWER HD
 https://vavoo.to/vavoo-iptv/play/23667904081b95cae45de4
 
-#EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://i.ibb.co/bJL1VnX/power-love.png" group-title="MÚSICA", 642 - POWER LOVE
+#EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://i.ibb.co/bJL1VnX/power-love.png" group-title="POWER", 642 - POWER LOVE
 https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8#all
 
-#EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://i.ibb.co/bJL1VnX/power-love.png" group-title="MÚSICA", 792 - POWER LOVE
+#EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://i.ibb.co/bJL1VnX/power-love.png" group-title="POWER", 792 - POWER LOVE
 https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://logo.huhu.to/logo?c=1783508809.png" group-title="MÚSICA", 2052 - POWER LOVE
+#EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://logo.huhu.to/logo?c=1783508809.png" group-title="POWER", 2052 - POWER LOVE
 https://vavoo.to/vavoo-iptv/play/178350880905c3993617e6
 
-#EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://i.ibb.co/VLQ6cmV/plove.png" group-title="MÚSICA", 2712 - POWER LOVE
+#EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://i.ibb.co/VLQ6cmV/plove.png" group-title="POWER", 2712 - POWER LOVE
 http://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerLove.tr" group-title="MÚSICA", 403 - Power Love (1080p)
+#EXTINF:-1 tvg-id="PowerLove.tr" group-title="POWER", 403 - Power Love (1080p)
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerPlus.tr" group-title="MÚSICA", 1048 - Power Plus (1080p)
+#EXTINF:-1 tvg-id="PowerPlus.tr" group-title="POWER", 1048 - Power Plus (1080p)
 https://livetv.powerapp.com.tr/pplustv/pplustv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER T RK T RK E POP" group-title="MÚSICA", 2053 - POWER T RK T RK E POP
+#EXTINF:-1 tvg-name="POWER T RK T RK E POP" group-title="POWER", 2053 - POWER T RK T RK E POP
 https://vavoo.to/vavoo-iptv/play/2703806315a67a7c89a263
 
-#EXTINF:-1 tvg-id="Muzik_PowerTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6" group-title="MÚSICA", 096 - Power Türk
+#EXTINF:-1 tvg-id="Muzik_PowerTurk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6" group-title="POWER", 096 - Power Türk
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER TÜRK" tvg-logo="https://i.ibb.co/B6N9KsN/powerturk22.png" group-title="MÚSICA", 2700 - POWER TÜRK
+#EXTINF:-1 tvg-name="POWER TÜRK" tvg-logo="https://i.ibb.co/B6N9KsN/powerturk22.png" group-title="POWER", 2700 - POWER TÜRK
 http://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="MÚSICA", 404 - Power Turk (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="POWER", 404 - Power Turk (1080p) [Not 24/7]
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" group-title="MÚSICA", 943 - Power Turk (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" group-title="POWER", 943 - Power Turk (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER TÜRK AKUSTİK" tvg-logo="https://i.ibb.co/FgCW885/pturkakustik.png" group-title="MÚSICA", 2702 - POWER TÜRK AKUSTİK
+#EXTINF:-1 tvg-name="POWER TÜRK AKUSTİK" tvg-logo="https://i.ibb.co/FgCW885/pturkakustik.png" group-title="POWER", 2702 - POWER TÜRK AKUSTİK
 http://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerTurkAkustik.tr" group-title="MÚSICA", 405 - Power Türk Akustik (1080p)
+#EXTINF:-1 tvg-id="PowerTurkAkustik.tr" group-title="POWER", 405 - Power Türk Akustik (1080p)
 https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerTurkEnIyiler.tr" group-title="MÚSICA", 1049 - Power Türk En Iyiler (1080p)
+#EXTINF:-1 tvg-id="PowerTurkEnIyiler.tr" group-title="POWER", 1049 - Power Türk En Iyiler (1080p)
 https://livetv.powerapp.com.tr/pturkeniyiler/eniyiler.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER TURK HD" group-title="MÚSICA", 2054 - POWER TURK HD
+#EXTINF:-1 tvg-name="POWER TURK HD" group-title="POWER", 2054 - POWER TURK HD
 https://vavoo.to/vavoo-iptv/play/714196738c6888433546f
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA", 139 - Power Türk Love
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="POWER", 139 - Power Türk Love
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER TÜRK SLOW" tvg-logo="https://i.ibb.co/rZxNWKv/pslow.png" group-title="MÚSICA", 2701 - POWER TÜRK SLOW
+#EXTINF:-1 tvg-name="POWER TÜRK SLOW" tvg-logo="https://i.ibb.co/rZxNWKv/pslow.png" group-title="POWER", 2701 - POWER TÜRK SLOW
 http://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerTurkSlow.tr" group-title="MÚSICA", 406 - Power Türk Slow (1080p)
+#EXTINF:-1 tvg-id="PowerTurkSlow.tr" group-title="POWER", 406 - Power Türk Slow (1080p)
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F5K5xs9/powerturk-taptaze.png" group-title="MÚSICA", 088 - POWER TURK TAPTAZE
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F5K5xs9/powerturk-taptaze.png" group-title="POWER", 088 - POWER TURK TAPTAZE
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerTurkTaptaze.tr@SD" group-title="MÚSICA", 944 - Power Türk Taptaze (1080p)
+#EXTINF:-1 tvg-id="PowerTurkTaptaze.tr@SD" group-title="POWER", 944 - Power Türk Taptaze (1080p)
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER TURK TV" tvg-logo="https://logo.huhu.to/logo?c=176662368.png" group-title="MÚSICA", 2055 - POWER TURK TV
+#EXTINF:-1 tvg-name="POWER TURK TV" tvg-logo="https://logo.huhu.to/logo?c=176662368.png" group-title="POWER", 2055 - POWER TURK TV
 https://vavoo.to/vavoo-iptv/play/17666236897fc019f2aef
 
-#EXTINF:-1 tvg-id="POWER.TV.HD.tr" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="MÚSICA", 643 - Power TV
+#EXTINF:-1 tvg-id="POWER.TV.HD.tr" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="POWER", 643 - Power TV
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8#all
 
-#EXTINF:-1 tvg-id="POWER.TV.HD.tr" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="MÚSICA", 748 - Power TV
+#EXTINF:-1 tvg-id="POWER.TV.HD.tr" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="POWER", 748 - Power TV
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8#top50
 
-#EXTINF:-1 tvg-id="POWER.TV.HD.tr" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="MÚSICA", 793 - Power TV
+#EXTINF:-1 tvg-id="POWER.TV.HD.tr" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="POWER", 793 - Power TV
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="POWER TV" tvg-logo="https://logo.huhu.to/logo?c=1509063606.png" group-title="MÚSICA", 2056 - POWER TV
+#EXTINF:-1 tvg-name="POWER TV" tvg-logo="https://logo.huhu.to/logo?c=1509063606.png" group-title="POWER", 2056 - POWER TV
 https://vavoo.to/vavoo-iptv/play/1509063606ba7e6dcb8541
 
-#EXTINF:-1 tvg-name="POWER TV" tvg-logo="https://i.ibb.co/xhfcTC7/powertv.png" group-title="MÚSICA", 2710 - POWER TV
+#EXTINF:-1 tvg-name="POWER TV" tvg-logo="https://i.ibb.co/xhfcTC7/powertv.png" group-title="POWER", 2710 - POWER TV
 http://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerTV.tr" group-title="MÚSICA", 407 - Power TV (720p)
+#EXTINF:-1 tvg-id="PowerTV.tr" group-title="POWER", 407 - Power TV (720p)
 https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA", 140 - PowerTürk
@@ -5989,25 +5989,25 @@ http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/5a41f081-d9fd-4f65-8cc6-2094d34
 #EXTINF:-1 tvg-name="TR:NR1 TURK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/n1turk.png" group-title="MÚSICA", 1404 - TR:NR1 TURK HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/56764e52-57d8-4781-8e9f-3ad68493104b.m3u
 
-#EXTINF:-1 tvg-name="TR:POWER TURK AKUSTIK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/powet-turk-akustik.png" group-title="MÚSICA", 1403 - TR:POWER TURK AKUSTIK HD
+#EXTINF:-1 tvg-name="TR:POWER TURK AKUSTIK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/powet-turk-akustik.png" group-title="POWER", 1403 - TR:POWER TURK AKUSTIK HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/12ba3779-e1e7-4890-9a11-c426ec90e1dd.m3u
 
-#EXTINF:-1 tvg-name="TR:POWER TURK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/powerturk.png" group-title="MÚSICA", 1400 - TR:POWER TURK HD
+#EXTINF:-1 tvg-name="TR:POWER TURK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/powerturk.png" group-title="POWER", 1400 - TR:POWER TURK HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/29463c39-4707-4953-9a59-c083af2b3450.m3u
 
-#EXTINF:-1 tvg-name="TR:POWER TURK SLOW HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/power-slow.png" group-title="MÚSICA", 1402 - TR:POWER TURK SLOW HD
+#EXTINF:-1 tvg-name="TR:POWER TURK SLOW HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/power-slow.png" group-title="POWER", 1402 - TR:POWER TURK SLOW HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/19521a2f-bc9c-40ae-b59d-10ac0495bd7c.m3u
 
-#EXTINF:-1 tvg-name="TR:POWER TURK TAPTAZE HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/power-turk-taptaze.png" group-title="MÚSICA", 1401 - TR:POWER TURK TAPTAZE HD
+#EXTINF:-1 tvg-name="TR:POWER TURK TAPTAZE HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/power-turk-taptaze.png" group-title="POWER", 1401 - TR:POWER TURK TAPTAZE HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/7ad1fe11-f590-454a-ae7b-010975998765.m3u
 
-#EXTINF:-1 tvg-name="TR:POWER TV DANCE HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/power-dance.png" group-title="MÚSICA", 1411 - TR:POWER TV DANCE HD
+#EXTINF:-1 tvg-name="TR:POWER TV DANCE HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/power-dance.png" group-title="POWER", 1411 - TR:POWER TV DANCE HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/d1dc58d1-1b5c-4fa7-8ec5-3473a8ceb2be.m3u
 
-#EXTINF:-1 tvg-name="TR:POWER TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/powertv.png" group-title="MÚSICA", 1410 - TR:POWER TV HD
+#EXTINF:-1 tvg-name="TR:POWER TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/powertv.png" group-title="POWER", 1410 - TR:POWER TV HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/e0c2980c-bc96-435c-a05a-e9006c831a0c.m3u
 
-#EXTINF:-1 tvg-name="TR:POWER TV LOVE HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/power-love.png" group-title="MÚSICA", 1412 - TR:POWER TV LOVE HD
+#EXTINF:-1 tvg-name="TR:POWER TV LOVE HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/power-love.png" group-title="POWER", 1412 - TR:POWER TV LOVE HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/a381f5ba-137f-497b-9997-79e940ae0c47.m3u
 
 #EXTINF:-1 tvg-name="TR:TRT MUZIK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png" group-title="MÚSICA", 1409 - TR:TRT MUZIK HD
@@ -8957,7 +8957,7 @@ https://vavoo.to/vavoo-iptv/play/34228536805e87ad5629aa
 #EXTINF:-1 tvg-name="TRT COCUK RAW" group-title="INFANTIS", 2946 - TRT COCUK RAW
 https://vavoo.to/vavoo-iptv/play/3979837190d92f4a65c83b
 
-#EXTINF:-1 tvg-name="4K TR: POWER TV HD" group-title="MÚSICA", 2947 - 4K TR: POWER TV HD
+#EXTINF:-1 tvg-name="4K TR: POWER TV HD" group-title="POWER", 2947 - 4K TR: POWER TV HD
 https://vavoo.to/vavoo-iptv/play/130796566204d6973e458e
 
 #EXTINF:-1 tvg-name="ALEM FM RADYOLAND" group-title="MÚSICA", 2948 - ALEM FM RADYOLAND
