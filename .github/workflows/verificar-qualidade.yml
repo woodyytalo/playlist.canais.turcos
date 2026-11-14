@@ -1,0 +1,53 @@
+name: Verificar qualidade real dos canais
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 4 * * *"
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Tv.m3u8"
+      - "scripts/verificar_qualidade.py"
+      - ".github/workflows/verificar-qualidade.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verificar-qualidade-tv-principal
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
+
+      - name: Instalar FFprobe
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Verificar resolução real dos canais
+        env:
+          PROBE_TIMEOUT: "22"
+          PROBE_WORKERS: "6"
+        run: python3 scripts/verificar_qualidade.py
+
+      - name: Salvar relatórios no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add relatorio-qualidade/TV-principal.csv relatorio-qualidade/TV-principal.json relatorio-qualidade/TV-principal.md
+          if git diff --cached --quiet; then
+            echo "Relatório sem alterações; nenhum commit necessário."
+          else
+            git commit -m "Atualiza relatório de qualidade da TV principal"
+            git push
+          fi
