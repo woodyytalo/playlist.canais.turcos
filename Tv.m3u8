@@ -710,3 +710,6 @@ https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 
 #EXTINF:-1 tvg-id="TLC.de@SD" group-title="DOCUMENTÁRIOS" tvg-logo="https://i.imgur.com/AXlHsla.png", 2904 - TLC
 https://s6.hopslan.com/tlcX/index.m3u8
+
+#EXTINF:-1 tvg-id="LoveNature.ca@HD" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="DOCUMENTÁRIOS", 2908 - Love Nature
+https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
