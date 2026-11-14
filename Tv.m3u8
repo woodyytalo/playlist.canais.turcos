@@ -713,3 +713,6 @@ https://s6.hopslan.com/tlcX/index.m3u8
 
 #EXTINF:-1 tvg-id="LoveNature.ca@HD" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="DOCUMENTÁRIOS", 2908 - Love Nature
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
+
+#EXTINF:-1 tvg-name="ETV MANiSA" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="REGIONAIS", 564 - ETV MANiSA
+https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8#all
