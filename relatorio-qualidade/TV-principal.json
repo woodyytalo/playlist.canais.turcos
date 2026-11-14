@@ -1,5 +1,5 @@
 {
-  "verificado_em": "2026-11-14 21:38 UTC",
+  "verificado_em": "2026-11-14 22:35 UTC",
   "total": 183,
   "canais": [
     {
@@ -134,7 +134,7 @@
       "resolucao": "",
       "codec": "",
       "host": "1.rtmp.org",
-      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w1998902601.m3u8: Server returned 404 Not Found",
+      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w2049684772.m3u8: Server returned 404 Not Found",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -837,7 +837,7 @@
       "codec": "h264",
       "host": "vhxyrsly.rocketcdn.com",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "1280x720"
+      "resolucao_declarada_no_master": ""
     },
     {
       "canal": "Mercan TV",
@@ -877,12 +877,12 @@
     },
     {
       "canal": "NOW",
-      "classificacao": "Não verificado",
-      "resolucao": "",
-      "codec": "",
-      "host": "116.202.238.88",
-      "resultado": "http://116.202.238.88/FOXTV_TR/index.m3u8: Connection refused",
-      "resolucao_declarada_no_master": ""
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "uycyyuuzyh.turknet.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
     },
     {
       "canal": "NR1 Aşk",
@@ -1034,7 +1034,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=-1Hr6Lm6WpXAO9RZS_DNwA&e=1794778651: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=wkAlBUh1u7D8hFdejBVHGg&e=1794782118: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1920x1080"
     },
     {
@@ -1047,7 +1047,7 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "TELE1",
+      "canal": "TELE1 [720p HD]",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1111,11 +1111,11 @@
     },
     {
       "canal": "TRT 1",
-      "classificacao": "SD",
-      "resolucao": "854x480",
-      "codec": "h264",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
       "host": "tv-trt1.medya.trt.com.tr",
-      "resultado": "OK",
+      "resultado": "https://tv-trt1.medya.trt.com.tr/master_480.m3u8: Server returned 403 Forbidden (access denied)",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -1164,7 +1164,7 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
-      "canal": "TRT Genç",
+      "canal": "TRT Genç [480p SD]",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1200,12 +1200,12 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "Kral Pop",
+      "canal": "Kral Pop [720p HD]",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w1507363955_b2000096.m3u8?st=4ielv3UHJ1E-zt1KWe8Xbg&e=1794778659: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w1319560976_b2000096.m3u8?st=2y6Dlahpli0wfb76bvsvhw&e=1794782124: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1280x720"
     },
     {
@@ -1299,7 +1299,7 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
-      "canal": "TV100",
+      "canal": "TV100 [480p SD]",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1308,7 +1308,7 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "TV4",
+      "canal": "TV4 [480p SD]",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1389,7 +1389,7 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
-      "canal": "Sözcü TV",
+      "canal": "Sözcü TV [720p HD]",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1434,7 +1434,7 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
-      "canal": "PowerTürk TV",
+      "canal": "PowerTürk TV [SD]",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1587,7 +1587,7 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E\", 2900 - MC EU TV",
+      "canal": "2900 - MC EU TV",
       "classificacao": "HD",
       "resolucao": "1280x720",
       "codec": "h264",
