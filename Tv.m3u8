@@ -390,7 +390,7 @@ https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NOW.tr" tvg-name="NOW" tvg-logo="https://www.tvlogo.org/turkey/now-tr.png" group-title="ENTRETENIMENTO",NOW
 #EXTVLCOPT:network-caching=15000
-http://116.202.238.88/FOXTV_TR/index.m3u8
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 
 #EXTINF:-1 tvg-id="custom.nr1ask" tvg-name="NR1 Aşk" tvg-logo="https://www.tvlogo.org/turkey/nr1-ask-tr.png" group-title="MÚSICA",NR1 Aşk
 #EXTVLCOPT:network-caching=15000
