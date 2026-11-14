@@ -480,7 +480,7 @@ https://vavoo.to/vavoo-iptv/play/16776796840463f6dcff41
 #EXTINF:-1 tvg-name="4K TR: MELTEM TV" group-title="ENTRETENIMENTO", 2126 - 4K TR: MELTEM TV
 https://vavoo.to/vavoo-iptv/play/70038106882c930faaa1b
 
-#EXTINF:-1 tvg-name="4K TR: NOW HD" group-title="ENTRETENIMENTO", 1535 - 4K TR: NOW HD
+#EXTINF:-1 tvg-name="4K TR: NOW HD" group-title="CANAIS NOW", 1535 - 4K TR: NOW HD
 https://vavoo.to/vavoo-iptv/play/2578197593a87a0ba68631
 
 #EXTINF:-1 tvg-name="4K TR: SHOW TV HD" group-title="ENTRETENIMENTO", 1536 - 4K TR: SHOW TV HD
@@ -1737,73 +1737,73 @@ https://vavoo.to/vavoo-iptv/play/692811579f95ab595b603
 #EXTINF:-1 tvg-name="NILOYA TV" group-title="ENTRETENIMENTO", 2336 - NILOYA TV
 https://vavoo.to/vavoo-iptv/play/2728276611484869add9bb
 
-#EXTINF:-1 tvg-id="Fox.tr" tvg-logo="https://i.ibb.co/QvTPfhs/now.png" group-title="ENTRETENIMENTO", 449 - NOW
+#EXTINF:-1 tvg-id="Fox.tr" tvg-logo="https://i.ibb.co/QvTPfhs/now.png" group-title="CANAIS NOW", 449 - NOW
 http://116.202.238.88/FOXTV_TR/index.m3u8
 
-#EXTINF:-1 tvg-id="FOX.HD.tr" tvg-name="NOW" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="ENTRETENIMENTO", 630 - NOW
+#EXTINF:-1 tvg-id="FOX.HD.tr" tvg-name="NOW" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="CANAIS NOW", 630 - NOW
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8#all
 
-#EXTINF:-1 tvg-id="FOX.HD.tr" tvg-name="NOW" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="ENTRETENIMENTO", 709 - NOW
+#EXTINF:-1 tvg-id="FOX.HD.tr" tvg-name="NOW" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="CANAIS NOW", 709 - NOW
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8#top50
 
-#EXTINF:-1 tvg-name="NOW" group-title="ENTRETENIMENTO", 2337 - NOW
+#EXTINF:-1 tvg-name="NOW" group-title="CANAIS NOW", 2337 - NOW
 https://vavoo.to/vavoo-iptv/play/31051840561fc5d2fb58a5
 
-#EXTINF:-1 tvg-id="Fox.tr" tvg-name="NOW" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO", 2519 - NOW
+#EXTINF:-1 tvg-id="Fox.tr" tvg-name="NOW" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="CANAIS NOW", 2519 - NOW
 https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=NwJAEEBoOqsOe1W7dAIFzg&e=1760946390
 
-#EXTINF:-1 tvg-id="Fox.tr" tvg-name="NOW" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO", 2520 - NOW
+#EXTINF:-1 tvg-id="Fox.tr" tvg-name="NOW" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="CANAIS NOW", 2520 - NOW
 https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=NwJAEEBoOqsOe1W7dAIFzg&e=1760946390
 
-#EXTINF:-1 tvg-id="NOW.tr@SD" group-title="ENTRETENIMENTO", 939 - NOW (720p)
+#EXTINF:-1 tvg-id="NOW.tr@SD" group-title="CANAIS NOW", 939 - NOW (720p)
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 
-#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO", 2547 - NOW (backup)
+#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="CANAIS NOW", 2547 - NOW (backup)
 https://trn03.tulix.tv/gt-fox-turk-tv/index.m3u8
 
-#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO", 2548 - NOW (backup)
+#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="CANAIS NOW", 2548 - NOW (backup)
 https://new.cache-stream.workers.dev/stream/UCJe13zu6MyE6Oueac41KAqg/live.m3u8
 
-#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO", 2549 - NOW (backup)
+#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="CANAIS NOW", 2549 - NOW (backup)
 https://ythls.armelin.one/channel/UCJe13zu6MyE6Oueac41KAqg.m3u8
 
-#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO", 2550 - NOW (backup)
+#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="CANAIS NOW", 2550 - NOW (backup)
 http://hw1.jemtv.com/app/FoxTurkey/chunks.m3u8
 
-#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO", 2551 - NOW (backup)
+#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="CANAIS NOW", 2551 - NOW (backup)
 https://bozztv.com/inim03/live1/turkfoxtv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO", 2552 - NOW (backup)
+#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="CANAIS NOW", 2552 - NOW (backup)
 https://mnorigin-ank-1.mncdn.com/test/live_720p.m3u8
 
-#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO", 2553 - NOW (backup)
+#EXTINF:-1 tvg-name="NOW (backup)" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="CANAIS NOW", 2553 - NOW (backup)
 https://c.fulltvizle.com/fox/index.m3u8
 
-#EXTINF:-1 tvg-name="Now TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_FoxTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NOW_TV_%28Turkey%29_wordmark-red.svg/1920px-NOW_TV_%28Turkey%29_wordmark-red.svg.png" group-title="ENTRETENIMENTO", 986 - Now TV
+#EXTINF:-1 tvg-name="Now TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_FoxTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NOW_TV_%28Turkey%29_wordmark-red.svg/1920px-NOW_TV_%28Turkey%29_wordmark-red.svg.png" group-title="CANAIS NOW", 986 - Now TV
 http://stream.tvcdn.net/ulusal/now-tv.m3u8
 
-#EXTINF:-1 tvg-id="NOWTV.tr" group-title="ENTRETENIMENTO", 393 - NOW TV
+#EXTINF:-1 tvg-id="NOWTV.tr" group-title="CANAIS NOW", 393 - NOW TV
 http://116.202.238.88/FOXTV_TR/index.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="ENTRETENIMENTO", 940 - NOW TV (720p)
+#EXTINF:-1 tvg-id="" group-title="CANAIS NOW", 940 - NOW TV (720p)
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 
-#EXTINF:-1 tvg-name="NOW TV FHD" group-title="ENTRETENIMENTO", 1580 - NOW TV FHD
+#EXTINF:-1 tvg-name="NOW TV FHD" group-title="CANAIS NOW", 1580 - NOW TV FHD
 https://vavoo.to/vavoo-iptv/play/919108696a1b98997373b
 
-#EXTINF:-1 tvg-name="NOW TV HD" group-title="ENTRETENIMENTO", 1581 - NOW TV HD
+#EXTINF:-1 tvg-name="NOW TV HD" group-title="CANAIS NOW", 1581 - NOW TV HD
 https://vavoo.to/vavoo-iptv/play/161305206673e7c4b7739
 
-#EXTINF:-1 tvg-name="NOW TV HD (H265)" group-title="ENTRETENIMENTO", 1582 - NOW TV HD (H265)
+#EXTINF:-1 tvg-name="NOW TV HD (H265)" group-title="CANAIS NOW", 1582 - NOW TV HD (H265)
 https://vavoo.to/vavoo-iptv/play/9989683045db00316f92d
 
-#EXTINF:-1 tvg-name="NOW TV HEVC" group-title="ENTRETENIMENTO", 1583 - NOW TV HEVC
+#EXTINF:-1 tvg-name="NOW TV HEVC" group-title="CANAIS NOW", 1583 - NOW TV HEVC
 https://vavoo.to/vavoo-iptv/play/117018314962b4e9489718
 
-#EXTINF:-1 tvg-name="NOW TV RAW" group-title="ENTRETENIMENTO", 1584 - NOW TV RAW
+#EXTINF:-1 tvg-name="NOW TV RAW" group-title="CANAIS NOW", 1584 - NOW TV RAW
 https://vavoo.to/vavoo-iptv/play/2769713183b7a2cf8dde9b
 
-#EXTINF:-1 tvg-name="NOW TV SD" group-title="ENTRETENIMENTO", 1585 - NOW TV SD
+#EXTINF:-1 tvg-name="NOW TV SD" group-title="CANAIS NOW", 1585 - NOW TV SD
 https://vavoo.to/vavoo-iptv/play/1619828782743bd8c4c921
 
 #EXTINF:-1 tvg-name="NR 1 HD" group-title="ENTRETENIMENTO", 2338 - NR 1 HD
@@ -2319,13 +2319,13 @@ http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/09c65780-4e4e-4139-b5f4-c77c2fc
 #EXTINF:-1 tvg-name="TR:KANAL D UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanald.png" group-title="ENTRETENIMENTO", 1095 - TR:KANAL D UHD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/e9e9e2ab-8830-4d76-9f2c-9f612eb9f85a.m3u
 
-#EXTINF:-1 tvg-name="TR:NOW HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="ENTRETENIMENTO", 1093 - TR:NOW HD
+#EXTINF:-1 tvg-name="TR:NOW HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="CANAIS NOW", 1093 - TR:NOW HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/3e46da80-1a93-42cb-9828-66e3639f68b0.m3u
 
-#EXTINF:-1 tvg-id="Now.tr" tvg-name="TR:NOW HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="ENTRETENIMENTO", 1094 - TR:NOW HQ
+#EXTINF:-1 tvg-id="Now.tr" tvg-name="TR:NOW HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="CANAIS NOW", 1094 - TR:NOW HQ
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/ae1ebbbd-b523-4ea0-9a17-4abfddb1203d.m3u
 
-#EXTINF:-1 tvg-name="TR:NOW UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="ENTRETENIMENTO", 1092 - TR:NOW UHD
+#EXTINF:-1 tvg-name="TR:NOW UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="CANAIS NOW", 1092 - TR:NOW UHD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/ca62c03b-0064-4fa8-85ee-ba3a7a23d293.m3u
 
 #EXTINF:-1 tvg-name="TR:SHOW TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/showtv.png" group-title="ENTRETENIMENTO", 1102 - TR:SHOW TV HD
@@ -8720,7 +8720,7 @@ https://vavoo.to/vavoo-iptv/play/4076064178a12cbf89249a
 #EXTINF:-1 group-title="ENTRETENIMENTO" tvg-logo="https://i.imgur.com/XqTj9M3.png", 2877 - Bi Kanal
 https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 
-#EXTINF:-1 tvg-name="NOW" tvg-id="NOW.tr" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO", 2878 - Now TV
+#EXTINF:-1 tvg-name="NOW" tvg-id="NOW.tr" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="CANAIS NOW", 2878 - Now TV
 https://dogus.tecostream.xyz/now.m3u8
 
 #EXTINF:-1 tvg-id="ShowMax.tr@HD" group-title="ENTRETENIMENTO" tvg-logo="https://i.imgur.com/456FWA7.png", 2879 - Show Max
