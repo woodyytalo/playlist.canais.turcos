@@ -79,7 +79,7 @@ https://tv.ensonhaber.com/benguturk/benguturk_480p.m3u8
 
 #EXTINF:-1 tvg-id="BEYAZ.TV.tr" tvg-name="Beyaz TV" tvg-logo="https://www.tvlogo.org/turkey/beyaz-tv-tr.png" group-title="ENTRETENIMENTO",Beyaz TV [480 SD]
 #EXTVLCOPT:network-caching=15000
-https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8
 
 #EXTINF:-1 tvg-id="Bi.Kanal.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Bi-kanal-logo.png" tvg-name="Bİ KANAL" group-title="ENTRETENIMENTO",Bi Kanal [480 SD]
 #EXTVLCOPT:network-caching=15000
@@ -111,7 +111,7 @@ https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="custom.cnbce" tvg-name="CNBC-e" tvg-logo="https://i.ibb.co/kcpSwmK/cnbce.png" group-title="NOTÍCIAS",CNBC-e [480 SD]
 #EXTVLCOPT:network-caching=15000
-https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_480p.m3u8
 
 #EXTINF:-1 tvg-name="CNN Türk" tvg-logo="https://www.tvlogo.org/turkey/cnn-turk-tr.png" tvg-id="CNN.TÜRK.tr" group-title="NOTÍCIAS",CNN Türk [1080p Full HD]
 #EXTVLCOPT:network-caching=15000
@@ -230,7 +230,7 @@ https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/tracks-v2a1/mon
 
 #EXTINF:-1 tvg-id="HABERTÜRK.tr" tvg-name="Habertürk" tvg-logo="https://www.tvlogo.org/turkey/haberturk-tr.png" group-title="NOTÍCIAS",Habertürk [480 SD]
 #EXTVLCOPT:network-caching=15000
-https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=3
+https://ciner.daioncdn.net/haberturktv/haberturktv_480p.m3u8?sid=8x3q6yrn0jfj&app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=3
 
 #EXTINF:-1 tvg-id="HALK.TV.tr" tvg-name="Halk TV" tvg-logo="https://www.tvlogo.org/turkey/halk-tv-tr.png" group-title="NOTÍCIAS",Halk TV [480 SD]
 #EXTVLCOPT:network-caching=15000
@@ -381,11 +381,11 @@ https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="MİNİKA.ÇOCUK.tr" tvg-name="Minika Çocuk" tvg-logo="https://www.tvlogo.org/turkey/minika-cocuk-tr.png" group-title="INFANTIS",Minika Çocuk [480 SD]
 #EXTVLCOPT:network-caching=15000
-http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8
 
 #EXTINF:-1 tvg-id="MİNİKA.GO.tr" tvg-name="Minika GO" tvg-logo="https://www.tvlogo.org/turkey/minika-go-tr.png" group-title="INFANTIS",Minika GO [480 SD]
 #EXTVLCOPT:network-caching=15000
-http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8
 
 #EXTINF:-1 tvg-name="MTürk TV" tvg-logo="https://i.imgur.com/xj1gvrq.png" tvg-id="custom.mturktv" group-title="REGIONAIS",MTürk TV [480 SD]
 #EXTVLCOPT:network-caching=15000
@@ -409,7 +409,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 
 #EXTINF:-1 tvg-id="NTV.tr" tvg-name="NTV" tvg-logo="https://www.tvlogo.org/turkey/ntv-tr.png" group-title="NOTÍCIAS",NTV [480 SD]
 #EXTVLCOPT:network-caching=15000
-https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
+https://dogus.daioncdn.net/ntv/ntv_480p.m3u8?&sid=8x3q74gf7x0o&app=c68bddbe-3dbf-49f7-892a-93de5ae37f1f&ce=2
 
 #EXTINF:-1 tvg-id="custom.number1tv" tvg-name="Number 1 TV" tvg-logo="https://www.tvlogo.org/turkey/number-1-tv-tr.png" group-title="MÚSICA",Number 1 TV [480 SD]
 #EXTVLCOPT:network-caching=15000
@@ -449,11 +449,11 @@ https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 
 #EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max" tvg-logo="https://www.tvlogo.org/turkey/show-max-tr.png" group-title="INTERNACIONAIS",Show Max [480 SD]
 #EXTVLCOPT:network-caching=15000
-https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 
 #EXTINF:-1 tvg-id="SHOW.TV.tr" tvg-name="Show TV" tvg-logo="https://www.tvlogo.org/turkey/show-tr.png" group-title="ENTRETENIMENTO",Show TV [480 SD]
 #EXTVLCOPT:network-caching=15000
-https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558
+https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 
 #EXTINF:-1 tvg-id="custom.spacetoonturkiye" tvg-name="Spacetoon Türkiye" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Spacetoon.png" group-title="INFANTIS",Spacetoon Türkiye [720p HD]
 #EXTVLCOPT:network-caching=15000
@@ -498,7 +498,7 @@ https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TRT.1.tr" tvg-name="TRT 1" tvg-logo="https://www.tvlogo.org/turkey/trt-1-tr.png" group-title="ENTRETENIMENTO",TRT 1 [480 SD]
 #EXTVLCOPT:network-caching=15000
-https://tv-trt1.medya.trt.com.tr/master.m3u8
+https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 
 
 #EXTINF:-1 tvg-id="TRT.ARABI.tr" tvg-name="TRT Arabi" tvg-logo="https://www.tvlogo.org/turkey/trt-arabi-tr.png" group-title="TRT",TRT Arabi [480 SD]
