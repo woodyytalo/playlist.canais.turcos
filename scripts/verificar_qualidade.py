@@ -105,18 +105,9 @@ def main():
         raise SystemExit(f"Playlist não encontrada: {PLAYLIST}")
     entries = parse_playlist(PLAYLIST)
     OUT.mkdir(parents=True, exist_ok=True)
-    results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        futures = [pool.submit(probe, e) for e in entries]
-        for f in concurrent.futures.as_completed(futures):
-            results.append(f.result())
-    # Keep the same order as the playlist, including repeated channel names.
-    positions = {}
-    for row in results:
-        positions.setdefault(row["canal"], []).append(row)
-    ordered = []
-    for e in entries:
-        ordered.append(positions[e["name"]].pop(0))
+        # executor.map preserves playlist order, even when channel names repeat.
+        ordered = list(pool.map(probe, entries))
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     csv_path = OUT / "TV-principal.csv"
     json_path = OUT / "TV-principal.json"
