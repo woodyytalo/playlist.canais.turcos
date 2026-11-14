@@ -1,0 +1,1653 @@
+{
+  "verificado_em": "2026-11-14 21:35 UTC",
+  "total": 183,
+  "canais": [
+    {
+      "canal": "24 TV",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "mn-nl.mncdn.com",
+      "resultado": "https://mn-nl.mncdn.com/kanal24/kanal24.smil/chunklist_b896000.m3u8: Connection reset by peer",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Lider Haber",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "nrttn172.kesintisizyayin.com:29010",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "360 TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "turkmedya-live.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "4U TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "hls.4utv.live",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "A Haber",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "c.fulltvizle.com",
+      "resultado": "https://c.fulltvizle.com/ahaber/index.m3u8: Input/output error",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "A Para",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "185.234.111.229:8000",
+      "resultado": "http://185.234.111.229:8000/play/a01l: Connection timed out",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "A Spor",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "c.fulltvizle.com",
+      "resultado": "https://c.fulltvizle.com/aspor/index.m3u8: Input/output error",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "A2",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "c.fulltvizle.com",
+      "resultado": "https://c.fulltvizle.com/a2/tracks-v1a1/mono.m3u8: Input/output error",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Aksu TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Al-Zahra TV Turkic",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "ak.imamhussein.live",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Alanya Posta TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "api-tv3.yayin.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Almahriah TV",
+      "classificacao": "SD",
+      "resolucao": "1024x576",
+      "codec": "h264",
+      "host": "starmenajo.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Altas TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Anadolu TV",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "broadcasttr.com:446",
+      "resultado": "https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8: Connection timed out",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "ARAS TV",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "1.rtmp.org",
+      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w113480701.m3u8: Server returned 404 Not Found",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "AS TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "ATV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "rnttwmjcin.turknet.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "ATV Alanya",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "cdn-alanyatv.yayin.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Bengü Türk",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "tv.ensonhaber.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Beyaz TV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "beyaztv-live.daioncdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Bi Kanal",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "bikanal-live.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Bir TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Bloomberg HT",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "193.123.61.120:3000",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Bloomberg HT 2",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "tv.ensonhaber.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "BRTV Karabük",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Cartoon Network Türkiye",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "176.65.153.40:6002",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "CİNE1",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8: Server returned 404 Not Found",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "CNBC-e",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "hnpsechtsc.turknet.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "CNN Türk",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "tgn.bozztv.com",
+      "resultado": "https://tgn.bozztv.com/dvrfl05/gin-cnnturk/tracks-v1a1/mono.m3u8: Server returned 403 Forbidden (access denied)",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Çay TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Çiftçi TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Deniz Postası TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "DHA",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "603c568fccdf5.streamlock.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Dim TV",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8: Server returned 404 Not Found",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Diyanet TV",
+      "classificacao": "SD",
+      "resolucao": "640x360",
+      "codec": "h264",
+      "host": "eustr73.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Diyar TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Dost TV",
+      "classificacao": "SD",
+      "resolucao": "480x576",
+      "codec": "h264",
+      "host": "dost.stream.emsal.im",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Dream Türk",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.duhnet.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Edessa TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "canli.edessatv.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Ekotürk",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "ythls.kekikakademi.org",
+      "resultado": "https://ythls.kekikakademi.org/youtube/channel/UCAGVKxpAKwXMWdmcHbrvcwQ.m3u8: Input/output error",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Elsharq TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "mn-nl.mncdn.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "ER TV Malatya",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Erciyes TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Erzurum Web TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "win29.yayin.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "ES TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "ETV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Euro D",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.duhnet.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Ezgi TV",
+      "classificacao": "SD",
+      "resolucao": "1024x576",
+      "codec": "h264",
+      "host": "live.euromediacenter.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1024x576"
+    },
+    {
+      "canal": "FB TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "1hskrdto.rocketcdn.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Flash Haber TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "b01c02nl.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Fashion One",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "b01c02nl.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "FRT TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Grand Cinema",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "gcinemahls.wns.live",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "GRT Gaziantep TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Haber Global",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "tv.ensonhaber.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Haber61 TV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "cdn-haber61tv.yayin.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Habertürk",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "ciner.daioncdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Halk TV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "halktv.daioncdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "HT Spor TV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "ciner.daioncdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Güneydoğu TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Hunat TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "İçel TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "İlke TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "stream.ilketv.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "K+ Kayseri",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Kanal 12",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Kanal 15",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Kanal 19",
+      "classificacao": "SD",
+      "resolucao": "640x360",
+      "codec": "h264",
+      "host": "live.euromediacenter.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "640x360"
+    },
+    {
+      "canal": "Kanal 23",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Kanal 26",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Kanal 3",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Kanal 32",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Kanal 33",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Kanal 34",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.euromediacenter.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Kanal 53",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "kanal53.ozelip.com:3448",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Kanal 58",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Kanal 7 Avrupa",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "livetv.radyotvonline.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Kanal Avrupa",
+      "classificacao": "SD",
+      "resolucao": "852x480",
+      "codec": "h264",
+      "host": "cdn-kanalavrupa.yayin.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Kanal B",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "tv.kanalb.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Kanal D",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.duhnet.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Kanal D Drama",
+      "classificacao": "SD",
+      "resolucao": "848x480",
+      "codec": "h264",
+      "host": "amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Kanal Fırat",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Kanal V",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Kay TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Kent Türk TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Kocaeli TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "edge.taksimbilisim.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Konya KTV",
+      "classificacao": "SD",
+      "resolucao": "640x360",
+      "codec": "h264",
+      "host": "cdn-ktvtv.yayin.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Konya Olay TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Lalegül TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "lbl.netmedya.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Life TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Luys TV",
+      "classificacao": "SD",
+      "resolucao": "640x360",
+      "codec": "h264",
+      "host": "b01c02nl.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Med Müzik",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "54.36.110.140",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Mekameleen TV",
+      "classificacao": "SD",
+      "resolucao": "718x404",
+      "codec": "h264",
+      "host": "mn-nl.mncdn.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Meltem TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "vhxyrsly.rocketcdn.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Mercan TV",
+      "classificacao": "SD",
+      "resolucao": "720x576",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "720x576"
+    },
+    {
+      "canal": "Minika Çocuk",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "rnttwmjcin.turknet.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Minika GO",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "rnttwmjcin.turknet.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "MTürk TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "NOW",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "116.202.238.88",
+      "resultado": "http://116.202.238.88/FOXTV_TR/index.m3u8: Connection refused",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "NR1 Aşk",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "b01c02nl.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "NR1 Damar",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "b01c02nl.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "NR1 Dance",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "b01c02nl.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "NTV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "dogus.daioncdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Number 1 TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "b01c02nl.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Power Dance TV",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "listen.powerapp.com.tr",
+      "resultado": "https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8: Server returned 404 Not Found",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Power Love TV",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "listen.powerapp.com.tr",
+      "resultado": "https://listen.powerapp.com.tr/plove/love.smil/chunklist_b1028000_sltur.m3u8: Server returned 404 Not Found",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "PowerTürk Taptaze",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "livetv.powerapp.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "MUKABELE TV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "playlist.fasttvcdn.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Rehber TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "cdn4.yayin.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Sat7 Türk",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Semerkand TV",
+      "classificacao": "SD",
+      "resolucao": "640x360",
+      "codec": "h264",
+      "host": "b01c02nl.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Sercem TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "canli.sercemtv.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Show Max",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "rmtftbjlne.turknet.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Show TV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "ciner.daioncdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Spacetoon Türkiye",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live-tr-next.spacetoongo.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Star TV",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "dygvideo.dygdigital.com",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=hi5jGuBo2DmmnHWniJePJA&e=1794778501: Server returned 404 Not Found",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "TAY TV",
+      "classificacao": "SD",
+      "resolucao": "640x360",
+      "codec": "h264",
+      "host": "duhnet.hipodrom.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TELE1",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "tele1dvr.blutv.com",
+      "resultado": "https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4}",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Tempo TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "teve2",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.duhnet.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TGRT Haber",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "canli.tgrthaber.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Tivi 6",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "TJK TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "tjktv-live.tjk.org",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Ton TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "TRT 1",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "tv-trt1.medya.trt.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TRT Arabi",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "tv-trtarabi.medya.trt.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TRT Avaz",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "tv-trtavaz.medya.trt.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TRT Çocuk",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "tv-trtcocuk.medya.trt.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TRT Diyanet Çocuk",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "tv-trtdiyanetcocuk.medya.trt.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TRT EBA Ortaokul",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "tv-e-okul01.medya.trt.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "TRT Genç",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "tv-trtgenc.medya.trt.com.tr",
+      "resultado": "https://tv-trtgenc.medya.trt.com.tr/master_480.m3u8: Server returned 403 Forbidden (access denied)",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TRT Haber",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "tv-trthaber.medya.trt.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TRT Kurdî",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "tv-trtkurdi.medya.trt.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TRT Müzik",
+      "classificacao": "SD",
+      "resolucao": "1024x576",
+      "codec": "h264",
+      "host": "stream8.cinerama.uz",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Kral Pop",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "dygvideo.dygdigital.com",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w848276040_b2000096.m3u8?st=hfWVMcfDTYUj3WNUSLmhvA&e=1794778508: Server returned 404 Not Found",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "NR1 Fashion One",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "b01c02nl.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "TRT Türk",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "tv-trtturk.medya.trt.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TRT World",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "cdn.pishow.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "TürkHaber",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TV 1",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TV 264",
+      "classificacao": "SD",
+      "resolucao": "640x360",
+      "codec": "h264",
+      "host": "mc1.mediatriple.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TV 41",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "TV 52",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TV DEN",
+      "classificacao": "SD",
+      "resolucao": "832x468",
+      "codec": "h264",
+      "host": "canli.tvden.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TV Karadeniz",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "TV100",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "tv100.daioncdn.net",
+      "resultado": "https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web: Input/output error",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TV4",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "turkmedya-live.ercdn.net",
+      "resultado": "https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8: Server returned 404 Not Found",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TV8",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "rkhubpaomb.turknet.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TVNET",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "mn-nl.mncdn.com",
+      "resultado": "https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8: Connection reset by peer",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Vuslat TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Ülke TV",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "217.174.229.138:8000",
+      "resultado": "http://217.174.229.138:8000/play/a0el: Connection timed out",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Vav TV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "playlist.fasttvcdn.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Zarok TV Kurmanji",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "zindikurmanci.zaroktv.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Zarok TV Sorani",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "zindisorani.zaroktv.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "Euro Star TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "raw.githubusercontent.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Sözcü TV",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "szctvdvr.blutv.com",
+      "resultado": "https://szctvdvr.blutv.com/blutv_szctv_dvr/live_720p4350000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4}",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Natural TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Sun RTV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "TBMM TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "meclistv-live.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Van 65 TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "PowerTürk TV",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
+      "host": "powerturk.blutv.com",
+      "resultado": "https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4}",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "tabii",
+      "classificacao": "SD",
+      "resolucao": "640x360",
+      "codec": "h264",
+      "host": "ceokzokgtd.erbvr.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "BBC First Türkiye",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "88.212.7.14",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Ekol TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "ekoltv-live.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Syria TV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "svs.itworkscdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Balkan Türk",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.euromediacenter.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Thaqalayn TV",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
+      "host": "62.60.207.173:8080",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "KN Music TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "cdn4.yayin.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "YOL TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "live.yoltv.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "RTG International",
+      "classificacao": "SD",
+      "resolucao": "720x576",
+      "codec": "h264",
+      "host": "213.91.179.28:8000",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKA%3C/text%3E%3C/svg%3E\" tvg-logo=\"https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/kanal-ada-75b969db55.png\" group-title=\"REGIONAIS\",Kanal Ada",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "145.239.58.133:28008",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Arzu Film",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "raw.githubusercontent.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "Ekol Sports",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "ekoltv-live.ercdn.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Kanal Urfa",
+      "classificacao": "SD",
+      "resolucao": "720x404",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Trabzon Buyuksehir Belediyesi TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "tv191.radyotelekom.com.tr:3612",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Urfanatik TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "live.artidijitalmedya.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "MADINAH TV",
+      "classificacao": "SD",
+      "resolucao": "480x360",
+      "codec": "h264",
+      "host": "cdn-globecast.akamaized.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E\", 2900 - MC EU TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "rrr.sz.xlcdn.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
+      "canal": "2901 - Persiana Türkiye",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "turkhls.persiana.live",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "2907 - BabyFirst TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "cdn.fast.jwp.services",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "2904 - TLC",
+      "classificacao": "SD",
+      "resolucao": "720x576",
+      "codec": "h264",
+      "host": "s6.hopslan.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1024x576"
+    },
+    {
+      "canal": "2908 - Love Nature",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "mumbai-edge.smartplaytv.in",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
+    },
+    {
+      "canal": "564 - ETV Manisa",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E\" group-title=\"FILMES E SÉRIES\", 552 - Dizi TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "playlist.fasttvcdn.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    }
+  ]
+}
