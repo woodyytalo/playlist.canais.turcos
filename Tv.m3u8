@@ -707,3 +707,6 @@ https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=
 https://turkhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="BabyFirst TV" tvg-id="BabyFirst.us@US" tvg-logo="https://i.imgur.com/WxLHBwu.png" group-title="INFANTIS", 2907 - BabyFirst TV
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
+
+#EXTINF:-1 tvg-id="TLC.de@SD" group-title="DOCUMENTÁRIOS" tvg-logo="https://i.imgur.com/AXlHsla.png", 2904 - TLC
+https://s6.hopslan.com/tlcX/index.m3u8
