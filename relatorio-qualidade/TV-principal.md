@@ -1,6 +1,6 @@
 # Verificação de qualidade — TV principal
 
-Verificado em: **2026-11-14 21:35 UTC**
+Verificado em: **2026-11-14 21:38 UTC**
 
 Total de entradas: **183**
 
@@ -33,7 +33,7 @@ Total de entradas: **183**
 | Almahriah TV | SD | 1024x576 | h264 | OK |
 | Altas TV | HD | 1280x720 | h264 | OK |
 | Anadolu TV | Não verificado |  |  | https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8: Connection timed out |
-| ARAS TV | Não verificado |  |  | http://1.rtmp.org/tv217/yayin.stream/chunklist_w113480701.m3u8: Server returned 404 Not Found |
+| ARAS TV | Não verificado |  |  | http://1.rtmp.org/tv217/yayin.stream/chunklist_w1998902601.m3u8: Server returned 404 Not Found |
 | AS TV | Full HD | 1920x1080 | h264 | OK |
 | ATV | SD | 854x480 | h264 | OK |
 | ATV Alanya | Full HD | 1920x1080 | h264 | OK |
@@ -133,7 +133,7 @@ Total de entradas: **183**
 | Show Max | SD | 854x480 | h264 | OK |
 | Show TV | SD | 854x480 | h264 | OK |
 | Spacetoon Türkiye | HD | 1280x720 | h264 | OK |
-| Star TV | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=hi5jGuBo2DmmnHWniJePJA&e=1794778501: Server returned 404 Not Found |
+| Star TV | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=-1Hr6Lm6WpXAO9RZS_DNwA&e=1794778651: Server returned 404 Not Found |
 | TAY TV | SD | 640x360 | h264 | OK |
 | TELE1 | Não verificado |  |  | https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4} |
 | Tempo TV | HD | 1280x720 | h264 | OK |
@@ -152,7 +152,7 @@ Total de entradas: **183**
 | TRT Haber | HD | 1280x720 | h264 | OK |
 | TRT Kurdî | SD | 854x480 | h264 | OK |
 | TRT Müzik | SD | 1024x576 | h264 | OK |
-| Kral Pop | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/chunklist_w848276040_b2000096.m3u8?st=hfWVMcfDTYUj3WNUSLmhvA&e=1794778508: Server returned 404 Not Found |
+| Kral Pop | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/chunklist_w1507363955_b2000096.m3u8?st=4ielv3UHJ1E-zt1KWe8Xbg&e=1794778659: Server returned 404 Not Found |
 | NR1 Fashion One | HD | 1280x720 | h264 | OK |
 | TRT Türk | HD | 1280x720 | h264 | OK |
 | TRT World | Full HD | 1920x1080 | h264 | OK |

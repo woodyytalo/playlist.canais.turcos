@@ -1,5 +1,5 @@
 {
-  "verificado_em": "2026-11-14 21:35 UTC",
+  "verificado_em": "2026-11-14 21:38 UTC",
   "total": 183,
   "canais": [
     {
@@ -134,7 +134,7 @@
       "resolucao": "",
       "codec": "",
       "host": "1.rtmp.org",
-      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w113480701.m3u8: Server returned 404 Not Found",
+      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w1998902601.m3u8: Server returned 404 Not Found",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -1034,7 +1034,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=hi5jGuBo2DmmnHWniJePJA&e=1794778501: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=-1Hr6Lm6WpXAO9RZS_DNwA&e=1794778651: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1920x1080"
     },
     {
@@ -1205,7 +1205,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w848276040_b2000096.m3u8?st=hfWVMcfDTYUj3WNUSLmhvA&e=1794778508: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w1507363955_b2000096.m3u8?st=4ielv3UHJ1E-zt1KWe8Xbg&e=1794778659: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1280x720"
     },
     {

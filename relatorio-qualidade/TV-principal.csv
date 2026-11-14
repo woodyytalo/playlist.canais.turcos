@@ -13,7 +13,7 @@ Alanya Posta TV,Full HD,1920x1080,h264,api-tv3.yayin.com.tr,OK,1920x1080
 Almahriah TV,SD,1024x576,h264,starmenajo.com,OK,
 Altas TV,HD,1280x720,h264,edge1.socialsmart.tv,OK,
 Anadolu TV,Não verificado,,,broadcasttr.com:446,https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8: Connection timed out,
-ARAS TV,Não verificado,,,1.rtmp.org,http://1.rtmp.org/tv217/yayin.stream/chunklist_w113480701.m3u8: Server returned 404 Not Found,
+ARAS TV,Não verificado,,,1.rtmp.org,http://1.rtmp.org/tv217/yayin.stream/chunklist_w1998902601.m3u8: Server returned 404 Not Found,
 AS TV,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,1920x1080
 ATV,SD,854x480,h264,rnttwmjcin.turknet.ercdn.net,OK,
 ATV Alanya,Full HD,1920x1080,h264,cdn-alanyatv.yayin.com.tr,OK,1920x1080
@@ -113,7 +113,7 @@ Sercem TV,Full HD,1920x1080,h264,canli.sercemtv.com.tr,OK,
 Show Max,SD,854x480,h264,rmtftbjlne.turknet.ercdn.net,OK,
 Show TV,SD,854x480,h264,ciner.daioncdn.net,OK,
 Spacetoon Türkiye,HD,1280x720,h264,live-tr-next.spacetoongo.com,OK,1280x720
-Star TV,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=hi5jGuBo2DmmnHWniJePJA&e=1794778501: Server returned 404 Not Found,1920x1080
+Star TV,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=-1Hr6Lm6WpXAO9RZS_DNwA&e=1794778651: Server returned 404 Not Found,1920x1080
 TAY TV,SD,640x360,h264,duhnet.hipodrom.com,OK,
 TELE1,Não verificado,,,tele1dvr.blutv.com,"https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4}",
 Tempo TV,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
@@ -132,7 +132,7 @@ TRT Genç,Não verificado,,,tv-trtgenc.medya.trt.com.tr,https://tv-trtgenc.medya
 TRT Haber,HD,1280x720,h264,tv-trthaber.medya.trt.com.tr,OK,
 TRT Kurdî,SD,854x480,h264,tv-trtkurdi.medya.trt.com.tr,OK,
 TRT Müzik,SD,1024x576,h264,stream8.cinerama.uz,OK,
-Kral Pop,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/chunklist_w848276040_b2000096.m3u8?st=hfWVMcfDTYUj3WNUSLmhvA&e=1794778508: Server returned 404 Not Found,1280x720
+Kral Pop,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/chunklist_w1507363955_b2000096.m3u8?st=4ielv3UHJ1E-zt1KWe8Xbg&e=1794778659: Server returned 404 Not Found,1280x720
 NR1 Fashion One,HD,1280x720,h264,b01c02nl.mediatriple.net,OK,1280x720
 TRT Türk,HD,1280x720,h264,tv-trtturk.medya.trt.com.tr,OK,
 TRT World,Full HD,1920x1080,h264,cdn.pishow.tv,OK,1920x1080
