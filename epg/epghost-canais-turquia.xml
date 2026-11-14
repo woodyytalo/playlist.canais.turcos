@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv generator-info-name="Ahmet" generator-info-url="">
+  <channel id="bbwgmhsmhhoatzg">
+    <display-name>TR: Kanal D</display-name>
+    <display-name>Kanal D</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/-/EU/11785/Thumbnail.png?v=636918654485335758"></icon>
+  </channel>
+  <channel id="5t9s7fotlszq31r">
+    <display-name>TR: Sinema TV</display-name>
+    <display-name>Sinema TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/T/QU/22894/Thumbnail.png?v=637451110741160494"></icon>
+  </channel>
+  <channel id="plwqzwzsanvqant">
+    <display-name>TR: Sinema TV 2</display-name>
+    <display-name>Sinema TV 2</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/Y/3N/22904/Thumbnail.png?v=637451112092517864"></icon>
+  </channel>
+  <channel id="d5qimxwyzm4pt8c">
+    <display-name>TR: Sinema TV Aksiyon</display-name>
+    <display-name>Sinema TV Aksiyon</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/t/tD/22896/Thumbnail.png?v=637451113240734096"></icon>
+  </channel>
+  <channel id="u5krbb8ar62207p">
+    <display-name>TR: Sinema TV Aksiyon 2</display-name>
+    <display-name>Sinema TV Aksiyon 2</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/M/RG/22895/Thumbnail.png?v=637451113519506247"></icon>
+  </channel>
+  <channel id="m4nn4gyja5btdmd">
+    <display-name>TR: Sinema TV Aile</display-name>
+    <display-name>Sinema TV Aile</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/-/EU/22897/Thumbnail.png?v=637451112510519826"></icon>
+  </channel>
+  <channel id="wkgbbew10nqnzrz">
+    <display-name>TR: Sinema TV Aile 2</display-name>
+    <display-name>Sinema TV Aile 2</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/e/Mq/22898/Thumbnail.png?v=637451112840546049"></icon>
+  </channel>
+  <channel id="ykcaqgcp4trt1nc">
+    <display-name>TR: Sinema TV Comedy</display-name>
+    <display-name>Sinema TV Comedy</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/w/9a/22899/Thumbnail.png?v=637451113872971832"></icon>
+  </channel>
+  <channel id="bgylji43wkzbfu1">
+    <display-name>TR: Sinema TV Comedy 2</display-name>
+    <display-name>Sinema TV Comedy 2</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/o/oG/22900/Thumbnail.png?v=637451114172995678"></icon>
+  </channel>
+  <channel id="p7wx1sgvz8ik8dg">
+    <display-name>TR: Sinema TV 1001</display-name>
+    <display-name>Sinema TV 1001</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/g/6y/22901/Thumbnail.png?v=637451111086187905"></icon>
+  </channel>
+  <channel id="oszh5qj31qu5sfh">
+    <display-name>TR: Sinema TV 1002</display-name>
+    <display-name>Sinema TV 1002</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/C/XZ/22902/Thumbnail.png?v=637451111420745737"></icon>
+  </channel>
+  <channel id="yg4t186k8el1lp4">
+    <display-name>TR: FilmScreen</display-name>
+    <display-name>FilmScreen</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/Y/-N/11902/Thumbnail.png?v=638475537514947618"></icon>
+  </channel>
+  <channel id="ox4sx28bnt2houh">
+    <display-name>TR: MovieSmart Classic</display-name>
+    <display-name>MovieSmart Classic</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/y/L4/13864/Thumbnail.png?v=636987853760557953"></icon>
+  </channel>
+  <channel id="jbgocfcj7dky4ki">
+    <display-name>TR: MovieSmart Türk</display-name>
+    <display-name>MovieSmart Türk</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/e/ZI/13863/Thumbnail.png?v=636987856299906443"></icon>
+  </channel>
+  <channel id="alexx097j4waptm">
+    <display-name>TR: DiziSmart Premium</display-name>
+    <display-name>DiziSmart Premium</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/d/9U/12174/Thumbnail.png?v=636987852865799359"></icon>
+  </channel>
+  <channel id="zlq51oung4bvz1n">
+    <display-name>TR: FX</display-name>
+    <display-name>FX</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/w/Uq/16203/Thumbnail.png?v=637080272246525439"></icon>
+  </channel>
+  <channel id="gz6zdrepurv6gan">
+    <display-name>TR: DiziSmart Max</display-name>
+    <display-name>DiziSmart Max</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/k/F2/11913/Thumbnail.png?v=636987852570463393"></icon>
+  </channel>
+  <channel id="noyxnkwhtpbiwfb">
+    <display-name>TR: Ulusal Çoklu Ekran</display-name>
+    <display-name>Ulusal Çoklu Ekran</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/4/Ak/96690/Thumbnail.png?v=638597450250325690"></icon>
+  </channel>
+  <channel id="6vs4sg9183gdxth">
+    <display-name>TR: TEVE 2</display-name>
+    <display-name>TEVE 2</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/h/4C/11904/Thumbnail.png?v=638356364133347347"></icon>
+  </channel>
+  <channel id="pvr08e5grfsebfw">
+    <display-name>TR: Show TV</display-name>
+    <display-name>Show TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/E/aM/11889/Thumbnail.png?v=636932880780190994"></icon>
+  </channel>
+  <channel id="75tz02ooforewap">
+    <display-name>TR: STAR</display-name>
+    <display-name>STAR</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/z/Bk/11905/Thumbnail.png?v=636932878711499780"></icon>
+  </channel>
+  <channel id="2zkzbuscxwyjc4k">
+    <display-name>TR: ATV</display-name>
+    <display-name>ATV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/Q/Eq/13351/Thumbnail.png?v=636932873338148072"></icon>
+  </channel>
+  <channel id="af0zo9et4xguwsk">
+    <display-name>TR: TRT 1</display-name>
+    <display-name>TRT 1</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/Q/ou/11887/Thumbnail.png?v=636926485630162197"></icon>
+  </channel>
+  <channel id="a8t877hb0oandbv">
+    <display-name>TR: Kanal 7</display-name>
+    <display-name>Kanal 7</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/k/0U/13732/Thumbnail.png?v=636934334673308427"></icon>
+  </channel>
+  <channel id="w7x32brlcz26ibb">
+    <display-name>TR: TV8</display-name>
+    <display-name>TV8</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/a/WI/13727/Thumbnail.png?v=636948061871631256"></icon>
+  </channel>
+  <channel id="m0abaihy7vla6ma">
+    <display-name>TR: NOW</display-name>
+    <display-name>NOW</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/2/HH/11906/Thumbnail.png?v=638433526771493494"></icon>
+  </channel>
+  <channel id="jwz70a9vn9i7skl">
+    <display-name>TR: Haber Çoklu Ekran</display-name>
+    <display-name>Haber Çoklu Ekran</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/N/Oj/96692/Thumbnail.png?v=638597449150404142"></icon>
+  </channel>
+  <channel id="ah7mr9ol040kp3b">
+    <display-name>TR: CNN Türk</display-name>
+    <display-name>CNN Türk</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/a/u2/11786/Thumbnail.png?v=636927793050821617"></icon>
+  </channel>
+  <channel id="nyz5s8p798n9cqg">
+    <display-name>TR: NTV</display-name>
+    <display-name>NTV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/F/VA/13721/Thumbnail.png?v=636962982239736458"></icon>
+  </channel>
+  <channel id="in3p7jng04mr97m">
+    <display-name>TR: TRT Haber</display-name>
+    <display-name>TRT Haber</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/6/F9/12895/Thumbnail.png?v=636927788705862725"></icon>
+  </channel>
+  <channel id="gil1w2erz9l7imc">
+    <display-name>TR: Haber Türk</display-name>
+    <display-name>Haber Türk</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/V/gp/13350/Thumbnail.png?v=636958855592697509"></icon>
+  </channel>
+  <channel id="9b7ltozvb9c333g">
+    <display-name>TR: 24</display-name>
+    <display-name>24</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/4/eT/13724/Thumbnail.png?v=636947690631933990"></icon>
+  </channel>
+  <channel id="ql8qf4vb46o1h7t">
+    <display-name>TR: A Haber</display-name>
+    <display-name>A Haber</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/L/oz/13722/Thumbnail.png?v=636958840911967163"></icon>
+  </channel>
+  <channel id="9z32hgan37zhgr6">
+    <display-name>TR: TLC</display-name>
+    <display-name>TLC</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/c/ow/13411/Thumbnail.png?v=636927791219697765"></icon>
+  </channel>
+  <channel id="5i5mds6ap6h7m7w">
+    <display-name>TR: TV 100</display-name>
+    <display-name>TV 100</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/d/Ei/15008/Thumbnail.png?v=637036168349837042"></icon>
+  </channel>
+  <channel id="pr3t0gzb7bxbc27">
+    <display-name>TR: CNBC-E</display-name>
+    <display-name>CNBC-E</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/6/tJ/96832/Thumbnail.png?v=638536021018302048"></icon>
+  </channel>
+  <channel id="3kluptlla8k8re0">
+    <display-name>TR: Ekol TV</display-name>
+    <display-name>Ekol TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/n/1w/96071/Thumbnail.png?v=638500624221448284"></icon>
+  </channel>
+  <channel id="edf3lp61qexxxhl">
+    <display-name>TR: Beyaz TV</display-name>
+    <display-name>Beyaz TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/N/NI/13571/Thumbnail.png?v=636962983923810541"></icon>
+  </channel>
+  <channel id="njoweqtgl6xngkj">
+    <display-name>TR: TV Net</display-name>
+    <display-name>TV Net</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/W/KZ/13523/Thumbnail.png?v=636927753183594806"></icon>
+  </channel>
+  <channel id="bwmpobxuqn2pz87">
+    <display-name>TR: Haber Global</display-name>
+    <display-name>Haber Global</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/d/R2/13858/Thumbnail.png?v=636945436708801114"></icon>
+  </channel>
+  <channel id="cphtdpl9j70cn3a">
+    <display-name>TR: 360</display-name>
+    <display-name>360</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/g/tH/13726/Thumbnail.png?v=637688915842503345"></icon>
+  </channel>
+  <channel id="4nu4fjjhm0y6wqm">
+    <display-name>TR: Bloomberg HT</display-name>
+    <display-name>Bloomberg HT</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/j/Q7/13734/Thumbnail.png?v=636948480200618498"></icon>
+  </channel>
+  <channel id="qz2fp61itc8xm4g">
+    <display-name>TR: TGRT Haber</display-name>
+    <display-name>TGRT Haber</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/A/SU/13405/Thumbnail.png?v=636926423353172180"></icon>
+  </channel>
+  <channel id="6sokobdd9dwe0gl">
+    <display-name>TR: DMAX</display-name>
+    <display-name>DMAX</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/D/5X/11893/Thumbnail.png?v=636962985661490103"></icon>
+  </channel>
+  <channel id="pd29xh24glvq4qz">
+    <display-name>TR: TV 8,5</display-name>
+    <display-name>TV 8,5</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/j/3s/13867/Thumbnail.png?v=636948472402801171"></icon>
+  </channel>
+  <channel id="kanaalkyymvqcjf">
+    <display-name>TR: Ülke TV</display-name>
+    <display-name>Ülke TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/R/oy/13522/Thumbnail.png?v=636927749233817129"></icon>
+  </channel>
+  <channel id="ho3hqyj532i2yns">
+    <display-name>TR: CNN International</display-name>
+    <display-name>CNN International</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/T/PK/11898/Thumbnail.png?v=636958854708564755"></icon>
+  </channel>
+  <channel id="i41ex8qwi3lbfda">
+    <display-name>TR: BBC World News</display-name>
+    <display-name>BBC World News</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/p/XZ/11897/Thumbnail.png?v=636927762970840516"></icon>
+  </channel>
+  <channel id="8yfvm8ak2t1qoe6">
+    <display-name>TR: A Para</display-name>
+    <display-name>A Para</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/v/7e/13515/Thumbnail.png?v=636927795189199961"></icon>
+  </channel>
+  <channel id="g2zooieqp6gaj3p">
+    <display-name>TR: BBC Earth</display-name>
+    <display-name>BBC Earth</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/e/Bj/11896/Thumbnail.png?v=636996527021886315"></icon>
+  </channel>
+  <channel id="ys3u67behnfi0e4">
+    <display-name>TR: Viasat History</display-name>
+    <display-name>Viasat History</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/t/hI/13387/Thumbnail.png?v=636927790293842950"></icon>
+  </channel>
+  <channel id="ft5p8rmwn4g7jvq">
+    <display-name>TR: DocuScreen</display-name>
+    <display-name>DocuScreen</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/_/wh/11899/Thumbnail.png?v=638348556015283678"></icon>
+  </channel>
+  <channel id="j4uiabn5xammx3v">
+    <display-name>TR: Discovery Channel</display-name>
+    <display-name>Discovery Channel</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/r/9C/11894/Thumbnail.png?v=637523447444009285"></icon>
+  </channel>
+  <channel id="2jvihz5pw9wx6d7">
+    <display-name>TR: Discovery ID</display-name>
+    <display-name>Discovery ID</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/b/vE/11891/Thumbnail.png?v=638396909362573214"></icon>
+  </channel>
+  <channel id="iv9gmlmq573m0oh">
+    <display-name>TR: History Channel</display-name>
+    <display-name>History Channel</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/y/Ey/37198/Thumbnail.png?v=637554127141657600"></icon>
+  </channel>
+  <channel id="4em7b4br5vma9yj">
+    <display-name>TR: National Geographic</display-name>
+    <display-name>National Geographic</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/V/zw/16198/Thumbnail.png?v=637080263252321251"></icon>
+  </channel>
+  <channel id="apmg8igi7adzv2b">
+    <display-name>TR: National Geographic WILD</display-name>
+    <display-name>National Geographic WILD</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/U/GH/16199/Thumbnail.png?v=637141612229716915"></icon>
+  </channel>
+  <channel id="88oije83mzjknlj">
+    <display-name>TR: Tarih Tv</display-name>
+    <display-name>Tarih Tv</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/1/Fd/58626/Thumbnail.png?v=638288263696795101"></icon>
+  </channel>
+  <channel id="80spas00o3iq47a">
+    <display-name>TR: TRT Belgesel</display-name>
+    <display-name>TRT Belgesel</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/h/RM/13866/Thumbnail.png?v=636947664979131552"></icon>
+  </channel>
+  <channel id="dhffm2ztdduph7d">
+    <display-name>TR: Fashion TV</display-name>
+    <display-name>Fashion TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/E/I9/11901/Thumbnail.png?v=636996531102325033"></icon>
+  </channel>
+  <channel id="whnrls5cftyh2pq">
+    <display-name>TR: Spor Çoklu Ekran</display-name>
+    <display-name>Spor Çoklu Ekran</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/n/72/96693/Thumbnail.png?v=638597449747727277"></icon>
+  </channel>
+  <channel id="asbn5a2bt7jwmlx">
+    <display-name>TR: GameScreen</display-name>
+    <display-name>GameScreen</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/-/q4/14484/Thumbnail.png?v=638348556708156102"></icon>
+  </channel>
+  <channel id="zh2wdom4ilyc72o">
+    <display-name>TR: NBA TV</display-name>
+    <display-name>NBA TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/o/DZ/11903/Thumbnail.png?v=636927787333409925"></icon>
+  </channel>
+  <channel id="dbd4aka7iu29rko">
+    <display-name>TR: Love Nature</display-name>
+    <display-name>Love Nature</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/u/6a/18359/Thumbnail.png?v=637194414598070635"></icon>
+  </channel>
+  <channel id="jgxiih7f6yhagpj">
+    <display-name>TR: Tay TV</display-name>
+    <display-name>Tay TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/P/4W/13572/Thumbnail.png?v=638552909862866834"></icon>
+  </channel>
+  <channel id="y923gh68shk17yg">
+    <display-name>TR: Eurosport 1</display-name>
+    <display-name>Eurosport 1</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/L/Ra/11892/Thumbnail.png?v=637523448547534467"></icon>
+  </channel>
+  <channel id="06egvxmyr7v63rt">
+    <display-name>TR: Eurosport 2</display-name>
+    <display-name>Eurosport 2</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/h/Ws/11900/Thumbnail.png?v=637523448763020339"></icon>
+  </channel>
+  <channel id="hy60v58wviqi59g">
+    <display-name>TR: Spor Smart</display-name>
+    <display-name>Spor Smart</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/p/el/11909/Thumbnail.png?v=636989786506964094"></icon>
+  </channel>
+  <channel id="spgsorunhgejuu2">
+    <display-name>TR: HT Spor</display-name>
+    <display-name>HT Spor</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/u/S4/98405/Thumbnail.png?v=638621736619578533"></icon>
+  </channel>
+  <channel id="v25znppc6itjprw">
+    <display-name>TR: A Spor</display-name>
+    <display-name>A Spor</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/r/qJ/13729/Thumbnail.png?v=636958841750981510"></icon>
+  </channel>
+  <channel id="p3gh20crf1a3wk9">
+    <display-name>TR: FightScreen</display-name>
+    <display-name>FightScreen</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/6/7E/11911/Thumbnail.png?v=638348556372466529"></icon>
+  </channel>
+  <channel id="3ujaqeerxs18oki">
+    <display-name>TR: Spor Smart 2</display-name>
+    <display-name>Spor Smart 2</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/a/Bl/14585/Thumbnail.png?v=636996602766471783"></icon>
+  </channel>
+  <channel id="jemrsooej8d8jku">
+    <display-name>TR: FB TV</display-name>
+    <display-name>FB TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/g/fi/13391/Thumbnail.png?v=636926454802035450"></icon>
+  </channel>
+  <channel id="9y924hp9aej8sws">
+    <display-name>TR: Sports TV</display-name>
+    <display-name>Sports TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/S/IP/11910/Thumbnail.png?v=636844561916855787"></icon>
+  </channel>
+  <channel id="v0kvdikxec8nngd">
+    <display-name>TR: TRT Spor</display-name>
+    <display-name>TRT Spor</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/l/MK/11888/Thumbnail.png?v=636927786114521514"></icon>
+  </channel>
+  <channel id="1yyvuttcurbkcnr">
+    <display-name>TR: Trt Spor Yıldız</display-name>
+    <display-name>Trt Spor Yıldız</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/h/NK/15953/Thumbnail.png?v=637572951690838556"></icon>
+  </channel>
+  <channel id="rjxdtygyec6mqjz">
+    <display-name>TR: Ulusal TV</display-name>
+    <display-name>Ulusal TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/B/M1/13568/Thumbnail.png?v=636928346850541326"></icon>
+  </channel>
+  <channel id="5zoe73avn97ggnt">
+    <display-name>TR: SZC TV</display-name>
+    <display-name>SZC TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/I/XZ/54352/Thumbnail.png?v=638149808545159761"></icon>
+  </channel>
+  <channel id="8xihgna8cyvdnyd">
+    <display-name>TR: ShowMax</display-name>
+    <display-name>ShowMax</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/f/np/13872/Thumbnail.png?v=636996545585843191"></icon>
+  </channel>
+  <channel id="jgskjh5s5asjefn">
+    <display-name>TR: Cine 1</display-name>
+    <display-name>Cine 1</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/H/00/73067/Thumbnail.png?v=638406348179879850"></icon>
+  </channel>
+  <channel id="dcvjjrhl589eupg">
+    <display-name>TR: Akit</display-name>
+    <display-name>Akit</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/E/lr/13378/Thumbnail.png?v=636926430128106828"></icon>
+  </channel>
+  <channel id="nzdc0yd5xxv43yl">
+    <display-name>TR: TRT 2</display-name>
+    <display-name>TRT 2</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/C/kv/13373/Thumbnail.png?v=636927792336389851"></icon>
+  </channel>
+  <channel id="xe24vekaidpsql3">
+    <display-name>TR: TRT Türk</display-name>
+    <display-name>TRT Türk</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/7/LM/13383/Thumbnail.png?v=636948481384503838"></icon>
+  </channel>
+  <channel id="18ws4yk42js588h">
+    <display-name>TR: TRT Müzik</display-name>
+    <display-name>TRT Müzik</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/0/IE/13382/Thumbnail.png?v=636927792043085296"></icon>
+  </channel>
+  <channel id="4af991lg9bt72h4">
+    <display-name>TR: Dream TV</display-name>
+    <display-name>Dream TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/l/IR/13524/Thumbnail.png?v=636958830545927787"></icon>
+  </channel>
+  <channel id="ttlji9eholru11x">
+    <display-name>TR: Dream Türk</display-name>
+    <display-name>Dream Türk</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/u/4w/13361/Thumbnail.png?v=636958831541944426"></icon>
+  </channel>
+  <channel id="82e4q3ribmz2mt1">
+    <display-name>TR: Power Türk</display-name>
+    <display-name>Power Türk</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/I/9w/13573/Thumbnail.png?v=636948497636014786"></icon>
+  </channel>
+  <channel id="y6b7sdc6s0f0ba0">
+    <display-name>TR: Power TV</display-name>
+    <display-name>Power TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/l/qg/13574/Thumbnail.png?v=636948497425060525"></icon>
+  </channel>
+  <channel id="1e86wcxlfqvru6z">
+    <display-name>TR: Cartoon Network</display-name>
+    <display-name>Cartoon Network</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/c/_s/13870/Thumbnail.png?v=636948470239732792"></icon>
+  </channel>
+  <channel id="ux5d9z3b7159syr">
+    <display-name>TR: Çocuk Smart</display-name>
+    <display-name>Çocuk Smart</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/_/-b/11912/Thumbnail.png?v=638621736129920108"></icon>
+  </channel>
+  <channel id="80jhqxokwm6m8lw">
+    <display-name>TR: Cartoonito</display-name>
+    <display-name>Cartoonito</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/9/Bn/13518/Thumbnail.png?v=638293698417878155"></icon>
+  </channel>
+  <channel id="r8096pfnpfuk6af">
+    <display-name>TR: Baby TV</display-name>
+    <display-name>Baby TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/V/vi/11890/Thumbnail.png?v=636947695571206905"></icon>
+  </channel>
+  <channel id="phekqx3pyw2wiiq">
+    <display-name>TR: Minika GO</display-name>
+    <display-name>Minika GO</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/I/WS/13404/Thumbnail.png?v=638537872180344695"></icon>
+  </channel>
+  <channel id="ybv52n8pldp0lfq">
+    <display-name>TR: TRT Çocuk</display-name>
+    <display-name>TRT Çocuk</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/L/_2/13369/Thumbnail.png?v=637715262329556939"></icon>
+  </channel>
+  <channel id="mg9iynssfpq44mh">
+    <display-name>TR: Da Vinci Learning</display-name>
+    <display-name>Da Vinci Learning</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/r/Qh/11907/Thumbnail.png?v=636844426569873302"></icon>
+  </channel>
+  <channel id="gzvqhrj3ilvy8wp">
+    <display-name>TR: Moonbug</display-name>
+    <display-name>Moonbug</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/0/xE/70184/Thumbnail.png?v=638345059276546324"></icon>
+  </channel>
+  <channel id="1mw2ju4imu3nh0h">
+    <display-name>TR: Disney Junior</display-name>
+    <display-name>Disney Junior</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/n/ct/22903/Thumbnail.png?v=638532647170877888"></icon>
+  </channel>
+  <channel id="52hjq0o16nwpdnq">
+    <display-name>TR: Minika Çocuk</display-name>
+    <display-name>Minika Çocuk</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/2/Q2/13402/Thumbnail.png?v=638537872552128654"></icon>
+  </channel>
+  <channel id="142xf33gzvrsxin">
+    <display-name>TR: TRT EBA</display-name>
+    <display-name>TRT EBA</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/t/jM/18446/Thumbnail.png?v=638403136181073375"></icon>
+  </channel>
+  <channel id="85vcygdgu27fg6o">
+    <display-name>TR: Luys TV</display-name>
+    <display-name>Luys TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/x/-N/41259/Thumbnail.png?v=637698317263843574"></icon>
+  </channel>
+  <channel id="lfy6n9j2a6wggcf">
+    <display-name>TR: ON6 TV</display-name>
+    <display-name>ON6 TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/I/xI/99040/Thumbnail.png?v=638631039820290115"></icon>
+  </channel>
+  <channel id="imohs5fyptw23ih">
+    <display-name>TR: TV 264</display-name>
+    <display-name>TV 264</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/E/rf/54954/Thumbnail.png?v=638161189679837418"></icon>
+  </channel>
+  <channel id="d1exl1gxity48nl">
+    <display-name>TR: Halk TV</display-name>
+    <display-name>Halk TV</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/S/_q/13566/Thumbnail.png?v=637716231154178099"></icon>
+  </channel>
+  <channel id="2m3k6xyjyek7djr">
+    <display-name>TR: Tele 1</display-name>
+    <display-name>Tele 1</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/z/c_/13569/Thumbnail.png?v=636928351928413811"></icon>
+  </channel>
+  <channel id="10bd6fhoe76yplp">
+    <display-name>TR: Flash Haber</display-name>
+    <display-name>Flash Haber</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/9/aZ/46627/Thumbnail.png?v=637873563162407881"></icon>
+  </channel>
+  <channel id="fc29p3wbp8wkgo4">
+    <display-name>TR: a2</display-name>
+    <display-name>a2</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/U/q8/13412/Thumbnail.png?v=636958843746603410"></icon>
+  </channel>
+  <channel id="j1x67766q1lr7r6">
+    <display-name>TR: TRT World</display-name>
+    <display-name>TRT World</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/Z/NK/12176/Thumbnail.png?v=636947699179076182"></icon>
+  </channel>
+  <channel id="u552n6w4dkv49wz">
+    <display-name>TR: TRT Kurdi</display-name>
+    <display-name>TRT Kurdi</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/4/uH/13380/Thumbnail.png?v=636926490261173885"></icon>
+  </channel>
+  <channel id="p6sz5lndgfas2r9">
+    <display-name>TR: TRT Avaz</display-name>
+    <display-name>TRT Avaz</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/N/ix/13413/Thumbnail.png?v=636926486489178825"></icon>
+  </channel>
+  <channel id="xhpe5if509ydrlc">
+    <display-name>TR: TRT El Arabiya</display-name>
+    <display-name>TRT El Arabiya</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/8/qW/13521/Thumbnail.png?v=636945419374933809"></icon>
+  </channel>
+  <channel id="iyek9wzpyn3tiym">
+    <display-name>TR: A News HD</display-name>
+    <display-name>A News HD</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/t/Os/13719/Thumbnail.png?v=636958847745172398"></icon>
+  </channel>
+  <channel id="5fmmsvfol2xgcvw">
+    <display-name>TR: NHK (İngilizce)</display-name>
+    <display-name>NHK (İngilizce)</display-name>
+    <icon src="https://dsmart-static-v2.ercdn.net/content/c/Po/13865/Thumbnail.png?v=636948477832691316"></icon>
+  </channel>
+  <channel id="rwvzrcjs58np9x1">
+    <display-name>TR: beIN SERIES 1</display-name>
+    <display-name>beIN SERIES 1</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/beIN-SERIES-DIGITAL-mono-color-1-250x150.png"></icon>
+  </channel>
+  <channel id="8gyx5oguxub03d8">
+    <display-name>TR: beIN</display-name>
+    <display-name>beIN</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_bein_hd.png"></icon>
+  </channel>
+  <channel id="3nf4auqixd4rba4">
+    <display-name>TR: beIN MOVIES PREMIERE</display-name>
+    <display-name>beIN MOVIES PREMIERE</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_Bein_Movies_Premiere_250x150_2022.png"></icon>
+  </channel>
+  <channel id="k83zn0lwp9hqd4r">
+    <display-name>TR: beIN MOVIES TURK</display-name>
+    <display-name>beIN MOVIES TURK</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_Bein_Movies_Turk_250x150_2022.png"></icon>
+  </channel>
+  <channel id="b1nhamjv2s6dkz5">
+    <display-name>TR: beIN MOVIES STARS</display-name>
+    <display-name>beIN MOVIES STARS</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_Bein_Movies_Stars_250x150_2022.png"></icon>
+  </channel>
+  <channel id="ycq1qsieo2axxxa">
+    <display-name>TR: beIN SERIES 2</display-name>
+    <display-name>beIN SERIES 2</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/beIN-SERIES-DIGITAL-mono-color-2-250x150.png"></icon>
+  </channel>
+  <channel id="9y7146q6c2x1ggv">
+    <display-name>TR: beIN İZ</display-name>
+    <display-name>beIN İZ</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_bein_iz_250x150_2022.png"></icon>
+  </channel>
+  <channel id="ksb59y8cwdwc73h">
+    <display-name>TR: beIN H&amp;E</display-name>
+    <display-name>beIN H&amp;E</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_Bein_HE_250x150_2022.png"></icon>
+  </channel>
+  <channel id="lyt59dflv5fqcie">
+    <display-name>TR: beIN GURME</display-name>
+    <display-name>beIN GURME</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w_Gurme_250x150_2022.png"></icon>
+  </channel>
+  <channel id="26jgkrkwnm8i0nc">
+    <display-name>TR: beIN SPORTS 1</display-name>
+    <display-name>beIN SPORTS 1</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport1_250x150_2022.png"></icon>
+  </channel>
+  <channel id="29rskladm0k47lp">
+    <display-name>TR: beIN SPORTS 2</display-name>
+    <display-name>beIN SPORTS 2</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport2_250x150_2022.png"></icon>
+  </channel>
+  <channel id="8652d76fpu36r16">
+    <display-name>TR: beIN SPORTS 3</display-name>
+    <display-name>beIN SPORTS 3</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport3_250x150_2022.png"></icon>
+  </channel>
+  <channel id="vmegi5dthu45z2f">
+    <display-name>TR: beIN SPORTS 4</display-name>
+    <display-name>beIN SPORTS 4</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w2_Bein_Sport4_250x150_2022.png"></icon>
+  </channel>
+  <channel id="dnndu3tyknd1bcw">
+    <display-name>TR: beIN SPORTS 5</display-name>
+    <display-name>beIN SPORTS 5</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/beIN_SPORTS5_250x150.png"></icon>
+  </channel>
+  <channel id="8f0qdc0ylzir13f">
+    <display-name>TR: beIN SPORTS MAX 1</display-name>
+    <display-name>beIN SPORTS MAX 1</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w3_Sport_Max1_250x150_2022.png"></icon>
+  </channel>
+  <channel id="r41n5hb48xa5gbu">
+    <display-name>TR: beIN SPORTS MAX 2</display-name>
+    <display-name>beIN SPORTS MAX 2</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/w3_Sport_Max2_250x150_2022.png"></icon>
+  </channel>
+  <channel id="kazwkgx73ijjqob">
+    <display-name>TR: beIN SPORTS HABER</display-name>
+    <display-name>beIN SPORTS HABER</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/bein_sports_yeni_HABER_250x150_.png"></icon>
+  </channel>
+  <channel id="n2285f98f1mgnkw">
+    <display-name>TR: MEZZO</display-name>
+    <display-name>MEZZO</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/MEZZO250.png"></icon>
+  </channel>
+  <channel id="d9p3jtkr10pazku">
+    <display-name>TR: MTV 00s</display-name>
+    <display-name>MTV 00s</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/mtv_00_250x250.png"></icon>
+  </channel>
+  <channel id="15gc2gph348g1f7">
+    <display-name>TR: MCM TOP</display-name>
+    <display-name>MCM TOP</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/MCM_Top250x150.png"></icon>
+  </channel>
+  <channel id="smkbw5kiu41ol68">
+    <display-name>TR: MTV LIVE</display-name>
+    <display-name>MTV LIVE</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/MTV_Live_2021_logo.svg250X150.png"></icon>
+  </channel>
+  <channel id="i1bz1eu5u9xm3hn">
+    <display-name>TR: MTV HITS</display-name>
+    <display-name>MTV HITS</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/mtvhits_240x150.png"></icon>
+  </channel>
+  <channel id="5bas269k1hs5sdw">
+    <display-name>TR: FASHION TV</display-name>
+    <display-name>FASHION TV</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/fashion-250x150.png"></icon>
+  </channel>
+  <channel id="whqmizrqae8ppqz">
+    <display-name>TR: BBC FIRST</display-name>
+    <display-name>BBC FIRST</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/bbc_first_250x150.png"></icon>
+  </channel>
+  <channel id="uuwvvbf0wdjf5hn">
+    <display-name>TR: RAI1</display-name>
+    <display-name>RAI1</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/rai.png"></icon>
+  </channel>
+  <channel id="hqpgt8kixfdtjom">
+    <display-name>TR: CBeebies</display-name>
+    <display-name>CBeebies</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/cbebies_250x150.png"></icon>
+  </channel>
+  <channel id="yn3u7x882ioziyu">
+    <display-name>TR: NICK JR</display-name>
+    <display-name>NICK JR</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/nickjr250x150.png"></icon>
+  </channel>
+  <channel id="7d1ixcc6brehyub">
+    <display-name>TR: NICKELODEON SD</display-name>
+    <display-name>NICKELODEON HD</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/nick_hd_250x150.png"></icon>
+  </channel>
+  <channel id="4mbq1qpwfwed3dq">
+    <display-name>TR: BBC EARTH</display-name>
+    <display-name>BBC EARTH</display-name>
+    <icon src="https://mediacms01.digiturkplay.com/channel_logo/bbcEARTH250X150.png"></icon>
+  </channel>
+</tv>
