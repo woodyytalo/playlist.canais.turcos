@@ -1,0 +1,57 @@
+name: IPTV Doctor - verificar listas
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Tv.m3u8"
+      - "Tvt.m3u"
+      - ".github/workflows/iptv-doctor.yml"
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: iptv-doctor-playlists
+  cancel-in-progress: true
+
+jobs:
+  verificar-listas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Verificar TV principal
+        uses: xyzs996/iptv-doctor@v1
+        with:
+          playlist: Tv.m3u8
+          report: reports/TV-principal.html
+          json: reports/TV-principal.json
+          csv: reports/TV-principal.csv
+          badge: reports/TV-principal-badge.json
+
+      - name: Verificar TVT
+        uses: xyzs996/iptv-doctor@v1
+        with:
+          playlist: Tvt.m3u
+          report: reports/TVT.html
+          json: reports/TVT.json
+          csv: reports/TVT.csv
+          badge: reports/TVT-badge.json
+
+      - name: Salvar relatórios
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorios-iptv-doctor
+          path: reports/
+          if-no-files-found: warn
+          retention-days: 14
