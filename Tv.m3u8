@@ -511,7 +511,7 @@ https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-id="TRT.ÇOCUK.tr" tvg-name="TRT Çocuk" tvg-logo="https://www.tvlogo.org/turkey/trt-cocuk-tr.png" group-title="INFANTIS",TRT Çocuk [480 SD]
 #EXTVLCOPT:network-caching=15000
-https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8
 
 #EXTINF:-1 tvg-id="custom.trtdiyanetcocuk" tvg-name="TRT Diyanet Çocuk" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-trtdiyanetcocuk-560b1abdaa.png" group-title="INFANTIS",TRT Diyanet Çocuk [480 SD]
 #EXTVLCOPT:network-caching=15000
