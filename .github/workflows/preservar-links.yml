@@ -1,0 +1,83 @@
+name: Preservar links IPTV
+
+on:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Tv.m3u8"
+      - "TV2.m3u8"
+      - "Euro.m3u"
+      - "Tvt.m3u"
+      - "Backup.m3u8"
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: preservar-links-iptv
+  cancel-in-progress: false
+
+jobs:
+  preservar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar histórico completo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Criar snapshots das playlists
+        shell: bash
+        env:
+          EVENT_BEFORE: ${{ github.event.before }}
+          EVENT_NAME: ${{ github.event_name }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          mkdir -p historico-links
+          files=("Tv.m3u8" "TV2.m3u8" "Euro.m3u" "Tvt.m3u" "Backup.m3u8")
+          timestamp="$(date -u +'%Y-%m-%d_%H-%M-%S_UTC')"
+
+          # Antes de qualquer alteração, arquiva a versão anterior de cada lista modificada.
+          if [[ "$EVENT_NAME" == "push" && -n "$EVENT_BEFORE" && "$EVENT_BEFORE" != "0000000000000000000000000000000000000000" ]]; then
+            mkdir -p "historico-links/antes-de-alteracoes/$timestamp"
+            for file in "${files[@]}"; do
+              if git cat-file -e "$EVENT_BEFORE:$file" 2>/dev/null; then
+                if ! git diff --quiet "$EVENT_BEFORE" "$GITHUB_SHA" -- "$file"; then
+                  git show "$EVENT_BEFORE:$file" > "historico-links/antes-de-alteracoes/$timestamp/$file"
+                fi
+              fi
+            done
+          fi
+
+          # Snapshot diário ou manual de todas as listas existentes.
+          if [[ "$EVENT_NAME" != "push" ]]; then
+            mkdir -p "historico-links/snapshots/$timestamp"
+            for file in "${files[@]}"; do
+              if [[ -f "$file" ]]; then
+                cp "$file" "historico-links/snapshots/$timestamp/$file"
+              fi
+            done
+          fi
+
+          # Registra hashes para facilitar a conferência de integridade.
+          find historico-links -type f -name '*.m3u*' -print0 | sort -z | xargs -0 -r sha256sum > historico-links/SHA256SUMS
+
+      - name: Salvar histórico no repositório
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add historico-links/
+          if git diff --cached --quiet; then
+            echo "Nenhum snapshot novo para salvar."
+            exit 0
+          fi
+          git commit -m "Preservar histórico das playlists IPTV"
+          git push
