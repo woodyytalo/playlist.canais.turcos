@@ -1,0 +1,16 @@
+# Fontes XMLTV turcas adicionais em avaliação
+
+## Fonte identificada no GitHub — ainda não aprovada para o guia automático
+- Repositório: https://github.com/tecotv2025/Epg
+- XMLTV: https://raw.githubusercontent.com/tecotv2025/Epg/main/tr-guide.xml
+- Última inspeção do conteúdo: 14/11/2026.
+- Resultado da inspeção: 82 canais e 662 programas.
+- Período coberto no arquivo: 03/02/2026 a 04/02/2026.
+- Status: XMLTV estruturado, mas desatualizado. Mantido apenas como referência/avaliação; NÃO incluir no guia consolidado nem substituir fontes atuais até que publique programação recente.
+
+## Critério para promoção ao fluxo automático
+A fonte só poderá ser integrada ao workflow `atualizar-epg.yml` quando:
+1. O download estiver disponível e o XML for válido.
+2. Houver elementos `<channel>` e `<programme>`.
+3. A programação tiver datas recentes e cobertura útil dos canais da `Tv.m3u8`.
+4. A validação confirmar que não está apenas repetindo dados antigos ou sem programação.
