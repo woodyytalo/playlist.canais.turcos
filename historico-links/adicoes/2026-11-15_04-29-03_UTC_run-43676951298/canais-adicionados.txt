@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: INTV Australia
+#EXTINF:-1 group-title="INTERNACIONAIS",INTV Australia
+Link: http://tv1.intv.mk:1935/live/intv/index.m3u8
