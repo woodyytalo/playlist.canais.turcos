@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: MOR TV
+#EXTINF:-1 tvg-name="MOR TV" tvg-logo="https://i.ibb.co/qRsfyb2/tvmor.png" group-title="ESTILO DE VIDA",MOR TV
+Link: https://live.euromediacenter.com/tvmor/index.m3u8
