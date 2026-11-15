@@ -1,0 +1,13 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: Now 70's
+#EXTINF:-1 tvg-name="Now 70's" tvg-logo="https://www.lyngsat.com/logo/tv/nn/now-70s-uk.svg" group-title="MÚSICA",Now 70's
+Link: https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
+
+Canal: Now 80's
+#EXTINF:-1 tvg-name="Now 80's" tvg-logo="https://www.lyngsat.com/logo/tv/nn/now-80s-uk.svg" group-title="MÚSICA",Now 80's
+Link: https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
+
+Canal: NOW ROCK
+#EXTINF:-1 tvg-name="NOW ROCK" tvg-logo="https://www.lyngsat.com/logo/tv/nn/now-rock-uk.png" group-title="MÚSICA",NOW ROCK
+Link: https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
