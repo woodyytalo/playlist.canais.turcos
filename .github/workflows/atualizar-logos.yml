@@ -162,6 +162,7 @@ jobs:
           python - <<'PY'
           import re
           import urllib.request
+          import unicodedata
           from pathlib import Path
           
           main = Path("Tv.m3u8")
@@ -176,7 +177,11 @@ jobs:
           ]
 
           def normalize(value):
-              value = value.casefold().strip()
+              # Remove prefixos de catálogo e normaliza acentos para comparar
+              # "184 - INTV Australia" com "INTV Australia", por exemplo.
+              value = re.sub(r"^\s*\d+\s*[-–—.)]\s*", "", value or "")
+              value = unicodedata.normalize("NFKD", value.casefold().strip())
+              value = "".join(char for char in value if not unicodedata.combining(char))
               value = re.sub(r"\s*\([^)]*\)", "", value)
               value = re.sub(r"\s*\[[^]]*\]", "", value)
               return re.sub(r"[^a-z0-9]+", "", value)
