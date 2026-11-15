@@ -1,7 +1,7 @@
 # Relatório de qualidade — TV principal
 
-- Canais verificados: **197**
-- Canais com HD comprovado: **66**
+- Canais verificados: **200**
+- Canais com HD comprovado: **67**
 - Links substituídos por variante HD comprovada: **0**
 - Critério: somente playlists HLS que anunciam uma variante com RESOLUTION de 1280x720 ou superior.
 - Links sem resolução declarada permanecem inalterados; o relatório não presume HD pelo nome do arquivo.
@@ -13,7 +13,7 @@
 | 360 TV | sem resolução HD comprovada | https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8 |
 | 4U TV | sem resolução HD comprovada | https://hls.4utv.live/hls/stream.m3u8 |
 | A Haber | não verificado (URLError: <urlopen error [Errno -2] Name or service not known>) | https://c.fulltvizle.com/ahaber/index.m3u8 |
-| A Para | não verificado (URLError: <urlopen error timed out>) | http://185.234.111.229:8000/play/a01l |
+| A Para | não verificado (URLError: <urlopen error [Errno 113] No route to host>) | http://185.234.111.229:8000/play/a01l |
 | A Spor | não verificado (URLError: <urlopen error [Errno -2] Name or service not known>) | https://c.fulltvizle.com/aspor/index.m3u8 |
 | A2 | não verificado (URLError: <urlopen error [Errno -2] Name or service not known>) | https://c.fulltvizle.com/a2/tracks-v1a1/mono.m3u8 |
 | Aksu TV | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8 |
@@ -30,7 +30,7 @@
 | Beyaz TV | sem resolução HD comprovada | https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8 |
 | Bi Kanal | sem resolução HD comprovada | https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8 |
 | Bir TV | não verificado (URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat) | https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8 |
-| Bloomberg HT | não verificado (ValueError: resposta não é uma playlist HLS) | http://193.123.61.120:3000/kanal/bloomberght |
+| Bloomberg HT | não verificado (URLError: <urlopen error timed out>) | http://193.123.61.120:3000/kanal/bloomberght |
 | Bloomberg HT 2 | sem resolução HD comprovada | https://tv.ensonhaber.com/bloomberght/bloomberght_480p.m3u8 |
 | BRTV Karabük | sem resolução HD comprovada | https://live.artidijitalmedya.com/artidijital_brtv/brtv/chunks.m3u8 |
 | Cartoon Network Türkiye | sem resolução HD comprovada | http://176.65.153.40:6002/play/a013/index.m3u8 |
@@ -79,7 +79,7 @@
 | K+ Kayseri | HD confirmado (1920x1080) | https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8 |
 | Kanal 12 | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8 |
 | Kanal 15 | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8 |
-| Kanal 19 | sem resolução HD comprovada | https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8 |
+| Kanal 19 | não verificado (HTTPError: HTTP Error 404: Not Found) | https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8 |
 | Kanal 23 | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8 |
 | Kanal 26 Eskişehir | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8 |
 | Kanal 3 | HD confirmado (1920x1080) | https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8 |
@@ -111,16 +111,15 @@
 | Minika Çocuk | sem resolução HD comprovada | http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8 |
 | Minika GO | sem resolução HD comprovada | http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8 |
 | MTürk TV | não verificado (URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat) | https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8 |
-| Play TV | fonte limitada a 854x480 | http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8 |
-| NOW | sem resolução HD comprovada | https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_480p.m3u8 |
+| Play TV | sem resolução HD comprovada | http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/chunklist_w538521591.m3u8 |
+| NOW | não verificado (TimeoutError: The read operation timed out) | https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_480p.m3u8 |
 | NR1 Aşk | HD confirmado (1280x720) | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8 |
 | NR1 Damar | HD confirmado (1280x720) | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8 |
 | NR1 Dance | HD confirmado (1280x720) | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8 |
 | NTV | sem resolução HD comprovada | https://dogus.daioncdn.net/ntv/ntv_480p.m3u8?&sid=8x3q74gf7x0o&app=c68bddbe-3dbf-49f7-892a-93de5ae37f1f&ce=2 |
 | Number 1 TV | sem resolução HD comprovada | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8 |
 | Power Dance TV | não verificado (HTTPError: HTTP Error 404: Not Found) | https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8 |
-| Power Love TV | não verificado (HTTPError: HTTP Error 404: Not Found) | https://listen.powerapp.com.tr/plove/love.smil/chunklist_b1028000_sltur.m3u8 |
-| POWER TV | HD confirmado (1920x1080) | http://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8 |
+| Power Love TV | HD confirmado (1920x1080) | https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8 |
 | PowerTürk Taptaze | HD confirmado (1920x1080) | http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8 |
 | MUKABELE TV | sem resolução HD comprovada | https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.m3u8 |
 | Rehber TV | sem resolução HD comprovada | https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8 |
@@ -142,7 +141,7 @@
 | TRT 1 | sem resolução HD comprovada | https://tv-trt1.medya.trt.com.tr/master_480.m3u8 |
 | TRT Arabi | sem resolução HD comprovada | https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8 |
 | TRT Avaz | sem resolução HD comprovada | https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8 |
-| TRT Çocuk | sem resolução HD comprovada | https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8 |
+| TRT Çocuk | não verificado (HTTPError: HTTP Error 403: Forbidden) | https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8 |
 | TRT Diyanet Çocuk | sem resolução HD comprovada | https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8 |
 | TRT EBA Ortaokul | HD confirmado (1280x720) | https://tv-e-okul01.medya.trt.com.tr/master.m3u8 |
 | TRT Genç | sem resolução HD comprovada | https://tv-trtgenc.medya.trt.com.tr/master_480.m3u8 |
@@ -162,7 +161,7 @@
 | TV Karadeniz | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8 |
 | TV100 | não verificado (URLError: <urlopen error [Errno -2] Name or service not known>) | https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web |
 | TV4 | não verificado (HTTPError: HTTP Error 404: Not Found) | https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8 |
-| TV8 | sem resolução HD comprovada | https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8 |
+| TV8 | não verificado (TimeoutError: The read operation timed out) | https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8 |
 | TVNET | não verificado (RemoteDisconnected: Remote end closed connection without response) | https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8 |
 | Vuslat TV | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8 |
 | Ülke TV | não verificado (URLError: <urlopen error timed out>) | http://217.174.229.138:8000/play/a0el |
@@ -175,7 +174,7 @@
 | Sun RTV | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8 |
 | TBMM TV | sem resolução HD comprovada | https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8 |
 | Van 65 TV | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8 |
-| PowerTürk TV | não verificado (URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat) | https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8 |
+| PowerTürk TV | sem resolução HD comprovada | https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/chunks.m3u8 |
 | Tabii | sem resolução HD comprovada | https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_360p.m3u8?sid=yoAHas4-h0yTN6NtBHZwpw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=1000000 |
 | BBC First Türkiye | sem resolução HD comprovada | http://88.212.7.14/live/bbc_first/index.m3u8 |
 | Ekol TV | sem resolução HD comprovada | https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8#all |
@@ -205,3 +204,7 @@
 | INTV Australia | HD confirmado (1280x720) | http://tv1.intv.mk:1935/live/intv/index.m3u8 |
 | Güçlü TV | sem resolução HD comprovada | https://yayin.santraltr.com/hls/zeynotv.m3u8 |
 | İSVİÇRE TV | sem resolução HD comprovada | https://i41.ozelip.com:3269/hybrid/play.m3u8 |
+| Now 70's | sem resolução HD comprovada | https://lightning-now70s-samsungnz.amagi.tv/playlist480p.m3u8 |
+| Now 80's | sem resolução HD comprovada | https://lightning-now80s-samsungnz.amagi.tv/playlist480p.m3u8 |
+| NOW ROCK | sem resolução HD comprovada | https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8 |
+| MOR TV | HD confirmado (1280x720) | https://live.euromediacenter.com/tvmor/index.m3u8 |
