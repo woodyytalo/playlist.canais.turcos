@@ -10,7 +10,8 @@ on:
       - ".github/workflows/verificar-qualidade-hd.yml"
   workflow_dispatch:
   schedule:
-    - cron: "15 3 * * 1"
+    # Revalida HD duas vezes por dia.
+    - cron: "15 5,17 * * *"
 
 permissions:
   contents: write
