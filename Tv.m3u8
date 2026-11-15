@@ -440,11 +440,11 @@ https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8
 
 #EXTINF:-1 tvg-id="custom.powerlovetv" tvg-name="Power Love TV" tvg-logo="https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2559.png" group-title="MÚSICA",Power Love TV
 #EXTVLCOPT:network-caching=60000
-https://listen.powerapp.com.tr/plove/love.smil/chunklist_b1028000_sltur.m3u8
+https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="POWER TV" tvg-logo="https://i.ibb.co/xhfcTC7/powertv.png" tvg-id="custom.powertv" group-title="MÚSICA",POWER TV
 #EXTVLCOPT:network-caching=60000
-http://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b2096000_sltur.m3u8?nimblesessionid=1193248459
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="custom.powerturktaptaze" tvg-name="PowerTürk Taptaze" tvg-logo="https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2534.png" group-title="MÚSICA",PowerTürk Taptaze
 #EXTVLCOPT:network-caching=60000
@@ -662,7 +662,7 @@ https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PowerTürk TV" tvg-id="custom.powerturktv" tvg-logo="https://www.tvlogo.org/turkey/powerturk-tr.png" group-title="MÚSICA",PowerTürk TV
 #EXTVLCOPT:network-caching=60000
-https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/chunks.m3u8
 
 #EXTINF:-1 tvg-id="custom.tabii" tvg-name="Tabii" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Tabii_-_TRT_Logo.png" group-title="FILMES E SÉRIES",Tabii
 #EXTVLCOPT:network-caching=60000
