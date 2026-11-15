@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: İzmir Time 35 TV
+#EXTINF:-1 tvg-id="custom.izmirtime35tv" tvg-name="İzmir Time 35 TV" group-title="REGIONAIS",İzmir Time 35 TV
+Link: https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8
