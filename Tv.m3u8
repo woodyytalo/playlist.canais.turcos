@@ -456,7 +456,7 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 #EXTVLCOPT:network-caching=60000
 https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 
-#EXTINF:-1 tvg-id="custom.spacetoonturkiye" tvg-name="Spacetoon Türkiye" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Spacetoon.png" group-title="INFANTIS",Spacetoon Türkiye
+#EXTINF:-1 tvg-name="Spacetoon Turkey" tvg-logo="https://spacetoon.com/logo.png" group-title="SPACETOON TURKEY",Spacetoon Turkey
 #EXTVLCOPT:network-caching=60000
 #EXTVLCOPT:http-referrer=https://spacetoon.com.tr/
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
