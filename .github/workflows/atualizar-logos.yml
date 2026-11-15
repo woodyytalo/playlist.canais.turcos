@@ -10,7 +10,8 @@ on:
       - "scripts/gerar_logos_png.py"
       - ".github/workflows/atualizar-logos.yml"
   schedule:
-    - cron: "0 9 * * 1"
+    # Busca e converte logos duas vezes por dia.
+    - cron: "10 0,12 * * *"
 
 permissions:
   contents: write
