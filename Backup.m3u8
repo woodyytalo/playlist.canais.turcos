@@ -566,9 +566,6 @@ https://vavoo.to/vavoo-iptv/play/1443355363db5023a8a584
 #EXTINF:-1 tvg-name="ANLIURFA KANAL URFA" group-title="ANLIURFA KANAL URFA",2143 - ANLIURFA KANAL URFA
 https://vavoo.to/vavoo-iptv/play/7548683513f8b3f808009
 
-#EXTINF:-1 group-title="ANNEM ANKARA",101 - Annem Ankara
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Annem.Ankara.SON.mkv
-
 #EXTINF:-1 tvg-name="ANTALYA KANAL V" group-title="ANTALYA KANAL V",2083 - ANTALYA KANAL V
 https://vavoo.to/vavoo-iptv/play/19407670052f2ca6260436
 
@@ -600,9 +597,6 @@ https://stream.cbctv.az:5443/LiveApp/streams/cbctv.m3u8
 #EXTINF:-1 tvg-name="ARENA BOX ACTION" group-title="ARENA BOX ACTION",1787 - ARENA BOX ACTION
 https://vavoo.to/vavoo-iptv/play/28537307030aac03ac9f83
 
-#EXTINF:-1 group-title="ARKA SOKAKLAR",102 - Arka Sokaklar
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Arka.Sokaklar.SON.mkv
-
 #EXTINF:-1 tvg-name="ART AMASYA" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="ART AMASYA",2752 - ART AMASYA
 http://stream.tvcdn.net/yerel/art-amasya.m3u8
 
@@ -620,9 +614,6 @@ https://vavoo.to/vavoo-iptv/play/2460324140b5f0b2835b7b
 
 #EXTINF:-1 tvg-name="ASLAN TV" group-title="ASLAN TV",2147 - ASLAN TV
 https://vavoo.to/vavoo-iptv/play/2042734050f45f3ec58fcb
-
-#EXTINF:-1 group-title="AŞK EVLİLİK BOŞANMA",103 - Aşk Evlilik Boşanma
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Ask.Evlilik.Bosanma.SON.mkv
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="ATOMİC ACADEMY TV",158 - Atomic Academy TV (480p)
 https://atomic.streamnet.ro/academia.m3u8
@@ -837,9 +828,6 @@ https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 #EXTINF:-1 tvg-name="BAHA" group-title="BAHA",2149 - BAHA
 https://vavoo.to/vavoo-iptv/play/10449476678873dec140d6
 
-#EXTINF:-1 group-title="BAHAR",104 - Bahar
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Bahar.SON.mkv
-
 #EXTINF:-1 group-title="BALKAN TÜRK",460 - BALKAN TÜRK
 https://live.euromediacenter.com/balkanturktv/index.m3u8
 
@@ -863,9 +851,6 @@ https://vavoo.to/vavoo-iptv/play/280573123054a8c61dd62
 
 #EXTINF:-1 tvg-name="BARTIN TV" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="BARTIN TV",2754 - BARTIN TV
 http://cdn-bartintv.yayin.com.tr/BARTINTV/BARTINTV/playlist.m3u8
-
-#EXTINF:-1 group-title="BAŞKA BİR GÜN",105 - Başka Bir Gün
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Baska.Bir.Gun.SON.mkv
 
 #EXTINF:-1 tvg-id="bbcearth.tr" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXOrjX8auopIAAKFRHx1Y-KLi8Ync-CWUfw&s" group-title="BBC EARTH",015 - BBC Earth
 https://tv.prectv5.sbs/live/bbc.m3u8
@@ -1574,12 +1559,6 @@ https://live.artidijitalmedya.com/artidijital_bikanal/bikanal/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XqTj9M3.png" group-title="Bİ KANAL",2877 - Bi Kanal
 https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 
-#EXTINF:-1 group-title="BİR GECE MASALI",106 - Bir Gece Masalı
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Bir.Gece.Masali.SON.mkv
-
-#EXTINF:-1 group-title="BİR ZAMANLAR ISTANBUL",107 - Bir Zamanlar Istanbul
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Bir.Zamanlar.Istanbul.SON.mkv
-
 #EXTINF:-1 tvg-id="BizimevTV.tr" group-title="BİZİMEV TV",1027 - Bizimev TV (720p)
 https://mn-nl.mncdn.com/blutv_bizimev/bizimev_sd.smil/playlist.m3u8
 
@@ -1774,9 +1753,6 @@ https://vavoo.to/vavoo-iptv/play/4136709820104f9b927f66
 
 #EXTINF:-1 tvg-name="CAILLOU TV" group-title="CAILLOU TV",2969 - CAILLOU TV
 https://vavoo.to/vavoo-iptv/play/24628387059d91397376ea
-
-#EXTINF:-1 group-title="CAN BORCU",108 - Can Borcu
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Can.Borcu.SON.mkv
 
 #EXTINF:-1 tvg-id="CanTV.tr@SD" tvg-logo="https://i.imgur.com/oIMtuwB.png" group-title="CAN TV",1420 - Can TV (720p)
 https://livetv.canbroadcast.com:7443/canlican/tv.m3u8
@@ -2108,9 +2084,6 @@ https://m2b2.worldcast.tv:7443/dancetelevisionthree/dancetelevisionthree.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png" group-title="DEEPHOUSE DİSTRİCT",177 - DeepHouse District
 https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
-
-#EXTINF:-1 group-title="DEHA",109 - Deha
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Deha.SON.mkv
 
 #EXTINF:-1 tvg-id="DehaTV.tr" group-title="DEHA TV",1028 - Deha TV (720p) [Geo-blocked]
 https://live.artidijitalmedya.com/artidijital_dehatv/dehatv/playlist.m3u8
@@ -2723,9 +2696,6 @@ https://yayin30.haber100.com/live/sehirekrani/playlist.m3u8
 #EXTINF:-1 tvg-name="ESK EH R KANAL 26" group-title="ESK EH R KANAL 26",2226 - ESK EH R KANAL 26
 https://vavoo.to/vavoo-iptv/play/409014197869da0d767e2b
 
-#EXTINF:-1 group-title="ESREF RÜYA",110 - Esref Rüya
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Esref.Ruya.SON.mkv
-
 #EXTINF:-1 group-title="ETV",471 - ETV
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 
@@ -3275,9 +3245,6 @@ https://spor.kuzeykibris.tv/m3u8/tv_genc.m3u8
 #EXTINF:-1 tvg-name="GIZEMLER DIYARI" group-title="GIZEMLER DIYARI",2236 - GIZEMLER DIYARI
 https://vavoo.to/vavoo-iptv/play/137618031334f1d315d6c4
 
-#EXTINF:-1 group-title="GİZLİ BAHÇE",111 - Gizli Bahçe
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Gizli.Bahce.SON.mkv
-
 #EXTINF:-1 tvg-name="GLOBAL BOX ACTION" group-title="GLOBAL BOX ACTION",1817 - GLOBAL BOX ACTION
 https://vavoo.to/vavoo-iptv/play/2456232539a0f9283d418b
 
@@ -3316,9 +3283,6 @@ https://vavoo.to/vavoo-iptv/play/2078775973ee3b3949894b
 
 #EXTINF:-1 tvg-id="GoncaTV.tr" group-title="GONCA TV",357 - Gonca TV (720p)
 https://edge1.socialsmart.tv/goncatv/bant1/playlist.m3u8
-
-#EXTINF:-1 group-title="GÖNÜL DAĞI",112 - Gönül Dağı
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Gonul.Dagi.SON.mkv
 
 #EXTINF:-1 tvg-id="GÖRELE TV.tr" tvg-logo="http://assets.tvcdn.net/a4f9eb99-fd80-407c-9c87-8e5a8d3ae12e.png" group-title="GÖRELE TV",1504 - GÖRELE TV
 https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
@@ -3379,9 +3343,6 @@ https://live.euromediacenter.com/gurmetv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="GÜÇLÜ TV",136 - Güçlü TV
 https://yayin.santraltr.com/hls/zeynotv.m3u8
-
-#EXTINF:-1 group-title="GÜLDÜR GÜLDÜR SHOW",113 - Güldür Güldür Show
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Guldur.Guldur.Show.SON.mkv
 
 #EXTINF:-1 tvg-id="Güneş TV.tr" tvg-logo="http://assets.tvcdn.net/93582e6d-bc23-4ba9-8270-4b2d51cca77b.png" group-title="GÜNEŞ TV",1520 - Güneş TV
 https://sc-kuzeykibrissmarttv.ercdn.net/gunestv/bant1/playlist.m3u8
@@ -3586,9 +3547,6 @@ https://vavoo.to/vavoo-iptv/play/420748756258a17d4693fc
 #EXTINF:-1 tvg-id="viasathistory.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f5/History_Logo.svg" group-title="HİSTORY CHANNEL",018 - History Channel
 https://tv.prectv5.sbs/live/history.m3u8
 
-#EXTINF:-1 group-title="HOLDİNG",114 - Holding
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Holding.SON.mkv
-
 #EXTINF:-1 tvg-name="HORROR 1 HD" group-title="HORROR 1",2249 - HORROR 1 HD
 https://vavoo.to/vavoo-iptv/play/36119753125c0620550bed
 
@@ -3663,9 +3621,6 @@ https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web#haber
 
 #EXTINF:-1 tvg-name="HTSpor TV" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="HTSPOR TV",781 - HTSpor TV
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
-
-#EXTINF:-1 group-title="HUDUTSUZ SEVDA",115 - Hudutsuz Sevda
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Hudutsuz.Sevda.SON.mkv
 
 #EXTINF:-1 tvg-name="HUNAT TV" tvg-logo="https://logo.huhu.to/logo?c=1602719314.png" group-title="HUNAT TV",2255 - HUNAT TV
 https://vavoo.to/vavoo-iptv/play/1602719314ed9049107b07
@@ -3810,9 +3765,6 @@ https://vavoo.to/vavoo-iptv/play/2093940826f764b66f64f5
 
 #EXTINF:-1 tvg-name="KAHRAMANMARA AKSU TV" group-title="KAHRAMANMARA AKSU TV",2100 - KAHRAMANMARA AKSU TV
 https://vavoo.to/vavoo-iptv/play/1716018058bd4b2efcbfe2
-
-#EXTINF:-1 group-title="KALPAZAN",116 - Kalpazan
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Kalpazan.SON.mkv
 
 #EXTINF:-1 tvg-name="KANAL 12" tvg-logo="https://logo.huhu.to/logo?c=2917371409.png" group-title="KANAL 12",2267 - KANAL 12
 https://vavoo.to/vavoo-iptv/play/29173714095b974b9b47bc
@@ -4273,9 +4225,6 @@ https://vavoo.to/vavoo-iptv/play/127011060769330a43e05e
 #EXTINF:-1 tvg-id="KardelenTV.tr" group-title="KARDELEN TV",377 - Kardelen TV (1080p)
 https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8
 
-#EXTINF:-1 group-title="KARDELENLER",117 - Kardelenler
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Kardelenler.SON.mkv
-
 #EXTINF:-1 tvg-name="KARE TV" group-title="KARE TV",2287 - KARE TV
 https://vavoo.to/vavoo-iptv/play/3390708983dceb590f99bf
 
@@ -4417,9 +4366,6 @@ https://vavoo.to/vavoo-iptv/play/862610701d8d72799d50e
 #EXTINF:-1 tvg-name="KONUSAN TOM" group-title="KONUSAN TOM",2292 - KONUSAN TOM
 https://vavoo.to/vavoo-iptv/play/363891195433c45cb68fe2
 
-#EXTINF:-1 group-title="KONUŞANLAR",118 - Konuşanlar
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Konusanlar.SON.mkv
-
 #EXTINF:-1 tvg-name="KONYA KON TV" group-title="KONYA KON TV",2108 - KONYA KON TV
 https://vavoo.to/vavoo-iptv/play/37593642738038d993fa1e
 
@@ -4458,9 +4404,6 @@ https://new.cache-stream.workers.dev/stream/UC4Ohyy56H4EZAy0Pagsv3iA/live.m3u8
 
 #EXTINF:-1 tvg-name="KRAL FM ARABESK" group-title="KRAL FM ARABESK",2037 - KRAL FM ARABESK
 https://vavoo.to/vavoo-iptv/play/222080778325a1bcf07f54
-
-#EXTINF:-1 group-title="KRAL KABEDERSE",119 - Kral Kabederse
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Kral.Kaybederse.SON.mkv
 
 #EXTINF:-1 tvg-name="KRAL - KRAL POP" tvg-logo="https://i.ibb.co/6401NQw/kraltv.png" group-title="KRAL KRAL POP",2698 - KRAL - KRAL POP
 https://dogus-live.daioncdn.net/kralpoptv/kralpoptv.m3u8
@@ -4612,9 +4555,6 @@ http://lalegultv.netmedya.net/hls/lalegultv.m3u8
 
 #EXTINF:-1 tvg-id="LalegulTV.tr@SD" group-title="LALEGÜL TV",931 - Lalegül TV (720p)
 http://lalegultv.netmedya.net/lalegul-tv/lalegultv.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="LEYLA",120 - Leyla
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Leyla.SON.mkv
 
 #EXTINF:-1 tvg-name="LEYLEK KARDES" group-title="LEYLEK KARDES",2300 - LEYLEK KARDES
 https://vavoo.to/vavoo-iptv/play/528021399004e91a38c73
@@ -5653,9 +5593,6 @@ https://vavoo.to/vavoo-iptv/play/201547123838d9856084ec
 #EXTINF:-1 tvg-name="PISI TV" group-title="PISI TV",2981 - PISI TV
 https://vavoo.to/vavoo-iptv/play/349052544410354f05ef9
 
-#EXTINF:-1 group-title="PİYASA",121 - Piyasa
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Piyasa.SON.mkv
-
 #EXTINF:-1 group-title="PLAY TV",204 - Play TV
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
 
@@ -6101,9 +6038,6 @@ https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="SAĞLIK CHANNEL" tvg-logo="https://i.ibb.co/TTwc1rR/saglikch.png" group-title="SAĞLIK CHANNEL",2588 - SAĞLIK CHANNEL
 https://live.euromediacenter.com/saglikchannel/index.m3u8
 
-#EXTINF:-1 group-title="SAHİPSİZLER",122 - Sahipsizler
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Sahipsizler.SON.mkv
-
 #EXTINF:-1 tvg-name="SALON 1 HD" group-title="SALON 1",1822 - SALON 1 HD
 https://vavoo.to/vavoo-iptv/play/12165418955d92bd545267
 
@@ -6164,9 +6098,6 @@ https://vavoo.to/vavoo-iptv/play/1473114092ad08fe38c131
 #EXTINF:-1 tvg-name="SALON 9 HD" group-title="SALON 9",1840 - SALON 9 HD
 https://vavoo.to/vavoo-iptv/play/26072799868f66d346f7b8
 
-#EXTINF:-1 group-title="SANDIK KOKUSU",123 - Sandık Kokusu
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Sandik.Kokusu.SON.mkv
-
 #EXTINF:-1 tvg-id="SariyerTV.tr" group-title="SARIYER TV",1050 - Sarıyer TV (360p)
 https://s01.vpis.io/sariyer/sariyer.m3u8
 
@@ -6205,9 +6136,6 @@ https://vavoo.to/vavoo-iptv/play/544666238c61b20d0e7a9
 
 #EXTINF:-1 tvg-name="SEKER HOCA" group-title="SEKER HOCA",2368 - SEKER HOCA
 https://vavoo.to/vavoo-iptv/play/133120184802af54b3162c
-
-#EXTINF:-1 group-title="SELAHADDİN EYYUBİ",124 - Selahaddin Eyyubi
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Selahaddin.Eyyubi.SON.mkv
 
 #EXTINF:-1 tvg-name="SELDA BAGCAN" group-title="SELDA BAGCAN",2369 - SELDA BAGCAN
 https://vavoo.to/vavoo-iptv/play/245160041554c8e8517107
@@ -6519,9 +6447,6 @@ http://65.108.239.207/sinema/index.m3u8#all
 
 #EXTINF:-1 tvg-name="Sinema TV" tvg-logo="https://www.tivibu.com.tr/uploads/ChannelFiles/sinematv_logo_A0CC7C58-E100-4C18-8B8D-BF961C4F785E.png" group-title="SİNEMA TV",803 - Sinema TV
 http://65.108.239.207/sinema/index.m3u8
-
-#EXTINF:-1 group-title="SİYAH KALP",125 - Siyah Kalp
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Siyah.Kalp.SON.mkv
 
 #EXTINF:-1 tvg-name="SKYHABER TV" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="SKYHABER TV",2806 - SKYHABER TV
 https://cdn4.yayin.com.tr/skyhabertv/index.m3u8
@@ -6889,9 +6814,6 @@ https://sy.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="SURELER VE T RKCE MEALI" group-title="SURELER VE T RKCE MEALI",2385 - SURELER VE T RKCE MEALI
 https://vavoo.to/vavoo-iptv/play/3430890461cfc692e06899
 
-#EXTINF:-1 group-title="SUSTALI CEYLAN",126 - Sustalı Ceylan
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Sustali.Ceylan.SON.mkv
-
 #EXTINF:-1 tvg-name="SÜNGER BOB" tvg-logo="https://logo.huhu.to/logo?c=3868582025.png" group-title="SÜNGER BOB",2386 - SÜNGER BOB
 https://vavoo.to/vavoo-iptv/play/386858202535408958c42e
 
@@ -7156,9 +7078,6 @@ https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tempo TV" tvg-logo="https://i.imgur.com/tZpx32y.png" group-title="TEMPO TV",664 - Tempo TV
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8#all
-
-#EXTINF:-1 group-title="TEŞKİLAT",127 - Teşkilat
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Teskilat.SON.mkv
 
 #EXTINF:-1 tvg-id="Genel_Teve2" tvg-logo="https://play-lh.googleusercontent.com/oXtnvGvKeRm3A668LZYAlm9TnrPmZWILngjmHvIOvrtajhZfwCUsJxM1_cgqaQlSaZM" group-title="TEVE 2",045 - Teve2
 https://demiroren-live.daioncdn.net/teve2/teve2_720p.m3u8
@@ -8769,9 +8688,6 @@ https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m
 #EXTINF:-1 tvg-name="Urfa Natik TV" tvg-logo="https://i.imgur.com/8KO0uxn.png" group-title="URFA NATİK TV",700 - Urfa Natik TV
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8#all
 
-#EXTINF:-1 group-title="UZAK ŞEHİR",128 - Uzak Şehir
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Uzak.Sehir.SON.mkv
-
 #EXTINF:-1 tvg-name="ÜLKE" tvg-logo="https://i.ibb.co/ZXts607/ulketv.png" group-title="ÜLKE",2503 - ÜLKE
 https://ulketv.blutv.com/blutv_ulketv2/live.m3u8
 
@@ -8998,12 +8914,6 @@ https://asds.tech/ch/yaban.m3u8
 #EXTINF:-1 tvg-id="YABAN TV" tvg-name="YABAN TV" tvg-language="Turkish" tvg-logo="https://i.ibb.co/319WZ5f/yaban.png" group-title="YABAN TV",897 - YABAN TV
 https://59cba4d34b678.streamlock.net/live1/yabantv/playlist.m3u8
 
-#EXTINF:-1 group-title="YALAN",129 - Yalan
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Yalan.SON.mkv
-
-#EXTINF:-1 group-title="YALI ÇAPKINI",130 - Yalı Çapkını
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Yali.Capkini.SON.mkv
-
 #EXTINF:-1 tvg-name="YAŞAM TV" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YAŞAM TV",2825 - YAŞAM TV
 https://yayin30.haber100.com/live/yasamtv/playlist.m3u8
 
@@ -9066,9 +8976,6 @@ https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="Zarok TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/zarok-tv-tr.png" group-title="ZAROK TV",705 - Zarok TV
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8#all
-
-#EXTINF:-1 group-title="ZEMBİLLİ",131 - Zembilli
-http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Zembilli.SON.mkv
 
 #EXTINF:-1 tvg-name="ZERRIN OZER" group-title="ZERRIN OZER",2445 - ZERRIN OZER
 https://vavoo.to/vavoo-iptv/play/2655157451b1786586fd0c
