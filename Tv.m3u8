@@ -729,3 +729,6 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
 
 #EXTINF:-1 tvg-name="ABN TURKEY" tvg-logo="https://i.ibb.co/ChhQT8b/Abn.png" group-title="ABN TURKEY",2732 - ABN TURKEY
 https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="DOST",Dost
+https://yayin.santraltr.com/hls/dost.m3u8
