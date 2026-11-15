@@ -206,7 +206,7 @@ https://live.euromediacenter.com/ezgitv/index.m3u8
 #EXTVLCOPT:network-caching=60000
 https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="FlashHaberTV.tr" tvg-logo="https://logo.huhu.to/logo?c=3806979011.png" tvg-name="Flash Haber TV" group-title="NOTÍCIAS",Flash Haber TV
+#EXTINF:-1 tvg-id="FlashHaberTV.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/flashhabertv-tr-e3e35b8520.png" tvg-name="Flash Haber TV" group-title="NOTÍCIAS",Flash Haber TV
 #EXTVLCOPT:network-caching=60000
 https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/mt_2.m3u8
 
