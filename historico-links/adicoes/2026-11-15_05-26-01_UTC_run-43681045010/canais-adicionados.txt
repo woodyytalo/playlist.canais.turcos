@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: Play TV
+#EXTINF:-1 tvg-name="Play TV" group-title="MÚSICA",Play TV
+Link: URL não identificada no mesmo bloco de diff
