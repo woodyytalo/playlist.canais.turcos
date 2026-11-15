@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: Kanal Ada
+#EXTINF:-1 tvg-name="Kanal Ada" tvg-id="custom.kanalada",Kanal Ada
+Link: URL não identificada no mesmo bloco de diff
