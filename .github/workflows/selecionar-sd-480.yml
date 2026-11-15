@@ -2,6 +2,9 @@ name: Selecionar fluxos SD 480p confirmados
 
 on:
   workflow_dispatch:
+  schedule:
+    # Reconfere variantes SD duas vezes por dia.
+    - cron: "50 0,12 * * *"
   push:
     branches:
       - "github/workflows/atualizar-logos.yml"
