@@ -727,3 +727,6 @@ https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8#all
 #EXTINF:-1 tvg-name="Dizi TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/dizi-tv-44959c2e70.png" group-title="FILMES E SÉRIES",Dizi TV
 #EXTVLCOPT:network-caching=60000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8#all
+
+#EXTINF:-1 tvg-name="ABN TURKEY" tvg-logo="https://i.ibb.co/ChhQT8b/Abn.png" group-title="ABN TURKEY",2732 - ABN TURKEY
+https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
