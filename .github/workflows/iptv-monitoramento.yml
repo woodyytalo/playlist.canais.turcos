@@ -13,6 +13,7 @@ on:
       - "Backup.m3u8"
       - ".github/workflows/iptv-monitoramento.yml"
   schedule:
+    # Verifica todas as listas a cada seis horas, continuamente ao longo da semana.
     - cron: "0 */6 * * *"
 
 permissions:
