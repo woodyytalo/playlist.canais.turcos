@@ -768,3 +768,15 @@ https://yayin.santraltr.com/hls/zeynotv.m3u8
 #EXTINF:-1 tvg-name="İSVİÇRE TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/isvicre-tv-1f32b08547.png" group-title="INTERNACIONAIS",İSVİÇRE TV
 #EXTVLCOPT:network-caching=60000
 https://i41.ozelip.com:3269/hybrid/play.m3u8
+
+#EXTINF:-1 tvg-name="Now 70's" tvg-logo="https://www.lyngsat.com/logo/tv/nn/now-70s-uk.svg" group-title="MÚSICA",Now 70's
+#EXTVLCOPT:network-caching=60000
+https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Now 80's" tvg-logo="https://www.lyngsat.com/logo/tv/nn/now-80s-uk.svg" group-title="MÚSICA",Now 80's
+#EXTVLCOPT:network-caching=60000
+https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="NOW ROCK" tvg-logo="https://www.lyngsat.com/logo/tv/nn/now-rock-uk.png" group-title="MÚSICA",NOW ROCK
+#EXTVLCOPT:network-caching=60000
+https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
