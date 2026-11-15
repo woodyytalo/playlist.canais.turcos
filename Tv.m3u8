@@ -252,6 +252,8 @@ https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 #EXTINF:-1 tvg-id="custom.iceltv" tvg-name="İçel TV" tvg-logo="https://i.imgur.com/CGwImKv.png" group-title="REGIONAIS",İçel TV
 #EXTVLCOPT:network-caching=60000
 https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="KardelenTV.tr" tvg-name="Kardelen TV" group-title="REGIONAIS",Kardelen TV
+https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="custom.izmirtime35tv" tvg-name="İzmir Time 35 TV" group-title="REGIONAIS",İzmir Time 35 TV
 https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8
 
