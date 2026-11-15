@@ -134,18 +134,19 @@ def search_online_logo(name):
     return None
 
 def remove_edge_white_background(source):
-    """Remove somente o branco/off-white conectado às bordas, preservando detalhes internos."""
+    """Torna transparente o branco/off-white ligado às bordas, sem apagar áreas internas."""
     from PIL import ImageDraw
 
     image = source.convert("RGBA")
     pixels = image.load()
     width, height = image.size
 
-    def is_background(pixel):
+    def is_white_background(pixel):
         r, g, b, a = pixel
-        return a > 0 and min(r, g, b) >= 225 and max(r, g, b) - min(r, g, b) <= 32
+        return a > 0 and min(r, g, b) >= 210 and (max(r, g, b) - min(r, g, b)) <= 42
 
-    # Flood-fill a partir das bordas: branco dentro do desenho não é removido.
+    # Percorre as bordas e remove apenas regiões claras conectadas ao exterior.
+    # O limiar ampliado também alcança fundos branco-quebrados e antialiasing.
     seeds = set()
     for x in range(width):
         seeds.add((x, 0))
@@ -154,13 +155,12 @@ def remove_edge_white_background(source):
         seeds.add((0, y))
         seeds.add((width - 1, y))
 
-    draw = ImageDraw.Draw(image)
     for point in seeds:
-        if is_background(pixels[point[0], point[1]]):
-            ImageDraw.floodfill(image, point, (0, 0, 0, 0), thresh=32)
+        x, y = point
+        if is_white_background(pixels[x, y]):
+            ImageDraw.floodfill(image, point, (0, 0, 0, 0), thresh=48)
 
     return image
-
 
 def save_square_black(source, destination):
     # Remove o fundo branco da fonte antes de compor sobre o preto.
@@ -192,7 +192,7 @@ def save_square_black(source, destination):
         if check.getpixel((8, 128))[:3] != (0, 0, 0):
             raise RuntimeError(f"Fundo preto ausente: {destination.name}")
 
-# Reprocessamento solicitado: aplicar novamente o padrão visual do canal TRT Çocuk a todas as logos.
+# Reprocessamento completo: remover fundo branco conectado às bordas e aplicar PNG 2:1 com fundo preto em todas as logos.
 def main():
     if not PLAYLIST.exists():
         raise SystemExit("Tv.m3u8 não encontrado.")
