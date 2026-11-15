@@ -11,7 +11,7 @@ from pathlib import Path
 
 from PIL import Image
 
-# Execução solicitada: reaplicar o padrão PNG 256x256 com fundo preto a todas as entradas.
+# Execução solicitada: reaplicar o padrão PNG retangular 2:1 512x256 com fundo preto a todas as entradas.
 ROOT = Path(__file__).resolve().parents[1]
 PLAYLIST = ROOT / "Tv.m3u8"
 LOGO_DIR = ROOT / "assets" / "logos"
@@ -166,19 +166,18 @@ def save_square_black(source, destination):
     # Remove o fundo branco da fonte antes de compor sobre o preto.
     source = remove_edge_white_background(source)
 
-    # Ícone quadrado 256x256, fundo preto e logo inteiro sem cortar.
-    canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
-    source.thumbnail((216, 216), Image.Resampling.LANCZOS)
-    x = (256 - source.width) // 2
+    # Logo retangular 2:1 (512x256), fundo preto e arte inteira sem cortes.
+    canvas = Image.new("RGBA", (512, 256), (0, 0, 0, 255))
+    source.thumbnail((464, 216), Image.Resampling.LANCZOS)
+    x = (512 - source.width) // 2
     y = (256 - source.height) // 2
     canvas.alpha_composite(source, (x, y))
 
-    # Recorta o próprio quadrado preto com cantos arredondados,
-    # seguindo o estilo dos ícones de TV8 mostrados pelo usuário.
+    # Cantos arredondados no retângulo 2:1.
     from PIL import ImageDraw
-    mask = Image.new("L", (256, 256), 0)
+    mask = Image.new("L", (512, 256), 0)
     ImageDraw.Draw(mask).rounded_rectangle(
-        (0, 0, 255, 255), radius=42, fill=255
+        (0, 0, 511, 255), radius=32, fill=255
     )
     canvas.putalpha(mask)
     canvas.save(destination, format="PNG", optimize=True)
@@ -186,8 +185,8 @@ def save_square_black(source, destination):
     # Validação pós-gravação: não publica arquivo corrompido ou fora do padrão.
     with Image.open(destination) as check:
         check.load()
-        if check.format != "PNG" or check.size != (256, 256) or check.mode != "RGBA":
-            raise RuntimeError(f"PNG fora do padrão após gravação: {destination.name}")
+        if check.format != "PNG" or check.size != (512, 256) or check.mode != "RGBA":
+            raise RuntimeError(f"PNG fora do padrão 2:1 após gravação: {destination.name}")
         if check.getpixel((0, 0))[3] != 0:
             raise RuntimeError(f"Canto arredondado inválido: {destination.name}")
         if check.getpixel((8, 128))[:3] != (0, 0, 0):
