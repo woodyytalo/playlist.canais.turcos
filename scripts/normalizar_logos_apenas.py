@@ -11,7 +11,7 @@ from pathlib import Path
 
 from PIL import Image
 
-# Execução solicitada: reaplicar o padrão PNG retangular 2:1 512x256 com fundo preto a todas as entradas.
+# Preservar dimensões, proporção, cores e transparência originais das logos.
 ROOT = Path(__file__).resolve().parents[1]
 PLAYLIST = ROOT / "Tv.m3u8"
 LOGO_DIR = ROOT / "assets" / "logos"
@@ -133,66 +133,22 @@ def search_online_logo(name):
             return image
     return None
 
-def remove_edge_white_background(source):
-    """Torna transparente o branco/off-white ligado às bordas, sem apagar áreas internas."""
-    from PIL import ImageDraw
+def save_original_png(source, destination):
+    """Exporta em PNG sem redimensionar, cortar, remover fundo ou alterar proporção."""
+    source = source.convert("RGBA")
+    original_size = source.size
+    if not original_size[0] or not original_size[1]:
+        raise RuntimeError(f"Dimensões inválidas: {destination.name}")
 
-    image = source.convert("RGBA")
-    pixels = image.load()
-    width, height = image.size
+    # Mantém cada pixel da imagem de origem; apenas grava no formato PNG.
+    source.save(destination, format="PNG", optimize=True)
 
-    def is_white_background(pixel):
-        r, g, b, a = pixel
-        return a > 0 and min(r, g, b) >= 210 and (max(r, g, b) - min(r, g, b)) <= 42
-
-    # Percorre as bordas e remove apenas regiões claras conectadas ao exterior.
-    # O limiar ampliado também alcança fundos branco-quebrados e antialiasing.
-    seeds = set()
-    for x in range(width):
-        seeds.add((x, 0))
-        seeds.add((x, height - 1))
-    for y in range(height):
-        seeds.add((0, y))
-        seeds.add((width - 1, y))
-
-    for point in seeds:
-        x, y = point
-        if is_white_background(pixels[x, y]):
-            ImageDraw.floodfill(image, point, (0, 0, 0, 0), thresh=48)
-
-    return image
-
-def save_square_black(source, destination):
-    # Remove o fundo branco da fonte antes de compor sobre o preto.
-    source = remove_edge_white_background(source)
-
-    # Logo retangular 2:1 (512x256), fundo preto e arte inteira sem cortes.
-    canvas = Image.new("RGBA", (512, 256), (0, 0, 0, 255))
-    source.thumbnail((464, 216), Image.Resampling.LANCZOS)
-    x = (512 - source.width) // 2
-    y = (256 - source.height) // 2
-    canvas.alpha_composite(source, (x, y))
-
-    # Cantos arredondados no retângulo 2:1.
-    from PIL import ImageDraw
-    mask = Image.new("L", (512, 256), 0)
-    ImageDraw.Draw(mask).rounded_rectangle(
-        (0, 0, 511, 255), radius=32, fill=255
-    )
-    canvas.putalpha(mask)
-    canvas.save(destination, format="PNG", optimize=True)
-
-    # Validação pós-gravação: não publica arquivo corrompido ou fora do padrão.
+    # Validação: dimensões nativas e PNG íntegro.
     with Image.open(destination) as check:
         check.load()
-        if check.format != "PNG" or check.size != (512, 256) or check.mode != "RGBA":
-            raise RuntimeError(f"PNG fora do padrão 2:1 após gravação: {destination.name}")
-        if check.getpixel((0, 0))[3] != 0:
-            raise RuntimeError(f"Canto arredondado inválido: {destination.name}")
-        if check.getpixel((8, 128))[:3] != (0, 0, 0):
-            raise RuntimeError(f"Fundo preto ausente: {destination.name}")
-
-# Reprocessamento completo: remover fundo branco conectado às bordas e aplicar PNG 2:1 com fundo preto em todas as logos.
+        if check.format != "PNG" or check.size != original_size or check.mode != "RGBA":
+            raise RuntimeError(f"PNG não preservou a imagem original: {destination.name}")
+# Reprocessamento completo: preservar dimensões e aparência original, exportando PNG.
 def main():
     if not PLAYLIST.exists():
         raise SystemExit("Tv.m3u8 não encontrado.")
@@ -227,7 +183,7 @@ def main():
             output.append(line)
             continue
 
-        save_square_black(source, destination)
+        save_original_png(source, destination)
         new_url = f"{RAW_BASE}/{filename}"
         if re.search(r'\btvg-logo="[^"]*"', prefix):
             prefix = re.sub(r'\btvg-logo="[^"]*"', f'tvg-logo="{new_url}"', prefix, count=1)
@@ -235,7 +191,7 @@ def main():
             prefix += f' tvg-logo="{new_url}"'
         output.append(prefix + comma + display)
         converted += 1
-        print(f"PNG quadrado 256x256 com fundo preto: {name}")
+        print(f"PNG original preservado ({source.width}x{source.height}): {name}")
 
     PLAYLIST.write_text("\n".join(output) + "\n", encoding="utf-8")
     print(f"FINAL: {converted} logos padronizados; {skipped} sem imagem-fonte confiável e preservados.")
