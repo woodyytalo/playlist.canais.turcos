@@ -13,10 +13,10 @@ Alanya Posta TV,Full HD,1920x1080,h264,api-tv3.yayin.com.tr,OK,1920x1080
 Almahriah TV,SD,1024x576,h264,starmenajo.com,OK,
 Altas TV,HD,1280x720,h264,edge1.socialsmart.tv,OK,
 Anadolu TV,Não verificado,,,broadcasttr.com:446,https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8: Connection timed out,
-ARAS TV,Não verificado,,,1.rtmp.org,http://1.rtmp.org/tv217/yayin.stream/chunklist_w251507320.m3u8: Server returned 404 Not Found,
+ARAS TV,Não verificado,,,1.rtmp.org,http://1.rtmp.org/tv217/yayin.stream/chunklist_w170247109.m3u8: Server returned 404 Not Found,
 AS TV,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,1920x1080
 ATV,SD,854x480,h264,rnttwmjcin.turknet.ercdn.net,OK,
-ATV Alanya,HD,1280x720,h264,cdn-alanyatv.yayin.com.tr,OK,1280x720
+ATV Alanya,Full HD,1920x1080,h264,cdn-alanyatv.yayin.com.tr,OK,1920x1080
 Bengü Türk,SD,854x480,h264,tv.ensonhaber.com,OK,
 Beyaz TV,SD,854x480,h264,beyaztv-live.daioncdn.net,OK,
 Bi Kanal,Full HD,1920x1080,h264,bikanal-live.ercdn.net,OK,
@@ -96,11 +96,12 @@ Life TV,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,1920x1080
 Luys TV,SD,640x360,h264,b01c02nl.mediatriple.net,OK,
 Med Müzik,Full HD,1920x1080,h264,54.36.110.140,OK,
 Mekameleen TV,SD,718x404,h264,mn-nl.mncdn.com,OK,
-Meltem TV,HD,1280x720,h264,vhxyrsly.rocketcdn.com,OK,
+Meltem TV,HD,1280x720,h264,vhxyrsly.rocketcdn.com,OK,1280x720
 Mercan TV,SD,720x576,h264,live.artidijitalmedya.com,OK,720x576
 Minika Çocuk,SD,854x480,h264,rnttwmjcin.turknet.ercdn.net,OK,
 Minika GO,SD,854x480,h264,rnttwmjcin.turknet.ercdn.net,OK,
 MTürk TV,HD,1280x720,h264,edge1.socialsmart.tv,OK,
+Play TV,SD,854x372,h264,web.onair-radio.eu:1935,OK,854x372
 NOW,SD,854x480,h264,uycyyuuzyh.turknet.ercdn.net,OK,
 NR1 Aşk,HD,1280x720,h264,b01c02nl.mediatriple.net,OK,1280x720
 NR1 Damar,HD,1280x720,h264,b01c02nl.mediatriple.net,OK,1280x720
@@ -109,6 +110,7 @@ NTV,SD,854x480,h264,dogus.daioncdn.net,OK,
 Number 1 TV,HD,1280x720,h264,b01c02nl.mediatriple.net,OK,
 Power Dance TV,Não verificado,,,listen.powerapp.com.tr,https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8: Server returned 404 Not Found,
 Power Love TV,Não verificado,,,listen.powerapp.com.tr,https://listen.powerapp.com.tr/plove/love.smil/chunklist_b1028000_sltur.m3u8: Server returned 404 Not Found,
+POWER TV,Full HD,1920x1080,h264,livetv.powerapp.com.tr,OK,1920x1080
 PowerTürk Taptaze,Full HD,1920x1080,h264,livetv.powerapp.com.tr,OK,1920x1080
 MUKABELE TV,SD,854x480,h264,playlist.fasttvcdn.com,OK,
 Rehber TV,HD,1280x720,h264,cdn4.yayin.com.tr,OK,
@@ -118,7 +120,7 @@ Sercem TV,Full HD,1920x1080,h264,canli.sercemtv.com.tr,OK,
 Show Max,SD,854x480,h264,rmtftbjlne.turknet.ercdn.net,OK,
 Show TV,SD,854x480,h264,ciner.daioncdn.net,OK,
 Spacetoon Türkiye,HD,1280x720,h264,live-tr-next.spacetoongo.com,OK,1280x720
-Star TV,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=AC009oyWv51s0V9mG3h88A&e=1794806204: Server returned 404 Not Found,1920x1080
+Star TV,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=jhHIFYfLdvDdmgXYpr76JQ&e=1794807060: Server returned 404 Not Found,1920x1080
 TAY TV,SD,640x360,h264,duhnet.hipodrom.com,OK,
 TELE1,Não verificado,,,tele1dvr.blutv.com,"https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4}",
 Tempo TV,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
@@ -130,14 +132,14 @@ Ton TV,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,1920x1080
 TRT 1,SD,854x480,h264,tv-trt1.medya.trt.com.tr,OK,
 TRT Arabi,SD,854x480,h264,tv-trtarabi.medya.trt.com.tr,OK,
 TRT Avaz,HD,1280x720,h264,tv-trtavaz.medya.trt.com.tr,OK,
-TRT Çocuk,Não verificado,,,tv-trtcocuk.medya.trt.com.tr,https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8: Server returned 403 Forbidden (access denied),
+TRT Çocuk,SD,854x480,h264,tv-trtcocuk.medya.trt.com.tr,OK,
 TRT Diyanet Çocuk,SD,854x480,h264,tv-trtdiyanetcocuk.medya.trt.com.tr,OK,
 TRT EBA Ortaokul,HD,1280x720,h264,tv-e-okul01.medya.trt.com.tr,OK,1280x720
 TRT Genç,SD,854x480,h264,tv-trtgenc.medya.trt.com.tr,OK,
 TRT Haber,HD,1280x720,h264,tv-trthaber.medya.trt.com.tr,OK,
 TRT Kurdî,SD,854x480,h264,tv-trtkurdi.medya.trt.com.tr,OK,
 TRT Müzik,SD,1024x576,h264,stream8.cinerama.uz,OK,
-Kral Pop,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/chunklist_w890261540_b2000096.m3u8?st=m3OlwPjxiXJ2w6Po610Nlg&e=1794806213: Server returned 404 Not Found,1280x720
+Kral Pop,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/chunklist_w1533542001_b2000096.m3u8?st=uLOpQXv9dZM1yIL5kQQC8Q&e=1794807067: Server returned 404 Not Found,1280x720
 NR1 Fashion One,HD,1280x720,h264,b01c02nl.mediatriple.net,OK,1280x720
 TRT Türk,HD,1280x720,h264,tv-trtturk.medya.trt.com.tr,OK,
 TRT World,SD,640x360,h264,cdn.pishow.tv,OK,
@@ -152,7 +154,7 @@ TV100,Não verificado,,,tv100.daioncdn.net,https://tv100.daioncdn.net/tv100/tv10
 TV4,Não verificado,,,turkmedya-live.ercdn.net,https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8: Server returned 404 Not Found,
 TV8,Full HD,1920x1080,h264,rkhubpaomb.turknet.ercdn.net,OK,
 TVNET,Não verificado,,,mn-nl.mncdn.com,https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8: Connection reset by peer,
-Vuslat TV,Não verificado,,,live.artidijitalmedya.com,https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/chunks.m3u8?nimblesessionid=4570602835: Connection timed out,
+Vuslat TV,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
 Ülke TV,Não verificado,,,217.174.229.138:8000,http://217.174.229.138:8000/play/a0el: Connection timed out,
 Vav TV,SD,854x480,h264,playlist.fasttvcdn.com,OK,
 Zarok TV Kurmanji,Full HD,1920x1080,h264,zindikurmanci.zaroktv.com.tr,OK,1920x1080
@@ -178,7 +180,7 @@ Arzu Film,Full HD,1920x1080,h264,raw.githubusercontent.com,OK,1280x720
 Ekol Sports,Full HD,1920x1080,h264,ekoltv-live.ercdn.net,OK,
 Kanal Urfa,SD,720x404,h264,edge1.socialsmart.tv,OK,
 Trabzon Buyuksehir Belediyesi TV,Full HD,1920x1080,h264,tv191.radyotelekom.com.tr:3612,OK,
-Urfanatik TV,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,1920x1080
+Urfanatik TV,Não verificado,,,live.artidijitalmedya.com,https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8: Server returned 404 Not Found,
 MADINAH TV,SD,480x360,h264,cdn-globecast.akamaized.net,OK,
 MC EU TV,HD,1280x720,h264,rrr.sz.xlcdn.com,OK,1280x720
 Persiana Türkiye,HD,1280x720,h264,turkhls.persiana.live,OK,

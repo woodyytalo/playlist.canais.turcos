@@ -1,17 +1,17 @@
 # Verificação de qualidade — TV principal
 
-Verificado em: **2026-11-15 05:17 UTC**
+Verificado em: **2026-11-15 05:31 UTC**
 
-Total de entradas: **194**
+Total de entradas: **196**
 
 ## Resumo
 
 - Acima de Full HD: **0**
-- Full HD: **40**
+- Full HD: **41**
 - HD: **76**
-- SD: **54**
+- SD: **56**
 - Sem vídeo detectável: **0**
-- Não verificado: **24**
+- Não verificado: **23**
 
 > A classificação usa a resolução de vídeo que o FFprobe conseguiu ler no momento da execução. Falhas temporárias, bloqueio geográfico, autenticação, formatos incompatíveis e indisponibilidade podem resultar em 'Não verificado'. Nenhum link da playlist é alterado.
 
@@ -33,10 +33,10 @@ Total de entradas: **194**
 | Almahriah TV | SD | 1024x576 | h264 | OK |
 | Altas TV | HD | 1280x720 | h264 | OK |
 | Anadolu TV | Não verificado |  |  | https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8: Connection timed out |
-| ARAS TV | Não verificado |  |  | http://1.rtmp.org/tv217/yayin.stream/chunklist_w251507320.m3u8: Server returned 404 Not Found |
+| ARAS TV | Não verificado |  |  | http://1.rtmp.org/tv217/yayin.stream/chunklist_w170247109.m3u8: Server returned 404 Not Found |
 | AS TV | Full HD | 1920x1080 | h264 | OK |
 | ATV | SD | 854x480 | h264 | OK |
-| ATV Alanya | HD | 1280x720 | h264 | OK |
+| ATV Alanya | Full HD | 1920x1080 | h264 | OK |
 | Bengü Türk | SD | 854x480 | h264 | OK |
 | Beyaz TV | SD | 854x480 | h264 | OK |
 | Bi Kanal | Full HD | 1920x1080 | h264 | OK |
@@ -121,6 +121,7 @@ Total de entradas: **194**
 | Minika Çocuk | SD | 854x480 | h264 | OK |
 | Minika GO | SD | 854x480 | h264 | OK |
 | MTürk TV | HD | 1280x720 | h264 | OK |
+| Play TV | SD | 854x372 | h264 | OK |
 | NOW | SD | 854x480 | h264 | OK |
 | NR1 Aşk | HD | 1280x720 | h264 | OK |
 | NR1 Damar | HD | 1280x720 | h264 | OK |
@@ -129,6 +130,7 @@ Total de entradas: **194**
 | Number 1 TV | HD | 1280x720 | h264 | OK |
 | Power Dance TV | Não verificado |  |  | https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8: Server returned 404 Not Found |
 | Power Love TV | Não verificado |  |  | https://listen.powerapp.com.tr/plove/love.smil/chunklist_b1028000_sltur.m3u8: Server returned 404 Not Found |
+| POWER TV | Full HD | 1920x1080 | h264 | OK |
 | PowerTürk Taptaze | Full HD | 1920x1080 | h264 | OK |
 | MUKABELE TV | SD | 854x480 | h264 | OK |
 | Rehber TV | HD | 1280x720 | h264 | OK |
@@ -138,7 +140,7 @@ Total de entradas: **194**
 | Show Max | SD | 854x480 | h264 | OK |
 | Show TV | SD | 854x480 | h264 | OK |
 | Spacetoon Türkiye | HD | 1280x720 | h264 | OK |
-| Star TV | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=AC009oyWv51s0V9mG3h88A&e=1794806204: Server returned 404 Not Found |
+| Star TV | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=jhHIFYfLdvDdmgXYpr76JQ&e=1794807060: Server returned 404 Not Found |
 | TAY TV | SD | 640x360 | h264 | OK |
 | TELE1 | Não verificado |  |  | https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4} |
 | Tempo TV | HD | 1280x720 | h264 | OK |
@@ -150,14 +152,14 @@ Total de entradas: **194**
 | TRT 1 | SD | 854x480 | h264 | OK |
 | TRT Arabi | SD | 854x480 | h264 | OK |
 | TRT Avaz | HD | 1280x720 | h264 | OK |
-| TRT Çocuk | Não verificado |  |  | https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8: Server returned 403 Forbidden (access denied) |
+| TRT Çocuk | SD | 854x480 | h264 | OK |
 | TRT Diyanet Çocuk | SD | 854x480 | h264 | OK |
 | TRT EBA Ortaokul | HD | 1280x720 | h264 | OK |
 | TRT Genç | SD | 854x480 | h264 | OK |
 | TRT Haber | HD | 1280x720 | h264 | OK |
 | TRT Kurdî | SD | 854x480 | h264 | OK |
 | TRT Müzik | SD | 1024x576 | h264 | OK |
-| Kral Pop | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/chunklist_w890261540_b2000096.m3u8?st=m3OlwPjxiXJ2w6Po610Nlg&e=1794806213: Server returned 404 Not Found |
+| Kral Pop | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/chunklist_w1533542001_b2000096.m3u8?st=uLOpQXv9dZM1yIL5kQQC8Q&e=1794807067: Server returned 404 Not Found |
 | NR1 Fashion One | HD | 1280x720 | h264 | OK |
 | TRT Türk | HD | 1280x720 | h264 | OK |
 | TRT World | SD | 640x360 | h264 | OK |
@@ -172,7 +174,7 @@ Total de entradas: **194**
 | TV4 | Não verificado |  |  | https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8: Server returned 404 Not Found |
 | TV8 | Full HD | 1920x1080 | h264 | OK |
 | TVNET | Não verificado |  |  | https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8: Connection reset by peer |
-| Vuslat TV | Não verificado |  |  | https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/chunks.m3u8?nimblesessionid=4570602835: Connection timed out |
+| Vuslat TV | HD | 1280x720 | h264 | OK |
 | Ülke TV | Não verificado |  |  | http://217.174.229.138:8000/play/a0el: Connection timed out |
 | Vav TV | SD | 854x480 | h264 | OK |
 | Zarok TV Kurmanji | Full HD | 1920x1080 | h264 | OK |
@@ -198,7 +200,7 @@ Total de entradas: **194**
 | Ekol Sports | Full HD | 1920x1080 | h264 | OK |
 | Kanal Urfa | SD | 720x404 | h264 | OK |
 | Trabzon Buyuksehir Belediyesi TV | Full HD | 1920x1080 | h264 | OK |
-| Urfanatik TV | Full HD | 1920x1080 | h264 | OK |
+| Urfanatik TV | Não verificado |  |  | https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8: Server returned 404 Not Found |
 | MADINAH TV | SD | 480x360 | h264 | OK |
 | MC EU TV | HD | 1280x720 | h264 | OK |
 | Persiana Türkiye | HD | 1280x720 | h264 | OK |

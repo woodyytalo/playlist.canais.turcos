@@ -1,6 +1,6 @@
 {
-  "verificado_em": "2026-11-15 05:17 UTC",
-  "total": 194,
+  "verificado_em": "2026-11-15 05:31 UTC",
+  "total": 196,
   "canais": [
     {
       "canal": "24 TV",
@@ -134,7 +134,7 @@
       "resolucao": "",
       "codec": "",
       "host": "1.rtmp.org",
-      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w251507320.m3u8: Server returned 404 Not Found",
+      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w170247109.m3u8: Server returned 404 Not Found",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -157,12 +157,12 @@
     },
     {
       "canal": "ATV Alanya",
-      "classificacao": "HD",
-      "resolucao": "1280x720",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
       "codec": "h264",
       "host": "cdn-alanyatv.yayin.com.tr",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "1280x720"
+      "resolucao_declarada_no_master": "1920x1080"
     },
     {
       "canal": "Bengü Türk",
@@ -882,7 +882,7 @@
       "codec": "h264",
       "host": "vhxyrsly.rocketcdn.com",
       "resultado": "OK",
-      "resolucao_declarada_no_master": ""
+      "resolucao_declarada_no_master": "1280x720"
     },
     {
       "canal": "Mercan TV",
@@ -919,6 +919,15 @@
       "host": "edge1.socialsmart.tv",
       "resultado": "OK",
       "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Play TV",
+      "classificacao": "SD",
+      "resolucao": "854x372",
+      "codec": "h264",
+      "host": "web.onair-radio.eu:1935",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "854x372"
     },
     {
       "canal": "NOW",
@@ -991,6 +1000,15 @@
       "host": "listen.powerapp.com.tr",
       "resultado": "https://listen.powerapp.com.tr/plove/love.smil/chunklist_b1028000_sltur.m3u8: Server returned 404 Not Found",
       "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "POWER TV",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
+      "host": "livetv.powerapp.com.tr",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
     },
     {
       "canal": "PowerTürk Taptaze",
@@ -1079,7 +1097,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=AC009oyWv51s0V9mG3h88A&e=1794806204: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=jhHIFYfLdvDdmgXYpr76JQ&e=1794807060: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1920x1080"
     },
     {
@@ -1183,11 +1201,11 @@
     },
     {
       "canal": "TRT Çocuk",
-      "classificacao": "Não verificado",
-      "resolucao": "",
-      "codec": "",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
       "host": "tv-trtcocuk.medya.trt.com.tr",
-      "resultado": "https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8: Server returned 403 Forbidden (access denied)",
+      "resultado": "OK",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -1250,7 +1268,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w890261540_b2000096.m3u8?st=m3OlwPjxiXJ2w6Po610Nlg&e=1794806213: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w1533542001_b2000096.m3u8?st=uLOpQXv9dZM1yIL5kQQC8Q&e=1794807067: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1280x720"
     },
     {
@@ -1381,12 +1399,12 @@
     },
     {
       "canal": "Vuslat TV",
-      "classificacao": "Não verificado",
-      "resolucao": "",
-      "codec": "",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
       "host": "live.artidijitalmedya.com",
-      "resultado": "https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/chunks.m3u8?nimblesessionid=4570602835: Connection timed out",
-      "resolucao_declarada_no_master": ""
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
     },
     {
       "canal": "Ülke TV",
@@ -1615,12 +1633,12 @@
     },
     {
       "canal": "Urfanatik TV",
-      "classificacao": "Full HD",
-      "resolucao": "1920x1080",
-      "codec": "h264",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
       "host": "live.artidijitalmedya.com",
-      "resultado": "OK",
-      "resolucao_declarada_no_master": "1920x1080"
+      "resultado": "https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8: Server returned 404 Not Found",
+      "resolucao_declarada_no_master": ""
     },
     {
       "canal": "MADINAH TV",
