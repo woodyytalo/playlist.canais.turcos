@@ -1,21 +1,14 @@
 #!/usr/bin/env python3
-"""Create local PNG artwork for playlist entries whose logo is absent or not PNG.
-
-Existing remote artwork is downloaded and converted where possible. If no usable
-image exists, a clean text-based channel tile is generated on a black background.
-The script never invents an official brand mark.
-"""
+"""Normalize every available TV channel logo to a square white-background PNG."""
 import hashlib
 import io
-import json
 import re
 import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
-from urllib.parse import unquote
 
-from PIL import Image, ImageDraw, ImageFont, ImageOps
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 PLAYLIST = ROOT / "Tv.m3u8"
@@ -23,81 +16,42 @@ LOGO_DIR = ROOT / "assets" / "logos"
 REPO = "woodyytalo/playlist.canais.turcos"
 BRANCH = "github/workflows/atualizar-logos.yml"
 RAW_BASE = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/assets/logos"
-
 ATTR = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
 
 def safe_name(value):
     value = unicodedata.normalize("NFKD", value or "")
     value = "".join(c for c in value if not unicodedata.combining(c))
-    value = re.sub(r"[^a-zA-Z0-9]+", "-", value).strip("-").lower()
-    return value or "canal"
+    return re.sub(r"[^a-zA-Z0-9]+", "-", value).strip("-").lower() or "canal"
 
-def font(size, bold=True):
-    candidates = [
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold
-        else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-        "/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf",
-    ]
-    for candidate in candidates:
-        try:
-            return ImageFont.truetype(candidate, size)
-        except OSError:
-            pass
-    return ImageFont.load_default()
-
-def fetch_image(url):
+def http_bytes(url):
     if not url or not url.startswith(("http://", "https://")):
         return None
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 IPTV-LogoBot"})
-        with urllib.request.urlopen(req, timeout=18) as response:
+        with urllib.request.urlopen(req, timeout=20) as response:
             data = response.read(8 * 1024 * 1024 + 1)
-        if len(data) > 8 * 1024 * 1024:
-            return None
-        try:
-            return Image.open(io.BytesIO(data)).convert("RGBA")
-        except Exception:
-            # SVG sources are converted only when CairoSVG can parse them.
-            if b"<svg" in data[:4096].lower():
-                try:
-                    import cairosvg
-                    png = cairosvg.svg2png(bytestring=data, output_width=900)
-                    return Image.open(io.BytesIO(png)).convert("RGBA")
-                except Exception:
-                    return None
-            return None
+        return data if len(data) <= 8 * 1024 * 1024 else None
     except Exception as exc:
-        print(f"Imagem indisponível ({url}): {exc}")
+        print(f"Fonte indisponível ({url}): {exc}")
         return None
 
-def generated_tile(name, destination):
-    canvas = Image.new("RGBA", (480, 270), (0, 0, 0, 255))
-    draw = ImageDraw.Draw(canvas)
-    draw.rounded_rectangle((12, 12, 468, 258), radius=24, outline=(75, 75, 75, 255), width=3)
-    label = re.sub(r"\s+", " ", name).strip()
-    f = font(48)
-    while f.size > 22 and draw.textbbox((0, 0), label, font=f)[2] > 410:
-        f = font(f.size - 2)
-    bounds = draw.textbbox((0, 0), label, font=f)
-    x = (480 - (bounds[2] - bounds[0])) / 2
-    y = 112 - (bounds[3] - bounds[1]) / 2
-    draw.text((x, y), label, font=f, fill=(245, 245, 245, 255), stroke_width=1, stroke_fill=(35, 35, 35, 255))
-    sub = font(20, False)
-    sub_text = "CANAL DE TV"
-    sb = draw.textbbox((0, 0), sub_text, font=sub)
-    draw.text(((480 - (sb[2] - sb[0])) / 2, 205), sub_text, font=sub, fill=(155, 155, 155, 255))
-    canvas.convert("RGB").save(destination, format="PNG", optimize=True)
+def decode_image(data):
+    if not data:
+        return None
+    try:
+        return Image.open(io.BytesIO(data)).convert("RGBA")
+    except Exception:
+        if b"<svg" in data[:4096].lower():
+            try:
+                import cairosvg
+                png = cairosvg.svg2png(bytestring=data, output_width=900)
+                return Image.open(io.BytesIO(png)).convert("RGBA")
+            except Exception:
+                pass
+    return None
 
-def save_png(source, destination):
-    background = Image.new("RGBA", (480, 270), (0, 0, 0, 255))
-    source.thumbnail((440, 230), Image.Resampling.LANCZOS)
-    x = (480 - source.width) // 2
-    y = (270 - source.height) // 2
-    if source.mode == "RGBA":
-        background.alpha_composite(source, (x, y))
-    else:
-        background.paste(source, (x, y))
-    background.convert("RGB").save(destination, format="PNG", optimize=True)
+def fetch_image(url):
+    return decode_image(http_bytes(url))
 
 _TV_LOGO_INDEX = None
 
@@ -107,22 +61,19 @@ def normalize_name(value):
     return re.sub(r"[^a-z0-9]+", "", value)
 
 def http_json(url):
-    request = urllib.request.Request(
-        url, headers={"User-Agent": "IPTV-LogoBot/1.0 (playlist logo lookup)"}
-    )
-    with urllib.request.urlopen(request, timeout=20) as response:
-        return json.loads(response.read(5 * 1024 * 1024).decode("utf-8"))
+    data = http_bytes(url)
+    if not data:
+        raise RuntimeError("resposta vazia")
+    import json
+    return json.loads(data.decode("utf-8"))
 
 def tv_logo_candidate(name):
-    """Find an exact/high-confidence filename match in the public tv-logos repo."""
     global _TV_LOGO_INDEX
     try:
         if _TV_LOGO_INDEX is None:
-            data = http_json(
-                "https://api.github.com/repos/tv-logo/tv-logos/git/trees/main?recursive=1"
-            )
+            tree = http_json("https://api.github.com/repos/tv-logo/tv-logos/git/trees/main?recursive=1")
             _TV_LOGO_INDEX = [
-                item["path"] for item in data.get("tree", [])
+                item["path"] for item in tree.get("tree", [])
                 if item.get("type") == "blob"
                 and item["path"].lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".svg"))
             ]
@@ -132,40 +83,34 @@ def tv_logo_candidate(name):
         matches = []
         for path in _TV_LOGO_INDEX:
             stem = normalize_name(Path(path).stem)
-            # Require exact filename identity after normalization. This avoids
-            # attaching another channel's logo based on a loose text search.
-            if stem == target or stem == target + "tr" or stem == "tr" + target:
+            if stem in (target, target + "tr", "tr" + target):
                 matches.append(path)
         if not matches:
             return None
         matches.sort(key=lambda p: ("/countries/turkey/" not in p.lower(), len(p)))
         return "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/" + urllib.parse.quote(matches[0])
     except Exception as exc:
-        print(f"Catálogo tv-logos indisponível para {name}: {exc}")
+        print(f"Catálogo de logos indisponível para {name}: {exc}")
         return None
 
 def commons_candidate(name):
-    """Search Wikimedia Commons; accept only highly specific title matches."""
     try:
         query = urllib.parse.urlencode({
             "action": "query", "generator": "search",
             "gsrsearch": f'filetype:bitmap "{name}" television channel logo',
             "gsrnamespace": 6, "gsrlimit": 12,
-            "prop": "imageinfo", "iiprop": "url",
-            "format": "json"
+            "prop": "imageinfo", "iiprop": "url", "format": "json"
         })
         data = http_json("https://commons.wikimedia.org/w/api.php?" + query)
         target = normalize_name(name)
-        pages = data.get("query", {}).get("pages", {}).values()
         ranked = []
-        for page in pages:
+        for page in data.get("query", {}).get("pages", {}).values():
             title = page.get("title", "").rsplit(":", 1)[-1]
             stem = normalize_name(re.sub(r"\.[^.]+$", "", title))
             if stem == target or stem.startswith(target) or target in stem:
                 info = (page.get("imageinfo") or [{}])[0]
-                url = info.get("url")
-                if url:
-                    ranked.append((0 if stem == target else 1, url))
+                if info.get("url"):
+                    ranked.append((0 if stem == target else 1, info["url"]))
         ranked.sort(key=lambda item: item[0])
         return ranked[0][1] if ranked else None
     except Exception as exc:
@@ -173,14 +118,21 @@ def commons_candidate(name):
         return None
 
 def search_online_logo(name):
-    # Prefer a maintained TV-logo catalog, then Wikimedia Commons.
-    for candidate in (tv_logo_candidate(name), commons_candidate(name)):
-        if candidate:
-            image = fetch_image(candidate)
-            if image is not None:
-                print(f"Logo encontrado na internet: {name} ({candidate})")
-                return image
+    for url in (tv_logo_candidate(name), commons_candidate(name)):
+        image = fetch_image(url) if url else None
+        if image is not None:
+            print(f"Logo localizado para {name}: {url}")
+            return image
     return None
+
+def save_square_white(source, destination):
+    # Ícone quadrado 256x256, fundo branco e logo inteiro sem cortar.
+    canvas = Image.new("RGBA", (256, 256), (255, 255, 255, 255))
+    source.thumbnail((216, 216), Image.Resampling.LANCZOS)
+    x = (256 - source.width) // 2
+    y = (256 - source.height) // 2
+    canvas.alpha_composite(source, (x, y))
+    canvas.convert("RGB").save(destination, format="PNG", optimize=True)
 
 def main():
     if not PLAYLIST.exists():
@@ -188,62 +140,46 @@ def main():
     LOGO_DIR.mkdir(parents=True, exist_ok=True)
     lines = PLAYLIST.read_text(encoding="utf-8").splitlines()
     output = []
-    current = 0
-    converted = generated = unchanged = 0
+    converted = skipped = 0
 
     for line in lines:
         if not line.startswith("#EXTINF"):
             output.append(line)
             continue
 
-        display = line.rsplit(",", 1)[-1].strip()
-        attrs = dict(ATTR.findall(line.rsplit(",", 1)[0]))
-        name = attrs.get("tvg-name") or display
-        raw_logo = attrs.get("tvg-logo", "")
-        # Already a repository PNG: leave it untouched.
-        if raw_logo.startswith(RAW_BASE + "/") and raw_logo.lower().endswith(".png"):
-            output.append(line)
-            unchanged += 1
-            continue
-        if raw_logo.lower().endswith(".png") and raw_logo.startswith(("http://", "https://")):
-            output.append(line)
-            unchanged += 1
-            continue
-
-        identity = attrs.get("tvg-id") or name
+        prefix, comma, display = line.rpartition(",")
+        attrs = dict(ATTR.findall(prefix))
+        name = attrs.get("tvg-name") or display.strip()
+        old_logo = attrs.get("tvg-logo", "")
+        identity = attrs.get("tvg-id") or name or display.strip()
         digest = hashlib.sha1(identity.casefold().encode("utf-8")).hexdigest()[:10]
         filename = f"{safe_name(identity)[:54]}-{digest}.png"
         destination = LOGO_DIR / filename
 
-        source = fetch_image(raw_logo)
+        # Processa também logos que já terminam em .png: o objetivo é padronizar
+        # o visual de todos, não apenas converter extensões diferentes.
+        source = fetch_image(old_logo)
         if source is None:
             source = search_online_logo(name)
-        if source is not None:
-            save_png(source, destination)
-            converted += 1
-            print(f"Convertido para PNG: {name}")
-        else:
-            generated_tile(name, destination)
-            generated += 1
-            print(f"PNG de identificação criado: {name}")
 
+        if source is None:
+            skipped += 1
+            print(f"SEM FONTE DE IMAGEM — mantido sem alteração: {name}")
+            output.append(line)
+            continue
+
+        save_square_white(source, destination)
         new_url = f"{RAW_BASE}/{filename}"
-        prefix, comma, tail = line.rpartition(",")
-        # Repair an older malformed entry where tvg-id was placed inside tvg-logo.
-        malformed = re.search(r'tvg-logo="[^"]*?\s+tvg-id="([^"]+)"', prefix)
-        if malformed:
-            recovered_id = malformed.group(1)
-            prefix = prefix[:malformed.start()] + f'tvg-id="{recovered_id}"' + prefix[malformed.end():]
         if re.search(r'\btvg-logo="[^"]*"', prefix):
             prefix = re.sub(r'\btvg-logo="[^"]*"', f'tvg-logo="{new_url}"', prefix, count=1)
         else:
-            prefix = re.sub(r'(\s+group-title=)', f' tvg-logo="{new_url}"\\1', prefix, count=1)
-            if 'tvg-logo="' not in prefix:
-                prefix += f' tvg-logo="{new_url}"'
-        output.append(prefix + comma + tail)
+            prefix += f' tvg-logo="{new_url}"'
+        output.append(prefix + comma + display)
+        converted += 1
+        print(f"PNG quadrado 256x256 com fundo branco: {name}")
 
     PLAYLIST.write_text("\n".join(output) + "\n", encoding="utf-8")
-    print(f"Resultado: {converted} logos convertidos; {generated} PNGs gerados; {unchanged} PNGs existentes preservados.")
+    print(f"FINAL: {converted} logos padronizados; {skipped} sem imagem-fonte confiável e preservados.")
 
 if __name__ == "__main__":
     main()
