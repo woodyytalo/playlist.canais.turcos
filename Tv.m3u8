@@ -400,6 +400,10 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8
 #EXTVLCOPT:network-caching=60000
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Play TV" group-title="ENTRETENIMENTO",Play TV
+#EXTVLCOPT:network-caching=60000
+http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
+
 #EXTINF:-1 tvg-id="NOW.tr" tvg-name="NOW" tvg-logo="https://www.tvlogo.org/turkey/now-tr.png" group-title="ENTRETENIMENTO",NOW
 #EXTVLCOPT:network-caching=60000
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_480p.m3u8
