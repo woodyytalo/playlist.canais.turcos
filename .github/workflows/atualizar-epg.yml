@@ -11,7 +11,8 @@ on:
       - "epg/fontes-open-epg.txt"
       - ".github/workflows/atualizar-epg.yml"
   schedule:
-    - cron: "30 1 * * *"
+    # Atualiza a programação a cada seis horas.
+    - cron: "30 0,6,12,18 * * *"
 
 permissions:
   contents: write
