@@ -57,9 +57,10 @@ jobs:
             # Quando canais novos entram na TV principal, arquiva também
             # a playlist atual e uma relação dos canais/URLs adicionados.
             if git cat-file -e "$EVENT_BEFORE:Tv.m3u8" 2>/dev/null && ! git diff --quiet "$EVENT_BEFORE" "$GITHUB_SHA" -- Tv.m3u8; then
-              python - <<'PY'
+              TIMESTAMP="$timestamp" python - <<'PY'
           import os
           import re
+          import shutil
           import subprocess
           from pathlib import Path
 
@@ -91,9 +92,7 @@ jobs:
               stamp = os.environ["TIMESTAMP"]
               folder = Path("historico-links/adicoes") / stamp
               folder.mkdir(parents=True, exist_ok=True)
-              Path("Tv.m3u8").replace(folder / "Tv.m3u8")
-              # Restaura a playlist ativa exatamente como estava no checkout.
-              subprocess.run(["git", "checkout", after, "--", "Tv.m3u8"], check=True)
+              shutil.copy2("Tv.m3u8", folder / "Tv.m3u8")
               report = ["Canais adicionados à TV principal neste commit:", ""]
               for entry, url in added:
                   name = entry.rsplit(",", 1)[-1].strip()
@@ -120,8 +119,6 @@ jobs:
 
           # Registra hashes para facilitar a conferência de integridade.
           find historico-links -type f -name '*.m3u*' -print0 | sort -z | xargs -0 -r sha256sum > historico-links/SHA256SUMS
-        env:
-          TIMESTAMP: ${{ github.run_id }}
 
       - name: Salvar histórico no repositório
         shell: bash
