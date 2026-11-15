@@ -1,7 +1,7 @@
 # Relatório de qualidade — TV principal
 
-- Canais verificados: **186**
-- Canais com HD comprovado: **63**
+- Canais verificados: **197**
+- Canais com HD comprovado: **66**
 - Links substituídos por variante HD comprovada: **0**
 - Critério: somente playlists HLS que anunciam uma variante com RESOLUTION de 1280x720 ou superior.
 - Links sem resolução declarada permanecem inalterados; o relatório não presume HD pelo nome do arquivo.
@@ -48,6 +48,7 @@
 | 1Mus | sem resolução HD comprovada | http://hz1.teleport.cc/HLS/HD.m3u8 |
 | 30A Music | HD confirmado (1280x720) | https://30a-tv.com/music.m3u8 |
 | Dream Türk | sem resolução HD comprovada | https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8 |
+| TMB TV | sem resolução HD comprovada | https://str.yodacdn.net/tmb_tr_app/tracks-v1a1/mono.m3u8?token=tmb_app_token_13579 |
 | Edessa TV | HD confirmado (1920x1080) | https://canli.edessatv.com/hls/stream.m3u8 |
 | Ekotürk | não verificado (URLError: <urlopen error [Errno -5] No address associated with hostname>) | https://ythls.kekikakademi.org/youtube/channel/UCAGVKxpAKwXMWdmcHbrvcwQ.m3u8 |
 | Elsharq TV | HD confirmado (1280x720) | https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8 |
@@ -72,6 +73,8 @@
 | Güneydoğu TV | não verificado (URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat) | https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8#all |
 | Hunat TV | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8 |
 | İçel TV | não verificado (URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat) | https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8 |
+| Kardelen TV | não verificado (URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat) | https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8 |
+| İzmir Time 35 TV | HD confirmado (1920x1080) | https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8 |
 | İlke TV | sem resolução HD comprovada | https://stream.ilketv.com.tr/hls/ilkecanli.m3u8 |
 | K+ Kayseri | HD confirmado (1920x1080) | https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8 |
 | Kanal 12 | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8 |
@@ -93,6 +96,7 @@
 | Kanal Fırat | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8 |
 | Kanal V | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8 |
 | Kay TV | HD confirmado (1280x720) | https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8 |
+| Kayhan TV | HD confirmado (1280x720) | https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8 |
 | Kent Türk TV | HD confirmado (1920x1080) | https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8 |
 | Kocaeli TV | HD confirmado (1920x1080) | https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8 |
 | Konya KTV | sem resolução HD comprovada | https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/chunklist_w16313685.m3u8 |
@@ -102,11 +106,12 @@
 | Luys TV | sem resolução HD comprovada | https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/mt_2.m3u8 |
 | Med Müzik | sem resolução HD comprovada | http://54.36.110.140/live3/live3.m3u8 |
 | Mekameleen TV | sem resolução HD comprovada | https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8 |
-| Meltem TV | HD confirmado (1280x720) | https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8 |
+| Meltem TV | não verificado (ValueError: resposta não é uma playlist HLS) | https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8 |
 | Mercan TV | fonte limitada a 720x576 | https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8 |
 | Minika Çocuk | sem resolução HD comprovada | http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8 |
 | Minika GO | sem resolução HD comprovada | http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8 |
 | MTürk TV | não verificado (URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat) | https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8 |
+| Play TV | fonte limitada a 854x480 | http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8 |
 | NOW | sem resolução HD comprovada | https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_480p.m3u8 |
 | NR1 Aşk | HD confirmado (1280x720) | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8 |
 | NR1 Damar | HD confirmado (1280x720) | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8 |
@@ -115,6 +120,7 @@
 | Number 1 TV | sem resolução HD comprovada | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8 |
 | Power Dance TV | não verificado (HTTPError: HTTP Error 404: Not Found) | https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8 |
 | Power Love TV | não verificado (HTTPError: HTTP Error 404: Not Found) | https://listen.powerapp.com.tr/plove/love.smil/chunklist_b1028000_sltur.m3u8 |
+| POWER TV | HD confirmado (1920x1080) | http://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8 |
 | PowerTürk Taptaze | HD confirmado (1920x1080) | http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8 |
 | MUKABELE TV | sem resolução HD comprovada | https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.m3u8 |
 | Rehber TV | sem resolução HD comprovada | https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8 |
@@ -193,4 +199,9 @@
 | Love Nature | HD confirmado (1920x1080) | https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8 |
 | ETV Manisa | não verificado (URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat) | https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8#all |
 | Dizi TV | sem resolução HD comprovada | https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8#all |
-| 2732 - ABN TURKEY | sem resolução HD comprovada | https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8 |
+| ABN TURKEY | sem resolução HD comprovada | https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8 |
+| Dost | sem resolução HD comprovada | https://yayin.santraltr.com/hls/dost.m3u8 |
+| Company TV | sem resolução HD comprovada | https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/chunklist_w1608519565_b878000_slita.m3u8 |
+| INTV Australia | HD confirmado (1280x720) | http://tv1.intv.mk:1935/live/intv/index.m3u8 |
+| Güçlü TV | sem resolução HD comprovada | https://yayin.santraltr.com/hls/zeynotv.m3u8 |
+| İSVİÇRE TV | sem resolução HD comprovada | https://i41.ozelip.com:3269/hybrid/play.m3u8 |
