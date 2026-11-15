@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Normalize every available TV channel logo to a square white-background PNG."""
+"""Normalize every available TV channel logo to a square black-background PNG."""
 import hashlib
 import io
 import time
@@ -132,15 +132,15 @@ def search_online_logo(name):
             return image
     return None
 
-def save_square_white(source, destination):
-    # Ícone quadrado 256x256, fundo branco e logo inteiro sem cortar.
-    canvas = Image.new("RGBA", (256, 256), (255, 255, 255, 255))
+def save_square_black(source, destination):
+    # Ícone quadrado 256x256, fundo preto e logo inteiro sem cortar.
+    canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
     source.thumbnail((216, 216), Image.Resampling.LANCZOS)
     x = (256 - source.width) // 2
     y = (256 - source.height) // 2
     canvas.alpha_composite(source, (x, y))
 
-    # Recorta el próprio quadrado branco com cantos arredondados,
+    # Recorta o próprio quadrado preto com cantos arredondados,
     # seguindo o estilo dos ícones de TV8 mostrados pelo usuário.
     from PIL import ImageDraw
     mask = Image.new("L", (256, 256), 0)
@@ -157,10 +157,8 @@ def save_square_white(source, destination):
             raise RuntimeError(f"PNG fora do padrão após gravação: {destination.name}")
         if check.getpixel((0, 0))[3] != 0:
             raise RuntimeError(f"Canto arredondado inválido: {destination.name}")
-        if check.getpixel((128, 128))[:3] != (255, 255, 255):
-            # O centro pode conter a logo; a cor branca é verificada em um ponto de margem.
-            if check.getpixel((8, 128))[:3] != (255, 255, 255):
-                raise RuntimeError(f"Fundo branco ausente: {destination.name}")
+        if check.getpixel((8, 128))[:3] != (0, 0, 0):
+            raise RuntimeError(f"Fundo preto ausente: {destination.name}")
 
 def main():
     if not PLAYLIST.exists():
@@ -196,7 +194,7 @@ def main():
             output.append(line)
             continue
 
-        save_square_white(source, destination)
+        save_square_black(source, destination)
         new_url = f"{RAW_BASE}/{filename}"
         if re.search(r'\btvg-logo="[^"]*"', prefix):
             prefix = re.sub(r'\btvg-logo="[^"]*"', f'tvg-logo="{new_url}"', prefix, count=1)
@@ -204,7 +202,7 @@ def main():
             prefix += f' tvg-logo="{new_url}"'
         output.append(prefix + comma + display)
         converted += 1
-        print(f"PNG quadrado 256x256 com fundo branco: {name}")
+        print(f"PNG quadrado 256x256 com fundo preto: {name}")
 
     PLAYLIST.write_text("\n".join(output) + "\n", encoding="utf-8")
     print(f"FINAL: {converted} logos padronizados; {skipped} sem imagem-fonte confiável e preservados.")
