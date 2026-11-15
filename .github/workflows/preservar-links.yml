@@ -41,9 +41,9 @@ jobs:
           set -euo pipefail
           mkdir -p historico-links
           files=("Tv.m3u8" "TV2.m3u8" "Euro.m3u" "Tvt.m3u" "Backup.m3u8")
-          timestamp="$(date -u +'%Y-%m-%d_%H-%M-%S_UTC')"
+          timestamp="$(date -u +'%Y-%m-%d_%H-%M-%S_UTC')_run-${RUN_ID}"
 
-          # Antes de qualquer alteração, arquiva a versão anterior de cada lista modificada.
+          # Guarda a versão anterior de cada playlist alterada.
           if [[ "$EVENT_NAME" == "push" && -n "$EVENT_BEFORE" && "$EVENT_BEFORE" != "0000000000000000000000000000000000000000" ]]; then
             mkdir -p "historico-links/antes-de-alteracoes/$timestamp"
             for file in "${files[@]}"; do
@@ -53,6 +53,59 @@ jobs:
                 fi
               fi
             done
+
+            # Quando canais novos entram na TV principal, arquiva também
+            # a playlist atual e uma relação dos canais/URLs adicionados.
+            if git cat-file -e "$EVENT_BEFORE:Tv.m3u8" 2>/dev/null && ! git diff --quiet "$EVENT_BEFORE" "$GITHUB_SHA" -- Tv.m3u8; then
+              python - <<'PY'
+          import os
+          import re
+          import subprocess
+          from pathlib import Path
+
+          before = os.environ["EVENT_BEFORE"]
+          after = os.environ["GITHUB_SHA"]
+          diff = subprocess.run(
+              ["git", "diff", "--no-ext-diff", "--unified=0", before, after, "--", "Tv.m3u8"],
+              check=True, capture_output=True, text=True, encoding="utf-8"
+          ).stdout.splitlines()
+
+          added = []
+          pending = None
+          for row in diff:
+              if row.startswith("+++") or row.startswith("---"):
+                  continue
+              if row.startswith("+"):
+                  value = row[1:].strip()
+                  if value.startswith("#EXTINF:"):
+                      if pending:
+                          added.append((pending, "URL não identificada no mesmo bloco de diff"))
+                      pending = value
+                  elif pending and value and not value.startswith("#"):
+                      added.append((pending, value))
+                      pending = None
+          if pending:
+              added.append((pending, "URL não identificada no mesmo bloco de diff"))
+
+          if added:
+              stamp = os.environ["TIMESTAMP"]
+              folder = Path("historico-links/adicoes") / stamp
+              folder.mkdir(parents=True, exist_ok=True)
+              Path("Tv.m3u8").replace(folder / "Tv.m3u8")
+              # Restaura a playlist ativa exatamente como estava no checkout.
+              subprocess.run(["git", "checkout", after, "--", "Tv.m3u8"], check=True)
+              report = ["Canais adicionados à TV principal neste commit:", ""]
+              for entry, url in added:
+                  name = entry.rsplit(",", 1)[-1].strip()
+                  report.extend([f"Canal: {name}", entry, f"Link: {url}", ""])
+              (folder / "canais-adicionados.txt").write_text(
+                  "\n".join(report), encoding="utf-8"
+              )
+              print(f"{len(added)} canal(is) novo(s) preservado(s) com seus links.")
+          else:
+              print("Nenhum canal novo detectado na TV principal.")
+          PY
+            fi
           fi
 
           # Snapshot diário ou manual de todas as listas existentes.
@@ -67,6 +120,8 @@ jobs:
 
           # Registra hashes para facilitar a conferência de integridade.
           find historico-links -type f -name '*.m3u*' -print0 | sort -z | xargs -0 -r sha256sum > historico-links/SHA256SUMS
+        env:
+          TIMESTAMP: ${{ github.run_id }}
 
       - name: Salvar histórico no repositório
         shell: bash
