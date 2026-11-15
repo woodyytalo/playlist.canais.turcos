@@ -149,10 +149,10 @@ https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 #EXTVLCOPT:network-caching=15000
 https://dost.stream.emsal.im/tv/live.m3u8
 
-#EXTINF:-1 tvg-name="1Mus" tvg-logo="https://www.lyngsat.com/logo/tv/num/1tv-news-channel-am.png" group-title="MÚSICA",148 - 1Mus
+#EXTINF:-1 tvg-name="1Mus" tvg-logo="https://www.lyngsat.com/logo/tv/num/1tv-news-channel-am.png" group-title="MÚSICA",1Mus
 #EXTVLCOPT:network-caching=15000
 http://hz1.teleport.cc/HLS/HD.m3u8
-#EXTINF:-1 tvg-name="30A Music" tvg-logo="https://www.lyngsat.com/logo/tv/num/3-plus-latvija-lv.png" group-title="MÚSICA",150 - 30A Music
+#EXTINF:-1 tvg-name="30A Music" tvg-logo="https://www.lyngsat.com/logo/tv/num/3-plus-latvija-lv.png" group-title="MÚSICA",30A Music
 #EXTVLCOPT:network-caching=15000
 https://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-id="DREAM.TÜRK.tr" tvg-name="Dream Türk" tvg-logo="https://www.tvlogo.org/turkey/dream-turk-tr.png" group-title="MÚSICA",Dream Türk
@@ -707,20 +707,20 @@ https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8#all
 
 # Canais adicionados do Backup — números originais preservados
-#EXTINF:-1 tvg-name="MC EU TV" tvg-id="MCTV.de@HD" group-title="INTERNACIONAIS" tvg-logo="https://logo.huhu.to/logo?c=3849971860.png",2900 - MC EU TV
+#EXTINF:-1 tvg-name="MC EU TV" tvg-id="MCTV.de@HD" group-title="INTERNACIONAIS" tvg-logo="https://logo.huhu.to/logo?c=3849971860.png",MC EU TV
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 tvg-name="Persiana Türkiye" tvg-id="PersianaTurkiye.fr@SD" group-title="INTERNACIONAIS" tvg-logo="https://i.imgur.com/7p3j0hF.png",2901 - Persiana Türkiye
+#EXTINF:-1 tvg-name="Persiana Türkiye" tvg-id="PersianaTurkiye.fr@SD" group-title="INTERNACIONAIS" tvg-logo="https://i.imgur.com/7p3j0hF.png",Persiana Türkiye
 https://turkhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name="BabyFirst TV" tvg-id="BabyFirst.us@US" tvg-logo="https://i.imgur.com/WxLHBwu.png" group-title="INFANTIS",2907 - BabyFirst TV
+#EXTINF:-1 tvg-name="BabyFirst TV" tvg-id="BabyFirst.us@US" tvg-logo="https://i.imgur.com/WxLHBwu.png" group-title="INFANTIS",BabyFirst TV
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 
-#EXTINF:-1 tvg-id="TLC.de@SD" group-title="DOCUMENTÁRIOS" tvg-logo="https://i.imgur.com/AXlHsla.png",2904 - TLC
+#EXTINF:-1 tvg-id="TLC.de@SD" group-title="DOCUMENTÁRIOS" tvg-logo="https://i.imgur.com/AXlHsla.png",TLC
 https://s6.hopslan.com/tlcX/index.m3u8
 
-#EXTINF:-1 tvg-id="LoveNature.ca@HD" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="DOCUMENTÁRIOS",2908 - Love Nature
+#EXTINF:-1 tvg-id="LoveNature.ca@HD" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="DOCUMENTÁRIOS",Love Nature
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 
-#EXTINF:-1 tvg-name="ETV Manisa" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="REGIONAIS",564 - ETV Manisa
+#EXTINF:-1 tvg-name="ETV Manisa" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="REGIONAIS",ETV Manisa
 https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8#all
 
 #EXTINF:-1 tvg-name="Dizi TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E" group-title="FILMES E SÉRIES",552 - Dizi TV
