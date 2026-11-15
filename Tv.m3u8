@@ -1,7 +1,6 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/guia-turquia.xml" x-tvg-url="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/guia-turquia.xml"
 # Atualização de mapeamento XMLTV executada pelo workflow de EPG
 
-
 #EXTINF:-1 tvg-id="24.TV.tr" tvg-name="24 TV" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="NOTÍCIAS",24 TV
 #EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/kanal24/kanal24.smil/chunklist_b896000.m3u8
@@ -437,6 +436,8 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.
 #EXTINF:-1 tvg-id="custom.rehbertv" tvg-name="Rehber TV" tvg-logo="https://www.tvlogo.org/turkey/rehber-tv-tr.png" group-title="RELIGIOSOS",Rehber TV
 #EXTVLCOPT:network-caching=60000
 https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="ABN TURKEY" tvg-logo="https://i.ibb.co/ChhQT8b/Abn.png" group-title="ABN TURKEY",2732 - ABN TURKEY
+https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
 
 #EXTINF:-1 tvg-name="Sat7 Türk" tvg-logo="https://logo.huhu.to/logo?c=4228046562.png" tvg-id="custom.sat7turk" group-title="RELIGIOSOS",Sat7 Türk
 #EXTVLCOPT:network-caching=60000
@@ -502,7 +503,6 @@ https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 #EXTINF:-1 tvg-id="TRT.1.tr" tvg-name="TRT 1" tvg-logo="https://www.tvlogo.org/turkey/trt-1-tr.png" group-title="ENTRETENIMENTO",TRT 1
 #EXTVLCOPT:network-caching=60000
 https://tv-trt1.medya.trt.com.tr/master_480.m3u8
-
 
 #EXTINF:-1 tvg-id="TRT.ARABI.tr" tvg-name="TRT Arabi" tvg-logo="https://www.tvlogo.org/turkey/trt-arabi-tr.png" group-title="TRT",TRT Arabi
 #EXTVLCOPT:network-caching=60000
@@ -599,7 +599,6 @@ https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8
 
-
 #EXTINF:-1 tvg-id="custom.vuslattv" tvg-name="Vuslat TV" tvg-logo="https://logo.huhu.to/logo?c=949033122.png" group-title="REGIONAIS",Vuslat TV
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
@@ -627,7 +626,6 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/E
 #EXTINF:-1 tvg-id="SÖZCÜ.TV.tr" tvg-name="Sözcü TV" tvg-logo="https://i.ibb.co/B40rjP3/szc1.png" group-title="NOTÍCIAS",Sözcü TV
 #EXTVLCOPT:network-caching=60000
 https://szctvdvr.blutv.com/blutv_szctv_dvr/live_720p4350000kbps/index.m3u8
-
 
 #EXTINF:-1 tvg-id="custom.naturaltv" tvg-name="Natural TV" tvg-logo="https://i.imgur.com/rfcJ674.png" group-title="REGIONAIS",Natural TV
 #EXTVLCOPT:network-caching=60000
