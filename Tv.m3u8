@@ -149,6 +149,12 @@ https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 #EXTVLCOPT:network-caching=15000
 https://dost.stream.emsal.im/tv/live.m3u8
 
+#EXTINF:-1 tvg-name="1Mus" tvg-logo="https://www.lyngsat.com/logo/tv/num/1tv-news-channel-am.png" group-title="MÚSICA",1Mus
+#EXTVLCOPT:network-caching=15000
+http://hz1.teleport.cc/HLS/HD.m3u8
+#EXTINF:-1 tvg-name="30A Music" tvg-logo="https://www.lyngsat.com/logo/tv/num/3-plus-latvija-lv.png" group-title="MÚSICA",30A Music
+#EXTVLCOPT:network-caching=15000
+https://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-id="DREAM.TÜRK.tr" tvg-name="Dream Türk" tvg-logo="https://www.tvlogo.org/turkey/dream-turk-tr.png" group-title="MÚSICA",Dream Türk
 #EXTVLCOPT:network-caching=15000
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
