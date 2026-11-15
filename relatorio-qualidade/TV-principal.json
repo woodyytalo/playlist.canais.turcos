@@ -1,6 +1,6 @@
 {
-  "verificado_em": "2026-11-15 05:04 UTC",
-  "total": 192,
+  "verificado_em": "2026-11-15 05:17 UTC",
+  "total": 194,
   "canais": [
     {
       "canal": "24 TV",
@@ -53,7 +53,7 @@
       "resolucao": "",
       "codec": "",
       "host": "185.234.111.229:8000",
-      "resultado": "http://185.234.111.229:8000/play/a01l: No route to host",
+      "resultado": "http://185.234.111.229:8000/play/a01l: Connection timed out",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -134,7 +134,7 @@
       "resolucao": "",
       "codec": "",
       "host": "1.rtmp.org",
-      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w881750052.m3u8: Server returned 404 Not Found",
+      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w251507320.m3u8: Server returned 404 Not Found",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -579,6 +579,15 @@
       "resolucao_declarada_no_master": ""
     },
     {
+      "canal": "Kardelen TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "edge1.socialsmart.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
       "canal": "İzmir Time 35 TV",
       "classificacao": "Full HD",
       "resolucao": "1920x1080",
@@ -777,6 +786,15 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
+      "canal": "Kayhan TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "playout395.livestreamingcdn.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
       "canal": "Kent Türk TV",
       "classificacao": "Full HD",
       "resolucao": "1920x1080",
@@ -864,7 +882,7 @@
       "codec": "h264",
       "host": "vhxyrsly.rocketcdn.com",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "1280x720"
+      "resolucao_declarada_no_master": ""
     },
     {
       "canal": "Mercan TV",
@@ -1061,7 +1079,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=CKZuc-tgi-Pwq7CWOIBxmw&e=1794805444: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=AC009oyWv51s0V9mG3h88A&e=1794806204: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1920x1080"
     },
     {
@@ -1165,11 +1183,11 @@
     },
     {
       "canal": "TRT Çocuk",
-      "classificacao": "SD",
-      "resolucao": "854x480",
-      "codec": "h264",
+      "classificacao": "Não verificado",
+      "resolucao": "",
+      "codec": "",
       "host": "tv-trtcocuk.medya.trt.com.tr",
-      "resultado": "OK",
+      "resultado": "https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8: Server returned 403 Forbidden (access denied)",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -1232,7 +1250,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w1174862508_b2000096.m3u8?st=4JFBK43T0nWROFFmdGMP1A&e=1794805449: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w890261540_b2000096.m3u8?st=m3OlwPjxiXJ2w6Po610Nlg&e=1794806213: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1280x720"
     },
     {
@@ -1367,7 +1385,7 @@
       "resolucao": "",
       "codec": "",
       "host": "live.artidijitalmedya.com",
-      "resultado": "https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/chunks.m3u8?nimblesessionid=4570511076: Connection timed out",
+      "resultado": "https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/chunks.m3u8?nimblesessionid=4570602835: Connection timed out",
       "resolucao_declarada_no_master": ""
     },
     {
