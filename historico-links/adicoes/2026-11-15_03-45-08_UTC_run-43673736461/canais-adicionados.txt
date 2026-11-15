@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: 2732 - ABN TURKEY
+#EXTINF:-1 tvg-name="ABN TURKEY" tvg-logo="https://i.ibb.co/ChhQT8b/Abn.png" group-title="ABN TURKEY",2732 - ABN TURKEY
+Link: https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
