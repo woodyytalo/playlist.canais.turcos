@@ -1,6 +1,6 @@
 {
-  "verificado_em": "2026-11-15 05:31 UTC",
-  "total": 196,
+  "verificado_em": "2026-11-15 07:42 UTC",
+  "total": 197,
   "canais": [
     {
       "canal": "24 TV",
@@ -134,7 +134,7 @@
       "resolucao": "",
       "codec": "",
       "host": "1.rtmp.org",
-      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w170247109.m3u8: Server returned 404 Not Found",
+      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w1244772285.m3u8: Server returned 404 Not Found",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -157,12 +157,12 @@
     },
     {
       "canal": "ATV Alanya",
-      "classificacao": "Full HD",
-      "resolucao": "1920x1080",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
       "codec": "h264",
       "host": "cdn-alanyatv.yayin.com.tr",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "1920x1080"
+      "resolucao_declarada_no_master": "1280x720"
     },
     {
       "canal": "Bengü Türk",
@@ -359,6 +359,15 @@
       "resolucao": "1280x720",
       "codec": "h264",
       "host": "live.duhnet.tv",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "TMB TV",
+      "classificacao": "SD",
+      "resolucao": "720x576",
+      "codec": "h264",
+      "host": "str.yodacdn.net",
       "resultado": "OK",
       "resolucao_declarada_no_master": ""
     },
@@ -697,8 +706,8 @@
     },
     {
       "canal": "Kanal 53",
-      "classificacao": "Full HD",
-      "resolucao": "1920x1080",
+      "classificacao": "HD",
+      "resolucao": "1920x1076",
       "codec": "h264",
       "host": "kanal53.ozelip.com:3448",
       "resultado": "OK",
@@ -923,11 +932,11 @@
     {
       "canal": "Play TV",
       "classificacao": "SD",
-      "resolucao": "854x372",
+      "resolucao": "854x480",
       "codec": "h264",
       "host": "web.onair-radio.eu:1935",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "854x372"
+      "resolucao_declarada_no_master": "854x480"
     },
     {
       "canal": "NOW",
@@ -1097,7 +1106,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=jhHIFYfLdvDdmgXYpr76JQ&e=1794807060: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=2uhiPG_3yt1YjXlEboFdgg&e=1794814926: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1920x1080"
     },
     {
@@ -1268,7 +1277,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w1533542001_b2000096.m3u8?st=uLOpQXv9dZM1yIL5kQQC8Q&e=1794807067: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w1957890228_b2000096.m3u8?st=SnSfwuKkIXj-D7d71A1agg&e=1794814931: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1280x720"
     },
     {
@@ -1633,12 +1642,12 @@
     },
     {
       "canal": "Urfanatik TV",
-      "classificacao": "Não verificado",
-      "resolucao": "",
-      "codec": "",
+      "classificacao": "Full HD",
+      "resolucao": "1920x1080",
+      "codec": "h264",
       "host": "live.artidijitalmedya.com",
-      "resultado": "https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8: Server returned 404 Not Found",
-      "resolucao_declarada_no_master": ""
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1920x1080"
     },
     {
       "canal": "MADINAH TV",
