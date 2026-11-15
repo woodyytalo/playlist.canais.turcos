@@ -469,7 +469,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d91
 #EXTVLCOPT:network-caching=60000
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 
-#EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max" tvg-logo="https://i.ibb.co/qJnvXJQ/show-max.png" group-title="INTERNACIONAIS",Show Max
+#EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max" tvg-logo="https://i.ibb.co/qJnvXJQ/show-max.png" group-title="ENTRETENIMENTO",Show Max
 #EXTVLCOPT:network-caching=60000
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 
@@ -637,7 +637,7 @@ https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTVLCOPT:network-caching=60000
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 
-#EXTINF:-1 tvg-id="custom.eurostartv" tvg-logo="https://i.imgur.com/kb165Ot.png" tvg-name="Euro Star TV" group-title="INTERNACIONAIS",Euro Star TV
+#EXTINF:-1 tvg-id="custom.eurostartv" tvg-logo="https://i.imgur.com/kb165Ot.png" tvg-name="Euro Star TV" group-title="ENTRETENIMENTO",Euro Star TV
 #EXTVLCOPT:network-caching=60000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
 
