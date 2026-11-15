@@ -32,6 +32,9 @@ jobs:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
 
+      - name: Validar que cada canal mantém seu próprio link
+        run: python scripts/validar_links_playlist.py
+
       - name: Criar snapshots das playlists
         shell: bash
         env:
