@@ -2,6 +2,7 @@
 """Normalize every available TV channel logo to a square white-background PNG."""
 import hashlib
 import io
+import time
 import re
 import unicodedata
 import urllib.parse
@@ -26,14 +27,20 @@ def safe_name(value):
 def http_bytes(url):
     if not url or not url.startswith(("http://", "https://")):
         return None
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 IPTV-LogoBot"})
-        with urllib.request.urlopen(req, timeout=20) as response:
-            data = response.read(8 * 1024 * 1024 + 1)
-        return data if len(data) <= 8 * 1024 * 1024 else None
-    except Exception as exc:
-        print(f"Fonte indisponível ({url}): {exc}")
-        return None
+    for attempt in range(1, 4):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 IPTV-LogoBot"})
+            with urllib.request.urlopen(req, timeout=25) as response:
+                data = response.read(8 * 1024 * 1024 + 1)
+            if len(data) <= 8 * 1024 * 1024:
+                return data
+            print(f"Arquivo acima de 8 MB ignorado: {url}")
+            return None
+        except Exception as exc:
+            print(f"Tentativa {attempt}/3 falhou ({url}): {exc}")
+            if attempt < 3:
+                time.sleep(attempt * 2)
+    return None
 
 def decode_image(data):
     if not data:
@@ -142,6 +149,18 @@ def save_square_white(source, destination):
     )
     canvas.putalpha(mask)
     canvas.save(destination, format="PNG", optimize=True)
+
+    # Validação pós-gravação: não publica arquivo corrompido ou fora do padrão.
+    with Image.open(destination) as check:
+        check.load()
+        if check.format != "PNG" or check.size != (256, 256) or check.mode != "RGBA":
+            raise RuntimeError(f"PNG fora do padrão após gravação: {destination.name}")
+        if check.getpixel((0, 0))[3] != 0:
+            raise RuntimeError(f"Canto arredondado inválido: {destination.name}")
+        if check.getpixel((128, 128))[:3] != (255, 255, 255):
+            # O centro pode conter a logo; a cor branca é verificada em um ponto de margem.
+            if check.getpixel((8, 128))[:3] != (255, 255, 255):
+                raise RuntimeError(f"Fundo branco ausente: {destination.name}")
 
 def main():
     if not PLAYLIST.exists():
