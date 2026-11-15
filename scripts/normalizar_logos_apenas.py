@@ -173,10 +173,9 @@ def main():
 
         if source is None:
             skipped += 1
-            raise RuntimeError(
-                f"Não foi possível obter uma imagem confiável para {name}. "
-                "A execução foi interrompida para não declarar todas as logos padronizadas."
-            )
+            print(f"FONTE NÃO ENCONTRADA — logo preservada: {name}")
+            output.append(line)
+            continue
 
         save_square_white(source, destination)
         new_url = f"{RAW_BASE}/{filename}"
