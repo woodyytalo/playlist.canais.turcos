@@ -1,0 +1,585 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: 24 TV
+#EXTINF:-1 tvg-id="24.TV.tr" tvg-name="24 TV" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="NOTÍCIAS",24 TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Lider Haber
+#EXTINF:-1 tvg-id="LiderHaber.tr" tvg-name="Lider Haber" tvg-logo="https://i.ibb.co/0j6pWsPt/Liderhaber.png" group-title="NOTÍCIAS",Lider Haber
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: A Haber
+#EXTINF:-1 tvg-id="A.HABER.tr" tvg-name="A Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" group-title="NOTÍCIAS",A Haber
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: A Para
+#EXTINF:-1 tvg-id="A.PARA.tr" tvg-name="A Para" tvg-logo="https://i.ibb.co/FnT7ftQ/a-para.png" group-title="NOTÍCIAS",A Para
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: A Spor
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A Spor" tvg-logo="https://logo.huhu.to/logo?c=819272696.png" group-title="ESPORTES",A Spor
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: A2
+#EXTINF:-1 tvg-id="A2.tr" tvg-name="A2" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/e/e8/A2_logosu.jpg?20161129163613" group-title="ENTRETENIMENTO",A2
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Aksu TV
+#EXTINF:-1 tvg-id="custom.aksutv" tvg-name="Aksu TV" tvg-logo="https://logo.huhu.to/logo?c=2170702658.png" group-title="REGIONAIS",Aksu TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Alanya Posta TV
+#EXTINF:-1 tvg-id="custom.alanyapostatv" tvg-name="Alanya Posta TV" tvg-logo="https://i.imgur.com/a3w9eFe.png" group-title="REGIONAIS",Alanya Posta TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Altas TV
+#EXTINF:-1 tvg-id="custom.altastv" tvg-name="Altas TV" tvg-logo="https://logo.huhu.to/logo?c=769414837.png" group-title="REGIONAIS",Altas TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: ARAS TV
+#EXTINF:-1 tvg-id="custom.arastv" tvg-logo="https://logo.huhu.to/logo?c=511738384.png" tvg-name="ARAS TV" group-title="REGIONAIS",ARAS TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: AS TV
+#EXTINF:-1 tvg-id="AS.TV.tr" tvg-name="AS TV" tvg-logo="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png" group-title="NOTÍCIAS",AS TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: ATV
+#EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="ENTRETENIMENTO",ATV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: ATV Alanya
+#EXTINF:-1 tvg-id="custom.atvalanya" tvg-name="ATV Alanya" tvg-logo="https://logo.huhu.to/logo?c=930209556.png" group-title="REGIONAIS",ATV Alanya
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Bengü Türk
+#EXTINF:-1 tvg-id="custom.benguturk" tvg-name="Bengü Türk" tvg-logo="https://i.ibb.co/CHWhMvQ/bengu-turk.png" group-title="NOTÍCIAS",Bengü Türk
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Beyaz TV
+#EXTINF:-1 tvg-id="BEYAZ.TV.tr" tvg-name="Beyaz TV" tvg-logo="https://i.ibb.co/0tc3PYz/beyaz22b.png" group-title="ENTRETENIMENTO",Beyaz TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Bi Kanal
+#EXTINF:-1 tvg-id="Bi.Kanal.tr" tvg-logo="https://i.imgur.com/XqTj9M3.png" tvg-name="Bi Kanal" group-title="ENTRETENIMENTO",Bi Kanal
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Bir TV
+#EXTINF:-1 tvg-id="custom.birtv" tvg-name="Bir TV" tvg-logo="https://logo.huhu.to/logo?c=2540770089.png" group-title="ENTRETENIMENTO",Bir TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Bloomberg HT
+#EXTINF:-1 tvg-id="BLOOMBERG.HT.tr" tvg-name="Bloomberg HT" tvg-logo="https://logo.huhu.to/logo?c=223866535.png" group-title="NOTÍCIAS",Bloomberg HT
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: CİNE1
+#EXTINF:-1 tvg-id="custom.cine1" tvg-name="CİNE1" tvg-logo="https://i.ibb.co/zhxTBMR/cine1.png" group-title="FILMES E SÉRIES",CİNE1
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: CNBC-e
+#EXTINF:-1 tvg-id="custom.cnbce" tvg-name="CNBC-e" tvg-logo="https://s.cnbce.com/dist/images/logo.png" group-title="NOTÍCIAS",CNBC-e
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: CNN Türk
+#EXTINF:-1 tvg-name="CNN Türk" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/61236013866ac319e8143500" tvg-id="CNN.TÜRK.tr" group-title="NOTÍCIAS",CNN Türk
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Çay TV
+#EXTINF:-1 tvg-id="custom.caytv" tvg-name="Çay TV" tvg-logo="https://logo.huhu.to/logo?c=2650916441.png" group-title="REGIONAIS",Çay TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Çiftçi TV
+#EXTINF:-1 tvg-id="ÇİFTÇİ.TV.tr" tvg-name="Çiftçi TV" tvg-logo="https://i.imgur.com/CLzP4vL.png" group-title="CULTURA/EDUCAÇÃO",Çiftçi TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: DHA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/K6BKFqY/dha.png" tvg-id="custom.dha" tvg-name="DHA" group-title="NOTÍCIAS",DHA
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Diyanet TV
+#EXTINF:-1 tvg-id="DİYANET.TV.tr" tvg-name="Diyanet TV" tvg-logo="https://logo.huhu.to/logo?c=2131958841.png" group-title="RELIGIOSOS",Diyanet TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Diyar TV
+#EXTINF:-1 tvg-id="custom.diyartv" tvg-name="Diyar TV" tvg-logo="https://i.imgur.com/qWkHjRA.png" group-title="RELIGIOSOS",Diyar TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Dost TV
+#EXTINF:-1 tvg-id="DOST.TV.tr" tvg-name="Dost TV" tvg-logo="https://logo.huhu.to/logo?c=896813028.png" group-title="RELIGIOSOS",Dost TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Dream Türk
+#EXTINF:-1 tvg-id="DREAM.TÜRK.tr" tvg-name="Dream Türk" tvg-logo="https://i.ibb.co/fxRrKmB/dream-turk.png" group-title="MÚSICA",Dream Türk
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TMB TV
+#EXTINF:-1 tvg-id="TMBTV.tr" tvg-name="TMB TV" tvg-logo="https://i.imgur.com/28AyWHe.png" group-title="MÚSICA",TMB TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Edessa TV
+#EXTINF:-1 tvg-id="custom.edessatv" tvg-name="Edessa TV" tvg-logo="https://logo.huhu.to/logo?c=2154492528.png" group-title="REGIONAIS",Edessa TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Ekotürk
+#EXTINF:-1 tvg-name="Ekotürk" tvg-logo="https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65" tvg-id="EKOTÜRK.tr" group-title="NOTÍCIAS",Ekotürk
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Elsharq TV
+#EXTINF:-1 tvg-id="custom.elsharqtv" tvg-name="Elsharq TV" tvg-logo="https://i.imgur.com/8vmfZb5.png" group-title="INTERNACIONAIS",Elsharq TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Erciyes TV
+#EXTINF:-1 tvg-id="custom.erciyestv" tvg-name="Erciyes TV" tvg-logo="https://s.erciyestv.com.tr/dosya/logo/erciyes-tv-og.jpg" group-title="REGIONAIS",Erciyes TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Erzurum Web TV
+#EXTINF:-1 tvg-id="custom.erzurumwebtv" tvg-name="Erzurum Web TV" tvg-logo="https://i.imgur.com/HF7N4Li.png" group-title="REGIONAIS",Erzurum Web TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: ES TV
+#EXTINF:-1 tvg-id="custom.estv" tvg-name="ES TV" tvg-logo="https://logo.huhu.to/logo?c=1670462361.png" group-title="REGIONAIS",ES TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Euro D
+#EXTINF:-1 tvg-id="custom.eurod" tvg-name="Euro D" tvg-logo="https://logo.huhu.to/logo?c=1290434890.png" group-title="ENTRETENIMENTO",Euro D
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: FB TV
+#EXTINF:-1 tvg-name="FB TV" tvg-logo="https://logo.huhu.to/logo?c=2512340558.png" tvg-id="FB.TV.tr" group-title="ESPORTES",FB TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Flash Haber TV
+#EXTINF:-1 tvg-id="FlashHaberTV.tr" tvg-logo="https://logo.huhu.to/logo?c=3806979011.png" tvg-name="Flash Haber TV" group-title="NOTÍCIAS",Flash Haber TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Fashion One
+#EXTINF:-1 tvg-id="fashionone.local" tvg-name="FASHION ONE" tvg-logo="https://i.ibb.co/9grLJCS/fone22.png" group-title="ESTILO DE VIDA",Fashion One
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Haber Global
+#EXTINF:-1 tvg-id="HABER.GLOBAL.tr" tvg-name="Haber Global" tvg-logo="https://i.ibb.co/4ZpZWkf/haber-global.png" group-title="NOTÍCIAS",Haber Global
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Haber61 TV
+#EXTINF:-1 tvg-id="custom.haber61tv" tvg-name="Haber61 TV" tvg-logo="https://i.imgur.com/2a2XUKl.png" group-title="NOTÍCIAS",Haber61 TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Habertürk
+#EXTINF:-1 tvg-id="HABERTÜRK.tr" tvg-name="Habertürk" tvg-logo="https://logo.huhu.to/logo?c=2402772380.png" group-title="NOTÍCIAS",Habertürk
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Halk TV
+#EXTINF:-1 tvg-id="HALK.TV.tr" tvg-name="Halk TV" tvg-logo="https://i.ibb.co/DYhmg6k/halk-tv.png" group-title="NOTÍCIAS",Halk TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: HT Spor TV
+#EXTINF:-1 tvg-logo="https://gbzeottvsc15.tvplus.com.tr:33207/CPS/images/universal/film/logo/202408/20240823/7/0822287635005eb8f42a_op_0_XL.png" tvg-id="custom.htsportv" tvg-name="HT Spor TV" group-title="ESPORTES",HT Spor TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Güneydoğu TV
+#EXTINF:-1 tvg-name="Güneydoğu TV" tvg-logo="https://logo.huhu.to/logo?c=3302625312.png" group-title="REGIONAIS" tvg-id="custom.guneydogutv",Güneydoğu TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Hunat TV
+#EXTINF:-1 tvg-id="custom.hunattv" tvg-name="Hunat TV" tvg-logo="https://logo.huhu.to/logo?c=1602719314.png" group-title="REGIONAIS",Hunat TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: İçel TV
+#EXTINF:-1 tvg-id="custom.iceltv" tvg-name="İçel TV" tvg-logo="https://i.imgur.com/CGwImKv.png" group-title="REGIONAIS",İçel TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kardelen TV
+#EXTINF:-1 tvg-id="KardelenTV.tr" tvg-name="Kardelen TV" tvg-logo="https://logo.huhu.to/logo?c=1270110607.png" group-title="REGIONAIS",Kardelen TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: İlke TV
+#EXTINF:-1 tvg-id="custom.ilketv" tvg-name="İlke TV" tvg-logo="https://logo.huhu.to/logo?c=1743510188.png" group-title="NOTÍCIAS",İlke TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal 12
+#EXTINF:-1 tvg-id="custom.kanal12" tvg-name="Kanal 12" tvg-logo="https://logo.huhu.to/logo?c=2917371409.png" group-title="REGIONAIS",Kanal 12
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal 15
+#EXTINF:-1 tvg-id="custom.kanal15" tvg-name="Kanal 15" tvg-logo="https://i.imgur.com/wb1Cdc9.png" group-title="REGIONAIS",Kanal 15
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal 23
+#EXTINF:-1 tvg-id="KANAL.23.tr" tvg-name="Kanal 23" tvg-logo="https://logo.huhu.to/logo?c=370660623.png" group-title="REGIONAIS",Kanal 23
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal 3
+#EXTINF:-1 tvg-id="custom.kanal3" tvg-name="Kanal 3" tvg-logo="https://logo.huhu.to/logo?c=1558612099.png" group-title="REGIONAIS",Kanal 3
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal 33
+#EXTINF:-1 tvg-id="KANAL.33.tr" tvg-name="Kanal 33" tvg-logo="https://i.imgur.com/5WYaoFZ.png" group-title="REGIONAIS",Kanal 33
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal 34
+#EXTINF:-1 tvg-id="custom.kanal34" tvg-name="Kanal 34" tvg-logo="https://i.imgur.com/SIaI6Sj.png" group-title="REGIONAIS",Kanal 34
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal 58
+#EXTINF:-1 tvg-id="custom.kanal58" tvg-name="Kanal 58" tvg-logo="https://i.imgur.com/Rgc66sv.png" group-title="REGIONAIS",Kanal 58
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal 7 Avrupa
+#EXTINF:-1 tvg-id="custom.kanal7avrupa" tvg-name="Kanal 7 Avrupa" tvg-logo="https://logo.huhu.to/logo?c=916532487.png" group-title="ENTRETENIMENTO",Kanal 7 Avrupa
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal Avrupa
+#EXTINF:-1 tvg-id="custom.kanalavrupa" tvg-name="Kanal Avrupa" tvg-logo="https://i.imgur.com/bIGk6RN.png" group-title="INTERNACIONAIS",Kanal Avrupa
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal B
+#EXTINF:-1 tvg-id="KANAL.B.tr" tvg-name="Kanal B" tvg-logo="https://i.imgur.com/bUsbxTQ.png" group-title="REGIONAIS",Kanal B
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal D
+#EXTINF:-1 tvg-id="KANAL.D.tr" tvg-name="Kanal D" tvg-logo="https://seeklogo.com/images/K/kanal-d-logo-8327051372-seeklogo.com.png" group-title="ENTRETENIMENTO",Kanal D
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal D Drama
+#EXTINF:-1 tvg-id="custom.kanalddrama" tvg-name="Kanal D Drama" tvg-logo="https://i.imgur.com/WIeZMKT.png" group-title="ENTRETENIMENTO",Kanal D Drama
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal Fırat
+#EXTINF:-1 tvg-id="custom.kanalfrat" tvg-name="Kanal Fırat" tvg-logo="https://i.imgur.com/3o8Rokp.png" group-title="REGIONAIS",Kanal Fırat
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal V
+#EXTINF:-1 tvg-id="KANAL.V.tr" tvg-name="Kanal V" tvg-logo="https://logo.huhu.to/logo?c=221540542.png" group-title="REGIONAIS",Kanal V
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kay TV
+#EXTINF:-1 tvg-id="custom.kaytv" tvg-name="Kay TV" tvg-logo="https://i.imgur.com/MymuDJ1.png" group-title="REGIONAIS",Kay TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kocaeli TV
+#EXTINF:-1 tvg-id="custom.kocaelitv" tvg-name="Kocaeli TV" tvg-logo="http://assets.tvcdn.net/af084b20-c036-4884-91ff-3ca3accec3ab.png" group-title="REGIONAIS",Kocaeli TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Konya Olay TV
+#EXTINF:-1 tvg-id="custom.konyaolaytv" tvg-name="Konya Olay TV" tvg-logo="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg" group-title="REGIONAIS",Konya Olay TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Lalegül TV
+#EXTINF:-1 tvg-id="custom.lalegultv" tvg-name="Lalegül TV" tvg-logo="https://logo.huhu.to/logo?c=1088149850.png" group-title="RELIGIOSOS",Lalegül TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Life TV
+#EXTINF:-1 tvg-id="custom.lifetv" tvg-name="Life TV" tvg-logo="https://logo.huhu.to/logo?c=3572490349.png" group-title="NOTÍCIAS",Life TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Med Müzik
+#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=1861216008.png" tvg-id="custom.medmuzik" tvg-name="Med Müzik" group-title="MÚSICA",Med Müzik
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Meltem TV
+#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=1344824890.png" tvg-id="MELTEM.TV.tr" tvg-name="Meltem TV" group-title="RELIGIOSOS",Meltem TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Mercan TV
+#EXTINF:-1 tvg-name="Mercan TV" tvg-logo="https://logo.huhu.to/logo?c=3132704137.png" tvg-id="custom.mercantv" group-title="REGIONAIS",Mercan TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Minika Çocuk
+#EXTINF:-1 tvg-id="MİNİKA.ÇOCUK.tr" tvg-name="Minika Çocuk" tvg-logo="https://i.ibb.co/S794c6W/minika-cocuk.png" group-title="INFANTIS",Minika Çocuk
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Minika GO
+#EXTINF:-1 tvg-id="MİNİKA.GO.tr" tvg-name="Minika GO" tvg-logo="https://logo.huhu.to/logo?c=2831274809.png" group-title="INFANTIS",Minika GO
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: MTürk TV
+#EXTINF:-1 tvg-name="MTürk TV" tvg-logo="https://i.imgur.com/xj1gvrq.png" tvg-id="custom.mturktv" group-title="REGIONAIS",MTürk TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: NOW
+#EXTINF:-1 tvg-id="NOW.tr" tvg-name="NOW" tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="ENTRETENIMENTO",NOW
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: NR1 Aşk
+#EXTINF:-1 tvg-id="custom.nr1ask" tvg-name="NR1 Aşk" tvg-logo="https://i.ibb.co/5cJ0KtQ/nr1-ask.png" group-title="MÚSICA",NR1 Aşk
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: NR1 Damar
+#EXTINF:-1 tvg-id="custom.nr1damar" tvg-name="NR1 Damar" tvg-logo="https://i.ibb.co/2yCF7ms/nr1-damar.png" group-title="MÚSICA",NR1 Damar
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: NR1 Dance
+#EXTINF:-1 tvg-id="custom.nr1dance" tvg-name="NR1 Dance" tvg-logo="https://i.ibb.co/kXFSFTN/nr1-dance.png" group-title="MÚSICA",NR1 Dance
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: NTV
+#EXTINF:-1 tvg-id="NTV.tr" tvg-name="NTV" tvg-logo="https://i.ibb.co/gRR1zpm/ntv.png" group-title="NOTÍCIAS",NTV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Number 1 TV
+#EXTINF:-1 tvg-id="custom.number1tv" tvg-name="Number 1 TV" tvg-logo="https://i.imgur.com/02cDIBi.png" group-title="MÚSICA",Number 1 TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: PowerTürk Taptaze
+#EXTINF:-1 tvg-id="custom.powerturktaptaze" tvg-name="PowerTürk Taptaze" tvg-logo="https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2534.png" group-title="MÚSICA",PowerTürk Taptaze
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Rehber TV
+#EXTINF:-1 tvg-id="custom.rehbertv" tvg-name="Rehber TV" tvg-logo="https://logo.huhu.to/logo?c=4239242367.png" group-title="RELIGIOSOS",Rehber TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Semerkand TV
+#EXTINF:-1 tvg-name="Semerkand TV" tvg-logo="https://logo.huhu.to/logo?c=786317112.png" tvg-id="SEMERKAND.TV.tr" group-title="RELIGIOSOS",Semerkand TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Sercem TV
+#EXTINF:-1 tvg-id="custom.sercemtv" tvg-name="Sercem TV" tvg-logo="https://sercemtv.com.tr/sercemlogo.jpg" group-title="RELIGIOSOS",Sercem TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Show Max
+#EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max" tvg-logo="http://assets.tvcdn.net/ec1c55f6-b525-4466-b41c-a935915a6962.png" group-title="ENTRETENIMENTO",Show Max
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Show TV
+#EXTINF:-1 tvg-id="SHOW.TV.tr" tvg-name="Show TV" tvg-logo="https://i.imgur.com/1l7SCCu.png" group-title="ENTRETENIMENTO",Show TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Star TV
+#EXTINF:-1 tvg-id="STAR.TV.tr" tvg-name="Star TV" tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="ENTRETENIMENTO",Star TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TAY TV
+#EXTINF:-1 tvg-id="custom.taytv" tvg-name="TAY TV" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tay-tv-tr.png" group-title="ESPORTES",TAY TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TELE1
+#EXTINF:-1 tvg-id="custom.tele1" tvg-name="TELE1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tele1-tr.png" group-title="NOTÍCIAS",TELE1
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Tempo TV
+#EXTINF:-1 tvg-id="custom.tempotv" tvg-name="Tempo TV" tvg-logo="https://i.imgur.com/tZpx32y.png" group-title="REGIONAIS",Tempo TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: teve2
+#EXTINF:-1 tvg-id="TEVE2.tr" tvg-name="teve2" tvg-logo="https://play-lh.googleusercontent.com/oXtnvGvKeRm3A668LZYAlm9TnrPmZWILngjmHvIOvrtajhZfwCUsJxM1_cgqaQlSaZM" group-title="ENTRETENIMENTO",teve2
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TGRT Haber
+#EXTINF:-1 tvg-id="TGRT.HABER.tr" tvg-name="TGRT Haber" tvg-logo="https://logo.huhu.to/logo?c=1718429323.png" group-title="NOTÍCIAS",TGRT Haber
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Tivi 6
+#EXTINF:-1 tvg-id="custom.tivi6" tvg-name="Tivi 6" tvg-logo="https://logo.huhu.to/logo?c=774168016.png" group-title="REGIONAIS",Tivi 6
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TJK TV
+#EXTINF:-1 tvg-id="custom.tjktv" tvg-name="TJK TV" tvg-logo="https://logo.huhu.to/logo?c=3887658051.png" group-title="ESPORTES",TJK TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Ton TV
+#EXTINF:-1 tvg-id="custom.tontv" tvg-name="Ton TV" tvg-logo="https://logo.huhu.to/logo?c=3855597416.png" group-title="REGIONAIS",Ton TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT 1
+#EXTINF:-1 tvg-id="TRT.1.tr" tvg-name="TRT 1" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="ENTRETENIMENTO",TRT 1
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT Arabi
+#EXTINF:-1 tvg-id="TRT.ARABI.tr" tvg-name="TRT Arabi" tvg-logo="https://i.imgur.com/yyhWOZs.png" group-title="TRT",TRT Arabi
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT Avaz
+#EXTINF:-1 tvg-id="TRT.AVAZ.tr" tvg-name="TRT Avaz" tvg-logo="https://logo.huhu.to/logo?c=691149597.png" group-title="TRT",TRT Avaz
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT Çocuk
+#EXTINF:-1 tvg-id="TRT.ÇOCUK.tr" tvg-name="TRT Çocuk" tvg-logo="https://logo.huhu.to/logo?c=685794830.png" group-title="INFANTIS",TRT Çocuk
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT Diyanet Çocuk
+#EXTINF:-1 tvg-id="custom.trtdiyanetcocuk" tvg-name="TRT Diyanet Çocuk" tvg-logo="https://logo.huhu.to/logo?c=1101849390.png" group-title="INFANTIS",TRT Diyanet Çocuk
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT EBA Ortaokul
+#EXTINF:-1 tvg-id="custom.trtebaortaokul" tvg-name="TRT EBA Ortaokul" tvg-logo="https://i.imgur.com/CRBfZi4.png" group-title="CULTURA/EDUCAÇÃO",TRT EBA Ortaokul
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT Genç
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fCHQYWS.png" tvg-id="TRT.GENÇ.tr" tvg-name="TRT Genç" group-title="TRT",TRT Genç
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT Haber
+#EXTINF:-1 tvg-id="TRT.HABER.tr" tvg-name="TRT Haber" tvg-logo="https://logo.huhu.to/logo?c=2003703357.png" group-title="NOTÍCIAS",TRT Haber
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT Kurdî
+#EXTINF:-1 tvg-id="TRT.KURDİ.tr" tvg-name="TRT Kurdî" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trtkurdi.png" group-title="TRT",TRT Kurdî
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT Müzik
+#EXTINF:-1 tvg-id="TRT.MÜZİK.tr" tvg-name="TRT Müzik" tvg-logo="https://logo.huhu.to/logo?c=2332789634.png" group-title="MÚSICA",TRT Müzik
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kral Pop
+#EXTINF:-1 tvg-name="KRAL POP" tvg-id="custom.kralpop" tvg-logo="https://i.ibb.co/vk0bKz0/kral-pop.png" group-title="MÚSICA",Kral Pop
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: NR1 Fashion One
+#EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-id="custom.nr1fashionone" tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="MÚSICA",NR1 Fashion One
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT Türk
+#EXTINF:-1 tvg-id="TRT.TÜRK.tr" tvg-name="TRT Türk" tvg-logo="https://logo.huhu.to/logo?c=4098093256.png" group-title="TRT",TRT Türk
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TRT World
+#EXTINF:-1 tvg-id="TRT.WORLD.tr" tvg-name="TRT World" tvg-logo="https://logo.huhu.to/logo?c=3203147403.png" group-title="TRT",TRT World
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TürkHaber
+#EXTINF:-1 tvg-id="TURKHABER.tr" tvg-name="TürkHaber" tvg-logo="https://i.ibb.co/ySv65wg/turk-haber.png" group-title="NOTÍCIAS",TürkHaber
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TV 1
+#EXTINF:-1 tvg-id="TV1.tr" tvg-name="TV 1" tvg-logo="https://logo.huhu.to/logo?c=4073129368.png" group-title="REGIONAIS",TV 1
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TV 264
+#EXTINF:-1 tvg-id="custom.tv264" tvg-name="TV 264" tvg-logo="https://logo.huhu.to/logo?c=1984101968.png" group-title="REGIONAIS",TV 264
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TV 41
+#EXTINF:-1 tvg-id="custom.tv41" tvg-name="TV 41" tvg-logo="https://i.imgur.com/6T472LM.png" group-title="REGIONAIS",TV 41
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TV 52
+#EXTINF:-1 tvg-id="custom.tv52" tvg-name="TV 52" tvg-logo="https://i.imgur.com/k4R5CzO.png" group-title="REGIONAIS",TV 52
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TV DEN
+#EXTINF:-1 tvg-id="custom.tvden" tvg-name="TV DEN" tvg-logo="https://logo.huhu.to/logo?c=3341720640.png" group-title="REGIONAIS",TV DEN
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TV100
+#EXTINF:-1 tvg-id="TV100.tr" tvg-name="TV100" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tv100-tr.png" group-title="NOTÍCIAS",TV100
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TV8
+#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV8" tvg-logo="https://i.ibb.co/tXKXNDz/tv8.png" group-title="ENTRETENIMENTO",TV8
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TVNET
+#EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-logo="https://i.ibb.co/2jtzN6F/tvnet.png" group-title="NOTÍCIAS",TVNET
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Ülke TV
+#EXTINF:-1 tvg-id="ÜLKE.TV.tr" tvg-name="Ülke TV" tvg-logo="https://i.ibb.co/zG9kTh6/ulke-tv.png" group-title="NOTÍCIAS",Ülke TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Vav TV
+#EXTINF:-1 tvg-name="Vav TV" tvg-logo="https://i.ibb.co/bj1H8LCm/vavtv.png" tvg-id="VAV.TV.tr" group-title="RELIGIOSOS",Vav TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Sözcü TV
+#EXTINF:-1 tvg-id="SÖZCÜ.TV.tr" tvg-name="Sözcü TV" tvg-logo="https://www.evrensel.net/upload/dosya/231375.jpg" group-title="NOTÍCIAS",Sözcü TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Sun RTV
+#EXTINF:-1 tvg-name="Sun RTV" tvg-id="custom.sunrtv" tvg-logo="https://logo.huhu.to/logo?c=2354543811.png" group-title="REGIONAIS",Sun RTV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TBMM TV
+#EXTINF:-1 tvg-name="TBMM TV" tvg-id="custom.tbmmtv" tvg-logo="https://logo.huhu.to/logo?c=1770699644.png" group-title="REGIONAIS",TBMM TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Van 65 TV
+#EXTINF:-1 tvg-name="Van 65 TV" tvg-id="custom.van65tv" tvg-logo="https://van65tv.com/assets/images/logo/logo.png" group-title="REGIONAIS",Van 65 TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: PowerTürk TV
+#EXTINF:-1 tvg-name="PowerTürk TV" tvg-id="custom.powerturktv" tvg-logo="https://i.ibb.co/xXcBD2C/powerturk.png" group-title="MÚSICA",PowerTürk TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Tabii
+#EXTINF:-1 tvg-id="custom.tabii" tvg-name="Tabii" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="FILMES E SÉRIES",Tabii
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: BBC First Türkiye
+#EXTINF:-1 tvg-id="custom.bbcfirstturkiye" tvg-name="BBC First Türkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="FILMES E SÉRIES",BBC First Türkiye
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Ekol TV
+#EXTINF:-1 tvg-id="EKOL.TV.tr" tvg-name="Ekol TV" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ekol-tv-tr.png" group-title="NOTÍCIAS",Ekol TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Thaqalayn TV
+#EXTINF:-1 tvg-id="custom.thaqalayntv" tvg-name="Thaqalayn TV" tvg-logo="https://i.imgur.com/u02FSgI.png" group-title="INTERNACIONAIS",Thaqalayn TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: KN Music TV
+#EXTINF:-1 tvg-id="custom.knmusictv" tvg-name="KN Music TV" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" group-title="MÚSICA",KN Music TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: YOL TV
+#EXTINF:-1 tvg-name="YOL TV" tvg-logo="https://logo.huhu.to/logo?c=1377055653.png" group-title="REGIONAIS" tvg-id="custom.yoltv",YOL TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Ekol Sports
+#EXTINF:-1 tvg-name="Ekol Sports" tvg-logo="https://i.ibb.co/Y4tR1tTm/Ekolsports.jpg" group-title="ESPORTES" tvg-id="Ekol.Sports.tr",Ekol Sports
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Kanal Urfa
+#EXTINF:-1 tvg-name="Kanal Urfa" tvg-logo="https://logo.huhu.to/logo?c=847659673.png" group-title="REGIONAIS" tvg-id="custom.kanalurfa",Kanal Urfa
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Trabzon Buyuksehir Belediyesi TV
+#EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" tvg-logo="https://tbbweb.tv/img/logo.png" group-title="REGIONAIS" tvg-id="custom.trabzonbuyuksehirbelediyesitv",Trabzon Buyuksehir Belediyesi TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: MADINAH TV
+#EXTINF:-1 tvg-name="MADINAH TV" tvg-logo="https://e7.pngegg.com/pngimages/758/259/png-clipart-medina-mecca-television-channel-streaming-media-others-miscellaneous-television.png" group-title="RELIGIOSOS" tvg-id="custom.madinahtv",MADINAH TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Persiana Türkiye
+#EXTINF:-1 tvg-name="Persiana Türkiye" tvg-id="PersianaTurkiye.fr@SD" group-title="INTERNACIONAIS" tvg-logo="https://i.imgur.com/7p3j0hF.png",Persiana Türkiye
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: TLC
+#EXTINF:-1 tvg-id="TLC.de@SD" group-title="DOCUMENTÁRIOS" tvg-logo="https://img-tlctv.mncdn.com/logo.png" tvg-name="TLC",TLC
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Love Nature
+#EXTINF:-1 tvg-id="LoveNature.ca@HD" tvg-logo="https://logo.huhu.to/logo?c=2593800839.png" group-title="DOCUMENTÁRIOS" tvg-name="Love Nature",Love Nature
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: ETV Manisa
+#EXTINF:-1 tvg-name="ETV Manisa" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="REGIONAIS",ETV Manisa
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: ABN TURKEY
+#EXTINF:-1 tvg-name="ABN TURKEY" tvg-logo="http://assets.tvcdn.net/19146761-32ae-46ad-a0f0-2862c2f887e9.png" group-title="ABN TURKEY",ABN TURKEY
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Dost
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA" tvg-name="Dost",Dost
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Güçlü TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA" tvg-name="Güçlü TV",Güçlü TV
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Now 70's
+#EXTINF:-1 tvg-name="Now 70's" tvg-logo="https://www.lyngsat.com/logo/tv/nn/now-70s-uk.svg" group-title="MÚSICA",Now 70's
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Now 80's
+#EXTINF:-1 tvg-name="Now 80's" tvg-logo="https://www.lyngsat.com/logo/tv/nn/now-80s-uk.svg" group-title="MÚSICA",Now 80's
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: NOW ROCK
+#EXTINF:-1 tvg-name="NOW ROCK" tvg-logo="https://www.lyngsat.com/logo/tv/nn/now-rock-uk.png" group-title="MÚSICA",NOW ROCK
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: MOR TV
+#EXTINF:-1 tvg-name="MOR TV" tvg-logo="https://i.ibb.co/qRsfyb2/tvmor.png" group-title="ESTILO DE VIDA",MOR TV
+Link: URL não identificada no mesmo bloco de diff
