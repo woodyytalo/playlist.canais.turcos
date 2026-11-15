@@ -26939,22 +26939,6 @@ BabyTV&apos;nin dünya şarkıları ve kafiyeleri koleksiyonunun tadını çıka
 Şehirde kaykayları, itfaiye araçlarını, karşıdan karşıya geçmeyi, taksiye binmeyi ve daha fazlasını keşfetme macerasında Lola&apos;nın eğlencesine katılın! Bu dizi, Lola ve arkadaşları ile şehir ortamını ve aktivitelerini güvenli ve keyifli bir şekilde tanıtıyor.</desc>
     <category>Çocuk</category>
   </programme>
-  <programme start="20261114120800 +0300" stop="20261114135700 +0300" channel="beINSPORTS3.tr">
-    <title>Bournemouth - Sunderland</title>
-    <desc>Bournemouth - Sunderland.</desc>
-  </programme>
-  <programme start="20261114135700 +0300" stop="20261114154000 +0300" channel="beINSPORTS3.tr">
-    <title>Nott&apos;m Forest - Arsenal</title>
-    <desc>Nott&apos;m Forest - Arsenal.</desc>
-  </programme>
-  <programme start="20261114154000 +0300" stop="20261114172600 +0300" channel="beINSPORTS3.tr">
-    <title>Tottenham - Coventry</title>
-    <desc>Tottenham - Coventry.</desc>
-  </programme>
-  <programme start="20261114172600 +0300" stop="20261114190900 +0300" channel="beINSPORTS3.tr">
-    <title>Everton - Chelsea</title>
-    <desc>Everton - Chelsea.</desc>
-  </programme>
   <programme start="20261114190900 +0300" stop="20261114210000 +0300" channel="beINSPORTS3.tr">
     <title>Man City - Ipswich</title>
     <desc>Man City - Ipswich.</desc>
@@ -27250,26 +27234,6 @@ BabyTV&apos;nin dünya şarkıları ve kafiyeleri koleksiyonunun tadını çıka
   <programme start="20261120224500 +0300" stop="20261120230500 +0300" channel="beINSPORTS3.tr">
     <title>Premier League National Pride</title>
     <desc>Premier League National Pride.</desc>
-  </programme>
-  <programme start="20261114120000 +0300" stop="20261114134000 +0300" channel="beINSPORTS4.tr">
-    <title>Le Havre - Auxerre</title>
-    <desc>Le Havre - Auxerre.</desc>
-  </programme>
-  <programme start="20261114134000 +0300" stop="20261114152500 +0300" channel="beINSPORTS4.tr">
-    <title>Sporting CP - Arouca</title>
-    <desc>Sporting CP - Arouca.</desc>
-  </programme>
-  <programme start="20261114152500 +0300" stop="20261114170500 +0300" channel="beINSPORTS4.tr">
-    <title>Santa Clara - Braga</title>
-    <desc>Santa Clara - Braga.</desc>
-  </programme>
-  <programme start="20261114170500 +0300" stop="20261114185000 +0300" channel="beINSPORTS4.tr">
-    <title>Porto - Benfica</title>
-    <desc>Porto - Benfica.</desc>
-  </programme>
-  <programme start="20261114185000 +0300" stop="20261114203200 +0300" channel="beINSPORTS4.tr">
-    <title>Le Mans - Toulouse</title>
-    <desc>Le Mans - Toulouse.</desc>
   </programme>
   <programme start="20261114203200 +0300" stop="20261114221500 +0300" channel="beINSPORTS4.tr">
     <title>Strasbourg - PSG</title>
@@ -55268,31 +55232,6 @@ Fenerbahçe sevgisinin ve sarı-lacivertli renklere duyulan bağlılığın ön 
     <title>Türkiye Sigorta Basketbol Süper Ligi</title>
     <desc>Türk basketbolunun başlangıcı, ligin 1966&apos;da kurulmasından çok öncelere dayanmaktadır. Türkiye&apos;de bowling 20. yüzyılın başlarında biliniyordu. 1904 yılında İstanbul&apos;daki Robert Kolej öğrencileri bu takım sporunun cazibesini ilk kez keşfettiler. Ligin kuruluşundan bir yıl sonra, en iyi Türk basketbol kulüplerinin ilk resmi yarışması başladı.</desc>
     <category>Diğer</category>
-  </programme>
-  <programme start="20261114120000 +0300" stop="20261114133000 +0300" channel="FIGHTNETWORK.tr">
-    <title>TNA Wrestling</title>
-    <desc>TNA Wrestling.</desc>
-    <category>Dövüş Sporları</category>
-  </programme>
-  <programme start="20261114133000 +0300" stop="20261114153000 +0300" channel="FIGHTNETWORK.tr">
-    <title>Bellator MMA</title>
-    <desc>Bellator MMA.</desc>
-    <category>Dövüş Sporları</category>
-  </programme>
-  <programme start="20261114153000 +0300" stop="20261114170000 +0300" channel="FIGHTNETWORK.tr">
-    <title>Fight Network Recharged</title>
-    <desc>Fight Network Recharged.</desc>
-    <category>Dövüş Sporları</category>
-  </programme>
-  <programme start="20261114170000 +0300" stop="20261114180000 +0300" channel="FIGHTNETWORK.tr">
-    <title>BKB Bare Knuckle Boxing</title>
-    <desc>BKB Bare Knuckle Boxing.</desc>
-    <category>Dövüş Sporları</category>
-  </programme>
-  <programme start="20261114180000 +0300" stop="20261114210000 +0300" channel="FIGHTNETWORK.tr">
-    <title>IJF World Championships</title>
-    <desc>IJF World Championships.</desc>
-    <category>Dövüş Sporları</category>
   </programme>
   <programme start="20261114210000 +0300" stop="20261114230000 +0300" channel="FIGHTNETWORK.tr">
     <title>Ultimate Strongman</title>
@@ -111517,50 +111456,6 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <desc>İnsanları bir araya getiren ortak değerler, kültürel miras, yaşam biçimleri ve toplumsal hafıza farklı yönleriyle ele alınıyor. Farklı şehirlerden ve farklı hayat deneyimlerinden insanların hikâyeleri üzerinden toplumun çeşitliliği ve ortak noktaları ortaya konuyor. Geçmişten bugüne taşınan değerlerin günlük yaşamda nasıl karşılık bulduğu anlatılıyor.</desc>
     <category>Magazin</category>
   </programme>
-  <programme start="20261114115900 +0300" stop="20261114125000 +0300" channel="beINSPORTSHABER.tr">
-    <title>Gamer</title>
-    <desc>Gamer.</desc>
-  </programme>
-  <programme start="20261114125000 +0300" stop="20261114130000 +0300" channel="beINSPORTSHABER.tr">
-    <title>Maç Başlıyor</title>
-    <desc>Maç Başlıyor.</desc>
-  </programme>
-  <programme start="20261114130000 +0300" stop="20261114150000 +0300" channel="beINSPORTSHABER.tr">
-    <title>Aliağa - Türk Telekom</title>
-    <desc>Aliağa - Türk Telekom.</desc>
-  </programme>
-  <programme start="20261114150000 +0300" stop="20261114151000 +0300" channel="beINSPORTSHABER.tr">
-    <title>Maç Sonu</title>
-    <desc>Maç Sonu.</desc>
-  </programme>
-  <programme start="20261114151000 +0300" stop="20261114160500 +0300" channel="beINSPORTSHABER.tr">
-    <title>Süper Lig Maç Özetleri</title>
-    <desc>Süper Lig Maç Özetleri.</desc>
-  </programme>
-  <programme start="20261114160500 +0300" stop="20261114170000 +0300" channel="beINSPORTSHABER.tr">
-    <title>Premier League Maç Özetleri</title>
-    <desc>Premier League Maç Özetleri.</desc>
-  </programme>
-  <programme start="20261114170000 +0300" stop="20261114173000 +0300" channel="beINSPORTSHABER.tr">
-    <title>Ligue 1 Maç Özetleri</title>
-    <desc>Ligue 1 Maç Özetleri.</desc>
-  </programme>
-  <programme start="20261114173000 +0300" stop="20261114174500 +0300" channel="beINSPORTSHABER.tr">
-    <title>Ligue 2 Maç Özetleri</title>
-    <desc>Ligue 2 Maç Özetleri.</desc>
-  </programme>
-  <programme start="20261114174500 +0300" stop="20261114180000 +0300" channel="beINSPORTSHABER.tr">
-    <title>Ligue 2 Haftanın Golleri</title>
-    <desc>Ligue 2 Haftanın Golleri.</desc>
-  </programme>
-  <programme start="20261114180000 +0300" stop="20261114183000 +0300" channel="beINSPORTSHABER.tr">
-    <title>Haber</title>
-    <desc>Haber.</desc>
-  </programme>
-  <programme start="20261114183000 +0300" stop="20261114191500 +0300" channel="beINSPORTSHABER.tr">
-    <title>World Surf League</title>
-    <desc>World Surf League.</desc>
-  </programme>
   <programme start="20261114191500 +0300" stop="20261114193000 +0300" channel="beINSPORTSHABER.tr">
     <title>Chasing The Dream</title>
     <desc>Chasing The Dream.</desc>
@@ -112149,38 +112044,6 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>Süper Lig Raporu</title>
     <desc>Süper Lig Raporu.</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-  </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-  </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-  </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-  </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-  </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-  </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-  </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-  </programme>
   <programme start="20261115180000 +0300" stop="20261115190000 +0300" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -112437,35 +112300,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="BBCWorldNews.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="BBCWorldNews.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="BBCWorldNews.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="BBCWorldNews.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="BBCWorldNews.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="BBCWorldNews.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="BBCWorldNews.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="BBCWorldNews.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -112725,35 +112588,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="beINSPORTS1.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="beINSPORTS1.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="beINSPORTS1.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="beINSPORTS1.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="beINSPORTS1.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="beINSPORTS1.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="beINSPORTS1.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="beINSPORTS1.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -113013,35 +112876,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="beINSPORTS2.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="beINSPORTS2.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="beINSPORTS2.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="beINSPORTS2.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="beINSPORTS2.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="beINSPORTS2.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="beINSPORTS2.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="beINSPORTS2.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -113301,35 +113164,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -113589,35 +113452,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -113877,35 +113740,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="DiziSmartMax.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="DiziSmartMax.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="DiziSmartMax.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="DiziSmartMax.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="DiziSmartMax.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="DiziSmartMax.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="DiziSmartMax.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="DiziSmartMax.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -114165,35 +114028,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="DiziSmartPremium.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="DiziSmartPremium.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="DiziSmartPremium.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="DiziSmartPremium.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="DiziSmartPremium.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="DiziSmartPremium.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="DiziSmartPremium.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="DiziSmartPremium.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -114453,35 +114316,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="FilmBox.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="FilmBox.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="FilmBox.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="FilmBox.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="FilmBox.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="FilmBox.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="FilmBox.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="FilmBox.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -114741,35 +114604,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="FOXCRIME.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="FOXCRIME.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="FOXCRIME.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="FOXCRIME.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="FOXCRIME.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="FOXCRIME.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="FOXCRIME.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="FOXCRIME.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -115029,35 +114892,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="FX.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="FX.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="FX.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="FX.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="FX.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="FX.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="FX.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="FX.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -115317,35 +115180,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="LIDERHABERTV.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="LIDERHABERTV.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="LIDERHABERTV.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="LIDERHABERTV.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="LIDERHABERTV.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="LIDERHABERTV.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="LIDERHABERTV.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="LIDERHABERTV.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -115605,35 +115468,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="MovieSmartClassic.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="MovieSmartClassic.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="MovieSmartClassic.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="MovieSmartClassic.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="MovieSmartClassic.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="MovieSmartClassic.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="MovieSmartClassic.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="MovieSmartClassic.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -115893,35 +115756,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SaudiQuranTV.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SaudiQuranTV.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SaudiQuranTV.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SaudiQuranTV.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SaudiQuranTV.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SaudiQuranTV.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SaudiQuranTV.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SaudiQuranTV.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -116181,35 +116044,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SaudiSunnahTV.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SaudiSunnahTV.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SaudiSunnahTV.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SaudiSunnahTV.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SaudiSunnahTV.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SaudiSunnahTV.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SaudiSunnahTV.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SaudiSunnahTV.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -116469,35 +116332,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SinemaTV.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SinemaTV.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SinemaTV.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SinemaTV.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SinemaTV.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SinemaTV.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SinemaTV.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SinemaTV.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -116757,35 +116620,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SinemaTV2.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SinemaTV2.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SinemaTV2.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SinemaTV2.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SinemaTV2.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SinemaTV2.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SinemaTV2.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SinemaTV2.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -117045,35 +116908,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SinemaTV1001.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SinemaTV1001.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SinemaTV1001.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SinemaTV1001.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SinemaTV1001.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SinemaTV1001.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SinemaTV1001.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SinemaTV1001.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -117333,35 +117196,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SinemaTV1002.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SinemaTV1002.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SinemaTV1002.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SinemaTV1002.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SinemaTV1002.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SinemaTV1002.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SinemaTV1002.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SinemaTV1002.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -117621,35 +117484,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SinemaTVAile.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SinemaTVAile.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SinemaTVAile.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SinemaTVAile.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SinemaTVAile.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SinemaTVAile.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SinemaTVAile.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SinemaTVAile.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -117909,35 +117772,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SinemaTVAile2.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SinemaTVAile2.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SinemaTVAile2.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SinemaTVAile2.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SinemaTVAile2.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SinemaTVAile2.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SinemaTVAile2.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SinemaTVAile2.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -118197,35 +118060,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SinemaTVAksiyon.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SinemaTVAksiyon.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SinemaTVAksiyon.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SinemaTVAksiyon.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SinemaTVAksiyon.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SinemaTVAksiyon.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SinemaTVAksiyon.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SinemaTVAksiyon.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -118485,35 +118348,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -118773,35 +118636,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SinemaTVComedy.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SinemaTVComedy.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SinemaTVComedy.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SinemaTVComedy.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SinemaTVComedy.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SinemaTVComedy.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SinemaTVComedy.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SinemaTVComedy.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -119061,35 +118924,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="SinemaTVComedy2.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="SinemaTVComedy2.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="SinemaTVComedy2.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="SinemaTVComedy2.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="SinemaTVComedy2.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="SinemaTVComedy2.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="SinemaTVComedy2.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="SinemaTVComedy2.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -119349,35 +119212,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="TRT4K.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="TRT4K.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="TRT4K.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="TRT4K.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="TRT4K.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="TRT4K.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="TRT4K.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="TRT4K.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -119637,35 +119500,35 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115100000 +0300" stop="20261115110000 +0300" channel="MovieSmartTurk.tr">
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115110000 +0300" stop="20261115120000 +0300" channel="MovieSmartTurk.tr">
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115120000 +0300" stop="20261115130000 +0300" channel="MovieSmartTurk.tr">
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115130000 +0300" stop="20261115140000 +0300" channel="MovieSmartTurk.tr">
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115140000 +0300" stop="20261115150000 +0300" channel="MovieSmartTurk.tr">
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115150000 +0300" stop="20261115160000 +0300" channel="MovieSmartTurk.tr">
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115160000 +0300" stop="20261115170000 +0300" channel="MovieSmartTurk.tr">
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
-  <programme start="20261115170000 +0300" stop="20261115180000 +0300" channel="MovieSmartTurk.tr">
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
@@ -119922,6 +119785,38 @@ Bu belgesel, Fırat bölgesi ve ötesinde yaşanan önemli olayları, yerel halk
     <desc>https://iptv-epg.org/help</desc>
   </programme>
   <programme start="20261118090000 +0300" stop="20261118100000 +0300" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+  </programme>
+  <programme start="20261118100000 +0300" stop="20261118110000 +0300" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+  </programme>
+  <programme start="20261118110000 +0300" stop="20261118120000 +0300" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+  </programme>
+  <programme start="20261118120000 +0300" stop="20261118130000 +0300" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+  </programme>
+  <programme start="20261118130000 +0300" stop="20261118140000 +0300" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+  </programme>
+  <programme start="20261118140000 +0300" stop="20261118150000 +0300" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+  </programme>
+  <programme start="20261118150000 +0300" stop="20261118160000 +0300" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+  </programme>
+  <programme start="20261118160000 +0300" stop="20261118170000 +0300" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+  </programme>
+  <programme start="20261118170000 +0300" stop="20261118180000 +0300" channel="MovieSmartTurk.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
   </programme>
