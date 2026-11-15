@@ -132,7 +132,16 @@ def save_square_white(source, destination):
     x = (256 - source.width) // 2
     y = (256 - source.height) // 2
     canvas.alpha_composite(source, (x, y))
-    canvas.convert("RGB").save(destination, format="PNG", optimize=True)
+
+    # Recorta el próprio quadrado branco com cantos arredondados,
+    # seguindo o estilo dos ícones de TV8 mostrados pelo usuário.
+    from PIL import ImageDraw
+    mask = Image.new("L", (256, 256), 0)
+    ImageDraw.Draw(mask).rounded_rectangle(
+        (0, 0, 255, 255), radius=42, fill=255
+    )
+    canvas.putalpha(mask)
+    canvas.save(destination, format="PNG", optimize=True)
 
 def main():
     if not PLAYLIST.exists():
