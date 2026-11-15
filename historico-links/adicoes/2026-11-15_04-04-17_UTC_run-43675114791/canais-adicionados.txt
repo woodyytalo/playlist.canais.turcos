@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: Spacetoon Türkiye
+#EXTINF:-1 tvg-id="custom.spacetoonturkiye" tvg-name="Spacetoon Türkiye" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Spacetoon.png" group-title="INFANTIS",Spacetoon Türkiye
+Link: URL não identificada no mesmo bloco de diff
