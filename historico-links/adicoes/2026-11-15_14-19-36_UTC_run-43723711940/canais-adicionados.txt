@@ -1,0 +1,9 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: Show Max
+#EXTINF:-1 tvg-id="ShowMax.tr" tvg-name="Show Max" tvg-logo="https://i.ibb.co/qJnvXJQ/show-max.png" group-title="ENTRETENIMENTO",Show Max
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: Euro Star TV
+#EXTINF:-1 tvg-id="custom.eurostartv" tvg-logo="https://i.imgur.com/kb165Ot.png" tvg-name="Euro Star TV" group-title="ENTRETENIMENTO",Euro Star TV
+Link: URL não identificada no mesmo bloco de diff
