@@ -457,6 +457,7 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 
 #EXTINF:-1 tvg-id="custom.spacetoonturkiye" tvg-name="Spacetoon Türkiye" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Spacetoon.png" group-title="INFANTIS",Spacetoon Türkiye
+#EXTVLCOPT:network-caching=60000
 #EXTVLCOPT:http-referrer=https://spacetoon.com.tr/
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 
@@ -727,20 +728,26 @@ https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8#all
 #EXTVLCOPT:network-caching=60000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8#all
 
-#EXTINF:-1 tvg-name="ABN TURKEY" tvg-logo="https://i.ibb.co/ChhQT8b/Abn.png" group-title="ABN TURKEY",2732 - ABN TURKEY
+#EXTINF:-1 tvg-name="ABN TURKEY" tvg-logo="https://i.ibb.co/ChhQT8b/Abn.png" group-title="ABN TURKEY",ABN TURKEY
+#EXTVLCOPT:network-caching=60000
 https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA",Dost
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/dost-b76cd76604.png" group-title="MÚSICA" tvg-name="Dost",Dost
+#EXTVLCOPT:network-caching=60000
 https://yayin.santraltr.com/hls/dost.m3u8
 
-#EXTINF:-1 group-title="MÚSICA",Company TV
-https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/company-tv-d25091f44a.png" group-title="MÚSICA" tvg-name="Company TV",Company TV
+#EXTVLCOPT:network-caching=60000
+https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/chunklist_w1608519565_b878000_slita.m3u8
 
-#EXTINF:-1 group-title="INTERNACIONAIS",INTV Australia
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/intv-australia-fcce0b290b.png" group-title="INTERNACIONAIS" tvg-name="INTV Australia",INTV Australia
+#EXTVLCOPT:network-caching=60000
 http://tv1.intv.mk:1935/live/intv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA",Güçlü TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/guclu-tv-5f8836a41f.png" group-title="MÚSICA" tvg-name="Güçlü TV",Güçlü TV
+#EXTVLCOPT:network-caching=60000
 https://yayin.santraltr.com/hls/zeynotv.m3u8
 
-#EXTINF:-1 tvg-name="İSVİÇRE TV" group-title="INTERNACIONAIS",İSVİÇRE TV
+#EXTINF:-1 tvg-name="İSVİÇRE TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/isvicre-tv-1f32b08547.png" group-title="INTERNACIONAIS",İSVİÇRE TV
+#EXTVLCOPT:network-caching=60000
 https://i41.ozelip.com:3269/hybrid/play.m3u8
