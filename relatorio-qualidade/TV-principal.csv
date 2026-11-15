@@ -4,7 +4,7 @@ Lider Haber,HD,1280x720,h264,nrttn172.kesintisizyayin.com:29010,OK,1280x720
 360 TV,HD,1280x720,h264,turkmedya-live.ercdn.net,OK,
 4U TV,HD,1280x720,h264,hls.4utv.live,OK,
 A Haber,Não verificado,,,c.fulltvizle.com,https://c.fulltvizle.com/ahaber/index.m3u8: Input/output error,
-A Para,Não verificado,,,185.234.111.229:8000,http://185.234.111.229:8000/play/a01l: Connection timed out,
+A Para,Não verificado,,,185.234.111.229:8000,http://185.234.111.229:8000/play/a01l: No route to host,
 A Spor,Não verificado,,,c.fulltvizle.com,https://c.fulltvizle.com/aspor/index.m3u8: Input/output error,
 A2,Não verificado,,,c.fulltvizle.com,https://c.fulltvizle.com/a2/tracks-v1a1/mono.m3u8: Input/output error,
 Aksu TV,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
@@ -13,10 +13,10 @@ Alanya Posta TV,Full HD,1920x1080,h264,api-tv3.yayin.com.tr,OK,1920x1080
 Almahriah TV,SD,1024x576,h264,starmenajo.com,OK,
 Altas TV,HD,1280x720,h264,edge1.socialsmart.tv,OK,
 Anadolu TV,Não verificado,,,broadcasttr.com:446,https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8: Connection timed out,
-ARAS TV,Não verificado,,,1.rtmp.org,http://1.rtmp.org/tv217/yayin.stream/chunklist_w1244772285.m3u8: Server returned 404 Not Found,
+ARAS TV,Não verificado,,,1.rtmp.org,http://1.rtmp.org/tv217/yayin.stream/chunklist_w268058631.m3u8: Server returned 404 Not Found,
 AS TV,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,1920x1080
 ATV,SD,854x480,h264,rnttwmjcin.turknet.ercdn.net,OK,
-ATV Alanya,HD,1280x720,h264,cdn-alanyatv.yayin.com.tr,OK,1280x720
+ATV Alanya,Full HD,1920x1080,h264,cdn-alanyatv.yayin.com.tr,OK,1920x1080
 Bengü Türk,SD,854x480,h264,tv.ensonhaber.com,OK,
 Beyaz TV,SD,854x480,h264,beyaztv-live.daioncdn.net,OK,
 Bi Kanal,Full HD,1920x1080,h264,bikanal-live.ercdn.net,OK,
@@ -39,7 +39,7 @@ Dost TV,SD,480x576,h264,dost.stream.emsal.im,OK,
 1Mus,HD,1280x720,h264,hz1.teleport.cc,OK,
 30A Music,HD,1280x720,h264,30a-tv.com,OK,1280x720
 Dream Türk,HD,1280x720,h264,live.duhnet.tv,OK,
-TMB TV,SD,720x576,h264,str.yodacdn.net,OK,
+TMB TV,Full HD,1920x1080,h264,str.yodacdn.net,OK,
 Edessa TV,Full HD,1920x1080,h264,canli.edessatv.com,OK,1920x1080
 Ekotürk,Não verificado,,,ythls.kekikakademi.org,https://ythls.kekikakademi.org/youtube/channel/UCAGVKxpAKwXMWdmcHbrvcwQ.m3u8: Input/output error,
 Elsharq TV,HD,1280x720,h264,mn-nl.mncdn.com,OK,1280x720
@@ -70,14 +70,14 @@ Kardelen TV,HD,1280x720,h264,edge1.socialsmart.tv,OK,
 K+ Kayseri,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,1920x1080
 Kanal 12,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
 Kanal 15,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
-Kanal 19,SD,640x360,h264,live.euromediacenter.com,OK,
+Kanal 19,Não verificado,,,live.euromediacenter.com,https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8: Server returned 404 Not Found,
 Kanal 23,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
 Kanal 26 Eskişehir,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
 Kanal 3,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,1920x1080
 Kanal 32,HD,1280x720,h264,edge1.socialsmart.tv,OK,
 Kanal 33,Full HD,1920x1080,h264,edge1.socialsmart.tv,OK,
 Kanal 34,HD,1280x720,h264,live.euromediacenter.com,OK,1280x720
-Kanal 53,HD,1920x1076,h264,kanal53.ozelip.com:3448,OK,
+Kanal 53,Full HD,1920x1080,h264,kanal53.ozelip.com:3448,OK,
 Kanal 58,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
 Kanal 7 Avrupa,Full HD,1920x1080,h264,livetv.radyotvonline.net,OK,
 Kanal Avrupa,SD,852x480,h264,cdn-kanalavrupa.yayin.com.tr,OK,
@@ -97,21 +97,20 @@ Life TV,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,1920x1080
 Luys TV,SD,640x360,h264,b01c02nl.mediatriple.net,OK,
 Med Müzik,Full HD,1920x1080,h264,54.36.110.140,OK,
 Mekameleen TV,SD,718x404,h264,mn-nl.mncdn.com,OK,
-Meltem TV,HD,1280x720,h264,vhxyrsly.rocketcdn.com,OK,1280x720
+Meltem TV,HD,1280x720,h264,vhxyrsly.rocketcdn.com,OK,
 Mercan TV,SD,720x576,h264,live.artidijitalmedya.com,OK,720x576
 Minika Çocuk,SD,854x480,h264,rnttwmjcin.turknet.ercdn.net,OK,
 Minika GO,SD,854x480,h264,rnttwmjcin.turknet.ercdn.net,OK,
 MTürk TV,HD,1280x720,h264,edge1.socialsmart.tv,OK,
-Play TV,SD,854x480,h264,web.onair-radio.eu:1935,OK,854x480
-NOW,SD,854x480,h264,uycyyuuzyh.turknet.ercdn.net,OK,
+Play TV,SD,854x480,h264,web.onair-radio.eu:1935,OK,
+NOW,Não verificado,,,uycyyuuzyh.turknet.ercdn.net,https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_480p.m3u8: Connection timed out,
 NR1 Aşk,HD,1280x720,h264,b01c02nl.mediatriple.net,OK,1280x720
 NR1 Damar,HD,1280x720,h264,b01c02nl.mediatriple.net,OK,1280x720
 NR1 Dance,HD,1280x720,h264,b01c02nl.mediatriple.net,OK,1280x720
 NTV,SD,854x480,h264,dogus.daioncdn.net,OK,
 Number 1 TV,HD,1280x720,h264,b01c02nl.mediatriple.net,OK,
 Power Dance TV,Não verificado,,,listen.powerapp.com.tr,https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8: Server returned 404 Not Found,
-Power Love TV,Não verificado,,,listen.powerapp.com.tr,https://listen.powerapp.com.tr/plove/love.smil/chunklist_b1028000_sltur.m3u8: Server returned 404 Not Found,
-POWER TV,Full HD,1920x1080,h264,livetv.powerapp.com.tr,OK,1920x1080
+Power Love TV,Full HD,1920x1080,h264,listen.powerapp.com.tr,OK,1920x1080
 PowerTürk Taptaze,Full HD,1920x1080,h264,livetv.powerapp.com.tr,OK,1920x1080
 MUKABELE TV,SD,854x480,h264,playlist.fasttvcdn.com,OK,
 Rehber TV,HD,1280x720,h264,cdn4.yayin.com.tr,OK,
@@ -121,7 +120,7 @@ Sercem TV,Full HD,1920x1080,h264,canli.sercemtv.com.tr,OK,
 Show Max,SD,854x480,h264,rmtftbjlne.turknet.ercdn.net,OK,
 Show TV,SD,854x480,h264,ciner.daioncdn.net,OK,
 Spacetoon Türkiye,HD,1280x720,h264,live-tr-next.spacetoongo.com,OK,1280x720
-Star TV,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=2uhiPG_3yt1YjXlEboFdgg&e=1794814926: Server returned 404 Not Found,1920x1080
+Star TV,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=i5WA-5Q6M1vIu2OZOaHddA&e=1794856950: Server returned 404 Not Found,1920x1080
 TAY TV,SD,640x360,h264,duhnet.hipodrom.com,OK,
 TELE1,Não verificado,,,tele1dvr.blutv.com,"https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4}",
 Tempo TV,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
@@ -140,7 +139,7 @@ TRT Genç,SD,854x480,h264,tv-trtgenc.medya.trt.com.tr,OK,
 TRT Haber,HD,1280x720,h264,tv-trthaber.medya.trt.com.tr,OK,
 TRT Kurdî,SD,854x480,h264,tv-trtkurdi.medya.trt.com.tr,OK,
 TRT Müzik,SD,1024x576,h264,stream8.cinerama.uz,OK,
-Kral Pop,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/chunklist_w1957890228_b2000096.m3u8?st=SnSfwuKkIXj-D7d71A1agg&e=1794814931: Server returned 404 Not Found,1280x720
+Kral Pop,Não verificado,,,dygvideo.dygdigital.com,http://dygvideo.dygdigital.com/live/hls/chunklist_w574866334_b2000096.m3u8?st=CnvRvnJkxhgEhIB-OtgPBA&e=1794856958: Server returned 404 Not Found,1280x720
 NR1 Fashion One,HD,1280x720,h264,b01c02nl.mediatriple.net,OK,1280x720
 TRT Türk,HD,1280x720,h264,tv-trtturk.medya.trt.com.tr,OK,
 TRT World,SD,640x360,h264,cdn.pishow.tv,OK,
@@ -153,7 +152,7 @@ TV DEN,SD,832x468,h264,canli.tvden.com.tr,OK,
 TV Karadeniz,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
 TV100,Não verificado,,,tv100.daioncdn.net,https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web: Input/output error,
 TV4,Não verificado,,,turkmedya-live.ercdn.net,https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8: Server returned 404 Not Found,
-TV8,Full HD,1920x1080,h264,rkhubpaomb.turknet.ercdn.net,OK,
+TV8,Não verificado,,,rkhubpaomb.turknet.ercdn.net,https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8: Connection timed out,
 TVNET,Não verificado,,,mn-nl.mncdn.com,https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8: Connection reset by peer,
 Vuslat TV,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
 Ülke TV,Não verificado,,,217.174.229.138:8000,http://217.174.229.138:8000/play/a0el: Connection timed out,
@@ -166,7 +165,7 @@ Natural TV,Full HD,1920x1080,h264,edge1.socialsmart.tv,OK,
 Sun RTV,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
 TBMM TV,HD,1280x720,h264,meclistv-live.ercdn.net,OK,
 Van 65 TV,HD,1280x720,h264,live.artidijitalmedya.com,OK,1280x720
-PowerTürk TV,Não verificado,,,powerturk.blutv.com,"https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4}",
+PowerTürk TV,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,
 Tabii,SD,640x360,h264,ceokzokgtd.erbvr.com,OK,
 BBC First Türkiye,Full HD,1920x1080,h264,88.212.7.14,OK,
 Ekol TV,Full HD,1920x1080,h264,ekoltv-live.ercdn.net,OK,
@@ -180,7 +179,7 @@ Kanal Ada,HD,1280x720,h264,145.239.58.133:28008,OK,1280x720
 Arzu Film,Full HD,1920x1080,h264,raw.githubusercontent.com,OK,1280x720
 Ekol Sports,Full HD,1920x1080,h264,ekoltv-live.ercdn.net,OK,
 Kanal Urfa,SD,720x404,h264,edge1.socialsmart.tv,OK,
-Trabzon Buyuksehir Belediyesi TV,Full HD,1920x1080,h264,tv191.radyotelekom.com.tr:3612,OK,
+Trabzon Buyuksehir Belediyesi TV,Acima de Full HD,1080x1920,h264,tv191.radyotelekom.com.tr:3612,OK,
 Urfanatik TV,Full HD,1920x1080,h264,live.artidijitalmedya.com,OK,1920x1080
 MADINAH TV,SD,480x360,h264,cdn-globecast.akamaized.net,OK,
 MC EU TV,HD,1280x720,h264,rrr.sz.xlcdn.com,OK,1280x720
@@ -196,3 +195,7 @@ Company TV,SD,640x360,h264,5929b138b139d.streamlock.net,OK,
 INTV Australia,HD,1280x720,h264,tv1.intv.mk:1935,OK,1280x720
 Güçlü TV,SD,640x360,h264,yayin.santraltr.com,OK,
 İSVİÇRE TV,HD,1280x720,h264,i41.ozelip.com:3269,OK,
+Now 70's,SD,848x480,h264,lightning-now70s-samsungnz.amagi.tv,OK,
+Now 80's,SD,848x480,h264,lightning-now80s-samsungnz.amagi.tv,OK,
+NOW ROCK,HD,1280x720,h264,lightning-now90s-samsungnz.amagi.tv,OK,
+MOR TV,HD,1280x720,h264,live.euromediacenter.com,OK,1280x720
