@@ -1,0 +1,9 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: 148 - 1Mus
+#EXTINF:-1 tvg-name="1Mus" tvg-logo="https://www.lyngsat.com/logo/tv/num/1tv-news-channel-am.png" group-title="MÚSICA",148 - 1Mus
+Link: URL não identificada no mesmo bloco de diff
+
+Canal: 150 - 30A Music
+#EXTINF:-1 tvg-name="30A Music" tvg-logo="https://www.lyngsat.com/logo/tv/num/3-plus-latvija-lv.png" group-title="MÚSICA",150 - 30A Music
+Link: URL não identificada no mesmo bloco de diff
