@@ -7,8 +7,10 @@ The script never invents an official brand mark.
 """
 import hashlib
 import io
+import json
 import re
 import unicodedata
+import urllib.parse
 import urllib.request
 from pathlib import Path
 from urllib.parse import unquote
@@ -97,6 +99,89 @@ def save_png(source, destination):
         background.paste(source, (x, y))
     background.convert("RGB").save(destination, format="PNG", optimize=True)
 
+_TV_LOGO_INDEX = None
+
+def normalize_name(value):
+    value = unicodedata.normalize("NFKD", value or "").casefold()
+    value = "".join(c for c in value if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]+", "", value)
+
+def http_json(url):
+    request = urllib.request.Request(
+        url, headers={"User-Agent": "IPTV-LogoBot/1.0 (playlist logo lookup)"}
+    )
+    with urllib.request.urlopen(request, timeout=20) as response:
+        return json.loads(response.read(5 * 1024 * 1024).decode("utf-8"))
+
+def tv_logo_candidate(name):
+    """Find an exact/high-confidence filename match in the public tv-logos repo."""
+    global _TV_LOGO_INDEX
+    try:
+        if _TV_LOGO_INDEX is None:
+            data = http_json(
+                "https://api.github.com/repos/tv-logo/tv-logos/git/trees/main?recursive=1"
+            )
+            _TV_LOGO_INDEX = [
+                item["path"] for item in data.get("tree", [])
+                if item.get("type") == "blob"
+                and item["path"].lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".svg"))
+            ]
+        target = normalize_name(name)
+        if len(target) < 3:
+            return None
+        matches = []
+        for path in _TV_LOGO_INDEX:
+            stem = normalize_name(Path(path).stem)
+            # Require exact filename identity after normalization. This avoids
+            # attaching another channel's logo based on a loose text search.
+            if stem == target or stem == target + "tr" or stem == "tr" + target:
+                matches.append(path)
+        if not matches:
+            return None
+        matches.sort(key=lambda p: ("/countries/turkey/" not in p.lower(), len(p)))
+        return "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/" + urllib.parse.quote(matches[0])
+    except Exception as exc:
+        print(f"Catálogo tv-logos indisponível para {name}: {exc}")
+        return None
+
+def commons_candidate(name):
+    """Search Wikimedia Commons; accept only highly specific title matches."""
+    try:
+        query = urllib.parse.urlencode({
+            "action": "query", "generator": "search",
+            "gsrsearch": f'filetype:bitmap "{name}" television channel logo',
+            "gsrnamespace": 6, "gsrlimit": 12,
+            "prop": "imageinfo", "iiprop": "url",
+            "format": "json"
+        })
+        data = http_json("https://commons.wikimedia.org/w/api.php?" + query)
+        target = normalize_name(name)
+        pages = data.get("query", {}).get("pages", {}).values()
+        ranked = []
+        for page in pages:
+            title = page.get("title", "").rsplit(":", 1)[-1]
+            stem = normalize_name(re.sub(r"\.[^.]+$", "", title))
+            if stem == target or stem.startswith(target) or target in stem:
+                info = (page.get("imageinfo") or [{}])[0]
+                url = info.get("url")
+                if url:
+                    ranked.append((0 if stem == target else 1, url))
+        ranked.sort(key=lambda item: item[0])
+        return ranked[0][1] if ranked else None
+    except Exception as exc:
+        print(f"Busca Wikimedia indisponível para {name}: {exc}")
+        return None
+
+def search_online_logo(name):
+    # Prefer a maintained TV-logo catalog, then Wikimedia Commons.
+    for candidate in (tv_logo_candidate(name), commons_candidate(name)):
+        if candidate:
+            image = fetch_image(candidate)
+            if image is not None:
+                print(f"Logo encontrado na internet: {name} ({candidate})")
+                return image
+    return None
+
 def main():
     if not PLAYLIST.exists():
         raise SystemExit("Tv.m3u8 não encontrado.")
@@ -131,6 +216,8 @@ def main():
         destination = LOGO_DIR / filename
 
         source = fetch_image(raw_logo)
+        if source is None:
+            source = search_online_logo(name)
         if source is not None:
             save_png(source, destination)
             converted += 1
