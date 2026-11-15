@@ -1,17 +1,17 @@
 # Verificação de qualidade — TV principal
 
-Verificado em: **2026-11-14 22:35 UTC**
+Verificado em: **2026-11-15 04:07 UTC**
 
-Total de entradas: **183**
+Total de entradas: **187**
 
 ## Resumo
 
 - Acima de Full HD: **0**
-- Full HD: **43**
-- HD: **71**
-- SD: **45**
+- Full HD: **40**
+- HD: **72**
+- SD: **53**
 - Sem vídeo detectável: **0**
-- Não verificado: **24**
+- Não verificado: **22**
 
 > A classificação usa a resolução de vídeo que o FFprobe conseguiu ler no momento da execução. Falhas temporárias, bloqueio geográfico, autenticação, formatos incompatíveis e indisponibilidade podem resultar em 'Não verificado'. Nenhum link da playlist é alterado.
 
@@ -33,7 +33,7 @@ Total de entradas: **183**
 | Almahriah TV | SD | 1024x576 | h264 | OK |
 | Altas TV | HD | 1280x720 | h264 | OK |
 | Anadolu TV | Não verificado |  |  | https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8: Connection timed out |
-| ARAS TV | Não verificado |  |  | http://1.rtmp.org/tv217/yayin.stream/chunklist_w2049684772.m3u8: Server returned 404 Not Found |
+| ARAS TV | Não verificado |  |  | http://1.rtmp.org/tv217/yayin.stream/chunklist_w405177466.m3u8: Server returned 404 Not Found |
 | AS TV | Full HD | 1920x1080 | h264 | OK |
 | ATV | SD | 854x480 | h264 | OK |
 | ATV Alanya | Full HD | 1920x1080 | h264 | OK |
@@ -56,6 +56,8 @@ Total de entradas: **183**
 | Diyanet TV | SD | 640x360 | h264 | OK |
 | Diyar TV | HD | 1280x720 | h264 | OK |
 | Dost TV | SD | 480x576 | h264 | OK |
+| 1Mus | HD | 1280x720 | h264 | OK |
+| 30A Music | HD | 1280x720 | h264 | OK |
 | Dream Türk | HD | 1280x720 | h264 | OK |
 | Edessa TV | Full HD | 1920x1080 | h264 | OK |
 | Ekotürk | Não verificado |  |  | https://ythls.kekikakademi.org/youtube/channel/UCAGVKxpAKwXMWdmcHbrvcwQ.m3u8: Input/output error |
@@ -68,7 +70,7 @@ Total de entradas: **183**
 | Euro D | HD | 1280x720 | h264 | OK |
 | Ezgi TV | SD | 1024x576 | h264 | OK |
 | FB TV | HD | 1280x720 | h264 | OK |
-| Flash Haber TV | Full HD | 1920x1080 | h264 | OK |
+| Flash Haber TV | SD | 640x360 | h264 | OK |
 | Fashion One | HD | 1280x720 | h264 | OK |
 | FRT TV | HD | 1280x720 | h264 | OK |
 | Grand Cinema | HD | 1280x720 | h264 | OK |
@@ -87,7 +89,7 @@ Total de entradas: **183**
 | Kanal 15 | HD | 1280x720 | h264 | OK |
 | Kanal 19 | SD | 640x360 | h264 | OK |
 | Kanal 23 | HD | 1280x720 | h264 | OK |
-| Kanal 26 | HD | 1280x720 | h264 | OK |
+| Kanal 26 Eskişehir | HD | 1280x720 | h264 | OK |
 | Kanal 3 | Full HD | 1920x1080 | h264 | OK |
 | Kanal 32 | HD | 1280x720 | h264 | OK |
 | Kanal 33 | Full HD | 1920x1080 | h264 | OK |
@@ -116,7 +118,7 @@ Total de entradas: **183**
 | Minika Çocuk | SD | 854x480 | h264 | OK |
 | Minika GO | SD | 854x480 | h264 | OK |
 | MTürk TV | HD | 1280x720 | h264 | OK |
-| NOW | HD | 1280x720 | h264 | OK |
+| NOW | SD | 854x480 | h264 | OK |
 | NR1 Aşk | HD | 1280x720 | h264 | OK |
 | NR1 Damar | HD | 1280x720 | h264 | OK |
 | NR1 Dance | HD | 1280x720 | h264 | OK |
@@ -133,29 +135,29 @@ Total de entradas: **183**
 | Show Max | SD | 854x480 | h264 | OK |
 | Show TV | SD | 854x480 | h264 | OK |
 | Spacetoon Türkiye | HD | 1280x720 | h264 | OK |
-| Star TV | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=wkAlBUh1u7D8hFdejBVHGg&e=1794782118: Server returned 404 Not Found |
+| Star TV | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=r9C7Be5iJSmbm1QhKv0-SQ&e=1794802016: Server returned 404 Not Found |
 | TAY TV | SD | 640x360 | h264 | OK |
-| TELE1 [720p HD] | Não verificado |  |  | https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4} |
+| TELE1 | Não verificado |  |  | https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4} |
 | Tempo TV | HD | 1280x720 | h264 | OK |
 | teve2 | HD | 1280x720 | h264 | OK |
 | TGRT Haber | HD | 1280x720 | h264 | OK |
 | Tivi 6 | HD | 1280x720 | h264 | OK |
 | TJK TV | Full HD | 1920x1080 | h264 | OK |
 | Ton TV | Full HD | 1920x1080 | h264 | OK |
-| TRT 1 | Não verificado |  |  | https://tv-trt1.medya.trt.com.tr/master_480.m3u8: Server returned 403 Forbidden (access denied) |
+| TRT 1 | SD | 854x480 | h264 | OK |
 | TRT Arabi | SD | 854x480 | h264 | OK |
 | TRT Avaz | HD | 1280x720 | h264 | OK |
 | TRT Çocuk | SD | 854x480 | h264 | OK |
 | TRT Diyanet Çocuk | SD | 854x480 | h264 | OK |
 | TRT EBA Ortaokul | HD | 1280x720 | h264 | OK |
-| TRT Genç [480p SD] | Não verificado |  |  | https://tv-trtgenc.medya.trt.com.tr/master_480.m3u8: Server returned 403 Forbidden (access denied) |
+| TRT Genç | SD | 854x480 | h264 | OK |
 | TRT Haber | HD | 1280x720 | h264 | OK |
 | TRT Kurdî | SD | 854x480 | h264 | OK |
 | TRT Müzik | SD | 1024x576 | h264 | OK |
-| Kral Pop [720p HD] | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/chunklist_w1319560976_b2000096.m3u8?st=2y6Dlahpli0wfb76bvsvhw&e=1794782124: Server returned 404 Not Found |
+| Kral Pop | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/chunklist_w638056864_b2000096.m3u8?st=S0JawG1yz07J-zsOJEOHIQ&e=1794802024: Server returned 404 Not Found |
 | NR1 Fashion One | HD | 1280x720 | h264 | OK |
 | TRT Türk | HD | 1280x720 | h264 | OK |
-| TRT World | Full HD | 1920x1080 | h264 | OK |
+| TRT World | SD | 640x360 | h264 | OK |
 | TürkHaber | Full HD | 1920x1080 | h264 | OK |
 | TV 1 | HD | 1280x720 | h264 | OK |
 | TV 264 | SD | 640x360 | h264 | OK |
@@ -163,8 +165,8 @@ Total de entradas: **183**
 | TV 52 | HD | 1280x720 | h264 | OK |
 | TV DEN | SD | 832x468 | h264 | OK |
 | TV Karadeniz | HD | 1280x720 | h264 | OK |
-| TV100 [480p SD] | Não verificado |  |  | https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web: Input/output error |
-| TV4 [480p SD] | Não verificado |  |  | https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8: Server returned 404 Not Found |
+| TV100 | Não verificado |  |  | https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web: Input/output error |
+| TV4 | Não verificado |  |  | https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8: Server returned 404 Not Found |
 | TV8 | Full HD | 1920x1080 | h264 | OK |
 | TVNET | Não verificado |  |  | https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8: Connection reset by peer |
 | Vuslat TV | HD | 1280x720 | h264 | OK |
@@ -173,13 +175,13 @@ Total de entradas: **183**
 | Zarok TV Kurmanji | Full HD | 1920x1080 | h264 | OK |
 | Zarok TV Sorani | Full HD | 1920x1080 | h264 | OK |
 | Euro Star TV | Full HD | 1920x1080 | h264 | OK |
-| Sözcü TV [720p HD] | Não verificado |  |  | https://szctvdvr.blutv.com/blutv_szctv_dvr/live_720p4350000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4} |
+| Sözcü TV | Não verificado |  |  | https://szctvdvr.blutv.com/blutv_szctv_dvr/live_720p4350000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4} |
 | Natural TV | Full HD | 1920x1080 | h264 | OK |
 | Sun RTV | HD | 1280x720 | h264 | OK |
 | TBMM TV | HD | 1280x720 | h264 | OK |
 | Van 65 TV | HD | 1280x720 | h264 | OK |
-| PowerTürk TV [SD] | Não verificado |  |  | https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4} |
-| tabii | SD | 640x360 | h264 | OK |
+| PowerTürk TV | Não verificado |  |  | https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4} |
+| Tabii | SD | 640x360 | h264 | OK |
 | BBC First Türkiye | Full HD | 1920x1080 | h264 | OK |
 | Ekol TV | Full HD | 1920x1080 | h264 | OK |
 | Syria TV | SD | 854x480 | h264 | OK |
@@ -188,17 +190,19 @@ Total de entradas: **183**
 | KN Music TV | Full HD | 1920x1080 | h264 | OK |
 | YOL TV | HD | 1280x720 | h264 | OK |
 | RTG International | SD | 720x576 | h264 | OK |
-| %3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKA%3C/text%3E%3C/svg%3E" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/kanal-ada-75b969db55.png" group-title="REGIONAIS",Kanal Ada | HD | 1280x720 | h264 | OK |
+| Kanal Ada | HD | 1280x720 | h264 | OK |
 | Arzu Film | Full HD | 1920x1080 | h264 | OK |
 | Ekol Sports | Full HD | 1920x1080 | h264 | OK |
 | Kanal Urfa | SD | 720x404 | h264 | OK |
 | Trabzon Buyuksehir Belediyesi TV | Full HD | 1920x1080 | h264 | OK |
 | Urfanatik TV | Full HD | 1920x1080 | h264 | OK |
 | MADINAH TV | SD | 480x360 | h264 | OK |
-| 2900 - MC EU TV | HD | 1280x720 | h264 | OK |
-| 2901 - Persiana Türkiye | HD | 1280x720 | h264 | OK |
-| 2907 - BabyFirst TV | Full HD | 1920x1080 | h264 | OK |
-| 2904 - TLC | SD | 720x576 | h264 | OK |
-| 2908 - Love Nature | Full HD | 1920x1080 | h264 | OK |
-| 564 - ETV Manisa | Full HD | 1920x1080 | h264 | OK |
-| %3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E" group-title="FILMES E SÉRIES", 552 - Dizi TV | Full HD | 1920x1080 | h264 | OK |
+| MC EU TV | HD | 1280x720 | h264 | OK |
+| Persiana Türkiye | HD | 1280x720 | h264 | OK |
+| BabyFirst TV | SD | 640x360 | h264 | OK |
+| TLC | SD | 720x576 | h264 | OK |
+| Love Nature | Full HD | 1920x1080 | h264 | OK |
+| ETV Manisa | Full HD | 1920x1080 | h264 | OK |
+| Dizi TV | Full HD | 1920x1080 | h264 | OK |
+| 2732 - ABN TURKEY | SD | 560x420 | h264 | OK |
+| Dost | SD | 480x270 | h264 | OK |

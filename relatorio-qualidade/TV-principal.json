@@ -1,6 +1,6 @@
 {
-  "verificado_em": "2026-11-14 22:35 UTC",
-  "total": 183,
+  "verificado_em": "2026-11-15 04:07 UTC",
+  "total": 187,
   "canais": [
     {
       "canal": "24 TV",
@@ -134,7 +134,7 @@
       "resolucao": "",
       "codec": "",
       "host": "1.rtmp.org",
-      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w2049684772.m3u8: Server returned 404 Not Found",
+      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w405177466.m3u8: Server returned 404 Not Found",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -336,6 +336,24 @@
       "resolucao_declarada_no_master": ""
     },
     {
+      "canal": "1Mus",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "hz1.teleport.cc",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "30A Music",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "30a-tv.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
+    },
+    {
       "canal": "Dream Türk",
       "classificacao": "HD",
       "resolucao": "1280x720",
@@ -445,12 +463,12 @@
     },
     {
       "canal": "Flash Haber TV",
-      "classificacao": "Full HD",
-      "resolucao": "1920x1080",
+      "classificacao": "SD",
+      "resolucao": "640x360",
       "codec": "h264",
       "host": "b01c02nl.mediatriple.net",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "1920x1080"
+      "resolucao_declarada_no_master": ""
     },
     {
       "canal": "Fashion One",
@@ -603,7 +621,7 @@
       "codec": "h264",
       "host": "live.euromediacenter.com",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "640x360"
+      "resolucao_declarada_no_master": ""
     },
     {
       "canal": "Kanal 23",
@@ -615,7 +633,7 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
-      "canal": "Kanal 26",
+      "canal": "Kanal 26 Eskişehir",
       "classificacao": "HD",
       "resolucao": "1280x720",
       "codec": "h264",
@@ -837,7 +855,7 @@
       "codec": "h264",
       "host": "vhxyrsly.rocketcdn.com",
       "resultado": "OK",
-      "resolucao_declarada_no_master": ""
+      "resolucao_declarada_no_master": "1280x720"
     },
     {
       "canal": "Mercan TV",
@@ -877,12 +895,12 @@
     },
     {
       "canal": "NOW",
-      "classificacao": "HD",
-      "resolucao": "1280x720",
+      "classificacao": "SD",
+      "resolucao": "854x480",
       "codec": "h264",
       "host": "uycyyuuzyh.turknet.ercdn.net",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "1280x720"
+      "resolucao_declarada_no_master": ""
     },
     {
       "canal": "NR1 Aşk",
@@ -1034,7 +1052,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=wkAlBUh1u7D8hFdejBVHGg&e=1794782118: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=r9C7Be5iJSmbm1QhKv0-SQ&e=1794802016: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1920x1080"
     },
     {
@@ -1047,7 +1065,7 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "TELE1 [720p HD]",
+      "canal": "TELE1",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1111,11 +1129,11 @@
     },
     {
       "canal": "TRT 1",
-      "classificacao": "Não verificado",
-      "resolucao": "",
-      "codec": "",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
       "host": "tv-trt1.medya.trt.com.tr",
-      "resultado": "https://tv-trt1.medya.trt.com.tr/master_480.m3u8: Server returned 403 Forbidden (access denied)",
+      "resultado": "OK",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -1164,12 +1182,12 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
-      "canal": "TRT Genç [480p SD]",
-      "classificacao": "Não verificado",
-      "resolucao": "",
-      "codec": "",
+      "canal": "TRT Genç",
+      "classificacao": "SD",
+      "resolucao": "854x480",
+      "codec": "h264",
       "host": "tv-trtgenc.medya.trt.com.tr",
-      "resultado": "https://tv-trtgenc.medya.trt.com.tr/master_480.m3u8: Server returned 403 Forbidden (access denied)",
+      "resultado": "OK",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -1200,12 +1218,12 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "Kral Pop [720p HD]",
+      "canal": "Kral Pop",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w1319560976_b2000096.m3u8?st=2y6Dlahpli0wfb76bvsvhw&e=1794782124: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w638056864_b2000096.m3u8?st=S0JawG1yz07J-zsOJEOHIQ&e=1794802024: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1280x720"
     },
     {
@@ -1228,12 +1246,12 @@
     },
     {
       "canal": "TRT World",
-      "classificacao": "Full HD",
-      "resolucao": "1920x1080",
+      "classificacao": "SD",
+      "resolucao": "640x360",
       "codec": "h264",
       "host": "cdn.pishow.tv",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "1920x1080"
+      "resolucao_declarada_no_master": ""
     },
     {
       "canal": "TürkHaber",
@@ -1299,7 +1317,7 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
-      "canal": "TV100 [480p SD]",
+      "canal": "TV100",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1308,7 +1326,7 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "TV4 [480p SD]",
+      "canal": "TV4",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1389,7 +1407,7 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
-      "canal": "Sözcü TV [720p HD]",
+      "canal": "Sözcü TV",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1434,7 +1452,7 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
-      "canal": "PowerTürk TV [SD]",
+      "canal": "PowerTürk TV",
       "classificacao": "Não verificado",
       "resolucao": "",
       "codec": "",
@@ -1443,7 +1461,7 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "tabii",
+      "canal": "Tabii",
       "classificacao": "SD",
       "resolucao": "640x360",
       "codec": "h264",
@@ -1524,7 +1542,7 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKA%3C/text%3E%3C/svg%3E\" tvg-logo=\"https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/kanal-ada-75b969db55.png\" group-title=\"REGIONAIS\",Kanal Ada",
+      "canal": "Kanal Ada",
       "classificacao": "HD",
       "resolucao": "1280x720",
       "codec": "h264",
@@ -1587,7 +1605,7 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "2900 - MC EU TV",
+      "canal": "MC EU TV",
       "classificacao": "HD",
       "resolucao": "1280x720",
       "codec": "h264",
@@ -1596,7 +1614,7 @@
       "resolucao_declarada_no_master": "1280x720"
     },
     {
-      "canal": "2901 - Persiana Türkiye",
+      "canal": "Persiana Türkiye",
       "classificacao": "HD",
       "resolucao": "1280x720",
       "codec": "h264",
@@ -1605,16 +1623,16 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "2907 - BabyFirst TV",
-      "classificacao": "Full HD",
-      "resolucao": "1920x1080",
+      "canal": "BabyFirst TV",
+      "classificacao": "SD",
+      "resolucao": "640x360",
       "codec": "h264",
       "host": "cdn.fast.jwp.services",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "1920x1080"
+      "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "2904 - TLC",
+      "canal": "TLC",
       "classificacao": "SD",
       "resolucao": "720x576",
       "codec": "h264",
@@ -1623,7 +1641,7 @@
       "resolucao_declarada_no_master": "1024x576"
     },
     {
-      "canal": "2908 - Love Nature",
+      "canal": "Love Nature",
       "classificacao": "Full HD",
       "resolucao": "1920x1080",
       "codec": "h264",
@@ -1632,7 +1650,7 @@
       "resolucao_declarada_no_master": "1920x1080"
     },
     {
-      "canal": "564 - ETV Manisa",
+      "canal": "ETV Manisa",
       "classificacao": "Full HD",
       "resolucao": "1920x1080",
       "codec": "h264",
@@ -1641,11 +1659,29 @@
       "resolucao_declarada_no_master": ""
     },
     {
-      "canal": "%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E\" group-title=\"FILMES E SÉRIES\", 552 - Dizi TV",
+      "canal": "Dizi TV",
       "classificacao": "Full HD",
       "resolucao": "1920x1080",
       "codec": "h264",
       "host": "playlist.fasttvcdn.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "2732 - ABN TURKEY",
+      "classificacao": "SD",
+      "resolucao": "560x420",
+      "codec": "h264",
+      "host": "mediaserver.abnvideos.com",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Dost",
+      "classificacao": "SD",
+      "resolucao": "480x270",
+      "codec": "h264",
+      "host": "yayin.santraltr.com",
       "resultado": "OK",
       "resolucao_declarada_no_master": ""
     }
