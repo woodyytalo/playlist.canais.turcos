@@ -2,16 +2,25 @@ name: Padronizar somente logos da TV principal
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: normalizar-logos-tv-principal
+  cancel-in-progress: false
+
 jobs:
   logos:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - name: Baixar repositório
         uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
 
       - name: Preparar Python e bibliotecas
         uses: actions/setup-python@v5
@@ -37,9 +46,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Padronizar logos da TV principal"
           for attempt in 1 2 3 4 5; do
-            git fetch origin "${GITHUB_REF_NAME}"
-            git rebase "origin/${GITHUB_REF_NAME}" || { git rebase --abort || true; sleep 2; continue; }
-            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+            git fetch origin "github/workflows/atualizar-logos.yml"
+            git rebase "origin/github/workflows/atualizar-logos.yml" || { git rebase --abort || true; sleep 2; continue; }
+            if git push origin "HEAD:github/workflows/atualizar-logos.yml"; then
               exit 0
             fi
             sleep 2
