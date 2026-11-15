@@ -11,6 +11,7 @@ from pathlib import Path
 
 from PIL import Image
 
+# Execução solicitada: reaplicar o padrão PNG 256x256 com fundo preto a todas as entradas.
 ROOT = Path(__file__).resolve().parents[1]
 PLAYLIST = ROOT / "Tv.m3u8"
 LOGO_DIR = ROOT / "assets" / "logos"
