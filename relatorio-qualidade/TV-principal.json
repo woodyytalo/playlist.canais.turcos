@@ -1,6 +1,6 @@
 {
-  "verificado_em": "2026-11-15 04:07 UTC",
-  "total": 187,
+  "verificado_em": "2026-11-15 04:19 UTC",
+  "total": 188,
   "canais": [
     {
       "canal": "24 TV",
@@ -134,7 +134,7 @@
       "resolucao": "",
       "codec": "",
       "host": "1.rtmp.org",
-      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w405177466.m3u8: Server returned 404 Not Found",
+      "resultado": "http://1.rtmp.org/tv217/yayin.stream/chunklist_w224181923.m3u8: Server returned 404 Not Found",
       "resolucao_declarada_no_master": ""
     },
     {
@@ -855,7 +855,7 @@
       "codec": "h264",
       "host": "vhxyrsly.rocketcdn.com",
       "resultado": "OK",
-      "resolucao_declarada_no_master": "1280x720"
+      "resolucao_declarada_no_master": ""
     },
     {
       "canal": "Mercan TV",
@@ -1052,7 +1052,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=r9C7Be5iJSmbm1QhKv0-SQ&e=1794802016: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=IRCKQTJg2UB_KAVbySAoqQ&e=1794802753: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1920x1080"
     },
     {
@@ -1223,7 +1223,7 @@
       "resolucao": "",
       "codec": "",
       "host": "dygvideo.dygdigital.com",
-      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w638056864_b2000096.m3u8?st=S0JawG1yz07J-zsOJEOHIQ&e=1794802024: Server returned 404 Not Found",
+      "resultado": "http://dygvideo.dygdigital.com/live/hls/chunklist_w706779818_b2000096.m3u8?st=YP_mJ0phLnkRcsM4fxTV3w&e=1794802761: Server returned 404 Not Found",
       "resolucao_declarada_no_master": "1280x720"
     },
     {
@@ -1670,7 +1670,7 @@
     {
       "canal": "2732 - ABN TURKEY",
       "classificacao": "SD",
-      "resolucao": "560x420",
+      "resolucao": "640x360",
       "codec": "h264",
       "host": "mediaserver.abnvideos.com",
       "resultado": "OK",
@@ -1684,6 +1684,15 @@
       "host": "yayin.santraltr.com",
       "resultado": "OK",
       "resolucao_declarada_no_master": ""
+    },
+    {
+      "canal": "Company TV",
+      "classificacao": "HD",
+      "resolucao": "1280x720",
+      "codec": "h264",
+      "host": "5929b138b139d.streamlock.net",
+      "resultado": "OK",
+      "resolucao_declarada_no_master": "1280x720"
     }
   ]
 }

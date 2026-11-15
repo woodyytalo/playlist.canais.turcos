@@ -1,14 +1,14 @@
 # Verificação de qualidade — TV principal
 
-Verificado em: **2026-11-15 04:07 UTC**
+Verificado em: **2026-11-15 04:19 UTC**
 
-Total de entradas: **187**
+Total de entradas: **188**
 
 ## Resumo
 
 - Acima de Full HD: **0**
 - Full HD: **40**
-- HD: **72**
+- HD: **73**
 - SD: **53**
 - Sem vídeo detectável: **0**
 - Não verificado: **22**
@@ -33,7 +33,7 @@ Total de entradas: **187**
 | Almahriah TV | SD | 1024x576 | h264 | OK |
 | Altas TV | HD | 1280x720 | h264 | OK |
 | Anadolu TV | Não verificado |  |  | https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8: Connection timed out |
-| ARAS TV | Não verificado |  |  | http://1.rtmp.org/tv217/yayin.stream/chunklist_w405177466.m3u8: Server returned 404 Not Found |
+| ARAS TV | Não verificado |  |  | http://1.rtmp.org/tv217/yayin.stream/chunklist_w224181923.m3u8: Server returned 404 Not Found |
 | AS TV | Full HD | 1920x1080 | h264 | OK |
 | ATV | SD | 854x480 | h264 | OK |
 | ATV Alanya | Full HD | 1920x1080 | h264 | OK |
@@ -135,7 +135,7 @@ Total de entradas: **187**
 | Show Max | SD | 854x480 | h264 | OK |
 | Show TV | SD | 854x480 | h264 | OK |
 | Spacetoon Türkiye | HD | 1280x720 | h264 | OK |
-| Star TV | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=r9C7Be5iJSmbm1QhKv0-SQ&e=1794802016: Server returned 404 Not Found |
+| Star TV | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=IRCKQTJg2UB_KAVbySAoqQ&e=1794802753: Server returned 404 Not Found |
 | TAY TV | SD | 640x360 | h264 | OK |
 | TELE1 | Não verificado |  |  | https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4} |
 | Tempo TV | HD | 1280x720 | h264 | OK |
@@ -154,7 +154,7 @@ Total de entradas: **187**
 | TRT Haber | HD | 1280x720 | h264 | OK |
 | TRT Kurdî | SD | 854x480 | h264 | OK |
 | TRT Müzik | SD | 1024x576 | h264 | OK |
-| Kral Pop | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/chunklist_w638056864_b2000096.m3u8?st=S0JawG1yz07J-zsOJEOHIQ&e=1794802024: Server returned 404 Not Found |
+| Kral Pop | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/chunklist_w706779818_b2000096.m3u8?st=YP_mJ0phLnkRcsM4fxTV3w&e=1794802761: Server returned 404 Not Found |
 | NR1 Fashion One | HD | 1280x720 | h264 | OK |
 | TRT Türk | HD | 1280x720 | h264 | OK |
 | TRT World | SD | 640x360 | h264 | OK |
@@ -204,5 +204,6 @@ Total de entradas: **187**
 | Love Nature | Full HD | 1920x1080 | h264 | OK |
 | ETV Manisa | Full HD | 1920x1080 | h264 | OK |
 | Dizi TV | Full HD | 1920x1080 | h264 | OK |
-| 2732 - ABN TURKEY | SD | 560x420 | h264 | OK |
+| 2732 - ABN TURKEY | SD | 640x360 | h264 | OK |
 | Dost | SD | 480x270 | h264 | OK |
+| Company TV | HD | 1280x720 | h264 | OK |
