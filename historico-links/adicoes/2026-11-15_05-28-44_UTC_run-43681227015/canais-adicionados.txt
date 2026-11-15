@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: POWER TV
+#EXTINF:-1 tvg-name="POWER TV" tvg-logo="https://i.ibb.co/xhfcTC7/powertv.png" tvg-id="custom.powertv" group-title="MÚSICA",POWER TV
+Link: http://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
