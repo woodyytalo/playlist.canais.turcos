@@ -2,6 +2,12 @@ name: Padronizar somente logos da TV principal
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "scripts/normalizar_logos_apenas.py"
+      - ".github/workflows/normalizar-logos-apenas.yml"
   schedule:
     - cron: "0 */6 * * *"
 
