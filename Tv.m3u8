@@ -741,3 +741,6 @@ http://tv1.intv.mk:1935/live/intv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA",Güçlü TV
 https://yayin.santraltr.com/hls/zeynotv.m3u8
+
+#EXTINF:-1 tvg-name="İSVİÇRE TV" group-title="INTERNACIONAIS",İSVİÇRE TV
+https://i41.ozelip.com:3269/hybrid/play.m3u8
