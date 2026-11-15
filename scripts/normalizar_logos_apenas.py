@@ -133,7 +133,39 @@ def search_online_logo(name):
             return image
     return None
 
+def remove_edge_white_background(source):
+    """Remove somente o branco/off-white conectado às bordas, preservando detalhes internos."""
+    from PIL import ImageDraw
+
+    image = source.convert("RGBA")
+    pixels = image.load()
+    width, height = image.size
+
+    def is_background(pixel):
+        r, g, b, a = pixel
+        return a > 0 and min(r, g, b) >= 225 and max(r, g, b) - min(r, g, b) <= 32
+
+    # Flood-fill a partir das bordas: branco dentro do desenho não é removido.
+    seeds = set()
+    for x in range(width):
+        seeds.add((x, 0))
+        seeds.add((x, height - 1))
+    for y in range(height):
+        seeds.add((0, y))
+        seeds.add((width - 1, y))
+
+    draw = ImageDraw.Draw(image)
+    for point in seeds:
+        if is_background(pixels[point[0], point[1]]):
+            ImageDraw.floodfill(image, point, (0, 0, 0, 0), thresh=32)
+
+    return image
+
+
 def save_square_black(source, destination):
+    # Remove o fundo branco da fonte antes de compor sobre o preto.
+    source = remove_edge_white_background(source)
+
     # Ícone quadrado 256x256, fundo preto e logo inteiro sem cortar.
     canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
     source.thumbnail((216, 216), Image.Resampling.LANCZOS)
