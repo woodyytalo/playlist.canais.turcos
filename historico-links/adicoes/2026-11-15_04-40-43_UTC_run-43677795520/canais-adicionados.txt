@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: İSVİÇRE TV
+#EXTINF:-1 tvg-name="İSVİÇRE TV" group-title="INTERNACIONAIS",İSVİÇRE TV
+Link: https://i41.ozelip.com:3269/hybrid/play.m3u8
