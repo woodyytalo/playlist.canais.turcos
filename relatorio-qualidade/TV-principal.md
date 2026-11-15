@@ -1,17 +1,17 @@
 # Verificação de qualidade — TV principal
 
-Verificado em: **2026-11-15 04:19 UTC**
+Verificado em: **2026-11-15 04:55 UTC**
 
-Total de entradas: **188**
+Total de entradas: **191**
 
 ## Resumo
 
 - Acima de Full HD: **0**
 - Full HD: **40**
 - HD: **73**
-- SD: **53**
+- SD: **55**
 - Sem vídeo detectável: **0**
-- Não verificado: **22**
+- Não verificado: **23**
 
 > A classificação usa a resolução de vídeo que o FFprobe conseguiu ler no momento da execução. Falhas temporárias, bloqueio geográfico, autenticação, formatos incompatíveis e indisponibilidade podem resultar em 'Não verificado'. Nenhum link da playlist é alterado.
 
@@ -33,7 +33,7 @@ Total de entradas: **188**
 | Almahriah TV | SD | 1024x576 | h264 | OK |
 | Altas TV | HD | 1280x720 | h264 | OK |
 | Anadolu TV | Não verificado |  |  | https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8: Connection timed out |
-| ARAS TV | Não verificado |  |  | http://1.rtmp.org/tv217/yayin.stream/chunklist_w224181923.m3u8: Server returned 404 Not Found |
+| ARAS TV | Não verificado |  |  | http://1.rtmp.org/tv217/yayin.stream/chunklist_w716946805.m3u8: Server returned 404 Not Found |
 | AS TV | Full HD | 1920x1080 | h264 | OK |
 | ATV | SD | 854x480 | h264 | OK |
 | ATV Alanya | Full HD | 1920x1080 | h264 | OK |
@@ -135,7 +135,7 @@ Total de entradas: **188**
 | Show Max | SD | 854x480 | h264 | OK |
 | Show TV | SD | 854x480 | h264 | OK |
 | Spacetoon Türkiye | HD | 1280x720 | h264 | OK |
-| Star TV | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=IRCKQTJg2UB_KAVbySAoqQ&e=1794802753: Server returned 404 Not Found |
+| Star TV | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=cluM0kNJ_fp4FKZXePD-xA&e=1794804907: Server returned 404 Not Found |
 | TAY TV | SD | 640x360 | h264 | OK |
 | TELE1 | Não verificado |  |  | https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8: Server returned 4XX Client Error, but not one of 40{0,1,3,4} |
 | Tempo TV | HD | 1280x720 | h264 | OK |
@@ -154,7 +154,7 @@ Total de entradas: **188**
 | TRT Haber | HD | 1280x720 | h264 | OK |
 | TRT Kurdî | SD | 854x480 | h264 | OK |
 | TRT Müzik | SD | 1024x576 | h264 | OK |
-| Kral Pop | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/chunklist_w706779818_b2000096.m3u8?st=YP_mJ0phLnkRcsM4fxTV3w&e=1794802761: Server returned 404 Not Found |
+| Kral Pop | Não verificado |  |  | http://dygvideo.dygdigital.com/live/hls/chunklist_w1061016981_b2000096.m3u8?st=P5NjnJhg0-oen380AZGZig&e=1794804912: Server returned 404 Not Found |
 | NR1 Fashion One | HD | 1280x720 | h264 | OK |
 | TRT Türk | HD | 1280x720 | h264 | OK |
 | TRT World | SD | 640x360 | h264 | OK |
@@ -169,7 +169,7 @@ Total de entradas: **188**
 | TV4 | Não verificado |  |  | https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8: Server returned 404 Not Found |
 | TV8 | Full HD | 1920x1080 | h264 | OK |
 | TVNET | Não verificado |  |  | https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8: Connection reset by peer |
-| Vuslat TV | HD | 1280x720 | h264 | OK |
+| Vuslat TV | Não verificado |  |  | https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/chunks.m3u8?nimblesessionid=4570445859: Connection timed out |
 | Ülke TV | Não verificado |  |  | http://217.174.229.138:8000/play/a0el: Connection timed out |
 | Vav TV | SD | 854x480 | h264 | OK |
 | Zarok TV Kurmanji | Full HD | 1920x1080 | h264 | OK |
@@ -204,6 +204,9 @@ Total de entradas: **188**
 | Love Nature | Full HD | 1920x1080 | h264 | OK |
 | ETV Manisa | Full HD | 1920x1080 | h264 | OK |
 | Dizi TV | Full HD | 1920x1080 | h264 | OK |
-| 2732 - ABN TURKEY | SD | 640x360 | h264 | OK |
+| ABN TURKEY | SD | 560x420 | h264 | OK |
 | Dost | SD | 480x270 | h264 | OK |
-| Company TV | HD | 1280x720 | h264 | OK |
+| Company TV | SD | 640x360 | h264 | OK |
+| INTV Australia | HD | 1280x720 | h264 | OK |
+| Güçlü TV | SD | 640x360 | h264 | OK |
+| İSVİÇRE TV | HD | 1280x720 | h264 | OK |
