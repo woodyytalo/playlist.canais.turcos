@@ -161,6 +161,7 @@ def save_square_black(source, destination):
         if check.getpixel((8, 128))[:3] != (0, 0, 0):
             raise RuntimeError(f"Fundo preto ausente: {destination.name}")
 
+# Reprocessamento solicitado: aplicar novamente o padrão visual do canal TRT Çocuk a todas as logos.
 def main():
     if not PLAYLIST.exists():
         raise SystemExit("Tv.m3u8 não encontrado.")
