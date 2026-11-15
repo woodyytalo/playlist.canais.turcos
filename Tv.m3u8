@@ -735,3 +735,6 @@ https://yayin.santraltr.com/hls/dost.m3u8
 
 #EXTINF:-1 group-title="MÚSICA",Company TV
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAIS",INTV Australia
+http://tv1.intv.mk:1935/live/intv/index.m3u8
