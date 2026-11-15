@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: Play TV
+#EXTINF:-1 tvg-name="Play TV" group-title="ENTRETENIMENTO",Play TV
+Link: http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
