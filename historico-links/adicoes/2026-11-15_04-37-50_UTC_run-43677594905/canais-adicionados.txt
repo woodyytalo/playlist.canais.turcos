@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: Güçlü TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA",Güçlü TV
+Link: https://yayin.santraltr.com/hls/zeynotv.m3u8
