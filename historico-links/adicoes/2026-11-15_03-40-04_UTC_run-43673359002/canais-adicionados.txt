@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: 2732 - ABN TURKEY
+#EXTINF:-1 tvg-name="ABN TURKEY" tvg-logo="https://i.ibb.co/ChhQT8b/Abn.png" group-title="RELIGIOSOS",2732 - ABN TURKEY
+Link: URL não identificada no mesmo bloco de diff
