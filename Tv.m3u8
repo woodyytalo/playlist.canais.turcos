@@ -738,3 +738,6 @@ https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8
 
 #EXTINF:-1 group-title="INTERNACIONAIS",INTV Australia
 http://tv1.intv.mk:1935/live/intv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA",Güçlü TV
+https://yayin.santraltr.com/hls/zeynotv.m3u8
