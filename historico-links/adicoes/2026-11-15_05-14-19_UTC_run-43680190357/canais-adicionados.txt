@@ -1,0 +1,5 @@
+Canais adicionados à TV principal neste commit:
+
+Canal: Kayhan TV
+#EXTINF:-1 tvg-id="custom.kayhantv" tvg-name="Kayhan TV" group-title="REGIONAIS",Kayhan TV
+Link: https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
