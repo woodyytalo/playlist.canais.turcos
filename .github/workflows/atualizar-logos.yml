@@ -309,16 +309,39 @@ jobs:
           PY
 
       - name: Salvar alterações
+        shell: bash
         run: |
-          if git diff --quiet -- Tv.m3u8 assets/logos; then
+          set -euo pipefail
+          if git diff --quiet -- Tv.m3u8 assets/logos && [ -z "$(git ls-files --others --exclude-standard assets/logos)" ]; then
             echo "Nenhuma alteração para salvar."
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add Tv.m3u8 assets/logos
-            git commit -m "Adicionar logos PNG automaticamente"
-            git push
+            exit 0
           fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Tv.m3u8 assets/logos
+          git commit -m "Adicionar logos PNG automaticamente"
+
+          # Outros bots também gravam na mesma branch. Rebaseia sobre a versão
+          # remota mais recente e tenta novamente para evitar rejeição non-fast-forward.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            if ! git rebase "origin/${GITHUB_REF_NAME}"; then
+              git rebase --abort || true
+              echo "Conflito ao integrar alterações remotas; tentativa ${attempt}/5."
+              sleep 2
+              continue
+            fi
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "Alterações salvas após sincronização com a branch remota."
+              exit 0
+            fi
+            echo "Push rejeitado; nova tentativa ${attempt}/5."
+            sleep 2
+          done
+
+          echo "Não foi possível publicar após cinco tentativas."
+          exit 1
 
       - name: Disparar sincronização do EPG após atualizar a TV principal
         env:
