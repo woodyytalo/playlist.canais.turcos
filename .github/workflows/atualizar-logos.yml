@@ -25,6 +25,31 @@ jobs:
       - name: Baixar repositório
         uses: actions/checkout@v4
 
+      - name: Corrigir automaticamente nomes e remover números de catálogo
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          path = Path("Tv.m3u8")
+          lines = path.read_text(encoding="utf-8").splitlines()
+          changed = 0
+          for i, line in enumerate(lines):
+              if not line.startswith("#EXTINF:") or "," not in line:
+                  continue
+              prefix, display = line.rsplit(",", 1)
+              # Remove apenas números de catálogo no início do título (ex.: 148 - Canal).
+              # Não altera números que fazem parte do nome (ex.: 1Mus, TV 1, 24 TV).
+              clean = re.sub(r"^\\s*\\d+\\s*[-–—.)]\\s*", "", display).strip()
+              if clean != display.strip():
+                  lines[i] = prefix + "," + clean
+                  changed += 1
+          if changed:
+              path.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+          print(f"Nomes corrigidos automaticamente: {changed}; títulos sem numeração de catálogo.")
+          PY
+
       - name: Garantir teleguia automático para canais novos
         shell: bash
         run: |
