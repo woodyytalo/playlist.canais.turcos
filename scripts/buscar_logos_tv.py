@@ -88,7 +88,7 @@ def main():
         if re.search(r'\btvg-logo="[^"]*"', line, re.I):
             new_line = re.sub(r'\btvg-logo="[^"]*"', f'tvg-logo="{logo_url}"', line, count=1, flags=re.I)
         else:
-            new_line = line.replace("#EXTINF:", f'#EXTINF: tvg-logo="{logo_url}"', 1)
+            new_line = line.replace("#EXTINF:", f'#EXTINF:-1 tvg-logo="{logo_url}"', 1)
         if new_line != line:
             lines[i] = new_line
             changed += 1
