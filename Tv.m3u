@@ -1,5 +1,7 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/guia-turquia.xml" x-tvg-url="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/guia-turquia.xml"
 # Atualização de mapeamento XMLTV executada pelo workflow de EPG
+# Canais adicionados do Backup — números originais preservados
+
 
 #EXTINF:-1 tvg-id="24.TV.tr" tvg-name="24 TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/24-tv-tr-1c42560f0c.png" group-title="NOTÍCIAS",24 TV
 #EXTVLCOPT:network-caching=60000
@@ -717,7 +719,6 @@ https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m
 #EXTVLCOPT:network-caching=60000
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8
 
-# Canais adicionados do Backup — números originais preservados
 #EXTINF:-1 tvg-name="MC EU TV" tvg-id="MCTV.de@HD" group-title="INTERNACIONAIS" tvg-logo="https://logo.huhu.to/logo?c=3849971860.png",MC EU TV
 #EXTVLCOPT:network-caching=60000
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
