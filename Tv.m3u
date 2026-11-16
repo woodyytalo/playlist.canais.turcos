@@ -36,7 +36,7 @@ https://c.fulltvizle.com/a2/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.alzahratvturkic" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-alzahratvturkic-60d44a1e51.png" tvg-name="Al-Zahra TV Turkic" group-title="RELIGIOSOS",Al-Zahra TV Turkic
+#EXTINF:-1 tvg-id="custom.alzahratvturkic" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-alzahratvturkic-60d44a1e51.png" tvg-name="Al Zahra TV Turkic" group-title="RELIGIOSOS",Al Zahra TV Turkic
 #EXTVLCOPT:network-caching=60000
 https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_480p/chunks.m3u8
 
@@ -108,7 +108,7 @@ http://176.65.153.40:6002/play/a013/index.m3u8
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.cnbce" tvg-name="CNBC-e" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-cnbce-d78346bdd8.png" group-title="NOTÍCIAS",CNBC-e
+#EXTINF:-1 tvg-id="custom.cnbce" tvg-name="CNBC e" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-cnbce-d78346bdd8.png" group-title="NOTÍCIAS",CNBC e
 #EXTVLCOPT:network-caching=60000
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_480p.m3u8
 
@@ -160,7 +160,6 @@ https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 tvg-id="TMBTV.tr" tvg-name="TMB TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/tmbtv-tr-633f10a70a.png" group-title="MÚSICA",TMB TV
 #EXTVLCOPT:network-caching=60000
 https://str.yodacdn.net/tmb_tr_app/tracks-v1a1/mono.m3u8?token=tmb_app_token_13579
-
 
 #EXTINF:-1 tvg-id="custom.edessatv" tvg-name="Edessa TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-edessatv-88b469f644.png" group-title="REGIONAIS",Edessa TV
 #EXTVLCOPT:network-caching=60000
@@ -769,11 +768,11 @@ https://yayin.santraltr.com/hls/zeynotv.m3u8
 #EXTVLCOPT:network-caching=60000
 https://i41.ozelip.com:3269/hybrid/play.m3u8
 
-#EXTINF:-1 tvg-name="Now 70's" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/now-70-s-7c69028f21.png" group-title="MÚSICA",Now 70's
+#EXTINF:-1 tvg-name="Now 70 s" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/now-70-s-7c69028f21.png" group-title="MÚSICA",Now 70 s
 #EXTVLCOPT:network-caching=60000
 https://lightning-now70s-samsungnz.amagi.tv/playlist480p.m3u8
 
-#EXTINF:-1 tvg-name="Now 80's" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/now-80-s-c62a02856e.png" group-title="MÚSICA",Now 80's
+#EXTINF:-1 tvg-name="Now 80 s" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/now-80-s-c62a02856e.png" group-title="MÚSICA",Now 80 s
 #EXTVLCOPT:network-caching=60000
 https://lightning-now80s-samsungnz.amagi.tv/playlist480p.m3u8
 
