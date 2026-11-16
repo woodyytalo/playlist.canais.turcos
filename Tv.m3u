@@ -195,9 +195,9 @@ https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.eurod" tvg-name="Euro D" group-title="ENTRETENIMENTO",Euro D
+#EXTINF:-1 tvg-name="EURO D" tvg-logo="https://i.ibb.co/THj0Jrg/eurod22.png" group-title="EURO D",2718 - EURO D
 #EXTVLCOPT:network-caching=60000
-https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
+https://bozztv.com/inim03/live1/eurod/playlist.m3u8
 
 #EXTINF:-1 tvg-id="custom.ezgitv" tvg-name="Ezgi TV" group-title="REGIONAIS",Ezgi TV
 #EXTVLCOPT:network-caching=60000
