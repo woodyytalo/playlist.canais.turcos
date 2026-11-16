@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Normalize every available TV channel logo to a square black-background PNG."""
+"""Normalize available TV channel logos to original-dimension PNG files."""
 import hashlib
 import io
 import time
@@ -13,7 +13,7 @@ from PIL import Image
 
 # Preservar dimensões, proporção, cores e transparência originais das logos.
 ROOT = Path(__file__).resolve().parents[1]
-PLAYLIST = ROOT / "Tv.m3u8"
+PLAYLIST = ROOT / "Tv.m3u"
 LOGO_DIR = ROOT / "assets" / "logos"
 REPO = "woodyytalo/playlist.canais.turcos"
 BRANCH = "github/workflows/atualizar-logos.yml"
@@ -151,7 +151,7 @@ def save_original_png(source, destination):
 # Reprocessamento completo: preservar dimensões e aparência original, exportando PNG.
 def main():
     if not PLAYLIST.exists():
-        raise SystemExit("Tv.m3u8 não encontrado.")
+        raise SystemExit("Tv.m3u não encontrado.")
     LOGO_DIR.mkdir(parents=True, exist_ok=True)
     lines = PLAYLIST.read_text(encoding="utf-8").splitlines()
     output = []
