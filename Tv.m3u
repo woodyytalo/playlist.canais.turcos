@@ -3,7 +3,7 @@
 # Canais adicionados do Backup — números originais preservados
 
 
-#EXTINF:-1 tvg-id="24.TV.tr" tvg-name="24 TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/24-tv-tr-1c42560f0c.png" group-title="NOTÍCIAS",24 TV
+#EXTINF:-1 tvg-id="24.TV.tr" tvg-name="24 TV" group-title="NOTÍCIAS",24 TV
 #EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/kanal24/kanal24.smil/chunklist_b896000.m3u8
 
