@@ -6,7 +6,7 @@ on:
     branches:
       - "github/workflows/atualizar-logos.yml"
     paths:
-      - "Tv.m3u8"
+      - "Tv.m3u"
       - "scripts/normalizar_logos_apenas.py"
       - ".github/workflows/normalizar-logos-apenas.yml"
   schedule:
@@ -44,7 +44,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git add Tv.m3u8 assets/logos
+          git add Tv.m3u assets/logos
           if git diff --cached --quiet; then
             echo "Nenhuma logo precisou de alteração."
             exit 0
