@@ -4,14 +4,14 @@
 # Canais adicionados do Backup — números originais preservados
 
 
-#EXTINF: tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/24-tv-b36cf60d19.png"-1 tvg-id="24.TV.tr" tvg-name="24 TV" group-title="NOTÍCIAS",24 TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/24-tv-b36cf60d19.png" tvg-id="24.TV.tr" tvg-name="24 TV" group-title="NOTÍCIAS",24 TV
 #EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/kanal24/kanal24.smil/chunklist_b896000.m3u8
 
 #EXTINF:-1 tvg-id="LiderHaber.tr" tvg-name="Lider Haber" group-title="NOTÍCIAS",Lider Haber
 #EXTVLCOPT:network-caching=60000
 http://nrttn172.kesintisizyayin.com 29010/lidertv/lidertv/sec-f5-v1-a1.m3u8
-#EXTINF: tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/360-tv-0252931471.png"-1 tvg-id="360.tr" tvg-name="360 TV" group-title="ENTRETENIMENTO",360 TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/360-tv-0252931471.png" tvg-id="360.tr" tvg-name="360 TV" group-title="ENTRETENIMENTO",360 TV
 #EXTVLCOPT:network-caching=60000
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 
