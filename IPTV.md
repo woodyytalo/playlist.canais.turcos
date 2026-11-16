@@ -1,8 +1,8 @@
 # IPTV
 
-Esta página organiza os atalhos com **arquivos primeiro** e **pastas depois**. A ordem é apenas deste índice; o GitHub mantém a listagem nativa das pastas antes dos arquivos.
+Índice organizado na ordem solicitada: **arquivos primeiro** e **todas as pastas depois**. Os itens continuam na raiz original do repositório; esta organização não altera os caminhos nem os links das playlists.
 
-## Arquivos
+## Arquivos — parte de cima
 
 - [TV principal — Tv.m3u](Tv.m3u)
 - [TV 2 — TV2.m3u](TV2.m3u)
@@ -11,7 +11,7 @@ Esta página organiza os atalhos com **arquivos primeiro** e **pastas depois**. 
 - [Backup — Backup.m3u](Backup.m3u)
 - [Licença — LICENSE](LICENSE)
 
-## Pastas
+## Pastas — parte de baixo
 
 - [.github](.github/)
 - [assets](assets/)
@@ -22,3 +22,5 @@ Esta página organiza os atalhos com **arquivos primeiro** e **pastas depois**. 
 - [relatorio-qualidade](relatorio-qualidade/)
 - [relatorios](relatorios/)
 - [scripts](scripts/)
+
+**Observação:** a tabela nativa do GitHub continua exibindo pastas antes dos arquivos por regra da plataforma. Esta página apresenta a ordem desejada sem mover ou excluir nada.
