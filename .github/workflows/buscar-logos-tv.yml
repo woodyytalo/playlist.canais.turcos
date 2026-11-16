@@ -26,7 +26,7 @@ jobs:
       - name: Baixar repositório
         uses: actions/checkout@v4
         with:
-          ref: \${{ github.ref_name }}
+          ref: ${{ github.ref_name }}
 
       - name: Preparar Python e bibliotecas
         uses: actions/setup-python@v5
@@ -49,4 +49,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Tv.m3u assets/logos
           git commit -m "Buscar e padronizar logos da TV principal"
-          git push origin "HEAD:\${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
