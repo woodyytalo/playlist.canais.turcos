@@ -1820,6 +1820,8 @@ https://vavoo.to/vavoo-iptv/play/3358854668939e09403c17
 
 #EXTINF:-1 tvg-name="EURO D" tvg-logo="https://i.ibb.co/THj0Jrg/eurod22.png" group-title="EURO D",2718 - EURO D
 https://bozztv.com/inim03/live1/eurod/playlist.m3u8
+#EXTINF:-1 tvg-name="EURO D (geçici geçerli)" tvg-logo="https://i.ibb.co/THj0Jrg/eurod22.png" group-title="EURO D",2719 - EURO D (geçici geçerli)
+https://bozztv.com/inim03/live1/eurod/playlist.m3u8
 
 
 #EXTINF:-1 tvg-name="EURO D (geçici geçerli)" tvg-logo="https://i.ibb.co/THj0Jrg/eurod22.png" group-title="EURO D",2746 - EURO D (geçici geçerli)
