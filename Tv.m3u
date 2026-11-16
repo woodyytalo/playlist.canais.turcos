@@ -768,11 +768,11 @@ https://yayin.santraltr.com/hls/zeynotv.m3u8
 #EXTVLCOPT:network-caching=60000
 https://i41.ozelip.com:3269/hybrid/play.m3u8
 
-#EXTINF:-1 tvg-name="Now 70 s" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/now-70-s-7c69028f21.png" group-title="MÚSICA",Now 70 s
+#EXTINF:-1 tvg-name="Now 70 s" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/now-70-s-e70a045996.png" group-title="MÚSICA",Now 70 s
 #EXTVLCOPT:network-caching=60000
 https://lightning-now70s-samsungnz.amagi.tv/playlist480p.m3u8
 
-#EXTINF:-1 tvg-name="Now 80 s" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/now-80-s-c62a02856e.png" group-title="MÚSICA",Now 80 s
+#EXTINF:-1 tvg-name="Now 80 s" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/now-80-s-9308f71be7.png" group-title="MÚSICA",Now 80 s
 #EXTVLCOPT:network-caching=60000
 https://lightning-now80s-samsungnz.amagi.tv/playlist480p.m3u8
 
