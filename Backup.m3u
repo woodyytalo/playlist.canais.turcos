@@ -846,9 +846,6 @@ https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8
 #EXTINF:-1 tvg-name="BARBAROS TV" group-title="BARBAROS TV",2964 - BARBAROS TV
 https://vavoo.to/vavoo-iptv/play/1519411021283d08ac01c6
 
-#EXTINF:-1 tvg-name="BARBIE ANIMATION 2 HD" group-title="BARBIE ANIMATION 2",2150 - BARBIE ANIMATION 2 HD
-https://vavoo.to/vavoo-iptv/play/280573123054a8c61dd62
-
 #EXTINF:-1 tvg-name="BARTIN TV" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="BARTIN TV",2754 - BARTIN TV
 http://cdn-bartintv.yayin.com.tr/BARTINTV/BARTINTV/playlist.m3u8
 
@@ -971,9 +968,6 @@ https://edge.socialsmart.tv/belemturktv/bant1/chunks.m3u8#all
 
 #EXTINF:-1 tvg-name="BELEMTÜRK" tvg-logo="data:image/svg+xml;charset=utf-8 group-title="BELEMTÜRK",820 - BELEMTÜRK
 https://edge.socialsmart.tv/belemturktv/bant1/chunks.m3u8
-
-#EXTINF:-1 tvg-name="BEN 10 TV" group-title="BEN 10 TV",2167 - BEN 10 TV
-https://vavoo.to/vavoo-iptv/play/3270480503ae6e3f607164
 
 #EXTINF:-1 tvg-name="BENG T RK" group-title="BENG T RK",1846 - BENG T RK
 https://vavoo.to/vavoo-iptv/play/2702376790ed1b5502281a
@@ -4986,9 +4980,6 @@ https://vavoo.to/vavoo-iptv/play/16242993968d7df0501c35
 #EXTINF:-1 tvg-name="PEPEE TV" group-title="PEPEE TV",2348 - PEPEE TV
 https://vavoo.to/vavoo-iptv/play/2502633157e4cecb0b9c9c
 
-#EXTINF:-1 tvg-name="PEPPA PIG" tvg-logo="https://logo.huhu.to/logo?c=2663736849.png" group-title="PEPPA PIG",2349 - PEPPA PIG
-https://vavoo.to/vavoo-iptv/play/26637368499dd5e608e02c
-
 #EXTINF:-1 tvg-id="PersianaTurkiye.fr@SD" tvg-logo="https://i.imgur.com/7p3j0hF.png" group-title="PERSİANA TURKİYE",2901 - Persiana Turkiye
 https://turkhls.persiana.live/hls/stream.m3u8
 
@@ -5009,12 +5000,6 @@ https://vavoo.to/vavoo-iptv/play/349052544410354f05ef9
 
 #EXTINF:-1 group-title="PLAY TV",204 - Play TV
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
-
-#EXTINF:-1 tvg-name="POKEMON HD" group-title="POKEMON",2354 - POKEMON HD
-https://vavoo.to/vavoo-iptv/play/11691035975409e65ccbdf
-
-#EXTINF:-1 tvg-name="POKEMON TV" group-title="POKEMON TV",2355 - POKEMON TV
-https://vavoo.to/vavoo-iptv/play/7315857755d4bda0ebfec
 
 #EXTINF:-1 group-title="POSTA TV ALANYA",503 - POSTA TV ALANYA
 http://cdn-postatv.yayin.com.tr/postatv/postatv/playlist.m3u8
@@ -6432,9 +6417,6 @@ https://str.yodacdn.net/tmb_tr_app/tracks-v1a1/mono.m3u8?token=tmb_app_token_135
 
 #EXTINF:-1 tvg-name="TOKAT TV" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="TOKAT TV",2811 - TOKAT TV
 https://cdn-tokattvwebtv.yayin.com.tr/tokattvwebtv/tokattvwebtv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TOM & JERRY" group-title="TOM JERRY",2403 - TOM & JERRY
-https://vavoo.to/vavoo-iptv/play/410018565922373c7100a2
 
 #EXTINF:-1 tvg-name="TON TV" tvg-logo="https://logo.huhu.to/logo?c=3855597416.png" group-title="TON TV",2404 - TON TV
 https://vavoo.to/vavoo-iptv/play/385559741691e8e41971e8
