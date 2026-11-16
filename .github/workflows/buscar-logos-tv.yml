@@ -1,0 +1,52 @@
+name: Buscar logos da TV principal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 3 * * 1"
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Tv.m3u"
+      - "scripts/buscar_logos_tv.py"
+      - ".github/workflows/buscar-logos-tv.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: buscar-logos-tv-principal
+  cancel-in-progress: false
+
+jobs:
+  buscar-logos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: \${{ github.ref_name }}
+
+      - name: Preparar Python e bibliotecas
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --upgrade pip pillow requests
+
+      - name: Pesquisar e preparar logos correspondentes
+        run: python scripts/buscar_logos_tv.py
+
+      - name: Publicar logos e playlist atualizada
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- Tv.m3u assets/logos; then
+            echo "Nenhuma logo nova ou alteração necessária."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Tv.m3u assets/logos
+          git commit -m "Buscar e padronizar logos da TV principal"
+          git push origin "HEAD:\${GITHUB_REF_NAME}"
