@@ -45,9 +45,10 @@ def playlist_records(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--playlist', default='Tv.m3u8')
+    ap.add_argument('--playlist', default='Tv.m3u')
     ap.add_argument('--input', action='append', required=True)
     ap.add_argument('--output', required=True)
+    ap.add_argument('--report', help='Arquivo TXT com canais sem programação real correspondente.')
     args = ap.parse_args()
 
     records = playlist_records(args.playlist)
@@ -142,7 +143,14 @@ def main():
         raise SystemExit('Validação falhou: saída não contém todos os canais.')
     if any(p.get('channel') not in actual for p in check.findall('programme')):
         raise SystemExit('Programa aponta para canal inexistente.')
-    print(f'{destination}: {len(actual)} canais declarados; {len(matched)} com programação; {len(records)-len(matched)} sem correspondência; {copied} programas reais.')
+    unmatched = [(r[0], r[1], r[4]) for r in records if r[0] not in matched]
+    if args.report:
+        report = Path(args.report)
+        report.parent.mkdir(parents=True, exist_ok=True)
+        lines = [f'Relatório XMLTV — {destination}', f'Canais na playlist: {len(records)}', f'Canais com programação real: {len(matched)}', f'Canais sem programação correspondente: {len(unmatched)}', f'Programas reais copiados: {copied}', '', 'CANAIS SEM PROGRAMAÇÃO:']
+        lines.extend(f'- {name} | ID: {channel_id} | Categoria: {category or "sem categoria"}' for channel_id, name, category in unmatched)
+        report.write_text('\\n'.join(lines) + '\\n', encoding='utf-8')
+    print(f'{destination}: {len(actual)} canais declarados; {len(matched)} com programação; {len(unmatched)} sem correspondência; {copied} programas reais.')
 
 if __name__ == '__main__':
     main()
