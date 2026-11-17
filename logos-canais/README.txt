@@ -1,1 +1,0 @@
-214 logos restauradas do histórico e colocadas em fundo preto.\n
