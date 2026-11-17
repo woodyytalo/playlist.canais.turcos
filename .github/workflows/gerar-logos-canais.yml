@@ -1,4 +1,4 @@
-name: Gerar logos dos canais
+name: Gerar logos originais dos canais
 on:
   workflow_dispatch:
   push:
@@ -16,20 +16,28 @@ jobs:
         with:
           ref: github/workflows/atualizar-logos.yml
           fetch-depth: 0
-      - name: Recuperar logos originais e padronizar em 256x256
+      - name: Recuperar somente logos originais e ajustar para 256x256
         run: |
           python -m pip install Pillow
           python - <<'PY'
-          import os, subprocess
+          import os, shutil, subprocess
           from io import BytesIO
           from PIL import Image
           old = "78f2a0c6a249634013c75a4fa4fb07029bd619aa"
           out = "logos-canais"
-          os.makedirs(out, exist_ok=True)
+          if os.path.exists(out):
+              shutil.rmtree(out)
+          os.makedirs(out)
           paths = subprocess.check_output(["git","ls-tree","-r","--name-only",old,"assets/logos"]).decode().splitlines()
           count = 0
+          skipped_custom = 0
           for path in paths:
-              if not path.lower().endswith((".png",".jpg",".jpeg",".webp")): continue
+              base = os.path.basename(path).lower()
+              if base.startswith("custom-") or "/custom-" in path.lower():
+                  skipped_custom += 1
+                  continue
+              if not path.lower().endswith((".png",".jpg",".jpeg",".webp")):
+                  continue
               try:
                   raw = subprocess.check_output(["git","show",f"{old}:{path}"])
                   im = Image.open(BytesIO(raw)).convert("RGBA")
@@ -42,13 +50,13 @@ jobs:
               except Exception as e:
                   print(f"Skipped {path}: {e}")
           with open(os.path.join(out,"README.txt"),"w") as f:
-              f.write(f"{count} logos em PNG, 256x256 px, proporcao 1:1, fundo preto e preservacao da proporcao original.\\n")
-          print(f"Logos geradas: {count}")
+              f.write(f"{count} logos de arquivos originais; PNG 256x256 px; proporcao 1:1; fundo preto; marcas sem redesenho.\\n")
+          print(f"Logos originais geradas: {count}; customizadas ignoradas: {skipped_custom}")
           PY
       - name: Salvar pasta no repositório
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add logos-canais
-          git commit -m "Gerar logos quadradas 256x256" || echo "Sem alterações"
+          git add -A logos-canais
+          git commit -m "Gerar somente logos originais em 256x256" || echo "Sem alterações"
           git push origin HEAD:github/workflows/atualizar-logos.yml
