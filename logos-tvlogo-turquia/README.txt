@@ -1,3 +1,1 @@
-Pasta reservada para as imagens PNG originais do diretório TVLogo.org — Turquia.
-Fonte: https://www.tvlogo.org/turkey/
-O workflow Gerar logos originais dos canais baixa os arquivos PNG listados no diretório e registra o total obtido.
+Logos PNG originais baixadas do diretório oficial https://www.tvlogo.org/turkey/\nArquivos baixados: 298\nFalhas: 0\n
