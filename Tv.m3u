@@ -86,7 +86,7 @@ https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8
 #EXTVLCOPT:network-caching=1000
 https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 
-#EXTINF:-1 tvg-id="custom.birtv" tvg-name="Bir TV" group-title="ENTRETENIMENTO",Bir TV
+#EXTINF:-1 tvg-id="custom.birtv" tvg-name="Bir TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/birtv.png",Bir TV
 #EXTVLCOPT:network-caching=1000
 https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8
 
@@ -106,11 +106,11 @@ https://live.artidijitalmedya.com/artidijital_brtv/brtv/chunks.m3u8
 #EXTVLCOPT:network-caching=1000
 http://176.65.153.40:6002/play/a013/index.m3u8
 
-#EXTINF:-1 tvg-id="custom.cine1" tvg-name="CİNE1" group-title="FILMES E SÉRIES",CİNE1
+#EXTINF:-1 tvg-id="custom.cine1" tvg-name="CİNE1" group-title="FILMES E SÉRIES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/cine1.png",CİNE1
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.cnbce" tvg-name="CNBC e" group-title="NOTÍCIAS",CNBC e
+#EXTINF:-1 tvg-id="custom.cnbce" tvg-name="CNBC e" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/cnbce.png",CNBC e
 #EXTVLCOPT:network-caching=1000
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_480p.m3u8
 
@@ -371,7 +371,7 @@ https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u
 #EXTVLCOPT:network-caching=1000
 https://lbl.netmedya.net/hls/lalegultv.m3u8
 
-#EXTINF:-1 tvg-id="custom.lifetv" tvg-name="Life TV" group-title="NOTÍCIAS",Life TV
+#EXTINF:-1 tvg-id="custom.lifetv" tvg-name="Life TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/lifetv.png",Life TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
@@ -443,7 +443,7 @@ https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8
 #EXTVLCOPT:network-caching=1000
 https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.powerturktaptaze" tvg-name="PowerTürk Taptaze" group-title="MÚSICA",PowerTürk Taptaze
+#EXTINF:-1 tvg-id="custom.powerturktaptaze" tvg-name="PowerTürk Taptaze" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/powerturktaptaze.png",PowerTürk Taptaze
 #EXTVLCOPT:network-caching=1000
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
@@ -559,7 +559,7 @@ https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:network-caching=1000
 http://dygvideo.dygdigital.com/live/hls/kralpop
 
-#EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-id="custom.nr1fashionone" group-title="MÚSICA",NR1 Fashion One
+#EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-id="custom.nr1fashionone" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/nr1fashionone.png",NR1 Fashion One
 #EXTVLCOPT:network-caching=1000
 http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
 
@@ -729,7 +729,7 @@ https://turkhls.persiana.live/hls/stream.m3u8
 #EXTVLCOPT:network-caching=1000
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest/1.m3u8
 
-#EXTINF:-1 tvg-id="TLC.de@SD" group-title="DOCUMENTÁRIOS" tvg-name="TLC",TLC
+#EXTINF:-1 tvg-id="TLC.de@SD" group-title="DOCUMENTÁRIOS" tvg-name="TLC" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/tlc.png",TLC
 #EXTVLCOPT:network-caching=1000
 https://s6.hopslan.com/tlcX/index.m3u8
 
@@ -787,19 +787,19 @@ https://live.euromediacenter.com/tvmor/index.m3u8
 #EXTINF:-1 group-title="MÚSICA" tvg-id="custom.iqchannel",185 - IQ Channel
 #EXTVLCOPT:network-caching=1000
 https://rtmp.info/iqtv/envivo/playlist.m3u8
-#EXTINF:-1 tvg-name="JÎN TV" group-title="INTERNACIONAIS" tvg-id="custom.jintv",2869 - JÎN TV
+#EXTINF:-1 tvg-name="JÎN TV" group-title="INTERNACIONAIS" tvg-id="custom.jintv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/2869jintv.png",2869 - JÎN TV
 #EXTVLCOPT:network-caching=1000
 https://live.jintv.org/medialive/jintv.m3u8
-#EXTINF:-1 tvg-name="MAKKAH TV" group-title="RELIGIOSOS" tvg-id="custom.makkahtv",617 - Makkah TV
+#EXTINF:-1 tvg-name="MAKKAH TV" group-title="RELIGIOSOS" tvg-id="custom.makkahtv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/617makkahtv.png",617 - Makkah TV
 #EXTVLCOPT:network-caching=1000
 https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all
 #EXTINF:-1 group-title="REGIONAIS" tvg-id="custom.mktv",006 - MK TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
-#EXTINF:-1 group-title="MÚSICA" tvg-id="custom.toppop",142 - TopPop
+#EXTINF:-1 group-title="MÚSICA" tvg-id="custom.toppop" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/142toppop.png",142 - TopPop
 #EXTVLCOPT:network-caching=1000
 https://yayin.santraltr.com/hls/toppop.m3u8
-#EXTINF:-1 tvg-name="TRT 2" tvg-id="TRT.2.HD.tr" group-title="TRT",2899 - TRT 2
+#EXTINF:-1 tvg-name="TRT 2" tvg-id="TRT.2.HD.tr" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/2899trt2.png",2899 - TRT 2
 #EXTVLCOPT:network-caching=1000
 https://tv-trt2.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="MÚSICA" tvg-id="custom.retromusictelevision",209 - Retro Music Television
