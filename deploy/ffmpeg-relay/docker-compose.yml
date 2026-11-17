@@ -14,6 +14,6 @@ services:
       VIDEO_MAXRATE: ${VIDEO_MAXRATE:-9000k}
       AUDIO_BITRATE: ${AUDIO_BITRATE:-192k}
     ports:
-      - "8080:8080"
+      - "127.0.0.1:8080:8080"
     volumes:
       - ./data:/data
