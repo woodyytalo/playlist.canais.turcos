@@ -1,0 +1,51 @@
+name: Gerar logos dos canais
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
+          fetch-depth: 0
+      - name: Recuperar logos originais e padronizar
+        run: |
+          python -m pip install Pillow
+          python - <<'PY'
+          import os, subprocess
+          from io import BytesIO
+          from PIL import Image, ImageOps
+          old = "78f2a0c6a249634013c75a4fa4fb07029bd619aa"
+          prefix = "assets/logos/"
+          out = "logos-canais"
+          os.makedirs(out, exist_ok=True)
+          paths = subprocess.check_output(["git","ls-tree","-r","--name-only",old,"assets/logos"]).decode().splitlines()
+          count = 0
+          for path in paths:
+              if not path.lower().endswith((".png",".jpg",".jpeg",".webp")): continue
+              try:
+                  raw = subprocess.check_output(["git","show",f"{old}:{path}"])
+                  im = Image.open(BytesIO(raw)).convert("RGBA")
+                  # Preserve original logo colors and transparency; place on a pure black canvas.
+                  im.thumbnail((560, 250), Image.Resampling.LANCZOS)
+                  canvas = Image.new("RGBA", (600, 300), (0,0,0,255))
+                  canvas.alpha_composite(im, ((600-im.width)//2, (300-im.height)//2))
+                  name = os.path.basename(path).rsplit(".",1)[0] + ".png"
+                  canvas.convert("RGB").save(os.path.join(out,name), "PNG", optimize=True)
+                  count += 1
+              except Exception as e:
+                  print(f"Skipped {path}: {e}")
+          with open(os.path.join(out,"README.txt"),"w") as f:
+              f.write(f"{count} logos restauradas do histórico e colocadas em fundo preto.\n")
+          print(f"Logos geradas: {count}")
+          PY
+      - name: Salvar pasta no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logos-canais
+          git commit -m "Adicionar pasta de logos padronizadas em fundo preto" || echo "Sem alterações"
+          git push origin HEAD:github/workflows/atualizar-logos.yml
