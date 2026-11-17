@@ -16,7 +16,7 @@ jobs:
       - name: Baixar repositório
         uses: actions/checkout@v4
         with:
-          ref: \${{ github.ref_name }}
+          ref: ${{ github.ref }}
       - name: Preparar Python
         uses: actions/setup-python@v5
         with:
@@ -25,7 +25,7 @@ jobs:
         run: python -m pip install --upgrade pillow
       - name: Ajustar logos e atualizar TV principal
         env:
-          GITHUB_REF_NAME: \${{ github.ref_name }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
         run: python scripts/ajustar_logos_backup.py
       - name: Salvar PNGs e playlist
         run: |
