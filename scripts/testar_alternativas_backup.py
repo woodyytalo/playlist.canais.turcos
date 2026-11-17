@@ -49,87 +49,109 @@ def probe(item):
 
 EXTRA = {
     "Altas TV": [
+        "https://edge1.socialsmart.tv/altastv/bant1/chunks.m3u8",
+        "https://stream.tvcdn.net/yerel/altas-tv.m3u8",
         "https://edge.socialsmart.tv/altastv/bant1/playlist.m3u8",
         "http://stream.taksimbilisim.com:1935/altastv/bant1/playlist.m3u8",
         "https://broadcasttr.com:446/altastv/bant1/index.m3u8",
     ],
     "Anadolu TV": [
+        "https://stream.tvcdn.net/yerel/anadolu-tv.m3u8",
         "https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8",
     ],
     "Bir TV": [
+        "https://live.artidijitalmedya.com/artidijital_birtv/birtv/playlist.m3u8",
         "https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8",
         "http://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8",
         "https://edge1.socialsmart.tv/birtv/bant1/chunks.m3u8",
     ],
     "DHA": [
+        "https://603c568fccdf5.streamlock.net/live/dhaweb1/playlist.m3u8",
+        "https://603c568fccdf5.streamlock.net/live2/dhaweb2/playlist.m3u8",
         "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
         "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/.m3u8",
     ],
     "ETV Manisa": [
+        "https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8",
         "https://edge.socialsmart.tv/manisaetv/bant1/playlist.m3u8",
         "https://edge1.socialsmart.tv/manisaetv/bant1/chunks.m3u8",
     ],
     "Güneydoğu TV": [
+        "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8",
         "http://origin.live.web.tv.streamprovider.net/streams/d0366f51fd40ab2060ca1747ca94ae08_live_0_0/index.m3u8",
         "http://stream2.taksimbilisim.com:1935/gtv/bant1/GuneydoguTV.m3u8",
         "https://edge1.socialsmart.tv/gtv/bant1/chunks.m3u8",
     ],
     "İçel TV": [
+        "https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8",
         "http://stream.taksimbilisim.com:1935/iceltv/bant1/playlist.m3u8",
         "https://stream.tvcdn.net/yerel/icel-tv.m3u8",
         "https://edge1.socialsmart.tv/iceltv/bant1/chunks.m3u8",
     ],
     "Kanal 32": [
+        "https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8",
         "http://stream.taksimbilisim.com:1935/kanal32/bant1/playlist.m3u8",
         "https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8",
     ],
     "Kanal 33": [
+        "https://broadcasttr.com:446/kanal33/bant1/playlist.m3u8",
+        "http://stream.taksimbilisim.com:1935/kanal33/smil:kanal33.smil/playlist.m3u8",
         "http://stream.taksimbilisim.com:1935/kanal33/bant1/playlist.m3u8",
         "https://edge1.socialsmart.tv/kanal33/bant1/chunks.m3u8",
     ],
     "Kanal Urfa": [
+        "https://broadcasttr.com:446/kanalurfa/bant1/chunklist.m3u8",
         "http://stream2.taksimbilisim.com:1935/kanalurfa/bant1/playlist.m3u8",
         "https://broadcasttr.com:446/kanalurfa/bant1/chunklist_w1125528664.m3u8",
         "https://stream.tvcdn.net/yerel/kanal-urfa.m3u8",
     ],
     "Kardelen TV": [
+        "http://newcrm.streamencoding.com/hls/kardelen-live/index.m3u8",
         "http://stream2.taksimbilisim.com:1935/kardelentv/bant1/playlist.m3u8",
         "https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8?WithCaption",
     ],
     "MTürk TV": [
+        "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8",
         "https://edge.socialsmart.tv/muglaturk/bant1/playlist.m3u8",
         "https://edge1.socialsmart.tv/muglaturk/bant1/chunks.m3u8",
     ],
     "Natural TV": [
+        "https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
         "http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8",
         "https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
         "https://edge1.socialsmart.tv/naturaltv/bant1/chunks.m3u8",
     ],
     "TELE1": [
+        "https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8",
         "https://mn-nl.mncdn.com/blutv_tele1_dvr/live_720p2000000/index.m3u8",
         "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
         "https://tele1.blutv.com/blutv_tele1_live/live.m3u8",
     ],
     "TRT 2": [
+        "https://tv-trt2.medya.trt.com.tr/master_1080.m3u8",
         "https://tv-trt2.medya.trt.com.tr/master.m3u8",
         "https://tv-trt2.medya.trt.com.tr/master_720.m3u8",
         "https://tv-trt2.live.trt.com.tr/master.m3u8",
     ],
     "TV 1": [
+        "https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8",
         "http://stream.taksimbilisim.com:1935/tv1/bant1/playlist.m3u8",
         "http://stream.taksimbilisim.com:1935/tv1/smil:tv1.smil/playlist.m3u8",
         "https://edge1.socialsmart.tv/tv1/bant1/chunks.m3u8",
     ],
     "TV 52": [
+        "https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8",
         "http://stream2.taksimbilisim.com:1935/tv52/bant1/playlist.m3u8",
         "http://stream.taksimbilisim.com:1935/tv52/smil:tv52.smil/playlist.m3u8",
         "https://edge1.socialsmart.tv/tv52/bant1/chunks.m3u8",
     ],
     "TürkHaber": [
+        "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
         "https://edge.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
         "https://edge1.socialsmart.tv/turkhaber/bant1/chunks.m3u8",
     ],
     "Çay TV": [
+        "https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8",
         "https://edge.socialsmart.tv/caytv/bant1/playlist.m3u8",
         "https://edge1.socialsmart.tv/caytv/bant1/chunks.m3u8",
     ],
