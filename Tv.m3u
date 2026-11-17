@@ -794,3 +794,5 @@ https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA",142 - TopPop
 https://yayin.santraltr.com/hls/toppop.m3u8
+#EXTINF:-1 tvg-name="TRT 2" tvg-id="TRT.2.HD.tr" tvg-logo="https://i.ibb.co/0JcxnSL/trt-2.png" group-title="TRT",2899 - TRT 2
+https://tv-trt2.medya.trt.com.tr/master_1080.m3u8
