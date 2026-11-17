@@ -1,6 +1,11 @@
 name: Gerar logos dos canais
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - ".github/workflows/gerar-logos-canais.yml"
 permissions:
   contents: write
 jobs:
@@ -17,9 +22,8 @@ jobs:
           python - <<'PY'
           import os, subprocess
           from io import BytesIO
-          from PIL import Image, ImageOps
+          from PIL import Image
           old = "78f2a0c6a249634013c75a4fa4fb07029bd619aa"
-          prefix = "assets/logos/"
           out = "logos-canais"
           os.makedirs(out, exist_ok=True)
           paths = subprocess.check_output(["git","ls-tree","-r","--name-only",old,"assets/logos"]).decode().splitlines()
@@ -29,7 +33,6 @@ jobs:
               try:
                   raw = subprocess.check_output(["git","show",f"{old}:{path}"])
                   im = Image.open(BytesIO(raw)).convert("RGBA")
-                  # Preserve original logo colors and transparency; place on a pure black canvas.
                   im.thumbnail((560, 250), Image.Resampling.LANCZOS)
                   canvas = Image.new("RGBA", (600, 300), (0,0,0,255))
                   canvas.alpha_composite(im, ((600-im.width)//2, (300-im.height)//2))
@@ -39,7 +42,7 @@ jobs:
               except Exception as e:
                   print(f"Skipped {path}: {e}")
           with open(os.path.join(out,"README.txt"),"w") as f:
-              f.write(f"{count} logos restauradas do histórico e colocadas em fundo preto.\n")
+              f.write(f"{count} logos restauradas do histórico e colocadas em fundo preto.\\n")
           print(f"Logos geradas: {count}")
           PY
       - name: Salvar pasta no repositório
