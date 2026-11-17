@@ -11,7 +11,7 @@ import re, time
 from datetime import datetime, timezone
 
 TARGETS = [
-"24 TV","A Haber","A Para","A Spor","A2","Altas TV","Anadolu TV","Bir TV","CİNE1","CNN Türk","DHA","Ekotürk","ETV Manisa","Güneydoğu TV","İçel TV","Kanal 32","Kanal 33","Kanal Urfa","Kardelen TV","MTürk TV","Natural TV","NOW","Power Dance TV","Sözcü TV","TELE1","TRT 2","TV 1","TV 52","TV100","TV 4","TVNET","TürkHaber","Çay TV","Ülke TV"
+"Altas TV","Anadolu TV","Bir TV","ETV Manisa","Güneydoğu TV","İçel TV","Kanal 32","Kanal 33","Kanal Urfa","Kardelen TV","MTürk TV","Natural TV","TELE1","TRT 2","TV 1","TV 52","TürkHaber","Çay TV"
 ]
 BLOCKED = ("vavoo.to","europlayiptv.de","185.234.111.229","youtube.com/embed","ythls.kekikakademi.org")
 def norm(s):
