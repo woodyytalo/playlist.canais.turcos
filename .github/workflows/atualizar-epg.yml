@@ -6,13 +6,13 @@ on:
     branches:
       - "github/workflows/atualizar-logos.yml"
     paths:
-      - "Tv.m3u8"
+      - "Tv.m3u"
       - "scripts/sincronizar_epg.py"
       - "epg/fontes-open-epg.txt"
       - ".github/workflows/atualizar-epg.yml"
   schedule:
-    # Atualiza a programação a cada seis horas.
-    - cron: "30 0,6,12,18 * * *"
+    # Consulta as fontes e sincroniza o guia a cada cinco minutos (quando o GitHub iniciar o agendamento).
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
@@ -137,7 +137,7 @@ jobs:
           for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/dearbulut-turquia.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml /tmp/epgfull-turquia.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
-          python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-open-epg.xml
+          python3 scripts/sincronizar_epg.py --playlist Tv.m3u "${args[@]}" --output epg/guia-open-epg.xml
 
       - name: Combinar todas as fontes XMLTV com a fonte principal
         shell: bash
@@ -147,7 +147,7 @@ jobs:
           for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/dearbulut-turquia.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
-          python3 scripts/sincronizar_epg.py --playlist Tv.m3u8 "${args[@]}" --output epg/guia-turquia.xml
+          python3 scripts/sincronizar_epg.py --playlist Tv.m3u "${args[@]}" --output epg/guia-turquia.xml
 
       - name: Validar e publicar os dois guias
         shell: bash
@@ -155,7 +155,7 @@ jobs:
           set -euo pipefail
           python3 - <<'PY'
           import xml.etree.ElementTree as ET
-          expected = sum(1 for line in open("Tv.m3u8", encoding="utf-8") if line.startswith("#EXTINF:"))
+          expected = sum(1 for line in open("Tv.m3u", encoding="utf-8") if line.startswith("#EXTINF:"))
           for path in ["epg/guia-open-epg.xml", "epg/guia-turquia.xml"]:
               root = ET.parse(path).getroot()
               channels, programmes = root.findall("channel"), root.findall("programme")
