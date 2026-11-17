@@ -47,6 +47,14 @@ def probe(item):
         if attempt==0: time.sleep(.5)
     return name,url,"FALHA",detail
 
+EXTRA = {
+    "A2": ["https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8"],
+    "Bir TV": ["https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8"],
+    "Natural TV": ["http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8"],
+    "NOW": ["https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8"],
+    "Power Dance TV": ["https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8"],
+    "TRT 2": ["https://tv-trt2.medya.trt.com.tr/master.m3u8"],
+}
 backup=parse("Backup.m3u")
 current=parse("Tv.m3u")
 current_urls={norm(n):urldefrag(u)[0] for n,u,_ in current}
@@ -61,9 +69,13 @@ for name in TARGETS:
         url=urldefrag(url)[0]
         if url==current_urls.get(key): continue
         if url not in [x[1] for x in candidates]: candidates.append((title,url,meta))
+    for url in EXTRA.get(name, []):
+        url=urldefrag(url)[0]
+        if url != current_urls.get(key) and url not in [x[1] for x in candidates]:
+            candidates.append((name,url,"fonte externa adicional"))
     if not candidates:
         no_candidate.append(name)
-    for _,url,_ in candidates[:5]: tasks.append((name,url))
+    for _,url,_ in candidates[:8]: tasks.append((name,url))
 
 results=[]
 with ThreadPoolExecutor(max_workers=8) as pool:
