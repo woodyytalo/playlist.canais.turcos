@@ -8,6 +8,7 @@ on:
       - "Tv.m3u"
       - "scripts/validar_playlist_anti_crash.py"
       - "scripts/testar_streams_anti_crash.py"
+      - "scripts/testar_alternativas_backup.py"
       - ".github/workflows/anti-crash-tv-principal.yml"
   schedule:
     - cron: "17 */4 * * *"
@@ -35,6 +36,16 @@ jobs:
         id: streams
         continue-on-error: true
         run: python scripts/testar_streams_anti_crash.py Tv.m3u reports/anti-crash/resultado.txt
+      - name: Testar alternativas do Backup para canais com falha
+        run: python scripts/testar_alternativas_backup.py Tv.m3u Backup.m3u
+      - name: Publicar relatório de alternativas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: alternativas-backup-tv-principal
+          path: reports/anti-crash/alternativas-backup.txt
+          if-no-files-found: warn
+          retention-days: 1
       - name: Publicar relatório da auditoria
         if: always()
         uses: actions/upload-artifact@v4
