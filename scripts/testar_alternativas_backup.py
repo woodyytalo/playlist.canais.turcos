@@ -48,12 +48,28 @@ def probe(item):
     return name,url,"FALHA",detail
 
 EXTRA = {
+    "Altas TV": ["https://edge.socialsmart.tv/altastv/bant1/playlist.m3u8"],
+    "Bir TV": ["https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8","http://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8"],
+    "DHA": ["https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8"],
+    "ETV Manisa": ["https://edge.socialsmart.tv/manisaetv/bant1/playlist.m3u8"],
+    "Güneydoğu TV": ["http://origin.live.web.tv.streamprovider.net/streams/d0366f51fd40ab2060ca1747ca94ae08_live_0_0/index.m3u8","http://stream2.taksimbilisim.com:1935/gtv/bant1/GuneydoguTV.m3u8"],
+    "İçel TV": ["http://stream.taksimbilisim.com:1935/iceltv/bant1/playlist.m3u8","https://stream.tvcdn.net/yerel/icel-tv.m3u8"],
+    "Kanal 32": ["http://stream.taksimbilisim.com:1935/kanal32/bant1/playlist.m3u8"],
+    "Kanal 33": ["http://stream.taksimbilisim.com:1935/kanal33/bant1/playlist.m3u8"],
+    "Kanal Urfa": ["http://stream2.taksimbilisim.com:1935/kanalurfa/bant1/playlist.m3u8"],
+    "Kardelen TV": ["http://stream2.taksimbilisim.com:1935/kardelentv/bant1/playlist.m3u8"],
+    "MTürk TV": ["https://edge.socialsmart.tv/muglaturk/bant1/playlist.m3u8"],
+    "Natural TV": ["http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8","https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8"],
+    "NOW": ["https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8"],
+    "TV 1": ["http://stream.taksimbilisim.com:1935/tv1/bant1/playlist.m3u8"],
+    "TV 52": ["http://stream2.taksimbilisim.com:1935/tv52/bant1/playlist.m3u8"],
+    "TürkHaber": ["https://edge.socialsmart.tv/turkhaber/bant1/playlist.m3u8"],
+    "Çay TV": ["https://edge.socialsmart.tv/caytv/bant1/playlist.m3u8"],
     "A2": ["https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8"],
-    "Bir TV": ["https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8"],
-    "Natural TV": ["http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8"],
+    "Bir TV": ["https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8","http://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8"],
     "NOW": ["https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8"],
     "Power Dance TV": ["https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8"],
-    "TRT 2": ["https://tv-trt2.medya.trt.com.tr/master.m3u8"],
+    "TRT 2": ["https://tv-trt2.medya.trt.com.tr/master.m3u8","https://tv-trt2.live.trt.com.tr/master.m3u8"],
 }
 backup=parse("Backup.m3u")
 current=parse("Tv.m3u")
