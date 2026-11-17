@@ -81,6 +81,49 @@ jobs:
               response.raise_for_status()
               return Image.open(io.BytesIO(response.content)).convert("RGBA")
 
+          fallback_specs = {
+              "custom-dim-tv-c6ba0ab1": ("Dim TV", (0, 145, 160)),
+              "custom-er-tv-malatya-bf525edd": ("ER TV MALATYA", (180, 25, 35)),
+              "custom-ezgi-tv-f89a992c": ("EZGI TV", (25, 85, 165)),
+              "custom-frt-tv-8d7f22f7": ("FRT TV", (20, 105, 185)),
+              "custom-grt-gaziantep-tv-9054a037": ("GRT GAZIANTEP", (175, 35, 35)),
+              "custom-ht-spor-tv-8e3c4d85": ("HT SPOR", (220, 95, 10)),
+              "custom-hunat-tv-7684992d": ("HUNAT TV", (30, 115, 70)),
+              "custom-iq-channel-3fbc5869": ("IQ CHANNEL", (95, 45, 165)),
+              "custom-k-kayseri-34ef470d": ("K+ KAYSERI", (0, 115, 135)),
+              "custom-kanal-12-e4005eab": ("KANAL 12", (175, 25, 45)),
+              "custom-kanal-19-dd0053a6": ("KANAL 19", (25, 65, 145)),
+              "custom-kanal-32-54058c29": ("KANAL 32", (0, 125, 180)),
+              "custom-kanal-53-db0adddc": ("KANAL 53", (0, 125, 115)),
+              "custom-konya-ktv-e2b7c592": ("KONYA KTV", (25, 115, 65)),
+              "custom-luys-tv-6ee3e374": ("LUYS TV", (105, 55, 145)),
+              "custom-mc-eu-tv-e102f735": ("MC EU TV", (20, 75, 150)),
+              "custom-mk-tv-1456b63c": ("MK TV", (0, 125, 155)),
+              "custom-retro-music-television-c3fa2d6e": ("RETRO MUSIC", (145, 35, 105)),
+              "custom-ton-tv-27d24d14": ("TON TV", (155, 35, 45)),
+              "custom-vuslat-tv-4f47f4f4": ("VUSLAT TV", (145, 105, 25)),
+          }
+
+          def create_fallback(label, color):
+              canvas = Image.new("RGB", (512, 256), (0, 0, 0))
+              draw = ImageDraw.Draw(canvas)
+              draw.rounded_rectangle((14, 16, 498, 240), radius=22, fill=color)
+              draw.rounded_rectangle((22, 24, 490, 232), radius=16, outline=(235, 235, 235), width=3)
+              size = 44
+              try:
+                  font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", size)
+              except Exception:
+                  font = ImageFont.load_default()
+              while size > 22 and draw.textbbox((0, 0), label, font=font)[2] > 440:
+                  size -= 2
+                  try:
+                      font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", size)
+                  except Exception:
+                      break
+              box = draw.textbbox((0, 0), label, font=font)
+              draw.text(((512-(box[2]-box[0]))//2, (256-(box[3]-box[1]))//2-box[1]), label, font=font, fill=(255,255,255))
+              return canvas
+
           converted = 0
           for path in sorted(LOGOS.iterdir()):
               if path.is_file() and path.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"):
@@ -92,7 +135,14 @@ jobs:
                           path.unlink()
                       converted += 1
                   except Exception as exc:
-                      print(f"Não foi possível converter {path.name}: {exc}")
+                      spec = fallback_specs.get(path.stem)
+                      if spec:
+                          label, color = spec
+                          create_fallback(label, color).save(path.with_suffix(".png"), format="PNG", optimize=True)
+                          converted += 1
+                          print(f"Logo personalizada em cores da emissora criada para {label}; arquivo de origem inválido.")
+                      else:
+                          print(f"Não foi possível converter {path.name}: {exc}")
 
           lines = PLAYLIST.read_text(encoding="utf-8").splitlines()
           external = {
@@ -112,19 +162,9 @@ jobs:
 
           drama_file = "kanal-d-drama-retangular.png"
           try:
-              official = download("https://www.kanald.com.tr/assets/img/logo.v3.png")
-              official.thumbnail((210, 170), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA", (512, 256), (0, 0, 0, 255))
-              canvas.alpha_composite(official, ((512-official.width)//2, 8))
-              draw = ImageDraw.Draw(canvas)
-              try:
-                  font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 40)
-              except Exception:
-                  font = ImageFont.load_default()
-              label = "DRAMA"
-              bbox = draw.textbbox((0,0), label, font=font)
-              draw.text(((512-(bbox[2]-bbox[0]))//2, 190), label, font=font, fill=(255,255,255,255), stroke_width=1, stroke_fill=(0,90,190,255))
-              canvas.convert("RGB").save(LOGOS / drama_file, format="PNG", optimize=True)
+              # Logo Kanal D Drama encontrada no catálogo público de canais; preservar o desenho original.
+              official = download("https://i.imgur.com/WIeZMKT.png")
+              make_rectangular(official).save(LOGOS / drama_file, format="PNG", optimize=True)
           except Exception as exc:
               print(f"Logo oficial Kanal D indisponível; criando versão tipográfica: {exc}")
               canvas = Image.new("RGB", (512,256), (0,0,0))
