@@ -790,3 +790,5 @@ https://rtmp.info/iqtv/envivo/playlist.m3u8
 https://live.jintv.org/medialive/jintv.m3u8
 #EXTINF:-1 tvg-name="MAKKAH TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCVPXXnt4LxrLpCI6sRKfYu0bZkjHUg1WkQ&s" group-title="MAKKAH TV",617 - MAKKAH TV
 https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all
+#EXTINF:-1 group-title="MK TV",006 - MK TV
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
