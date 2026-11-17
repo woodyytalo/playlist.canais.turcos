@@ -195,7 +195,7 @@ https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Euro D" tvg-logo="https://i.ibb.co/jMQTJmh/euro-d.png" group-title="ENTRETENIMENTO",2718 - EURO D
+#EXTINF:-1 tvg-name="Euro D" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/euro-d-original.png" group-title="ENTRETENIMENTO",2718 - EURO D
 #EXTVLCOPT:network-caching=60000
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 
@@ -332,7 +332,7 @@ https://tv.kanalb.tr/hls/kanalb/index.m3u8
 #EXTVLCOPT:network-caching=60000
 http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.kanalddrama" tvg-name="Kanal D Drama" group-title="ENTRETENIMENTO",Kanal D Drama
+#EXTINF:-1 tvg-id="custom.kanalddrama" tvg-name="Kanal D Drama" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/kanal-d-drama-retangular.png",Kanal D Drama
 #EXTVLCOPT:network-caching=60000
 https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371fb4d7475349d6f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8
 
@@ -786,15 +786,15 @@ https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
 https://live.euromediacenter.com/tvmor/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-iq-channel-3fbc5869.png" group-title="MÚSICA",185 - IQ Channel
 https://rtmp.info/iqtv/envivo/playlist.m3u8
-#EXTINF:-1 tvg-name="JÎN TV" tvg-logo="https://i.ibb.co/cXd3MBV/symkr.png" group-title="INTERNACIONAIS",2869 - JÎN TV
+#EXTINF:-1 tvg-name="JÎN TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/jin-tv-original.png" group-title="INTERNACIONAIS",2869 - JÎN TV
 https://live.jintv.org/medialive/jintv.m3u8
-#EXTINF:-1 tvg-name="MAKKAH TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCVPXXnt4LxrLpCI6sRKfYu0bZkjHUg1WkQ&s" group-title="RELIGIOSOS",617 - Makkah TV
+#EXTINF:-1 tvg-name="MAKKAH TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/makkah-tv-original.png" group-title="RELIGIOSOS",617 - Makkah TV
 https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-mk-tv-1456b63c.png" group-title="REGIONAIS",006 - MK TV
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="MÚSICA",142 - TopPop
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/toppop-original.png" group-title="MÚSICA",142 - TopPop
 https://yayin.santraltr.com/hls/toppop.m3u8
-#EXTINF:-1 tvg-name="TRT 2" tvg-id="TRT.2.HD.tr" tvg-logo="https://i.ibb.co/0JcxnSL/trt-2.png" group-title="TRT",2899 - TRT 2
+#EXTINF:-1 tvg-name="TRT 2" tvg-id="TRT.2.HD.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/trt-2-original.png" group-title="TRT",2899 - TRT 2
 https://tv-trt2.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/custom-retro-music-television-c3fa2d6e.png" group-title="MÚSICA",209 - Retro Music Television
 https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
