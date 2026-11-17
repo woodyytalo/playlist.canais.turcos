@@ -792,3 +792,5 @@ https://live.jintv.org/medialive/jintv.m3u8
 https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all
 #EXTINF:-1 group-title="MK TV",006 - MK TV
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="TOPPOP",142 - TopPop
+https://yayin.santraltr.com/hls/toppop.m3u8
