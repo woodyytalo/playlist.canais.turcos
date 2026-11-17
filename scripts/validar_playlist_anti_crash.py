@@ -29,7 +29,7 @@ while i < len(lines):
         if "," not in line or not line.rsplit(",", 1)[1].strip():
             errors.append(f"linha {i+1}: nome do canal vazio ou EXTINF inválido")
         name = line.rsplit(",", 1)[-1].strip() if "," in line else f"linha {i+1}"
-        key = re.sub(r"\\s+", " ", name.casefold())
+        key = re.sub(r"\s+", " ", name.casefold())
         seen_names.setdefault(key, []).append(i+1)
         logo = re.search(r'tvg-logo="([^"]*)"', line)
         if logo and logo.group(1):
