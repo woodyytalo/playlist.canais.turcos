@@ -223,7 +223,7 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 #EXTVLCOPT:network-caching=1000
 https://gcinemahls.wns.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-id="custom.grtgazianteptv" tvg-name="GRT Gaziantep TV" group-title="REGIONAIS",GRT Gaziantep TV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fd/Grt-tv-tr.png" tvg-id="custom.grtgazianteptv" tvg-name="GRT Gaziantep TV" group-title="REGIONAIS",GRT Gaziantep TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 
