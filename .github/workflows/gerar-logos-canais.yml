@@ -93,8 +93,8 @@ jobs:
           from PIL import Image, ImageDraw
           
           folder = Path("logos-tvlogo-turquia")
-          canvas_size = (1200, 600)
-          max_logo_size = (1080, 480)
+          canvas_size = (256, 256)
+          max_logo_size = (230, 230)
           processed = 0
           
           for path in sorted(folder.glob("*.png")):
@@ -118,7 +118,7 @@ jobs:
           
           if processed == 0:
               raise SystemExit("Nenhum PNG encontrado para padronizar.")
-          print(f"Logos padronizadas: {processed}; tamanho final: 1200x600; proporção: 2:1")
+          print(f"Logos padronizadas: {processed}; tamanho final: 256x256; proporção: 1:1")
           PY
       - name: Salvar PNGs na pasta do repositório
         run: |
