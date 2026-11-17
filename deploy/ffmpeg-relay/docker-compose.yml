@@ -1,0 +1,19 @@
+services:
+  tv-relay:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tv-principal-ffmpeg
+    restart: unless-stopped
+    environment:
+      PLAYLIST_PATH: /data/Tv.m3u
+      HLS_DIR: /data/hls
+      RELAY_TOKEN: ${RELAY_TOKEN:?Defina RELAY_TOKEN no ambiente}
+      MAX_CONCURRENT: ${MAX_CONCURRENT:-4}
+      VIDEO_BITRATE: ${VIDEO_BITRATE:-8500k}
+      VIDEO_MAXRATE: ${VIDEO_MAXRATE:-9000k}
+      AUDIO_BITRATE: ${AUDIO_BITRATE:-192k}
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/data
