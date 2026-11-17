@@ -1,4 +1,4 @@
-name: Gerar logos originais dos canais
+name: Baixar logos originais do TVLogo.org
 on:
   workflow_dispatch:
   push:
@@ -9,54 +9,86 @@ on:
 permissions:
   contents: write
 jobs:
-  gerar:
+  baixar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: github/workflows/atualizar-logos.yml
           fetch-depth: 0
-      - name: Recuperar somente logos originais e ajustar para 256x256
+      - name: Baixar PNGs do diretório oficial TVLogo.org - Turquia
         run: |
-          python -m pip install Pillow
           python - <<'PY'
-          import os, shutil, subprocess
-          from io import BytesIO
-          from PIL import Image
-          old = "78f2a0c6a249634013c75a4fa4fb07029bd619aa"
-          out = "logos-canais"
-          if os.path.exists(out):
-              shutil.rmtree(out)
-          os.makedirs(out)
-          paths = subprocess.check_output(["git","ls-tree","-r","--name-only",old,"assets/logos"]).decode().splitlines()
-          count = 0
-          skipped_custom = 0
-          for path in paths:
-              base = os.path.basename(path).lower()
-              if base.startswith("custom-") or "/custom-" in path.lower():
-                  skipped_custom += 1
-                  continue
-              if not path.lower().endswith((".png",".jpg",".jpeg",".webp")):
-                  continue
+          import os
+          import re
+          import urllib.request
+          from html.parser import HTMLParser
+          from urllib.parse import urljoin, urlparse
+
+          INDEX = "https://www.tvlogo.org/turkey/"
+          OUT = "logos-tvlogo-turquia"
+
+          class Links(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.hrefs = []
+              def handle_starttag(self, tag, attrs):
+                  if tag.lower() == "a":
+                      href = dict(attrs).get("href", "")
+                      if href.lower().endswith(".png"):
+                          self.hrefs.append(href)
+
+          req = urllib.request.Request(INDEX, headers={"User-Agent": "Mozilla/5.0"})
+          with urllib.request.urlopen(req, timeout=30) as response:
+              html = response.read().decode("utf-8", "replace")
+
+          parser = Links()
+          parser.feed(html)
+          urls = []
+          seen = set()
+          for href in parser.hrefs:
+              url = urljoin(INDEX, href)
+              name = os.path.basename(urlparse(url).path)
+              if name and name not in seen:
+                  seen.add(name)
+                  urls.append((name, url))
+
+          if not urls:
+              raise SystemExit("O diretório não retornou links PNG; nenhuma pasta foi substituída.")
+
+          os.makedirs(OUT, exist_ok=True)
+          downloaded = 0
+          failed = []
+          for name, url in urls:
               try:
-                  raw = subprocess.check_output(["git","show",f"{old}:{path}"])
-                  im = Image.open(BytesIO(raw)).convert("RGBA")
-                  im.thumbnail((224, 224), Image.Resampling.LANCZOS)
-                  canvas = Image.new("RGBA", (256, 256), (0,0,0,255))
-                  canvas.alpha_composite(im, ((256-im.width)//2, (256-im.height)//2))
-                  name = os.path.basename(path).rsplit(".",1)[0] + ".png"
-                  canvas.convert("RGB").save(os.path.join(out,name), "PNG", optimize=True)
-                  count += 1
-              except Exception as e:
-                  print(f"Skipped {path}: {e}")
-          with open(os.path.join(out,"README.txt"),"w") as f:
-              f.write(f"{count} logos de arquivos originais; PNG 256x256 px; proporcao 1:1; fundo preto; marcas sem redesenho.\\n")
-          print(f"Logos originais geradas: {count}; customizadas ignoradas: {skipped_custom}")
+                  request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                  with urllib.request.urlopen(request, timeout=30) as response:
+                      data = response.read()
+                  if not data.startswith(b"\\x89PNG\\r\\n\\x1a\\n"):
+                      raise ValueError("resposta não é um PNG válido")
+                  with open(os.path.join(OUT, name), "wb") as f:
+                      f.write(data)
+                  downloaded += 1
+                  print("Baixado:", name)
+              except Exception as exc:
+                  failed.append((name, str(exc)))
+                  print("Falha:", name, exc)
+
+          with open(os.path.join(OUT, "README.txt"), "w", encoding="utf-8") as f:
+              f.write("Logos PNG originais baixadas do diretório oficial https://www.tvlogo.org/turkey/\\n")
+              f.write(f"Arquivos baixados: {downloaded}\\n")
+              f.write(f"Falhas: {len(failed)}\\n")
+              for name, error in failed:
+                  f.write(f"{name}: {error}\\n")
+
+          if downloaded == 0:
+              raise SystemExit("Nenhuma imagem PNG foi baixada.")
+          print(f"Total de PNGs baixados: {downloaded}; falhas: {len(failed)}")
           PY
-      - name: Salvar pasta no repositório
+      - name: Salvar PNGs na pasta do repositório
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A logos-canais
-          git commit -m "Gerar somente logos originais em 256x256" || echo "Sem alterações"
+          git add -A logos-tvlogo-turquia
+          git commit -m "Baixar logos originais do TVLogo.org Turquia" || echo "Sem alterações"
           git push origin HEAD:github/workflows/atualizar-logos.yml
