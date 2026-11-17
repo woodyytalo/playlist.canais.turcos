@@ -1,1 +1,1 @@
-214 logos em PNG, 256x256 px, proporcao 1:1, fundo preto e preservacao da proporcao original.\n
+95 logos de arquivos originais; PNG 256x256 px; proporcao 1:1; fundo preto; marcas sem redesenho.\n
