@@ -85,6 +85,41 @@ jobs:
               raise SystemExit("Nenhuma imagem PNG foi baixada.")
           print(f"Total de PNGs baixados: {downloaded}; falhas: {len(failed)}")
           PY
+      - name: Padronizar logos em PNG 2:1 com fundo preto
+        run: |
+          python -m pip install --quiet Pillow
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageDraw
+          
+          folder = Path("logos-tvlogo-turquia")
+          canvas_size = (1200, 600)
+          max_logo_size = (1080, 480)
+          processed = 0
+          
+          for path in sorted(folder.glob("*.png")):
+              with Image.open(path) as source:
+                  image = source.convert("RGBA")
+                  # Remove apenas o fundo quase branco conectado às bordas;
+                  # áreas brancas internas da marca permanecem preservadas.
+                  for point in [(0, 0), (image.width - 1, 0),
+                                (0, image.height - 1),
+                                (image.width - 1, image.height - 1)]:
+                      px = image.getpixel(point)
+                      if min(px[:3]) >= 235 and px[3] > 0:
+                          ImageDraw.floodfill(image, point, (0, 0, 0, 0), thresh=22)
+                  image.thumbnail(max_logo_size, Image.Resampling.LANCZOS)
+                  background = Image.new("RGBA", canvas_size, (0, 0, 0, 255))
+                  x = (canvas_size[0] - image.width) // 2
+                  y = (canvas_size[1] - image.height) // 2
+                  background.alpha_composite(image, (x, y))
+                  background.convert("RGB").save(path, format="PNG", optimize=True)
+                  processed += 1
+          
+          if processed == 0:
+              raise SystemExit("Nenhum PNG encontrado para padronizar.")
+          print(f"Logos padronizadas: {processed}; tamanho final: 1200x600; proporção: 2:1")
+          PY
       - name: Salvar PNGs na pasta do repositório
         run: |
           git config user.name "github-actions[bot]"
