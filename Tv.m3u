@@ -5,7 +5,7 @@
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/24-tr.png" tvg-id="24.TV.tr" tvg-name="24 TV" group-title="NOTÍCIAS",24 TV
 #EXTVLCOPT:network-caching=1000
-https://mn-nl.mncdn.com/kanal24/kanal24.smil/chunklist_b896000.m3u8
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
 #EXTINF:-1 tvg-id="LiderHaber.tr" tvg-name="Lider Haber" group-title="NOTÍCIAS" tvg-logo="https://i.ibb.co/0j6pWsPt/Liderhaber.png",Lider Haber
 #EXTVLCOPT:network-caching=1000
@@ -20,15 +20,15 @@ https://hls.4utv.live/hls/stream.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/a-haber-tr.png" tvg-id="A.HABER.tr" tvg-name="A Haber" group-title="NOTÍCIAS",A Haber
 #EXTVLCOPT:network-caching=1000
-https://c.fulltvizle.com/ahaber/index.m3u8
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/a-para-tr.png" tvg-id="A.PARA.tr" tvg-name="A Para" group-title="NOTÍCIAS",A Para
 #EXTVLCOPT:network-caching=1000
-http://185.234.111.229:8000/play/a01l
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/a-spor-tr.png" tvg-id="ASpor.tr" tvg-name="A Spor" group-title="ESPORTES",A Spor
 #EXTVLCOPT:network-caching=1000
-https://c.fulltvizle.com/aspor/index.m3u8
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/a2-tr.png" tvg-id="A2.tr" tvg-name="A2" group-title="ENTRETENIMENTO",A2
 #EXTVLCOPT:network-caching=1000
@@ -108,7 +108,7 @@ http://176.65.153.40:6002/play/a013/index.m3u8
 
 #EXTINF:-1 tvg-id="custom.cine1" tvg-name="CİNE1" group-title="FILMES E SÉRIES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/cine1.png",CİNE1
 #EXTVLCOPT:network-caching=1000
-https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
+https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
 #EXTINF:-1 tvg-id="custom.cnbce" tvg-name="CNBC e" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/cnbce.png",CNBC e
 #EXTVLCOPT:network-caching=1000
@@ -169,7 +169,7 @@ https://canli.edessatv.com/hls/stream.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/ekoturk-tr.png" tvg-name="Ekotürk" tvg-id="EKOTÜRK.tr" group-title="NOTÍCIAS",Ekotürk
 #EXTVLCOPT:network-caching=1000
-https://ythls.kekikakademi.org/youtube/channel/UCAGVKxpAKwXMWdmcHbrvcwQ.m3u8
+https://cdn.ekoturk.net/hls/master.m3u8
 
 #EXTINF:-1 tvg-id="custom.elsharqtv" tvg-name="Elsharq TV" group-title="INTERNACIONAIS" tvg-logo="https://i.imgur.com/8vmfZb5.png",Elsharq TV
 #EXTVLCOPT:network-caching=1000
@@ -601,18 +601,18 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/tv100-tr.png" tvg-id="TV100.tr" tvg-name="TV100" group-title="NOTÍCIAS",TV100
 #EXTVLCOPT:network-caching=1000
-https://tv100.daioncdn.net/tv100/tv100_480p.m3u8?app=web
+https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/tv4-tr.png" tvg-id="TV4.tr" tvg-name="TV4" group-title="ESTILO DE VIDA",TV4
 #EXTVLCOPT:network-caching=1000
-https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8
+https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/tv8-tr.png" tvg-id="TV8.tr" tvg-name="TV8" group-title="ENTRETENIMENTO",TV8
 #EXTVLCOPT:network-caching=1000
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/tvnet-tr.png" tvg-id="TVNET.tr" tvg-name="TVNET" group-title="NOTÍCIAS",TVNET
 #EXTVLCOPT:network-caching=1000
-https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8
+https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/playlist.m3u8
 
 #EXTINF:-1 tvg-id="custom.vuslattv" tvg-name="Vuslat TV" group-title="REGIONAIS" tvg-logo="https://vuslattv.com.tr/uploads/logo/logo_66bdb4352c7ab7-60769650.png",Vuslat TV
 #EXTVLCOPT:network-caching=1000
@@ -620,7 +620,7 @@ https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/ulke-tv-tr.png" tvg-id="ÜLKE.TV.tr" tvg-name="Ülke TV" group-title="NOTÍCIAS",Ülke TV
 #EXTVLCOPT:network-caching=1000
-http://217.174.229.138:8000/play/a0el
+https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/vav-tv-tr.png" tvg-name="Vav TV" tvg-id="VAV.TV.tr" group-title="RELIGIOSOS",Vav TV
 #EXTVLCOPT:network-caching=1000
@@ -640,7 +640,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/E
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-canais/sozcu-tv-tr-fd959a959c.png" tvg-id="SÖZCÜ.TV.tr" tvg-name="Sözcü TV" group-title="NOTÍCIAS",Sözcü TV
 #EXTVLCOPT:network-caching=1000
-https://szctvdvr.blutv.com/blutv_szctv_dvr/live_720p4350000kbps/index.m3u8
+https://helga.iptv2022.com/szc_tv/index.m3u8
 
 #EXTINF:-1 tvg-id="custom.naturaltv" tvg-name="Natural TV" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/rfcJ674.png",Natural TV
 #EXTVLCOPT:network-caching=1000
