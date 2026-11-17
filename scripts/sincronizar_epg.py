@@ -10,6 +10,14 @@ from pathlib import Path
 
 ATTR = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
 
+# Correspondências alternativas verificadas por identidade do canal e programação recente.
+# Não usar aproximação/fuzzy matching para evitar guias de canais diferentes.
+MANUAL_ALIASES = {
+    'htsporttv': {'htspor'},
+    'lalegultv': {'lalegul'},
+    'bbcfirstturkiye': {'bbcfirst'},
+}
+
 def attrs(line):
     return {k: html.unescape(v) for k, v in ATTR.findall(line)}
 
@@ -91,7 +99,8 @@ def main():
         candidates = [k for k in id_index.get(clean_name(channel_id), [])
                       if counts.get(k, 0) > 0 and k not in used]
         if not candidates:
-            for alias in aliases:
+            verified_aliases = aliases | MANUAL_ALIASES.get(clean_name(name), set())
+            for alias in verified_aliases:
                 candidates.extend(k for k in name_index.get(alias, [])
                                   if counts.get(k, 0) > 0 and k not in used)
         # Nunca associa uma programação por semelhança parcial: só ID/nome normalizado exato.
