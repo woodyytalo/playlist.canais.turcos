@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Teste de disponibilidade dos streams do TV principal; nunca altera a playlist."""
+"""Auditoria de resposta HTTP dos streams e sugestão heurística de buffer.
+Não altera URLs nem parâmetros da playlist. A medição do manifesto não equivale
+a um teste de reprodução/decodificação dentro do IPTV Pro.
+"""
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -19,19 +22,39 @@ for line in lines:
         channels.append((current, line))
         current = None
 
+def profile(status, latency, rate):
+    # Heurística baseada somente na resposta HTTP inicial do endereço HLS.
+    if status != "OK":
+        return "5000 ms (investigar fonte)", "FALHA HTTP; não aplicar automaticamente"
+    if latency <= 1.5 and rate >= 64:
+        return "1000 ms (resposta rápida)", "baixo atraso HTTP observado"
+    if latency <= 4.0 and rate >= 16:
+        return "2000 ms (resposta intermediária)", "resposta HTTP moderada"
+    return "3000 ms (resposta lenta)", "resposta HTTP lenta/transferência reduzida"
+
 def probe(item):
     name, url = item
     if not url.lower().startswith(("http://", "https://")):
-        return name, "IGNORADO", "protocolo não HTTP(S)"
+        return name, "IGNORADO", "protocolo não HTTP(S)", None, None, "não definido", "protocolo não testado"
     last = ""
     for attempt in range(2):
+        started = time.monotonic()
         try:
-            req = Request(url, headers={"User-Agent":"Mozilla/5.0 IPTV-health-check", "Range":"bytes=0-1023"}, method="GET")
+            req = Request(url, headers={
+                "User-Agent": "Mozilla/5.0 IPTV-health-check",
+                "Range": "bytes=0-65535",
+                "Accept": "*/*",
+            }, method="GET")
             with urlopen(req, timeout=12) as response:
                 code = response.status
                 ctype = response.headers.get("Content-Type", "")
+                first_byte = time.monotonic() - started
+                payload = response.read(65536)
+                elapsed = max(time.monotonic() - started, 0.001)
+                rate = len(payload) / elapsed / 1024
                 if code < 400:
-                    return name, "OK", f"HTTP {code}; {ctype or 'tipo não informado'}"
+                    recommended, reason = profile("OK", first_byte, rate)
+                    return name, "OK", f"HTTP {code}; {ctype or 'tipo não informado'}", first_byte, rate, recommended, reason
                 last = f"HTTP {code}"
         except HTTPError as exc:
             last = f"HTTP {exc.code}"
@@ -41,26 +64,32 @@ def probe(item):
             last = f"{type(exc).__name__}: {str(exc)[:140]}"
         if attempt == 0:
             time.sleep(1)
-    return name, "FALHA", last or "sem resposta"
+    recommended, reason = profile("FALHA", None, None)
+    return name, "FALHA", last or "sem resposta", None, None, recommended, reason
 
 results = []
-with ThreadPoolExecutor(max_workers=12) as pool:
+with ThreadPoolExecutor(max_workers=8) as pool:
     futures = [pool.submit(probe, item) for item in channels]
     for future in as_completed(futures):
         results.append(future.result())
 results.sort(key=lambda row: row[0].casefold())
-ok = sum(status == "OK" for _, status, _ in results)
-failed = sum(status == "FALHA" for _, status, _ in results)
-ignored = sum(status == "IGNORADO" for _, status, _ in results)
+ok = sum(row[1] == "OK" for row in results)
+failed = sum(row[1] == "FALHA" for row in results)
+ignored = sum(row[1] == "IGNORADO" for row in results)
 report.parent.mkdir(parents=True, exist_ok=True)
 with report.open("w", encoding="utf-8") as out:
-    out.write(f"Auditoria anti-crash TV principal | {datetime.now(timezone.utc).isoformat()}\n")
-    out.write(f"Total: {len(results)} | OK: {ok} | Falhas: {failed} | Ignorados: {ignored}\n")
-    out.write("A verificação é pontual; falha pode ser bloqueio temporário/geográfico ou proteção anti-bot. Nenhum canal foi removido.\n\n")
-    for name, status, detail in results:
-        out.write(f"[{status}] {name} — {detail}\n")
-print(f"TV principal: {len(results)} canais | OK: {ok} | falhas: {failed} | ignorados: {ignored}")
-print(f"Relatório: {report}")
-# Falhas são reportadas para o workflow, sem alterar nem excluir streams.
+    out.write(f"Auditoria de rede TV principal | {datetime.now(timezone.utc).isoformat()}\n")
+    out.write(f"Total: {len(results)} | HTTP OK: {ok} | Falhas: {failed} | Ignorados: {ignored}\n")
+    out.write("PERFIS SUGERIDOS (heurística de resposta HTTP; não são aplicados à playlist).\n")
+    out.write("A medição do manifesto HLS não testa decodificação, continuidade do vídeo, Wi-Fi ou desempenho real do IPTV Pro.\n")
+    out.write("O parâmetro #EXTVLCOPT:network-caching pode ser ignorado por players que não usam VLC.\n")
+    out.write("Não remova canais nem altere URLs com base apenas neste relatório.\n\n")
+    out.write("Canal | Estado | Primeiro byte | Taxa de leitura | Perfil sugerido | Detalhe\n")
+    for name, status, detail, latency, rate, recommended, reason in results:
+        lat = f"{latency:.2f}s" if latency is not None else "—"
+        spd = f"{rate:.1f} KiB/s" if rate is not None else "—"
+        out.write(f"{name} | {status} | {lat} | {spd} | {recommended} | {detail}; {reason}\n")
+print(f"TV principal: {len(results)} canais | HTTP OK: {ok} | falhas: {failed} | ignorados: {ignored}")
+print(f"Relatório com perfil sugerido por canal: {report}")
 if failed:
-    raise SystemExit(1)
+    print("Atenção: falhas HTTP pontuais não provam que o canal esteja permanentemente fora do ar.")
