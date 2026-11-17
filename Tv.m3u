@@ -7,7 +7,7 @@
 #EXTVLCOPT:network-caching=3000
 https://mn-nl.mncdn.com/kanal24/kanal24.smil/chunklist_b896000.m3u8
 
-#EXTINF:-1 tvg-id="LiderHaber.tr" tvg-name="Lider Haber" group-title="NOTÍCIAS",Lider Haber
+#EXTINF:-1 tvg-id="LiderHaber.tr" tvg-name="Lider Haber" group-title="NOTÍCIAS" tvg-logo="https://i.ibb.co/0j6pWsPt/Liderhaber.png",Lider Haber
 #EXTVLCOPT:network-caching=3000
 http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/360-tr.png" tvg-id="360.tr" tvg-name="360 TV" group-title="ENTRETENIMENTO",360 TV
@@ -42,7 +42,7 @@ https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_480p/chunks.m3u8
 
-#EXTINF:-1 tvg-id="custom.alanyapostatv" tvg-name="Alanya Posta TV" group-title="REGIONAIS",Alanya Posta TV
+#EXTINF:-1 tvg-id="custom.alanyapostatv" tvg-name="Alanya Posta TV" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/a3w9eFe.png",Alanya Posta TV
 #EXTVLCOPT:network-caching=3000
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 
@@ -58,7 +58,7 @@ https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8
 
-#EXTINF:-1 tvg-id="custom.arastv" tvg-name="ARAS TV" group-title="REGIONAIS",ARAS TV
+#EXTINF:-1 tvg-id="custom.arastv" tvg-name="ARAS TV" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/JsDCyWG.png",ARAS TV
 #EXTVLCOPT:network-caching=3000
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
 
@@ -70,7 +70,7 @@ https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
 
-#EXTINF:-1 tvg-id="custom.atvalanya" tvg-name="ATV Alanya" group-title="REGIONAIS",ATV Alanya
+#EXTINF:-1 tvg-id="custom.atvalanya" tvg-name="ATV Alanya" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/bUwarR0.png",ATV Alanya
 #EXTVLCOPT:network-caching=3000
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 
@@ -130,11 +130,11 @@ https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.dha" tvg-name="DHA" group-title="NOTÍCIAS",DHA
+#EXTINF:-1 tvg-id="custom.dha" tvg-name="DHA" group-title="NOTÍCIAS" tvg-logo="https://i.ibb.co/K6BKFqY/dha.png",DHA
 #EXTVLCOPT:network-caching=3000
 https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.dimtv" tvg-name="Dim TV" group-title="REGIONAIS",Dim TV
+#EXTINF:-1 tvg-id="custom.dimtv" tvg-name="Dim TV" group-title="REGIONAIS" tvg-logo="https://logo.huhu.to/logo?c=1072972009.png",Dim TV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 
@@ -171,7 +171,7 @@ https://canli.edessatv.com/hls/stream.m3u8
 #EXTVLCOPT:network-caching=3000
 https://ythls.kekikakademi.org/youtube/channel/UCAGVKxpAKwXMWdmcHbrvcwQ.m3u8
 
-#EXTINF:-1 tvg-id="custom.elsharqtv" tvg-name="Elsharq TV" group-title="INTERNACIONAIS",Elsharq TV
+#EXTINF:-1 tvg-id="custom.elsharqtv" tvg-name="Elsharq TV" group-title="INTERNACIONAIS" tvg-logo="https://i.imgur.com/8vmfZb5.png",Elsharq TV
 #EXTVLCOPT:network-caching=3000
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
 
@@ -179,11 +179,11 @@ https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.erciyestv" tvg-name="Erciyes TV" group-title="REGIONAIS",Erciyes TV
+#EXTINF:-1 tvg-id="custom.erciyestv" tvg-name="Erciyes TV" group-title="REGIONAIS" tvg-logo="https://s.erciyestv.com.tr/dosya/logo/erciyes-tv-og.jpg",Erciyes TV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.erzurumwebtv" tvg-name="Erzurum Web TV" group-title="REGIONAIS",Erzurum Web TV
+#EXTINF:-1 tvg-id="custom.erzurumwebtv" tvg-name="Erzurum Web TV" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/HF7N4Li.png",Erzurum Web TV
 #EXTVLCOPT:network-caching=3000
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 
@@ -231,7 +231,7 @@ https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 #EXTVLCOPT:network-caching=3000
 https://tv.ensonhaber.com/haberglobal/haberglobal_480p.m3u8
 
-#EXTINF:-1 tvg-id="custom.haber61tv" tvg-name="Haber61 TV" group-title="NOTÍCIAS",Haber61 TV
+#EXTINF:-1 tvg-id="custom.haber61tv" tvg-name="Haber61 TV" group-title="NOTÍCIAS" tvg-logo="https://i.imgur.com/2a2XUKl.png",Haber61 TV
 #EXTVLCOPT:network-caching=3000
 https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/tracks-v2a1/mono.m3u8
 
@@ -243,18 +243,18 @@ https://ciner.daioncdn.net/haberturktv/haberturktv_480p.m3u8?sid=8x3q6yrn0jfj&ap
 #EXTVLCOPT:network-caching=3000
 https://halktv.daioncdn.net/halktv/halktv_480p.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609
 
-#EXTINF:-1 tvg-id="custom.htsportv" tvg-name="HT Spor TV" group-title="ESPORTES",HT Spor TV
+#EXTINF:-1 tvg-id="custom.htsportv" tvg-name="HT Spor TV" group-title="ESPORTES" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png",HT Spor TV
 #EXTVLCOPT:network-caching=3000
 https://ciner.daioncdn.net/ht-spor/ht-spor_480p.m3u8?ex=0&sid=8wn2p2rpc61m&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/guneydogu-tv-tr.png" tvg-name="Güneydoğu TV" group-title="REGIONAIS" tvg-id="custom.guneydogutv",Güneydoğu TV
 #EXTVLCOPT:network-caching=3000
 https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="custom.hunattv" tvg-name="Hunat TV" group-title="REGIONAIS",Hunat TV
+#EXTINF:-1 tvg-id="custom.hunattv" tvg-name="Hunat TV" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/NrxHGnb.png",Hunat TV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.iceltv" tvg-name="İçel TV" group-title="REGIONAIS",İçel TV
+#EXTINF:-1 tvg-id="custom.iceltv" tvg-name="İçel TV" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/CGwImKv.png",İçel TV
 #EXTVLCOPT:network-caching=3000
 https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/kardelen-tv-tr.png" tvg-id="KardelenTV.tr" tvg-name="Kardelen TV" group-title="REGIONAIS",Kardelen TV
@@ -264,7 +264,7 @@ https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.ilketv" tvg-name="İlke TV" group-title="NOTÍCIAS",İlke TV
+#EXTINF:-1 tvg-id="custom.ilketv" tvg-name="İlke TV" group-title="NOTÍCIAS" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png",İlke TV
 #EXTVLCOPT:network-caching=3000
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 
@@ -272,7 +272,7 @@ https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.kanal12" tvg-name="Kanal 12" group-title="REGIONAIS",Kanal 12
+#EXTINF:-1 tvg-id="custom.kanal12" tvg-name="Kanal 12" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/51xCkXG.png",Kanal 12
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
 
@@ -296,7 +296,7 @@ https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.kanal32" tvg-name="Kanal 32" group-title="REGIONAIS",Kanal 32
+#EXTINF:-1 tvg-id="custom.kanal32" tvg-name="Kanal 32" group-title="REGIONAIS" tvg-logo="https://logo.huhu.to/logo?c=3760926490.png",Kanal 32
 #EXTVLCOPT:network-caching=3000
 https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
 
@@ -304,7 +304,7 @@ https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.kanal34" tvg-name="Kanal 34" group-title="REGIONAIS",Kanal 34
+#EXTINF:-1 tvg-id="custom.kanal34" tvg-name="Kanal 34" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/SIaI6Sj.png",Kanal 34
 #EXTVLCOPT:network-caching=3000
 https://live.euromediacenter.com/kanal34/index.m3u8
 
@@ -344,14 +344,14 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.kaytv" tvg-name="Kay TV" group-title="REGIONAIS",Kay TV
+#EXTINF:-1 tvg-id="custom.kaytv" tvg-name="Kay TV" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/MymuDJ1.png",Kay TV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
 #EXTINF:-1 tvg-id="custom.kayhantv" tvg-name="Kayhan TV" group-title="REGIONAIS",Kayhan TV
 #EXTVLCOPT:network-caching=3000
 https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.kentturktv" tvg-name="Kent Türk TV" group-title="REGIONAIS",Kent Türk TV
+#EXTINF:-1 tvg-id="custom.kentturktv" tvg-name="Kent Türk TV" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/FQKPjsm.png",Kent Türk TV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 
@@ -363,7 +363,7 @@ https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/chunklist_w16313685.m3u8
 
-#EXTINF:-1 tvg-id="custom.konyaolaytv" tvg-name="Konya Olay TV" group-title="REGIONAIS",Konya Olay TV
+#EXTINF:-1 tvg-id="custom.konyaolaytv" tvg-name="Konya Olay TV" group-title="REGIONAIS" tvg-logo="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg",Konya Olay TV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u8
 
@@ -375,11 +375,11 @@ https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.luystv" tvg-name="Luys TV" group-title="CULTURA/EDUCAÇÃO",Luys TV
+#EXTINF:-1 tvg-id="custom.luystv" tvg-name="Luys TV" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://logo.huhu.to/logo?c=550515719.png",Luys TV
 #EXTVLCOPT:network-caching=3000
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/mt_2.m3u8
 
-#EXTINF:-1 tvg-id="custom.medmuzik" tvg-name="Med Müzik" group-title="MÚSICA",Med Müzik
+#EXTINF:-1 tvg-id="custom.medmuzik" tvg-name="Med Müzik" group-title="MÚSICA" tvg-logo="https://i.imgur.com/gtUFmCD.png",Med Müzik
 #EXTVLCOPT:network-caching=3000
 http://54.36.110.140/live3/live3.m3u8
 
@@ -403,7 +403,7 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480
 #EXTVLCOPT:network-caching=3000
 http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8
 
-#EXTINF:-1 tvg-name="MTürk TV" tvg-id="custom.mturktv" group-title="REGIONAIS",MTürk TV
+#EXTINF:-1 tvg-name="MTürk TV" tvg-id="custom.mturktv" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/xj1gvrq.png",MTürk TV
 #EXTVLCOPT:network-caching=3000
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
 
@@ -431,15 +431,15 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 #EXTVLCOPT:network-caching=3000
 https://dogus.daioncdn.net/ntv/ntv_480p.m3u8?&sid=8x3q74gf7x0o&app=c68bddbe-3dbf-49f7-892a-93de5ae37f1f&ce=2
 
-#EXTINF:-1 tvg-id="custom.number1tv" tvg-name="Number 1 TV" group-title="MÚSICA",Number 1 TV
+#EXTINF:-1 tvg-id="custom.number1tv" tvg-name="Number 1 TV" group-title="MÚSICA" tvg-logo="https://i.imgur.com/02cDIBi.png",Number 1 TV
 #EXTVLCOPT:network-caching=3000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.powerdancetv" tvg-name="Power Dance TV" group-title="MÚSICA",Power Dance TV
+#EXTINF:-1 tvg-id="custom.powerdancetv" tvg-name="Power Dance TV" group-title="MÚSICA" tvg-logo="https://i.ibb.co/5hwZ7xw/power-dance.png",Power Dance TV
 #EXTVLCOPT:network-caching=3000
 https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8
 
-#EXTINF:-1 tvg-id="custom.powerlovetv" tvg-name="Power Love TV" group-title="MÚSICA",Power Love TV
+#EXTINF:-1 tvg-id="custom.powerlovetv" tvg-name="Power Love TV" group-title="MÚSICA" tvg-logo="https://i.ibb.co/bJL1VnX/power-love.png",Power Love TV
 #EXTVLCOPT:network-caching=3000
 https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
@@ -462,7 +462,7 @@ https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_2.m3u8
 
-#EXTINF:-1 tvg-id="custom.sercemtv" tvg-name="Sercem TV" group-title="RELIGIOSOS",Sercem TV
+#EXTINF:-1 tvg-id="custom.sercemtv" tvg-name="Sercem TV" group-title="RELIGIOSOS" tvg-logo="https://sercemtv.com.tr/sercemlogo.jpg",Sercem TV
 #EXTVLCOPT:network-caching=3000
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 
@@ -474,7 +474,7 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 #EXTVLCOPT:network-caching=3000
 https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 
-#EXTINF:-1 tvg-id="custom.spacetoonturkiye" tvg-name="Spacetoon Türkiye" group-title="INFANTIS",Spacetoon Türkiye
+#EXTINF:-1 tvg-id="custom.spacetoonturkiye" tvg-name="Spacetoon Türkiye" group-title="INFANTIS" tvg-logo="https://spacetoon.com/logo.png",Spacetoon Türkiye
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-referrer=https://spacetoon.com.tr/
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
@@ -511,7 +511,7 @@ https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://tjktv-live.tjk.org/tjktv_1080p.m3u8
 
-#EXTINF:-1 tvg-id="custom.tontv" tvg-name="Ton TV" group-title="REGIONAIS",Ton TV
+#EXTINF:-1 tvg-id="custom.tontv" tvg-name="Ton TV" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/f0Soeob.png",Ton TV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 
@@ -535,7 +535,7 @@ https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8
 #EXTVLCOPT:network-caching=3000
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8
 
-#EXTINF:-1 tvg-id="custom.trtebaortaokul" tvg-name="TRT EBA Ortaokul" group-title="CULTURA/EDUCAÇÃO",TRT EBA Ortaokul
+#EXTINF:-1 tvg-id="custom.trtebaortaokul" tvg-name="TRT EBA Ortaokul" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://i.imgur.com/CRBfZi4.png",TRT EBA Ortaokul
 #EXTVLCOPT:network-caching=3000
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
@@ -583,7 +583,7 @@ https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 http://mc1.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/mt_2.m3u8
 
-#EXTINF:-1 tvg-id="custom.tv41" tvg-name="TV 41" group-title="REGIONAIS",TV 41
+#EXTINF:-1 tvg-id="custom.tv41" tvg-name="TV 41" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/6T472LM.png",TV 41
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
 
@@ -614,7 +614,7 @@ https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTVLCOPT:network-caching=3000
 https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.vuslattv" tvg-name="Vuslat TV" group-title="REGIONAIS",Vuslat TV
+#EXTINF:-1 tvg-id="custom.vuslattv" tvg-name="Vuslat TV" group-title="REGIONAIS" tvg-logo="https://vuslattv.com.tr/uploads/logo/logo_66bdb4352c7ab7-60769650.png",Vuslat TV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
 
@@ -630,7 +630,7 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist/
 #EXTVLCOPT:network-caching=3000
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 
-#EXTINF:-1 tvg-id="custom.zaroktvsorani" tvg-name="Zarok TV Sorani" group-title="INFANTIS",Zarok TV Sorani
+#EXTINF:-1 tvg-id="custom.zaroktvsorani" tvg-name="Zarok TV Sorani" group-title="INFANTIS" tvg-logo="https://i.ibb.co/cXd3MBV/symkr.png",Zarok TV Sorani
 #EXTVLCOPT:network-caching=3000
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 
@@ -645,7 +645,7 @@ https://szctvdvr.blutv.com/blutv_szctv_dvr/live_720p4350000kbps/index.m3u8
 #EXTINF:-1 tvg-id="custom.naturaltv" tvg-name="Natural TV" group-title="REGIONAIS",Natural TV
 #EXTVLCOPT:network-caching=3000
 https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="Sun RTV" tvg-id="custom.sunrtv" group-title="REGIONAIS",Sun RTV
+#EXTINF:-1 tvg-name="Sun RTV" tvg-id="custom.sunrtv" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/64tph9N.png",Sun RTV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 
@@ -653,7 +653,7 @@ https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 #EXTVLCOPT:network-caching=3000
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
 
-#EXTINF:-1 tvg-name="Van 65 TV" tvg-id="custom.van65tv" group-title="REGIONAIS",Van 65 TV
+#EXTINF:-1 tvg-name="Van 65 TV" tvg-id="custom.van65tv" group-title="REGIONAIS" tvg-logo="https://van65tv.com/assets/images/logo/logo.png",Van 65 TV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 
@@ -665,7 +665,7 @@ https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/chunks.m3u
 #EXTVLCOPT:network-caching=3000
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_360p.m3u8?sid=yoAHas4-h0yTN6NtBHZwpw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=1000000
 
-#EXTINF:-1 tvg-id="custom.bbcfirstturkiye" tvg-name="BBC First Türkiye" group-title="FILMES E SÉRIES",BBC First Türkiye
+#EXTINF:-1 tvg-id="custom.bbcfirstturkiye" tvg-name="BBC First Türkiye" group-title="FILMES E SÉRIES" tvg-logo="https://i.imgur.com/UBoBYUI.png",BBC First Türkiye
 #EXTVLCOPT:network-caching=3000
 http://88.212.7.14/live/bbc_first/index.m3u8
 
@@ -681,11 +681,11 @@ https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/
 #EXTVLCOPT:network-caching=3000
 https://live.euromediacenter.com/balkanturktv/index.m3u8
 
-#EXTINF:-1 tvg-id="custom.thaqalayntv" tvg-name="Thaqalayn TV" group-title="INTERNACIONAIS",Thaqalayn TV
+#EXTINF:-1 tvg-id="custom.thaqalayntv" tvg-name="Thaqalayn TV" group-title="INTERNACIONAIS" tvg-logo="https://i.imgur.com/u02FSgI.png",Thaqalayn TV
 #EXTVLCOPT:network-caching=3000
 http://62.60.207.173:8080/hls/thaqalayn/1_2/index.m3u8?tkn=751218219
 
-#EXTINF:-1 tvg-id="custom.knmusictv" tvg-name="KN Music TV" group-title="MÚSICA",KN Music TV
+#EXTINF:-1 tvg-id="custom.knmusictv" tvg-name="KN Music TV" group-title="MÚSICA" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png",KN Music TV
 #EXTVLCOPT:network-caching=3000
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 
@@ -709,10 +709,10 @@ https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/kanal-urfa-tr.png" tvg-name="Kanal Urfa" group-title="REGIONAIS" tvg-id="custom.kanalurfa",Kanal Urfa
 #EXTVLCOPT:network-caching=3000
 https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" group-title="REGIONAIS" tvg-id="custom.trabzonbuyuksehirbelediyesitv",Trabzon Buyuksehir Belediyesi TV
+#EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" group-title="REGIONAIS" tvg-id="custom.trabzonbuyuksehirbelediyesitv" tvg-logo="https://tbbweb.tv/img/logo.png",Trabzon Buyuksehir Belediyesi TV
 #EXTVLCOPT:network-caching=3000
 https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
-#EXTINF:-1 tvg-name="Urfanatik TV" group-title="REGIONAIS" tvg-id="custom.urfanatiktv",Urfanatik TV
+#EXTINF:-1 tvg-name="Urfanatik TV" group-title="REGIONAIS" tvg-id="custom.urfanatiktv" tvg-logo="https://logo.huhu.to/logo?c=639659359.png",Urfanatik TV
 #EXTVLCOPT:network-caching=3000
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
 #EXTINF:-1 tvg-name="MADINAH TV" group-title="RELIGIOSOS" tvg-id="custom.madinahtv",MADINAH TV
@@ -722,10 +722,10 @@ https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-
 #EXTINF:-1 tvg-name="MC EU TV" tvg-id="MCTV.de@HD" group-title="INTERNACIONAIS",MC EU TV
 #EXTVLCOPT:network-caching=3000
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 tvg-name="Persiana Türkiye" tvg-id="PersianaTurkiye.fr@SD" group-title="INTERNACIONAIS",Persiana Türkiye
+#EXTINF:-1 tvg-name="Persiana Türkiye" tvg-id="PersianaTurkiye.fr@SD" group-title="INTERNACIONAIS" tvg-logo="https://i.imgur.com/7p3j0hF.png",Persiana Türkiye
 #EXTVLCOPT:network-caching=3000
 https://turkhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name="BabyFirst TV" tvg-id="BabyFirst.us@US" group-title="INFANTIS",BabyFirst TV
+#EXTINF:-1 tvg-name="BabyFirst TV" tvg-id="BabyFirst.us@US" group-title="INFANTIS" tvg-logo="https://i.imgur.com/WxLHBwu.png",BabyFirst TV
 #EXTVLCOPT:network-caching=3000
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest/1.m3u8
 
@@ -733,7 +733,7 @@ https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest/1.m3u8
 #EXTVLCOPT:network-caching=3000
 https://s6.hopslan.com/tlcX/index.m3u8
 
-#EXTINF:-1 tvg-id="LoveNature.ca@HD" group-title="DOCUMENTÁRIOS" tvg-name="Love Nature",Love Nature
+#EXTINF:-1 tvg-id="LoveNature.ca@HD" group-title="DOCUMENTÁRIOS" tvg-name="Love Nature" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png",Love Nature
 #EXTVLCOPT:network-caching=3000
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 
