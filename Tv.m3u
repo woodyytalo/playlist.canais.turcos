@@ -28,11 +28,11 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/a-spor-tr.png" tvg-id="ASpor.tr" tvg-name="A Spor" group-title="ESPORTES",A Spor
 #EXTVLCOPT:network-caching=1000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
+https://raw.githubusercontent.com/rideordie16/YouTube/main/spor/aspor.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/a2-tr.png" tvg-id="A2.tr" tvg-name="A2" group-title="ENTRETENIMENTO",A2
 #EXTVLCOPT:network-caching=1000
-https://c.fulltvizle.com/a2/tracks-v1a1/mono.m3u8
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/aksu-tv-tr.png" tvg-id="custom.aksutv" tvg-name="Aksu TV" group-title="REGIONAIS",Aksu TV
 #EXTVLCOPT:network-caching=1000
@@ -116,7 +116,7 @@ https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_480p.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/cnn-turk-tr.png" tvg-name="CNN Türk" tvg-id="CNN.TÜRK.tr" group-title="NOTÍCIAS",CNN Türk
 #EXTVLCOPT:network-caching=1000
-https://tgn.bozztv.com/dvrfl05/gin-cnnturk/tracks-v1a1/mono.m3u8
+https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/cay-tv-tr.png" tvg-id="custom.caytv" tvg-name="Çay TV" group-title="REGIONAIS",Çay TV
 #EXTVLCOPT:network-caching=1000
@@ -169,7 +169,7 @@ https://canli.edessatv.com/hls/stream.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/ekoturk-tr.png" tvg-name="Ekotürk" tvg-id="EKOTÜRK.tr" group-title="NOTÍCIAS",Ekotürk
 #EXTVLCOPT:network-caching=1000
-https://cdn.ekoturk.net/hls/master.m3u8
+https://koprulu4.global.ssl.fastly.net/yt.m3u8/?id=Son5meUMZuU.m3u8
 
 #EXTINF:-1 tvg-id="custom.elsharqtv" tvg-name="Elsharq TV" group-title="INTERNACIONAIS" tvg-logo="https://i.imgur.com/8vmfZb5.png",Elsharq TV
 #EXTVLCOPT:network-caching=1000
@@ -437,7 +437,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17
 
 #EXTINF:-1 tvg-id="custom.powerdancetv" tvg-name="Power Dance TV" group-title="MÚSICA" tvg-logo="https://i.ibb.co/5hwZ7xw/power-dance.png",Power Dance TV
 #EXTVLCOPT:network-caching=1000
-https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8
+https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="custom.powerlovetv" tvg-name="Power Love TV" group-title="MÚSICA" tvg-logo="https://i.ibb.co/bJL1VnX/power-love.png",Power Love TV
 #EXTVLCOPT:network-caching=1000
