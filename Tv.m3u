@@ -796,3 +796,5 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 https://yayin.santraltr.com/hls/toppop.m3u8
 #EXTINF:-1 tvg-name="TRT 2" tvg-id="TRT.2.HD.tr" tvg-logo="https://i.ibb.co/0JcxnSL/trt-2.png" group-title="TRT",2899 - TRT 2
 https://tv-trt2.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 group-title="MÚSICA",209 - Retro Music Television
+https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
