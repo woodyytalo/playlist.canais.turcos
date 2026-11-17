@@ -1,0 +1,29 @@
+name: Anti-crash - validar TV principal
+on:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Tv.m3u"
+      - "scripts/validar_playlist_anti_crash.py"
+      - ".github/workflows/anti-crash-tv-principal.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: validar-tv-principal
+  cancel-in-progress: true
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validar estrutura e links da playlist
+        run: python scripts/validar_playlist_anti_crash.py Tv.m3u
