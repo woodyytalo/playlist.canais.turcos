@@ -788,7 +788,7 @@ https://live.euromediacenter.com/tvmor/index.m3u8
 https://rtmp.info/iqtv/envivo/playlist.m3u8
 #EXTINF:-1 tvg-name="JÎN TV" tvg-logo="https://i.ibb.co/cXd3MBV/symkr.png" group-title="INTERNACIONAIS",2869 - JÎN TV
 https://live.jintv.org/medialive/jintv.m3u8
-#EXTINF:-1 tvg-name="MAKKAH TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCVPXXnt4LxrLpCI6sRKfYu0bZkjHUg1WkQ&s" group-title="RELIGIOSOS",617 - MAKKAH TV
+#EXTINF:-1 tvg-name="MAKKAH TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCVPXXnt4LxrLpCI6sRKfYu0bZkjHUg1WkQ&s" group-title="RELIGIOSOS",617 - Makkah TV
 https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all
 #EXTINF:-1 group-title="REGIONAIS",006 - MK TV
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
