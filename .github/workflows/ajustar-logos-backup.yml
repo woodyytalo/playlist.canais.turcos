@@ -27,6 +27,8 @@ jobs:
         env:
           GITHUB_REF_NAME: ${{ github.ref_name }}
         run: python scripts/ajustar_logos_backup.py
+      - name: Validar TV principal antes de publicar
+        run: python scripts/validar_playlist_anti_crash.py Tv.m3u
       - name: Salvar PNGs e playlist
         run: |
           git config user.name "github-actions[bot]"
