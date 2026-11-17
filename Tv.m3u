@@ -54,7 +54,7 @@ https://starmenajo.com/hls/almahriah/index.m3u8
 #EXTVLCOPT:network-caching=1000
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.anadolutv" tvg-name="Anadolu TV" group-title="REGIONAIS",Anadolu TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/anadolu-tv.svg" tvg-id="custom.anadolutv" tvg-name="Anadolu TV" group-title="REGIONAIS",Anadolu TV
 #EXTVLCOPT:network-caching=1000
 https://broadcasttr.com:446/anadolurtv/bant1/playist.m3u8
 
@@ -199,7 +199,7 @@ https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.ezgitv" tvg-name="Ezgi TV" group-title="REGIONAIS",Ezgi TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/ezgi-tv.svg" tvg-id="custom.ezgitv" tvg-name="Ezgi TV" group-title="REGIONAIS",Ezgi TV
 #EXTVLCOPT:network-caching=1000
 https://live.euromediacenter.com/ezgitv/index.m3u8
 
@@ -215,7 +215,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c05
 #EXTVLCOPT:network-caching=1000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.frttv" tvg-name="FRT TV" group-title="REGIONAIS",FRT TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/frt-tv.svg" tvg-id="custom.frttv" tvg-name="FRT TV" group-title="REGIONAIS",FRT TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 
@@ -260,7 +260,7 @@ https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/kardelen-tv-tr.png" tvg-id="KardelenTV.tr" tvg-name="Kardelen TV" group-title="REGIONAIS",Kardelen TV
 #EXTVLCOPT:network-caching=1000
 https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="custom.izmirtime35tv" tvg-name="İzmir Time 35 TV" group-title="REGIONAIS",İzmir Time 35 TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/izmir-time-35-tv.svg" tvg-id="custom.izmirtime35tv" tvg-name="İzmir Time 35 TV" group-title="REGIONAIS",İzmir Time 35 TV
 #EXTVLCOPT:network-caching=1000
 https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8
 
@@ -268,7 +268,7 @@ https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 
-#EXTINF:-1 tvg-id="custom.kkayseri" tvg-name="K+ Kayseri" group-title="REGIONAIS",K+ Kayseri
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/k-kayseri.svg" tvg-id="custom.kkayseri" tvg-name="K+ Kayseri" group-title="REGIONAIS",K+ Kayseri
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
 
@@ -280,7 +280,7 @@ https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.kanal19" tvg-name="Kanal 19" group-title="REGIONAIS",Kanal 19
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/kanal-19.svg" tvg-id="custom.kanal19" tvg-name="Kanal 19" group-title="REGIONAIS",Kanal 19
 #EXTVLCOPT:network-caching=1000
 https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8
 
@@ -308,7 +308,7 @@ https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.euromediacenter.com/kanal34/index.m3u8
 
-#EXTINF:-1 tvg-id="custom.kanal53" tvg-name="Kanal 53" group-title="REGIONAIS",Kanal 53
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/kanal-53.svg" tvg-id="custom.kanal53" tvg-name="Kanal 53" group-title="REGIONAIS",Kanal 53
 #EXTVLCOPT:network-caching=1000
 https://kanal53.ozelip.com:3448/hybrid/play.m3u8
 
@@ -347,7 +347,7 @@ https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 #EXTINF:-1 tvg-id="custom.kaytv" tvg-name="Kay TV" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/MymuDJ1.png",Kay TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
-#EXTINF:-1 tvg-id="custom.kayhantv" tvg-name="Kayhan TV" group-title="REGIONAIS",Kayhan TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/kayhan-tv.svg" tvg-id="custom.kayhantv" tvg-name="Kayhan TV" group-title="REGIONAIS",Kayhan TV
 #EXTVLCOPT:network-caching=1000
 https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
 
@@ -359,7 +359,7 @@ https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u
 #EXTVLCOPT:network-caching=1000
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.konyaktv" tvg-name="Konya KTV" group-title="REGIONAIS",Konya KTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/konya-ktv.svg" tvg-id="custom.konyaktv" tvg-name="Konya KTV" group-title="REGIONAIS",Konya KTV
 #EXTVLCOPT:network-caching=1000
 https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/chunklist_w16313685.m3u8
 
@@ -595,7 +595,7 @@ https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 http://canli.tvden.com.tr/hls/live.m3u8
 
-#EXTINF:-1 tvg-id="custom.tvkaradeniz" tvg-name="TV Karadeniz" group-title="CULTURA/EDUCAÇÃO",TV Karadeniz
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/tv-karadeniz.svg" tvg-id="custom.tvkaradeniz" tvg-name="TV Karadeniz" group-title="CULTURA/EDUCAÇÃO",TV Karadeniz
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
@@ -673,11 +673,11 @@ http://88.212.7.14/live/bbc_first/index.m3u8
 #EXTVLCOPT:network-caching=1000
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 
-#EXTINF:-1 tvg-name="Syria TV" tvg-id="custom.syriatv" group-title="INTERNACIONAIS",Syria TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/syria-tv.svg" tvg-name="Syria TV" tvg-id="custom.syriatv" group-title="INTERNACIONAIS",Syria TV
 #EXTVLCOPT:network-caching=1000
 https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/chunks_dvr.m3u8
 
-#EXTINF:-1 tvg-name="Balkan Türk" tvg-id="custom.balkanturk" group-title="INTERNACIONAIS",Balkan Türk
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/balkan-turk.svg" tvg-name="Balkan Türk" tvg-id="custom.balkanturk" group-title="INTERNACIONAIS",Balkan Türk
 #EXTVLCOPT:network-caching=1000
 https://live.euromediacenter.com/balkanturktv/index.m3u8
 
@@ -693,14 +693,14 @@ https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.yoltv.com/hls/stream.m3u8
 
-#EXTINF:-1 tvg-name="RTG International" group-title="INTERNACIONAIS" tvg-id="custom.rtginternational",RTG International
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/rtg-international.svg" tvg-name="RTG International" group-title="INTERNACIONAIS" tvg-id="custom.rtginternational",RTG International
 #EXTVLCOPT:network-caching=1000
 http://213.91.179.28:8000/play/a0bw
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-canais/kanal-ada-75b969db55.png" tvg-name="Kanal Ada" tvg-id="custom.kanalada" group-title="REGIONAIS",Kanal Ada
 #EXTVLCOPT:network-caching=1000
 http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum
 
-#EXTINF:-1 tvg-name="Arzu Film" group-title="FILMES E SÉRIES" tvg-id="custom.arzufilm",Arzu Film
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/arzu-film.svg" tvg-name="Arzu Film" group-title="FILMES E SÉRIES" tvg-id="custom.arzufilm",Arzu Film
 #EXTVLCOPT:network-caching=1000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-canais/ekol-sports-tr-4a03281658.png" tvg-name="Ekol Sports" group-title="ESPORTES" tvg-id="Ekol.Sports.tr",Ekol Sports
@@ -715,7 +715,7 @@ https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
 #EXTINF:-1 tvg-name="Urfanatik TV" group-title="REGIONAIS" tvg-id="custom.urfanatiktv" tvg-logo="https://logo.huhu.to/logo?c=639659359.png",Urfanatik TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
-#EXTINF:-1 tvg-name="MADINAH TV" group-title="RELIGIOSOS" tvg-id="custom.madinahtv",MADINAH TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/madinah-tv.svg" tvg-name="MADINAH TV" group-title="RELIGIOSOS" tvg-id="custom.madinahtv",MADINAH TV
 #EXTVLCOPT:network-caching=1000
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8
 
@@ -784,7 +784,7 @@ https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-canais/mor-tv-ea3658d809.png" tvg-name="MOR TV" group-title="ESTILO DE VIDA" tvg-id="custom.mortv",MOR TV
 #EXTVLCOPT:network-caching=1000
 https://live.euromediacenter.com/tvmor/index.m3u8
-#EXTINF:-1 group-title="MÚSICA" tvg-id="custom.iqchannel",IQ Channel
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/iq-channel.svg" group-title="MÚSICA" tvg-id="custom.iqchannel",IQ Channel
 #EXTVLCOPT:network-caching=1000
 https://rtmp.info/iqtv/envivo/playlist.m3u8
 #EXTINF:-1 tvg-name="JÎN TV" group-title="INTERNACIONAIS" tvg-id="custom.jintv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/2869jintv.png",JÎN TV
@@ -802,6 +802,6 @@ https://yayin.santraltr.com/hls/toppop.m3u8
 #EXTINF:-1 tvg-name="TRT 2" tvg-id="TRT.2.HD.tr" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/2899trt2.png",TRT 2
 #EXTVLCOPT:network-caching=1000
 https://tv-trt2.medya.trt.com.tr/master_1080.m3u8
-#EXTINF:-1 group-title="MÚSICA" tvg-id="custom.retromusictelevision",Retro Music Television
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/retro-music-television.svg" group-title="MÚSICA" tvg-id="custom.retromusictelevision",Retro Music Television
 #EXTVLCOPT:network-caching=1000
 https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
