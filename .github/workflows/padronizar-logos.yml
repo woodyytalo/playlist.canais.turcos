@@ -1,0 +1,184 @@
+name: Padronização única das logos da TV principal
+
+on:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - ".github/workflows/padronizar-logos.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  padronizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar ferramentas
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pillow requests
+
+      - name: Padronizar logos originais e completar a TV principal
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from collections import deque
+          from PIL import Image, ImageDraw, ImageFont
+          import re, requests, io
+
+          LOGOS = Path("assets/logos")
+          LOGOS.mkdir(parents=True, exist_ok=True)
+          PLAYLIST = Path("Tv.m3u")
+          RAW = "https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/"
+          headers = {"User-Agent": "Mozilla/5.0"}
+
+          def near_white(rgb):
+              r, g, b = rgb[:3]
+              return min(r, g, b) >= 232 and max(r, g, b) - min(r, g, b) <= 28
+
+          def remove_white_edge(im):
+              im = im.convert("RGBA")
+              w, h = im.size
+              px = im.load()
+              q = deque()
+              seen = bytearray(w * h)
+              for x in range(w):
+                  for y in (0, h - 1):
+                      if near_white(px[x, y]) and not seen[y*w+x]:
+                          seen[y*w+x] = 1
+                          q.append((x, y))
+              for y in range(h):
+                  for x in (0, w - 1):
+                      if near_white(px[x, y]) and not seen[y*w+x]:
+                          seen[y*w+x] = 1
+                          q.append((x, y))
+              while q:
+                  x, y = q.popleft()
+                  r, g, b, a = px[x, y]
+                  px[x, y] = (r, g, b, 0)
+                  for nx, ny in ((x-1,y),(x+1,y),(x,y-1),(x,y+1)):
+                      if 0 <= nx < w and 0 <= ny < h:
+                          k = ny*w+nx
+                          if not seen[k] and near_white(px[nx, ny]):
+                              seen[k] = 1
+                              q.append((nx, ny))
+              return im
+
+          def make_rectangular(source):
+              im = remove_white_edge(source)
+              im.thumbnail((472, 216), Image.Resampling.LANCZOS)
+              canvas = Image.new("RGBA", (512, 256), (0, 0, 0, 255))
+              canvas.alpha_composite(im, ((512-im.width)//2, (256-im.height)//2))
+              return canvas.convert("RGB")
+
+          def download(url):
+              response = requests.get(url, headers=headers, timeout=30)
+              response.raise_for_status()
+              return Image.open(io.BytesIO(response.content)).convert("RGBA")
+
+          converted = 0
+          for path in sorted(LOGOS.iterdir()):
+              if path.is_file() and path.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"):
+                  try:
+                      with Image.open(path) as source:
+                          out = make_rectangular(source.copy())
+                      out.save(path.with_suffix(".png"), format="PNG", optimize=True)
+                      if path.suffix.lower() != ".png":
+                          path.unlink()
+                      converted += 1
+                  except Exception as exc:
+                      print(f"Não foi possível converter {path.name}: {exc}")
+
+          lines = PLAYLIST.read_text(encoding="utf-8").splitlines()
+          external = {
+              "2718 - EURO D": ("euro-d-original.png", "https://i.ibb.co/jMQTJmh/euro-d.png"),
+              "2869 - JÎN TV": ("jin-tv-original.png", "https://i.ibb.co/cXd3MBV/symkr.png"),
+              "617 - Makkah TV": ("makkah-tv-original.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCVPXXnt4LxrLpCI6sRKfYu0bZkjHUg1WkQ&s"),
+              "142 - TopPop": ("toppop-original.png", "https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp"),
+              "2899 - TRT 2": ("trt-2-original.png", "https://i.ibb.co/0JcxnSL/trt-2.png"),
+          }
+          channel_to_file = {}
+          for channel, (filename, url) in external.items():
+              try:
+                  make_rectangular(download(url)).save(LOGOS / filename, format="PNG", optimize=True)
+                  channel_to_file[channel] = filename
+              except Exception as exc:
+                  print(f"Falha ao obter logo original de {channel}: {exc}")
+
+          drama_file = "kanal-d-drama-retangular.png"
+          try:
+              official = download("https://www.kanald.com.tr/assets/img/logo.v3.png")
+              official.thumbnail((210, 170), Image.Resampling.LANCZOS)
+              canvas = Image.new("RGBA", (512, 256), (0, 0, 0, 255))
+              canvas.alpha_composite(official, ((512-official.width)//2, 8))
+              draw = ImageDraw.Draw(canvas)
+              try:
+                  font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 40)
+              except Exception:
+                  font = ImageFont.load_default()
+              label = "DRAMA"
+              bbox = draw.textbbox((0,0), label, font=font)
+              draw.text(((512-(bbox[2]-bbox[0]))//2, 190), label, font=font, fill=(255,255,255,255), stroke_width=1, stroke_fill=(0,90,190,255))
+              canvas.convert("RGB").save(LOGOS / drama_file, format="PNG", optimize=True)
+          except Exception as exc:
+              print(f"Logo oficial Kanal D indisponível; criando versão tipográfica: {exc}")
+              canvas = Image.new("RGB", (512,256), (0,0,0))
+              draw = ImageDraw.Draw(canvas)
+              try:
+                  font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 42)
+              except Exception:
+                  font = ImageFont.load_default()
+              draw.text((55,82), "KANAL D", font=font, fill=(255,255,255))
+              draw.text((135,150), "DRAMA", font=font, fill=(40,145,255))
+              canvas.save(LOGOS / drama_file, format="PNG", optimize=True)
+
+          updated = []
+          for line in lines:
+              if not line.startswith("#EXTINF:") or "," not in line:
+                  updated.append(line)
+                  continue
+              display = line.rsplit(",", 1)[-1].strip()
+              if display == "Kanal D Drama":
+                  filename = drama_file
+              elif display in channel_to_file:
+                  filename = channel_to_file[display]
+              else:
+                  match = re.search(r'tvg-logo="[^"]*/assets/logos/([^"/]+)"', line)
+                  if not match:
+                      updated.append(line)
+                      continue
+                  filename = match.group(1)
+              logo_url = RAW + filename
+              if 'tvg-logo="' in line:
+                  line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{logo_url}"', line, count=1)
+              else:
+                  line = re.sub(r'^(#EXTINF:[^,]*)(,)', rf'\1 tvg-logo="{logo_url}"\2', line, count=1)
+              updated.append(line)
+
+          PLAYLIST.write_text("\n".join(updated) + "\n", encoding="utf-8")
+          total = sum(1 for x in updated if x.startswith("#EXTINF:"))
+          with_logo = sum(1 for x in updated if x.startswith("#EXTINF:") and 'tvg-logo="' in x)
+          print(f"Logos retangulares convertidas: {converted}")
+          print(f"Canais na TV principal: {total}; canais com logo: {with_logo}")
+          if total != with_logo:
+              raise SystemExit("Ainda existem canais sem tvg-logo; interrompendo para não publicar uma lista incompleta.")
+          PY
+
+      - name: Publicar logos e playlist
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/logos Tv.m3u
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração necessária."
+            exit 0
+          fi
+          git commit -m "Padronizar todas as logos da TV principal em formato retangular"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
