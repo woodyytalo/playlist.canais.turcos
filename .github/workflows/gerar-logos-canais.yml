@@ -64,7 +64,7 @@ jobs:
                   request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
                   with urllib.request.urlopen(request, timeout=30) as response:
                       data = response.read()
-                  if not data.startswith(b"\\x89PNG\\r\\n\\x1a\\n"):
+                  if not data.startswith(b"\x89PNG\r\n\x1a\n"):
                       raise ValueError("resposta não é um PNG válido")
                   with open(os.path.join(OUT, name), "wb") as f:
                       f.write(data)
