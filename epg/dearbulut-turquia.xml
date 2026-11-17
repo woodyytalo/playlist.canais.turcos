@@ -492,12 +492,6 @@
     <display-name lang="tur">Viasat History</display-name>
     <icon src="https://i.imgur.com/wRP9XA7.png" />
   </channel>
-  <programme start="20261117110000 +0000" stop="20261117140000 +0000" channel="24TV.tr">
-    <title lang="tr">Moderatör</title>
-    <desc lang="tr">Türkiye ve dünya gündemindeki en sıcak ve özel haberler, canlı bağlantılar ve tarafsız analizlerle izleyiciye aktarılıyor. Hafta içi her gün gündemin yoğun akışı programda ekrana geliyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261113/30/200540919468e87f1bca.jpg" />
-  </programme>
   <programme start="20261117140000 +0000" stop="20261117150000 +0000" channel="24TV.tr">
     <title lang="tr">Moderatör</title>
     <desc lang="tr">Hızlı, tarafsız ve doğru haber anlayışıyla Türkiye ve dünya gündemi, sıcak gelişmeler, özel haberler ve canlı bağlantılar hafta içi her gün Moderatör'de ekrana geliyor.</desc>
@@ -1550,30 +1544,6 @@
     <category lang="tr">Haber</category>
     <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261114/54/220454896929e87ecbc8.jpg" />
   </programme>
-  <programme start="20261117120000 +0000" stop="20261117124000 +0000" channel="ASTV.tr">
-    <title lang="tr">Reel Sektör</title>
-    <desc lang="tr">Üretimden sanayiye, ticaretten yatırıma reel sektörün nabzı Reel Sektör'de tutuluyor. Ekonomiye yön veren gelişmeler, sektör temsilcilerinin değerlendirmeleriyle ekrana taşınıyor.</desc>
-    <category lang="tr">Finans</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/97/140021697294e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117124000 +0000" stop="20261117130000 +0000" channel="ASTV.tr">
-    <title lang="tr">Tropik Destinasyon</title>
-    <desc lang="tr">Egzotik adalar, büyüleyici sahiller ve keşfedilmeyi bekleyen tropik cennetler Tropik Destinasyon'da. Dünyanın en özel tatil rotaları ve eşsiz doğa güzellikleri ekrana geliyor.</desc>
-    <category lang="tr">Gezi &amp; Seyahat</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/66/140021697302e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117130000 +0000" stop="20261117142000 +0000" channel="ASTV.tr">
-    <title lang="tr">Günün Saati</title>
-    <desc lang="tr">Siyasetten ekonomiye, kültür sanattan spora, günün önemli gelişmeleri ekrana taşınıyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/49/140021698310e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117142000 +0000" stop="20261117144000 +0000" channel="ASTV.tr">
-    <title lang="tr">Tarihte Bugun</title>
-    <desc lang="tr">Tarihe iz bırakan olaylar, önemli dönüm noktaları ve unutulmaz isimler Tarihte Bugün’de. Geçmişin izleri, tarihin sayfalarından AS TV ekranlarına taşınıyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/86/140021698318e87ecbc8.jpg" />
-  </programme>
   <programme start="20261117144000 +0000" stop="20261117150000 +0000" channel="ASTV.tr">
     <title lang="tr">Vizyondakiler</title>
     <desc lang="tr">Beyaz perdenin en yeni filmleri, dikkat çeken yapımlar ve sinema dünyasından gelişmeler Vizyondakiler’de. Vizyona giren filmler, fragmanlar ve sinemaseverlerin merak ettiği ayrıntılar AS TV ekranlarında.</desc>
@@ -1737,12 +1707,6 @@
     <desc lang="tr">Üretimden sanayiye, ticaretten yatırıma reel sektörün nabzı Reel Sektör'de tutuluyor. Ekonomiye yön veren gelişmeler, sektör temsilcilerinin değerlendirmeleriyle ekrana taşınıyor.</desc>
     <category lang="tr">Finans</category>
     <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/26/220433798836e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117120000 +0000" stop="20261117134500 +0000" channel="BeyazTV.tr">
-    <title lang="tr">Masumlar Apartmanı</title>
-    <desc lang="tr">Gerçek yaşam öykülerinden esinlenen Masumlar Apartmanı, çocukluk travmalarının yetişkinlik hayatını nasıl şekillendirdiğini çarpıcı bir dille ele alıyor. Yönetmenliğini Çağrı Vila Lostuvalı'nın üstlendiği dizide, Han karakterine hayat veren Birkan Sokullu güçlü performansıyla dikkat çekiyor.</desc>
-    <category lang="tr">Dizi</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261114/32/180531680713e87fbbce.jpg" />
   </programme>
   <programme start="20261117134500 +0000" stop="20261117163000 +0000" channel="BeyazTV.tr">
     <title lang="tr">Kurtlar Vadisi Pusu</title>
@@ -2025,30 +1989,6 @@
     <desc lang="tr">Türkiye ekonomisinin lokomotif sektörleri detaylı analizlerle İş Dünyası'nda.</desc>
     <category lang="tr">Finans</category>
     <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261113/22/220428586928e8805bd2.jpg" />
-  </programme>
-  <programme start="20261117113500 +0000" stop="20261117122000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Ölümcül Av</title>
-    <desc lang="tr">Kış sezonunun ilk seferinde Sophia, Rus hattında Sig'e katılır. Bir yengeç teknesi batarken ona yetişebilecek kadar yakın olan tek gemi Wizard'dır.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/97/220424629978e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117122000 +0000" stop="20261117130500 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Kırsalda Yaşamak Zor</title>
-    <desc lang="tr">Raney'ler ücra bir yerden gelen imdat çağrısına yardım için harekete geçiyorlar. Ancak şiddetli fırtına ve korkunç seller karşısında Tabiat Ana ile yarışmak zorunda kalıyorlar.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/69/220424629986e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117130500 +0000" stop="20261117135000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Kırsalda Yaşamak Zor</title>
-    <desc lang="tr">Raney'ler Ohio'daki yıkık bir çiftlik evini restore etmeye çalışıyorlar. Marty'nin tek umudu eski bir gaz tankı. Onu çalıştırabilirse binaya hayat vermesi mümkün olabilecek.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/77/220424630994e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117135000 +0000" stop="20261117144000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Dizel Kardeşler</title>
-    <desc lang="tr">Dizelli araçlar dünyasında, Heavy D, Diesel Dave ve DieselSellerz'deki ekipleri çevrenin en büyük ve en müthiş kamyonlarını üretiyorlar. İyi çalışıyorlar, iyi eğleniyorlar!.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/14/220424630002e87fbbce.jpg" />
   </programme>
   <programme start="20261117144000 +0000" stop="20261117152500 +0000" channel="DiscoveryChannel.tr">
     <title lang="tr">İşte Sürat İşte Ses</title>
@@ -2583,24 +2523,6 @@
     <title lang="tr">Spor Saati</title>
     <category lang="tr">Spor</category>
     <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/48/000522485478e8805bd2.jpg" />
-  </programme>
-  <programme start="20261117120000 +0000" stop="20261117125500 +0000" channel="HaberGlobal.tr">
-    <title lang="tr">Bugün</title>
-    <desc lang="tr">Haber Global Bugün hafta içi her gün yayınlanan ve Türkiye ile dünyada gün ortasında yaşanan önemli gelişmeleri izleyiciye aktaran haber programıdır. Siyaset, ekonomi ve toplumsal olaylardan öne çıkan başlıklar sade ve anlaşılır bir dille sunuluyor.</desc>
-    <category lang="tr">Magazin</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/68/120528014599e8800bd0.jpg" />
-  </programme>
-  <programme start="20261117125500 +0000" stop="20261117130000 +0000" channel="HaberGlobal.tr">
-    <title lang="tr">Hava Durumu</title>
-    <desc lang="tr">Haber Global Hava Durumu programı Türkiye'nin çeşitli şehirlerinde beklenen hava koşullarını izleyiciyle paylaşıyor. Sıcaklık değerleri, yağış ihtimali ve bölgesel tahminler günlük ve haftalık olarak ele alınıyor. İzleyici planlarını yaparken ihtiyaç duyduğu hava bilgilerini sade ve anlaşılır bir dille alıyor.</desc>
-    <category lang="tr">Hava Durumu</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/1/120528014607e8800bd0.jpg" />
-  </programme>
-  <programme start="20261117130000 +0000" stop="20261117140000 +0000" channel="HaberGlobal.tr">
-    <title lang="tr">Bugün</title>
-    <desc lang="tr">Haber Global Bugün hafta içi her gün yayınlanan ve Türkiye ile dünyada gün ortasında yaşanan önemli gelişmeleri izleyiciye aktaran haber programıdır. Siyaset, ekonomi ve toplumsal olaylardan öne çıkan başlıklar sade ve anlaşılır bir dille sunuluyor.</desc>
-    <category lang="tr">Magazin</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/16/120528014615e8800bd0.jpg" />
   </programme>
   <programme start="20261117140000 +0000" stop="20261117160000 +0000" channel="HaberGlobal.tr">
     <title lang="tr">Günün Nabzı</title>
