@@ -137,7 +137,7 @@ jobs:
           for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/dearbulut-turquia.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml /tmp/epgfull-turquia.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
-          python3 scripts/sincronizar_epg.py --playlist Tv.m3u "${args[@]}" --output epg/guia-open-epg.xml
+          python3 scripts/sincronizar_epg.py --playlist Tv.m3u "${args[@]}" --output epg/guia-open-epg.xml --report epg/canais-sem-programacao-open-epg.txt
 
       - name: Combinar todas as fontes XMLTV com a fonte principal
         shell: bash
@@ -147,7 +147,7 @@ jobs:
           for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/dearbulut-turquia.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/teleonline-global.xml /tmp/iptv-epg-tr.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
-          python3 scripts/sincronizar_epg.py --playlist Tv.m3u "${args[@]}" --output epg/guia-turquia.xml
+          python3 scripts/sincronizar_epg.py --playlist Tv.m3u "${args[@]}" --output epg/guia-turquia.xml --report epg/canais-sem-programacao-turquia.txt
 
       - name: Validar e publicar os dois guias
         shell: bash
@@ -164,7 +164,8 @@ jobs:
                   raise SystemExit(f"{path}: {len(channels)} de {expected} canais; publicação cancelada.")
               if not programmes or any(p.get("channel") not in ids for p in programmes):
                   raise SystemExit(f"{path}: programação vazia ou referência inválida.")
-              print(f"{path}: {len(channels)} canais, {len(programmes)} programas.")
+              sem_programacao = expected - sum(1 for c in channels if any(p.get("channel") == c.get("id") for p in programmes))
+              print(f"{path}: {len(channels)} canais, {len(programmes)} programas reais, {sem_programacao} canais sem programação.")
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
