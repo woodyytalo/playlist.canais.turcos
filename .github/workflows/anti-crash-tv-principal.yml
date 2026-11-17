@@ -1,21 +1,25 @@
-name: Anti-crash - validar TV principal
+name: Anti-crash - TV principal
 on:
+  workflow_dispatch:
   push:
     branches:
       - "github/workflows/atualizar-logos.yml"
     paths:
       - "Tv.m3u"
       - "scripts/validar_playlist_anti_crash.py"
+      - "scripts/testar_streams_anti_crash.py"
       - ".github/workflows/anti-crash-tv-principal.yml"
-  workflow_dispatch:
+  schedule:
+    - cron: "17 */4 * * *"
 permissions:
   contents: read
 concurrency:
-  group: validar-tv-principal
+  group: anti-crash-tv-principal
   cancel-in-progress: true
 jobs:
-  validar:
+  verificar:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - name: Baixar repositório
         uses: actions/checkout@v4
@@ -25,5 +29,21 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validar estrutura e links da playlist
+      - name: Validar estrutura M3U
         run: python scripts/validar_playlist_anti_crash.py Tv.m3u
+      - name: Testar resposta dos streams com repetição e timeout
+        id: streams
+        continue-on-error: true
+        run: python scripts/testar_streams_anti_crash.py Tv.m3u reports/anti-crash/resultado.txt
+      - name: Publicar relatório da auditoria
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-anti-crash-tv-principal
+          path: reports/anti-crash/resultado.txt
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Sinalizar streams com falha
+        if: steps.streams.outcome == 'failure'
+        run: |
+          echo "::warning::Um ou mais streams falharam no teste pontual. Consulte o artefato; nenhum canal foi removido."
