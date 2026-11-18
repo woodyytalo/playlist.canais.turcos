@@ -1,0 +1,155 @@
+name: Gerar logos individuais da TV principal
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - ".github/workflows/gerar-logos-individuais.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  gerar-logos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Pillow
+        run: python -m pip install --quiet pillow
+
+      - name: Criar uma logo PNG individual para cada canal
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageDraw, ImageFont
+          import colorsys, hashlib, re, unicodedata
+
+          playlist = Path("Tv.m3u")
+          lines = playlist.read_text(encoding="utf-8").splitlines()
+          branch = "github/workflows/atualizar-logos.yml"
+          raw_base = f"https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/{branch}/"
+          out = Path("logos-ajustadas")
+          out.mkdir(exist_ok=True)
+
+          def slug(s):
+              s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+              return re.sub(r"[^a-z0-9]+", "-", s).strip("-") or "canal"
+
+          def palette(name, category):
+              h = int(hashlib.sha256((category + "|" + name).encode()).hexdigest()[:8], 16) / 0xffffffff
+              rgb = colorsys.hsv_to_rgb(h, 0.82, 1.0)
+              accent = tuple(int(v*255) for v in rgb)
+              return accent
+
+          font_bold = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+          font_regular = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+
+          def make_logo(name, category):
+              im = Image.new("RGB", (256, 256), (0, 0, 0))
+              d = ImageDraw.Draw(im)
+              accent = palette(name, category)
+              # Geometric broadcast emblem, unique per channel, above a centered wordmark.
+              digest = hashlib.sha256((category + "|" + name).encode()).digest()
+              cx, cy = 128, 82
+              sides = 5 + digest[0] % 4
+              radius = 48
+              points = []
+              import math
+              for k in range(sides):
+                  a = -math.pi/2 + 2*math.pi*k/sides
+                  rr = radius if k % 2 == 0 else radius*0.72
+                  points.append((cx + math.cos(a)*rr, cy + math.sin(a)*rr))
+              d.polygon(points, fill=accent)
+              d.ellipse((cx-15, cy-15, cx+15, cy+15), fill=(0,0,0))
+              # Fit channel name on up to three lines without clipping.
+              words = name.split()
+              lines2, current = [], ""
+              for word in words:
+                  trial = (current + " " + word).strip()
+                  if d.textbbox((0,0), trial, font=ImageFont.truetype(font_bold, 28))[2] <= 226:
+                      current = trial
+                  else:
+                      if current: lines2.append(current)
+                      current = word
+              if current: lines2.append(current)
+              if len(lines2) > 3:
+                  lines2 = [" ".join(words[:2]), " ".join(words[2:])]
+              size = 30 if max((len(x) for x in lines2), default=0) <= 10 else 24
+              font = ImageFont.truetype(font_bold, size)
+              # Keep long names legible by reducing font size as needed.
+              while any(d.textbbox((0,0), t, font=font)[2] > 232 for t in lines2) and size > 15:
+                  size -= 1
+                  font = ImageFont.truetype(font_bold, size)
+              heights = [d.textbbox((0,0), t, font=font)[3] for t in lines2]
+              total = sum(heights) + (len(lines2)-1)*5
+              y = 155 - total//2
+              for t, h in zip(lines2, heights):
+                  box = d.textbbox((0,0), t, font=font)
+                  x = (256-(box[2]-box[0]))//2
+                  d.text((x+2,y+2), t, font=font, fill=(45,45,45), stroke_width=1)
+                  d.text((x,y), t, font=font, fill=(255,255,255), stroke_width=0)
+                  y += h + 5
+              # Category accent underline.
+              d.rounded_rectangle((76, 224, 180, 230), radius=3, fill=accent)
+              return im
+
+          updated = 0
+          used = set()
+          for i, line in enumerate(lines):
+              if not line.startswith("#EXTINF"):
+                  continue
+              name = line.rsplit(",", 1)[-1].strip()
+              m = re.search(r'group-title="([^"]+)"', line)
+              category = m.group(1) if m else "SEM CATEGORIA"
+              folder = slug(category)
+              stem = slug(name)
+              filename = f"{stem}.png"
+              target = out / folder / filename
+              # Ensure two identically named entries never overwrite each other.
+              key = (folder, filename)
+              n = 2
+              while key in used:
+                  filename = f"{stem}-{n}.png"
+                  target = out / folder / filename
+                  key = (folder, filename)
+                  n += 1
+              used.add(key)
+              target.parent.mkdir(parents=True, exist_ok=True)
+              make_logo(name, category).save(target, "PNG", optimize=True)
+              url = raw_base + "logos-ajustadas/" + folder + "/" + filename
+              if re.search(r'tvg-logo="[^"]*"', line):
+                  line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{url}"', line, count=1)
+              else:
+                  line = line.replace("#EXTINF:", f'#EXTINF:', 1)
+                  comma = line.rfind(",")
+                  line = line[:comma] + f' tvg-logo="{url}"' + line[comma:]
+              lines[i] = line
+              updated += 1
+
+          playlist.write_text("\n".join(lines) + "\n", encoding="utf-8")
+          print(f"LOGOS INDIVIDUAIS GERADAS: {updated}; PNG 256x256, fundo preto, arquivos separados por canal e categoria.")
+          PY
+
+      - name: Publicar logos e playlist
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Tv.m3u logos-ajustadas/
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para publicar."
+            exit 0
+          fi
+          git commit -m "Gerar logos individuais para todos os canais da TV principal"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}" || { git rebase --abort || true; sleep 2; continue; }
+            git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep 2
+          done
+          echo "Falha ao publicar após cinco tentativas."
+          exit 1
