@@ -405,7 +405,7 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8
 
 #EXTINF:-1 tvg-name="MTürk TV" tvg-id="custom.mturktv" group-title="REGIONAIS" tvg-logo="https://i.imgur.com/xj1gvrq.png",MTürk TV
 #EXTVLCOPT:network-caching=1000
-https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
+https://vavoo.to/vavoo-iptv/play/375599442073736b876622
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-canais/play-tv-7f76a44683.png" tvg-name="Play TV" group-title="MÚSICA" tvg-id="custom.playtv",Play TV
 #EXTVLCOPT:network-caching=1000
@@ -541,7 +541,7 @@ https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-canais/trt-genc-tr-c74d1fcc07.png" tvg-id="TRT.GENÇ.tr" tvg-name="TRT Genç" group-title="TRT",TRT Genç
 #EXTVLCOPT:network-caching=1000
-https://tv-trtgenc.medya.trt.com.tr/master_480.m3u8
+https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/trt-haber-tr.png" tvg-id="TRT.HABER.tr" tvg-name="TRT Haber" group-title="NOTÍCIAS",TRT Haber
 #EXTVLCOPT:network-caching=1000
@@ -573,7 +573,7 @@ https://cdn.pishow.tv/ott/live/266/266_2.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/turk-haber-tr.png" tvg-id="TURKHABER.tr" tvg-name="TürkHaber" group-title="NOTÍCIAS",TürkHaber
 #EXTVLCOPT:network-caching=1000
-https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+https://vavoo.to/vavoo-iptv/play/2012038243cd78e54611e8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/tv1-tr.png" tvg-id="TV1.tr" tvg-name="TV 1" group-title="REGIONAIS",TV 1
 #EXTVLCOPT:network-caching=1000
