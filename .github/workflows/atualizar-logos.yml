@@ -197,6 +197,145 @@ jobs:
           print(f"CATÁLOGO TURCO: {ok}/{len(results)} logos importadas e normalizadas em 256x256.")
           PY
 
+      - name: Importar logos adicionais (Wikimedia, TRT oficial e GunesTV)
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from urllib.parse import urlencode
+          from io import BytesIO
+          from zipfile import ZipFile
+          from PIL import Image
+          import cairosvg, csv, json, re, html
+          
+          ROOT = Path("logos-turcas-catalogo/fontes-adicionais")
+          ROOT.mkdir(parents=True, exist_ok=True)
+          rows = []
+          
+          def get(url):
+              req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; Turkish-TV-Logo-Catalog/1.0)"})
+              with urlopen(req, timeout=35) as response:
+                  return response.read()
+          
+          def slug(value):
+              value = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+              return value[:100] or "logo"
+          
+          def normalize(raw):
+              if b"<svg" in raw[:8192].lower() or raw.lstrip().startswith(b"<?xml"):
+                  raw = cairosvg.svg2png(bytestring=raw)
+              im = Image.open(BytesIO(raw)).convert("RGBA")
+              bbox = im.getchannel("A").getbbox()
+              if bbox:
+                  im = im.crop(bbox)
+              im.thumbnail((220, 220), Image.Resampling.LANCZOS)
+              canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
+              canvas.alpha_composite(im, ((256-im.width)//2, (256-im.height)//2))
+              out = BytesIO()
+              canvas.convert("RGB").save(out, format="PNG", optimize=True)
+              return out.getvalue()
+          
+          def save(source, label, url, target_dir, license_name="", credit=""):
+              try:
+                  raw = get(url)
+                  png = normalize(raw)
+                  target_dir.mkdir(parents=True, exist_ok=True)
+                  filename = slug(label) + ".png"
+                  target = target_dir / filename
+                  # Avoid collisions when two channels share a title.
+                  n = 2
+                  while target.exists() and target.read_bytes() != png:
+                      target = target_dir / (slug(label) + "-" + str(n) + ".png")
+                      n += 1
+                  target.write_bytes(png)
+                  rows.append([source, label, str(target).replace("\\", "/"), url, license_name, credit, "OK"])
+                  print("OK", source, label, target)
+              except Exception as exc:
+                  rows.append([source, label, "", url, license_name, credit, "FALHA: " + str(exc)])
+                  print("FALHA", source, label, exc)
+          
+          # 1) Wikimedia Commons: category principal + categoria SVG.
+          for category in [
+              "Category:Logos of television channels in Turkey",
+              "Category:SVG logos of television channels in Turkey",
+          ]:
+              continuation = None
+              while True:
+                  params = {
+                      "action": "query", "generator": "categorymembers",
+                      "gcmtitle": category, "gcmtype": "file", "gcmlimit": "500",
+                      "prop": "imageinfo", "iiprop": "url|extmetadata", "format": "json"
+                  }
+                  if continuation:
+                      params["gcmcontinue"] = continuation
+                  data = json.loads(get("https://commons.wikimedia.org/w/api.php?" + urlencode(params)).decode("utf-8"))
+                  pages = data.get("query", {}).get("pages", {})
+                  for page in pages.values():
+                      info = (page.get("imageinfo") or [{}])[0]
+                      url = info.get("url")
+                      if not url:
+                          continue
+                      meta = info.get("extmetadata", {})
+                      license_name = html.unescape(meta.get("LicenseShortName", {}).get("value", ""))
+                      credit = html.unescape(meta.get("Artist", {}).get("value", ""))
+                      title = page.get("title", "logo").replace("File:", "")
+                      save("Wikimedia Commons", title, url, ROOT / "wikimedia-commons", license_name, credit)
+                  continuation = data.get("continue", {}).get("gcmcontinue")
+                  if not continuation:
+                      break
+          
+          # 2) TRT official TV-channel logo pack (ZIP linked by TRT corporate page).
+          try:
+              archive = ZipFile(BytesIO(get("https://www.trt.net.tr/logos/Televizyon.zip")))
+              for member in archive.infolist():
+                  if member.is_dir() or not re.search(r"\.(png|jpe?g|webp|gif|svg)$", member.filename, re.I):
+                      continue
+                  try:
+                      png = normalize(archive.read(member))
+                      target_dir = ROOT / "trt-oficial"
+                      target_dir.mkdir(parents=True, exist_ok=True)
+                      target = target_dir / (slug(Path(member.filename).stem) + ".png")
+                      target.write_bytes(png)
+                      rows.append(["TRT oficial", Path(member.filename).stem, str(target).replace("\\", "/"),
+                                   "https://www.trt.net.tr/logos/Televizyon.zip", "TRT - pacote oficial", "TRT Kurumsal", "OK"])
+                      print("OK TRT oficial", member.filename)
+                  except Exception as exc:
+                      rows.append(["TRT oficial", member.filename, "", "https://www.trt.net.tr/logos/Televizyon.zip",
+                                   "TRT - pacote oficial", "TRT Kurumsal", "FALHA: " + str(exc)])
+                      print("FALHA TRT", member.filename, exc)
+          except Exception as exc:
+              rows.append(["TRT oficial", "Pacote de logos de televisão", "", "https://www.trt.net.tr/logos/Televizyon.zip",
+                           "TRT - pacote oficial", "TRT Kurumsal", "FALHA: " + str(exc)])
+              print("FALHA pacote TRT", exc)
+          
+          # 3) GunesTV: use only logo URLs from entries explicitly marked as Turkey.
+          try:
+              data = json.loads(get("https://raw.githubusercontent.com/Oktay2617/gunestv/main/channels_turkey.json").decode("utf-8"))
+              seen = set()
+              for channel in data.get("channels", []):
+                  if str(channel.get("country", "")).strip().lower() != "turkey":
+                      continue
+                  url = str(channel.get("logo", "")).strip()
+                  if not url or url in seen:
+                      continue
+                  seen.add(url)
+                  save("GunesTV", str(channel.get("name") or channel.get("id") or "canal"), url, ROOT / "gunestv")
+          except Exception as exc:
+              rows.append(["GunesTV", "Catálogo Turkey", "", "https://raw.githubusercontent.com/Oktay2617/gunestv/main/channels_turkey.json",
+                           "", "", "FALHA: " + str(exc)])
+              print("FALHA GunesTV", exc)
+          
+          with (ROOT / "FONTES-ADICIONAIS.csv").open("w", newline="", encoding="utf-8") as f:
+              writer = csv.writer(f)
+              writer.writerow(["fonte", "canal_ou_arquivo", "png_256", "url_original", "licenca", "credito", "resultado"])
+              writer.writerows(rows)
+          
+          ok = sum(1 for row in rows if row[-1] == "OK")
+          print(f"FONTES ADICIONAIS: {ok}/{len(rows)} imagens normalizadas para PNG 256x256.")
+          
+          PY
+
       - name: Criar e padronizar logos dos canais adicionados no padrão aprovado (256x256)
         shell: bash
         run: |
