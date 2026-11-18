@@ -115,7 +115,7 @@
     <display-name>TR - Kanal D</display-name>
     <icon src="https://iptv-epg.org/images/5pXoIJtUZaxg_Zn5Rn7CrAXbLUXN7m7b8zrIYEYio5NaJFlLapjOeW_hkNIBePKqbTMFlCIFUpOnCh8ndNMTNemedhEp7JBfvXCFmaCySQ" />
   <display-name>Kanal D</display-name><category>ENTRETENIMENTO</category></channel>
-  <channel id="custom.kanalddrama"><display-name>Kanal D Drama</display-name><category>ENTRETENIMENTO</category></channel><channel id="custom.kanalfrat"><display-name>Kanal Fırat</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kanal-frat.png" /><category>REGIONAIS</category></channel><channel id="KANAL.V.tr"><display-name>KANAL V.tr</display-name><display-name>Kanal V</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kanal-v.png" /><category>REGIONAIS</category></channel>
+  <channel id="custom.kanalddrama"><display-name>Kanal D Drama</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/entretenimento/kanal-d-drama.png" /><category>ENTRETENIMENTO</category></channel><channel id="custom.kanalfrat"><display-name>Kanal Fırat</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kanal-frat.png" /><category>REGIONAIS</category></channel><channel id="KANAL.V.tr"><display-name>KANAL V.tr</display-name><display-name>Kanal V</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kanal-v.png" /><category>REGIONAIS</category></channel>
 <channel id="custom.kaytv"><display-name>Kay TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kay-tv.png" /><category>REGIONAIS</category></channel><channel id="custom.kayhantv"><display-name>Kayhan TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kayhan-tv.png" /><category>REGIONAIS</category></channel><channel id="custom.kentturktv"><display-name>Kent Türk TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kent-turk-tv.png" /><category>REGIONAIS</category></channel><channel id="custom.kocaelitv"><display-name>Kocaeli TV</display-name><icon src="https://i.imgur.com/LeTP4zq.png" /><url>https://turksatkablo.com.tr</url><category>REGIONAIS</category></channel>
 <channel id="custom.konyaktv"><display-name>Konya KTV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/konya-ktv.png" /><category>REGIONAIS</category></channel><channel id="custom.konyaolaytv"><display-name>Konya Olay TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/konya-olay-tv.png" /><category>REGIONAIS</category></channel><channel id="custom.lalegultv">
     <display-name lang="tr">LALEGÜL</display-name>
@@ -143,9 +143,9 @@
   <display-name>Semerkand TV</display-name><category>RELIGIOSOS</category></channel>
   <channel id="custom.sercemtv"><display-name>Sercem TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/religiosos/sercem-tv.png" /><category>RELIGIOSOS</category></channel><channel id="ShowMax.tr"><display-name>Show Max</display-name><icon src="https://i.imgur.com/456FWA7.png" /><url>https://tv.blue.ch</url><category>ENTRETENIMENTO</category></channel>
 <channel id="SHOW.TV.tr">
-    <display-name>TR - Show TV</display-name>
-    <icon src="https://iptv-epg.org/images/E3jm8CnPTN0oEXE8w-M7KdTS74P7HBUeNgF9qg9onaR0w8NIUSUUQUQpva9rgnFJ6vw7u1BXYCELwG1mRVByiuBQRgJT6FECgTFDvrwZHw" />
-  <display-name>Show TV</display-name><category>ENTRETENIMENTO</category></channel>
+    <display-name>Show TV</display-name>
+    <icon src="https://xmltv.live/logo.php?id=46476" />
+  <category>ENTRETENIMENTO</category></channel>
   <channel id="custom.spacetoonturkiye"><display-name>Spacetoon Türkiye</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/infantis/spacetoon-turkiye.png" /><category>INFANTIS</category></channel><channel id="STAR.TV.tr">
     <display-name>TR - Star TV</display-name>
     <icon src="https://iptv-epg.org/images/geyq1jI7yXrmUJ9AlOPsDFHs6TOgfD6FsiQ3gkt4uWXBji9wX-5lebxP_32CmfGxMgOz9X-o1OtfSR1LKiS0dK-ZExXXCyrrx4YS2JtPXA" />
@@ -261,7 +261,7 @@
     <url>http://www.tivibu.com.tr</url>
   <display-name>BBC First Türkiye</display-name><category>FILMES E SÉRIES</category></channel>
   <channel id="EKOL.TV.tr"><display-name>EKOL TV.tr</display-name><display-name>Ekol TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/noticias/ekol-tv.png" /><category>NOTÍCIAS</category></channel>
-<channel id="custom.syriatv"><display-name>Syria TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/syria-tv.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.balkanturk"><display-name>Balkan Türk</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/balkan-turk.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.thaqalayntv"><display-name>Thaqalayn TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/thaqalayn-tv.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.knmusictv"><display-name>KN Music TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/kn-music-tv.png" /><category>MÚSICA</category></channel><channel id="custom.yoltv"><display-name>YOL TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/yol-tv.png" /><category>REGIONAIS</category></channel><channel id="custom.rtginternational"><display-name>RTG International</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/rtg-international.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.kanalada"><display-name>Kanal Ada</display-name><category>REGIONAIS</category></channel><channel id="custom.arzufilm"><display-name>Arzu Film</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/filmes-e-series/arzu-film.png" /><category>FILMES E SÉRIES</category></channel><channel id="Ekol.Sports.tr"><display-name>Ekol Sports.tr</display-name><display-name>Ekol Sports</display-name><category>ESPORTES</category></channel>
+<channel id="custom.syriatv"><display-name>Syria TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/syria-tv.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.balkanturk"><display-name>Balkan Türk</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/balkan-turk.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.thaqalayntv"><display-name>Thaqalayn TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/thaqalayn-tv.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.knmusictv"><display-name>KN Music TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/kn-music-tv.png" /><category>MÚSICA</category></channel><channel id="custom.yoltv"><display-name>YOL TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/yol-tv.png" /><category>REGIONAIS</category></channel><channel id="custom.rtginternational"><display-name>RTG International</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/rtg-international.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.kanalada"><display-name>Kanal Ada</display-name><category>REGIONAIS</category></channel><channel id="custom.arzufilm"><display-name>Arzu Film</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/filmes-e-series/arzu-film.png" /><category>FILMES E SÉRIES</category></channel><channel id="Ekol.Sports.tr"><display-name>Ekol Sports.tr</display-name><display-name>Ekol Sports</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/esportes/ekol-sports.png" /><category>ESPORTES</category></channel>
 <channel id="custom.kanalurfa"><display-name>Kanal Urfa</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kanal-urfa.png" /><category>REGIONAIS</category></channel><channel id="custom.trabzonbuyuksehirbelediyesitv"><display-name>Trabzon Buyuksehir Belediyesi TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/trabzon-buyuksehir-belediyesi-tv.png" /><category>REGIONAIS</category></channel><channel id="custom.urfanatiktv"><display-name>Urfanatik TV</display-name><category>REGIONAIS</category></channel><channel id="custom.madinahtv"><display-name>MADINAH TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/religiosos/madinah-tv.png" /><category>RELIGIOSOS</category></channel><channel id="MCTV.de@HD"><display-name>MC EU TV</display-name><category>INTERNACIONAIS</category></channel><channel id="PersianaTurkiye.fr@SD"><display-name>Persiana Türkiye</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/persiana-turkiye.png" /><category>INTERNACIONAIS</category></channel><channel id="BabyFirst.us@US"><display-name>BabyFirst TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/infantis/babyfirst-tv.png" /><category>INFANTIS</category></channel><channel id="TLC.de@SD">
     <display-name>TR - TLC</display-name>
     <icon src="https://iptv-epg.org/images/jLtl8xcy2ITbd6kC-X8N-9nS4s1MSE_aStxjuFVDkvPE7RtBmt3rZzTOQYgNghxfyj_0GVZNUfAqmS_3Mugd9vcB1poJQRdlOoowXQ" />
@@ -270,7 +270,7 @@
     <display-name lang="tr">LOVE NATURE</display-name>
     <url>http://www.tivibu.com.tr</url>
   <display-name>Love Nature</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/documentarios/love-nature.png" /><category>DOCUMENTÁRIOS</category></channel>
-  <channel id="custom.etvmanisa"><display-name>ETV Manisa</display-name><category>REGIONAIS</category></channel><channel id="custom.dizitv"><display-name>Dizi TV</display-name><category>FILMES E SÉRIES</category></channel><channel id="custom.abnturkey"><display-name>ABN TURKEY</display-name><category>RELIGIOSOS</category></channel><channel id="custom.dost"><display-name>Dost</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/dost.png" /><category>MÚSICA</category></channel><channel id="custom.companytv"><display-name>Company TV</display-name><category>MÚSICA</category></channel><channel id="custom.intvaustralia"><display-name>INTV Australia</display-name><category>INTERNACIONAIS</category></channel><channel id="custom.guclutv"><display-name>Güçlü TV</display-name><category>MÚSICA</category></channel><channel id="custom.isvicretv"><display-name>İSVİÇRE TV</display-name><category>INTERNACIONAIS</category></channel><channel id="custom.now70s"><display-name>Now 70 s</display-name><category>MÚSICA</category></channel><channel id="custom.now80s"><display-name>Now 80 s</display-name><category>MÚSICA</category></channel><channel id="custom.nowrock"><display-name>NOW ROCK</display-name><category>MÚSICA</category></channel><channel id="custom.mortv"><display-name>MOR TV</display-name><category>ESTILO DE VIDA</category></channel><channel id="custom.iqchannel"><display-name>IQ Channel</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/iq-channel.png" /><category>MÚSICA</category></channel><channel id="custom.jintv"><display-name>JÎN TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/jin-tv.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.makkahtv"><display-name>MAKKAH TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/religiosos/makkah-tv.png" /><category>RELIGIOSOS</category></channel><channel id="custom.mktv"><display-name>MK TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/mk-tv.png" /><category>REGIONAIS</category></channel><channel id="custom.toppop"><display-name>TopPop</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/toppop.png" /><category>MÚSICA</category></channel><channel id="custom.retromusictelevision"><display-name>Retro Music Television</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/retro-music-television.png" /><category>MÚSICA</category></channel><channel id="custom.gzt">
+  <channel id="custom.etvmanisa"><display-name>ETV Manisa</display-name><category>REGIONAIS</category></channel><channel id="custom.dizitv"><display-name>Dizi TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/filmes-e-series/dizi-tv.png" /><category>FILMES E SÉRIES</category></channel><channel id="custom.abnturkey"><display-name>ABN TURKEY</display-name><category>RELIGIOSOS</category></channel><channel id="custom.dost"><display-name>Dost</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/dost.png" /><category>MÚSICA</category></channel><channel id="custom.companytv"><display-name>Company TV</display-name><category>MÚSICA</category></channel><channel id="custom.intvaustralia"><display-name>INTV Australia</display-name><category>INTERNACIONAIS</category></channel><channel id="custom.guclutv"><display-name>Güçlü TV</display-name><category>MÚSICA</category></channel><channel id="custom.isvicretv"><display-name>İSVİÇRE TV</display-name><category>INTERNACIONAIS</category></channel><channel id="custom.now70s"><display-name>Now 70 s</display-name><category>MÚSICA</category></channel><channel id="custom.now80s"><display-name>Now 80 s</display-name><category>MÚSICA</category></channel><channel id="custom.nowrock"><display-name>NOW ROCK</display-name><category>MÚSICA</category></channel><channel id="custom.mortv"><display-name>MOR TV</display-name><category>ESTILO DE VIDA</category></channel><channel id="custom.iqchannel"><display-name>IQ Channel</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/iq-channel.png" /><category>MÚSICA</category></channel><channel id="custom.jintv"><display-name>JÎN TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/jin-tv.png" /><category>INTERNACIONAIS</category></channel><channel id="custom.makkahtv"><display-name>MAKKAH TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/religiosos/makkah-tv.png" /><category>RELIGIOSOS</category></channel><channel id="custom.mktv"><display-name>MK TV</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/mk-tv.png" /><category>REGIONAIS</category></channel><channel id="custom.toppop"><display-name>TopPop</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/toppop.png" /><category>MÚSICA</category></channel><channel id="custom.retromusictelevision"><display-name>Retro Music Television</display-name><icon src="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/retro-music-television.png" /><category>MÚSICA</category></channel><channel id="custom.gzt">
     <display-name lang="tur">GZT</display-name>
     <display-name lang="tur">GZT TV</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/960px-GZT_logo.svg.png" />
@@ -35327,276 +35327,6 @@ Ali, normal bir okulda okurken yetenek tarama testine katılır. Bu test sonucun
     <desc>Türkiye ile dünyanın bazı merkezlerinin hava koşulları, Hava Durumu kuşağında ekrana geliyor.İzleyiciler, gün içerisindeki sıcaklık, rüzgar ve yağış koşullarına dair belli aralıklarla bilgilendiriliyor.</desc>
     <category>Hava Durumu</category>
   </programme>
-  <programme start="20261118023000 +0300" stop="20261118043000 +0300" channel="SHOW.TV.tr">
-    <title>Muhtemel Aşk</title>
-    <desc>Bir hafta içinde borcunu ödemediği takdirde yıllardır emek verdiği avukatlık bürolarını kaybetme tehlikesiyle karşı karşıya kalan Defne, son şansını ortak bir projeye bağlıyor. Ancak bunun için yolları yeniden kesişen Kadir ve Tolga'yı aynı projede buluşturması gerekiyor. Defne, ikiliyi ikna etmeye çalışırken aralarındaki geçmişten gelen sorunun sandığından çok daha derin olduğunu fark etmiyor.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261118043000 +0300" stop="20261118060000 +0300" channel="SHOW.TV.tr">
-    <title>Futboliye</title>
-    <desc>Futbolcu olmak isteyen çaycı Hüsnü, hem sevdiği kadın Bahar'ı etkileyebilmek için hem de futbolda kendini ispatlamak için Yugoslavya'dan gelen bir futbolcunun yerine geçer. Yugoslav futbolcunun yerine geçmesiyle eğlenceli bir maceraya atılan Hüsnü, Bahar'a da yakın olabilmek için antrenör olan ikiz kız kardeşinin kılığına girer.</desc>
-    <category>Film</category>
-  </programme>
-  <programme start="20261118060000 +0300" stop="20261118090000 +0300" channel="SHOW.TV.tr">
-    <title>Baba</title>
-    <desc>Saruhanlı ailesi, Ödemiş’te bir aile apartmanında hep beraber mütevazı bir hayat süren, geleneklerine bağlı, kalabalık bir aile… Ailenin reisi Emin Saruhanlı; mütedeyyin, aile değerlerine sıkı sıkıya bağlı ve otoriter bir baba... Emin’in en küçük oğlu Kadir Saruhanlı’nın bayram ziyareti için eve dönüşü baba ile oğul arasında eski defterlerin açılmasına sebep olur. Yaşanan bir uçak kazası Saruhanlı ailesinin kaderini tamamen değiştirir. Saruhanlı ailesinin zorluklarla dolu yeni hayatı başlarken, Emin ailesini korumak için hayatının en büyük sınavı ile karşı karşıya kalır.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261118090000 +0300" stop="20261118123000 +0300" channel="SHOW.TV.tr">
-    <title>Kuzey Yıldızı: İlk Aşk</title>
-    <desc>Kuzey’le Yıldız; bir köprünün üstündeki iki inatçı keçi, aynı denizin iki hırçın dalgasıdır. Kuzey, Yıldız ile sözlenip üniversite okumaya İstanbul’a gittiğinde başka bir kadına aşık olup evlenir ama Yıldız’a yaşattığını tam yirmi sene sonra yaşamış, terk edilmiş; üstelik dolandırılıp sıfır noktasına gelmiştir. Kuzey, yıllar önce binbir umutla geldiği ve hayallerini, en güzel günlerini yaşadığı şehri, üç kızıyla birlikte terk edip memleketine dönmeye karar verir. Ama Yıldız, onu geldiği yere göndermeye, onu döndüğüne pişman etmeye yeminlidir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261118123000 +0300" stop="20261118150000 +0300" channel="SHOW.TV.tr">
-    <title>Gelin Evi</title>
-    <desc>Birbirinden iddialı ve hamarat 5 gelinin kıyasıya yarıştığı, ev dekorasyonundan misafirperverliğe, sofra sunumundan çeyize kadar farklı alanların değerlendirildiği yarışmada her hafta haftanın birincisine büyük ödül veriliyor.</desc>
-    <category>Yaşam</category>
-  </programme>
-  <programme start="20261118150000 +0300" stop="20261118182500 +0300" channel="SHOW.TV.tr">
-    <title>Bahar</title>
-    <desc>Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261118182500 +0300" stop="20261118200000 +0300" channel="SHOW.TV.tr">
-    <title>Show Ana Haber</title>
-    <desc>Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
-    <category>Haber</category>
-  </programme>
-  <programme start="20261118200000 +0300" stop="20261119001500 +0300" channel="SHOW.TV.tr">
-    <title>Sevdan Bir Ateş</title>
-    <desc>S1 E11
-Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261119001500 +0300" stop="20261119024500 +0300" channel="SHOW.TV.tr">
-    <title>Sevdan Bir Ateş</title>
-    <desc>S1 E11
-Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261119024500 +0300" stop="20261119060000 +0300" channel="SHOW.TV.tr">
-    <title>Bahar</title>
-    <desc>Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261119060000 +0300" stop="20261119090000 +0300" channel="SHOW.TV.tr">
-    <title>Baba</title>
-    <desc>Saruhanlı ailesi, Ödemiş’te bir aile apartmanında hep beraber mütevazı bir hayat süren, geleneklerine bağlı, kalabalık bir aile… Ailenin reisi Emin Saruhanlı; mütedeyyin, aile değerlerine sıkı sıkıya bağlı ve otoriter bir baba... Emin’in en küçük oğlu Kadir Saruhanlı’nın bayram ziyareti için eve dönüşü baba ile oğul arasında eski defterlerin açılmasına sebep olur. Yaşanan bir uçak kazası Saruhanlı ailesinin kaderini tamamen değiştirir. Saruhanlı ailesinin zorluklarla dolu yeni hayatı başlarken, Emin ailesini korumak için hayatının en büyük sınavı ile karşı karşıya kalır.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261119090000 +0300" stop="20261119123000 +0300" channel="SHOW.TV.tr">
-    <title>Kuzey Yıldızı: İlk Aşk</title>
-    <desc>Kuzey’le Yıldız; bir köprünün üstündeki iki inatçı keçi, aynı denizin iki hırçın dalgasıdır. Kuzey, Yıldız ile sözlenip üniversite okumaya İstanbul’a gittiğinde başka bir kadına aşık olup evlenir ama Yıldız’a yaşattığını tam yirmi sene sonra yaşamış, terk edilmiş; üstelik dolandırılıp sıfır noktasına gelmiştir. Kuzey, yıllar önce binbir umutla geldiği ve hayallerini, en güzel günlerini yaşadığı şehri, üç kızıyla birlikte terk edip memleketine dönmeye karar verir. Ama Yıldız, onu geldiği yere göndermeye, onu döndüğüne pişman etmeye yeminlidir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261119123000 +0300" stop="20261119150000 +0300" channel="SHOW.TV.tr">
-    <title>Gelin Evi</title>
-    <desc>Birbirinden iddialı ve hamarat 5 gelinin kıyasıya yarıştığı, ev dekorasyonundan misafirperverliğe, sofra sunumundan çeyize kadar farklı alanların değerlendirildiği yarışmada her hafta haftanın birincisine büyük ödül veriliyor.</desc>
-    <category>Yaşam</category>
-  </programme>
-  <programme start="20261119150000 +0300" stop="20261119182500 +0300" channel="SHOW.TV.tr">
-    <title>Bahar</title>
-    <desc>Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261119182500 +0300" stop="20261119200000 +0300" channel="SHOW.TV.tr">
-    <title>Show Ana Haber</title>
-    <desc>Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
-    <category>Haber</category>
-  </programme>
-  <programme start="20261119200000 +0300" stop="20261120001500 +0300" channel="SHOW.TV.tr">
-    <title>Muhtemel Aşk</title>
-    <desc>S1 E22
-Bir hafta içinde borcunu ödemediği takdirde yıllardır emek verdiği avukatlık bürolarını kaybetme tehlikesiyle karşı karşıya kalan Defne, son şansını ortak bir projeye bağlıyor. Ancak bunun için yolları yeniden kesişen Kadir ve Tolga'yı aynı projede buluşturması gerekiyor. Defne, ikiliyi ikna etmeye çalışırken aralarındaki geçmişten gelen sorunun sandığından çok daha derin olduğunu fark etmiyor.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261120001500 +0300" stop="20261120011500 +0300" channel="SHOW.TV.tr">
-    <title>Gece Hattı</title>
-    <desc>Türkiye'nin ve dünyanın nabzı, hız kesmeden Show TV'de atmaya devam ediyor. Sokaklardan manşetlere, gecenin içinden geçen her sıcak gelişme, günden kalan tüm detaylar ve çarpıcı başlıklar Gece Hattı'nda buluşuyor.</desc>
-    <category>Haber</category>
-  </programme>
-  <programme start="20261120011500 +0300" stop="20261120034500 +0300" channel="SHOW.TV.tr">
-    <title>Sevdan Bir Ateş</title>
-    <desc>Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261120034500 +0300" stop="20261120060000 +0300" channel="SHOW.TV.tr">
-    <title>Bahar</title>
-    <desc>Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261120060000 +0300" stop="20261120090000 +0300" channel="SHOW.TV.tr">
-    <title>Baba</title>
-    <desc>Saruhanlı ailesi, Ödemiş’te bir aile apartmanında hep beraber mütevazı bir hayat süren, geleneklerine bağlı, kalabalık bir aile… Ailenin reisi Emin Saruhanlı; mütedeyyin, aile değerlerine sıkı sıkıya bağlı ve otoriter bir baba... Emin’in en küçük oğlu Kadir Saruhanlı’nın bayram ziyareti için eve dönüşü baba ile oğul arasında eski defterlerin açılmasına sebep olur. Yaşanan bir uçak kazası Saruhanlı ailesinin kaderini tamamen değiştirir. Saruhanlı ailesinin zorluklarla dolu yeni hayatı başlarken, Emin ailesini korumak için hayatının en büyük sınavı ile karşı karşıya kalır.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261120090000 +0300" stop="20261120123000 +0300" channel="SHOW.TV.tr">
-    <title>Kuzey Yıldızı: İlk Aşk</title>
-    <desc>Kuzey’le Yıldız; bir köprünün üstündeki iki inatçı keçi, aynı denizin iki hırçın dalgasıdır. Kuzey, Yıldız ile sözlenip üniversite okumaya İstanbul’a gittiğinde başka bir kadına aşık olup evlenir ama Yıldız’a yaşattığını tam yirmi sene sonra yaşamış, terk edilmiş; üstelik dolandırılıp sıfır noktasına gelmiştir. Kuzey, yıllar önce binbir umutla geldiği ve hayallerini, en güzel günlerini yaşadığı şehri, üç kızıyla birlikte terk edip memleketine dönmeye karar verir. Ama Yıldız, onu geldiği yere göndermeye, onu döndüğüne pişman etmeye yeminlidir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261120123000 +0300" stop="20261120150000 +0300" channel="SHOW.TV.tr">
-    <title>Gelin Evi</title>
-    <desc>Birbirinden iddialı ve hamarat 5 gelinin kıyasıya yarıştığı, ev dekorasyonundan misafirperverliğe, sofra sunumundan çeyize kadar farklı alanların değerlendirildiği yarışmada her hafta haftanın birincisine büyük ödül veriliyor.</desc>
-    <category>Yaşam</category>
-  </programme>
-  <programme start="20261120150000 +0300" stop="20261120182500 +0300" channel="SHOW.TV.tr">
-    <title>Bahar</title>
-    <desc>Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261120182500 +0300" stop="20261120200000 +0300" channel="SHOW.TV.tr">
-    <title>Show Ana Haber</title>
-    <desc>Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
-    <category>Haber</category>
-  </programme>
-  <programme start="20261120200000 +0300" stop="20261121001500 +0300" channel="SHOW.TV.tr">
-    <title>Kızılcık Şerbeti</title>
-    <desc>S5 E148
-İyi eğitimli, realist ve modern bir kadın olan Kıvılcım, eşinden boşandıktan sonra dimdik ayakta kalmış, iki kızını da inandığı değerler doğrultusunda yetiştirmiştir. Küçük kızı Çimen henüz liseye devam etmekte, büyük kızı Doğa ise üniversitede diş hekimliği okumaktadır. Kıvılcım’ın tek isteği çocuklarının ileride başarılı ve mutlu olmalarını görmektir. Doğa’nın daha üniversiteye girdiği ilk yıl erkek arkadaşıyla evlenmesiyle büyük bir hayal kırıklığı yaşayan Kıvılcım, hayatının şokunu kızının kocasının ailesiyle tanışmasında yaşar. Doğa’nın kocası Fatih’in ailesi oldukça muhafazakâr bir ailedir. Kıvılcım, kızının hayata bu kadar farklı bakan bir aileyle yapamayacağını düşünür. Doğa ise aşklarının her türlü farklılığın üstesinden geleceğine inanmaktadır.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261121001500 +0300" stop="20261121020000 +0300" channel="SHOW.TV.tr">
-    <title>Çapraz Ateş</title>
-    <desc>Mallory Kane, işinin uzmanı özel bir dedektiftir. Koruyucusu Kenneth, hükumetin onaylamadığı ve derin devletin tepesindekilerin bilmezlikten geldikleri tehlikeli bir göreve Mallory'i yollar. Fakat İspanya'daki başka bir operasyon başarısızlığa uğradığında Kenneth, Mallory'i bu sefer de başka bir görev için Dublin'e yollar. Mallory burada başka bir gizli dedektif olan Paul ile ortak çalışacaktır. Fakat bu yeni görevde bir gariplik olduğunu sezen Mallory, oyuna getirildiğini anlar ve asıl macera bundan sonra başlar. Artık uluslararası bir seviyeye çıkan insan avından canlı çıkmak için bütün yeteneklerini ve kurnazlığını kullanacaktır. Tek amacı ülkesi Amerika'ya geri dönüp ailesini korumak ve kendisine bu ihanet komplosunu düzenleyenlerden intikam almaktır.</desc>
-    <category>Film</category>
-  </programme>
-  <programme start="20261121020000 +0300" stop="20261121043000 +0300" channel="SHOW.TV.tr">
-    <title>Sevdan Bir Ateş</title>
-    <desc>Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261121043000 +0300" stop="20261121070000 +0300" channel="SHOW.TV.tr">
-    <title>Bahar</title>
-    <desc>Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261121070000 +0300" stop="20261121100000 +0300" channel="SHOW.TV.tr">
-    <title>Kızılcık Şerbeti</title>
-    <desc>İyi eğitimli, realist ve modern bir kadın olan Kıvılcım, eşinden boşandıktan sonra dimdik ayakta kalmış, iki kızını da inandığı değerler doğrultusunda yetiştirmiştir. Küçük kızı Çimen henüz liseye devam etmekte, büyük kızı Doğa ise üniversitede diş hekimliği okumaktadır. Kıvılcım’ın tek isteği çocuklarının ileride başarılı ve mutlu olmalarını görmektir. Doğa’nın daha üniversiteye girdiği ilk yıl erkek arkadaşıyla evlenmesiyle büyük bir hayal kırıklığı yaşayan Kıvılcım, hayatının şokunu kızının kocasının ailesiyle tanışmasında yaşar. Doğa’nın kocası Fatih’in ailesi oldukça muhafazakâr bir ailedir. Kıvılcım, kızının hayata bu kadar farklı bakan bir aileyle yapamayacağını düşünür. Doğa ise aşklarının her türlü farklılığın üstesinden geleceğine inanmaktadır.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261121100000 +0300" stop="20261121130000 +0300" channel="SHOW.TV.tr">
-    <title>Cumartesi Sürprizi</title>
-    <desc>Magazin ve eğlence dünyasının ünlü isimleri ile ilgili en yeni gelişmeler, dizi sektöründe olan biten her şey Cumartesi Sürprizi'nde...</desc>
-    <category>Magazin</category>
-  </programme>
-  <programme start="20261121130000 +0300" stop="20261121144500 +0300" channel="SHOW.TV.tr">
-    <title>Gülen Adam</title>
-    <desc>Herkesin garip bulduğu ve her şeye gülme huyu yüzünden kimsenin sevmediği Yusuf, bu hastalığa doğduğundan beri sahiptir ve kimse onu ağlatmayı başaramamıştır. Sonunda bir doktor bunu araştırmaya karar verir ve Yusuf’un üzerinde bir takım deneyler yapmaya başlar. Bu arada Yusuf, çalıştığı yerde gördüğü bir kıza aşık olur ve onu kaçırır. Yeni evli çift oturacak bir ev bulamayınca kendilerine seyyar ev yaparlar.</desc>
-    <category>Film</category>
-  </programme>
-  <programme start="20261121144500 +0300" stop="20261121182500 +0300" channel="SHOW.TV.tr">
-    <title>Sevdan Bir Ateş</title>
-    <desc>Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261121182500 +0300" stop="20261121200000 +0300" channel="SHOW.TV.tr">
-    <title>Show Ana Haber Hafta Sonu</title>
-    <desc>Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
-    <category>Haber</category>
-  </programme>
-  <programme start="20261121200000 +0300" stop="20261121234500 +0300" channel="SHOW.TV.tr">
-    <title>Güldür Güldür Show</title>
-    <desc>S14 E451
-Günlük hayatta yaşanan olaylara farklı bir bakış açısı ile yaklaşan Güldür Güldür Show'da, kahkaha tufanına hazır olun!</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261121234500 +0300" stop="20261122014500 +0300" channel="SHOW.TV.tr">
-    <title>Tehlikeli İhtiyar</title>
-    <desc>Yaşlanan kiralık katil Danny Dolinski, yaptığı işte en iyi olduğuna inanmaktadır. Kolundan sakatlanan Danny, şirketi tarafından göreve çağrıldığında çok heyecanlanır. Ancak geri çağrılmanın nedeni, pervasız zeki bir suikastçı olan Wihlborg'u eğitmektir. İkiliden rakip bir şirketi ortadan kaldırmaları istenir. Ancak işverenlerinin gerçek amacını öğrenen Danny, hayatta kalmak için Wihlborg ile işbirliği yaparlar.</desc>
-    <category>Film</category>
-  </programme>
-  <programme start="20261122014500 +0300" stop="20261122040000 +0300" channel="SHOW.TV.tr">
-    <title>Kızılcık Şerbeti</title>
-    <desc>İyi eğitimli, realist ve modern bir kadın olan Kıvılcım, eşinden boşandıktan sonra dimdik ayakta kalmış, iki kızını da inandığı değerler doğrultusunda yetiştirmiştir. Küçük kızı Çimen henüz liseye devam etmekte, büyük kızı Doğa ise üniversitede diş hekimliği okumaktadır. Kıvılcım’ın tek isteği çocuklarının ileride başarılı ve mutlu olmalarını görmektir. Doğa’nın daha üniversiteye girdiği ilk yıl erkek arkadaşıyla evlenmesiyle büyük bir hayal kırıklığı yaşayan Kıvılcım, hayatının şokunu kızının kocasının ailesiyle tanışmasında yaşar. Doğa’nın kocası Fatih’in ailesi oldukça muhafazakâr bir ailedir. Kıvılcım, kızının hayata bu kadar farklı bakan bir aileyle yapamayacağını düşünür. Doğa ise aşklarının her türlü farklılığın üstesinden geleceğine inanmaktadır.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261122040000 +0300" stop="20261122070000 +0300" channel="SHOW.TV.tr">
-    <title>Muhtemel Aşk</title>
-    <desc>Bir hafta içinde borcunu ödemediği takdirde yıllardır emek verdiği avukatlık bürolarını kaybetme tehlikesiyle karşı karşıya kalan Defne, son şansını ortak bir projeye bağlıyor. Ancak bunun için yolları yeniden kesişen Kadir ve Tolga'yı aynı projede buluşturması gerekiyor. Defne, ikiliyi ikna etmeye çalışırken aralarındaki geçmişten gelen sorunun sandığından çok daha derin olduğunu fark etmiyor.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261122070000 +0300" stop="20261122100000 +0300" channel="SHOW.TV.tr">
-    <title>Sevdan Bir Ateş</title>
-    <desc>Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261122100000 +0300" stop="20261122130000 +0300" channel="SHOW.TV.tr">
-    <title>Pazar Sürprizi</title>
-    <desc>Magazin ve eğlence dünyasının ünlü isimleri ile ilgili en yeni gelişmeler, dizi sektöründe olan biten her şey Pazar Sürprizi'nde...</desc>
-    <category>Magazin</category>
-  </programme>
-  <programme start="20261122130000 +0300" stop="20261122144500 +0300" channel="SHOW.TV.tr">
-    <title>İyi Aile Çocuğu</title>
-    <desc>Doğdukları gün anne ve babaları öldürülen ikiz kardeşler Kemal ve Cemal, bir cami avlusuna bırakılır. Her biri farklı insanlar tarafından evlat edinilir. Kardeşler birbirinden habersiz büyür. Cemal namlı bir kabadayı, Kemal ise banka memuru olur. Bir kardeşin hissettiklerini aynı şekilde diğer kardeş de hissetmektedir. Yıllar sonra karşılaşmalarından doğan karışıklık ikisinin başına da türlü belalar açacaktır.</desc>
-    <category>Film</category>
-  </programme>
-  <programme start="20261122144500 +0300" stop="20261122182500 +0300" channel="SHOW.TV.tr">
-    <title>Kızılcık Şerbeti</title>
-    <desc>İyi eğitimli, realist ve modern bir kadın olan Kıvılcım, eşinden boşandıktan sonra dimdik ayakta kalmış, iki kızını da inandığı değerler doğrultusunda yetiştirmiştir. Küçük kızı Çimen henüz liseye devam etmekte, büyük kızı Doğa ise üniversitede diş hekimliği okumaktadır. Kıvılcım’ın tek isteği çocuklarının ileride başarılı ve mutlu olmalarını görmektir. Doğa’nın daha üniversiteye girdiği ilk yıl erkek arkadaşıyla evlenmesiyle büyük bir hayal kırıklığı yaşayan Kıvılcım, hayatının şokunu kızının kocasının ailesiyle tanışmasında yaşar. Doğa’nın kocası Fatih’in ailesi oldukça muhafazakâr bir ailedir. Kıvılcım, kızının hayata bu kadar farklı bakan bir aileyle yapamayacağını düşünür. Doğa ise aşklarının her türlü farklılığın üstesinden geleceğine inanmaktadır.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261122182500 +0300" stop="20261122200000 +0300" channel="SHOW.TV.tr">
-    <title>Show Ana Haber Hafta Sonu</title>
-    <desc>Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
-    <category>Haber</category>
-  </programme>
-  <programme start="20261122200000 +0300" stop="20261122214500 +0300" channel="SHOW.TV.tr">
-    <title>Atla Gel Şaban</title>
-    <desc>Niyazi her dar gelirli vatandaş gibi kıt kanaat geçinen, esnafla köşe kapmaca oynayan saf, iyi bir adamdır. Bir şirkette metin yazarı olarak çalışmaktadır. Bir yandan patronunun baskısı, diğer yandan kaynana zırıltısı, karısının ve çocuklarının bitmeyen istekleri yüzünden ne yapacağını şaşırır.  Ama Niyazi'nin kendisinin bile farkında olmadığı müthiş bir yeteneği vardır. At yarışlarında 6'lıyı tam isabet tutturmaktadır. Mahalleli çılgınlar gibi at yarışı oynamaktadır. Ancak Niyazi 6'lıyı tutturduğu halde kuponları yatırmadığı için bir türlü para kazanamaz. Bu yeteneğini öğrenen yarış mafyası ona tahmin yaptırıp köşeyi dönmek için Niyazi'yi kaçırır. Ama Niyazi'ye ilham gelmesi için çok özel koşulların hazırlanması gerekmektedir.</desc>
-    <category>Film</category>
-  </programme>
-  <programme start="20261122214500 +0300" stop="20261122234500 +0300" channel="SHOW.TV.tr">
-    <title>Sağ Salim 2: Sil Baştan</title>
-    <desc>Salim, kimsesi olmayan bir cenazeyi memleketine götürmeye karar verir. Ancak bu yolculuk yolda karşılaştığı yol arkadaşı Nihal'le birlikte azılı katiller ve kötü adamlarla mücadele ettikleri bir maceraya dönüşür. Nihal'in annesi intikam için rehin alındığında ise işler iyice karışır. Adamlarımız artık seri katil olarak aranmaktadır ve yakalanmamak için kılık değiştirmek zorunda kalırlar. Ne var ki bu da çözüm olmaz ve talihsizlikler iyice çığrından çıkar.</desc>
-    <category>Film</category>
-  </programme>
-  <programme start="20261122234500 +0300" stop="20261123021500 +0300" channel="SHOW.TV.tr">
-    <title>Kızılcık Şerbeti</title>
-    <desc>İyi eğitimli, realist ve modern bir kadın olan Kıvılcım, eşinden boşandıktan sonra dimdik ayakta kalmış, iki kızını da inandığı değerler doğrultusunda yetiştirmiştir. Küçük kızı Çimen henüz liseye devam etmekte, büyük kızı Doğa ise üniversitede diş hekimliği okumaktadır. Kıvılcım’ın tek isteği çocuklarının ileride başarılı ve mutlu olmalarını görmektir. Doğa’nın daha üniversiteye girdiği ilk yıl erkek arkadaşıyla evlenmesiyle büyük bir hayal kırıklığı yaşayan Kıvılcım, hayatının şokunu kızının kocasının ailesiyle tanışmasında yaşar. Doğa’nın kocası Fatih’in ailesi oldukça muhafazakâr bir ailedir. Kıvılcım, kızının hayata bu kadar farklı bakan bir aileyle yapamayacağını düşünür. Doğa ise aşklarının her türlü farklılığın üstesinden geleceğine inanmaktadır.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261123021500 +0300" stop="20261123043000 +0300" channel="SHOW.TV.tr">
-    <title>Sevdan Bir Ateş</title>
-    <desc>Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261123043000 +0300" stop="20261123060000 +0300" channel="SHOW.TV.tr">
-    <title>İyi Aile Çocuğu</title>
-    <desc>Doğdukları gün anne ve babaları öldürülen ikiz kardeşler Kemal ve Cemal, bir cami avlusuna bırakılır. Her biri farklı insanlar tarafından evlat edinilir. Kardeşler birbirinden habersiz büyür. Cemal namlı bir kabadayı, Kemal ise banka memuru olur. Bir kardeşin hissettiklerini aynı şekilde diğer kardeş de hissetmektedir. Yıllar sonra karşılaşmalarından doğan karışıklık ikisinin başına da türlü belalar açacaktır.</desc>
-    <category>Film</category>
-  </programme>
-  <programme start="20261123060000 +0300" stop="20261123090000 +0300" channel="SHOW.TV.tr">
-    <title>Baba</title>
-    <desc>Saruhanlı ailesi, Ödemiş’te bir aile apartmanında hep beraber mütevazı bir hayat süren, geleneklerine bağlı, kalabalık bir aile… Ailenin reisi Emin Saruhanlı; mütedeyyin, aile değerlerine sıkı sıkıya bağlı ve otoriter bir baba... Emin’in en küçük oğlu Kadir Saruhanlı’nın bayram ziyareti için eve dönüşü baba ile oğul arasında eski defterlerin açılmasına sebep olur. Yaşanan bir uçak kazası Saruhanlı ailesinin kaderini tamamen değiştirir. Saruhanlı ailesinin zorluklarla dolu yeni hayatı başlarken, Emin ailesini korumak için hayatının en büyük sınavı ile karşı karşıya kalır.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261123090000 +0300" stop="20261123123000 +0300" channel="SHOW.TV.tr">
-    <title>Kuzey Yıldızı: İlk Aşk</title>
-    <desc>Kuzey’le Yıldız; bir köprünün üstündeki iki inatçı keçi, aynı denizin iki hırçın dalgasıdır. Kuzey, Yıldız ile sözlenip üniversite okumaya İstanbul’a gittiğinde başka bir kadına aşık olup evlenir ama Yıldız’a yaşattığını tam yirmi sene sonra yaşamış, terk edilmiş; üstelik dolandırılıp sıfır noktasına gelmiştir. Kuzey, yıllar önce binbir umutla geldiği ve hayallerini, en güzel günlerini yaşadığı şehri, üç kızıyla birlikte terk edip memleketine dönmeye karar verir. Ama Yıldız, onu geldiği yere göndermeye, onu döndüğüne pişman etmeye yeminlidir.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261123123000 +0300" stop="20261123150000 +0300" channel="SHOW.TV.tr">
-    <title>Gelin Evi</title>
-    <desc>Birbirinden iddialı ve hamarat 5 gelinin kıyasıya yarıştığı, ev dekorasyonundan misafirperverliğe, sofra sunumundan çeyize kadar farklı alanların değerlendirildiği yarışmada her hafta haftanın birincisine büyük ödül veriliyor.</desc>
-    <category>Yaşam</category>
-  </programme>
-  <programme start="20261123150000 +0300" stop="20261123182500 +0300" channel="SHOW.TV.tr">
-    <title>Bahar</title>
-    <desc>Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
-    <category>Dizi</category>
-  </programme>
-  <programme start="20261123182500 +0300" stop="20261123200000 +0300" channel="SHOW.TV.tr">
-    <title>Show Ana Haber</title>
-    <desc>Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
-    <category>Haber</category>
-  </programme>
-  <programme start="20261123200000 +0300" stop="20261124001500 +0300" channel="SHOW.TV.tr">
-    <title>Güldür Güldür Show</title>
-    <desc>Günlük hayatta yaşanan olaylara farklı bir bakış açısı ile yaklaşan Güldür Güldür Show'da, kahkaha tufanına hazır olun!</desc>
-    <category>Dizi</category>
-  </programme>
   <programme start="20261118001500 +0300" stop="20261118030000 +0300" channel="STAR.TV.tr">
     <title>Dizi</title>
     <desc>Star TV'nin sevilen yerli dizileri tekrar bölümleriyle ekrana geliyor.</desc>
@@ -50790,6 +50520,591 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <title>Noctàmbuls Del Llobregat</title>
     <desc>· ETV.</desc>
     <icon src="https://d22hf6hy3vcb1o.cloudfront.net:443/Tenant_1/Asset/5125c58d0dfd42b3b3caad16d90df701/Images/7c6e7d9644aa4468977b24f65ca6f47a" />
+  </programme>
+  <programme start="20261117233000 +0000" stop="20261118013000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Muhtemel Aşk</title>
+      <desc lang="tr">Bir hafta içinde borcunu ödemediği takdirde yıllardır emek verdiği avukatlık bürolarını kaybetme tehlikesiyle karşı karşıya kalan Defne, son şansını ortak bir projeye bağlıyor. Ancak bunun için yolları yeniden kesişen Kadir ve Tolga'yı aynı projede buluşturması gerekiyor. Defne, ikiliyi ikna etmeye çalışırken aralarındaki geçmişten gelen sorunun sandığından çok daha derin olduğunu fark etmiyor.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Altan Dönmez</director>
+        <actor>Ayça Ayşin Turan</actor>
+        <actor>Ekin Koç</actor>
+        <actor>Feyyaz Şerifoğlu</actor>
+        <actor>Cansel Elçin</actor>
+        <actor>Evrim Doğan</actor>
+      </credits>
+      <icon src="https://xmltv.live/img.php?id=118009197" />
+  </programme>
+  <programme start="20261118013000 +0000" stop="20261118030000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Futboliye</title>
+      <desc lang="tr">Futbolcu olmak isteyen çaycı Hüsnü, hem sevdiği kadın Bahar'ı etkileyebilmek için hem de futbolda kendini ispatlamak için Yugoslavya'dan gelen bir futbolcunun yerine geçer. Yugoslav futbolcunun yerine geçmesiyle eğlenceli bir maceraya atılan Hüsnü, Bahar'a da yakın olabilmek için antrenör olan ikiz kız kardeşinin kılığına girer.</desc>
+      <category>Film</category>
+      <credits>
+        <director>Osman F. Seden</director>
+        <actor>Aydemir Akbaş</actor>
+        <actor>Bülent Kayabaş</actor>
+        <actor>Ali Şen</actor>
+        <actor>Bahar Öztan</actor>
+      </credits>
+      <icon src="https://xmltv.live/img.php?id=118009198" />
+  </programme>
+  <programme start="20261118030000 +0000" stop="20261118060000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Baba</title>
+      <desc lang="tr">Saruhanlı ailesi, Ödemiş’te bir aile apartmanında hep beraber mütevazı bir hayat süren, geleneklerine bağlı, kalabalık bir aile… Ailenin reisi Emin Saruhanlı; mütedeyyin, aile değerlerine sıkı sıkıya bağlı ve otoriter bir baba... Emin’in en küçük oğlu Kadir Saruhanlı’nın bayram ziyareti için eve dönüşü baba ile oğul arasında eski defterlerin açılmasına sebep olur. Yaşanan bir uçak kazası Saruhanlı ailesinin kaderini tamamen değiştirir. Saruhanlı ailesinin zorluklarla dolu yeni hayatı başlarken, Emin ailesini korumak için hayatının en büyük sınavı ile karşı karşıya kalır.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Çağrı Bayrak</director>
+        <actor>Haluk Bilginer</actor>
+        <actor>Tolga Sarıtaş</actor>
+        <actor>Ayda Aksel</actor>
+      </credits>
+  </programme>
+  <programme start="20261118060000 +0000" stop="20261118093000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Kuzey Yıldızı: İlk Aşk</title>
+      <desc lang="tr">Kuzey’le Yıldız; bir köprünün üstündeki iki inatçı keçi, aynı denizin iki hırçın dalgasıdır. Kuzey, Yıldız ile sözlenip üniversite okumaya İstanbul’a gittiğinde başka bir kadına aşık olup evlenir ama Yıldız’a yaşattığını tam yirmi sene sonra yaşamış, terk edilmiş; üstelik dolandırılıp sıfır noktasına gelmiştir. Kuzey, yıllar önce binbir umutla geldiği ve hayallerini, en güzel günlerini yaşadığı şehri, üç kızıyla birlikte terk edip memleketine dönmeye karar verir. Ama Yıldız, onu geldiği yere göndermeye, onu döndüğüne pişman etmeye yeminlidir.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Ersoy Güler</director>
+        <actor>Aslıhan Güner</actor>
+        <actor>İsmail Demirci</actor>
+        <actor>Toygan Avanoğlu</actor>
+        <actor>Cezmi Baskın</actor>
+        <actor>Zeynep Kankonde</actor>
+      </credits>
+  </programme>
+  <programme start="20261118093000 +0000" stop="20261118120000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Gelin Evi</title>
+      <desc lang="tr">Birbirinden iddialı ve hamarat 5 gelinin kıyasıya yarıştığı, ev dekorasyonundan misafirperverliğe, sofra sunumundan çeyize kadar farklı alanların değerlendirildiği yarışmada her hafta haftanın birincisine büyük ödül veriliyor.</desc>
+      <category>Yaşam</category>
+  </programme>
+  <programme start="20261118120000 +0000" stop="20261118152500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Bahar</title>
+      <desc lang="tr">Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Neslihan Yeşilyurt</director>
+        <actor>Demet Evgar</actor>
+        <actor>Buğra Gülsoy</actor>
+        <actor>Ecem Özkaya</actor>
+        <actor>Elit Andaç Çam</actor>
+      </credits>
+  </programme>
+  <programme start="20261118152500 +0000" stop="20261118170000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Show Ana Haber</title>
+      <desc lang="tr">Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
+      <category>Haber</category>
+      <icon src="https://xmltv.live/img.php?id=118009203" />
+  </programme>
+  <programme start="20261118170000 +0000" stop="20261118211500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Sevdan Bir Ateş</title>
+      <desc lang="tr">Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
+      <category>Dizi</category>
+      <episode-num system="onscreen">S1 E11</episode-num>
+      <credits>
+        <director>Murat Saraçoğlu</director>
+        <actor>Murat Ünalmış</actor>
+        <actor>Özge Özacar</actor>
+        <actor>Gökçe Eyüboğlu</actor>
+        <actor>Sitare Akbaş</actor>
+        <actor>Taner Rumeli</actor>
+      </credits>
+      <icon src="https://xmltv.live/img.php?id=118009204" />
+  </programme>
+  <programme start="20261118211500 +0000" stop="20261118234500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Sevdan Bir Ateş</title>
+      <desc lang="tr">Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
+      <category>Dizi</category>
+      <episode-num system="onscreen">S1 E11</episode-num>
+      <credits>
+        <director>Murat Saraçoğlu</director>
+        <actor>Murat Ünalmış</actor>
+        <actor>Özge Özacar</actor>
+        <actor>Gökçe Eyüboğlu</actor>
+        <actor>Sitare Akbaş</actor>
+        <actor>Taner Rumeli</actor>
+      </credits>
+      <icon src="https://xmltv.live/img.php?id=118009205" />
+  </programme>
+  <programme start="20261118234500 +0000" stop="20261119030000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Bahar</title>
+      <desc lang="tr">Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Neslihan Yeşilyurt</director>
+        <actor>Demet Evgar</actor>
+        <actor>Buğra Gülsoy</actor>
+        <actor>Ecem Özkaya</actor>
+        <actor>Elit Andaç Çam</actor>
+      </credits>
+      <icon src="https://xmltv.live/img.php?id=118009206" />
+  </programme>
+  <programme start="20261119030000 +0000" stop="20261119060000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Baba</title>
+      <desc lang="tr">Saruhanlı ailesi, Ödemiş’te bir aile apartmanında hep beraber mütevazı bir hayat süren, geleneklerine bağlı, kalabalık bir aile… Ailenin reisi Emin Saruhanlı; mütedeyyin, aile değerlerine sıkı sıkıya bağlı ve otoriter bir baba... Emin’in en küçük oğlu Kadir Saruhanlı’nın bayram ziyareti için eve dönüşü baba ile oğul arasında eski defterlerin açılmasına sebep olur. Yaşanan bir uçak kazası Saruhanlı ailesinin kaderini tamamen değiştirir. Saruhanlı ailesinin zorluklarla dolu yeni hayatı başlarken, Emin ailesini korumak için hayatının en büyük sınavı ile karşı karşıya kalır.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Çağrı Bayrak</director>
+        <actor>Haluk Bilginer</actor>
+        <actor>Tolga Sarıtaş</actor>
+        <actor>Ayda Aksel</actor>
+      </credits>
+  </programme>
+  <programme start="20261119060000 +0000" stop="20261119093000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Kuzey Yıldızı: İlk Aşk</title>
+      <desc lang="tr">Kuzey’le Yıldız; bir köprünün üstündeki iki inatçı keçi, aynı denizin iki hırçın dalgasıdır. Kuzey, Yıldız ile sözlenip üniversite okumaya İstanbul’a gittiğinde başka bir kadına aşık olup evlenir ama Yıldız’a yaşattığını tam yirmi sene sonra yaşamış, terk edilmiş; üstelik dolandırılıp sıfır noktasına gelmiştir. Kuzey, yıllar önce binbir umutla geldiği ve hayallerini, en güzel günlerini yaşadığı şehri, üç kızıyla birlikte terk edip memleketine dönmeye karar verir. Ama Yıldız, onu geldiği yere göndermeye, onu döndüğüne pişman etmeye yeminlidir.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Ersoy Güler</director>
+        <actor>Aslıhan Güner</actor>
+        <actor>İsmail Demirci</actor>
+        <actor>Toygan Avanoğlu</actor>
+        <actor>Cezmi Baskın</actor>
+        <actor>Zeynep Kankonde</actor>
+      </credits>
+  </programme>
+  <programme start="20261119093000 +0000" stop="20261119120000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Gelin Evi</title>
+      <desc lang="tr">Birbirinden iddialı ve hamarat 5 gelinin kıyasıya yarıştığı, ev dekorasyonundan misafirperverliğe, sofra sunumundan çeyize kadar farklı alanların değerlendirildiği yarışmada her hafta haftanın birincisine büyük ödül veriliyor.</desc>
+      <category>Yaşam</category>
+  </programme>
+  <programme start="20261119120000 +0000" stop="20261119152500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Bahar</title>
+      <desc lang="tr">Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Neslihan Yeşilyurt</director>
+        <actor>Demet Evgar</actor>
+        <actor>Buğra Gülsoy</actor>
+        <actor>Ecem Özkaya</actor>
+        <actor>Elit Andaç Çam</actor>
+      </credits>
+  </programme>
+  <programme start="20261119152500 +0000" stop="20261119170000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Show Ana Haber</title>
+      <desc lang="tr">Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
+      <category>Haber</category>
+      <icon src="https://xmltv.live/img.php?id=118009211" />
+  </programme>
+  <programme start="20261119170000 +0000" stop="20261119211500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Muhtemel Aşk</title>
+      <desc lang="tr">Bir hafta içinde borcunu ödemediği takdirde yıllardır emek verdiği avukatlık bürolarını kaybetme tehlikesiyle karşı karşıya kalan Defne, son şansını ortak bir projeye bağlıyor. Ancak bunun için yolları yeniden kesişen Kadir ve Tolga'yı aynı projede buluşturması gerekiyor. Defne, ikiliyi ikna etmeye çalışırken aralarındaki geçmişten gelen sorunun sandığından çok daha derin olduğunu fark etmiyor.</desc>
+      <category>Dizi</category>
+      <episode-num system="onscreen">S1 E22</episode-num>
+      <credits>
+        <director>Altan Dönmez</director>
+        <actor>Ayça Ayşin Turan</actor>
+        <actor>Ekin Koç</actor>
+        <actor>Feyyaz Şerifoğlu</actor>
+        <actor>Cansel Elçin</actor>
+        <actor>Evrim Doğan</actor>
+      </credits>
+      <icon src="https://xmltv.live/img.php?id=118009212" />
+  </programme>
+  <programme start="20261119211500 +0000" stop="20261119221500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Gece Hattı</title>
+      <desc lang="tr">Türkiye'nin ve dünyanın nabzı, hız kesmeden Show TV'de atmaya devam ediyor. Sokaklardan manşetlere, gecenin içinden geçen her sıcak gelişme, günden kalan tüm detaylar ve çarpıcı başlıklar Gece Hattı'nda buluşuyor.</desc>
+      <category>Haber</category>
+  </programme>
+  <programme start="20261119221500 +0000" stop="20261120004500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Sevdan Bir Ateş</title>
+      <desc lang="tr">Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Murat Saraçoğlu</director>
+        <actor>Murat Ünalmış</actor>
+        <actor>Özge Özacar</actor>
+        <actor>Gökçe Eyüboğlu</actor>
+        <actor>Sitare Akbaş</actor>
+        <actor>Taner Rumeli</actor>
+      </credits>
+  </programme>
+  <programme start="20261120004500 +0000" stop="20261120030000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Bahar</title>
+      <desc lang="tr">Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Neslihan Yeşilyurt</director>
+        <actor>Demet Evgar</actor>
+        <actor>Buğra Gülsoy</actor>
+        <actor>Ecem Özkaya</actor>
+        <actor>Elit Andaç Çam</actor>
+      </credits>
+  </programme>
+  <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Baba</title>
+      <desc lang="tr">Saruhanlı ailesi, Ödemiş’te bir aile apartmanında hep beraber mütevazı bir hayat süren, geleneklerine bağlı, kalabalık bir aile… Ailenin reisi Emin Saruhanlı; mütedeyyin, aile değerlerine sıkı sıkıya bağlı ve otoriter bir baba... Emin’in en küçük oğlu Kadir Saruhanlı’nın bayram ziyareti için eve dönüşü baba ile oğul arasında eski defterlerin açılmasına sebep olur. Yaşanan bir uçak kazası Saruhanlı ailesinin kaderini tamamen değiştirir. Saruhanlı ailesinin zorluklarla dolu yeni hayatı başlarken, Emin ailesini korumak için hayatının en büyük sınavı ile karşı karşıya kalır.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Çağrı Bayrak</director>
+        <actor>Haluk Bilginer</actor>
+        <actor>Tolga Sarıtaş</actor>
+        <actor>Ayda Aksel</actor>
+      </credits>
+  </programme>
+  <programme start="20261120060000 +0000" stop="20261120093000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Kuzey Yıldızı: İlk Aşk</title>
+      <desc lang="tr">Kuzey’le Yıldız; bir köprünün üstündeki iki inatçı keçi, aynı denizin iki hırçın dalgasıdır. Kuzey, Yıldız ile sözlenip üniversite okumaya İstanbul’a gittiğinde başka bir kadına aşık olup evlenir ama Yıldız’a yaşattığını tam yirmi sene sonra yaşamış, terk edilmiş; üstelik dolandırılıp sıfır noktasına gelmiştir. Kuzey, yıllar önce binbir umutla geldiği ve hayallerini, en güzel günlerini yaşadığı şehri, üç kızıyla birlikte terk edip memleketine dönmeye karar verir. Ama Yıldız, onu geldiği yere göndermeye, onu döndüğüne pişman etmeye yeminlidir.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Ersoy Güler</director>
+        <actor>Aslıhan Güner</actor>
+        <actor>İsmail Demirci</actor>
+        <actor>Toygan Avanoğlu</actor>
+        <actor>Cezmi Baskın</actor>
+        <actor>Zeynep Kankonde</actor>
+      </credits>
+  </programme>
+  <programme start="20261120093000 +0000" stop="20261120120000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Gelin Evi</title>
+      <desc lang="tr">Birbirinden iddialı ve hamarat 5 gelinin kıyasıya yarıştığı, ev dekorasyonundan misafirperverliğe, sofra sunumundan çeyize kadar farklı alanların değerlendirildiği yarışmada her hafta haftanın birincisine büyük ödül veriliyor.</desc>
+      <category>Yaşam</category>
+  </programme>
+  <programme start="20261120120000 +0000" stop="20261120152500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Bahar</title>
+      <desc lang="tr">Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Neslihan Yeşilyurt</director>
+        <actor>Demet Evgar</actor>
+        <actor>Buğra Gülsoy</actor>
+        <actor>Ecem Özkaya</actor>
+        <actor>Elit Andaç Çam</actor>
+      </credits>
+  </programme>
+  <programme start="20261120152500 +0000" stop="20261120170000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Show Ana Haber</title>
+      <desc lang="tr">Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
+      <category>Haber</category>
+  </programme>
+  <programme start="20261120170000 +0000" stop="20261120211500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Kızılcık Şerbeti</title>
+      <desc lang="tr">İyi eğitimli, realist ve modern bir kadın olan Kıvılcım, eşinden boşandıktan sonra dimdik ayakta kalmış, iki kızını da inandığı değerler doğrultusunda yetiştirmiştir. Küçük kızı Çimen henüz liseye devam etmekte, büyük kızı Doğa ise üniversitede diş hekimliği okumaktadır. Kıvılcım’ın tek isteği çocuklarının ileride başarılı ve mutlu olmalarını görmektir. Doğa’nın daha üniversiteye girdiği ilk yıl erkek arkadaşıyla evlenmesiyle büyük bir hayal kırıklığı yaşayan Kıvılcım, hayatının şokunu kızının kocasının ailesiyle tanışmasında yaşar. Doğa’nın kocası Fatih’in ailesi oldukça muhafazakâr bir ailedir. Kıvılcım, kızının hayata bu kadar farklı bakan bir aileyle yapamayacağını düşünür. Doğa ise aşklarının her türlü farklılığın üstesinden geleceğine inanmaktadır.</desc>
+      <category>Dizi</category>
+      <episode-num system="onscreen">S5 E148</episode-num>
+      <credits>
+        <director>Özgür Sevimli</director>
+        <actor>Barış Kılıç</actor>
+        <actor>Evrim Alasya</actor>
+        <actor>Ahmet Mümtaz Taylan</actor>
+        <actor>Seray Kaya</actor>
+      </credits>
+  </programme>
+  <programme start="20261120211500 +0000" stop="20261120230000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Çapraz Ateş</title>
+      <desc lang="tr">Mallory Kane, işinin uzmanı özel bir dedektiftir. Koruyucusu Kenneth, hükumetin onaylamadığı ve derin devletin tepesindekilerin bilmezlikten geldikleri tehlikeli bir göreve Mallory'i yollar. Fakat İspanya'daki başka bir operasyon başarısızlığa uğradığında Kenneth, Mallory'i bu sefer de başka bir görev için Dublin'e yollar. Mallory burada başka bir gizli dedektif olan Paul ile ortak çalışacaktır. Fakat bu yeni görevde bir gariplik olduğunu sezen Mallory, oyuna getirildiğini anlar ve asıl macera bundan sonra başlar. Artık uluslararası bir seviyeye çıkan insan avından canlı çıkmak için bütün yeteneklerini ve kurnazlığını kullanacaktır. Tek amacı ülkesi Amerika'ya geri dönüp ailesini korumak ve kendisine bu ihanet komplosunu düzenleyenlerden intikam almaktır.</desc>
+      <category>Film</category>
+      <credits>
+        <director>Steven Soderbergh</director>
+        <actor>Gina Carano</actor>
+        <actor>Ewan McGregor</actor>
+        <actor>Michael Fassbender</actor>
+        <actor>Michael Angarano</actor>
+      </credits>
+  </programme>
+  <programme start="20261120230000 +0000" stop="20261121013000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Sevdan Bir Ateş</title>
+      <desc lang="tr">Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Murat Saraçoğlu</director>
+        <actor>Murat Ünalmış</actor>
+        <actor>Özge Özacar</actor>
+        <actor>Gökçe Eyüboğlu</actor>
+        <actor>Sitare Akbaş</actor>
+        <actor>Taner Rumeli</actor>
+      </credits>
+  </programme>
+  <programme start="20261121013000 +0000" stop="20261121040000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Bahar</title>
+      <desc lang="tr">Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Neslihan Yeşilyurt</director>
+        <actor>Demet Evgar</actor>
+        <actor>Buğra Gülsoy</actor>
+        <actor>Ecem Özkaya</actor>
+        <actor>Elit Andaç Çam</actor>
+      </credits>
+  </programme>
+  <programme start="20261121040000 +0000" stop="20261121070000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Kızılcık Şerbeti</title>
+      <desc lang="tr">İyi eğitimli, realist ve modern bir kadın olan Kıvılcım, eşinden boşandıktan sonra dimdik ayakta kalmış, iki kızını da inandığı değerler doğrultusunda yetiştirmiştir. Küçük kızı Çimen henüz liseye devam etmekte, büyük kızı Doğa ise üniversitede diş hekimliği okumaktadır. Kıvılcım’ın tek isteği çocuklarının ileride başarılı ve mutlu olmalarını görmektir. Doğa’nın daha üniversiteye girdiği ilk yıl erkek arkadaşıyla evlenmesiyle büyük bir hayal kırıklığı yaşayan Kıvılcım, hayatının şokunu kızının kocasının ailesiyle tanışmasında yaşar. Doğa’nın kocası Fatih’in ailesi oldukça muhafazakâr bir ailedir. Kıvılcım, kızının hayata bu kadar farklı bakan bir aileyle yapamayacağını düşünür. Doğa ise aşklarının her türlü farklılığın üstesinden geleceğine inanmaktadır.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Özgür Sevimli</director>
+        <actor>Barış Kılıç</actor>
+        <actor>Evrim Alasya</actor>
+        <actor>Ahmet Mümtaz Taylan</actor>
+        <actor>Seray Kaya</actor>
+      </credits>
+  </programme>
+  <programme start="20261121070000 +0000" stop="20261121100000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Cumartesi Sürprizi</title>
+      <desc lang="tr">Magazin ve eğlence dünyasının ünlü isimleri ile ilgili en yeni gelişmeler, dizi sektöründe olan biten her şey Cumartesi Sürprizi'nde...</desc>
+      <category>Magazin</category>
+  </programme>
+  <programme start="20261121100000 +0000" stop="20261121114500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Gülen Adam</title>
+      <desc lang="tr">Herkesin garip bulduğu ve her şeye gülme huyu yüzünden kimsenin sevmediği Yusuf, bu hastalığa doğduğundan beri sahiptir ve kimse onu ağlatmayı başaramamıştır. Sonunda bir doktor bunu araştırmaya karar verir ve Yusuf’un üzerinde bir takım deneyler yapmaya başlar. Bu arada Yusuf, çalıştığı yerde gördüğü bir kıza aşık olur ve onu kaçırır. Yeni evli çift oturacak bir ev bulamayınca kendilerine seyyar ev yaparlar.</desc>
+      <category>Film</category>
+      <credits>
+        <director>Kartal Tibet</director>
+        <actor>Kemal Sunal</actor>
+        <actor>Aydan Burhan</actor>
+      </credits>
+  </programme>
+  <programme start="20261121114500 +0000" stop="20261121152500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Sevdan Bir Ateş</title>
+      <desc lang="tr">Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Murat Saraçoğlu</director>
+        <actor>Murat Ünalmış</actor>
+        <actor>Özge Özacar</actor>
+        <actor>Gökçe Eyüboğlu</actor>
+        <actor>Sitare Akbaş</actor>
+        <actor>Taner Rumeli</actor>
+      </credits>
+  </programme>
+  <programme start="20261121152500 +0000" stop="20261121170000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Show Ana Haber Hafta Sonu</title>
+      <desc lang="tr">Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
+      <category>Haber</category>
+  </programme>
+  <programme start="20261121170000 +0000" stop="20261121204500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Güldür Güldür Show</title>
+      <desc lang="tr">Günlük hayatta yaşanan olaylara farklı bir bakış açısı ile yaklaşan Güldür Güldür Show'da, kahkaha tufanına hazır olun!</desc>
+      <category>Dizi</category>
+      <episode-num system="onscreen">S14 E451</episode-num>
+      <credits>
+        <director>Meltem Bozoflu</director>
+        <director>Hakan Algül</director>
+        <actor>Onur Buldu</actor>
+        <actor>Doğa Rutkay</actor>
+        <actor>Meltem Yılmazkaya</actor>
+        <actor>Ali Sunal</actor>
+        <actor>Uğur Bilgin</actor>
+        <actor>Ecem Erkek</actor>
+        <actor>Aylin Kontente</actor>
+        <actor>Mahir İpek</actor>
+      </credits>
+  </programme>
+  <programme start="20261121204500 +0000" stop="20261121224500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Tehlikeli İhtiyar</title>
+      <desc lang="tr">Yaşlanan kiralık katil Danny Dolinski, yaptığı işte en iyi olduğuna inanmaktadır. Kolundan sakatlanan Danny, şirketi tarafından göreve çağrıldığında çok heyecanlanır. Ancak geri çağrılmanın nedeni, pervasız zeki bir suikastçı olan Wihlborg'u eğitmektir. İkiliden rakip bir şirketi ortadan kaldırmaları istenir. Ancak işverenlerinin gerçek amacını öğrenen Danny, hayatta kalmak için Wihlborg ile işbirliği yaparlar.</desc>
+      <category>Film</category>
+      <credits>
+        <director>Simon West</director>
+        <actor>Christoph Waltz</actor>
+        <actor>Lucy Liu</actor>
+        <actor>Cooper Hoffman</actor>
+        <actor>Karishma Navekar</actor>
+        <actor>Desmond Edwards</actor>
+        <actor>Ryan McParland</actor>
+        <actor>Charlie Hamblett</actor>
+        <actor>Ann Akınjirin</actor>
+      </credits>
+  </programme>
+  <programme start="20261121224500 +0000" stop="20261122010000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Kızılcık Şerbeti</title>
+      <desc lang="tr">İyi eğitimli, realist ve modern bir kadın olan Kıvılcım, eşinden boşandıktan sonra dimdik ayakta kalmış, iki kızını da inandığı değerler doğrultusunda yetiştirmiştir. Küçük kızı Çimen henüz liseye devam etmekte, büyük kızı Doğa ise üniversitede diş hekimliği okumaktadır. Kıvılcım’ın tek isteği çocuklarının ileride başarılı ve mutlu olmalarını görmektir. Doğa’nın daha üniversiteye girdiği ilk yıl erkek arkadaşıyla evlenmesiyle büyük bir hayal kırıklığı yaşayan Kıvılcım, hayatının şokunu kızının kocasının ailesiyle tanışmasında yaşar. Doğa’nın kocası Fatih’in ailesi oldukça muhafazakâr bir ailedir. Kıvılcım, kızının hayata bu kadar farklı bakan bir aileyle yapamayacağını düşünür. Doğa ise aşklarının her türlü farklılığın üstesinden geleceğine inanmaktadır.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Özgür Sevimli</director>
+        <actor>Barış Kılıç</actor>
+        <actor>Evrim Alasya</actor>
+        <actor>Ahmet Mümtaz Taylan</actor>
+        <actor>Seray Kaya</actor>
+      </credits>
+  </programme>
+  <programme start="20261122010000 +0000" stop="20261122040000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Muhtemel Aşk</title>
+      <desc lang="tr">Bir hafta içinde borcunu ödemediği takdirde yıllardır emek verdiği avukatlık bürolarını kaybetme tehlikesiyle karşı karşıya kalan Defne, son şansını ortak bir projeye bağlıyor. Ancak bunun için yolları yeniden kesişen Kadir ve Tolga'yı aynı projede buluşturması gerekiyor. Defne, ikiliyi ikna etmeye çalışırken aralarındaki geçmişten gelen sorunun sandığından çok daha derin olduğunu fark etmiyor.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Altan Dönmez</director>
+        <actor>Ayça Ayşin Turan</actor>
+        <actor>Ekin Koç</actor>
+        <actor>Feyyaz Şerifoğlu</actor>
+        <actor>Cansel Elçin</actor>
+        <actor>Evrim Doğan</actor>
+      </credits>
+  </programme>
+  <programme start="20261122040000 +0000" stop="20261122070000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Sevdan Bir Ateş</title>
+      <desc lang="tr">Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Murat Saraçoğlu</director>
+        <actor>Murat Ünalmış</actor>
+        <actor>Özge Özacar</actor>
+        <actor>Gökçe Eyüboğlu</actor>
+        <actor>Sitare Akbaş</actor>
+        <actor>Taner Rumeli</actor>
+      </credits>
+  </programme>
+  <programme start="20261122070000 +0000" stop="20261122100000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Pazar Sürprizi</title>
+      <desc lang="tr">Magazin ve eğlence dünyasının ünlü isimleri ile ilgili en yeni gelişmeler, dizi sektöründe olan biten her şey Pazar Sürprizi'nde...</desc>
+      <category>Magazin</category>
+  </programme>
+  <programme start="20261122100000 +0000" stop="20261122114500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">İyi Aile Çocuğu</title>
+      <desc lang="tr">Doğdukları gün anne ve babaları öldürülen ikiz kardeşler Kemal ve Cemal, bir cami avlusuna bırakılır. Her biri farklı insanlar tarafından evlat edinilir. Kardeşler birbirinden habersiz büyür. Cemal namlı bir kabadayı, Kemal ise banka memuru olur. Bir kardeşin hissettiklerini aynı şekilde diğer kardeş de hissetmektedir. Yıllar sonra karşılaşmalarından doğan karışıklık ikisinin başına da türlü belalar açacaktır.</desc>
+      <category>Film</category>
+      <credits>
+        <director>Osman Seden</director>
+        <actor>Kemal Sunal</actor>
+        <actor>Harika Avcı</actor>
+        <actor>Sevil Üstekin</actor>
+        <actor>Ali Şen</actor>
+      </credits>
+  </programme>
+  <programme start="20261122114500 +0000" stop="20261122152500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Kızılcık Şerbeti</title>
+      <desc lang="tr">İyi eğitimli, realist ve modern bir kadın olan Kıvılcım, eşinden boşandıktan sonra dimdik ayakta kalmış, iki kızını da inandığı değerler doğrultusunda yetiştirmiştir. Küçük kızı Çimen henüz liseye devam etmekte, büyük kızı Doğa ise üniversitede diş hekimliği okumaktadır. Kıvılcım’ın tek isteği çocuklarının ileride başarılı ve mutlu olmalarını görmektir. Doğa’nın daha üniversiteye girdiği ilk yıl erkek arkadaşıyla evlenmesiyle büyük bir hayal kırıklığı yaşayan Kıvılcım, hayatının şokunu kızının kocasının ailesiyle tanışmasında yaşar. Doğa’nın kocası Fatih’in ailesi oldukça muhafazakâr bir ailedir. Kıvılcım, kızının hayata bu kadar farklı bakan bir aileyle yapamayacağını düşünür. Doğa ise aşklarının her türlü farklılığın üstesinden geleceğine inanmaktadır.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Özgür Sevimli</director>
+        <actor>Barış Kılıç</actor>
+        <actor>Evrim Alasya</actor>
+        <actor>Ahmet Mümtaz Taylan</actor>
+        <actor>Seray Kaya</actor>
+      </credits>
+  </programme>
+  <programme start="20261122152500 +0000" stop="20261122170000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Show Ana Haber Hafta Sonu</title>
+      <desc lang="tr">Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
+      <category>Haber</category>
+  </programme>
+  <programme start="20261122170000 +0000" stop="20261122184500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Atla Gel Şaban</title>
+      <desc lang="tr">Niyazi her dar gelirli vatandaş gibi kıt kanaat geçinen, esnafla köşe kapmaca oynayan saf, iyi bir adamdır. Bir şirkette metin yazarı olarak çalışmaktadır. Bir yandan patronunun baskısı, diğer yandan kaynana zırıltısı, karısının ve çocuklarının bitmeyen istekleri yüzünden ne yapacağını şaşırır.  Ama Niyazi'nin kendisinin bile farkında olmadığı müthiş bir yeteneği vardır. At yarışlarında 6'lıyı tam isabet tutturmaktadır. Mahalleli çılgınlar gibi at yarışı oynamaktadır. Ancak Niyazi 6'lıyı tutturduğu halde kuponları yatırmadığı için bir türlü para kazanamaz. Bu yeteneğini öğrenen yarış mafyası ona tahmin yaptırıp köşeyi dönmek için Niyazi'yi kaçırır. Ama Niyazi'ye ilham gelmesi için çok özel koşulların hazırlanması gerekmektedir.</desc>
+      <category>Film</category>
+      <credits>
+        <director>Natuk Baytan</director>
+        <actor>Kemal Sunal</actor>
+        <actor>Nevra Serezli</actor>
+        <actor>Zihni Göktay</actor>
+        <actor>Dinçer Çekmez</actor>
+        <actor>Nezahat Tanyeri</actor>
+        <actor>Reha Yurdakul</actor>
+        <actor>Nermin Denizci</actor>
+        <actor>Turgut Özatay</actor>
+      </credits>
+  </programme>
+  <programme start="20261122184500 +0000" stop="20261122204500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Sağ Salim 2: Sil Baştan</title>
+      <desc lang="tr">Salim, kimsesi olmayan bir cenazeyi memleketine götürmeye karar verir. Ancak bu yolculuk yolda karşılaştığı yol arkadaşı Nihal'le birlikte azılı katiller ve kötü adamlarla mücadele ettikleri bir maceraya dönüşür. Nihal'in annesi intikam için rehin alındığında ise işler iyice karışır. Adamlarımız artık seri katil olarak aranmaktadır ve yakalanmamak için kılık değiştirmek zorunda kalırlar. Ne var ki bu da çözüm olmaz ve talihsizlikler iyice çığrından çıkar.</desc>
+      <category>Film</category>
+      <credits>
+        <director>Ersoy Güler</director>
+        <actor>Burçin Bildik</actor>
+        <actor>Ezgi Aşaroğlu</actor>
+        <actor>Hüseyin Avni Danyal</actor>
+        <actor>Murat Akkoyunlu</actor>
+        <actor>Metin Yıldız</actor>
+      </credits>
+  </programme>
+  <programme start="20261122204500 +0000" stop="20261122231500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Kızılcık Şerbeti</title>
+      <desc lang="tr">İyi eğitimli, realist ve modern bir kadın olan Kıvılcım, eşinden boşandıktan sonra dimdik ayakta kalmış, iki kızını da inandığı değerler doğrultusunda yetiştirmiştir. Küçük kızı Çimen henüz liseye devam etmekte, büyük kızı Doğa ise üniversitede diş hekimliği okumaktadır. Kıvılcım’ın tek isteği çocuklarının ileride başarılı ve mutlu olmalarını görmektir. Doğa’nın daha üniversiteye girdiği ilk yıl erkek arkadaşıyla evlenmesiyle büyük bir hayal kırıklığı yaşayan Kıvılcım, hayatının şokunu kızının kocasının ailesiyle tanışmasında yaşar. Doğa’nın kocası Fatih’in ailesi oldukça muhafazakâr bir ailedir. Kıvılcım, kızının hayata bu kadar farklı bakan bir aileyle yapamayacağını düşünür. Doğa ise aşklarının her türlü farklılığın üstesinden geleceğine inanmaktadır.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Özgür Sevimli</director>
+        <actor>Barış Kılıç</actor>
+        <actor>Evrim Alasya</actor>
+        <actor>Ahmet Mümtaz Taylan</actor>
+        <actor>Seray Kaya</actor>
+      </credits>
+  </programme>
+  <programme start="20261122231500 +0000" stop="20261123013000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Sevdan Bir Ateş</title>
+      <desc lang="tr">Mirza ve Leyla'nın düğünü nikaha birkaç saat kala Leyla'nın ortadan kaybolmasıyla yarım kalır. Aradan geçen yedi yılda Leyla'dan kimse bir haber alamaz. Mirza'nın yeniden hayatını kurmaya karar verdiği ve Destan'la evlenmek üzere olduğu gün Mirza'nın yedi aylık yeğeni Kerem insan kaçakçılığı yapan öz babası tarafından kaçırılınca Mirza yeğenini ve onu kaçıran eniştesini bulmak için Halep'e gider. Ancak Halep sadece Kerem'i değil, yedi senedir kendisini acılar içinde bırakan Leyla'yı da geri verecektir Mirza'ya. Leyla'yı ve 6 yaşındaki Hüma'yı Suriye'den kaçırmak için zorlu bir maceraya giren Mirza'yı Kapadokya'da da kendi ailesine karşı vereceği çetin bir mücadele beklemektedir.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Murat Saraçoğlu</director>
+        <actor>Murat Ünalmış</actor>
+        <actor>Özge Özacar</actor>
+        <actor>Gökçe Eyüboğlu</actor>
+        <actor>Sitare Akbaş</actor>
+        <actor>Taner Rumeli</actor>
+      </credits>
+  </programme>
+  <programme start="20261123013000 +0000" stop="20261123030000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">İyi Aile Çocuğu</title>
+      <desc lang="tr">Doğdukları gün anne ve babaları öldürülen ikiz kardeşler Kemal ve Cemal, bir cami avlusuna bırakılır. Her biri farklı insanlar tarafından evlat edinilir. Kardeşler birbirinden habersiz büyür. Cemal namlı bir kabadayı, Kemal ise banka memuru olur. Bir kardeşin hissettiklerini aynı şekilde diğer kardeş de hissetmektedir. Yıllar sonra karşılaşmalarından doğan karışıklık ikisinin başına da türlü belalar açacaktır.</desc>
+      <category>Film</category>
+      <credits>
+        <director>Osman Seden</director>
+        <actor>Kemal Sunal</actor>
+        <actor>Harika Avcı</actor>
+        <actor>Sevil Üstekin</actor>
+        <actor>Ali Şen</actor>
+      </credits>
+  </programme>
+  <programme start="20261123030000 +0000" stop="20261123060000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Baba</title>
+      <desc lang="tr">Saruhanlı ailesi, Ödemiş’te bir aile apartmanında hep beraber mütevazı bir hayat süren, geleneklerine bağlı, kalabalık bir aile… Ailenin reisi Emin Saruhanlı; mütedeyyin, aile değerlerine sıkı sıkıya bağlı ve otoriter bir baba... Emin’in en küçük oğlu Kadir Saruhanlı’nın bayram ziyareti için eve dönüşü baba ile oğul arasında eski defterlerin açılmasına sebep olur. Yaşanan bir uçak kazası Saruhanlı ailesinin kaderini tamamen değiştirir. Saruhanlı ailesinin zorluklarla dolu yeni hayatı başlarken, Emin ailesini korumak için hayatının en büyük sınavı ile karşı karşıya kalır.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Çağrı Bayrak</director>
+        <actor>Haluk Bilginer</actor>
+        <actor>Tolga Sarıtaş</actor>
+        <actor>Ayda Aksel</actor>
+      </credits>
+  </programme>
+  <programme start="20261123060000 +0000" stop="20261123093000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Kuzey Yıldızı: İlk Aşk</title>
+      <desc lang="tr">Kuzey’le Yıldız; bir köprünün üstündeki iki inatçı keçi, aynı denizin iki hırçın dalgasıdır. Kuzey, Yıldız ile sözlenip üniversite okumaya İstanbul’a gittiğinde başka bir kadına aşık olup evlenir ama Yıldız’a yaşattığını tam yirmi sene sonra yaşamış, terk edilmiş; üstelik dolandırılıp sıfır noktasına gelmiştir. Kuzey, yıllar önce binbir umutla geldiği ve hayallerini, en güzel günlerini yaşadığı şehri, üç kızıyla birlikte terk edip memleketine dönmeye karar verir. Ama Yıldız, onu geldiği yere göndermeye, onu döndüğüne pişman etmeye yeminlidir.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Ersoy Güler</director>
+        <actor>Aslıhan Güner</actor>
+        <actor>İsmail Demirci</actor>
+        <actor>Toygan Avanoğlu</actor>
+        <actor>Cezmi Baskın</actor>
+        <actor>Zeynep Kankonde</actor>
+      </credits>
+  </programme>
+  <programme start="20261123093000 +0000" stop="20261123120000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Gelin Evi</title>
+      <desc lang="tr">Birbirinden iddialı ve hamarat 5 gelinin kıyasıya yarıştığı, ev dekorasyonundan misafirperverliğe, sofra sunumundan çeyize kadar farklı alanların değerlendirildiği yarışmada her hafta haftanın birincisine büyük ödül veriliyor.</desc>
+      <category>Yaşam</category>
+  </programme>
+  <programme start="20261123120000 +0000" stop="20261123152500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Bahar</title>
+      <desc lang="tr">Timur'un ölümüyle dünyaları altüst olan çocuklarına destek olmaya çalışan Bahar, onları yeniden hayata bağlamak için elinden geleni yapıyordur. Bu uğurda mesleğinden bile bir süre uzak kalmayı göze almıştır. Fakat beklenmedik bir anda kendini sokak ortasında verilen bir ölüm kalım savaşının ortasında bulunca doktorluğa beklediğinden önce dönmüş olur. Hastaneye geldiğindeyse onu hiç ummadığı kötü bir sürpriz karşılar. Geçmişinden unutmak istediği biri, Harun, hastaneye başhekim olmuştur. Harun'un kendisine karşı büyük bir hıncı olduğunu bilen Bahar, evdeki hayatı kadar hastanedeki hayatının da zorlu geçeceğini anlar.</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Neslihan Yeşilyurt</director>
+        <actor>Demet Evgar</actor>
+        <actor>Buğra Gülsoy</actor>
+        <actor>Ecem Özkaya</actor>
+        <actor>Elit Andaç Çam</actor>
+      </credits>
+  </programme>
+  <programme start="20261123152500 +0000" stop="20261123170000 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Show Ana Haber</title>
+      <desc lang="tr">Türkiye'den ve dünyadan önemli gelişmeler ekrana taşınıyor. Ana Haber Bülteni'nde, canlı bağlantılar ve program konuklarıyla gündemdeki olayların analizi yapılıyor.</desc>
+      <category>Haber</category>
+  </programme>
+  <programme start="20261123170000 +0000" stop="20261123211500 +0000" channel="SHOW.TV.tr">
+      <title lang="tr">Güldür Güldür Show</title>
+      <desc lang="tr">Günlük hayatta yaşanan olaylara farklı bir bakış açısı ile yaklaşan Güldür Güldür Show'da, kahkaha tufanına hazır olun!</desc>
+      <category>Dizi</category>
+      <credits>
+        <director>Meltem Bozoflu</director>
+        <director>Hakan Algül</director>
+        <actor>Onur Buldu</actor>
+        <actor>Doğa Rutkay</actor>
+        <actor>Meltem Yılmazkaya</actor>
+        <actor>Ali Sunal</actor>
+        <actor>Uğur Bilgin</actor>
+        <actor>Ecem Erkek</actor>
+        <actor>Aylin Kontente</actor>
+        <actor>Mahir İpek</actor>
+      </credits>
   </programme>
   <programme start="20261118004500 +0000" stop="20261118013000 +0000" channel="TRT.MÜZİK.tr">
       <title lang="tr">Aranjman</title>
