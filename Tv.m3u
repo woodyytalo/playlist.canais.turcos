@@ -531,7 +531,7 @@ https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
 #EXTVLCOPT:network-caching=1000
 https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8
 
-#EXTINF:-1 tvg-id="custom.trtdiyanetcocuk" tvg-name="TRT Diyanet Çocuk" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-turcas-catalogo/fontes-adicionais/trt-oficial/trt-diyanet-cocuk.png",TRT Diyanet Çocuk
+#EXTINF:-1 tvg-id="custom.trtdiyanetcocuk" tvg-name="TRT Diyanet Çocuk" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/infantis/trt-diyanet-ocuk.png",TRT Diyanet Çocuk
 #EXTVLCOPT:network-caching=1000
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8
 
@@ -539,7 +539,7 @@ https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8
 #EXTVLCOPT:network-caching=1000
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-turcas-catalogo/fontes-adicionais/trt-oficial/trt-genc.png" tvg-id="TRT.GENÇ.tr" tvg-name="TRT Genç" group-title="TRT",TRT Genç
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/trt/trt-gen.png" tvg-id="TRT.GENÇ.tr" tvg-name="TRT Genç" group-title="TRT",TRT Genç
 #EXTVLCOPT:network-caching=1000
 https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 
