@@ -215,7 +215,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c05
 #EXTVLCOPT:network-caching=1000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/frt-tv.svg" tvg-id="custom.frttv" tvg-name="FRT TV" group-title="REGIONAIS",FRT TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-ajustadas/frt-tv.png" tvg-id="custom.frttv" tvg-name="FRT TV" group-title="REGIONAIS",FRT TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 
@@ -260,7 +260,7 @@ https://vavoo.to/vavoo-iptv/play/248885940021ca59895ab2
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/kardelen-tv-tr.png" tvg-id="KardelenTV.tr" tvg-name="Kardelen TV" group-title="REGIONAIS",Kardelen TV
 #EXTVLCOPT:network-caching=1000
 https://vavoo.to/vavoo-iptv/play/127011060769330a43e05e
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/izmir-time-35-tv.svg" tvg-id="custom.izmirtime35tv" tvg-name="İzmir Time 35 TV" group-title="REGIONAIS",İzmir Time 35 TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-ajustadas/izmir-time-35-tv.png" tvg-id="custom.izmirtime35tv" tvg-name="İzmir Time 35 TV" group-title="REGIONAIS",İzmir Time 35 TV
 #EXTVLCOPT:network-caching=1000
 https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8
 
@@ -677,7 +677,7 @@ http://88.212.7.14/live/bbc_first/index.m3u8
 #EXTVLCOPT:network-caching=1000
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/syria-tv.svg" tvg-name="Syria TV" tvg-id="custom.syriatv" group-title="INTERNACIONAIS",Syria TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-ajustadas/syria-tv.png" tvg-name="Syria TV" tvg-id="custom.syriatv" group-title="INTERNACIONAIS",Syria TV
 #EXTVLCOPT:network-caching=1000
 https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/chunks_dvr.m3u8
 
@@ -803,7 +803,7 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 #EXTINF:-1 group-title="MÚSICA" tvg-id="custom.toppop" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/142toppop.png" tvg-name="TopPop",TopPop
 #EXTVLCOPT:network-caching=1000
 https://yayin.santraltr.com/hls/toppop.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/retro-music-television.svg" group-title="MÚSICA" tvg-id="custom.retromusictelevision" tvg-name="Retro Music Television",Retro Music Television
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-ajustadas/retro-music-television.png" group-title="MÚSICA" tvg-id="custom.retromusictelevision" tvg-name="Retro Music Television",Retro Music Television
 #EXTVLCOPT:network-caching=1000
 https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-ajustadas/gzt.png" tvg-name="GZT" tvg-id="custom.gzt" group-title="NOTÍCIAS",GZT
