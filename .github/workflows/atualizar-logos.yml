@@ -171,6 +171,11 @@ jobs:
               "arzu-film.png": "arzu-film.svg",
               "madinah-tv.png": "madinah-tv.svg",
               "iq-channel.png": "iq-channel.svg",
+              # Fallbacks visuais para quando uma fonte externa estiver temporariamente indisponível.
+              "frt-tv.png": "frt-tv.svg",
+              "izmir-time-35-tv.png": "izmir-time-35-tv.svg",
+              "syria-tv.png": "syria-tv.svg",
+              "retro-music-television.png": "retro-music-television.svg",
           }
           out = Path("logos-ajustadas")
           out.mkdir(exist_ok=True)
@@ -199,11 +204,15 @@ jobs:
 
           # Recria as logos dos canais com fontes originais.
           for filename, url in sources.items():
-              req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; IPTV-Logo-Bot/1.0)", "Accept": "image/png,image/svg+xml,image/*;q=0.9,*/*;q=0.8"})
-              with urlopen(req, timeout=30) as response:
-                  raw = response.read()
-              normalize(raw).save(out / filename, format="PNG", optimize=True)
-              print(f"Logo criada: {filename} — 256x256, fundo preto, sem deformação")
+              try:
+                  req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; IPTV-Logo-Bot/1.0)", "Accept": "image/png,image/svg+xml,image/*;q=0.9,*/*;q=0.8"})
+                  with urlopen(req, timeout=30) as response:
+                      raw = response.read()
+                  normalize(raw).save(out / filename, format="PNG", optimize=True)
+                  print(f"Logo original criada: {filename} — 256x256, fundo preto, sem deformação")
+              except Exception as exc:
+                  # Não interrompe o lote: mantém o PNG de fallback gerado acima, se disponível.
+                  print(f"Aviso: fonte indisponível para {filename}: {exc}; mantendo fallback quando existente.")
 
           # Reenquadra também as demais logos já existentes nesta pasta, sem esticar a arte.
           for path in sorted(out.glob("*.png")):
