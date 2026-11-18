@@ -1,6 +1,7 @@
 name: Automação da TV principal (EPG e buffer)
 
 on:
+  workflow_dispatch:
   # Executa automaticamente quando a TV principal recebe alterações.
   push:
     branches:
