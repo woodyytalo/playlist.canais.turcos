@@ -1,4 +1,4 @@
-name: Testar TV principal pela VPN da Turquia
+name: VPN Turquia - testar TV principal
 
 on:
   workflow_dispatch:
@@ -12,94 +12,148 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: vpn-turquia-tv-principal
+  cancel-in-progress: true
+
 jobs:
   testar-playlist:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - name: Baixar playlist
+      - name: Baixar repositório
         uses: actions/checkout@v4
 
-      - name: Instalar WireGuard e ferramentas
+      - name: Instalar ferramentas
         run: |
           sudo apt-get update
           sudo apt-get install -y wireguard-tools curl
+          python3 --version
 
-      - name: Conectar ao servidor VPN turco
+      - name: Validar e iniciar WireGuard
         env:
           TURKEY_WG_CONF: ${{ secrets.TURKEY_WG_CONF }}
         shell: bash
         run: |
           set -euo pipefail
-          if [ -z "${TURKEY_WG_CONF}" ]; then
-            echo "::error::Configure o segredo TURKEY_WG_CONF com o arquivo WireGuard fornecido pelo provedor VPN."
+          if [ -z "${TURKEY_WG_CONF:-}" ]; then
+            echo "::error::Falta cadastrar o segredo TURKEY_WG_CONF em Settings > Secrets and variables > Actions."
             exit 1
           fi
           umask 077
-          printf '%s\n' "${TURKEY_WG_CONF}" > /tmp/turkey-wg.conf
-          sudo install -m 600 /tmp/turkey-wg.conf /etc/wireguard/turkey.conf
-          rm -f /tmp/turkey-wg.conf
+          printf '%s\n' "$TURKEY_WG_CONF" > /tmp/turkey.conf
+          unset TURKEY_WG_CONF
+          # O DNS será mantido pelo runner; o túnel deve encaminhar todo o tráfego IPv4.
+          sed -i '/^[[:space:]]*DNS[[:space:]]*=/Id' /tmp/turkey.conf
+          if ! grep -Eiq '^[[:space:]]*AllowedIPs[[:space:]]*=.*0\.0\.0\.0/0' /tmp/turkey.conf; then
+            echo "::error::A configuração não é full-tunnel IPv4. AllowedIPs precisa incluir 0.0.0.0/0."
+            exit 1
+          fi
+          sudo install -m 600 /tmp/turkey.conf /etc/wireguard/turkey.conf
+          rm -f /tmp/turkey.conf
           sudo wg-quick up turkey
-          echo "Túnel WireGuard iniciado."
+          sudo wg show turkey
 
-      - name: Confirmar saída pela Turquia
+      - name: Confirmar IP e rota pela Turquia
+        id: vpn
         shell: bash
         run: |
           set -euo pipefail
-          COUNTRY="$(curl --fail --silent --show-error --max-time 20 https://ipapi.co/country/ | tr -d '[:space:]')"
-          echo "País de saída detectado: ${COUNTRY}"
-          if [ "${COUNTRY}" != "TR" ]; then
-            echo "::error::A VPN não está saindo pela Turquia. Nenhum teste da playlist será considerado válido."
+          ROUTE="$(ip -4 route get 1.1.1.1)"
+          echo "$ROUTE"
+          if ! echo "$ROUTE" | grep -q 'dev turkey'; then
+            echo "::error::A rota padrão não está passando pelo túnel WireGuard."
             exit 1
           fi
+          IP="$(curl --fail --silent --show-error --max-time 20 https://api.ipify.org)"
+          COUNTRY="$(curl --fail --silent --show-error --max-time 20 https://ipapi.co/country/ | tr -d '[:space:]')"
+          echo "IP público de saída: $IP"
+          echo "País detectado: $COUNTRY"
+          if [ "$COUNTRY" != "TR" ]; then
+            echo "::error::A saída VPN não foi identificada como Turquia (TR)."
+            exit 1
+          fi
+          echo "country=$COUNTRY" >> "$GITHUB_OUTPUT"
 
-      - name: Testar os links HTTP da TV principal pelo túnel
+      - name: Testar os canais da TV principal
+        id: test
         shell: bash
         run: |
           python3 - <<'PY'
-          import re
+          import csv
           import subprocess
           from pathlib import Path
+          from datetime import datetime, timezone
 
-          path = Path("Tv.m3u")
-          if not path.exists():
+          playlist = Path("Tv.m3u")
+          if not playlist.is_file():
               raise SystemExit("Arquivo Tv.m3u não encontrado.")
 
           entries = []
-          name = "Canal sem nome"
-          for raw in path.read_text(encoding="utf-8", errors="replace").splitlines():
+          channel = "Canal sem nome"
+          for raw in playlist.read_text(encoding="utf-8", errors="replace").splitlines():
               line = raw.strip()
               if line.startswith("#EXTINF:"):
-                  name = line.rsplit(",", 1)[-1].strip() if "," in line else "Canal sem nome"
+                  channel = line.rsplit(",", 1)[-1].strip() if "," in line else "Canal sem nome"
               elif line and not line.startswith("#"):
                   if line.lower().startswith(("http://", "https://")):
-                      entries.append((name, line))
-                  name = "Canal sem nome"
+                      entries.append((channel or "Canal sem nome", line))
+                  channel = "Canal sem nome"
 
-          ok = 0
-          failed = 0
+          results = []
           for name, url in entries:
               try:
-                  result = subprocess.run(
-                      ["curl", "-L", "-sS", "--max-time", "15", "--range", "0-0",
+                  p = subprocess.run(
+                      ["curl", "-L", "-sS", "--max-time", "20", "--range", "0-0",
                        "-o", "/dev/null", "-w", "%{http_code}", url],
-                      capture_output=True, text=True, timeout=18
+                      capture_output=True, text=True, timeout=23
                   )
-                  code = result.stdout.strip()[-3:] if result.stdout.strip() else "000"
-                  if code.startswith(("2", "3")):
-                      print(f"OK | {name} | HTTP {code}")
-                      ok += 1
-                  else:
-                      print(f"FALHA | {name} | HTTP {code}")
-                      failed += 1
+                  code = p.stdout.strip()[-3:] if p.stdout.strip() else "000"
+                  ok = code.startswith(("2", "3"))
+                  detail = f"HTTP {code}" if code != "000" else "Sem resposta HTTP"
+              except subprocess.TimeoutExpired:
+                  ok, detail = False, "Timeout"
               except Exception as exc:
-                  print(f"FALHA | {name} | {type(exc).__name__}")
-                  failed += 1
+                  ok, detail = False, type(exc).__name__
+              results.append((name, "OK" if ok else "FALHA", detail))
+              print(f'{"OK" if ok else "FALHA"} | {name} | {detail}')
 
-          print(f"\nResumo: {ok} links respondendo; {failed} com falha; {len(entries)} testados.")
           if not entries:
-              raise SystemExit("Nenhum link HTTP encontrado em Tv.m3u.")
+              raise SystemExit("Nenhum link HTTP/HTTPS encontrado em Tv.m3u.")
+
+          with open("vpn-turquia-relatorio.csv", "w", newline="", encoding="utf-8") as f:
+              writer = csv.writer(f)
+              writer.writerow(["Canal", "Resultado", "Detalhe"])
+              writer.writerows(results)
+
+          good = sum(r[1] == "OK" for r in results)
+          bad = len(results) - good
+          report = [
+              "# Relatório de teste - VPN Turquia",
+              "",
+              f"- Data UTC: {datetime.now(timezone.utc).isoformat()}",
+              f"- Total testado: {len(results)}",
+              f"- Respondendo: {good}",
+              f"- Com falha: {bad}",
+              "",
+              "| Canal | Resultado | Detalhe |",
+              "|---|---|---|",
+          ]
+          report += [f"| {n.replace('|', '/')} | {s} | {d} |" for n, s, d in results]
+          Path("vpn-turquia-relatorio.md").write_text("\n".join(report) + "\n", encoding="utf-8")
+          print(f"RESUMO: {good} OK; {bad} falhas; {len(results)} canais testados.")
           PY
+
+      - name: Publicar relatório como artefato
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-vpn-turquia
+          path: |
+            vpn-turquia-relatorio.csv
+            vpn-turquia-relatorio.md
+          if-no-files-found: ignore
+          retention-days: 14
 
       - name: Desconectar VPN
         if: always()
