@@ -237,7 +237,7 @@ https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/tracks-v2a1/mon
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/haberturk-tr.png" tvg-id="HABERTÜRK.tr" tvg-name="Habertürk" group-title="NOTÍCIAS",Habertürk
 #EXTVLCOPT:network-caching=1000
-https://ciner.daioncdn.net/haberturktv/haberturktv_480p.m3u8?sid=8x3q6yrn0jfj&app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=3
+https://haberturk.blutv.com/blutv_haberturk_live/live.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/halk-tv-tr.png" tvg-id="HALK.TV.tr" tvg-name="Halk TV" group-title="NOTÍCIAS",Halk TV
 #EXTVLCOPT:network-caching=1000
