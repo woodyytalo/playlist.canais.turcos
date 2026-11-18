@@ -128,18 +128,54 @@ jobs:
           print(f"Buffer de 1 segundo aplicado em {channels} canais.")
           PY
 
+      - name: Preparar ferramentas para logos no padrão 2:1
+        run: |
+          python -m pip install --quiet pillow cairosvg
+
+      - name: Criar logos dos canais adicionados no padrão aprovado
+        shell: bash
+        run: |
+          python - <<'PY'
+          from io import BytesIO
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from PIL import Image
+          import cairosvg
+
+          sources = {
+              "gzt.png": "https://commons.wikimedia.org/wiki/Special:FilePath/GZT_logo.svg",
+              "bein-sports-1-turk.png": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_bein_sports_1.png",
+              "4u-family-persian.png": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UFamily.tr.png",
+              "power-tv-720p.png": "https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c155866ac331e0feb22b",
+          }
+          out = Path("logos-ajustadas")
+          out.mkdir(exist_ok=True)
+          for filename, url in sources.items():
+              req = Request(url, headers={"User-Agent": "Mozilla/5.0 IPTV-Logo-Bot"})
+              with urlopen(req, timeout=30) as response:
+                  raw = response.read()
+              if raw.lstrip().startswith(b"<") or b"<svg" in raw[:1000].lower():
+                  raw = cairosvg.svg2png(bytestring=raw)
+              logo = Image.open(BytesIO(raw)).convert("RGBA")
+              logo.thumbnail((920, 420), Image.Resampling.LANCZOS)
+              canvas = Image.new("RGBA", (1000, 500), (0, 0, 0, 255))
+              canvas.alpha_composite(logo, ((1000-logo.width)//2, (500-logo.height)//2))
+              canvas.convert("RGB").save(out / filename, format="PNG", optimize=True)
+              print(f"Logo criada: {out / filename} — 1000x500, fundo preto, logo original centralizada")
+          PY
+
       - name: Salvar alterações
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- Tv.m3u; then
+          if git diff --quiet -- Tv.m3u logos-ajustadas; then
             echo "Nenhuma alteração para salvar."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Tv.m3u
+          git add Tv.m3u logos-ajustadas/*.png
           git commit -m "Atualizar programação, qualidade e buffer da TV principal"
 
           # Outros bots também gravam na mesma branch. Rebaseia sobre a versão
