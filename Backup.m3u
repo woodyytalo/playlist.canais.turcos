@@ -8672,3 +8672,5 @@ https://viamotionhsi.netplus.ch/live/eds/trtturk/browser-dash/trtturk.mpd
 http://bozztv.com/gin-dvrfl05/gin-tv8_5/index.m3u8
 #EXTINF:-1 tvg-id="UlusalKanal.tr@SD" tvg-logo="https://i.imgur.com/EwSg612.png" group-title="AQU - IMPORTADOS",Ulusal Kanal SD
 https://stream.guventechnology.com:19360/ulusaltv/ulusaltv.m3u8
+#EXTINF:-1 tvg-name="TVT" group-title="T - TVT",TVT
+http://live.gostream.nl/armaholding/tvt/playlist.m3u8
