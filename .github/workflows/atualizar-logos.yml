@@ -235,6 +235,92 @@ jobs:
               print(f"Logo reenquadrada: {path.name} — 256x256")
           PY
 
+      - name: Atualizar todas as logos da TV principal por categoria (256x256)
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from urllib.parse import urlparse, unquote
+          from io import BytesIO
+          from PIL import Image
+          import cairosvg, re
+
+          playlist = Path("Tv.m3u")
+          lines = playlist.read_text(encoding="utf-8").splitlines()
+          base = "https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/"
+          branch = "github/workflows/atualizar-logos.yml/"
+          root = Path("logos-ajustadas")
+          ok = failed = 0
+          used = {}
+
+          def slug(value):
+              value = value.lower().strip()
+              value = re.sub(r"[^a-z0-9]+", "-", value).strip("-")
+              return value or "canal"
+
+          def source_bytes(url):
+              parsed = urlparse(url)
+              path = unquote(parsed.path).lstrip("/")
+              prefix = "woodyytalo/playlist.canais.turcos/"
+              if parsed.netloc == "raw.githubusercontent.com" and path.startswith(prefix):
+                  local = path[len(prefix):]
+                  if local.startswith(branch):
+                      local = local[len(branch):]
+                  candidate = Path(local)
+                  if candidate.is_file():
+                      return candidate.read_bytes()
+              req = Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; IPTV-Logo-Bot/1.0)"})
+              with urlopen(req, timeout=25) as response:
+                  return response.read()
+
+          def normalize(raw):
+              if b"<svg" in raw[:4096].lower() or raw.lstrip().startswith(b"<?xml"):
+                  raw = cairosvg.svg2png(bytestring=raw)
+              im = Image.open(BytesIO(raw)).convert("RGBA")
+              alpha = im.getchannel("A")
+              bbox = alpha.getbbox()
+              if bbox:
+                  im = im.crop(bbox)
+              im.thumbnail((220,220), Image.Resampling.LANCZOS)
+              canvas = Image.new("RGBA",(256,256),(0,0,0,255))
+              canvas.alpha_composite(im,((256-im.width)//2,(256-im.height)//2))
+              return canvas.convert("RGB")
+
+          for i,line in enumerate(lines):
+              if not line.startswith("#EXTINF"):
+                  continue
+              match = re.search(r'tvg-logo="([^"]+)"', line)
+              if not match:
+                  failed += 1
+                  continue
+              url = match.group(1)
+              category = re.search(r'group-title="([^"]+)"',line)
+              category = category.group(1) if category else "SEM CATEGORIA"
+              name = line.rsplit(",",1)[-1].strip()
+              folder = slug(category)
+              stem = slug(name)
+              key = (folder,stem)
+              used[key] = used.get(key,0)+1
+              filename = stem + (f"-{used[key]}" if used[key]>1 else "") + ".png"
+              target = root / folder / filename
+              try:
+                  raw = source_bytes(url)
+                  image = normalize(raw)
+                  target.parent.mkdir(parents=True,exist_ok=True)
+                  image.save(target,format="PNG",optimize=True)
+                  new_url = base + branch + "logos-ajustadas/" + folder + "/" + filename
+                  lines[i] = line[:match.start(1)] + new_url + line[match.end(1):]
+                  ok += 1
+                  print(f"OK [{category}] {name}: {filename}")
+              except Exception as exc:
+                  failed += 1
+                  print(f"FALHA [{category}] {name}: mantendo logo original ({exc})")
+
+          playlist.write_text("\n".join(lines)+"\n",encoding="utf-8")
+          print(f"Resultado: {ok} logos atualizadas; {failed} mantidas sem alteração por falha de origem.")
+          PY
+
       - name: Salvar alterações
         shell: bash
         run: |
@@ -247,7 +333,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Tv.m3u logos-ajustadas/*.png
+          git add Tv.m3u logos-ajustadas/
           git commit -m "Atualizar programação, qualidade e buffer da TV principal"
 
           # Outros bots também gravam na mesma branch. Rebaseia sobre a versão
