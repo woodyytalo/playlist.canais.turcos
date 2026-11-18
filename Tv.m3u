@@ -607,6 +607,10 @@ https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
 #EXTVLCOPT:network-caching=1000
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 
+#EXTINF:-1 tvg-name="TV 5" tvg-logo="https://i.ibb.co/6m9Pb3t/tv5tr1.png" group-title="TV 5",TV 5
+#EXTVLCOPT:network-caching=1000
+https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-tvlogo-turquia/tv8-tr.png" tvg-id="TV8.tr" tvg-name="TV8" group-title="ENTRETENIMENTO",TV8
 #EXTVLCOPT:network-caching=1000
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
