@@ -1,10 +1,12 @@
-name: IPTV GeoCheck — canais turcos
+name: IPTV GeoCheck — TV principal
 
 on:
   workflow_dispatch:
   push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
     paths:
-      - "Backup.m3u"
+      - "Tv.m3u"
       - "scripts/iptv_geocheck.py"
       - ".github/workflows/iptv-geocheck.yml"
   schedule:
@@ -14,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: iptv-geocheck
+  group: iptv-geocheck-tv-principal
   cancel-in-progress: false
 
 jobs:
@@ -25,21 +27,25 @@ jobs:
       - name: Baixar repositório
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.ref }}
           fetch-depth: 1
       - name: Preparar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Testar links da playlist turca
+      - name: Testar links da TV principal
+        env:
+          PLAYLIST_FILE: Tv.m3u
+          REPORT_FILE: reports/iptv-geocheck-tv-principal.md
         run: python scripts/iptv_geocheck.py
       - name: Publicar relatório no repositório
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/iptv-geocheck.md
+          git add reports/iptv-geocheck-tv-principal.md
           if git diff --cached --quiet; then
             echo "Relatório sem alterações."
           else
-            git commit -m "Atualizar relatório IPTV GeoCheck"
+            git commit -m "Atualizar GeoCheck da TV principal"
             git push
           fi
