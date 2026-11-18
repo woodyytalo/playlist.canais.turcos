@@ -7923,4 +7923,54 @@ https://vavoo.to/vavoo-iptv/play/1467834090ec77c1def93a
 #EXTINF:-1 tvg-name="ZOOMNEWS" tvg-logo="https://i.ibb.co/cXd3MBV/symkr.png" group-title="ZOOMNEWS",2851 - ZOOMNEWS
 https://live.zoomnews.info/live/Zoom/index.m3u8
 
+# IPTV CAT TURQUIA — IMPORTAÇÃO DE LINKS
+#EXTINF:-1 tvg-name="1TV GEO" group-title="IPTV CAT TURQUIA",IPTV Cat 1 - 1TV GEO
+https://tv.cdn.xsg.ge/gpb-1tv/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-name="AFN Music Iran" group-title="IPTV CAT TURQUIA",IPTV Cat 2 - AFN Music Iran
+https://bozztv.com/1gbw5/tintv2/tintv2/chunklist.m3u8
+
+#EXTINF:-1 tvg-name="Bloomberg HT" group-title="IPTV CAT TURQUIA",IPTV Cat 3 - Bloomberg HT
+http://ciner.daioncdn.net/bloomberght/bloomberght_720p.m3u8
+
+#EXTINF:-1 tvg-name="Diyanet TV" group-title="IPTV CAT TURQUIA",IPTV Cat 4 - Diyanet TV
+http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Disney Jr. (1080p)" group-title="IPTV CAT TURQUIA",IPTV Cat 5 - Disney Jr. (1080p)
+https://saran-live.ercdn.net/disneyjunior/index.m3u8
+
+#EXTINF:-1 tvg-name="GZT" group-title="IPTV CAT TURQUIA",IPTV Cat 6 - GZT
+https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="HT Spor TV — link 2" group-title="IPTV CAT TURQUIA",IPTV Cat 7 - HT Spor TV — link 2
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ppid=675956db19f9bb686edda21d15d911e8&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch
+
+#EXTINF:-1 tvg-name="HT Spor TV — link 3" group-title="IPTV CAT TURQUIA",IPTV Cat 8 - HT Spor TV — link 3
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch&ppid=675956db19f9bb686edda21d15d911e8
+
+#EXTINF:-1 tvg-name="Iran International" group-title="IPTV CAT TURQUIA",IPTV Cat 9 - Iran International
+https://live.playstop.me/1816184091/chunklist_b1196000.m3u8
+
+#EXTINF:-1 tvg-name="KRT (1080p)" group-title="IPTV CAT TURQUIA",IPTV Cat 10 - KRT (1080p)
+https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8
+
+#EXTINF:-1 tvg-name="RMTV" group-title="IPTV CAT TURQUIA",IPTV Cat 11 - RMTV
+http://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
+
+#EXTINF:-1 tvg-name="Spirit TV Music" group-title="IPTV CAT TURQUIA",IPTV Cat 12 - Spirit TV Music
+https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-name="TV 264 Sakarya" group-title="IPTV CAT TURQUIA",IPTV Cat 13 - TV 264 Sakarya
+https://mc1.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Teve2 (1080p)" group-title="IPTV CAT TURQUIA",IPTV Cat 14 - Teve2 (1080p)
+https://teve2vod.duhnet.tv/S12/HLS_VOD/382843_2e5b/index.m3u8
+
+#EXTINF:-1 tvg-name="Vox Africa" group-title="IPTV CAT TURQUIA",IPTV Cat 15 - Vox Africa
+https://1494836162.rsc.cdn77.org/LS-PRG-59570-1/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-name="beIN Sports 1 Turk" group-title="IPTV CAT TURQUIA",IPTV Cat 16 - beIN Sports 1 Turk
+http://57.129.0.61:1990/stream/117/index.m3u8
+
+#EXTINF:-1 tvg-name="4U Family (persa)" group-title="IPTV CAT TURQUIA",IPTV Cat 17 - 4U Family (persa)
+https://familyhls.4utv.live/hls/stream.m3u8
