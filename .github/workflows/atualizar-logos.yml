@@ -6,7 +6,7 @@ on:
     branches:
       - "github/workflows/atualizar-logos.yml"
     paths:
-      - "Tv.m3u8"
+      - "Tv.m3u"
       - ".github/workflows/atualizar-logos.yml"
   schedule:
     - cron: "10 0,12 * * *"
@@ -31,7 +31,7 @@ jobs:
           import re
           from pathlib import Path
 
-          path = Path("Tv.m3u8")
+          path = Path("Tv.m3u")
           lines = path.read_text(encoding="utf-8").splitlines()
           changed = 0
           for i, line in enumerate(lines):
@@ -56,7 +56,7 @@ jobs:
           import re
           from pathlib import Path
 
-          path = Path("Tv.m3u8")
+          path = Path("Tv.m3u")
           lines = path.read_text(encoding="utf-8").splitlines()
           epg = "https://iptv-epg.org/files/epg-tr.xml"
 
@@ -90,7 +90,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
 
-          path = Path("Tv.m3u8")
+          path = Path("Tv.m3u")
           lines = path.read_text(encoding="utf-8").splitlines()
           result = []
           channels = 0
@@ -115,31 +115,31 @@ jobs:
               for item in block:
                   if item.strip().lower().startswith("#extvlcopt:network-caching="):
                       if not cache_written:
-                          clean_block.append("#EXTVLCOPT:network-caching=60000")
+                          clean_block.append("#EXTVLCOPT:network-caching=1000")
                           cache_written = True
                   else:
                       clean_block.append(item)
 
               if not cache_written:
-                  clean_block.insert(0, "#EXTVLCOPT:network-caching=60000")
+                  clean_block.insert(0, "#EXTVLCOPT:network-caching=1000")
               result.extend(clean_block)
 
           path.write_text("\n".join(result) + "\n", encoding="utf-8")
-          print(f"Buffer de 60 segundos aplicado em {channels} canais.")
+          print(f"Buffer de 1 segundo aplicado em {channels} canais.")
           PY
 
       - name: Salvar alterações
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- Tv.m3u8; then
+          if git diff --quiet -- Tv.m3u; then
             echo "Nenhuma alteração para salvar."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Tv.m3u8
+          git add Tv.m3u
           git commit -m "Atualizar programação, qualidade e buffer da TV principal"
 
           # Outros bots também gravam na mesma branch. Rebaseia sobre a versão
@@ -168,4 +168,4 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh workflow run atualizar-epg.yml --ref "${GITHUB_REF_NAME}"
-          echo "Sincronização do EPG solicitada para a versão atualizada de Tv.m3u8."
+          echo "Sincronização do EPG solicitada para a versão atualizada de Tv.m3u."
