@@ -155,6 +155,23 @@ jobs:
               "syria-tv.png": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Syria_TV_logo_2026.png",
               "retro-music-television.png": "https://www.tvchannellists.com/wiki/images/8/80/Retro_Music_Television.svg",
           }
+          # Os 13 canais ainda sem logo original usam, temporariamente, seus SVGs
+          # identificadores. Eles também são convertidos para PNG quadrado 256x256.
+          placeholders = {
+              "anadolu-tv.png": "anadolu-tv.svg",
+              "ezgi-tv.png": "ezgi-tv.svg",
+              "k-kayseri.png": "k-kayseri.svg",
+              "kanal-19.png": "kanal-19.svg",
+              "kanal-53.png": "kanal-53.svg",
+              "kayhan-tv.png": "kayhan-tv.svg",
+              "konya-ktv.png": "konya-ktv.svg",
+              "tv-karadeniz.png": "tv-karadeniz.svg",
+              "balkan-turk.png": "balkan-turk.svg",
+              "rtg-international.png": "rtg-international.svg",
+              "arzu-film.png": "arzu-film.svg",
+              "madinah-tv.png": "madinah-tv.svg",
+              "iq-channel.png": "iq-channel.svg",
+          }
           out = Path("logos-ajustadas")
           out.mkdir(exist_ok=True)
 
@@ -172,7 +189,15 @@ jobs:
               canvas.alpha_composite(logo, ((256-logo.width)//2, (256-logo.height)//2))
               return canvas.convert("RGB")
 
-          # Recria as quatro logos dos canais adicionados a partir das fontes originais.
+          # Gera as 13 imagens provisórias no mesmo padrão físico 256x256.
+          # Quando uma fonte original for adicionada ao dicionário sources, ela
+          # substituirá automaticamente o SVG provisório na próxima execução.
+          for filename, svg_name in placeholders.items():
+              raw = (Path("logos-placeholder") / svg_name).read_bytes()
+              normalize(raw).save(out / filename, format="PNG", optimize=True)
+              print(f"Imagem provisória criada: {filename} — 256x256, fundo preto")
+
+          # Recria as logos dos canais com fontes originais.
           for filename, url in sources.items():
               req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; IPTV-Logo-Bot/1.0)", "Accept": "image/png,image/svg+xml,image/*;q=0.9,*/*;q=0.8"})
               with urlopen(req, timeout=30) as response:
