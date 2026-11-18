@@ -492,54 +492,6 @@
     <display-name lang="tur">Viasat History</display-name>
     <icon src="https://i.imgur.com/wRP9XA7.png" />
   </channel>
-  <programme start="20261117140000 +0000" stop="20261117150000 +0000" channel="24TV.tr">
-    <title lang="tr">Moderatör</title>
-    <desc lang="tr">Hızlı, tarafsız ve doğru haber anlayışıyla Türkiye ve dünya gündemi, sıcak gelişmeler, özel haberler ve canlı bağlantılar hafta içi her gün Moderatör'de ekrana geliyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/35/000525270325e87f1bca.jpg" />
-  </programme>
-  <programme start="20261117150000 +0000" stop="20261117170000 +0000" channel="24TV.tr">
-    <title lang="tr">Akşam Haberleri</title>
-    <desc lang="tr">Türkiye ve dünyanın gündemindeki önemli haberler, merak edilen sorular ve uzman konuk değerlendirmeleri programda ekrana yansıyor. İzleyiciler, olayların arka planını ve gelişmelerin detaylarını öğrenme imkânı buluyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/77/000525270333e87f1bca.jpg" />
-  </programme>
-  <programme start="20261117170000 +0000" stop="20261117174500 +0000" channel="24TV.tr">
-    <title lang="tr">Mercek</title>
-    <desc lang="tr">Mercek, toplumsal, kültürel ve güncel meseleleri uzman konuklar ve tartışmacılarla masaya yatıran bir programdır. Farklı görüşler dengeli bir şekilde ele alınır, izleyiciye olayları çok yönlü değerlendirme olanağı sunar.</desc>
-    <category lang="tr">Tartışma</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/67/000525270341e87f1bca.jpg" />
-  </programme>
-  <programme start="20261117174500 +0000" stop="20261117200000 +0000" channel="24TV.tr">
-    <title lang="tr">Basın Ekspres</title>
-    <desc lang="tr">Basın Ekspres, gündemdeki magazin haberlerini, sosyal gelişmeleri ve kültürel olayları derli toplu şekilde izleyiciye sunan bir bilgi programıdır. Haberler ve özel dosyalar izleyiciye anlaşılır ve ilgi çekici bir dille aktarılır.</desc>
-    <category lang="tr">Magazin</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261113/56/200540919476e87f1bca.jpg" />
-  </programme>
-  <programme start="20261117200000 +0000" stop="20261117220000 +0000" channel="24TV.tr">
-    <title lang="tr">Moderatör Gece</title>
-    <desc lang="tr">Günden geceye öne çıkan gelişmeler ve kritik haber başlıkları, uzman konuklar ve deneyimli yorumcuların değerlendirmeleriyle inceleniyor. Program, olayların perde arkasını ve detaylarını izleyiciye aktararak gündemi kapsamlı şekilde sunuyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/43/000525271357e87f1bca.jpg" />
-  </programme>
-  <programme start="20261117220000 +0000" stop="20261117230000 +0000" channel="24TV.tr">
-    <title lang="tr">Günün Manşeti</title>
-    <desc lang="tr">Türkiye ve dünya gündemindeki önemli gelişmeler, gazetelerde çıkan haberler ve köşe yazıları bu programda ele alınıyor. Farklı bakış açıları ve çarpıcı analizlerle izleyicilere olayların arka planı aktarılıyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/89/000525271365e87f1bca.jpg" />
-  </programme>
-  <programme start="20261117230000 +0000" stop="20261117233000 +0000" channel="24TV.tr">
-    <title lang="tr">Mercek</title>
-    <desc lang="tr">Mercek, toplumsal, kültürel ve güncel meseleleri uzman konuklar ve tartışmacılarla masaya yatıran bir programdır. Farklı görüşler dengeli bir şekilde ele alınır, izleyiciye olayları çok yönlü değerlendirme olanağı sunar.</desc>
-    <category lang="tr">Tartışma</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/97/000525271373e87f1bca.jpg" />
-  </programme>
-  <programme start="20261117233000 +0000" stop="20261118011500 +0000" channel="24TV.tr">
-    <title lang="tr">Bu Ülke</title>
-    <desc lang="tr">Türkiye'nin gündemindeki merak edilen ve tartışılan sorular, siyaset, ekonomi, toplumsal meseleler ve kültür-eğitim başlıklarıyla ele alınıyor. Uzman konuklar ve sahadan aktarılan bilgilerle olayların arka planı izleyiciye aktarılıyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/62/000525272381e87f1bca.jpg" />
-  </programme>
   <programme start="20261118011500 +0000" stop="20261118014500 +0000" channel="24TV.tr">
     <title lang="tr">8. Etap</title>
     <desc lang="tr">Ekranların en uzun soluklu otomotiv ve motor sporları programı 8.</desc>
@@ -1544,83 +1496,6 @@
     <category lang="tr">Haber</category>
     <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261114/54/220454896929e87ecbc8.jpg" />
   </programme>
-  <programme start="20261117144000 +0000" stop="20261117150000 +0000" channel="ASTV.tr">
-    <title lang="tr">Vizyondakiler</title>
-    <desc lang="tr">Beyaz perdenin en yeni filmleri, dikkat çeken yapımlar ve sinema dünyasından gelişmeler Vizyondakiler’de. Vizyona giren filmler, fragmanlar ve sinemaseverlerin merak ettiği ayrıntılar AS TV ekranlarında.</desc>
-    <category lang="tr">Kültür &amp; Sanat</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/72/140021698326e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117150000 +0000" stop="20261117151500 +0000" channel="ASTV.tr">
-    <title lang="tr">Dünya Gözüyle</title>
-    <desc lang="tr">Dünya siyasetinin nabzı, uluslararası ilişkilerdeki gelişmeler ve küresel gündemin öne çıkan başlıkları Dünya Gözüyle'nde. Dış politikaya yön veren olaylar, uzman yorumları ve kapsamlı analizlerle ekrana taşınıyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/23/140021698334e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117151500 +0000" stop="20261117153000 +0000" channel="ASTV.tr">
-    <title lang="tr">Tatil Rotaları</title>
-    <desc lang="tr">Türkiye'nin ve dünyanın keşfedilmeyi bekleyen eşsiz güzellikleri Tatil Rotaları'nda. Birbirinden özel destinasyonlar, unutulmaz seyahat deneyimleri ve tatil önerileri ekrana taşınıyor.</desc>
-    <category lang="tr">Yaşam</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/1/140021699342e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117153000 +0000" stop="20261117160000 +0000" channel="ASTV.tr">
-    <title lang="tr">Dünyanın Zirveleri</title>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/35/140021699348e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117160000 +0000" stop="20261117170000 +0000" channel="ASTV.tr">
-    <title lang="tr">Ana Haber</title>
-    <desc lang="tr">Türkiye ve dünyanın politika, ekonomi, kültür sanat gündeminden sıcak gelişmelere yer veriliyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/48/140021699355e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117170000 +0000" stop="20261117175000 +0000" channel="ASTV.tr">
-    <title lang="tr">Teknoloji Ve Ötesi</title>
-    <desc lang="tr">Programda güncel dijital dönüşüm, yapay zeka ve siber güvenlik konuları uzman konuklarla ele alınıyor.</desc>
-    <category lang="tr">Yaşam</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/81/150018815247e8800bd0.jpg" />
-  </programme>
-  <programme start="20261117175000 +0000" stop="20261117180000 +0000" channel="ASTV.tr">
-    <title lang="tr">Haftanın Kitabı</title>
-    <desc lang="tr">Programda her hafta öne çıkan, tarihten kişisel gelişime, edebiyattan Türkçenin zenginliklerine kadar uzanan geniş bir yelpazedeki eserler tanıtılıyor ve inceleniyor.</desc>
-    <category lang="tr">Kültür &amp; Sanat</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/70/140021700368e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117180000 +0000" stop="20261117190000 +0000" channel="ASTV.tr">
-    <title lang="tr">Haber Turu</title>
-    <desc lang="tr">Türkiye’den ve dünyadan öne çıkan gelişmeler, güncel haberler ve dikkat çeken başlıklar Haber Turu’nda. Gündemin nabzı, en sıcak haberlerle AS TV ekranlarında tutuluyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/82/140021700376e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117190000 +0000" stop="20261117193500 +0000" channel="ASTV.tr">
-    <title lang="tr">Sağlık Raporu</title>
-    <desc lang="tr">Her programda farklı tıp dallarından uzman hekimler, psikologlar veya diyetisyenler konuk ediliyor. Programda güncel sağlık sorunları, hastalıkların belirtileri, tedavi yöntemleri ve sağlıklı yaşam önerileri uzman gözüyle ekrana taşınıyor.</desc>
-    <category lang="tr">Yaşam</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/38/140021700384e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117193500 +0000" stop="20261117200000 +0000" channel="ASTV.tr">
-    <title lang="tr">Haftanın Kitabı, Vizyondakiler</title>
-    <desc lang="tr">Edebiyat dünyasının öne çıkan eserleri ve beyaz perdenin en yeni yapımları izleyicilerle buluşuyor.</desc>
-    <category lang="tr">Kültür &amp; Sanat</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/81/140021700392e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117200000 +0000" stop="20261117203500 +0000" channel="ASTV.tr">
-    <title lang="tr">Reel Sektör</title>
-    <desc lang="tr">Üretimden sanayiye, ticaretten yatırıma reel sektörün nabzı Reel Sektör'de tutuluyor. Ekonomiye yön veren gelişmeler, sektör temsilcilerinin değerlendirmeleriyle ekrana taşınıyor.</desc>
-    <category lang="tr">Finans</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/72/140021701400e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117203500 +0000" stop="20261117210000 +0000" channel="ASTV.tr">
-    <title lang="tr">Kültürel Miras</title>
-    <desc lang="tr">Bölgenin somut ve somut olmayan yerel mirasları, geleneksel zanaatları ve kent hafızası izleyicilere aktarılıyor.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/66/140021701408e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117210000 +0000" stop="20261117220000 +0000" channel="ASTV.tr">
-    <title lang="tr">Dünya Başkentleri</title>
-    <desc lang="tr">Dünyanın dört bir yanındaki başkentlerin tarihi, kültürü ve eşsiz güzellikleri keşfe çıkıyor. Dünya Başkentleri, izleyicileri unutulmaz bir yolculuğa davet ediyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261117/45/080019896896e87f6bcc.jpg" />
-  </programme>
   <programme start="20261117220000 +0000" stop="20261118050000 +0000" channel="ASTV.tr">
     <title lang="tr">Tekrar Programlar</title>
     <category lang="tr">Haber</category>
@@ -1707,36 +1582,6 @@
     <desc lang="tr">Üretimden sanayiye, ticaretten yatırıma reel sektörün nabzı Reel Sektör'de tutuluyor. Ekonomiye yön veren gelişmeler, sektör temsilcilerinin değerlendirmeleriyle ekrana taşınıyor.</desc>
     <category lang="tr">Finans</category>
     <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261116/26/220433798836e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117134500 +0000" stop="20261117163000 +0000" channel="BeyazTV.tr">
-    <title lang="tr">Kurtlar Vadisi Pusu</title>
-    <desc lang="tr">Kurtlar Vadisi Pusu, Polat Alemdar ve ekibinin Türkiye'nin güvenliğini tehdit eden güç odaklarına karşı verdiği mücadeleyi konu alır. Devletin derin yapıları, uluslararası örgütler ve çıkar çatışmaları hikâyeyi şekillendirir. Aksiyon, ihanet ve sadakat temaları dizinin dramatik yapısını güçlendirir.</desc>
-    <category lang="tr">Dizi</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261114/88/180531680721e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117163000 +0000" stop="20261117183000 +0000" channel="BeyazTV.tr">
-    <title lang="tr">Ölmek İçin Bir Gün</title>
-    <desc lang="tr">Eski askeri operasyon subayı Conner Connolly, yerel bir çete tarafından kaçırılan hamile eşini kurtarmak için zamana karşı yarışır. Sadece 24 saati ve bulması gereken iki milyon dolar fidyeyi olan Conner, eski tim arkadaşlarını toplar. Ancak kendilerini yozlaşmış polislerin de dahil olduğu büyük bir suç ağında bulurlar.</desc>
-    <category lang="tr">Film</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261114/81/180531680729e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117183000 +0000" stop="20261117203000 +0000" channel="BeyazTV.tr">
-    <title lang="tr">Efsane Dörtlü 3</title>
-    <desc lang="tr">Adaletin peşindeki dört kahraman, yeni bir tehdidin ortaya çıkmasıyla yeniden bir araya gelir. Karşılarında yalnızca güçlü bir düşman değil, büyük bir tehlike oluşturan karmaşık bir plan vardır. Zorlu mücadele boyunca yeteneklerini ve cesaretlerini ortaya koyan ekip, gerçeği ortaya çıkarmak ve masumları korumak için harekete geçer.</desc>
-    <category lang="tr">Film</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261115/48/220522201909e8805bd2.jpg" />
-  </programme>
-  <programme start="20261117203000 +0000" stop="20261117220000 +0000" channel="BeyazTV.tr">
-    <title lang="tr">Ne Var Ne Yok</title>
-    <desc lang="tr">Beyaz TV'nin sevilen programı Ne Var Ne Yok, Türker Akıncı sunumuyla tarih, din, siyaset ve sanat gibi konuları ele alıyor. Uzman konuklarla yapılan derin sohbetler ve aydınlatıcı analizlerle program, izleyicisine bilgi ve kültür dolu bölümler sunuyor.</desc>
-    <category lang="tr">Magazin</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261114/93/180531680743e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117220000 +0000" stop="20261118004500 +0000" channel="BeyazTV.tr">
-    <title lang="tr">Ölmek İçin Bir Gün</title>
-    <desc lang="tr">Eski askeri operasyon subayı Conner Connolly, yerel bir çete tarafından kaçırılan hamile eşini kurtarmak için zamana karşı yarışır. Sadece 24 saati ve bulması gereken iki milyon dolar fidyeyi olan Conner, eski tim arkadaşlarını toplar. Ancak kendilerini yozlaşmış polislerin de dahil olduğu büyük bir suç ağında bulurlar.</desc>
-    <category lang="tr">Film</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261114/59/180531681751e87fbbce.jpg" />
   </programme>
   <programme start="20261118004500 +0000" stop="20261118023000 +0000" channel="BeyazTV.tr">
     <title lang="tr">Efsane Dörtlü 3</title>
@@ -1989,89 +1834,6 @@
     <desc lang="tr">Türkiye ekonomisinin lokomotif sektörleri detaylı analizlerle İş Dünyası'nda.</desc>
     <category lang="tr">Finans</category>
     <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261113/22/220428586928e8805bd2.jpg" />
-  </programme>
-  <programme start="20261117144000 +0000" stop="20261117152500 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">İşte Sürat İşte Ses</title>
-    <desc lang="tr">Aaron kısa süre sonra tatile çıkmadan önce, Richard ile birlikte Monkeys ekibini 1965 Volkswagen Beetle üzerinde 'ciddi ciddi' çalışmaya başlatıyor.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/49/220424630010e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117152500 +0000" stop="20261117155000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Nasıl Yapılır?</title>
-    <desc lang="tr">İşin mutfağına giderek, çeşitli gündelik eşyaların üretimini gerçekleştiren mühendisleri ve ileri görüşlü endüstriyel tasarımcıları tanıma fırsatı buluyoruz.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/20/220424630018e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117155000 +0000" stop="20261117161500 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Nasıl Yapılmış?</title>
-    <desc lang="tr">Günlük kullanılan objeler mercek altında. Montreal füme etleri ve motorlu skuterler gibi günlük şeylerin ardındaki üretim süreçleri ele alınıyor.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/32/220424631026e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117161500 +0000" stop="20261117170000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Alaska'yı Mesken Tuttuk</title>
-    <desc lang="tr">Alaska coğrafyasının derinliklerinde yabanda doğup büyümüş bir aile yaşar. Billy, Amy ve yedi çocukları medeniyetten uzaktadır, hayatta kalmak için birbirlerine güvenirler.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/16/220424631034e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117170000 +0000" stop="20261117180000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Alaska'yı Mesken Tuttuk</title>
-    <desc lang="tr">Brown'lar Alaska'nın ortalarında, uygarlıktan uzak, yabanda doğup büyümüş bir aile. Bu yedi çocuklu ailenin fertleri ancak birbirlerine güvenerek yaşamlarını sürdürebiliyorlar.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/45/220424631042e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117180000 +0000" stop="20261117190000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Ölümcül Av</title>
-    <desc lang="tr">Sig su alan bölümü tamir etmek için sepetleri atar. Rick, Jake onun blöfünü yutana kadar bereketli av sahalarını gizlemek için Time Bandit'i kullanır.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/10/220424631050e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117190000 +0000" stop="20261117195000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Avustralyalı Opal Avcıları</title>
-    <desc lang="tr">Blacklighters yüklü bir kazanç umuduyla çalışmalarına hız verir. Misfits, işleri riske atan hava koşullarına karşı yaratıcı çözümler üretmelidir.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/21/220424631058e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117195000 +0000" stop="20261117203500 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Gümrük Kontrol: İtalya</title>
-    <desc lang="tr">Güvenlik ve Gümrük Hizmetleri memurları, uyuşturucu, silah ve şüpheli teröristlerin daimi tehdidi altındaki İtalya sınırlarını korurlar.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/63/220424632066e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117203500 +0000" stop="20261117212000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Gümrük Kontrol: İtalya</title>
-    <desc lang="tr">Güvenlik ve Gümrük Hizmetleri memurları, uyuşturucu, silah ve şüpheli teröristlerin daimi tehdidi altındaki İtalya sınırlarını korurlar.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/4/220424632074e87fbbce.jpg" />
-  </programme>
-  <programme start="20261117212000 +0000" stop="20261117220500 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Amerikan Tamirhanesi</title>
-    <desc lang="tr">Shorty, Ember Glow motorun orijinal rengini yakalamaya çalışır, Joel fabrika çıkışlı olmayan bir klima monte eder, ekip iç döşeme üzerinde çalışır.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261112/95/220423832888e87f6bcc.jpg" />
-  </programme>
-  <programme start="20261117220500 +0000" stop="20261117225000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Ölümcül Av</title>
-    <desc lang="tr">Sig su alan bölümü tamir etmek için sepetleri atar. Rick, Jake onun blöfünü yutana kadar bereketli av sahalarını gizlemek için Time Bandit'i kullanır.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261112/0/220423832896e87f6bcc.jpg" />
-  </programme>
-  <programme start="20261117225000 +0000" stop="20261117233500 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Avustralyalı Opal Avcıları</title>
-    <desc lang="tr">Blacklighters yüklü bir kazanç umuduyla çalışmalarına hız verir. Misfits, işleri riske atan hava koşullarına karşı yaratıcı çözümler üretmelidir.</desc>
-    <category lang="tr">Belgesel</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261112/23/220423833904e87f6bcc.jpg" />
-  </programme>
-  <programme start="20261117233500 +0000" stop="20261118002000 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">İşte Sürat İşte Ses: Yıkım Sahneleri</title>
-    <desc lang="tr">Richard ile Aaron en çılgın canlı videolara bakıyorlar. Patlayan bir balina ile feci bir araba kazasından yara almadan kurtulup yürüyerek oradan uzaklaşan bir sürücü de var.</desc>
-    <category lang="tr">Belgesel</category>
-  </programme>
-  <programme start="20261118002000 +0000" stop="20261118010500 +0000" channel="DiscoveryChannel.tr">
-    <title lang="tr">Hurda Avcıları: Tamirat</title>
-    <desc lang="tr">Metal ustası Ted Edley ve Gilder Ruth Tappin antika bir Fransız zambak avizesini elden geçirir. Robin Johnson her yeri dökülen bir İrlanda gardırobu üzerinde çalışır.</desc>
-    <category lang="tr">Yaşam</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261112/63/220423834912e87f6bcc.jpg" />
   </programme>
   <programme start="20261118010500 +0000" stop="20261118015000 +0000" channel="DiscoveryChannel.tr">
     <title lang="tr">Dizel Kardeşler</title>
@@ -2523,30 +2285,6 @@
     <title lang="tr">Spor Saati</title>
     <category lang="tr">Spor</category>
     <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261111/48/000522485478e8805bd2.jpg" />
-  </programme>
-  <programme start="20261117140000 +0000" stop="20261117160000 +0000" channel="HaberGlobal.tr">
-    <title lang="tr">Günün Nabzı</title>
-    <desc lang="tr">Haber Global'de, deneyimli televizyon habercisi Saynur Tezel, hafta içi her gün günün nabzını tutuyor. Siyaset, ekonomi, diplomasi, strateji ve toplumsal gelişmelere dair bilinmesi gereken ne varsa &quot;Günün Nabzı&quot;nda ekrana taşınıyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/30/120528015623e8800bd0.jpg" />
-  </programme>
-  <programme start="20261117160000 +0000" stop="20261117170000 +0000" channel="HaberGlobal.tr">
-    <title lang="tr">Ana Haber</title>
-    <desc lang="tr">Salih Nayman ile Türkiye ve dünyadan kritik gelişmeleri, son dakika haberlerini ve gündemin öne çıkan başlıklarını aktarılır. Muhabirler sahadaki sıcak gelişmeleri canlı bağlantılarla iletir, siyasetten ekonomiye, spordan gündem maddelerine kadar önemli haberler objektif bir şekilde izleyiciye sunulur.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/62/120528015631e8800bd0.jpg" />
-  </programme>
-  <programme start="20261117170000 +0000" stop="20261117210000 +0000" channel="HaberGlobal.tr">
-    <title lang="tr">Müzakere</title>
-    <desc lang="tr">Türkiye'nin ve dünyanın gündemini belirleyen gelişmeler, Ankara kulislerinde konuşulanlar, karar alanların görüşü ve karşı çıkanların itirazları, Türkiye'nin fikir önderleri ve konunun uzmanlarıyla Müzakere'de.</desc>
-    <category lang="tr">Politika</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261113/89/140514997592e87ecbc8.jpg" />
-  </programme>
-  <programme start="20261117210000 +0000" stop="20261117230000 +0000" channel="HaberGlobal.tr">
-    <title lang="tr">Gece Ajansı</title>
-    <desc lang="tr">Haber Global Gece Ajansı gece yarısı ekranlara gelen, geride kalan günün en önemli haber başlıklarını derinlemesine ele alan bir haber programıdır. Siyaset, ekonomi, spor ve gündemdeki tüm gelişmeler sade ve net şekilde izleyiciye aktarılırken ertesi güne dair beklentiler de uzman yorumlarıyla öne çıkarılır.</desc>
-    <category lang="tr">Diğer</category>
-    <icon src="https://izmaottvsc14.tvplus.com.tr:33207/CPS/images/universal/film/program/202611/20261110/49/120528015647e8800bd0.jpg" />
   </programme>
   <programme start="20261117230000 +0000" stop="20261118030000 +0000" channel="HaberGlobal.tr">
     <title lang="tr">Haber Bülteni</title>
