@@ -133,6 +133,111 @@ jobs:
         run: |
           python -m pip install --quiet pillow cairosvg
 
+      - name: Importar catálogo completo de logos de canais da Turquia (PNG 256x256)
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from urllib.parse import urljoin, unquote
+          from html.parser import HTMLParser
+          from io import BytesIO
+          import json, re, csv
+          import cairosvg
+          from PIL import Image
+
+          OUT = Path("logos-turcas-catalogo")
+          OUT.mkdir(parents=True, exist_ok=True)
+          SOURCES = []
+
+          class Links(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.hrefs = []
+              def handle_starttag(self, tag, attrs):
+                  if tag.lower() == "a":
+                      href = dict(attrs).get("href", "")
+                      if href:
+                          self.hrefs.append(href)
+
+          def get(url):
+              req = Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; Turkish-TV-Logo-Catalog/1.0)"})
+              with urlopen(req, timeout=35) as r:
+                  return r.read()
+
+          def slug(name):
+              name = unquote(name).rsplit("/", 1)[-1]
+              name = re.sub(r"\.(png|jpe?g|webp|svg)$", "", name, flags=re.I)
+              name = re.sub(r"[^A-Za-z0-9._-]+", "-", name).strip("-._").lower()
+              return name or "logo"
+
+          def normalize(raw):
+              if b"<svg" in raw[:8192].lower() or raw.lstrip().startswith(b"<?xml"):
+                  raw = cairosvg.svg2png(bytestring=raw)
+              im = Image.open(BytesIO(raw)).convert("RGBA")
+              alpha = im.getchannel("A")
+              bbox = alpha.getbbox()
+              if bbox:
+                  im = im.crop(bbox)
+              im.thumbnail((220, 220), Image.Resampling.LANCZOS)
+              canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
+              canvas.alpha_composite(im, ((256-im.width)//2, (256-im.height)//2))
+              return canvas.convert("RGB")
+
+          def save(source, name, url):
+              try:
+                  raw = get(url)
+                  image = normalize(raw)
+                  filename = f"{source}-{slug(name)}.png"
+                  target = OUT / filename
+                  image.save(target, "PNG", optimize=True)
+                  SOURCES.append((filename, source, url, "OK"))
+                  print(f"OK {filename}")
+                  return True
+              except Exception as exc:
+                  SOURCES.append((f"{source}-{slug(name)}.png", source, url, f"FALHA: {exc}"))
+                  print(f"FALHA {source}/{name}: {exc}")
+                  return False
+
+          # Fonte 1: diretório público de logos da Turquia no TVLogo.org.
+          try:
+              page = "https://www.tvlogo.org/turkey/"
+              parser = Links()
+              parser.feed(get(page).decode("utf-8", "replace"))
+              candidates = sorted({urljoin(page, h) for h in parser.hrefs
+                                   if re.search(r"\.(png|jpe?g|webp|svg)(?:$|\?)", h, re.I)})
+              for url in candidates:
+                  name = url.rsplit("/", 1)[-1].split("?", 1)[0]
+                  save("tvlogo", name, url)
+              print(f"TVLogo.org: {len(candidates)} arquivos encontrados.")
+          except Exception as exc:
+              print(f"AVISO: catálogo TVLogo.org indisponível: {exc}")
+
+          # Fonte 2: repositório TV-Logos, pasta countries/turkey.
+          try:
+              api = "https://api.github.com/repos/tv-logo/tv-logos/git/trees/main?recursive=1"
+              tree = json.loads(get(api).decode("utf-8"))
+              files = [x for x in tree.get("tree", [])
+                       if x.get("type") == "blob"
+                       and x.get("path", "").lower().startswith("countries/turkey/")
+                       and re.search(r"\.(png|jpe?g|webp|svg)$", x.get("path", ""), re.I)]
+              for item in files:
+                  path = item["path"]
+                  url = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/" + path
+                  save("tvlogos-github", path.rsplit("/", 1)[-1], url)
+              print(f"TV-Logos GitHub: {len(files)} arquivos encontrados.")
+          except Exception as exc:
+              print(f"AVISO: catálogo TV-Logos GitHub indisponível: {exc}")
+
+          with (OUT / "FONTES.csv").open("w", newline="", encoding="utf-8") as f:
+              writer = csv.writer(f)
+              writer.writerow(["arquivo_png", "fonte", "url_original", "resultado"])
+              writer.writerows(SOURCES)
+          ok = sum(1 for row in SOURCES if row[3] == "OK")
+          print(f"CATÁLOGO FINAL: {ok} PNGs válidos de {len(SOURCES)} tentativas.")
+          print("Todos os PNGs válidos estão em 256x256, fundo preto e arte centralizada.")
+          PY
+
       - name: Criar e padronizar logos dos canais adicionados no padrão aprovado (256x256)
         shell: bash
         run: |
@@ -333,7 +438,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Tv.m3u logos-ajustadas/
+          git add Tv.m3u logos-ajustadas/ logos-turcas-catalogo/
           git commit -m "Atualizar programação, qualidade e buffer da TV principal"
 
           # Outros bots também gravam na mesma branch. Rebaseia sobre a versão
