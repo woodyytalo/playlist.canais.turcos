@@ -1,0 +1,31 @@
+services:
+  vpn:
+    image: qmcgaw/gluetun:v3
+    container_name: tv-geo-vpn
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    environment:
+      VPN_SERVICE_PROVIDER: custom
+      VPN_TYPE: wireguard
+      WIREGUARD_PRIVATE_KEY: ${WIREGUARD_PRIVATE_KEY:?configure in .env}
+      WIREGUARD_ADDRESSES: ${WIREGUARD_ADDRESSES:?configure in .env}
+      WIREGUARD_PUBLIC_KEY: ${WIREGUARD_PUBLIC_KEY:?configure in .env}
+      WIREGUARD_ENDPOINT_IP: ${WIREGUARD_ENDPOINT_IP:?configure in .env}
+      WIREGUARD_ENDPOINT_PORT: ${WIREGUARD_ENDPOINT_PORT:-51820}
+      FIREWALL_INPUT_PORTS: "8080"
+      TZ: America/Sao_Paulo
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+  hls-proxy:
+    image: nginx:1.27-alpine
+    container_name: tv-geo-hls-proxy
+    network_mode: "service:vpn"
+    depends_on:
+      - vpn
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    restart: unless-stopped
