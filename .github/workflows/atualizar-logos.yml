@@ -144,15 +144,19 @@ jobs:
           import cairosvg
 
           sources = {
-              "gzt.png": "https://commons.wikimedia.org/wiki/Special:FilePath/GZT_logo.svg",
-              "bein-sports-1-turk.png": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_bein_sports_1.png",
+              # GZT: PNG oficial da sala de imprensa da própria emissora.
+              "gzt.png": "https://assets.gzt.com/gzt/wwwroot/images/media-kit/gzt-logo.png",
+              # beIN SPORTS 1: arquivo SVG original hospedado diretamente no upload CDN.
+              "bein-sports-1-turk.png": "https://upload.wikimedia.org/wikipedia/commons/4/44/BeIN_Sports_1_logo.svg",
+              # 4U Family: logo PNG da identidade do canal.
               "4u-family-persian.png": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UFamily.tr.png",
-              "power-tv-720p.png": "https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c155866ac331e0feb22b",
+              # Power TV: logo do canal Power TV HD.
+              "power-tv-720p.png": "https://www.tvlogo.org/turkey/power-tv-hd-tr.png",
           }
           out = Path("logos-ajustadas")
           out.mkdir(exist_ok=True)
           for filename, url in sources.items():
-              req = Request(url, headers={"User-Agent": "Mozilla/5.0 IPTV-Logo-Bot"})
+              req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; IPTV-Logo-Bot/1.0)", "Accept": "image/png,image/svg+xml,image/*;q=0.9,*/*;q=0.8"})
               with urlopen(req, timeout=30) as response:
                   raw = response.read()
               if raw.lstrip().startswith(b"<") or b"<svg" in raw[:1000].lower():
