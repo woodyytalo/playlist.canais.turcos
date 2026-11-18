@@ -129,44 +129,71 @@ jobs:
           print(f"Buffer de 1 segundo aplicado em {channels} canais.")
           PY
 
-      - name: Preparar ferramentas para logos no padrão 2:1
+      - name: Preparar ferramentas para logos quadradas no padrão 1:1 (256x256)
         run: |
           python -m pip install --quiet pillow cairosvg
 
-      - name: Criar logos dos canais adicionados no padrão aprovado
+      - name: Criar e padronizar logos dos canais adicionados no padrão aprovado (256x256)
         shell: bash
         run: |
           python - <<'PY'
           from io import BytesIO
           from pathlib import Path
           from urllib.request import Request, urlopen
-          from PIL import Image
+          from PIL import Image, ImageChops
           import cairosvg
 
+          # Fontes originais para os quatro canais adicionados recentemente.
           sources = {
-              # GZT: PNG oficial da sala de imprensa da própria emissora.
               "gzt.png": "https://assets.gzt.com/gzt/wwwroot/images/media-kit/gzt-logo.png",
-              # beIN SPORTS 1: arquivo SVG original hospedado diretamente no upload CDN.
               "bein-sports-1-turk.png": "https://i.ibb.co/3fPVPLL/Bein1.png",
-              # 4U Family: logo PNG da identidade do canal.
               "4u-family-persian.png": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UFamily.tr.png",
-              # Power TV: logo do canal Power TV HD.
               "power-tv-720p.png": "https://www.tvlogo.org/turkey/power-tv-hd-tr.png",
           }
           out = Path("logos-ajustadas")
           out.mkdir(exist_ok=True)
+
+          def normalize(raw):
+              if raw.lstrip().startswith(b"<") or b"<svg" in raw[:1000].lower():
+                  raw = cairosvg.svg2png(bytestring=raw)
+              logo = Image.open(BytesIO(raw)).convert("RGBA")
+              # Remove apenas margens totalmente transparentes; preserva o desenho original.
+              alpha = logo.getchannel("A")
+              bbox = alpha.getbbox()
+              if bbox:
+                  logo = logo.crop(bbox)
+              logo.thumbnail((220, 220), Image.Resampling.LANCZOS)
+              canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
+              canvas.alpha_composite(logo, ((256-logo.width)//2, (256-logo.height)//2))
+              return canvas.convert("RGB")
+
+          # Recria as quatro logos dos canais adicionados a partir das fontes originais.
           for filename, url in sources.items():
               req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; IPTV-Logo-Bot/1.0)", "Accept": "image/png,image/svg+xml,image/*;q=0.9,*/*;q=0.8"})
               with urlopen(req, timeout=30) as response:
                   raw = response.read()
-              if raw.lstrip().startswith(b"<") or b"<svg" in raw[:1000].lower():
-                  raw = cairosvg.svg2png(bytestring=raw)
-              logo = Image.open(BytesIO(raw)).convert("RGBA")
-              logo.thumbnail((920, 420), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA", (1000, 500), (0, 0, 0, 255))
-              canvas.alpha_composite(logo, ((1000-logo.width)//2, (500-logo.height)//2))
-              canvas.convert("RGB").save(out / filename, format="PNG", optimize=True)
-              print(f"Logo criada: {out / filename} — 1000x500, fundo preto, logo original centralizada")
+              normalize(raw).save(out / filename, format="PNG", optimize=True)
+              print(f"Logo criada: {filename} — 256x256, fundo preto, sem deformação")
+
+          # Reenquadra também as demais logos já existentes nesta pasta, sem esticar a arte.
+          for path in sorted(out.glob("*.png")):
+              if path.name in sources:
+                  continue
+              logo = Image.open(path).convert("RGBA")
+              # As versões antigas tinham fundo preto 2:1; identifica a área visível da arte.
+              rgb = logo.convert("RGB")
+              diff = ImageChops.difference(rgb, Image.new("RGB", rgb.size, (0, 0, 0)))
+              bbox = diff.getbbox()
+              if bbox:
+                  logo = logo.crop(bbox)
+              alpha_bbox = logo.getchannel("A").getbbox()
+              if alpha_bbox:
+                  logo = logo.crop(alpha_bbox)
+              logo.thumbnail((220, 220), Image.Resampling.LANCZOS)
+              canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
+              canvas.alpha_composite(logo, ((256-logo.width)//2, (256-logo.height)//2))
+              canvas.convert("RGB").save(path, format="PNG", optimize=True)
+              print(f"Logo reenquadrada: {path.name} — 256x256")
           PY
 
       - name: Salvar alterações
