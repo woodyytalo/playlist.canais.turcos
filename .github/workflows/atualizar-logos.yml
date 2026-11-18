@@ -147,7 +147,7 @@ jobs:
               # GZT: PNG oficial da sala de imprensa da própria emissora.
               "gzt.png": "https://assets.gzt.com/gzt/wwwroot/images/media-kit/gzt-logo.png",
               # beIN SPORTS 1: arquivo SVG original hospedado diretamente no upload CDN.
-              "bein-sports-1-turk.png": "https://upload.wikimedia.org/wikipedia/commons/4/44/BeIN_Sports_1_logo.svg",
+              "bein-sports-1-turk.png": "https://i.ibb.co/3fPVPLL/Bein1.png",
               # 4U Family: logo PNG da identidade do canal.
               "4u-family-persian.png": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UFamily.tr.png",
               # Power TV: logo do canal Power TV HD.
