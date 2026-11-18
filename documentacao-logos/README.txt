@@ -28,3 +28,8 @@ PADRÃO DAS CÓPIAS NORMALIZADAS
 - A origem, crédito/licença (quando informados pela fonte) e resultado da importação são registrados em FONTES-ADICIONAIS.csv.
 
 Observação: o catálogo é uma biblioteca de candidatos. Logos antigas, variantes históricas ou canais com nomes semelhantes precisam ser conferidos antes de serem associados à playlist.
+
+
+FONTES COMPLEMENTARES REGISTRADAS
+
+A lista consolidada de fontes, incluindo catálogos de imagens, fontes oficiais, datasets e catálogos de operadoras para conferência, está em logos-turcas-catalogo/FONTES-LOGOS-TURCAS.md. O documento diferencia fontes com imagens diretamente disponíveis de catálogos usados apenas como referência; seu registro não significa que todas as logos já tenham sido baixadas ou associadas aos canais.
