@@ -1,0 +1,45 @@
+name: IPTV GeoCheck — canais turcos
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "Backup.m3u"
+      - "scripts/iptv_geocheck.py"
+      - ".github/workflows/iptv-geocheck.yml"
+  schedule:
+    - cron: "23 4 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-geocheck
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Testar links da playlist turca
+        run: python scripts/iptv_geocheck.py
+      - name: Publicar relatório no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/iptv-geocheck.md
+          if git diff --cached --quiet; then
+            echo "Relatório sem alterações."
+          else
+            git commit -m "Atualizar relatório IPTV GeoCheck"
+            git push
+          fi
