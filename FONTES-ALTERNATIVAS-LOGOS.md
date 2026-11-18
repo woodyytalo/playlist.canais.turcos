@@ -1,38 +1,46 @@
-# Fontes alternativas de logos de TV
+# Fontes de logos — somente canais da Turquia
 
-Este documento reúne catálogos externos para localizar logos que estejam faltando na playlist. As fontes são referências de pesquisa; **não significa que todos os arquivos tenham sido importados ou aprovados**.
+Este arquivo foi filtrado para manter **apenas fontes úteis para localizar logos de emissoras turcas**. As páginas abaixo são fontes de pesquisa; sua inclusão não significa que todas as imagens tenham sido importadas ou validadas.
 
-## Catálogos de logos
+## Catálogos de logos turcas
 
-1. **TV-Logo / TV-Logos** — https://github.com/tv-logo/tv-logos  
-   Catálogo internacional com diretório da Turquia e logos preparadas para fundos escuros. O projeto permite links RAW, mas pede atribuição em redistribuição e informa condições de licença Creative Commons. Conferir os termos antes de copiar arquivos para este repositório.
+1. **TVLogo.org — diretório Turkey**  
+   https://www.tvlogo.org/turkey/  
+   Catálogo dedicado a logos de canais turcos, com arquivos PNG identificados por nomes de emissoras. É a principal fonte para procurar logos ausentes.
 
-2. **IPTVtuner – TV-Logos** — https://github.com/IPTVtuner/TV-Logos  
-   Coleção de logos PNG de emissoras de vários países.
+2. **TV-Logo / TV-Logos — pasta Turkey**  
+   https://github.com/tv-logo/tv-logos/tree/main/countries/turkey  
+   Diretório específico de logos turcas em PNG. Pode ser usado para comparar versões e localizar canais não encontrados no TVLogo.org.
 
-3. **Picons** — https://github.com/picons/picons  
-   Projeto de logos de TV e rádio (picons), com repositórios de imagens e listas de canais. Verificar a licença GPL-3.0 e os termos dos arquivos antes de redistribuir.
+3. **Wikimedia Commons — logos de canais de televisão da Turquia**  
+   https://commons.wikimedia.org/wiki/Category:Logos_of_television_channels_in_Turkey  
+   Arquivo comunitário com logos de emissoras turcas, incluindo subcategorias para TRT, ATV, CNN Türk, Show TV, Star TV e outras. Conferir a licença de cada imagem individualmente.
 
-4. **Abusaeeidx – Tv-Channel-Logo** — https://github.com/abusaeeidx/Tv-Channel-Logo  
-   Coleção categorizada de logos de TV, OTT, esportes, notícias e outras categorias; inclui diretórios por país.
+## Fontes turcas complementares
 
-5. **logo-tv – tv-logos** — https://github.com/logo-tv/tv-logos  
-   Outra coleção internacional organizada por país.
+4. **Omerdenizhan / IPTV-M3U**  
+   https://github.com/omerdenizhan/IPTV-M3U  
+   Projeto focado em canais turcos, com diretório de logos e listas M3U. Usar somente as imagens de logo como referência; não importar streams para a TV principal.
 
-6. **Yasserstudio – tv-logos** — https://github.com/yasserstudio/tv-logos  
-   Coleção organizada por países e categorias. **Repositório arquivado em 28/03/2026**, portanto usar apenas como fonte histórica/complementar.
+5. **kebabmuncherr / Turk_TV**  
+   https://github.com/kebabmuncherr/Turk_TV  
+   Lista de canais turcos com referências a logos, inclusive links para o diretório Turkey do TV-Logo. Usar para descobrir nomes/variantes de emissoras e localizar a imagem correspondente.
 
-## Fontes complementares
+6. **Oktay2617 / gunestv — canais da Turquia**  
+   https://github.com/Oktay2617/gunestv  
+   Arquivo de canais identificado como Turkey, com campos de logo. Conferir se cada logo representa exatamente a emissora antes de aproveitá-la.
 
-7. **Free-TV / IPTV** — https://github.com/Free-TV/IPTV  
-   Projeto de playlists M3U. Não é um catálogo exclusivo de logos, mas as entradas podem apontar para imagens de canais. Usar somente as URLs de logo, nunca importar streams automaticamente para a TV principal.
+7. **discevisita / iptv — lista TR**  
+   https://github.com/discevisita/iptv/blob/main/tr.m3u  
+   Playlist turca que contém referências a logos de emissoras. Usar apenas os endereços de imagem como pistas de pesquisa, sem copiar links de transmissão.
 
-8. **Omerdenizhan / IPTV-M3U** — https://github.com/omerdenizhan/IPTV-M3U  
-   Projeto focado em canais turcos; possui diretório `tv-logo` e listas M3U. Usar como fonte complementar para identificar logos turcas.
+8. **officialmmt / lists — teneke.m3u**  
+   https://github.com/officialmmt/lists/blob/main/teneke.m3u  
+   Lista com canais turcos e referências a logos; usar apenas para identificar imagens correspondentes a canais da Turquia.
 
-## Padrão obrigatório deste repositório
+## Padrão obrigatório para importar no repositório
 
-Toda logo que for importada para a pasta local deve ser validada individualmente e convertida para:
+Toda imagem selecionada deve ser validada individualmente e normalizada para:
 
 - PNG, exatamente **256 × 256 pixels**;
 - fundo preto uniforme;
@@ -40,14 +48,15 @@ Toda logo que for importada para a pasta local deve ser validada individualmente
 - cores originais preservadas;
 - proporção original preservada, sem esticar ou deformar.
 
-## Regras para importação
+## Regras de validação
 
-- Confirmar que a imagem pertence exatamente ao canal correspondente.
-- Preferir a versão oficial/original da emissora.
+- Confirmar que a logo pertence exatamente ao canal turco correspondente.
+- Priorizar a imagem oficial da emissora ou uma versão claramente identificável.
 - Não usar placeholders, logos genéricas ou imagens de outro canal.
-- Conferir disponibilidade HTTP e se o arquivo é realmente uma imagem antes de importar.
-- Não substituir a logo da playlist nem alterar `Tv.m3u`, `Backup.m3u` ou outras listas sem validação individual.
-- Preservar a atribuição e respeitar as licenças/termos de cada fonte.
-- Registrar a fonte de cada imagem importada para rastreabilidade.
+- Verificar se o arquivo é realmente uma imagem e se está acessível.
+- Conferir a licença/termos de redistribuição de cada imagem.
+- Registrar a fonte de cada PNG importado.
+- Não alterar `Tv.m3u`, `Backup.m3u` nem substituir logos existentes sem validação individual.
 
-**Estado:** fontes catalogadas para pesquisa. Nenhuma playlist foi alterada por este documento.
+**Escopo:** somente emissoras da Turquia.  
+**Estado:** fontes turcas catalogadas; nenhuma playlist ou logo foi alterada por este documento.
