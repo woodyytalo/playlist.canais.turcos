@@ -300,6 +300,7 @@ jobs:
           PY
 
       - name: Atualizar todas as logos da TV principal por categoria (256x256)
+        # Reprocessa também fontes alternativas verificadas para corrigir logos antigas indisponíveis.
         shell: bash
         run: |
           python - <<'PY'
