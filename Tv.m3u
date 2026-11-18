@@ -62,7 +62,7 @@ https://vavoo.to/vavoo-iptv/play/1917558455120761543969
 #EXTVLCOPT:network-caching=1000
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/noticias/as-tv.png" tvg-id="AS.TV.tr" tvg-name="AS TV" group-title="NOTÍCIAS",AS TV
+#EXTINF:-1 tvg-id="AS.TV.tr" tvg-name="AS TV" group-title="NOTÍCIAS",AS TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 
@@ -82,7 +82,7 @@ https://tv.ensonhaber.com/benguturk/benguturk_480p.m3u8
 #EXTVLCOPT:network-caching=1000
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/entretenimento/bi-kanal.png" tvg-id="Bi.Kanal.tr" tvg-name="Bi Kanal" group-title="ENTRETENIMENTO",Bi Kanal
+#EXTINF:-1 tvg-id="Bi.Kanal.tr" tvg-name="Bi Kanal" group-title="ENTRETENIMENTO",Bi Kanal
 #EXTVLCOPT:network-caching=1000
 https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 
@@ -134,7 +134,7 @@ https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist
 #EXTVLCOPT:network-caching=1000
 https://vavoo.to/vavoo-iptv/play/40223592760f0af9f37d41
 
-#EXTINF:-1 tvg-id="custom.dimtv" tvg-name="Dim TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/dim-tv.png",Dim TV
+#EXTINF:-1 tvg-id="custom.dimtv" tvg-name="Dim TV" group-title="REGIONAIS",Dim TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 
@@ -150,10 +150,10 @@ https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://dost.stream.emsal.im/tv/live.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/1mus.png" tvg-name="1Mus" group-title="MÚSICA" tvg-id="custom.n1mus",1Mus
+#EXTINF:-1 tvg-name="1Mus" group-title="MÚSICA" tvg-id="custom.n1mus",1Mus
 #EXTVLCOPT:network-caching=1000
 http://hz1.teleport.cc/HLS/HD.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/30a-music.png" tvg-name="30A Music" group-title="MÚSICA" tvg-id="custom.n30amusic",30A Music
+#EXTINF:-1 tvg-name="30A Music" group-title="MÚSICA" tvg-id="custom.n30amusic",30A Music
 #EXTVLCOPT:network-caching=1000
 https://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/dream-turk.png" tvg-id="DREAM.TÜRK.tr" tvg-name="Dream Türk" group-title="MÚSICA",Dream Türk
@@ -191,7 +191,7 @@ https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/etv.png" tvg-id="custom.etv" tvg-name="ETV" group-title="REGIONAIS",ETV
+#EXTINF:-1 tvg-id="custom.etv" tvg-name="ETV" group-title="REGIONAIS",ETV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 
@@ -223,7 +223,7 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 #EXTVLCOPT:network-caching=1000
 https://gcinemahls.wns.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/grt-gaziantep-tv.png" tvg-id="custom.grtgazianteptv" tvg-name="GRT Gaziantep TV" group-title="REGIONAIS",GRT Gaziantep TV
+#EXTINF:-1 tvg-id="custom.grtgazianteptv" tvg-name="GRT Gaziantep TV" group-title="REGIONAIS",GRT Gaziantep TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 
@@ -296,7 +296,7 @@ https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.kanal32" tvg-name="Kanal 32" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kanal-32.png",Kanal 32
+#EXTINF:-1 tvg-id="custom.kanal32" tvg-name="Kanal 32" group-title="REGIONAIS",Kanal 32
 #EXTVLCOPT:network-caching=1000
 https://vavoo.to/vavoo-iptv/play/37609264903fe9705b8a5e
 
@@ -332,7 +332,7 @@ https://tv.kanalb.tr/hls/kanalb/index.m3u8
 #EXTVLCOPT:network-caching=1000
 http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/entretenimento/kanal-d-drama.png" tvg-id="custom.kanalddrama" tvg-name="Kanal D Drama" group-title="ENTRETENIMENTO",Kanal D Drama
+#EXTINF:-1 tvg-id="custom.kanalddrama" tvg-name="Kanal D Drama" group-title="ENTRETENIMENTO",Kanal D Drama
 #EXTVLCOPT:network-caching=1000
 https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371fb4d7475349d6f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8
 
@@ -375,7 +375,7 @@ https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.luystv" tvg-name="Luys TV" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/cultura-educacao/luys-tv.png",Luys TV
+#EXTINF:-1 tvg-id="custom.luystv" tvg-name="Luys TV" group-title="CULTURA/EDUCAÇÃO",Luys TV
 #EXTVLCOPT:network-caching=1000
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/mt_2.m3u8
 
@@ -383,7 +383,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91
 #EXTVLCOPT:network-caching=1000
 http://54.36.110.140/live3/live3.m3u8
 
-#EXTINF:-1 tvg-name="Mekameleen TV" tvg-id="custom.mekameleentv" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/mekameleen-tv.png",Mekameleen TV
+#EXTINF:-1 tvg-name="Mekameleen TV" tvg-id="custom.mekameleentv" group-title="REGIONAIS",Mekameleen TV
 #EXTVLCOPT:network-caching=1000
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8
 
@@ -407,7 +407,7 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8
 #EXTVLCOPT:network-caching=1000
 https://vavoo.to/vavoo-iptv/play/375599442073736b876622
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/play-tv.png" tvg-name="Play TV" group-title="MÚSICA" tvg-id="custom.playtv",Play TV
+#EXTINF:-1 tvg-name="Play TV" group-title="MÚSICA" tvg-id="custom.playtv",Play TV
 #EXTVLCOPT:network-caching=1000
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/chunklist_w538521591.m3u8
 
@@ -447,7 +447,7 @@ https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="mukabeletv.local" tvg-name="MUKABELE TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/religiosos/mukabele-tv.png",MUKABELE TV
+#EXTINF:-1 tvg-id="mukabeletv.local" tvg-name="MUKABELE TV" group-title="RELIGIOSOS",MUKABELE TV
 #EXTVLCOPT:network-caching=1000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.m3u8
 
@@ -700,14 +700,14 @@ https://live.yoltv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/rtg-international.png" tvg-name="RTG International" group-title="INTERNACIONAIS" tvg-id="custom.rtginternational",RTG International
 #EXTVLCOPT:network-caching=1000
 http://213.91.179.28:8000/play/a0bw
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kanal-ada.png" tvg-name="Kanal Ada" tvg-id="custom.kanalada" group-title="REGIONAIS",Kanal Ada
+#EXTINF:-1 tvg-name="Kanal Ada" tvg-id="custom.kanalada" group-title="REGIONAIS",Kanal Ada
 #EXTVLCOPT:network-caching=1000
 http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/filmes-e-series/arzu-film.png" tvg-name="Arzu Film" group-title="FILMES E SÉRIES" tvg-id="custom.arzufilm",Arzu Film
 #EXTVLCOPT:network-caching=1000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/esportes/ekol-sports.png" tvg-name="Ekol Sports" group-title="ESPORTES" tvg-id="Ekol.Sports.tr",Ekol Sports
+#EXTINF:-1 tvg-name="Ekol Sports" group-title="ESPORTES" tvg-id="Ekol.Sports.tr",Ekol Sports
 #EXTVLCOPT:network-caching=1000
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kanal-urfa.png" tvg-name="Kanal Urfa" group-title="REGIONAIS" tvg-id="custom.kanalurfa",Kanal Urfa
@@ -716,14 +716,14 @@ https://vavoo.to/vavoo-iptv/play/847659673132d7ebf20cd
 #EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" group-title="REGIONAIS" tvg-id="custom.trabzonbuyuksehirbelediyesitv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/trabzon-buyuksehir-belediyesi-tv.png",Trabzon Buyuksehir Belediyesi TV
 #EXTVLCOPT:network-caching=1000
 https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
-#EXTINF:-1 tvg-name="Urfanatik TV" group-title="REGIONAIS" tvg-id="custom.urfanatiktv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/urfanatik-tv.png",Urfanatik TV
+#EXTINF:-1 tvg-name="Urfanatik TV" group-title="REGIONAIS" tvg-id="custom.urfanatiktv",Urfanatik TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/religiosos/madinah-tv.png" tvg-name="MADINAH TV" group-title="RELIGIOSOS" tvg-id="custom.madinahtv",MADINAH TV
 #EXTVLCOPT:network-caching=1000
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8
 
-#EXTINF:-1 tvg-name="MC EU TV" tvg-id="MCTV.de@HD" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/mc-eu-tv.png",MC EU TV
+#EXTINF:-1 tvg-name="MC EU TV" tvg-id="MCTV.de@HD" group-title="INTERNACIONAIS",MC EU TV
 #EXTVLCOPT:network-caching=1000
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #EXTINF:-1 tvg-name="Persiana Türkiye" tvg-id="PersianaTurkiye.fr@SD" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/persiana-turkiye.png",Persiana Türkiye
@@ -741,15 +741,15 @@ https://s6.hopslan.com/tlcX/index.m3u8
 #EXTVLCOPT:network-caching=1000
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/etv-manisa.png" tvg-name="ETV Manisa" group-title="REGIONAIS" tvg-id="custom.etvmanisa",ETV Manisa
+#EXTINF:-1 tvg-name="ETV Manisa" group-title="REGIONAIS" tvg-id="custom.etvmanisa",ETV Manisa
 #EXTVLCOPT:network-caching=1000
 https://vavoo.to/vavoo-iptv/play/20249540025118ba1bc88c
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/filmes-e-series/dizi-tv.png" tvg-name="Dizi TV" group-title="FILMES E SÉRIES" tvg-id="custom.dizitv",Dizi TV
+#EXTINF:-1 tvg-name="Dizi TV" group-title="FILMES E SÉRIES" tvg-id="custom.dizitv",Dizi TV
 #EXTVLCOPT:network-caching=1000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/religiosos/abn-turkey.png" tvg-name="ABN TURKEY" group-title="RELIGIOSOS" tvg-id="custom.abnturkey",ABN TURKEY
+#EXTINF:-1 tvg-name="ABN TURKEY" group-title="RELIGIOSOS" tvg-id="custom.abnturkey",ABN TURKEY
 #EXTVLCOPT:network-caching=1000
 https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
 
@@ -757,35 +757,35 @@ https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
 #EXTVLCOPT:network-caching=1000
 https://yayin.santraltr.com/hls/dost.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/company-tv.png" group-title="MÚSICA" tvg-name="Company TV" tvg-id="custom.companytv",Company TV
+#EXTINF:-1 group-title="MÚSICA" tvg-name="Company TV" tvg-id="custom.companytv",Company TV
 #EXTVLCOPT:network-caching=1000
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/chunklist_w1608519565_b878000_slita.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/intv-australia.png" group-title="INTERNACIONAIS" tvg-name="INTV Australia" tvg-id="custom.intvaustralia",INTV Australia
+#EXTINF:-1 group-title="INTERNACIONAIS" tvg-name="INTV Australia" tvg-id="custom.intvaustralia",INTV Australia
 #EXTVLCOPT:network-caching=1000
 http://tv1.intv.mk:1935/live/intv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/guclu-tv.png" group-title="MÚSICA" tvg-name="Güçlü TV" tvg-id="custom.guclutv",Güçlü TV
+#EXTINF:-1 group-title="MÚSICA" tvg-name="Güçlü TV" tvg-id="custom.guclutv",Güçlü TV
 #EXTVLCOPT:network-caching=1000
 https://yayin.santraltr.com/hls/zeynotv.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/isvicre-tv.png" tvg-name="İSVİÇRE TV" group-title="INTERNACIONAIS" tvg-id="custom.isvicretv",İSVİÇRE TV
+#EXTINF:-1 tvg-name="İSVİÇRE TV" group-title="INTERNACIONAIS" tvg-id="custom.isvicretv",İSVİÇRE TV
 #EXTVLCOPT:network-caching=1000
 https://i41.ozelip.com:3269/hybrid/play.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/now-70-s.png" tvg-name="Now 70 s" group-title="MÚSICA" tvg-id="custom.now70s",Now 70 s
+#EXTINF:-1 tvg-name="Now 70 s" group-title="MÚSICA" tvg-id="custom.now70s",Now 70 s
 #EXTVLCOPT:network-caching=1000
 https://lightning-now70s-samsungnz.amagi.tv/playlist480p.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/now-80-s.png" tvg-name="Now 80 s" group-title="MÚSICA" tvg-id="custom.now80s",Now 80 s
+#EXTINF:-1 tvg-name="Now 80 s" group-title="MÚSICA" tvg-id="custom.now80s",Now 80 s
 #EXTVLCOPT:network-caching=1000
 https://lightning-now80s-samsungnz.amagi.tv/playlist480p.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/now-rock.png" tvg-name="NOW ROCK" group-title="MÚSICA" tvg-id="custom.nowrock",NOW ROCK
+#EXTINF:-1 tvg-name="NOW ROCK" group-title="MÚSICA" tvg-id="custom.nowrock",NOW ROCK
 #EXTVLCOPT:network-caching=1000
 https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/estilo-de-vida/mor-tv.png" tvg-name="MOR TV" group-title="ESTILO DE VIDA" tvg-id="custom.mortv",MOR TV
+#EXTINF:-1 tvg-name="MOR TV" group-title="ESTILO DE VIDA" tvg-id="custom.mortv",MOR TV
 #EXTVLCOPT:network-caching=1000
 https://live.euromediacenter.com/tvmor/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/iq-channel.png" group-title="MÚSICA" tvg-id="custom.iqchannel" tvg-name="IQ Channel",IQ Channel
