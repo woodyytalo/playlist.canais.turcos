@@ -62,6 +62,11 @@ jobs:
               return result
 
           old_map = parse_entries(OLD_PLAYLIST)
+          reference_assets = {
+              "kanal d drama": ROOT / "logos-originais-referencia/kanal-d-drama.jpg",
+              "ekol sports": ROOT / "logos-originais-referencia/ekol-sports.jpg",
+              "dizi tv": ROOT / "logos-originais-referencia/dizi-tv.jpg",
+          }
           lines = PLAYLIST.read_text(encoding="utf-8").splitlines()
           output_root = ROOT / "logos-ajustadas"
           used = set()
@@ -87,6 +92,11 @@ jobs:
                   if candidate.is_file():
                       source = candidate
                       break
+
+              if source is None:
+                  source = reference_assets.get(name.casefold())
+                  if source is not None and not source.is_file():
+                      source = None
 
               if source is None:
                   # Do not keep the invented geometric logo when no original asset exists.
