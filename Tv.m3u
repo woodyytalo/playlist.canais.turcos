@@ -806,15 +806,15 @@ https://yayin.santraltr.com/hls/toppop.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/retro-music-television.svg" group-title="MÚSICA" tvg-id="custom.retromusictelevision" tvg-name="Retro Music Television",Retro Music Television
 #EXTVLCOPT:network-caching=1000
 https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
-#EXTINF:-1 tvg-name="GZT" group-title="NOTÍCIAS",GZT
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-ajustadas/gzt.png" tvg-name="GZT" tvg-id="custom.gzt" group-title="NOTÍCIAS",GZT
 #EXTVLCOPT:network-caching=1000
 https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8
-#EXTINF:-1 tvg-name="beIN Sports 1 Turk" group-title="ESPORTES",beIN Sports 1 Turk
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-ajustadas/bein-sports-1-turk.png" tvg-name="beIN Sports 1 Turk" tvg-id="custom.beinsports1turk" group-title="ESPORTES",beIN Sports 1 Turk
 #EXTVLCOPT:network-caching=1000
 http://57.129.0.61:1990/stream/117/index.m3u8
-#EXTINF:-1 tvg-name="4U Family (persa)" group-title="INTERNACIONAIS",4U Family (persa)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-ajustadas/4u-family-persian.png" tvg-name="4U Family (persa)" tvg-id="custom.4ufamilypersian" group-title="INTERNACIONAIS",4U Family (persa)
 #EXTVLCOPT:network-caching=1000
 https://familyhls.4utv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name="Power TV (720p)" group-title="MÚSICA",Power TV (720p)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/logos-ajustadas/power-tv-720p.png" tvg-name="Power TV (720p)" tvg-id="custom.powertv720p" group-title="MÚSICA",Power TV (720p)
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
