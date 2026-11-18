@@ -149,6 +149,11 @@ jobs:
               "bein-sports-1-turk.png": "https://i.ibb.co/3fPVPLL/Bein1.png",
               "4u-family-persian.png": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UFamily.tr.png",
               "power-tv-720p.png": "https://www.tvlogo.org/turkey/power-tv-hd-tr.png",
+              # Logos identificadas em fontes específicas dos canais.
+              "frt-tv.png": "https://izle.livetvuk.com/uploads/tv/278-frttv.jpg",
+              "izmir-time-35-tv.png": "https://izmirtime35com.teimg.com/izmirtime35-com/uploads/2023/09/logo.png",
+              "syria-tv.png": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Syria_TV_logo_2026.png",
+              "retro-music-television.png": "https://www.tvchannellists.com/wiki/images/8/80/Retro_Music_Television.svg",
           }
           out = Path("logos-ajustadas")
           out.mkdir(exist_ok=True)
