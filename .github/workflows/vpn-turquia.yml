@@ -1,0 +1,106 @@
+name: Testar TV principal pela VPN da Turquia
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 */12 * * *"
+  push:
+    paths:
+      - "Tv.m3u"
+      - ".github/workflows/vpn-turquia.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  testar-playlist:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Baixar playlist
+        uses: actions/checkout@v4
+
+      - name: Instalar WireGuard e ferramentas
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wireguard-tools curl
+
+      - name: Conectar ao servidor VPN turco
+        env:
+          TURKEY_WG_CONF: ${{ secrets.TURKEY_WG_CONF }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${TURKEY_WG_CONF}" ]; then
+            echo "::error::Configure o segredo TURKEY_WG_CONF com o arquivo WireGuard fornecido pelo provedor VPN."
+            exit 1
+          fi
+          umask 077
+          printf '%s\n' "${TURKEY_WG_CONF}" > /tmp/turkey-wg.conf
+          sudo install -m 600 /tmp/turkey-wg.conf /etc/wireguard/turkey.conf
+          rm -f /tmp/turkey-wg.conf
+          sudo wg-quick up turkey
+          echo "Túnel WireGuard iniciado."
+
+      - name: Confirmar saída pela Turquia
+        shell: bash
+        run: |
+          set -euo pipefail
+          COUNTRY="$(curl --fail --silent --show-error --max-time 20 https://ipapi.co/country/ | tr -d '[:space:]')"
+          echo "País de saída detectado: ${COUNTRY}"
+          if [ "${COUNTRY}" != "TR" ]; then
+            echo "::error::A VPN não está saindo pela Turquia. Nenhum teste da playlist será considerado válido."
+            exit 1
+          fi
+
+      - name: Testar os links HTTP da TV principal pelo túnel
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re
+          import subprocess
+          from pathlib import Path
+
+          path = Path("Tv.m3u")
+          if not path.exists():
+              raise SystemExit("Arquivo Tv.m3u não encontrado.")
+
+          entries = []
+          name = "Canal sem nome"
+          for raw in path.read_text(encoding="utf-8", errors="replace").splitlines():
+              line = raw.strip()
+              if line.startswith("#EXTINF:"):
+                  name = line.rsplit(",", 1)[-1].strip() if "," in line else "Canal sem nome"
+              elif line and not line.startswith("#"):
+                  if line.lower().startswith(("http://", "https://")):
+                      entries.append((name, line))
+                  name = "Canal sem nome"
+
+          ok = 0
+          failed = 0
+          for name, url in entries:
+              try:
+                  result = subprocess.run(
+                      ["curl", "-L", "-sS", "--max-time", "15", "--range", "0-0",
+                       "-o", "/dev/null", "-w", "%{http_code}", url],
+                      capture_output=True, text=True, timeout=18
+                  )
+                  code = result.stdout.strip()[-3:] if result.stdout.strip() else "000"
+                  if code.startswith(("2", "3")):
+                      print(f"OK | {name} | HTTP {code}")
+                      ok += 1
+                  else:
+                      print(f"FALHA | {name} | HTTP {code}")
+                      failed += 1
+              except Exception as exc:
+                  print(f"FALHA | {name} | {type(exc).__name__}")
+                  failed += 1
+
+          print(f"\nResumo: {ok} links respondendo; {failed} com falha; {len(entries)} testados.")
+          if not entries:
+              raise SystemExit("Nenhum link HTTP encontrado em Tv.m3u.")
+          PY
+
+      - name: Desconectar VPN
+        if: always()
+        run: sudo wg-quick down turkey || true
