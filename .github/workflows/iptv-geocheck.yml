@@ -1,4 +1,5 @@
 name: IPTV GeoCheck — TV principal
+# Execução inicial solicitada pelo usuário.
 
 on:
   workflow_dispatch:
