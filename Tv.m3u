@@ -799,7 +799,6 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 #EXTINF:-1 group-title="MÚSICA" tvg-id="custom.toppop" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/142toppop.png",TopPop
 #EXTVLCOPT:network-caching=1000
 https://yayin.santraltr.com/hls/toppop.m3u8
-https://tv-trt2.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-placeholder/retro-music-television.svg" group-title="MÚSICA" tvg-id="custom.retromusictelevision",Retro Music Television
 #EXTVLCOPT:network-caching=1000
 https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
