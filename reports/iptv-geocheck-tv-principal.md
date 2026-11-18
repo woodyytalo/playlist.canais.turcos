@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-18 06:07 UTC
+- Executado em: 2026-11-18 06:18 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **206**
 - URLs únicas: **204**
@@ -11,8 +11,7 @@
 |---|---:|
 | ACESSÍVEL NO AMBIENTE DO TESTE | 188 |
 | LINK NÃO ENCONTRADO (404) | 16 |
-| ACESSO NEGADO — possível restrição regional ou autorização | 1 |
-| FALHA DE CONEXÃO (URLError) | 1 |
+| FALHA DE CONEXÃO (URLError) | 2 |
 
 ## Detalhamento
 
@@ -77,7 +76,7 @@
 | GRT Gaziantep TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Haber Global | \`tv.ensonhaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Haber61 TV | \`cdn-haber61tv.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Habertürk | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| Habertürk | \`haberturk.blutv.com\` | FALHA DE CONEXÃO (URLError) | - |
 | Halk TV | \`halktv.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | HT Spor TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Güneydoğu TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
@@ -150,11 +149,11 @@
 | Ton TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
+| TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Kurdî | \`tv-trtkurdi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Müzik | \`stream8.cinerama.uz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
