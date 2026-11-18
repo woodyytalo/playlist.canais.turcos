@@ -1,4 +1,5 @@
 name: Corrigir logos originais da TV principal
+# Tolerar apenas truncamento dos JPEGs de referência enviados no chat
 # Atualiza os arquivos de referência enviados pelo usuário
 
 on:
@@ -35,7 +36,8 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          from PIL import Image
+          from PIL import Image, ImageFile
+          ImageFile.LOAD_TRUNCATED_IMAGES = True
           from urllib.parse import urlparse, unquote
           import re, unicodedata
 
