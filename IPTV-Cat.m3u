@@ -1,0 +1,51 @@
+#EXTM3U
+# IPTV Cat — canais separados do Backup.m3u
+# Os canais permanecem também no Backup.m3u
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Entertainment",A2TV (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Entertainment",ATV (360p)
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Entertainment",ATV (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Entertainment",ATV (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Entertainment",VOX AFRICA
+https://1494836162.rsc.cdn77.org/LS-PRG-59570-1/tracks-v1a1/mono.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="General",1TV GEO
+https://tv.cdn.xsg.ge/gpb-1tv/tracks-v1a1/mono.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/GgEeTNr.png" group-title="General",Almahriah TV (576p)
+https://starmenajo.com/hls/almahriah/index.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",24 TV HD
+https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",A Haber (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Aksu TV (720p)
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Alanya Posta TV (1080p)
+https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Altas TV (1080p)
+https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Anadolu Net TV (1080p)
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",ATV Alanya (1080p)
+https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Bir TV (720p)
+https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.ibb.co/DVRzygX/bloomberg.jpg" group-title="Haber",Bloomberg HT
+http://ciner.daioncdn.net/bloomberght/bloomberght_720p.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Bloomberg HT (720p)
+https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/U3qlEAp.png" group-title="Haber",BRTV (720p) [Geo-blocked]
+https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/MCUjck8.png" group-title="Haber",Bursa AS TV (900p)
+https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/cnbc-e-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="Haber",CNBC-e
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Music",AFN MUSIC IRAN
+https://bozztv.com/1gbw5/tintv2/tintv2/chunklist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/QpPteBO.png" group-title="Music",Power Dance (1080p)
+https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Spor",A Spor (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Sport",HTSpor TV (1080p)
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ppid=675956db19f9bb686edda21d15d911e8&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch&checkedby:iptvcat.net
