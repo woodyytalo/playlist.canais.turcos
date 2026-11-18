@@ -815,3 +815,5 @@ http://57.129.0.61:1990/stream/117/index.m3u8
 #EXTINF:-1 tvg-name="4U Family (persa)" group-title="INTERNACIONAIS",4U Family (persa)
 #EXTVLCOPT:network-caching=1000
 https://familyhls.4utv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-name="Power TV (720p)" group-title="MÚSICA",Power TV (720p)
+https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
