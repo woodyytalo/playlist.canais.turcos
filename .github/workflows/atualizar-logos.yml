@@ -133,47 +133,27 @@ jobs:
         run: |
           python -m pip install --quiet pillow cairosvg
 
-      - name: Importar catálogo completo de logos de canais da Turquia (PNG 256x256)
+      - name: Importar catálogo de logos turcas em lote (PNG 256x256)
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
           from urllib.request import Request, urlopen
-          from urllib.parse import urljoin, unquote
-          from html.parser import HTMLParser
+          from concurrent.futures import ThreadPoolExecutor, as_completed
           from io import BytesIO
-          import json, re, csv
-          import cairosvg
           from PIL import Image
+          import json, re, csv
 
           OUT = Path("logos-turcas-catalogo")
           OUT.mkdir(parents=True, exist_ok=True)
-          SOURCES = []
-
-          class Links(HTMLParser):
-              def __init__(self):
-                  super().__init__()
-                  self.hrefs = []
-              def handle_starttag(self, tag, attrs):
-                  if tag.lower() == "a":
-                      href = dict(attrs).get("href", "")
-                      if href:
-                          self.hrefs.append(href)
+          API = "https://api.github.com/repos/tv-logo/tv-logos/git/trees/main?recursive=1"
 
           def get(url):
               req = Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; Turkish-TV-Logo-Catalog/1.0)"})
-              with urlopen(req, timeout=35) as r:
-                  return r.read()
-
-          def slug(name):
-              name = unquote(name).rsplit("/", 1)[-1]
-              name = re.sub(r"\.(png|jpe?g|webp|svg)$", "", name, flags=re.I)
-              name = re.sub(r"[^A-Za-z0-9._-]+", "-", name).strip("-._").lower()
-              return name or "logo"
+              with urlopen(req, timeout=20) as response:
+                  return response.read()
 
           def normalize(raw):
-              if b"<svg" in raw[:8192].lower() or raw.lstrip().startswith(b"<?xml"):
-                  raw = cairosvg.svg2png(bytestring=raw)
               im = Image.open(BytesIO(raw)).convert("RGBA")
               alpha = im.getchannel("A")
               bbox = alpha.getbbox()
@@ -184,58 +164,37 @@ jobs:
               canvas.alpha_composite(im, ((256-im.width)//2, (256-im.height)//2))
               return canvas.convert("RGB")
 
-          def save(source, name, url):
+          tree = json.loads(get(API).decode("utf-8"))
+          files = [x for x in tree.get("tree", [])
+                   if x.get("type") == "blob"
+                   and x.get("path", "").lower().startswith("countries/turkey/")
+                   and re.search(r"\.png$", x.get("path", ""), re.I)]
+          def one(item):
+              path = item["path"]
+              url = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/" + path
+              filename = "tvlogos-github-" + re.sub(r"[^a-z0-9.-]+", "-", path.rsplit("/",1)[-1].lower())
               try:
-                  raw = get(url)
-                  image = normalize(raw)
-                  filename = f"{source}-{slug(name)}.png"
+                  image = normalize(get(url))
                   target = OUT / filename
                   image.save(target, "PNG", optimize=True)
-                  SOURCES.append((filename, source, url, "OK"))
-                  print(f"OK {filename}")
-                  return True
+                  return (filename, url, "OK")
               except Exception as exc:
-                  SOURCES.append((f"{source}-{slug(name)}.png", source, url, f"FALHA: {exc}"))
-                  print(f"FALHA {source}/{name}: {exc}")
-                  return False
+                  return (filename, url, "FALHA: " + str(exc))
 
-          # Fonte 1: diretório público de logos da Turquia no TVLogo.org.
-          try:
-              page = "https://www.tvlogo.org/turkey/"
-              parser = Links()
-              parser.feed(get(page).decode("utf-8", "replace"))
-              candidates = sorted({urljoin(page, h) for h in parser.hrefs
-                                   if re.search(r"\.(png|jpe?g|webp|svg)(?:$|\?)", h, re.I)})
-              for url in candidates:
-                  name = url.rsplit("/", 1)[-1].split("?", 1)[0]
-                  save("tvlogo", name, url)
-              print(f"TVLogo.org: {len(candidates)} arquivos encontrados.")
-          except Exception as exc:
-              print(f"AVISO: catálogo TVLogo.org indisponível: {exc}")
-
-          # Fonte 2: repositório TV-Logos, pasta countries/turkey.
-          try:
-              api = "https://api.github.com/repos/tv-logo/tv-logos/git/trees/main?recursive=1"
-              tree = json.loads(get(api).decode("utf-8"))
-              files = [x for x in tree.get("tree", [])
-                       if x.get("type") == "blob"
-                       and x.get("path", "").lower().startswith("countries/turkey/")
-                       and re.search(r"\.(png|jpe?g|webp|svg)$", x.get("path", ""), re.I)]
-              for item in files:
-                  path = item["path"]
-                  url = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/" + path
-                  save("tvlogos-github", path.rsplit("/", 1)[-1], url)
-              print(f"TV-Logos GitHub: {len(files)} arquivos encontrados.")
-          except Exception as exc:
-              print(f"AVISO: catálogo TV-Logos GitHub indisponível: {exc}")
+          results = []
+          with ThreadPoolExecutor(max_workers=12) as pool:
+              futures = [pool.submit(one, item) for item in files]
+              for future in as_completed(futures):
+                  result = future.result()
+                  results.append(result)
+                  print(result[2], result[0])
 
           with (OUT / "FONTES.csv").open("w", newline="", encoding="utf-8") as f:
               writer = csv.writer(f)
-              writer.writerow(["arquivo_png", "fonte", "url_original", "resultado"])
-              writer.writerows(SOURCES)
-          ok = sum(1 for row in SOURCES if row[3] == "OK")
-          print(f"CATÁLOGO FINAL: {ok} PNGs válidos de {len(SOURCES)} tentativas.")
-          print("Todos os PNGs válidos estão em 256x256, fundo preto e arte centralizada.")
+              writer.writerow(["arquivo_png", "url_original", "resultado"])
+              writer.writerows(sorted(results))
+          ok = sum(1 for x in results if x[2] == "OK")
+          print(f"CATÁLOGO TURCO: {ok}/{len(results)} logos importadas e normalizadas em 256x256.")
           PY
 
       - name: Criar e padronizar logos dos canais adicionados no padrão aprovado (256x256)
