@@ -1,51 +1,305 @@
 #EXTM3U
-# IPTV Cat — canais separados do Backup.m3u
-# Os canais permanecem também no Backup.m3u
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Entertainment",A2TV (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Entertainment",ATV (360p)
-http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Entertainment",ATV (720p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Entertainment",ATV (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Entertainment",VOX AFRICA
-https://1494836162.rsc.cdn77.org/LS-PRG-59570-1/tracks-v1a1/mono.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="General",1TV GEO
-https://tv.cdn.xsg.ge/gpb-1tv/tracks-v1a1/mono.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/GgEeTNr.png" group-title="General",Almahriah TV (576p)
-https://starmenajo.com/hls/almahriah/index.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",24 TV HD
-https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",A Haber (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Aksu TV (720p)
-https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Alanya Posta TV (1080p)
-https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Altas TV (1080p)
-https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Anadolu Net TV (1080p)
-https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",ATV Alanya (1080p)
-https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Bir TV (720p)
-https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="https://i.ibb.co/DVRzygX/bloomberg.jpg" group-title="Haber",Bloomberg HT
-http://ciner.daioncdn.net/bloomberght/bloomberght_720p.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Haber",Bloomberg HT (720p)
-https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/U3qlEAp.png" group-title="Haber",BRTV (720p) [Geo-blocked]
-https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/MCUjck8.png" group-title="Haber",Bursa AS TV (900p)
-https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/cnbc-e-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="Haber",CNBC-e
-https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Music",AFN MUSIC IRAN
-https://bozztv.com/1gbw5/tintv2/tintv2/chunklist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/QpPteBO.png" group-title="Music",Power Dance (1080p)
-https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Spor",A Spor (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="TR" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Sport",HTSpor TV (1080p)
-https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ppid=675956db19f9bb686edda21d15d911e8&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch&checkedby:iptvcat.net
+#EXTINF:-1 tvg-name="1TV GEO" group-title="INTERNACIONAIS",1TV GEO
+https://tv.cdn.xsg.ge/gpb-1tv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="24 TV HD" group-title="NOTÍCIAS",24 TV HD
+https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
+#EXTINF:-1 tvg-name="A Haber (1080p)" group-title="NOTÍCIAS",A Haber (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+#EXTINF:-1 tvg-name="A Spor (1080p)" group-title="ESPORTES",A Spor (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 tvg-name="A2TV (1080p)" group-title="ENTRETENIMENTO",A2TV (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
+#EXTINF:-1 tvg-name="AFN Music Iran" group-title="MÚSICA",AFN Music Iran
+https://bozztv.com/1gbw5/tintv2/tintv2/chunklist.m3u8
+#EXTINF:-1 tvg-name="ATV (1080p)" group-title="ENTRETENIMENTO",ATV (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 tvg-name="ATV (360p)" group-title="ENTRETENIMENTO",ATV (360p)
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
+#EXTINF:-1 tvg-name="ATV (720p)" group-title="ENTRETENIMENTO",ATV (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+#EXTINF:-1 tvg-name="ATV Alanya (1080p)" group-title="REGIONAIS",ATV Alanya (1080p)
+https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
+#EXTINF:-1 tvg-name="Aksu TV (720p)" group-title="REGIONAIS",Aksu TV (720p)
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
+#EXTINF:-1 tvg-name="Alanya Posta TV (1080p)" group-title="REGIONAIS",Alanya Posta TV (1080p)
+https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
+#EXTINF:-1 tvg-name="Almahriah TV (576p)" group-title="INTERNACIONAIS",Almahriah TV (576p)
+https://starmenajo.com/hls/almahriah/index.m3u8
+#EXTINF:-1 tvg-name="Altas TV (1080p)" group-title="REGIONAIS",Altas TV (1080p)
+https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Anadolu Net TV (1080p)" group-title="REGIONAIS",Anadolu Net TV (1080p)
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
+#EXTINF:-1 tvg-name="BRTV (720p)" group-title="REGIONAIS",BRTV (720p)
+https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Bloomberg HT" group-title="NOTÍCIAS",Bloomberg HT
+http://ciner.daioncdn.net/bloomberght/bloomberght_720p.m3u8
+#EXTINF:-1 tvg-name="Bloomberg HT (720p)" group-title="NOTÍCIAS",Bloomberg HT (720p)
+https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
+#EXTINF:-1 tvg-name="Bursa AS TV (900p)" group-title="REGIONAIS",Bursa AS TV (900p)
+https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
+#EXTINF:-1 tvg-name="CNBC-e" group-title="NOTÍCIAS",CNBC-e
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+#EXTINF:-1 tvg-name="CNN Türk (1080p)" group-title="NOTÍCIAS",CNN Türk (1080p)
+http://85.117.61.84/cnnturk/index.m3u8
+#EXTINF:-1 tvg-name="Cartoon Network" group-title="INFANTIS",Cartoon Network
+http://176.65.153.40:6002/play/a013/index.m3u8
+#EXTINF:-1 tvg-name="Çay TV (720p)" group-title="REGIONAIS",Çay TV (720p)
+https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Dost HD TV" group-title="RELIGIOSOS",Dost HD TV
+https://dost.stream.emsal.im/tv/live.m3u8
+#EXTINF:-1 tvg-name="Deha TV (720p)" group-title="REGIONAIS",Deha TV (720p)
+https://live.artidijitalmedya.com/artidijital_dehatv/dehatv/playlist.m3u8
+#EXTINF:-1 tvg-name="Deniz Postası TV (720p)" group-title="REGIONAIS",Deniz Postası TV (720p)
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
+#EXTINF:-1 tvg-name="Diyanet TV" group-title="RELIGIOSOS",Diyanet TV
+http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Disney Jr. (1080p)" group-title="INFANTIS",Disney Jr. (1080p)
+https://saran-live.ercdn.net/disneyjunior/index.m3u8
+#EXTINF:-1 tvg-name="Diyar TV (720p)" group-title="REGIONAIS",Diyar TV (720p)
+https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
+#EXTINF:-1 tvg-name="Dream Türk (720p)" group-title="MÚSICA",Dream Türk (720p)
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+#EXTINF:-1 tvg-name="DİM TV (720p)" group-title="REGIONAIS",DİM TV (720p)
+https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
+#EXTINF:-1 tvg-name="ES TV (720p)" group-title="REGIONAIS",ES TV (720p)
+https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
+#EXTINF:-1 tvg-name="ETV Kayseri (720p)" group-title="REGIONAIS",ETV Kayseri (720p)
+https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
+#EXTINF:-1 tvg-name="ETV Manisa (1080p)" group-title="REGIONAIS",ETV Manisa (1080p)
+https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Edessa TV (1080p)" group-title="REGIONAIS",Edessa TV (1080p)
+https://canli.edessatv.com/hls/stream.m3u8
+#EXTINF:-1 tvg-name="Ekotürk (720p)" group-title="NOTÍCIAS",Ekotürk (720p)
+https://cdn.ekoturk.net/hls/master.m3u8
+#EXTINF:-1 tvg-name="Er TV (1080p)" group-title="REGIONAIS",Er TV (1080p)
+https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
+#EXTINF:-1 tvg-name="Euro D (720p)" group-title="INTERNACIONAIS",Euro D (720p)
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+#EXTINF:-1 tvg-name="FB TV" group-title="ESPORTES",FB TV
+http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="FX (1080p)" group-title="ENTRETENIMENTO",FX (1080p)
+https://saran-live.ercdn.net/fx/index.m3u8
+#EXTINF:-1 tvg-name="Finans Türk TV (720p)" group-title="NOTÍCIAS",Finans Türk TV (720p)
+https://yayin30.haber100.com/live/finansturk/playlist.m3u8
+#EXTINF:-1 tvg-name="Flash Haber TV" group-title="NOTÍCIAS",Flash Haber TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Fortuna TV" group-title="ENTRETENIMENTO",Fortuna TV
+https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Fortuna TV (1080p)" group-title="ENTRETENIMENTO",Fortuna TV (1080p)
+https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="GS TV" group-title="ESPORTES",GS TV
+https://owifavo5.rocketcdn.com/gstv/gstv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="GZT" group-title="NOTÍCIAS",GZT
+https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8
+#EXTINF:-1 tvg-name="Güneydoğu TV (720p)" group-title="REGIONAIS",Güneydoğu TV (720p)
+https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Haber 61 TV" group-title="REGIONAIS",Haber 61 TV
+https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
+#EXTINF:-1 tvg-name="HT Spor TV — link 1" group-title="ESPORTES",HT Spor TV — link 1
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 tvg-name="HT Spor TV — link 2" group-title="ESPORTES",HT Spor TV — link 2
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ppid=675956db19f9bb686edda21d15d911e8&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch
+#EXTINF:-1 tvg-name="HT Spor TV — link 3" group-title="ESPORTES",HT Spor TV — link 3
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch&ppid=675956db19f9bb686edda21d15d911e8
+#EXTINF:-1 tvg-name="Haber 61 (alternativo)" group-title="REGIONAIS",Haber 61 (alternativo)
+https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Halk TV (1080p)" group-title="NOTÍCIAS",Halk TV (1080p)
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+#EXTINF:-1 tvg-name="Hunat TV (480p)" group-title="REGIONAIS",Hunat TV (480p)
+https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
+#EXTINF:-1 tvg-name="Iran International" group-title="NOTÍCIAS",Iran International
+https://live.playstop.me/1816184091/chunklist_b1196000.m3u8
+#EXTINF:-1 tvg-name="İçel TV (720p)" group-title="REGIONAIS",İçel TV (720p)
+https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal 58 (720p)" group-title="REGIONAIS",Kanal 58 (720p)
+https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
+#EXTINF:-1 tvg-name="Kral Pop TV HD" group-title="MÚSICA",Kral Pop TV HD
+http://dygvideo.dygdigital.com/live/hls/kralpop
+#EXTINF:-1 tvg-name="KRT (1080p)" group-title="NOTÍCIAS",KRT (1080p)
+https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8
+#EXTINF:-1 tvg-name="Kanal 15 (720p)" group-title="REGIONAIS",Kanal 15 (720p)
+https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal 23 (720p)" group-title="REGIONAIS",Kanal 23 (720p)
+https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal 26 (720p)" group-title="REGIONAIS",Kanal 26 (720p)
+https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal 3 (1080p)" group-title="REGIONAIS",Kanal 3 (1080p)
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal 33 (720p)" group-title="REGIONAIS",Kanal 33 (720p)
+https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal 7 (576p)" group-title="RELIGIOSOS",Kanal 7 (576p)
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
+#EXTINF:-1 tvg-name="Kanal 7 Avrupa (720p)" group-title="INTERNACIONAIS",Kanal 7 Avrupa (720p)
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal D (1080p)" group-title="ENTRETENIMENTO",Kanal D (1080p)
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
+#EXTINF:-1 tvg-name="Kanal Fırat (720p)" group-title="REGIONAIS",Kanal Fırat (720p)
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal Urfa (576p)" group-title="REGIONAIS",Kanal Urfa (576p)
+https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal Z (720p)" group-title="REGIONAIS",Kanal Z (720p)
+https://live.artidijitalmedya.com/artidijital_kanalz/kanalz/playlist.m3u8
+#EXTINF:-1 tvg-name="Kay TV (720p)" group-title="REGIONAIS",Kay TV (720p)
+https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
+#EXTINF:-1 tvg-name="Kay TV (900p)" group-title="REGIONAIS",Kay TV (900p)
+https://live.artidijitalmedya.com/artidijital_kaytv/kaytv1/playlist.m3u8
+#EXTINF:-1 tvg-name="Kent Türk TV (1080p)" group-title="REGIONAIS",Kent Türk TV (1080p)
+https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
+#EXTINF:-1 tvg-name="Kocaeli TV (1080p)" group-title="REGIONAIS",Kocaeli TV (1080p)
+https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Konya Olay TV (720p)" group-title="REGIONAIS",Konya Olay TV (720p)
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
+#EXTINF:-1 tvg-name="Life TV (720p)" group-title="REGIONAIS",Life TV (720p)
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
+#EXTINF:-1 tvg-name="Line TV (404p)" group-title="REGIONAIS",Line TV (404p)
+https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Luys TV (1080p)" group-title="REGIONAIS",Luys TV (1080p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="MTürk TV (1080p)" group-title="REGIONAIS",MTürk TV (1080p)
+https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Mavi Karadeniz (720p)" group-title="REGIONAIS",Mavi Karadeniz (720p)
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+#EXTINF:-1 tvg-name="Med Müzik (1080p)" group-title="MÚSICA",Med Müzik (1080p)
+http://54.36.110.140/live3/live3.m3u8
+#EXTINF:-1 tvg-name="Mercan TV (576p)" group-title="REGIONAIS",Mercan TV (576p)
+https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
+#EXTINF:-1 tvg-name="Minika Çocuk (576p)" group-title="INFANTIS",Minika Çocuk (576p)
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
+#EXTINF:-1 tvg-name="Minika Çocuk (720p)" group-title="INFANTIS",Minika Çocuk (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
+#EXTINF:-1 tvg-name="Minika Go (576p)" group-title="INFANTIS",Minika Go (576p)
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
+#EXTINF:-1 tvg-name="Minika Go (720p)" group-title="INFANTIS",Minika Go (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
+#EXTINF:-1 tvg-name="NOW (720p)" group-title="ENTRETENIMENTO",NOW (720p)
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+#EXTINF:-1 tvg-name="NOW TV (720p) alternativo" group-title="ENTRETENIMENTO",NOW TV (720p) alternativo
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+#EXTINF:-1 tvg-name="NTV" group-title="NOTÍCIAS",NTV
+https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
+#EXTINF:-1 tvg-name="National Geographic (1080p)" group-title="CULTURA/EDUCAÇÃO",National Geographic (1080p)
+https://saran-live.ercdn.net/natgeohd/index.m3u8
+#EXTINF:-1 tvg-name="Nat Geo Wild (1080p)" group-title="CULTURA/EDUCAÇÃO",Nat Geo Wild (1080p)
+https://saran-live.ercdn.net/natgeowild/index.m3u8
+#EXTINF:-1 tvg-name="Natural TV (720p)" group-title="REGIONAIS",Natural TV (720p)
+https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Number 1 Damar" group-title="MÚSICA",Number 1 Damar
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
+#EXTINF:-1 tvg-name="Number 1 Dance" group-title="MÚSICA",Number 1 Dance
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
+#EXTINF:-1 tvg-name="Number 1 TV (720p)" group-title="MÚSICA",Number 1 TV (720p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="OlayTürk Kayseri (720p)" group-title="REGIONAIS",OlayTürk Kayseri (720p)
+https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
+#EXTINF:-1 tvg-name="Ordu BB TV" group-title="REGIONAIS",Ordu BB TV
+https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8
+#EXTINF:-1 tvg-name="Persiana Türkiye" group-title="INTERNACIONAIS",Persiana Türkiye
+https://turkhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-name="Power Dance (1080p)" group-title="MÚSICA",Power Dance (1080p)
+https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Power Love (1080p)" group-title="MÚSICA",Power Love (1080p)
+https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Power TV (720p)" group-title="MÚSICA",Power TV (720p)
+https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
+#EXTINF:-1 tvg-name="Power Türk Akustik — link 1" group-title="MÚSICA",Power Türk Akustik — link 1
+https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Power Türk Akustik — link 2" group-title="MÚSICA",Power Türk Akustik — link 2
+http://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Power Türk Slow — link 1" group-title="MÚSICA",Power Türk Slow — link 1
+http://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Power Türk Slow — link 2" group-title="MÚSICA",Power Türk Slow — link 2
+https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Power Türk Taptaze — link 1" group-title="MÚSICA",Power Türk Taptaze — link 1
+http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Power Türk Taptaze — link 2" group-title="MÚSICA",Power Türk Taptaze — link 2
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="PowerTürk TV (720p)" group-title="MÚSICA",PowerTürk TV (720p)
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
+#EXTINF:-1 tvg-name="RMTV" group-title="MÚSICA",RMTV
+http://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
+#EXTINF:-1 tvg-name="Spirit TV Music" group-title="MÚSICA",Spirit TV Music
+https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Sat7 Türk (1080p)" group-title="RELIGIOSOS",Sat7 Türk (1080p)
+https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
+#EXTINF:-1 tvg-name="Sercem TV (1080p)" group-title="REGIONAIS",Sercem TV (1080p)
+https://canli.sercemtv.com.tr/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Sözcü TV (1080p)" group-title="NOTÍCIAS",Sözcü TV (1080p)
+https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8
+#EXTINF:-1 tvg-name="Spacetoon Turkey (720p)" group-title="INFANTIS",Spacetoon Turkey (720p)
+https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
+#EXTINF:-1 tvg-name="Star TV (720p)" group-title="ENTRETENIMENTO",Star TV (720p)
+https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
+#EXTINF:-1 tvg-name="Sun RTV (720p)" group-title="REGIONAIS",Sun RTV (720p)
+https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
+#EXTINF:-1 tvg-name="TAY TV (360p)" group-title="ESPORTES",TAY TV (360p)
+https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
+#EXTINF:-1 tvg-name="TBMM TV" group-title="NOTÍCIAS",TBMM TV
+https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
+#EXTINF:-1 tvg-name="TBMM TV (720p)" group-title="NOTÍCIAS",TBMM TV (720p)
+https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+#EXTINF:-1 tvg-name="TGRT Haber (720p)" group-title="NOTÍCIAS",TGRT Haber (720p)
+https://canli.tgrthaber.com/tgrt.m3u8
+#EXTINF:-1 tvg-name="TJK TV (1080p)" group-title="ESPORTES",TJK TV (1080p)
+https://tjktv-live.tjk.org/tjktv.m3u8
+#EXTINF:-1 tvg-name="TRT Müzik" group-title="MÚSICA",TRT Müzik
+https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="TRT Spor (720p)" group-title="ESPORTES",TRT Spor (720p)
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT Spor Yıldız (720p)" group-title="ESPORTES",TRT Spor Yıldız (720p)
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT World — link 1" group-title="INTERNACIONAIS",TRT World — link 1
+https://cdn.pishow.tv/ott/live/266/master.m3u8
+#EXTINF:-1 tvg-name="TRT World — link 2" group-title="INTERNACIONAIS",TRT World — link 2
+https://fta.ektv.in/live/416/master.m3u8
+#EXTINF:-1 tvg-name="TV 24 (720p)" group-title="NOTÍCIAS",TV 24 (720p)
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1 tvg-name="TV 264 (1080p)" group-title="REGIONAIS",TV 264 (1080p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="TV 264 Sakarya" group-title="REGIONAIS",TV 264 Sakarya
+https://mc1.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="TV 41 (720p)" group-title="REGIONAIS",TV 41 (720p)
+https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
+#EXTINF:-1 tvg-name="TV 52 (720p)" group-title="REGIONAIS",TV 52 (720p)
+https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="TV4" group-title="ENTRETENIMENTO",TV4
+https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
+#EXTINF:-1 tvg-name="Tabii Spor 6 (720p)" group-title="ESPORTES",Tabii Spor 6 (720p)
+https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="Tempo TV" group-title="REGIONAIS",Tempo TV
+https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
+#EXTINF:-1 tvg-name="Teve2 (1080p)" group-title="ENTRETENIMENTO",Teve2 (1080p)
+https://teve2vod.duhnet.tv/S12/HLS_VOD/382843_2e5b/index.m3u8
+#EXTINF:-1 tvg-name="Tivi 6 (720p)" group-title="REGIONAIS",Tivi 6 (720p)
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:-1 tvg-name="Ton TV (720p)" group-title="REGIONAIS",Ton TV (720p)
+https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
+#EXTINF:-1 tvg-name="Trabzon Büyükşehir TV (1080p)" group-title="REGIONAIS",Trabzon Büyükşehir TV (1080p)
+https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
+#EXTINF:-1 tvg-name="Türksat Tanıtım (1080p)" group-title="INTERNACIONAIS",Türksat Tanıtım (1080p)
+http://176.65.153.26:6004/play/a02s/index.m3u8
+#EXTINF:-1 tvg-name="TürkHaber (720p)" group-title="NOTÍCIAS",TürkHaber (720p)
+https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Urfanatik TV Yedek (backup)" group-title="REGIONAIS",Urfanatik TV Yedek (backup)
+https://edge1.socialsmart.tv/urfanatiktv/bant1/chunks.m3u8
+#EXTINF:-1 tvg-name="Urfa Natik TV (720p)" group-title="REGIONAIS",Urfa Natik TV (720p)
+https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
+#EXTINF:-1 tvg-name="Vox Africa" group-title="INTERNACIONAIS",Vox Africa
+https://1494836162.rsc.cdn77.org/LS-PRG-59570-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="VTV (720p)" group-title="REGIONAIS",VTV (720p)
+https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
+#EXTINF:-1 tvg-name="Van 65 TV" group-title="REGIONAIS",Van 65 TV
+https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
+#EXTINF:-1 tvg-name="Vav TV" group-title="CULTURA/EDUCAÇÃO",Vav TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Vuslat TV (720p)" group-title="REGIONAIS",Vuslat TV (720p)
+https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
+#EXTINF:-1 tvg-name="Zarok TV (720p)" group-title="INFANTIS",Zarok TV (720p)
+https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 tvg-name="beIN Sports 1 Turk" group-title="ESPORTES",beIN Sports 1 Turk
+http://57.129.0.61:1990/stream/117/index.m3u8
+#EXTINF:-1 tvg-name="Çiftçi TV (720p)" group-title="CULTURA/EDUCAÇÃO",Çiftçi TV (720p)
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
+#EXTINF:-1 tvg-name="Öncü TV (1024p)" group-title="REGIONAIS",Öncü TV (1024p)
+https://edge1.socialsmart.tv/oncurtv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="4U Family (persa)" group-title="INTERNACIONAIS",4U Family (persa)
+https://familyhls.4utv.live/hls/stream.m3u8
