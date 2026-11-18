@@ -90,7 +90,7 @@ jobs:
 
               if source is None:
                   # Do not keep the invented geometric logo when no original asset exists.
-                  line = re.sub(r'\\s+tvg-logo="[^"]*"', "", line)
+                  line = re.sub(r'\s+tvg-logo="[^"]*"', "", line)
                   lines[index] = line
                   missing.append(name)
                   continue
@@ -125,7 +125,7 @@ jobs:
               lines[index] = line
               converted += 1
 
-          PLAYLIST.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+          PLAYLIST.write_text("\n".join(lines) + "\n", encoding="utf-8")
           print(f"LOGOS ORIGINAIS CONVERTIDAS: {converted}")
           print(f"SEM ARQUIVO ORIGINAL LOCALIZADO: {len(missing)}")
           for name in missing:
