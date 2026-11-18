@@ -530,7 +530,7 @@ jobs:
         run: |
           set -euo pipefail
           # git diff não detecta arquivos novos não rastreados; usar status para incluir os PNGs recém-gerados.
-          if [[ -z "$(git status --porcelain -- Tv.m3u logos-ajustadas)" ]]; then
+          if [[ -z "$(git status --porcelain -- Tv.m3u logos-ajustadas logos-turcas-catalogo)" ]]; then
             echo "Nenhuma alteração para salvar."
             exit 0
           fi
