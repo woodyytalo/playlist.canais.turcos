@@ -1,4 +1,5 @@
 name: Corrigir logos originais da TV principal
+# Atualiza os arquivos de referência enviados pelo usuário
 
 on:
   workflow_dispatch:
