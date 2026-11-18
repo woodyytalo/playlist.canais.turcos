@@ -607,7 +607,7 @@ https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
 #EXTVLCOPT:network-caching=1000
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 
-#EXTINF:-1 tvg-name="TV 5" tvg-logo="https://i.ibb.co/6m9Pb3t/tv5tr1.png" group-title="TV 5",TV 5
+#EXTINF:-1 tvg-name="TV5" tvg-logo="https://i.ibb.co/6m9Pb3t/tv5tr1.png" group-title="NOTÍCIAS",TV5
 #EXTVLCOPT:network-caching=1000
 https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8
 
