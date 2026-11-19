@@ -417,7 +417,7 @@ jobs:
                   # Não interrompe o lote: mantém o PNG de fallback gerado acima, se disponível.
                   print(f"Aviso: fonte indisponível para {filename}: {exc}; mantendo fallback quando existente.")
 
-          # Reenquadra também as demais logos já existentes nesta pasta, sem esticar a arte.
+          # Reenquadra e centraliza as logos existentes, preservando a proporção e sem esticar a arte.
           for path in sorted(out.glob("*.png")):
               if path.name in sources:
                   continue
