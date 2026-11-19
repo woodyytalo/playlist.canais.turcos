@@ -1,0 +1,52 @@
+name: Bot IA + Internet — TV principal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Tv.m3u"
+      - "scripts/bot_ia_monitor_tv_principal.py"
+      - ".github/workflows/bot-ia-internet-tv-principal.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bot-ia-monitor-tv-principal
+  cancel-in-progress: false
+
+jobs:
+  monitorar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Baixar TV principal
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Testar canais e analisar com IA
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/bot_ia_monitor_tv_principal.py
+      - name: Publicar relatório
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add relatorios/monitor-tv-principal.md relatorios/monitor-tv-principal.json
+          if git diff --cached --quiet; then
+            echo "Relatório sem alterações."
+          else
+            git commit -m "Atualiza diagnóstico inteligente da TV principal"
+            git push
+          fi
