@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-19 18:06 UTC
+- Executado em: 2026-11-19 20:35 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **211**
 - URLs únicas: **209**
@@ -9,10 +9,10 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 192 |
-| FALHA DE CONEXÃO (URLError) | 15 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 190 |
+| FALHA DE CONEXÃO (URLError) | 16 |
 | LINK NÃO ENCONTRADO (404) | 3 |
-| ACESSO NEGADO — possível restrição regional ou autorização | 1 |
+| ACESSO NEGADO — possível restrição regional ou autorização | 2 |
 
 ## Detalhamento
 
@@ -50,7 +50,7 @@
 | Çay TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Çiftçi TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Deniz Postası TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| DHA | \`603c568fccdf5.streamlock.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| DHA | \`603c568fccdf5.streamlock.net\` | FALHA DE CONEXÃO (URLError) | - |
 | Dim TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Diyanet TV | \`eustr73.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Diyar TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -154,7 +154,7 @@
 | TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
 | TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Kurdî | \`tv-trtkurdi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Müzik | \`stream8.cinerama.uz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
