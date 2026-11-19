@@ -129,11 +129,11 @@ jobs:
           print(f"Buffer de 1 segundo aplicado em {channels} canais.")
           PY
 
-      - name: Preparar ferramentas para logos quadradas no padrão 1:1 (256x256)
+      - name: Preparar ferramentas para logos quadradas no padrão 1:1 (512x165)
         run: |
           python -m pip install --quiet pillow cairosvg
 
-      - name: Importar catálogo de logos turcas em lote (PNG 256x256)
+      - name: Importar catálogo de logos turcas em lote (PNG 512x165)
         shell: bash
         run: |
           python - <<'PY'
@@ -160,7 +160,7 @@ jobs:
               if bbox:
                   im = im.crop(bbox)
               im.thumbnail((220, 220), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
+              canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
               canvas.alpha_composite(im, ((256-im.width)//2, (256-im.height)//2))
               return canvas.convert("RGB")
 
@@ -194,7 +194,7 @@ jobs:
               writer.writerow(["arquivo_png", "url_original", "resultado"])
               writer.writerows(sorted(results))
           ok = sum(1 for x in results if x[2] == "OK")
-          print(f"CATÁLOGO TURCO: {ok}/{len(results)} logos importadas e normalizadas em 256x256.")
+          print(f"CATÁLOGO TURCO: {ok}/{len(results)} logos importadas e normalizadas em 512x165.")
           PY
 
       - name: Importar logos adicionais (Wikimedia, TRT oficial e GunesTV)
@@ -230,7 +230,7 @@ jobs:
               if bbox:
                   im = im.crop(bbox)
               im.thumbnail((220, 220), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
+              canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
               canvas.alpha_composite(im, ((256-im.width)//2, (256-im.height)//2))
               out = BytesIO()
               canvas.convert("RGB").save(out, format="PNG", optimize=True)
@@ -332,11 +332,11 @@ jobs:
               writer.writerows(rows)
           
           ok = sum(1 for row in rows if row[-1] == "OK")
-          print(f"FONTES ADICIONAIS: {ok}/{len(rows)} imagens normalizadas para PNG 256x256.")
+          print(f"FONTES ADICIONAIS: {ok}/{len(rows)} imagens normalizadas para PNG 512x165.")
           
           PY
 
-      - name: Criar e padronizar logos dos canais adicionados no padrão aprovado (256x256)
+      - name: Criar e padronizar logos dos canais adicionados no padrão aprovado (512x165)
         shell: bash
         run: |
           python - <<'PY'
@@ -359,7 +359,7 @@ jobs:
               "retro-music-television.png": "https://www.tvchannellists.com/wiki/images/8/80/Retro_Music_Television.svg",
           }
           # Os 13 canais ainda sem logo original usam, temporariamente, seus SVGs
-          # identificadores. Eles também são convertidos para PNG quadrado 256x256.
+          # identificadores. Eles também são convertidos para PNG quadrado 512x165.
           placeholders = {
               "anadolu-tv.png": "anadolu-tv.svg",
               "ezgi-tv.png": "ezgi-tv.svg",
@@ -393,17 +393,17 @@ jobs:
               if bbox:
                   logo = logo.crop(bbox)
               logo.thumbnail((220, 220), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
-              canvas.alpha_composite(logo, ((256-logo.width)//2, (256-logo.height)//2))
+              canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
+              canvas.alpha_composite(logo, ((512-logo.width)//2, (165-logo.height)//2))
               return canvas.convert("RGB")
 
-          # Gera as 13 imagens provisórias no mesmo padrão físico 256x256.
+          # Gera as 13 imagens provisórias no mesmo padrão físico 512x165.
           # Quando uma fonte original for adicionada ao dicionário sources, ela
           # substituirá automaticamente o SVG provisório na próxima execução.
           for filename, svg_name in placeholders.items():
               raw = (Path("logos-placeholder") / svg_name).read_bytes()
               normalize(raw).save(out / filename, format="PNG", optimize=True)
-              print(f"Imagem provisória criada: {filename} — 256x256, fundo preto")
+              print(f"Imagem provisória criada: {filename} — 512x165, fundo preto")
 
           # Recria as logos dos canais com fontes originais.
           for filename, url in sources.items():
@@ -412,7 +412,7 @@ jobs:
                   with urlopen(req, timeout=30) as response:
                       raw = response.read()
                   normalize(raw).save(out / filename, format="PNG", optimize=True)
-                  print(f"Logo original criada: {filename} — 256x256, fundo preto, sem deformação")
+                  print(f"Logo original criada: {filename} — 512x165, fundo preto, sem deformação")
               except Exception as exc:
                   # Não interrompe o lote: mantém o PNG de fallback gerado acima, se disponível.
                   print(f"Aviso: fonte indisponível para {filename}: {exc}; mantendo fallback quando existente.")
@@ -432,13 +432,13 @@ jobs:
               if alpha_bbox:
                   logo = logo.crop(alpha_bbox)
               logo.thumbnail((220, 220), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
-              canvas.alpha_composite(logo, ((256-logo.width)//2, (256-logo.height)//2))
+              canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
+              canvas.alpha_composite(logo, ((512-logo.width)//2, (165-logo.height)//2))
               canvas.convert("RGB").save(path, format="PNG", optimize=True)
-              print(f"Logo reenquadrada: {path.name} — 256x256")
+              print(f"Logo reenquadrada: {path.name} — 512x165")
           PY
 
-      - name: Atualizar todas as logos da TV principal por categoria (256x256)
+      - name: Atualizar todas as logos da TV principal por categoria (512x165)
         # Reprocessa também fontes alternativas verificadas para corrigir logos antigas indisponíveis.
         shell: bash
         run: |
@@ -489,9 +489,9 @@ jobs:
               bbox = alpha.getbbox()
               if bbox:
                   im = im.crop(bbox)
-              im.thumbnail((220,220), Image.Resampling.LANCZOS)
+              im.thumbnail((492,145), Image.Resampling.LANCZOS)
               canvas = Image.new("RGBA",(256,256),(0,0,0,255))
-              canvas.alpha_composite(im,((256-im.width)//2,(256-im.height)//2))
+              canvas.alpha_composite(im,((512-im.width)//2,(165-im.height)//2))
               return canvas.convert("RGB")
 
           for i,line in enumerate(lines):
