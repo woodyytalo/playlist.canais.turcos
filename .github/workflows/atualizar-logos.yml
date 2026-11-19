@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Restaurar todas as logos originais no padrão 256x256
+      - name: Restaurar logos originais no padrão horizontal 512x165
         run: |
           python -m pip install --disable-pip-version-check Pillow
           python scripts/ajustar_logos_backup.py
@@ -182,4 +182,4 @@ jobs:
         run: |
           gh workflow run atualizar-epg.yml --ref "${GITHUB_REF_NAME}"
           echo "Sincronização do EPG solicitada para a versão atualizada de Tv.m3u."
-# Logos da TV principal: PNG 256x256, fundo preto e proporção preservada.
+# Logos da TV principal: PNG 512x165 (3,10:1), cores originais e transparência preservadas.
