@@ -11,14 +11,17 @@ if not API_KEY:
     raise SystemExit("Falta configurar OPENAI_API_KEY em Settings > Secrets and variables > Actions.")
 
 prompt = (
-    "Create an original, professional square 1:1 Turkish television channel logo concept "
-    "for KANAL D. This is a test asset only, not an instruction to modify any playlist. "
-    "Composition: exact wordmark 'KANAL D' on the LEFT and a distinctive custom geometric "
-    "D-shaped emblem on the RIGHT. The emblem is a bold sculptural rounded D with a vivid "
-    "electric-blue outer form and clean white inner negative space. Deep navy lettering, "
-    "blue emblem, clean light neutral background, subtle dimensional depth, crisp edges, "
-    "premium broadcast identity, balanced spacing, highly legible. No extra text, no watermark, "
-    "no mockup, no border. Original concept; do not reproduce an existing designer's artwork."
+    "Create an original, standalone custom emblem for a Turkish television channel, "
+    "based on the personalized RIGHT-HAND symbol from a Kanal D-style logo concept. "
+    "Show ONLY the emblem: no channel name, no letters, no wordmark, no typography, "
+    "and no other symbols. The emblem is a distinctive sculptural geometric D form, "
+    "with a vivid electric-blue outer shape and a clean white inner negative space. "
+    "Give it a premium three-dimensional broadcast-identity finish inspired by "
+    "high-end television channel ident design: polished dimensional surfaces, "
+    "controlled highlights, subtle depth, precise contours, and balanced proportions. "
+    "Centered alone on a clean light neutral background, square 1:1 composition, "
+    "crisp and highly legible at small sizes. Original design; do not reproduce "
+    "an existing designer's artwork, mockup, watermark, border, or extra text."
 )
 payload = {
     "model": "gpt-image-1.5",
