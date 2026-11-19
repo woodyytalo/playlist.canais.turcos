@@ -17,7 +17,7 @@ def test(url):
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 TVPrincipalMonitor/1.0","Range":"bytes=0-4095"})
     start=time.time()
     try:
-        with urllib.request.urlopen(req,timeout=15) as r:
+        with urllib.request.urlopen(req,timeout=5) as r:
             data=r.read(4096); ms=round((time.time()-start)*1000)
             hls=b"#EXTM3U" in data or "mpegurl" in r.headers.get("Content-Type","").lower()
             return {"status":"OK","http":r.status,"ms":ms,"tipo":"HLS" if hls else "HTTP","detalhe":"Resposta recebida"}
