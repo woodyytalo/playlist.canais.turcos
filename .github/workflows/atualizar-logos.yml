@@ -159,9 +159,9 @@ jobs:
               bbox = alpha.getbbox()
               if bbox:
                   im = im.crop(bbox)
-              im.thumbnail((220, 220), Image.Resampling.LANCZOS)
+              im.thumbnail((492, 145), Image.Resampling.LANCZOS)
               canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
-              canvas.alpha_composite(im, ((256-im.width)//2, (256-im.height)//2))
+              canvas.alpha_composite(im, ((512-im.width)//2, (165-im.height)//2))
               return canvas.convert("RGB")
 
           tree = json.loads(get(API).decode("utf-8"))
@@ -229,9 +229,9 @@ jobs:
               bbox = im.getchannel("A").getbbox()
               if bbox:
                   im = im.crop(bbox)
-              im.thumbnail((220, 220), Image.Resampling.LANCZOS)
+              im.thumbnail((492, 145), Image.Resampling.LANCZOS)
               canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
-              canvas.alpha_composite(im, ((256-im.width)//2, (256-im.height)//2))
+              canvas.alpha_composite(im, ((512-im.width)//2, (165-im.height)//2))
               out = BytesIO()
               canvas.convert("RGB").save(out, format="PNG", optimize=True)
               return out.getvalue()
@@ -392,7 +392,7 @@ jobs:
               bbox = alpha.getbbox()
               if bbox:
                   logo = logo.crop(bbox)
-              logo.thumbnail((220, 220), Image.Resampling.LANCZOS)
+              logo.thumbnail((492, 145), Image.Resampling.LANCZOS)
               canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
               canvas.alpha_composite(logo, ((512-logo.width)//2, (165-logo.height)//2))
               return canvas.convert("RGB")
@@ -431,7 +431,7 @@ jobs:
               alpha_bbox = logo.getchannel("A").getbbox()
               if alpha_bbox:
                   logo = logo.crop(alpha_bbox)
-              logo.thumbnail((220, 220), Image.Resampling.LANCZOS)
+              logo.thumbnail((492, 145), Image.Resampling.LANCZOS)
               canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
               canvas.alpha_composite(logo, ((512-logo.width)//2, (165-logo.height)//2))
               canvas.convert("RGB").save(path, format="PNG", optimize=True)
@@ -490,7 +490,7 @@ jobs:
               if bbox:
                   im = im.crop(bbox)
               im.thumbnail((492,145), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA",(256,256),(0,0,0,255))
+              canvas = Image.new("RGBA",(512,165),(0,0,0,255))
               canvas.alpha_composite(im,((512-im.width)//2,(165-im.height)//2))
               return canvas.convert("RGB")
 
