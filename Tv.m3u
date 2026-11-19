@@ -1,4 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/guia-turquia.xml" x-tvg-url="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/guia-turquia.xml"
+# Logos centralizadas automaticamente em PNG 256x256, com proporção preservada.
 # Atualização de mapeamento XMLTV executada pelo workflow de EPG
 # Canais adicionados do Backup — números originais preservados
 
