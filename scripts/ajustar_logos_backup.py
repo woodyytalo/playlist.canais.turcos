@@ -18,8 +18,9 @@ RAW_BASE = (
     "https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/"
     + BRANCH + "/logos-ajustadas/"
 )
-CANVAS_SIZE = 256
-LOGO_MAX_SIZE = 224
+CANVAS_WIDTH = 512
+CANVAS_HEIGHT = 165
+LOGO_MAX_SIZE = (480, 133)
 
 # URLs identificadas para os três canais sem arquivo correspondente nos catálogos locais.
 EXTRA_SOURCES = {
@@ -46,44 +47,6 @@ def parse_entries(path):
         items.append({"name": name, "key": norm(name), "logo": logo.group(1) if logo else "", "line": i})
     return items
 
-def near_white(pixel):
-    r, g, b, a = pixel
-    return a > 0 and min(r, g, b) >= 235 and max(r, g, b) - min(r, g, b) <= 22
-
-def remove_connected_white_background(image):
-    image = image.convert("RGBA")
-    width, height = image.size
-    pixels = image.load()
-    corners = [pixels[0, 0], pixels[width-1, 0], pixels[0, height-1], pixels[width-1, height-1]]
-    if not all(near_white(pixel) for pixel in corners):
-        return image
-
-    seen = bytearray(width * height)
-    queue = deque()
-
-    def add(x, y):
-        index = y * width + x
-        if not seen[index] and near_white(pixels[x, y]):
-            seen[index] = 1
-            queue.append((x, y))
-
-    for x in range(width):
-        add(x, 0)
-        add(x, height - 1)
-    for y in range(height):
-        add(0, y)
-        add(width - 1, y)
-
-    while queue:
-        x, y = queue.popleft()
-        r, g, b, _ = pixels[x, y]
-        pixels[x, y] = (r, g, b, 0)
-        if x > 0: add(x - 1, y)
-        if x + 1 < width: add(x + 1, y)
-        if y > 0: add(x, y - 1)
-        if y + 1 < height: add(x, y + 1)
-    return image
-
 def open_source(source):
     if isinstance(source, Path):
         image = Image.open(source)
@@ -101,13 +64,14 @@ def open_source(source):
     return image
 
 def normalize_image(image, target):
-    image = remove_connected_white_background(image)
-    image.thumbnail((LOGO_MAX_SIZE, LOGO_MAX_SIZE), Image.Resampling.LANCZOS)
-    canvas = Image.new("RGBA", (CANVAS_SIZE, CANVAS_SIZE), (0, 0, 0, 255))
-    x = (CANVAS_SIZE - image.width) // 2
-    y = (CANVAS_SIZE - image.height) // 2
+    image = image.convert("RGBA")
+    image.thumbnail(LOGO_MAX_SIZE, Image.Resampling.LANCZOS)
+    # Canvas horizontal 512x165; mantém as cores e a transparência da logo original.
+    canvas = Image.new("RGBA", (CANVAS_WIDTH, CANVAS_HEIGHT), (0, 0, 0, 0))
+    x = (CANVAS_WIDTH - image.width) // 2
+    y = (CANVAS_HEIGHT - image.height) // 2
     canvas.alpha_composite(image, (x, y))
-    canvas.convert("RGB").save(target, "PNG", optimize=True)
+    canvas.save(target, "PNG", optimize=True)
 
 def index_local_sources():
     indexed = defaultdict(list)
@@ -223,14 +187,14 @@ def main():
     for path in OUTPUT.glob("*.png"):
         try:
             with Image.open(path) as image:
-                if image.size == (CANVAS_SIZE, CANVAS_SIZE):
+                if image.size == (CANVAS_WIDTH, CANVAS_HEIGHT):
                     dimensions_ok += 1
         except Exception:
             pass
 
     print(f"Logos associadas à TV principal: {updated}/{len(entries)}")
-    print(f"PNG quadrados 256x256 verificados na pasta de saída: {dimensions_ok}")
-    print("Padrão: fundo preto, logo original centralizada, proporção preservada, sem cortes nem deformação.")
+    print(f"PNG 512x165 verificados na pasta de saída: {dimensions_ok}")
+    print("Padrão: canvas 512x165 (3,10:1), logo original centralizada, cores e transparência preservadas, sem cortes nem deformação.")
 
 if __name__ == "__main__":
     main()
