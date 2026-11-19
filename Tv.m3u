@@ -785,7 +785,7 @@ https://lightning-now80s-samsungnz.amagi.tv/playlist480p.m3u8
 #EXTVLCOPT:network-caching=1000
 https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
 
-#EXTINF:-1 tvg-name="MOR TV" group-title="ESTILO DE VIDA" tvg-id="custom.mortv",MOR TV
+#EXTINF:-1 tvg-name="MOR TV" group-title="ESTILO DE VIDA" tvg-logo="https://i.ibb.co/qRsfyb2/tvmor.png" tvg-id="custom.mortv",MOR TV
 #EXTVLCOPT:network-caching=1000
 https://live.euromediacenter.com/tvmor/index.m3u8
 #EXTINF:-1 group-title="MÚSICA" tvg-id="custom.iqchannel" tvg-name="IQ Channel" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/m-sica/iq-channel.png",IQ Channel
