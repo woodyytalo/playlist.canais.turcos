@@ -1,38 +1,42 @@
-# Gateway VPN + publicação da TV principal
+# Proxy HLS da TV principal com saída VPN na Turquia
 
-Este diretório publica o arquivo integral `Tv.m3u` por meio do gateway Nginx. A configuração não mantém mais rotas individuais para GZT, Power TV, 4U Family ou beIN Sports 1 Turk: a fonte da playlist é o arquivo principal do repositório.
+Este serviço converte os endereços HTTP(S) da playlist em rotas do proxy e retransmite manifests HLS, segmentos e recursos HLS (por exemplo, chaves e mapas) pela rede do contêiner VPN.
 
 ## Requisitos
 
-- VPS/servidor Linux com Docker Compose.
-- Provedor VPN que forneça configuração WireGuard e permita saída na Turquia, caso seja necessário usar saída turca.
-- Autorização para acessar os streams.
+- VPS Linux ligada continuamente, com Docker Compose e suporte a `/dev/net/tun`.
+- Provedor WireGuard com endpoint e saída de internet na Turquia.
+- Autorização para acessar e retransmitir os streams.
+- Domínio e HTTPS recomendados antes de disponibilizar a playlist publicamente.
 
-O GitHub Actions não hospeda um proxy permanente. O serviço precisa rodar em uma VPS. As credenciais VPN ficam no servidor, nunca no repositório.
+O GitHub Actions não é um servidor de streaming permanente. As chaves VPN e a chave de assinatura devem existir somente no arquivo `.env` da VPS, nunca no repositório ou nesta conversa.
 
-## Instalação
+## Configuração na VPS
 
-1. Copie/clonar o repositório para a VPS.
-2. Entre em `geo-unblock`.
-3. Copie `.env.example` para `.env` e preencha os dados WireGuard do seu provedor.
-4. Proteja o arquivo: `chmod 600 .env`. Não envie `.env` ao GitHub.
-5. Inicie com `docker compose up -d`.
-6. Confira os logs: `docker compose logs -f vpn hls-proxy`.
-7. Teste `http://IP-DA-VPS:8080/health`.
-8. Abra `http://IP-DA-VPS:8080/tv-principal.m3u` no player IPTV.
+1. Clone o repositório e entre em `geo-unblock`.
+2. Copie `.env.example` para `.env`.
+3. Preencha os campos WireGuard com o perfil fornecido pelo seu provedor. Use o endpoint localizado na Turquia e confirme que a rota é full-tunnel.
+4. Gere uma chave aleatória longa para `PROXY_SIGNING_KEY` (pelo menos 32 bytes).
+5. Proteja o arquivo: `chmod 600 .env`.
+6. Inicie: `docker compose up -d --build`.
+7. Confira: `docker compose logs -f vpn hls-proxy`.
+8. Teste `http://IP-DA-VPS:8080/health` e depois `http://IP-DA-VPS:8080/tv-principal.m3u`.
 
-## Fonte da playlist
+## Como funciona
 
-O Docker monta `../Tv.m3u` diretamente em Nginx como `/tv-principal.m3u`. Assim, a integração publica a TV principal completa, mantendo nomes, categorias, logos e links individuais do arquivo original. Para refletir alterações futuras, atualize o repositório na VPS e recrie/reinicie o serviço se necessário.
+- `/tv-principal.m3u` publica a TV principal com cada URL de stream encaminhada para uma rota assinada do proxy.
+- `/p/{token}` busca o recurso de origem pela conexão de rede do contêiner VPN.
+- Manifests HLS são reescritos para que variantes, segmentos e URIs HLS relacionados também passem pelo proxy.
+- Nomes, categorias, logos e metadados da playlist são preservados.
 
-## Limitação importante
+## Limitações e segurança
 
-Esta configuração serve a playlist integral, mas **não transforma automaticamente os links de cada canal em links do proxy**. Os endereços dentro de `Tv.m3u` continuam sendo os originais; portanto, a publicação da lista não garante desbloqueio geográfico por canal. Para retransmitir os streams pela VPN, é necessário um proxy HLS com roteamento e reescrita de manifests/segmentos compatível com cada provedor. Não substitua os links originais por endereços locais antes de implementar e testar essa camada.
+- Esta implementação é voltada a HLS sobre HTTP(S). DASH, DRM, autenticação proprietária, cookies específicos, tokens que expiram, restrições de referer/origin e protocolos não HLS podem exigir adaptações por provedor.
+- Alguns provedores entregam segmentos em domínios CDN diferentes ou exigem cabeçalhos especiais. Teste canal por canal antes de trocar a playlist usada no aplicativo.
+- A VPN não contorna DRM, autenticação, paywalls ou direitos de transmissão.
+- O proxy encaminha dados e consome banda da VPS. Dimensione CPU, memória e tráfego conforme o número de espectadores.
+- Não exponha a porta diretamente à internet sem HTTPS, autenticação e firewall. Restrinja o acesso à playlist e ao proxy.
+- O token assinado impede que a rota seja usada como um proxy aberto arbitrário; mantenha `PROXY_SIGNING_KEY` secreta.
+- Um HTTP 200 em `/health` confirma somente que o processo responde. É necessário testar a reprodução real de cada canal.
 
-Uma resposta HTTP 200 em `/health` confirma apenas que o Nginx responde, não que os canais reproduzem. Restrinja a porta 8080 por firewall e use HTTPS/autenticação antes de expor o gateway externamente.
-
-## Segurança
-
-- Use credenciais WireGuard próprias e canais cujo acesso/retransmissão você esteja autorizado a utilizar.
-- Não publique chaves WireGuard, tokens ou arquivos `.env`.
-- A VPN não contorna DRM, autenticação, paywalls ou outras restrições de acesso.
+**Importante:** o repositório recebe apenas o código. A ativação real depende da VPS, do perfil WireGuard turco e dos testes de reprodução. Não altere o link de playlist do aplicativo antes desses testes.
