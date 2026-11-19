@@ -1,0 +1,36 @@
+name: Gerar logo de teste — Kanal D
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gerar-logo-teste-kanal-d
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Gerar imagem pela API de imagens
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/gerar_logo_teste_kanal_d.py
+      - name: Disponibilizar imagem como artefato
+        uses: actions/upload-artifact@v4
+        with:
+          name: logo-teste-kanal-d
+          path: artifacts/logo-teste-kanal-d.png
+          if-no-files-found: error
+          retention-days: 14
