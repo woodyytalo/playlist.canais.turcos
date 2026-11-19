@@ -447,7 +447,7 @@ https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="mukabeletv.local" tvg-name="MUKABELE TV" group-title="RELIGIOSOS",MUKABELE TV
+#EXTINF:-1 tvg-id="mukabeletv.local" tvg-name="MUKABELE TV" group-title="RELIGIOSOS" tvg-logo="http://assets.tvcdn.net/23b391ac-5edb-4e37-8664-27da64fb0785.png",MUKABELE TV
 #EXTVLCOPT:network-caching=1000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.m3u8
 
