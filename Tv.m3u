@@ -62,7 +62,7 @@ https://vavoo.to/vavoo-iptv/play/1917558455120761543969
 #EXTVLCOPT:network-caching=1000
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AS.TV.tr" tvg-name="AS TV" tvg-logo="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png" group-title="NOTÍCIAS",AS TV
+#EXTINF:-1 tvg-id="AS.TV.tr" tvg-name="AS TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/not-cias/as-tv.png" group-title="NOTÍCIAS",AS TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 
