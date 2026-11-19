@@ -32,10 +32,6 @@ jobs:
           lines = playlist.read_text(encoding="utf-8").splitlines()
           branch = "github/workflows/atualizar-logos.yml"
           base = f"https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/{branch}/"
-          wanted = {
-              "1mus", "30a music", "mc eu tv", "company tv",
-              "intv australia", "güçlü tv", "i̇svi̇çre tv", "isviçre tv", "now rock"
-          }
 
           def slug(s):
               s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
@@ -51,10 +47,14 @@ jobs:
               key = re.sub(r"\s+", " ", key).strip()
               # Match diacritics-insensitively while retaining the original display name.
               key_plain = "".join(c for c in unicodedata.normalize("NFKD", key) if not unicodedata.combining(c))
-              if key_plain not in {"1mus", "30a music", "mc eu tv", "company tv", "intv australia", "guclu tv", "isvicre tv"}:
+              if key_plain not in {"play tv", "now 70 s", "now 80 s", "now rock"}:
                   continue
 
               group = re.search(r'group-title="([^"]+)"', line)
+              category_name = group.group(1) if group else ""
+              category_plain = "".join(c for c in unicodedata.normalize("NFKD", category_name.casefold()) if not unicodedata.combining(c))
+              if category_plain != "musica":
+                  continue
               category = slug(group.group(1) if group else "sem-categoria")
               folder = Path("logos-ajustadas") / category
               folder.mkdir(parents=True, exist_ok=True)
