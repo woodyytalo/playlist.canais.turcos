@@ -134,7 +134,7 @@ https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist
 #EXTVLCOPT:network-caching=1000
 https://vavoo.to/vavoo-iptv/play/40223592760f0af9f37d41
 
-#EXTINF:-1 tvg-id="custom.dimtv" tvg-name="Dim TV" tvg-logo="https://i.imgur.com/X4QFDhk.png" group-title="REGIONAIS",Dim TV
+#EXTINF:-1 tvg-id="custom.dimtv" tvg-name="Dim TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/dim-tv.png" group-title="REGIONAIS",Dim TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 
@@ -716,7 +716,7 @@ https://vavoo.to/vavoo-iptv/play/847659673132d7ebf20cd
 #EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" group-title="REGIONAIS" tvg-id="custom.trabzonbuyuksehirbelediyesitv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/trabzon-buyuksehir-belediyesi-tv.png",Trabzon Buyuksehir Belediyesi TV
 #EXTVLCOPT:network-caching=1000
 https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
-#EXTINF:-1 tvg-name="Urfanatik TV" tvg-logo="https://i.imgur.com/8KO0uxn.png" group-title="REGIONAIS" tvg-id="custom.urfanatiktv",Urfanatik TV
+#EXTINF:-1 tvg-name="Urfanatik TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/urfanatik-tv.png" group-title="REGIONAIS" tvg-id="custom.urfanatiktv",Urfanatik TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
 #EXTINF:-1 tvg-name="MADINAH TV" group-title="RELIGIOSOS" tvg-id="custom.madinahtv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/religiosos/madinah-tv.png",MADINAH TV
@@ -741,7 +741,7 @@ https://s6.hopslan.com/tlcX/index.m3u8
 #EXTVLCOPT:network-caching=1000
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 
-#EXTINF:-1 tvg-name="ETV Manisa" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="REGIONAIS" tvg-id="custom.etvmanisa",ETV Manisa
+#EXTINF:-1 tvg-name="ETV Manisa" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/etv-manisa.png" group-title="REGIONAIS" tvg-id="custom.etvmanisa",ETV Manisa
 #EXTVLCOPT:network-caching=1000
 https://vavoo.to/vavoo-iptv/play/20249540025118ba1bc88c
 
