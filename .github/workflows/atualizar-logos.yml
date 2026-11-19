@@ -8,6 +8,7 @@ on:
       - "github/workflows/atualizar-logos.yml"
     paths:
       - "Tv.m3u"
+      - "scripts/ajustar_logos_backup.py"
       - ".github/workflows/atualizar-logos.yml"
   schedule:
     - cron: "10 0,12 * * *"
@@ -24,6 +25,16 @@ jobs:
     steps:
       - name: Baixar repositório
         uses: actions/checkout@v4
+
+      - name: Preparar Python e Pillow para as logos
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restaurar todas as logos originais no padrão 256x256
+        run: |
+          python -m pip install --disable-pip-version-check Pillow
+          python scripts/ajustar_logos_backup.py
 
       - name: Corrigir automaticamente nomes e remover números de catálogo
         shell: bash
@@ -171,4 +182,4 @@ jobs:
         run: |
           gh workflow run atualizar-epg.yml --ref "${GITHUB_REF_NAME}"
           echo "Sincronização do EPG solicitada para a versão atualizada de Tv.m3u."
-# Reprocessamento integral das logos da TV principal solicitado.
+# Logos da TV principal: PNG 256x256, fundo preto e proporção preservada.
