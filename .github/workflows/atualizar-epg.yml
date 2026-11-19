@@ -19,7 +19,7 @@ permissions:
 
 concurrency:
   group: sincronizar-epg-tv-principal
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sincronizar-epg:
