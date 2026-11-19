@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv generator-info-name="xmltv.live" generator-info-url="https://xmltv.live/" date="20261119064930 +0000">
+<tv generator-info-name="xmltv.live" generator-info-url="https://xmltv.live/" date="20261119071116 +0000">
   <channel id="France24English">
     <display-name>France 24 English</display-name>
     <icon src="https://xmltv.live/logo.php?id=46413"/>
@@ -312,6 +312,7 @@
   </channel>
   <channel id="TRTÇocuk.tr">
     <display-name>TRT Çocuk</display-name>
+    <icon src="https://xmltv.live/logo.php?id=46517"/>
   </channel>
   <channel id="UlkeTV.tr">
     <display-name>Ülke TV</display-name>
@@ -321,12 +322,6 @@
     <display-name>beIN SPORTS HABER</display-name>
     <icon src="https://xmltv.live/logo.php?id=46520"/>
   </channel>
-  <programme start="20261119004500 +0000" stop="20261119010000 +0000" channel="France24English">
-      <title lang="tr">Arts24</title>
-      <desc lang="tr">Daily international culture news from the world&apos;s art, food and fashion capital, Paris.</desc>
-      <category>Magazin</category>
-      <icon src="https://xmltv.live/img.php?id=120436798"/>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119011500 +0000" channel="France24English">
       <title lang="tr">News</title>
       <desc lang="tr">An international news bulletin, presented live from the newsroom.</desc>
@@ -6721,12 +6716,6 @@
       <desc lang="tr">Günün en son noktası, Gece Ajansı&apos;yla konuluyor. Programda; spor, ekonomi, iç ve dış siyaset, kültür sanatın da aralarında bulunduğu her konu konuşuluyor.</desc>
       <category>Haber</category>
   </programme>
-  <programme start="20261119000000 +0000" stop="20261119010000 +0000" channel="ANews.tr">
-      <title lang="tr">Türkiye&apos;s Diplomacy</title>
-      <desc lang="tr">Türkiye&apos;s Diplomacy.</desc>
-      <category>Haber</category>
-      <icon src="https://xmltv.live/img.php?id=120437779"/>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119020000 +0000" channel="ANews.tr">
       <title lang="tr">Newshour</title>
       <desc lang="tr">Take the pulse of the day with all the latest updates and breaking news on Newshour.</desc>
@@ -8477,11 +8466,6 @@
       <desc lang="tr">Politics, economy, sports... Keep abreast of world headlines with Newsdesk.</desc>
       <category>Haber</category>
   </programme>
-  <programme start="20261119000000 +0000" stop="20261119010000 +0000" channel="APara.tr">
-      <title lang="tr">Sır Küpü</title>
-      <desc lang="tr">Sır Küpü.</desc>
-      <category>Diğer</category>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119030000 +0000" channel="APara.tr">
       <title lang="tr">Nostalji</title>
       <desc lang="tr">Nostalji.</desc>
@@ -10009,18 +9993,6 @@
       <category>Spor</category>
       <category>Sports</category>
   </programme>
-  <programme start="20261119003000 +0000" stop="20261119010000 +0000" channel="ALJAZEERAENGLISH.tr">
-      <title lang="tr">Networks</title>
-      <desc lang="tr">Discover the networks that connect people, communities and the world. Exploring communication, technology, digital developments and global connections, this programme highlights the systems, ideas and innovations shaping the way information and knowledge are shared.</desc>
-      <category>Magazin</category>
-      <icon src="https://xmltv.live/img.php?id=120438369"/>
-  </programme>
-  <programme start="20261119010000 +0000" stop="20261119010500 +0000" channel="ALJAZEERAENGLISH.tr">
-      <title lang="tr">News Bulletin</title>
-      <desc lang="tr">Keep up with the latest news and main headlines, hot and happening events and reports from around the world with main emphasis on the Arab world developments. Take a glance at the top news stories of the day and beyond them, and have a look at hard work of correspondents and journalists working around the world.</desc>
-      <category>Haber</category>
-      <icon src="https://xmltv.live/img.php?id=120438370"/>
-  </programme>
   <programme start="20261119010500 +0000" stop="20261119020000 +0000" channel="ALJAZEERAENGLISH.tr">
       <title lang="tr">Making Sense</title>
       <desc lang="tr">An explanatory program that explores the roots of crises, conflicts, and political and social transformations. It traces their origins, evolution, and underlying causes, examining their historical, political, economic, and social contexts to provide a deeper understanding of each crisis as it stands today.</desc>
@@ -11335,12 +11307,6 @@
       <category>Magazin</category>
       <icon src="https://xmltv.live/img.php?id=120438589"/>
   </programme>
-  <programme start="20261118223000 +0000" stop="20261119010000 +0000" channel="ATV.tr">
-      <title lang="tr">Var Mısın Yok Musun</title>
-      <desc lang="tr">Türkiye&apos;nin dört bir yanından gelen 22 yarışmacı büyük ödül olan 5 milyonu kazanabilmek için bankaya karşı yarışıyor. Banka her turun sonunda yarışmacıların kutusunu satın alabilmek için bir teklifte bulunuyor. Kutular açıldıkça yarışmacıların alması gereken risk daha da büyüyor. Yarışmada şans kadar strateji de çok önemli...</desc>
-      <category>Yarışma</category>
-      <icon src="https://xmltv.live/img.php?id=120438590"/>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119030000 +0000" channel="ATV.tr">
       <title lang="tr">Bir Gece Masalı</title>
       <desc lang="tr">Komiser Mahir ile Yörük kızı Canfeza&apos;nın Pamukkale&apos;nin büyülü atmosferinde başlayıp İstanbul&apos;da Asaf Bey konağına uzanan imkansız aşkları konu ediliyor.</desc>
@@ -11839,42 +11805,6 @@
       <title lang="tr">Var Mısın Yok Musun</title>
       <desc lang="tr">Türkiye&apos;nin dört bir yanından gelen 22 yarışmacı büyük ödül olan 5 milyonu kazanabilmek için bankaya karşı yarışıyor. Banka her turun sonunda yarışmacıların kutusunu satın alabilmek için bir teklifte bulunuyor. Kutular açıldıkça yarışmacıların alması gereken risk daha da büyüyor. Yarışmada şans kadar strateji de çok önemli...</desc>
       <category>Yarışma</category>
-  </programme>
-  <programme start="20261119004400 +0000" stop="20261119004800 +0000" channel="BabyTV.tr">
-      <title lang="tr">Gözlerini Kapat</title>
-      <desc lang="tr">Gözlerini kapat, arkana yaslan ve rahatla. Yatağa gitme vakti.</desc>
-      <category>Çocuk</category>
-      <episode-num system="onscreen">S1 E10</episode-num>
-  </programme>
-  <programme start="20261119004800 +0000" stop="20261119005100 +0000" channel="BabyTV.tr">
-      <title lang="tr">Gözlerini Kapat</title>
-      <desc lang="tr">Gözlerini kapat, arkana yaslan ve rahatla. Yatağa gitme vakti.</desc>
-      <category>Çocuk</category>
-      <episode-num system="onscreen">S1 E11</episode-num>
-  </programme>
-  <programme start="20261119005100 +0000" stop="20261119005500 +0000" channel="BabyTV.tr">
-      <title lang="tr">Gözlerini Kapat</title>
-      <desc lang="tr">Gözlerini kapat, arkana yaslan ve rahatla. Yatağa gitme vakti.</desc>
-      <category>Çocuk</category>
-      <episode-num system="onscreen">S1 E12</episode-num>
-  </programme>
-  <programme start="20261119005500 +0000" stop="20261119005800 +0000" channel="BabyTV.tr">
-      <title lang="tr">Gözlerini Kapat</title>
-      <desc lang="tr">Gözlerini kapat, arkana yaslan ve rahatla. Yatağa gitme vakti.</desc>
-      <category>Çocuk</category>
-      <episode-num system="onscreen">S1 E13</episode-num>
-  </programme>
-  <programme start="20261119005800 +0000" stop="20261119010100 +0000" channel="BabyTV.tr">
-      <title lang="tr">Gözlerini Kapat</title>
-      <desc lang="tr">Gözlerini kapat, arkana yaslan ve rahatla. Yatağa gitme vakti.</desc>
-      <category>Çocuk</category>
-      <episode-num system="onscreen">S1 E14</episode-num>
-  </programme>
-  <programme start="20261119010100 +0000" stop="20261119010500 +0000" channel="BabyTV.tr">
-      <title lang="tr">Gözlerini Kapat</title>
-      <desc lang="tr">Gözlerini kapat, arkana yaslan ve rahatla. Yatağa gitme vakti.</desc>
-      <category>Çocuk</category>
-      <episode-num system="onscreen">S1 E15</episode-num>
   </programme>
   <programme start="20261119010500 +0000" stop="20261119010900 +0000" channel="BabyTV.tr">
       <title lang="tr">Gözlerini Kapat</title>
@@ -26087,12 +26017,6 @@
       <category>Haber</category>
       <icon src="https://xmltv.live/img.php?id=120440969"/>
   </programme>
-  <programme start="20261118230000 +0000" stop="20261119010000 +0000" channel="BLOOMBERG.tr">
-      <title lang="tr">Bloomberg The Asia Trade</title>
-      <desc lang="tr">Live from Tokyo and Sydney with Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping markets.</desc>
-      <category>Haber</category>
-      <icon src="https://xmltv.live/img.php?id=120440970"/>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119030000 +0000" channel="BLOOMBERG.tr">
       <title lang="tr">Bloomberg: The China Show</title>
       <desc lang="tr">Your definitive source for news and analysis on the world&apos;s second-biggest economy. Hosted by Yvonne Man and David Ingles.</desc>
@@ -27655,16 +27579,6 @@
       <title lang="tr">Küresel Piyasalar</title>
       <desc lang="tr">Bu programda, canlı video ve telefon bağlantılarıyla tüm yatırım araçlarının günlük performansları mercek altına alınıyor.</desc>
       <category>Finans</category>
-  </programme>
-  <programme start="20261119004000 +0000" stop="20261119005500 +0000" channel="CartoonNetwork.tr">
-      <title lang="tr">Kral Şakir</title>
-      <desc lang="tr">Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
-      <category>Çocuk</category>
-  </programme>
-  <programme start="20261119005500 +0000" stop="20261119010500 +0000" channel="CartoonNetwork.tr">
-      <title lang="tr">Kral Şakir</title>
-      <desc lang="tr">Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
-      <category>Çocuk</category>
   </programme>
   <programme start="20261119010500 +0000" stop="20261119013000 +0000" channel="CartoonNetwork.tr">
       <title lang="tr">Kral Şakir</title>
@@ -30691,16 +30605,6 @@
   <programme start="20261124205500 +0000" stop="20261124211000 +0000" channel="CartoonNetwork.tr">
       <title lang="tr">Gumball&apos;ın Muhteşem Tuhaf...</title>
       <desc lang="tr">Gumball&apos;ın Muhteşem Tuhaf Dünyası - Elmorea hoş geldiniz! Burada gerçeklik kuralları sadece bir şaka, aile hayatı ise asla sıradan değil.</desc>
-      <category>Çocuk</category>
-  </programme>
-  <programme start="20261119004000 +0000" stop="20261119005500 +0000" channel="Cartoonito.tr">
-      <title lang="tr">Kral Şakir</title>
-      <desc lang="tr">Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
-      <category>Çocuk</category>
-  </programme>
-  <programme start="20261119005500 +0000" stop="20261119010500 +0000" channel="Cartoonito.tr">
-      <title lang="tr">Kral Şakir</title>
-      <desc lang="tr">Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
       <category>Çocuk</category>
   </programme>
   <programme start="20261119010500 +0000" stop="20261119011500 +0000" channel="Cartoonito.tr">
@@ -34483,12 +34387,6 @@
       <desc lang="tr">Kral Şakir, bir aslan ailesinin çocukları Şakir ve Cananın, hayvanların yaşadığı modern şehir hayatında karşılaştıkları komik ve macera dolu hikayeleridir.</desc>
       <category>Çocuk</category>
   </programme>
-  <programme start="20261119000000 +0000" stop="20261119010000 +0000" channel="CNNINTERNATIONAL.tr">
-      <title lang="tr">Erin Burnett OutFront</title>
-      <desc lang="tr">Erin Burnett OutFront is a prime-time CNN news program that covers breaking developments with in-depth reporting and direct interviews. The show examines politics, global conflicts, business and economic trends, highlighting the forces shaping world events and holding powerful figures accountable through clear.</desc>
-      <category>Haber</category>
-      <icon src="https://xmltv.live/img.php?id=120442644"/>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119020000 +0000" channel="CNNINTERNATIONAL.tr">
       <title lang="tr">Anderson Cooper 360</title>
       <desc lang="tr">Veteran journalist Anderson Cooper looks beyond the headlines to explore the deeper context of today&apos;s news. Through in-depth investigations, on-the-ground reporting, and expert interviews, the program examines global and domestic events, offering clarity and insight into the stories shaping our world.</desc>
@@ -35278,24 +35176,6 @@
       <desc lang="tr">CNN News Central is CNN International&apos;s core daytime news hub, offering rolling coverage of breaking stories and major global developments. The program uses high-impact visual storytelling, live reports and expert context to bring viewers up-to-the-minute updates on politics, world events, business and social issues as they unfold.</desc>
       <category>Haber</category>
       <icon src="https://xmltv.live/img.php?id=120442776"/>
-  </programme>
-  <programme start="20261119004300 +0000" stop="20261119005600 +0000" channel="DaVinci.tr">
-      <title lang="tr">Tek Durak Bilim Dükkanı: Harita seviyeleme</title>
-      <desc lang="tr">Tek Durak Bilim Dükkanı, bilimle ilgilenen küçük izleyiciler için hazırlanmış eğlenceli ve öğretici bir programdır.</desc>
-      <category>Çocuk</category>
-      <icon src="https://xmltv.live/img.php?id=120442780"/>
-  </programme>
-  <programme start="20261119005600 +0000" stop="20261119010100 +0000" channel="DaVinci.tr">
-      <title lang="tr">Futuris: Arama Kurtarma Robotları</title>
-      <desc lang="tr">Futuris; bilim, teknoloji ve çevre alanındaki yenilikleri izleyicilere aktaran eğitici ve bilgilendirici bir programdır.</desc>
-      <category>Magazin</category>
-      <icon src="https://xmltv.live/img.php?id=120442781"/>
-  </programme>
-  <programme start="20261119010100 +0000" stop="20261119010500 +0000" channel="DaVinci.tr">
-      <title lang="tr">Futuris: Ben ve Avatarım</title>
-      <desc lang="tr">Futuris; bilim, teknoloji ve çevre alanındaki yenilikleri izleyicilere aktaran eğitici ve bilgilendirici bir programdır.</desc>
-      <category>Magazin</category>
-      <icon src="https://xmltv.live/img.php?id=120442782"/>
   </programme>
   <programme start="20261119010500 +0000" stop="20261119011900 +0000" channel="DaVinci.tr">
       <title lang="tr">Tek Bir Şey: Tori Boggs: Atlama İpi Şampiyonu</title>
@@ -40256,12 +40136,6 @@
       <category>Çocuk</category>
       <icon src="https://xmltv.live/img.php?id=120443425"/>
   </programme>
-  <programme start="20261119002000 +0000" stop="20261119010500 +0000" channel="DiscoveryChannel.tr">
-      <title lang="tr">Hurda Avcıları: Tamirat</title>
-      <desc lang="tr">Oyun restorasyoncusu Mark Squires 1960&apos;lardan kalma bir tek kollu slot makinesini onarıp baştan yaratır. Metal ustası Ted Edley paslı bir şamandıra fenerini restore eder.</desc>
-      <category>Yaşam</category>
-      <episode-num system="onscreen">S6 E10</episode-num>
-  </programme>
   <programme start="20261119010500 +0000" stop="20261119015000 +0000" channel="DiscoveryChannel.tr">
       <title lang="tr">Sokak Çılgınları: New Orleans</title>
       <desc lang="tr">Kye Kelly büyük-teker listesi için üç sürücüyü test ediyor. Jerry Bird, Jason Thames ve Barry Nicholson sezon öncesi yenilemelerinin yerlerini korumaya yetmesini umuyorlar.</desc>
@@ -41461,12 +41335,6 @@
       <desc lang="tr">Bu programda kaçakçılığın engellenmesi amacıyla gümrük kontrol ekiplerinin verdiği mücadeleleri izliyoruz.</desc>
       <category>Belgesel</category>
       <episode-num system="onscreen">S5 E2</episode-num>
-  </programme>
-  <programme start="20261119004500 +0000" stop="20261119010500 +0000" channel="DisneyJunior.tr">
-      <title lang="tr">Robogobo</title>
-      <desc lang="tr">Hopper korkusuyla yüzleşir. RoboGobo günü kurtarır.</desc>
-      <category>Çocuk</category>
-      <episode-num system="onscreen">S2 E45</episode-num>
   </programme>
   <programme start="20261119010500 +0000" stop="20261119013000 +0000" channel="DisneyJunior.tr">
       <title lang="tr">Robogobo</title>
@@ -44958,12 +44826,6 @@
       <category>Çocuk</category>
       <episode-num system="onscreen">S2 E78</episode-num>
   </programme>
-  <programme start="20261119003000 +0000" stop="20261119010000 +0000" channel="DiyanetTV.tr">
-      <title lang="tr">Karademlik</title>
-      <desc lang="tr">Ülkemizin doğal zenginlikleri ve keşfedilmemiş güzellikleri Karademlik&apos;te ekrana geliyor. Görsel zenginliği ile ön plana çıkan Karademlik, doğayı seven herkese hitap eden bir program...</desc>
-      <category>Dini</category>
-      <icon src="https://xmltv.live/img.php?id=120444208"/>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119013000 +0000" channel="DiyanetTV.tr">
       <title lang="tr">Bir Ömürlük Seyahat Evliya Çelebi</title>
       <desc lang="tr">Bir seyyah, 47 ülke, 257 şehir, bir eser ve 50 yıl... Hepsi Bir Ömürlük Seyahat Evliya Çelebi programında...</desc>
@@ -45157,12 +45019,6 @@
         <actor>Seda Tosun</actor>
       </credits>
       <icon src="https://xmltv.live/img.php?id=120444238"/>
-  </programme>
-  <programme start="20261119000500 +0000" stop="20261119005000 +0000" channel="DMAX.tr">
-      <title lang="tr">Müzedeki Gizem</title>
-      <desc lang="tr">Don, motorları olmayan bir jumbo jeti kullanmak zorunda kalan bir pilotu, bir boks nümayişinin ardındaki skandalı ve seçilmiş bir başkana suikast girişimini inceliyor.</desc>
-      <category>Belgesel</category>
-      <episode-num system="onscreen">S19 E8</episode-num>
   </programme>
   <programme start="20261119005000 +0000" stop="20261119013500 +0000" channel="DMAX.tr">
       <title lang="tr">Unutulmuş Hazineler: Klasik Arabalar</title>
@@ -46148,12 +46004,6 @@
       <desc lang="tr">Lancaster Lordu vatandaşları ek ödemelerle gövde gösterisi yapar. Dusty ve Lupe büyük bir depoda altın bulur. Kenny kâra geçer.</desc>
       <category>Belgesel</category>
       <episode-num system="onscreen">S16 E7</episode-num>
-  </programme>
-  <programme start="20261119004200 +0000" stop="20261119010000 +0000" channel="EURONEWS.tr">
-      <title lang="tr">News</title>
-      <desc lang="tr">The leading news stories of the moment.</desc>
-      <category>Haber</category>
-      <icon src="https://xmltv.live/img.php?id=120444408"/>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119011200 +0000" channel="EURONEWS.tr">
       <title lang="tr">The European Debrief</title>
@@ -52012,12 +51862,6 @@
       <category>Dövüş Sporları</category>
       <icon src="https://xmltv.live/img.php?id=120445374"/>
   </programme>
-  <programme start="20261119002500 +0000" stop="20261119005500 +0000" channel="FlashHaberTV.tr">
-      <title lang="tr">Yeşil Hat</title>
-      <desc lang="tr">Yeşil Hat, çevre ve doğa odaklı içeriğiyle sürdürülebilir yaşamın önemini izleyiciyle buluşturuyor. Programda iklim değişikliği, çevre sorunları, yenilenebilir enerji, geri dönüşüm ve ekolojik yaşam gibi başlıklar ele alınıyor.</desc>
-      <category>Magazin</category>
-      <icon src="https://xmltv.live/img.php?id=120445376"/>
-  </programme>
   <programme start="20261119005500 +0000" stop="20261119011500 +0000" channel="FlashHaberTV.tr">
       <title lang="tr">Kuş Bakışı</title>
       <desc lang="tr">Kuş Bakışı, doğal yaşam alanlarını, şehirleri ve kültürel mirası benzersiz bir perspektiften ekrana taşıyor. Havadan çekimlerle zenginleşen anlatım, izleyiciyi farklı coğrafyalara götürürken her bölümü görsel bir keşfe dönüştürüyor.</desc>
@@ -55527,20 +55371,6 @@
       <desc lang="tr">Kısa Bir Mola, yoğun tempolu günlerde izleyiciye kısa ama kaliteli bir kaçış sunuyor. Her bölümde güncel konular, ilginç yaşam hikâyeleri ve keyifli sohbetler ekranınıza taşınarak, hem eğlendiriyor hem de bilgilendiriyor. Kısa ama etkili bir molanın tadını yaşayın.</desc>
       <category>Magazin</category>
       <icon src="https://xmltv.live/img.php?id=120445961"/>
-  </programme>
-  <programme start="20261119003300 +0000" stop="20261119005600 +0000" channel="France24.tr">
-      <title lang="tr">Maghreb Face-Off</title>
-      <desc lang="tr">Two experts debate on major topics that stir the Maghreb region.</desc>
-      <category>Tartışma</category>
-      <episode-num system="onscreen">S1 E47</episode-num>
-      <icon src="https://xmltv.live/img.php?id=120445964"/>
-  </programme>
-  <programme start="20261119005600 +0000" stop="20261119010000 +0000" channel="France24.tr">
-      <title lang="tr">Reportages</title>
-      <desc lang="tr">A report on a major news issue.</desc>
-      <category>Magazin</category>
-      <episode-num system="onscreen">S1 E47</episode-num>
-      <icon src="https://xmltv.live/img.php?id=120445965"/>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119011500 +0000" channel="France24.tr">
       <title lang="tr">News</title>
@@ -60822,12 +60652,6 @@
       <episode-num system="onscreen">S1 E50</episode-num>
       <icon src="https://xmltv.live/img.php?id=120446715"/>
   </programme>
-  <programme start="20261119003900 +0000" stop="20261119010000 +0000" channel="GZTTV.tr">
-      <title lang="tr">The Survival</title>
-      <desc lang="tr">The Survival.</desc>
-      <category>Belgesel</category>
-      <icon src="https://xmltv.live/img.php?id=120446718"/>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119012900 +0000" channel="GZTTV.tr">
       <title lang="tr">Kend Hayatı</title>
       <desc lang="tr">Kend Hayatı.</desc>
@@ -62304,19 +62128,6 @@
       <desc lang="tr">Halk TV Bant Yayın.</desc>
       <category>Diğer</category>
       <icon src="https://xmltv.live/img.php?id=120446979"/>
-  </programme>
-  <programme start="20261118220000 +0000" stop="20261119005500 +0000" channel="HTSPOR.tr">
-      <title lang="tr">Açık Oturum</title>
-      <desc lang="tr">Açık Oturum.</desc>
-      <category>Spor</category>
-      <category>Sports</category>
-      <icon src="https://xmltv.live/img.php?id=120446980"/>
-  </programme>
-  <programme start="20261119005500 +0000" stop="20261119010000 +0000" channel="HTSPOR.tr">
-      <title lang="tr">Hava Durumu</title>
-      <desc lang="tr">Günün hava durumu bilgisi ekranlara getiriliyor.</desc>
-      <category>Hava Durumu</category>
-      <icon src="https://xmltv.live/img.php?id=120446981"/>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119015500 +0000" channel="HTSPOR.tr">
       <title lang="tr">Otospor</title>
@@ -65209,13 +65020,6 @@
       <desc lang="tr">Türkiye ve dünyadan gün boyunca yaşanan gelişmeler, gecenin öne çıkan haberleriyle birlikte ele alınıyor. Son dakika gelişmeleri, siyaset, ekonomi, toplum ve gündem başlıkları aktarılırken, günün önemli olaylarının ayrıntıları da değerlendiriliyor. Gündemi şekillendiren gelişmeler ve günün öne çıkan haberleri izleyiciyle buluşuyor.</desc>
       <category>Haber</category>
       <icon src="https://xmltv.live/img.php?id=120447424"/>
-  </programme>
-  <programme start="20261119004500 +0000" stop="20261119010000 +0000" channel="MinikaGO.tr">
-      <title lang="tr">İstanbul Muhafızları</title>
-      <desc lang="tr">İstanbul&apos;u ne kadar tanıyorsun? Kimbilir bilmediğin ne çok şey var? İşte sana eğlenceli bir fırsat. Mehmet, Zeynep, Elif ve Ali ile birlikte İstanbul&apos;u hem karış karış tanıyacak, hem de her bölümde Gürgen ve adamlarının yaşattığı problemleri çözeceksin.</desc>
-      <category>Çocuk</category>
-      <episode-num system="onscreen">S2 E22</episode-num>
-      <icon src="https://xmltv.live/img.php?id=120447427"/>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119011000 +0000" channel="MinikaGO.tr">
       <title lang="tr">Mavi Gölge</title>
@@ -68525,16 +68329,6 @@
       <desc lang="tr">Memurlar ve ajanlar; uyuşturucu, ateşli silah ve yasa dışı malların ABD&apos;ye girişini durdurmak için yoğun bir çaba sarf ediyor. Porto Riko’nun güneşli kıyılarındaki yüksek riskli operasyonlardan, Doğu Yakası’ndaki büyük hava ve deniz limanlarında gerçekleştirilen el koyma işlemlerine kadar bu seri; tehlikeli kaçak malları Amerikan kıyılarından uzak tutma mücadelesine daha önce hiç görülmemiş, içeriden bir bakış sunuyor.</desc>
       <category>Belgesel</category>
       <episode-num system="onscreen">S1 E6</episode-num>
-  </programme>
-  <programme start="20261119002600 +0000" stop="20261119004900 +0000" channel="NickJr.tr">
-      <title lang="tr">Paw Patrol</title>
-      <desc lang="tr">Goodwayler kuğu şeklinde duba üzerinde denize sürüklenir ve kuğu sürüsünden kurtarılmaları gerekir. Başkan Humdinger, Katie&apos;nin Taşınabilir Evcil Hayvan Yıkama ürününü çalar ve her yerde baloncuk sorununa neden olur.</desc>
-      <category>Çocuk</category>
-      <episode-num system="onscreen">S8 E23</episode-num>
-      <credits>
-        <director>Charles E. Bastien</director>
-        <director>Jamie Whitney</director>
-      </credits>
   </programme>
   <programme start="20261119004900 +0000" stop="20261119011300 +0000" channel="NickJr.tr">
       <title lang="tr">Geyik Takımı</title>
@@ -76225,16 +76019,6 @@
       <desc lang="tr">En çarpıcı görüntüler, Türkiye ve dünyadan en sıcak gelişmeler NOW Ana Haber bülteninde...</desc>
       <category>Haber</category>
   </programme>
-  <programme start="20261119003000 +0000" stop="20261119005500 +0000" channel="NTV.tr">
-      <title lang="tr">Yakın Plan</title>
-      <desc lang="tr">Siyasetteki gelişmeler, dünyanın sıcak başlıkları ve Türkiye&apos;nin bölgedeki rolü konusunda uzman konuklar tarafından değerlendiriliyor. Bugünün gündemi, yarına yansıyacak şekilde detaylıca inceleniyor.</desc>
-      <category>Haber</category>
-  </programme>
-  <programme start="20261119005500 +0000" stop="20261119010000 +0000" channel="NTV.tr">
-      <title lang="tr">Hava Durumu</title>
-      <desc lang="tr">Türkiye ile dünyanın bazı merkezlerinin hava koşulları, Hava Durumu kuşağında ekrana geliyor.İzleyiciler, gün içerisindeki sıcaklık, rüzgar ve yağış koşullarına dair belli aralıklarla bilgilendiriliyor.</desc>
-      <category>Hava Durumu</category>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119013000 +0000" channel="NTV.tr">
       <title lang="tr">Haber Bülteni</title>
       <desc lang="tr">Türkiye&apos;den ve dünyadan önemli gelişmeler, Haber Bülteni ile ekrana geliyor. Önemli gelişmeler, gündemde öne çıkan konular ve son dakika gelişmeleri izleyiciye aktarılıyor.</desc>
@@ -78135,13 +77919,6 @@
       <category>Spor</category>
       <category>Sports</category>
   </programme>
-  <programme start="20261119000000 +0000" stop="20261119010000 +0000" channel="SSpor2.tr">
-      <title lang="tr">Watersports World</title>
-      <desc lang="tr">Watersports World.</desc>
-      <category>Spor</category>
-      <category>Sports</category>
-      <icon src="https://xmltv.live/img.php?id=120449156"/>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119020000 +0000" channel="SSpor2.tr">
       <title lang="tr">Moto 2</title>
       <desc lang="tr">Katar.</desc>
@@ -79167,14 +78944,6 @@
       <desc lang="tr">Star TV&apos;nin sevilen yerli dizileri tekrar bölümleriyle ekrana geliyor.</desc>
       <category>Dizi</category>
   </programme>
-  <programme start="20261119000000 +0000" stop="20261119010000 +0000" channel="TARIHTV.tr">
-      <title lang="tr">Calıgula ve Mary Beard</title>
-      <desc lang="tr">İki bin yıl önce, tarihin en kötü şöhretli figürlerinden biri dünyaya geldi. Profesör Mary Beard, Gaius Julius Caesar Augustus Germanicus&apos;un — yani bizim daha çok Caligula olarak tanıdığımız imparatorun — yaşamı ve dönemi üzerine araştırmacı bir yolculuğa çıkıyor.Caligula, Roma tarihinin en kaprisli zorbası olarak anılır oldu ve hakkında anlatılan hikâyeler, herhangi bir Roma imparatoru hakkında anlatılanlar arasında en olağanüstülerdendir. Atını konsül yaptığı, kendisini yaşayan bir tanrı ilan ettiği ve hatta üç kız kardeşiyle skandal partilere katıldığı söylenir… Üstelik bunlar, kara ve deniz üzerine dev köprüler inşa etmesi, senatörlerin eşlerini fahişelik yapmaya zorlaması ve Roma seçkinlerinin yarısını aniden öldürtmesi gibi diğer efsanelerinden sadece birkaçıdır.Tüm bu olaylar, sadece dört kısa yıl içinde gerçekleşti; ardından henüz 29 yaşındayken, sarayının bir arka sokağında hızlı ve şiddetli bir suikastla hayatına son verildi.</desc>
-      <category>Belgesel</category>
-      <credits>
-        <director>Hugo Macgregor</director>
-      </credits>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119020500 +0000" channel="TARIHTV.tr">
       <title lang="tr">Kod Adı: Zafer</title>
       <desc lang="tr">20 Temmuz 1974&apos;te başlayan Kıbrıs Barış Harekatı&apos;nın öncesi ve sonrası… Kıbrıs Türkleri harekat öncesi neler yaşadı, harekat kararı nasıl alındı, Türk askeri Ada&apos;ya ayak bastıktan sonra nelerle karşılaştı? Zaferin tanıkları anlatıyor.</desc>
@@ -79985,22 +79754,6 @@
       <desc lang="tr">20 bölümlük belgesel serisi, tarih boyunca insanları büyüleyen en gizemli olayları, medeniyetleri ve nesneleri mercek altına alıyor. Günümüzde internette tartışılan komplo teorilerinin kökenine inen yapım, geçmişte yaşanan olayların nasıl efsanelere, ardından da çözülemeyen gizemlere dönüştüğünü araştırıyor.Her bölüm, izleyiciyi önce olayın temel gerçekleriyle tanıştırıyor; ardından uzman görüşleri, arşiv görüntüleri, CGI destekli canlandırmalar ve tarihsel analizlerle gizemin katmanlarını açıyor. Ancak seri, hiçbir zaman kesin bir sonuca ulaşmaya çalışmıyor. Bunun yerine, eldeki verileri ve teorileri bir araya getirerek izleyicinin kendi yorumunu yapmasına alan bırakıyor.Belgeselde uzmanlar, her olayın arkasındaki tarihsel gerçekleri ve dönemin koşullarını detaylı biçimde değerlendiriyor. Kimi zaman spekülatif teoriler öne sürülürken, kimi zaman somut kanıtlara dayalı açıklamalar sunuluyor. Ancak her bölümün sonunda, bazı gizemlerin tamamen çözülemeyecek kadar eski, karmaşık ve zaman içinde kaybolmuş olduğu hissi korunuyor. Serinin amacı, dünyanın en büyük gizemleri hakkında kapsamlı bir kaynak sunarken aynı zamanda izleyiciyi daha fazla araştırmaya teşvik etmek. Bir anlamda, bu yapım gizemlerin tarihini anlatan ve gerçeğe en çok yaklaşan rehber olmayı hedefliyor.</desc>
       <category>Belgesel</category>
       <episode-num system="onscreen">S1 E6</episode-num>
-  </programme>
-  <programme start="20261119003000 +0000" stop="20261119010000 +0000" channel="TELE1.tr">
-      <title lang="tr">Yağmur Zamanı</title>
-      <desc lang="tr">Tutku, aşk ve kaderin iç içe geçtiği bu hikayede bir adam geçmişiyle hesaplaşır. Yaşadıkları onu sınarken, umut ve cesaretiyle ayakta duran bir kadın hayatına yön verir. İki farklı yol, acılarla dolu bir kaderde kesişir. Duygusal anlatımıyla insanın iç dünyasına dokunan bir yaşam mücadelesi sunulur.</desc>
-      <category>Dizi</category>
-      <credits>
-        <actor>Ece Hakim</actor>
-        <actor>Ömer Güney</actor>
-        <actor>Gürsan Piri Onurlu</actor>
-        <actor>Serkan Altunorak</actor>
-        <actor>Bora Akkas</actor>
-        <actor>Duygu Yetis</actor>
-        <actor>Deniz Ugur</actor>
-        <actor>Tamer Karadagli</actor>
-      </credits>
-      <icon src="https://xmltv.live/img.php?id=120449410"/>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119020000 +0000" channel="TELE1.tr">
       <title lang="tr">Yağmur Zamanı</title>
@@ -83789,12 +83542,6 @@
       <category>Magazin</category>
       <icon src="https://xmltv.live/img.php?id=120449838"/>
   </programme>
-  <programme start="20261119003500 +0000" stop="20261119005500 +0000" channel="TLC.tr">
-      <title lang="tr">Emlak Avcıları Amerika</title>
-      <desc lang="tr">Uzun zamandır birlikte olan bir çift Minneapolis-Saint Paul, Minnesota&apos;da ilk evini almak ister. Partnerlerden biri restore edebileceği bir ev isterken diğeri tadilata karşı gelir.</desc>
-      <category>Yaşam</category>
-      <episode-num system="onscreen">S20 E13</episode-num>
-  </programme>
   <programme start="20261119005500 +0000" stop="20261119014000 +0000" channel="TLC.tr">
       <title lang="tr">Emlakçı Kardeşler: Kritik Karar</title>
       <desc lang="tr">Jonathan ve Drew günümüzün rekabetçi emlak piyasasında ömrünün en büyük alışverişini yapacak alıcılara rehberlik etmek için strese ortak olur.</desc>
@@ -85585,12 +85332,6 @@
         <actor>Tuba Ünsal</actor>
       </credits>
   </programme>
-  <programme start="20261119003000 +0000" stop="20261119010000 +0000" channel="TRT2.tr">
-      <title lang="tr">Müzik Arkeolojisi</title>
-      <desc lang="tr">Her bölüm farklı bir Anadolu uygarlığının müzik kültürünün derinlemesine incelendiği programda kadim sesler modern bir bakış açısıyla harmanlanıyor.</desc>
-      <category>Kültür &amp; Sanat</category>
-      <icon src="https://xmltv.live/img.php?id=120450105"/>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119013000 +0000" channel="TRT2.tr">
       <title lang="tr">Eve Dönen Miras</title>
       <desc lang="tr">Türkiye&apos;den kaçırılmış fakat Türkiye Cumhuriyeti&apos;nin hukuk mücadelesi sonunda ait olduğu topraklara geri dönen sanat eserleri ve arkeolojik bulguların hikayesi.</desc>
@@ -86131,16 +85872,6 @@
       <desc lang="tr">Modern Dünyanın Kökenleri programı; Avrupa medeniyetinin kurumsal ve düşünsel temellerini yalnızca kronolojik olaylar üzerinden değil, inanç, iktidar ve toplum arasındaki ilişkiler ekseninde analiz ederek izleyicinin tarihsel gelişmeleri neden - sonuç ilişkisi içinde okuyabilmesine katkı sunuyor.</desc>
       <category>Yaşam</category>
       <icon src="https://xmltv.live/img.php?id=120450184"/>
-  </programme>
-  <programme start="20261119000000 +0000" stop="20261119005000 +0000" channel="TRTArabi.tr">
-      <title lang="tr">Al Alam Al Yawm</title>
-      <desc lang="tr">A daily political news program that covers developments and events in the region and around the world.</desc>
-      <category>Haber</category>
-  </programme>
-  <programme start="20261119005000 +0000" stop="20261119010000 +0000" channel="TRTArabi.tr">
-      <title lang="tr">Doc - Melaffat</title>
-      <desc lang="tr">A TRT Arabi special report examining Germany&apos;s freedom rhetoric versus its crackdown on Palestine protests through on-site footage and interviews.</desc>
-      <category>Haber</category>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119013000 +0000" channel="TRTArabi.tr">
       <title lang="tr">News</title>
@@ -87451,13 +87182,6 @@
       <title lang="tr">Doc - Melaffat</title>
       <desc lang="tr">A TRT Arabi special report examining Germany&apos;s freedom rhetoric versus its crackdown on Palestine protests through on-site footage and interviews.</desc>
       <category>Haber</category>
-  </programme>
-  <programme start="20261119003000 +0000" stop="20261119010000 +0000" channel="TRTAVAZ.tr">
-      <title lang="tr">Şehrimin Takımı</title>
-      <desc lang="tr">Türklerin Orta Asya&apos;dan Balkanlara uzanan geniş coğrafyada kurdukları futbol takımlarını, bu takımlar etrafında şekillenen toplumsal ilişkileri ve aidiyet duygusunu anlatan program.</desc>
-      <category>Spor</category>
-      <category>Sports</category>
-      <icon src="https://xmltv.live/img.php?id=120450444"/>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119013000 +0000" channel="TRTAVAZ.tr">
       <title lang="tr">Ortak Alfabe</title>
@@ -88850,12 +88574,6 @@
         <actor>Ferda Işıl</actor>
       </credits>
   </programme>
-  <programme start="20261119003500 +0000" stop="20261119010500 +0000" channel="TRTBelgesel.tr">
-      <title lang="tr">Eskiden Beri</title>
-      <desc lang="tr">Eskiden Beri belgesel serisi Anadolu&apos;nun farklı coğrafyalarında gelenekselleşmiş üretim süreçlerinin arkasındaki insan emeği, doğal hayat ve coğrafi özelliklerin neler olduğunu araştırmak için sahaya çıkıyor. Belgesel aynı üretimin farklı bölgelerde devam eden üretim sürecini eş zamanlı olarak ekrana getiriyor ve bu sayede izleyici bölgeler arasındaki farklılıkları görme olanağı buluyor.</desc>
-      <category>Belgesel</category>
-      <icon src="https://xmltv.live/img.php?id=120450675"/>
-  </programme>
   <programme start="20261119010500 +0000" stop="20261119020000 +0000" channel="TRTBelgesel.tr">
       <title lang="tr">Ailenin Yeni Üyesi</title>
       <desc lang="tr">Sunucu Reshad Strik, bazen yüzlerce kişiyle birlikte Hindistan trenlerinin çatısında yolculuk ederek, bazen bir fabrikada sadece iki dolar karşılığında gün boyu tuğla taşıyarak, bazen de Çin&apos;de sırtında ağır yüklerle sonu gelmez merdivenleri adımlayarak bu zorlu yaşamların kahramanları arasına katılıyor. Onlarla aynı sofraya oturup, aynı havayı soluyarak zorluklara göğüs germeyi ve yeni dostluklar kurmayı hedefleyen Reshad Strik&apos;in maceraları tüm gerçekliğiyle izleyiciyle buluşuyor.</desc>
@@ -89692,11 +89410,6 @@
       <desc lang="tr">Genel Tanıtım.</desc>
       <category>Diğer</category>
   </programme>
-  <programme start="20261118220000 +0000" stop="20261119010000 +0000" channel="TRTHaber.tr">
-      <title lang="tr">Gün Sonu</title>
-      <desc lang="tr">Günün sonunda, dünün ve yarının gündemine dair haberler, canlı bağlantılar, dosya haberlerle ve alanında uzman konukların değerlendirmeleriyle izleyiciye aktarılıyor.</desc>
-      <category>Haber</category>
-  </programme>
   <programme start="20261119010000 +0000" stop="20261119015500 +0000" channel="TRTHaber.tr">
       <title lang="tr">Haber 04</title>
       <desc lang="tr">Gün içinde yaşanan gelişmeler, gündemde yer alan konular izleyicilere aktarılıyor. Siyasetten ekonomiye, kültürden sanata Türkiye ve dünya gündemine ilişkin önemli gelişmeler canlı bağlantılarla ekrana geliyor.</desc>
@@ -90327,12 +90040,6 @@
       <desc lang="tr">Gündeme dair önemli olaylar, muhabir bağlantıları ve dosya haberler, Fuat Kozluklu moderatörlüğünde Gece Bakışı&apos;nda izleyiciye aktarılıyor.</desc>
       <category>Haber</category>
   </programme>
-  <programme start="20261118235000 +0000" stop="20261119005000 +0000" channel="TRTKurdi.tr">
-      <title lang="tr">Zazaca Nağmeler (Deyiri Zazaki)</title>
-      <desc lang="tr">Birbirinden güzel Zazaca türküler ünlü sanatçılar tarafından icra ediliyor.</desc>
-      <category>Müzik</category>
-      <icon src="https://xmltv.live/img.php?id=120450944"/>
-  </programme>
   <programme start="20261119005000 +0000" stop="20261119015000 +0000" channel="TRTKurdi.tr">
       <title lang="tr">Kadın Gözüyle Yaşam (Meclısa Jînan)</title>
       <desc lang="tr">Jinên pispor Pınar Tuncel, Psîkolog Benazir Orhan û Rojnameger Halime Kökçe di bernameya Meclisa Jinan de li ser mijarên wekî malbat, perwerde, çand, huner, jiyana rojane, manewiyat, derûniya mirovan û faktorên ku bandorê li dînamîkên civakê dikin diaxivin.</desc>
@@ -90744,13 +90451,6 @@
       <desc lang="tr">Mamosta Uğur Kocabey zarokan hînê Qur&apos;anê dike.</desc>
       <category>Dini</category>
       <icon src="https://xmltv.live/img.php?id=120450996"/>
-  </programme>
-  <programme start="20261118230000 +0000" stop="20261119010000 +0000" channel="TRTSPOR.tr">
-      <title lang="tr">UEFA Şampiyonlar Ligi Özetler</title>
-      <desc lang="tr">UEFA Şampiyonlar Liginde haftanın karşılaşmalarının özet görüntüleri ekranlarınıza geliyor.</desc>
-      <category>Spor</category>
-      <category>Sports</category>
-      <icon src="https://xmltv.live/img.php?id=120450997"/>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119023000 +0000" channel="TRTSPOR.tr">
       <title lang="tr">Futbol Aklı</title>
@@ -91794,11 +91494,6 @@
       <title lang="tr">..........</title>
       <desc lang="tr">..........</desc>
       <category>Diğer</category>
-  </programme>
-  <programme start="20261119003000 +0000" stop="20261119010000 +0000" channel="TRTWorld.tr">
-      <title lang="tr">Inside America</title>
-      <desc lang="tr">Exploring the issues shaping US politics through in-depth interviews with policy and opinion makers.</desc>
-      <category>Haber</category>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119011500 +0000" channel="TRTWorld.tr">
       <title lang="tr">News</title>
@@ -93219,12 +92914,6 @@
       <title lang="tr">Across The Balkans</title>
       <desc lang="tr">Across The Balkans takes you to a land of breathtaking beauty with a painful past to discover the issues and fault lines shaping Southeast Europe today.</desc>
       <category>Haber</category>
-  </programme>
-  <programme start="20261119000000 +0000" stop="20261119010000 +0000" channel="TURKHABERTV.tr">
-      <title lang="tr">Haber Bülteni</title>
-      <desc lang="tr">Gün içinde yaşanan önemli gelişmeleri ve gündemi belirleyen başlıkları izleyiciyle buluşturan kapsamlı bir programdır. İç ve dış gündeme dair haberler, güncel veriler ve öne çıkan olaylar tarafsız ve anlaşılır bir dille aktarılır. Program, kamuoyunun doğru bilgiye zamanında ulaşmasını hedefler.</desc>
-      <category>Haber</category>
-      <icon src="https://xmltv.live/img.php?id=120451440"/>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119020000 +0000" channel="TURKHABERTV.tr">
       <title lang="tr">Özde Yaşam</title>
@@ -96800,12 +96489,6 @@
       <title lang="tr">8X8</title>
       <desc lang="tr">Yeşilçam, müzik, magazin ve spora dair en özel ve unutulmaz görüntüler izleyici ile buluşuyor. Her bölümde farklı görüntülerin yer aldığı programda sekiz konu ve sekizden geri sayım...</desc>
       <category>Eğlence</category>
-  </programme>
-  <programme start="20261118213000 +0000" stop="20261119010000 +0000" channel="TV100.tr">
-      <title lang="tr">Buket Aydın ile Doğrudan</title>
-      <desc lang="tr">Buket Aydın ve konukları güncel bütün konuları doğrudan ekranlarınıza getiriyor.</desc>
-      <category>Tartışma</category>
-      <icon src="https://xmltv.live/img.php?id=120451994"/>
   </programme>
   <programme start="20261119010000 +0000" stop="20261119020000 +0000" channel="TV100.tr">
       <title lang="tr">Haber Bülteni</title>
