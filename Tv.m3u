@@ -150,10 +150,10 @@ https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://dost.stream.emsal.im/tv/live.m3u8
 
-#EXTINF:-1 tvg-name="1Mus" group-title="MÚSICA" tvg-id="custom.n1mus",1Mus
+#EXTINF:-1 tvg-name="1Mus" group-title="MÚSICA" tvg-id="custom.n1mus" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/1mus.png",1Mus
 #EXTVLCOPT:network-caching=1000
 http://hz1.teleport.cc/HLS/HD.m3u8
-#EXTINF:-1 tvg-name="30A Music" group-title="MÚSICA" tvg-id="custom.n30amusic",30A Music
+#EXTINF:-1 tvg-name="30A Music" group-title="MÚSICA" tvg-id="custom.n30amusic" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/30a-music.png",30A Music
 #EXTVLCOPT:network-caching=1000
 https://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-id="DREAM.TÜRK.tr" tvg-name="Dream Türk" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/m-sica/dream-t-rk.png",Dream Türk
@@ -723,7 +723,7 @@ https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m
 #EXTVLCOPT:network-caching=1000
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8
 
-#EXTINF:-1 tvg-name="MC EU TV" tvg-id="MCTV.de@HD" group-title="INTERNACIONAIS",MC EU TV
+#EXTINF:-1 tvg-name="MC EU TV" tvg-id="MCTV.de@HD" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/mc-eu-tv.png",MC EU TV
 #EXTVLCOPT:network-caching=1000
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #EXTINF:-1 tvg-name="Persiana Türkiye" tvg-id="PersianaTurkiye.fr@SD" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/persiana-t-rkiye.png",Persiana Türkiye
@@ -757,19 +757,19 @@ https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
 #EXTVLCOPT:network-caching=1000
 https://yayin.santraltr.com/hls/dost.m3u8
 
-#EXTINF:-1 group-title="MÚSICA" tvg-name="Company TV" tvg-id="custom.companytv",Company TV
+#EXTINF:-1 group-title="MÚSICA" tvg-name="Company TV" tvg-id="custom.companytv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/company-tv.png",Company TV
 #EXTVLCOPT:network-caching=1000
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/chunklist_w1608519565_b878000_slita.m3u8
 
-#EXTINF:-1 group-title="INTERNACIONAIS" tvg-name="INTV Australia" tvg-id="custom.intvaustralia",INTV Australia
+#EXTINF:-1 group-title="INTERNACIONAIS" tvg-name="INTV Australia" tvg-id="custom.intvaustralia" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/intv-australia.png",INTV Australia
 #EXTVLCOPT:network-caching=1000
 http://tv1.intv.mk:1935/live/intv/index.m3u8
 
-#EXTINF:-1 group-title="MÚSICA" tvg-name="Güçlü TV" tvg-id="custom.guclutv",Güçlü TV
+#EXTINF:-1 group-title="MÚSICA" tvg-name="Güçlü TV" tvg-id="custom.guclutv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/musica/guclu-tv.png",Güçlü TV
 #EXTVLCOPT:network-caching=1000
 https://yayin.santraltr.com/hls/zeynotv.m3u8
 
-#EXTINF:-1 tvg-name="İSVİÇRE TV" group-title="INTERNACIONAIS" tvg-id="custom.isvicretv",İSVİÇRE TV
+#EXTINF:-1 tvg-name="İSVİÇRE TV" group-title="INTERNACIONAIS" tvg-id="custom.isvicretv" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/isvicre-tv.png",İSVİÇRE TV
 #EXTVLCOPT:network-caching=1000
 https://i41.ozelip.com:3269/hybrid/play.m3u8
 
