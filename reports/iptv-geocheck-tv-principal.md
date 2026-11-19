@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-18 22:21 UTC
+- Executado em: 2026-11-19 02:29 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **211**
 - URLs únicas: **209**
@@ -9,8 +9,8 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 192 |
-| LINK NÃO ENCONTRADO (404) | 17 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 191 |
+| LINK NÃO ENCONTRADO (404) | 18 |
 | FALHA DE CONEXÃO (URLError) | 2 |
 
 ## Detalhamento
@@ -65,7 +65,7 @@
 | Erciyes TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Erzurum Web TV | \`win29.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | ES TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| ETV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| ETV | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
 | EURO D | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Ezgi TV | \`live.euromediacenter.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FB TV | \`1hskrdto.rocketcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -80,7 +80,7 @@
 | Halk TV | \`halktv.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | HT Spor TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Güneydoğu TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
-| Hunat TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| Hunat TV | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
 | İçel TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
 | Kardelen TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
 | İzmir Time 35 TV | \`cdn-time35tv.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -111,7 +111,7 @@
 | Konya KTV | \`cdn-ktvtv.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Konya Olay TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Lalegül TV | \`lbl.netmedya.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Life TV | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
+| Life TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Luys TV | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Med Müzik | \`54.36.110.140\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Mekameleen TV | \`mn-nl.mncdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -148,12 +148,12 @@
 | TJK TV | \`tjktv-live.tjk.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Ton TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Kurdî | \`tv-trtkurdi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Müzik | \`stream8.cinerama.uz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
