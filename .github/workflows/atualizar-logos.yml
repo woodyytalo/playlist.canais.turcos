@@ -517,7 +517,7 @@ jobs:
                   target.parent.mkdir(parents=True,exist_ok=True)
                   image.save(target,format="PNG",optimize=True)
                   # A branch contém barras; refs/heads/ identifica o ref completo sem ambiguidade.
-                  new_url = base + "refs/heads/" + branch + "logos-ajustadas/" + folder + "/" + filename
+                  new_url = base + branch + "logos-ajustadas/" + folder + "/" + filename
                   lines[i] = line[:match.start(1)] + new_url + line[match.end(1):]
                   ok += 1
                   print(f"OK [{category}] {name}: {filename}")
