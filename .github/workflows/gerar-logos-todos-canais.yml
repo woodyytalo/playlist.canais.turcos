@@ -1,0 +1,36 @@
+name: Gerar todas as logos — padrão vermelho metálico
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gerar-logos-todos-canais
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar biblioteca de imagem
+        run: python -m pip install --upgrade Pillow
+      - name: Gerar logos a partir de Tv.m3u
+        run: python scripts/gerar_logos_todos_canais.py
+      - name: Disponibilizar pacote de logos
+        uses: actions/upload-artifact@v4
+        with:
+          name: logos-todos-canais-vermelho-metalico
+          path: artifacts/logos-todos-canais.zip
+          if-no-files-found: error
+          retention-days: 30
