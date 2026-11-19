@@ -469,7 +469,10 @@ jobs:
               prefix = "woodyytalo/playlist.canais.turcos/"
               if parsed.netloc == "raw.githubusercontent.com" and path.startswith(prefix):
                   local = path[len(prefix):]
-                  if local.startswith(branch):
+                  explicit_ref = "refs/heads/" + branch
+                  if local.startswith(explicit_ref):
+                      local = local[len(explicit_ref):]
+                  elif local.startswith(branch):
                       local = local[len(branch):]
                   candidate = Path(local)
                   if candidate.is_file():
@@ -513,7 +516,8 @@ jobs:
                   image = normalize(raw)
                   target.parent.mkdir(parents=True,exist_ok=True)
                   image.save(target,format="PNG",optimize=True)
-                  new_url = base + branch + "logos-ajustadas/" + folder + "/" + filename
+                  # A branch contém barras; refs/heads/ identifica o ref completo sem ambiguidade.
+                  new_url = base + "refs/heads/" + branch + "logos-ajustadas/" + folder + "/" + filename
                   lines[i] = line[:match.start(1)] + new_url + line[match.end(1):]
                   ok += 1
                   print(f"OK [{category}] {name}: {filename}")
