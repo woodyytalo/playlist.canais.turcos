@@ -129,317 +129,10 @@ jobs:
           print(f"Buffer de 1 segundo aplicado em {channels} canais.")
           PY
 
-      - name: Preparar ferramentas para logos quadradas no padrão 1:1 (512x165)
-        run: |
-          python -m pip install --quiet pillow cairosvg
+      - name: Preparar ferramentas para padronizar logos existentes em 512x165
+        run: python -m pip install --quiet pillow cairosvg
 
-      - name: Importar catálogo de logos turcas em lote (PNG 512x165)
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          from urllib.request import Request, urlopen
-          from concurrent.futures import ThreadPoolExecutor, as_completed
-          from io import BytesIO
-          from PIL import Image
-          import json, re, csv
-
-          OUT = Path("logos-turcas-catalogo")
-          OUT.mkdir(parents=True, exist_ok=True)
-          API = "https://api.github.com/repos/tv-logo/tv-logos/git/trees/main?recursive=1"
-
-          def get(url):
-              req = Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; Turkish-TV-Logo-Catalog/1.0)"})
-              with urlopen(req, timeout=20) as response:
-                  return response.read()
-
-          def normalize(raw):
-              im = Image.open(BytesIO(raw)).convert("RGBA")
-              alpha = im.getchannel("A")
-              bbox = alpha.getbbox()
-              if bbox:
-                  im = im.crop(bbox)
-              im.thumbnail((492, 145), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
-              canvas.alpha_composite(im, ((512-im.width)//2, (165-im.height)//2))
-              return canvas.convert("RGB")
-
-          tree = json.loads(get(API).decode("utf-8"))
-          files = [x for x in tree.get("tree", [])
-                   if x.get("type") == "blob"
-                   and x.get("path", "").lower().startswith("countries/turkey/")
-                   and re.search(r"\.png$", x.get("path", ""), re.I)]
-          def one(item):
-              path = item["path"]
-              url = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/" + path
-              filename = "tvlogos-github-" + re.sub(r"[^a-z0-9.-]+", "-", path.rsplit("/",1)[-1].lower())
-              try:
-                  image = normalize(get(url))
-                  target = OUT / filename
-                  image.save(target, "PNG", optimize=True)
-                  return (filename, url, "OK")
-              except Exception as exc:
-                  return (filename, url, "FALHA: " + str(exc))
-
-          results = []
-          with ThreadPoolExecutor(max_workers=12) as pool:
-              futures = [pool.submit(one, item) for item in files]
-              for future in as_completed(futures):
-                  result = future.result()
-                  results.append(result)
-                  print(result[2], result[0])
-
-          with (OUT / "FONTES.csv").open("w", newline="", encoding="utf-8") as f:
-              writer = csv.writer(f)
-              writer.writerow(["arquivo_png", "url_original", "resultado"])
-              writer.writerows(sorted(results))
-          ok = sum(1 for x in results if x[2] == "OK")
-          print(f"CATÁLOGO TURCO: {ok}/{len(results)} logos importadas e normalizadas em 512x165.")
-          PY
-
-      - name: Importar logos adicionais (Wikimedia, TRT oficial e GunesTV)
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          from urllib.request import Request, urlopen
-          from urllib.parse import urlencode
-          from io import BytesIO
-          from zipfile import ZipFile
-          from PIL import Image
-          import cairosvg, csv, json, re, html
-          
-          ROOT = Path("logos-turcas-catalogo/fontes-adicionais")
-          ROOT.mkdir(parents=True, exist_ok=True)
-          rows = []
-          
-          def get(url):
-              req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; Turkish-TV-Logo-Catalog/1.0)"})
-              with urlopen(req, timeout=35) as response:
-                  return response.read()
-          
-          def slug(value):
-              value = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
-              return value[:100] or "logo"
-          
-          def normalize(raw):
-              if b"<svg" in raw[:8192].lower() or raw.lstrip().startswith(b"<?xml"):
-                  raw = cairosvg.svg2png(bytestring=raw)
-              im = Image.open(BytesIO(raw)).convert("RGBA")
-              bbox = im.getchannel("A").getbbox()
-              if bbox:
-                  im = im.crop(bbox)
-              im.thumbnail((492, 145), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
-              canvas.alpha_composite(im, ((512-im.width)//2, (165-im.height)//2))
-              out = BytesIO()
-              canvas.convert("RGB").save(out, format="PNG", optimize=True)
-              return out.getvalue()
-          
-          def save(source, label, url, target_dir, license_name="", credit=""):
-              try:
-                  raw = get(url)
-                  png = normalize(raw)
-                  target_dir.mkdir(parents=True, exist_ok=True)
-                  filename = slug(label) + ".png"
-                  target = target_dir / filename
-                  # Avoid collisions when two channels share a title.
-                  n = 2
-                  while target.exists() and target.read_bytes() != png:
-                      target = target_dir / (slug(label) + "-" + str(n) + ".png")
-                      n += 1
-                  target.write_bytes(png)
-                  rows.append([source, label, str(target).replace("\\", "/"), url, license_name, credit, "OK"])
-                  print("OK", source, label, target)
-              except Exception as exc:
-                  rows.append([source, label, "", url, license_name, credit, "FALHA: " + str(exc)])
-                  print("FALHA", source, label, exc)
-          
-          # 1) Wikimedia Commons: category principal + categoria SVG.
-          for category in [
-              "Category:Logos of television channels in Turkey",
-              "Category:SVG logos of television channels in Turkey",
-          ]:
-              continuation = None
-              while True:
-                  params = {
-                      "action": "query", "generator": "categorymembers",
-                      "gcmtitle": category, "gcmtype": "file", "gcmlimit": "500",
-                      "prop": "imageinfo", "iiprop": "url|extmetadata", "format": "json"
-                  }
-                  if continuation:
-                      params["gcmcontinue"] = continuation
-                  data = json.loads(get("https://commons.wikimedia.org/w/api.php?" + urlencode(params)).decode("utf-8"))
-                  pages = data.get("query", {}).get("pages", {})
-                  for page in pages.values():
-                      info = (page.get("imageinfo") or [{}])[0]
-                      url = info.get("url")
-                      if not url:
-                          continue
-                      meta = info.get("extmetadata", {})
-                      license_name = html.unescape(meta.get("LicenseShortName", {}).get("value", ""))
-                      credit = html.unescape(meta.get("Artist", {}).get("value", ""))
-                      title = page.get("title", "logo").replace("File:", "")
-                      save("Wikimedia Commons", title, url, ROOT / "wikimedia-commons", license_name, credit)
-                  continuation = data.get("continue", {}).get("gcmcontinue")
-                  if not continuation:
-                      break
-          
-          # 2) TRT official TV-channel logo pack (ZIP linked by TRT corporate page).
-          try:
-              archive = ZipFile(BytesIO(get("https://www.trt.net.tr/logos/Televizyon.zip")))
-              for member in archive.infolist():
-                  if member.is_dir() or not re.search(r"\.(png|jpe?g|webp|gif|svg)$", member.filename, re.I):
-                      continue
-                  try:
-                      png = normalize(archive.read(member))
-                      target_dir = ROOT / "trt-oficial"
-                      target_dir.mkdir(parents=True, exist_ok=True)
-                      target = target_dir / (slug(Path(member.filename).stem) + ".png")
-                      target.write_bytes(png)
-                      rows.append(["TRT oficial", Path(member.filename).stem, str(target).replace("\\", "/"),
-                                   "https://www.trt.net.tr/logos/Televizyon.zip", "TRT - pacote oficial", "TRT Kurumsal", "OK"])
-                      print("OK TRT oficial", member.filename)
-                  except Exception as exc:
-                      rows.append(["TRT oficial", member.filename, "", "https://www.trt.net.tr/logos/Televizyon.zip",
-                                   "TRT - pacote oficial", "TRT Kurumsal", "FALHA: " + str(exc)])
-                      print("FALHA TRT", member.filename, exc)
-          except Exception as exc:
-              rows.append(["TRT oficial", "Pacote de logos de televisão", "", "https://www.trt.net.tr/logos/Televizyon.zip",
-                           "TRT - pacote oficial", "TRT Kurumsal", "FALHA: " + str(exc)])
-              print("FALHA pacote TRT", exc)
-          
-          # 3) GunesTV: use only logo URLs from entries explicitly marked as Turkey.
-          try:
-              data = json.loads(get("https://raw.githubusercontent.com/Oktay2617/gunestv/main/channels_turkey.json").decode("utf-8"))
-              seen = set()
-              for channel in data.get("channels", []):
-                  if str(channel.get("country", "")).strip().lower() != "turkey":
-                      continue
-                  url = str(channel.get("logo", "")).strip()
-                  if not url or url in seen:
-                      continue
-                  seen.add(url)
-                  save("GunesTV", str(channel.get("name") or channel.get("id") or "canal"), url, ROOT / "gunestv")
-          except Exception as exc:
-              rows.append(["GunesTV", "Catálogo Turkey", "", "https://raw.githubusercontent.com/Oktay2617/gunestv/main/channels_turkey.json",
-                           "", "", "FALHA: " + str(exc)])
-              print("FALHA GunesTV", exc)
-          
-          with (ROOT / "FONTES-ADICIONAIS.csv").open("w", newline="", encoding="utf-8") as f:
-              writer = csv.writer(f)
-              writer.writerow(["fonte", "canal_ou_arquivo", "png_256", "url_original", "licenca", "credito", "resultado"])
-              writer.writerows(rows)
-          
-          ok = sum(1 for row in rows if row[-1] == "OK")
-          print(f"FONTES ADICIONAIS: {ok}/{len(rows)} imagens normalizadas para PNG 512x165.")
-          
-          PY
-
-      - name: Criar e padronizar logos dos canais adicionados no padrão aprovado (512x165)
-        shell: bash
-        run: |
-          python - <<'PY'
-          from io import BytesIO
-          from pathlib import Path
-          from urllib.request import Request, urlopen
-          from PIL import Image, ImageChops
-          import cairosvg
-
-          # Fontes originais para os quatro canais adicionados recentemente.
-          sources = {
-              "gzt.png": "https://assets.gzt.com/gzt/wwwroot/images/media-kit/gzt-logo.png",
-              "bein-sports-1-turk.png": "https://i.ibb.co/3fPVPLL/Bein1.png",
-              "4u-family-persian.png": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UFamily.tr.png",
-              "power-tv-720p.png": "https://www.tvlogo.org/turkey/power-tv-hd-tr.png",
-              # Logos identificadas em fontes específicas dos canais.
-              "frt-tv.png": "https://izle.livetvuk.com/uploads/tv/278-frttv.jpg",
-              "izmir-time-35-tv.png": "https://izmirtime35com.teimg.com/izmirtime35-com/uploads/2023/09/logo.png",
-              "syria-tv.png": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Syria_TV_logo_2026.png",
-              "retro-music-television.png": "https://www.tvchannellists.com/wiki/images/8/80/Retro_Music_Television.svg",
-          }
-          # Os 13 canais ainda sem logo original usam, temporariamente, seus SVGs
-          # identificadores. Eles também são convertidos para PNG quadrado 512x165.
-          placeholders = {
-              "anadolu-tv.png": "anadolu-tv.svg",
-              "ezgi-tv.png": "ezgi-tv.svg",
-              "k-kayseri.png": "k-kayseri.svg",
-              "kanal-19.png": "kanal-19.svg",
-              "kanal-53.png": "kanal-53.svg",
-              "kayhan-tv.png": "kayhan-tv.svg",
-              "konya-ktv.png": "konya-ktv.svg",
-              "tv-karadeniz.png": "tv-karadeniz.svg",
-              "balkan-turk.png": "balkan-turk.svg",
-              "rtg-international.png": "rtg-international.svg",
-              "arzu-film.png": "arzu-film.svg",
-              "madinah-tv.png": "madinah-tv.svg",
-              "iq-channel.png": "iq-channel.svg",
-              # Fallbacks visuais para quando uma fonte externa estiver temporariamente indisponível.
-              "frt-tv.png": "frt-tv.svg",
-              "izmir-time-35-tv.png": "izmir-time-35-tv.svg",
-              "syria-tv.png": "syria-tv.svg",
-              "retro-music-television.png": "retro-music-television.svg",
-          }
-          out = Path("logos-ajustadas")
-          out.mkdir(exist_ok=True)
-
-          def normalize(raw):
-              if raw.lstrip().startswith(b"<") or b"<svg" in raw[:1000].lower():
-                  raw = cairosvg.svg2png(bytestring=raw)
-              logo = Image.open(BytesIO(raw)).convert("RGBA")
-              # Remove apenas margens totalmente transparentes; preserva o desenho original.
-              alpha = logo.getchannel("A")
-              bbox = alpha.getbbox()
-              if bbox:
-                  logo = logo.crop(bbox)
-              logo.thumbnail((492, 145), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
-              canvas.alpha_composite(logo, ((512-logo.width)//2, (165-logo.height)//2))
-              return canvas.convert("RGB")
-
-          # Gera as 13 imagens provisórias no mesmo padrão físico 512x165.
-          # Quando uma fonte original for adicionada ao dicionário sources, ela
-          # substituirá automaticamente o SVG provisório na próxima execução.
-          for filename, svg_name in placeholders.items():
-              raw = (Path("logos-placeholder") / svg_name).read_bytes()
-              normalize(raw).save(out / filename, format="PNG", optimize=True)
-              print(f"Imagem provisória criada: {filename} — 512x165, fundo preto")
-
-          # Recria as logos dos canais com fontes originais.
-          for filename, url in sources.items():
-              try:
-                  req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; IPTV-Logo-Bot/1.0)", "Accept": "image/png,image/svg+xml,image/*;q=0.9,*/*;q=0.8"})
-                  with urlopen(req, timeout=30) as response:
-                      raw = response.read()
-                  normalize(raw).save(out / filename, format="PNG", optimize=True)
-                  print(f"Logo original criada: {filename} — 512x165, fundo preto, sem deformação")
-              except Exception as exc:
-                  # Não interrompe o lote: mantém o PNG de fallback gerado acima, se disponível.
-                  print(f"Aviso: fonte indisponível para {filename}: {exc}; mantendo fallback quando existente.")
-
-          # Reenquadra e centraliza as logos existentes, preservando a proporção e sem esticar a arte (lote solicitado).
-          for path in sorted(out.glob("*.png")):
-              if path.name in sources:
-                  continue
-              logo = Image.open(path).convert("RGBA")
-              # As versões antigas tinham fundo preto 2:1; identifica a área visível da arte.
-              rgb = logo.convert("RGB")
-              diff = ImageChops.difference(rgb, Image.new("RGB", rgb.size, (0, 0, 0)))
-              bbox = diff.getbbox()
-              if bbox:
-                  logo = logo.crop(bbox)
-              alpha_bbox = logo.getchannel("A").getbbox()
-              if alpha_bbox:
-                  logo = logo.crop(alpha_bbox)
-              logo.thumbnail((492, 145), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
-              canvas.alpha_composite(logo, ((512-logo.width)//2, (165-logo.height)//2))
-              canvas.convert("RGB").save(path, format="PNG", optimize=True)
-              print(f"Logo reenquadrada: {path.name} — 512x165")
-          PY
-
-      - name: Atualizar todas as logos da TV principal por categoria (512x165)
-        # Reprocessa também fontes alternativas verificadas para corrigir logos antigas indisponíveis.
+      - name: Padronizar somente as logos já usadas na TV principal (512x165)
         shell: bash
         run: |
           python - <<'PY'
@@ -452,81 +145,76 @@ jobs:
 
           playlist = Path("Tv.m3u")
           lines = playlist.read_text(encoding="utf-8").splitlines()
-          base = "https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/"
-          branch = "github/workflows/atualizar-logos.yml/"
           root = Path("logos-ajustadas")
-          ok = failed = 0
-          used = {}
+          branch_path = "github/workflows/atualizar-logos.yml/"
+          raw_prefix = "woodyytalo/playlist.canais.turcos/"
+          base = "https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/" + branch_path
 
           def slug(value):
-              value = value.lower().strip()
-              value = re.sub(r"[^a-z0-9]+", "-", value).strip("-")
-              return value or "canal"
+              return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-") or "canal"
 
-          def source_bytes(url):
+          def read_source(url):
               parsed = urlparse(url)
-              path = unquote(parsed.path).lstrip("/")
-              prefix = "woodyytalo/playlist.canais.turcos/"
-              if parsed.netloc == "raw.githubusercontent.com" and path.startswith(prefix):
-                  local = path[len(prefix):]
-                  explicit_ref = "refs/heads/" + branch
-                  if local.startswith(explicit_ref):
-                      local = local[len(explicit_ref):]
-                  elif local.startswith(branch):
-                      local = local[len(branch):]
-                  candidate = Path(local)
+              local_path = unquote(parsed.path).lstrip("/")
+              if parsed.netloc == "raw.githubusercontent.com" and local_path.startswith(raw_prefix):
+                  local_path = local_path[len(raw_prefix):]
+                  if local_path.startswith(branch_path):
+                      local_path = local_path[len(branch_path):]
+                  candidate = Path(local_path)
                   if candidate.is_file():
                       return candidate.read_bytes()
-              req = Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; IPTV-Logo-Bot/1.0)"})
-              with urlopen(req, timeout=25) as response:
+              request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+              with urlopen(request, timeout=30) as response:
                   return response.read()
 
           def normalize(raw):
-              if b"<svg" in raw[:4096].lower() or raw.lstrip().startswith(b"<?xml"):
+              if raw.lstrip().startswith(b"<") or b"<svg" in raw[:4096].lower():
                   raw = cairosvg.svg2png(bytestring=raw)
-              im = Image.open(BytesIO(raw)).convert("RGBA")
-              alpha = im.getchannel("A")
-              bbox = alpha.getbbox()
-              if bbox:
-                  im = im.crop(bbox)
-              im.thumbnail((492,145), Image.Resampling.LANCZOS)
-              canvas = Image.new("RGBA",(512,165),(0,0,0,255))
-              canvas.alpha_composite(im,((512-im.width)//2,(165-im.height)//2))
-              return canvas.convert("RGB")
+              image = Image.open(BytesIO(raw)).convert("RGBA")
+              bounds = image.getchannel("A").getbbox()
+              if bounds:
+                  image = image.crop(bounds)
+              image.thumbnail((492, 145), Image.Resampling.LANCZOS)
+              canvas = Image.new("RGBA", (512, 165), (0, 0, 0, 255))
+              canvas.alpha_composite(image, ((512-image.width)//2, (165-image.height)//2))
+              output = BytesIO()
+              canvas.convert("RGB").save(output, format="PNG", optimize=True)
+              return output.getvalue()
 
-          for i,line in enumerate(lines):
+          completed = 0
+          failed = 0
+          occurrences = {}
+          for index, line in enumerate(lines):
               if not line.startswith("#EXTINF"):
                   continue
               match = re.search(r'tvg-logo="([^"]+)"', line)
               if not match:
                   failed += 1
+                  print("SEM LOGO INFORMADA:", line.rsplit(",", 1)[-1])
                   continue
-              url = match.group(1)
-              category = re.search(r'group-title="([^"]+)"',line)
-              category = category.group(1) if category else "SEM CATEGORIA"
-              name = line.rsplit(",",1)[-1].strip()
+              source_url = match.group(1)
+              category_match = re.search(r'group-title="([^"]+)"', line)
+              category = category_match.group(1) if category_match else "sem-categoria"
+              channel = line.rsplit(",", 1)[-1].strip()
               folder = slug(category)
-              stem = slug(name)
-              key = (folder,stem)
-              used[key] = used.get(key,0)+1
-              filename = stem + (f"-{used[key]}" if used[key]>1 else "") + ".png"
+              stem = slug(channel)
+              key = (folder, stem)
+              occurrences[key] = occurrences.get(key, 0) + 1
+              filename = stem + (f"-{occurrences[key]}" if occurrences[key] > 1 else "") + ".png"
               target = root / folder / filename
               try:
-                  raw = source_bytes(url)
-                  image = normalize(raw)
-                  target.parent.mkdir(parents=True,exist_ok=True)
-                  image.save(target,format="PNG",optimize=True)
-                  # O caminho raw usa o nome completo da branch diretamente, sem refs/heads/.
-                  new_url = base + branch + "logos-ajustadas/" + folder + "/" + filename
-                  lines[i] = line[:match.start(1)] + new_url + line[match.end(1):]
-                  ok += 1
-                  print(f"OK [{category}] {name}: {filename}")
-              except Exception as exc:
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(normalize(read_source(source_url)))
+                  new_url = base + "logos-ajustadas/" + folder + "/" + filename
+                  lines[index] = line[:match.start(1)] + new_url + line[match.end(1):]
+                  completed += 1
+                  print(f"PADRONIZADA 512x165: {channel}")
+              except Exception as error:
                   failed += 1
-                  print(f"FALHA [{category}] {name}: mantendo logo original ({exc})")
+                  print(f"MANTIDA SEM ALTERAÇÃO: {channel} ({error})")
 
-          playlist.write_text("\n".join(lines)+"\n",encoding="utf-8")
-          print(f"Resultado: {ok} logos atualizadas; {failed} mantidas sem alteração por falha de origem.")
+          playlist.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+          print(f"Resultado: {completed} logos padronizadas em 512x165; {failed} sem alteração.")
           PY
 
       - name: Salvar alterações
