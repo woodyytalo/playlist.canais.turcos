@@ -191,7 +191,7 @@ https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.etv" tvg-name="ETV" group-title="REGIONAIS" tvg-logo="https://www.etvkayseri.com/wp-content/uploads/2023/03/cropped-cropped-E-Tv-Logo_yeni-e1679137718168-1.png",ETV
+#EXTINF:-1 tvg-id="custom.etv" tvg-name="ETV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/etv.png",ETV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 
@@ -223,7 +223,7 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 #EXTVLCOPT:network-caching=1000
 https://gcinemahls.wns.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-id="custom.grtgazianteptv" tvg-name="GRT Gaziantep TV" tvg-logo="https://static.daktilo.com/sites/1525/uploads/2023/11/28/large/desktop.png" group-title="REGIONAIS",GRT Gaziantep TV
+#EXTINF:-1 tvg-id="custom.grtgazianteptv" tvg-name="GRT Gaziantep TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/grt-gaziantep-tv.png" group-title="REGIONAIS",GRT Gaziantep TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 
@@ -296,7 +296,7 @@ https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.kanal32" tvg-name="Kanal 32" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kanal-32-tr.png" group-title="REGIONAIS",Kanal 32
+#EXTINF:-1 tvg-id="custom.kanal32" tvg-name="Kanal 32" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/regionais/kanal-32.png" group-title="REGIONAIS",Kanal 32
 #EXTVLCOPT:network-caching=1000
 https://vavoo.to/vavoo-iptv/play/37609264903fe9705b8a5e
 
