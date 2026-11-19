@@ -33,7 +33,7 @@ jobs:
       - name: Preparar Pillow
         run: python -m pip install --quiet pillow
 
-      - name: Aplicar logos originais em fundo preto 256x256 e preservar quebras M3U
+      - name: Aplicar logos originais em fundo preto 512x512 e preservar quebras M3U
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -123,8 +123,8 @@ jobs:
 
               with Image.open(source) as original:
                   image = original.convert("RGBA")
-                  image.thumbnail((232, 232), Image.Resampling.LANCZOS)
-                  canvas = Image.new("RGBA", (256, 256), (0, 0, 0, 255))
+                  image.thumbnail((464, 464), Image.Resampling.LANCZOS)
+                  canvas = Image.new("RGBA", (512, 512), (0, 0, 0, 255))
                   x = (256 - image.width) // 2
                   y = (256 - image.height) // 2
                   canvas.alpha_composite(image, (x, y))
@@ -156,7 +156,7 @@ jobs:
             echo "Nenhuma alteração para publicar."
             exit 0
           fi
-          git commit -m "Restaurar logos originais e padronizar TV principal"
+          git commit -m "Restaurar logos originais em HD 512x512 na TV principal"
           for attempt in 1 2 3 4 5; do
             git fetch origin "${GITHUB_REF_NAME}"
             git rebase "origin/${GITHUB_REF_NAME}" || { git rebase --abort || true; sleep 2; continue; }
