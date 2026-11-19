@@ -34,7 +34,7 @@ jobs:
           base = f"https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/{branch}/"
           wanted = {
               "1mus", "30a music", "mc eu tv", "company tv",
-              "intv australia", "güçlü tv", "i̇svi̇çre tv", "isviçre tv"
+              "intv australia", "güçlü tv", "i̇svi̇çre tv", "isviçre tv", "now rock"
           }
 
           def slug(s):
