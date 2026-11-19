@@ -1,6 +1,6 @@
 name: Corrigir logos originais da TV principal
 # Tolerar apenas truncamento dos JPEGs de referência enviados no chat
-# Segunda execução de validação
+# Buscar logos originais no catálogo turco quando não houver arquivo local
 # Atualiza os arquivos de referência enviados pelo usuário
 
 on:
@@ -40,7 +40,7 @@ jobs:
           from PIL import Image, ImageFile
           ImageFile.LOAD_TRUNCATED_IMAGES = True
           from urllib.parse import urlparse, unquote
-          import re, unicodedata
+          import re, unicodedata, urllib.request
 
           ROOT = Path(".")
           LEGACY = Path("/tmp/logos-originais")
@@ -103,7 +103,87 @@ jobs:
                       source = None
 
               if source is None:
-                  # Do not keep the invented geometric logo when no original asset exists.
+                  # Consultar o catálogo turco de logos antes de deixar o canal sem imagem.
+                  remote_names = {
+                      "24 tv": "24-tr.png",
+                      "360 tv": "360-tr.png",
+                      "a haber": "a-haber-tr.png",
+                      "a para": "a-para-tr.png",
+                      "a spor": "a-spor-tr.png",
+                      "a2": "a2-tr.png",
+                      "aksu tv": "aksu-tv-tr.png",
+                      "altas tv": "altas-tv-tr.png",
+                      "atv": "atv-tr.png",
+                      "bengü türk": "bengu-turk-tr.png",
+                      "beyaz tv": "beyaz-tv-tr.png",
+                      "bloomberg ht": "bloomberg-ht-tr.png",
+                      "cartoon network türkiye": "cartoon-network-tr.png",
+                      "cnn türk": "cnn-turk-tr.png",
+                      "çay tv": "cay-tv-tr.png",
+                      "çiftçi tv": "ciftci-tv-tr.png",
+                      "diyanet tv": "diyanet-tv-tr.png",
+                      "diyar tv": "diyar-tv-tr.png",
+                      "dream türk": "dream-turk-tr.png",
+                      "edessa tv": "edessa-tv-tr.png",
+                      "euro d": "euro-d-tr.png",
+                      "euro star tv": "euro-star-tr.png",
+                      "fashion one": "fashion-one-tv-tr.png",
+                      "fb tv": "fenerbahce-tv-tr.png",
+                      "flash haber tv": "flash-tv-tr.png",
+                      "haber global": "haber-global-tr.png",
+                      "habertürk": "haberturk-tr.png",
+                      "halk tv": "halk-tv-tr.png",
+                      "kanal 7 avrupa": "kanal-7-avrupa-tr.png",
+                      "kanal d": "kanal-d-tr.png",
+                      "kral pop": "kral-pop-tr.png",
+                      "mercan tv": "mercan-tv-tr.png",
+                      "minika çocuk": "minika-cocuk-tr.png",
+                      "minika go": "minika-go-tr.png",
+                      "now": "now-tr.png",
+                      "ntv": "ntv-tr.png",
+                      "power tv (720p)": "power-tv-tr.png",
+                      "power dance tv": "power-tv-tr.png",
+                      "power love tv": "power-tv-tr.png",
+                      "powertürk tv": "powerturk-tr.png",
+                      "rehber tv": "rehber-tv-tr.png",
+                      "sat7 türk": "sat7-turk-tr.png",
+                      "show max": "show-max-tr.png",
+                      "show tv": "show-tr.png",
+                      "star tv": "star-tv-tr.png",
+                      "tay tv": "tay-tv-tr.png",
+                      "tbmm tv": "tbmm-tv-tr.png",
+                      "tele1": "tele1-tr.png",
+                      "tempo tv": "tempo-tv-tr.png",
+                      "teve2": "teve2-tr.png",
+                      "tgrt haber": "tgrt-haber-tr.png",
+                      "tivi 6": "tivi6-tr.png",
+                      "tjk tv": "tjk-tv-tr.png",
+                      "tv 1": "tv1-tr.png",
+                      "tv 264": "tv264-tr.png",
+                      "tv 4": "tv4-tr.png",
+                      "tv 52": "tv52-tr.png",
+                      "tv100": "tv100-tr.png",
+                      "tvnet": "tvnet-tr.png",
+                      "ülke tv": "ulke-tv-tr.png"
+                  }
+                  remote_file = remote_names.get(name.casefold(), slug(name) + "-tr.png")
+                  try:
+                      request = urllib.request.Request(
+                          "https://www.tvlogo.org/turkey/" + remote_file,
+                          headers={"User-Agent": "Mozilla/5.0"}
+                      )
+                      with urllib.request.urlopen(request, timeout=15) as response:
+                          payload = response.read()
+                      temp_source = Path("/tmp") / f"tvlogo-{index}.png"
+                      temp_source.write_bytes(payload)
+                      with Image.open(temp_source) as check:
+                          check.verify()
+                      source = temp_source
+                  except Exception:
+                      source = None
+
+              if source is None:
+                  # Não inventar marca: manter o canal sem logo até localizar o arquivo original.
                   line = re.sub(r'\s+tvg-logo="[^"]*"', "", line)
                   lines[index] = line
                   missing.append(name)
