@@ -371,7 +371,7 @@ https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u
 #EXTVLCOPT:network-caching=1000
 https://lbl.netmedya.net/hls/lalegultv.m3u8
 
-#EXTINF:-1 tvg-id="custom.lifetv" tvg-name="Life TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/not-cias/life-tv.png",Life TV
+#EXTINF:-1 tvg-id="custom.lifetv" tvg-name="Life TV" group-title="NOTÍCIAS" tvg-logo="https://i.imgur.com/lWeJxm0.png",Life TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
@@ -595,7 +595,7 @@ https://vavoo.to/vavoo-iptv/play/108017205852b77c50bdce
 #EXTVLCOPT:network-caching=1000
 http://canli.tvden.com.tr/hls/live.m3u8
 
-#EXTINF:-1 tvg-id="custom.tvkaradeniz" tvg-name="TV Karadeniz" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/cultura-educa-o/tv-karadeniz.png",TV Karadeniz
+#EXTINF:-1 tvg-id="custom.tvkaradeniz" tvg-name="TV Karadeniz" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://i.imgur.com/wyWappU.png",TV Karadeniz
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
