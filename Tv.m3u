@@ -595,7 +595,7 @@ https://vavoo.to/vavoo-iptv/play/108017205852b77c50bdce
 #EXTVLCOPT:network-caching=1000
 http://canli.tvden.com.tr/hls/live.m3u8
 
-#EXTINF:-1 tvg-id="custom.tvkaradeniz" tvg-name="TV Karadeniz" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://i.imgur.com/wyWappU.png",TV Karadeniz
+#EXTINF:-1 tvg-id="custom.tvkaradeniz" tvg-name="TV Karadeniz" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://asset.artidijitalmedya.com/image/400x400/channels/v1/logo_103.png?v=15",TV Karadeniz
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
