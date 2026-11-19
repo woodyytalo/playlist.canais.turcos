@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-19 02:54 UTC
+- Executado em: 2026-11-19 17:57 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **211**
 - URLs únicas: **209**
@@ -9,9 +9,11 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 191 |
-| LINK NÃO ENCONTRADO (404) | 18 |
-| FALHA DE CONEXÃO (URLError) | 2 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 188 |
+| FALHA DE CONEXÃO (URLError) | 17 |
+| LINK NÃO ENCONTRADO (404) | 3 |
+| FALHA DE CONEXÃO (TimeoutError) | 2 |
+| ACESSO NEGADO — possível restrição regional ou autorização | 1 |
 
 ## Detalhamento
 
@@ -29,16 +31,16 @@
 | Al Zahra TV Turkic | \`ak.imamhussein.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Alanya Posta TV | \`api-tv3.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Almahriah TV | \`starmenajo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Altas TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| Altas TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Anadolu TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
 | ARAS TV | \`1.rtmp.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | AS TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| ATV | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| ATV Alanya | \`cdn-alanyatv.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| ATV | \`rnttwmjcin.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
+| ATV Alanya | \`cdn-alanyatv.yayin.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
 | Bengü Türk | \`tv.ensonhaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Beyaz TV | \`beyaztv-live.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Bi Kanal | \`bikanal-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Bir TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| Bir TV | \`edge.taksimbilisim.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Bloomberg HT | \`193.123.61.120\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Bloomberg HT 2 | \`tv.ensonhaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | BRTV Karabük | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -46,10 +48,10 @@
 | CİNE1 | \`canliyayin.cine1.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | CNBC e | \`hnpsechtsc.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | CNN Türk | \`moondigitaledge2.radyotvonline.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Çay TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| Çay TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Çiftçi TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Deniz Postası TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| DHA | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| DHA | \`603c568fccdf5.streamlock.net\` | FALHA DE CONEXÃO (URLError) | - |
 | Dim TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Diyanet TV | \`eustr73.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Diyar TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -79,10 +81,10 @@
 | Habertürk | \`haberturk.blutv.com\` | FALHA DE CONEXÃO (URLError) | - |
 | Halk TV | \`halktv.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | HT Spor TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| Güneydoğu TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
-| Hunat TV | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
-| İçel TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
-| Kardelen TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| Güneydoğu TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
+| Hunat TV | \`59cba4d34b678.streamlock.net\` | FALHA DE CONEXÃO (URLError) | - |
+| İçel TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
+| Kardelen TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | İzmir Time 35 TV | \`cdn-time35tv.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | İlke TV | \`stream.ilketv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | K+ Kayseri | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -92,8 +94,8 @@
 | Kanal 23 | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Kanal 26 Eskişehir | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Kanal 3 | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Kanal 32 | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
-| Kanal 33 | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| Kanal 32 | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
+| Kanal 33 | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Kanal 34 | \`live.euromediacenter.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Kanal 53 | \`kanal53.ozelip.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Kanal 58 | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -119,9 +121,9 @@
 | Mercan TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Minika Çocuk | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| MTürk TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| MTürk TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Play TV | \`web.onair-radio.eu\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| NOW | \`uycyyuuzyh.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| NOW | \`uycyyuuzyh.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
 | NR1 Aşk | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NR1 Damar | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NR1 Dance | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -147,10 +149,10 @@
 | Tivi 6 | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TJK TV | \`tjktv-live.tjk.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Ton TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
+| TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -161,11 +163,11 @@
 | NR1 Fashion One | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Türk | \`tv-trtturk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT World | \`cdn.pishow.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TürkHaber | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
-| TV 1 | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| TürkHaber | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
+| TV 1 | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | TV 264 | \`mc1.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TV 41 | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TV 52 | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| TV 52 | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | TV DEN | \`canli.tvden.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TV Karadeniz | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TV100 | \`ensonhaber-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -197,7 +199,7 @@
 | Kanal Ada | \`145.239.58.133\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Arzu Film | \`raw.githubusercontent.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Ekol Sports | \`ekoltv-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Kanal Urfa | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| Kanal Urfa | \`broadcasttr.com\` | FALHA DE CONEXÃO (URLError) | - |
 | Trabzon Buyuksehir Belediyesi TV | \`tv191.radyotelekom.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Urfanatik TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | MADINAH TV | \`cdn-globecast.akamaized.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -206,7 +208,7 @@
 | BabyFirst TV | \`cdn.fast.jwp.services\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TLC | \`s6.hopslan.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Love Nature | \`mumbai-edge.smartplaytv.in\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| ETV Manisa | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
+| ETV Manisa | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Dizi TV | \`playlist.fasttvcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | ABN TURKEY | \`mediaserver.abnvideos.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Dost | \`yayin.santraltr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
