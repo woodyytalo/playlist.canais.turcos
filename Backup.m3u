@@ -8675,3 +8675,11 @@ https://vavoo.to/vavoo-iptv/play/1467834090ec77c1def93a
 https://live.zoomnews.info/live/Zoom/index.m3u8
 
 # IPTV CAT TURQUIA — IMPORTAÇÃO DE LINKS
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",ETV Kayseri (720p)
+https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",Kanal 7 Avrupa (720p) [Not 24/7]
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="FR;TR" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-turkiye-fr.png" group-title="",Persiana Turkiye
+https://turkhls.persiana.live/hls/stream.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",TRT World (576p)
+https://cdn.pishow.tv/ott/live/266/master.m3u8?checkedby:iptvcat.net
