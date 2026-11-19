@@ -2,7 +2,7 @@ Relatório XMLTV — epg/guia-turquia.xml
 Canais na playlist: 211
 Canais com programação real: 90
 Canais sem programação correspondente: 121
-Programas reais copiados: 12321
+Programas reais copiados: 12157
 
 CANAIS SEM PROGRAMAÇÃO:
 - 4U TV | ID: 4UTV.tr@SD | Categoria: ENTRETENIMENTO
