@@ -1,109 +1,207 @@
 #!/usr/bin/env python3
-import os, re, io, unicodedata, urllib.request
+import io
+import os
+import re
+import unicodedata
+import urllib.request
+from collections import defaultdict, deque
 from pathlib import Path
-from collections import deque
+
 from PIL import Image
 
 ROOT = Path(".")
 PLAYLIST = ROOT / "Tv.m3u"
-BACKUPS = ["Backup.m3u", "Tvt.m3u", "TV2.m3u", "Euro.m3u"]
-OUT = ROOT / "logos-ajustadas"
-OUT.mkdir(exist_ok=True)
-RAW_BASE = "https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/" + os.environ.get("GITHUB_REF_NAME", "github/workflows/atualizar-logos.yml") + "/logos-ajustadas/"
+OUTPUT = ROOT / "logos-ajustadas"
+OUTPUT.mkdir(exist_ok=True)
+BRANCH = os.environ.get("GITHUB_REF_NAME", "github/workflows/atualizar-logos.yml")
+RAW_BASE = (
+    "https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/"
+    + BRANCH + "/logos-ajustadas/"
+)
+CANVAS_SIZE = 256
+LOGO_MAX_SIZE = 224
+
+# URLs identificadas para os três canais sem arquivo correspondente nos catálogos locais.
+EXTRA_SOURCES = {
+    "luystv": "https://assets.tvcdn.net/e876bf88-411c-4a9c-ad29-e449e651f7ae.png",
+    "mukabeletv": "https://assets.tvcdn.net/23b391ac-5edb-4e37-8664-27da64fb0785.png",
+    "kanalada": "https://assets.tvcdn.net/5cbdd199-9ed1-4f2d-a106-a6d9c53227c4.png",
+}
 
 def norm(value):
-    value = re.sub(r"^\\s*\\d+\\s*-\\s*", "", value or "")
-    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
+    value = unicodedata.normalize("NFKD", value or "")
+    value = "".join(ch for ch in value if not unicodedata.combining(ch))
     return re.sub(r"[^a-z0-9]", "", value.lower())
 
-def parse(path):
+def parse_entries(path):
+    if not Path(path).exists():
+        return []
     lines = Path(path).read_text(encoding="utf-8", errors="replace").splitlines()
     items = []
     for i, line in enumerate(lines):
-        if not line.startswith("#EXTINF"):
+        if not line.startswith("#EXTINF") or "," not in line:
             continue
         name = line.rsplit(",", 1)[-1].strip()
         logo = re.search(r'tvg-logo="([^"]*)"', line)
         items.append({"name": name, "key": norm(name), "logo": logo.group(1) if logo else "", "line": i})
-    return lines, items
+    return items
 
-def usable(url):
-    if not url.startswith(("https://", "http://")):
-        return False
-    bad = ("Tryerel.png", "thumbnails/", "png-clipart", "data:image", "social-share-logo")
-    return not any(x.lower() in url.lower() for x in bad)
+def near_white(pixel):
+    r, g, b, a = pixel
+    return a > 0 and min(r, g, b) >= 235 and max(r, g, b) - min(r, g, b) <= 22
 
-def remove_white_edge_background(image):
+def remove_connected_white_background(image):
     image = image.convert("RGBA")
-    w, h = image.size
-    px = image.load()
-    def near_white(p):
-        r, g, b, a = p
-        return a > 0 and min(r, g, b) >= 235 and max(r, g, b) - min(r, g, b) <= 22
-    corners = [px[0,0], px[w-1,0], px[0,h-1], px[w-1,h-1]]
-    if not all(near_white(p) for p in corners):
+    width, height = image.size
+    pixels = image.load()
+    corners = [pixels[0, 0], pixels[width-1, 0], pixels[0, height-1], pixels[width-1, height-1]]
+    if not all(near_white(pixel) for pixel in corners):
         return image
-    seen = bytearray(w*h)
-    q = deque()
+
+    seen = bytearray(width * height)
+    queue = deque()
+
     def add(x, y):
-        k = y*w+x
-        if not seen[k] and near_white(px[x,y]):
-            seen[k] = 1
-            q.append((x,y))
-    for x in range(w):
-        add(x,0); add(x,h-1)
-    for y in range(h):
-        add(0,y); add(w-1,y)
-    while q:
-        x,y=q.popleft()
-        px[x,y]=(px[x,y][0],px[x,y][1],px[x,y][2],0)
-        if x: add(x-1,y)
-        if x+1<w: add(x+1,y)
-        if y: add(x,y-1)
-        if y+1<h: add(x,y+1)
+        index = y * width + x
+        if not seen[index] and near_white(pixels[x, y]):
+            seen[index] = 1
+            queue.append((x, y))
+
+    for x in range(width):
+        add(x, 0)
+        add(x, height - 1)
+    for y in range(height):
+        add(0, y)
+        add(width - 1, y)
+
+    while queue:
+        x, y = queue.popleft()
+        r, g, b, _ = pixels[x, y]
+        pixels[x, y] = (r, g, b, 0)
+        if x > 0: add(x - 1, y)
+        if x + 1 < width: add(x + 1, y)
+        if y > 0: add(x, y - 1)
+        if y + 1 < height: add(x, y + 1)
     return image
 
-sources = {}
-for filename in BACKUPS:
-    if not Path(filename).exists():
-        continue
-    _, entries = parse(filename)
-    for entry in entries:
-        if entry["key"] and usable(entry["logo"]):
-            sources.setdefault(entry["key"], []).append(entry["logo"])
+def open_source(source):
+    if isinstance(source, Path):
+        image = Image.open(source)
+    else:
+        request = urllib.request.Request(
+            source,
+            headers={"User-Agent": "Mozilla/5.0 IPTV-logo-normalizer/2.0"},
+        )
+        with urllib.request.urlopen(request, timeout=30) as response:
+            data = response.read(8 * 1024 * 1024 + 1)
+        if len(data) > 8 * 1024 * 1024:
+            raise ValueError("arquivo de logo excede 8 MB")
+        image = Image.open(io.BytesIO(data))
+    image.load()
+    return image
 
-lines, main = parse(PLAYLIST)
-changed = 0
-downloaded = 0
-for entry in main:
-    if entry["logo"]:
-        continue
-    candidates = list(dict.fromkeys(sources.get(entry["key"], [])))
-    if not candidates:
-        continue
-    slug = re.sub(r"[^a-z0-9]+", "-", entry["key"]).strip("-") or "channel"
-    target = OUT / (slug + ".png")
-    if not target.exists():
-        for url in candidates:
+def normalize_image(image, target):
+    image = remove_connected_white_background(image)
+    image.thumbnail((LOGO_MAX_SIZE, LOGO_MAX_SIZE), Image.Resampling.LANCZOS)
+    canvas = Image.new("RGBA", (CANVAS_SIZE, CANVAS_SIZE), (0, 0, 0, 255))
+    x = (CANVAS_SIZE - image.width) // 2
+    y = (CANVAS_SIZE - image.height) // 2
+    canvas.alpha_composite(image, (x, y))
+    canvas.convert("RGB").save(target, "PNG", optimize=True)
+
+def index_local_sources():
+    indexed = defaultdict(list)
+    roots = [
+        ROOT / "logos-tvlogo-turquia",
+        ROOT / "logos-turcas-catalogo",
+        ROOT / "logos-ajustadas",
+    ]
+    for source_root in roots:
+        if not source_root.exists():
+            continue
+        for path in sorted(source_root.rglob("*.png")):
+            if not path.is_file():
+                continue
+            stem = path.stem
+            stem = re.sub(r"^tvlogos-github-", "", stem, flags=re.I)
+            stem = re.sub(r"-tr$", "", stem, flags=re.I)
+            key = norm(stem)
+            if key:
+                indexed[key].append(path)
+    return indexed
+
+def index_backup_urls():
+    indexed = defaultdict(list)
+    for backup in ("Backup.m3u", "Tvt.m3u"):
+        for item in parse_entries(backup):
+            if item["key"] and item["logo"].startswith(("https://", "http://")):
+                indexed[item["key"]].append(item["logo"])
+    return indexed
+
+def main():
+    if not PLAYLIST.exists():
+        raise SystemExit("Tv.m3u não encontrado.")
+
+    lines = PLAYLIST.read_text(encoding="utf-8").splitlines()
+    entries = parse_entries(PLAYLIST)
+    local_sources = index_local_sources()
+    backup_sources = index_backup_urls()
+
+    updated = 0
+    reused = 0
+    failures = []
+
+    for entry in entries:
+        key = entry["key"]
+        slug = re.sub(r"[^a-z0-9]+", "-", key).strip("-") or "canal"
+        target = OUTPUT / (slug + ".png")
+
+        candidates = []
+        # Fontes originais catalogadas têm prioridade sobre cópias de trabalho antigas.
+        candidates.extend(local_sources.get(key, []))
+        candidates.extend(backup_sources.get(key, []))
+        if key in EXTRA_SOURCES:
+            candidates.append(EXTRA_SOURCES[key])
+
+        # Remove duplicatas sem alterar a ordem de prioridade.
+        unique = []
+        seen = set()
+        for candidate in candidates:
+            marker = str(candidate)
+            if marker not in seen and candidate != target:
+                seen.add(marker)
+                unique.append(candidate)
+
+        if not unique and target.exists():
+            unique = [target]
+
+        image_ok = False
+        last_error = ""
+        for source in unique:
             try:
-                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 IPTV-logo-prep/1.0"})
-                with urllib.request.urlopen(req, timeout=25) as response:
-                    data = response.read(8 * 1024 * 1024 + 1)
-                if len(data) > 8 * 1024 * 1024:
-                    continue
-                image = Image.open(io.BytesIO(data))
-                image.load()
-                image = remove_white_edge_background(image)
-                image.thumbnail((560, 360), Image.Resampling.LANCZOS)
-                canvas = Image.new("RGBA", (600, 400), (0, 0, 0, 255))
-                canvas.alpha_composite(image, ((600-image.width)//2, (400-image.height)//2))
-                canvas.convert("RGB").save(target, "PNG", optimize=True)
-                downloaded += 1
+                image = open_source(source)
+                normalize_image(image, target)
+                image_ok = True
+                if isinstance(source, Path):
+                    reused += 1
                 break
             except Exception as exc:
-                print("Fonte ignorada:", entry["name"], url, str(exc)[:180])
+                last_error = str(exc)[:180]
                 continue
-    if target.exists():
+
+        if not image_ok and target.exists():
+            try:
+                image = open_source(target)
+                normalize_image(image, target)
+                image_ok = True
+                reused += 1
+            except Exception as exc:
+                last_error = str(exc)[:180]
+
+        if not image_ok:
+            failures.append((entry["name"], last_error or "nenhuma fonte com correspondência exata"))
+            continue
+
         logo_url = RAW_BASE + target.name
         old_line = lines[entry["line"]]
         if re.search(r'tvg-logo="[^"]*"', old_line):
@@ -112,10 +210,27 @@ for entry in main:
             head, title = old_line.rsplit(",", 1)
             new_line = head + ' tvg-logo="' + logo_url + '",' + title
         lines[entry["line"]] = new_line
-        changed += 1
+        updated += 1
 
-PLAYLIST.write_text("\n".join(lines) + "\n", encoding="utf-8")
-print("Logos novas processadas:", downloaded)
-print("Canais atualizados na TV principal:", changed)
-print("PNG existentes na pasta:", len(list(OUT.glob("*.png"))))
-print("Canais sem correspondência no backup:", sum(1 for e in main if not e["logo"] and not sources.get(e["key"])))
+    if failures:
+        print("Canais sem logo correspondente:")
+        for name, reason in failures:
+            print(f"- {name}: {reason}")
+        raise SystemExit(f"Processamento interrompido: {len(failures)} de {len(entries)} canais sem logo. Tv.m3u não foi alterado.")
+
+    PLAYLIST.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    dimensions_ok = 0
+    for path in OUTPUT.glob("*.png"):
+        try:
+            with Image.open(path) as image:
+                if image.size == (CANVAS_SIZE, CANVAS_SIZE):
+                    dimensions_ok += 1
+        except Exception:
+            pass
+
+    print(f"Logos associadas à TV principal: {updated}/{len(entries)}")
+    print(f"PNG quadrados 256x256 verificados na pasta de saída: {dimensions_ok}")
+    print("Padrão: fundo preto, logo original centralizada, proporção preservada, sem cortes nem deformação.")
+
+if __name__ == "__main__":
+    main()
