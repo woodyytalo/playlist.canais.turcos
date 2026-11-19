@@ -32679,22 +32679,6 @@ BabyTV'nin dünya şarkıları ve kafiyeleri koleksiyonunun tadını çıkar! Me
     <episode-num>S1 E15</episode-num>
     <title lang="tr">Küçük Lola Şehirde</title>
   </programme>
-  <programme start="20261118093000 +0000" stop="20261118111500 +0000" channel="beINSPORTS3.tr">
-    <desc lang="tr">Hull City - Aston Villa.</desc>
-    <title lang="tr">Hull City - Aston Villa</title>
-  </programme>
-  <programme start="20261118111500 +0000" stop="20261118130000 +0000" channel="beINSPORTS3.tr">
-    <desc lang="tr">Everton - Man Utd.</desc>
-    <title lang="tr">Everton - Man Utd</title>
-  </programme>
-  <programme start="20261118130000 +0000" stop="20261118144500 +0000" channel="beINSPORTS3.tr">
-    <desc lang="tr">Arsenal - Chelsea.</desc>
-    <title lang="tr">Arsenal - Chelsea</title>
-  </programme>
-  <programme start="20261118144500 +0000" stop="20261118163000 +0000" channel="beINSPORTS3.tr">
-    <desc lang="tr">Ipswich - Liverpool.</desc>
-    <title lang="tr">Ipswich - Liverpool</title>
-  </programme>
   <programme start="20261118163000 +0000" stop="20261118181500 +0000" channel="beINSPORTS3.tr">
     <desc lang="tr">Newcastle - Bournemouth.</desc>
     <title lang="tr">Newcastle - Bournemouth</title>
@@ -32978,22 +32962,6 @@ BabyTV'nin dünya şarkıları ve kafiyeleri koleksiyonunun tadını çıkar! Me
   <programme start="20261124194600 +0000" stop="20261124200000 +0000" channel="beINSPORTS3.tr">
     <desc lang="tr">Premier League National Pride.</desc>
     <title lang="tr">Premier League National Pride</title>
-  </programme>
-  <programme start="20261118091600 +0000" stop="20261118110000 +0000" channel="beINSPORTS4.tr">
-    <desc lang="tr">Angers - Rennes.</desc>
-    <title lang="tr">Angers - Rennes</title>
-  </programme>
-  <programme start="20261118110000 +0000" stop="20261118124500 +0000" channel="beINSPORTS4.tr">
-    <desc lang="tr">Marseille - Paris FC.</desc>
-    <title lang="tr">Marseille - Paris FC</title>
-  </programme>
-  <programme start="20261118124500 +0000" stop="20261118143000 +0000" channel="beINSPORTS4.tr">
-    <desc lang="tr">Toulouse - Lille.</desc>
-    <title lang="tr">Toulouse - Lille</title>
-  </programme>
-  <programme start="20261118143000 +0000" stop="20261118161500 +0000" channel="beINSPORTS4.tr">
-    <desc lang="tr">Lyon - Auxerre.</desc>
-    <title lang="tr">Lyon - Auxerre</title>
   </programme>
   <programme start="20261118161500 +0000" stop="20261118180000 +0000" channel="beINSPORTS4.tr">
     <desc lang="tr">PSG - Monaco.</desc>
@@ -68296,36 +68264,6 @@ Türkiye'nin farklı şehirlerinde faaliyet gösteren spor okullarında yapılan
     <desc lang="tr">Gece Haberi, gün boyunca yaşanan önemli olayları, son dakika gelişmelerini ve gündemin öne çıkan başlıklarını izleyiciyle buluşturuyor. Net ve anlaşılır bir anlatımla günü tamamlıyor.</desc>
     <icon src="https://iptv-epg.org/images/ST8BH3Ha4p_-aBo_LWEtI2gy46No2tmNsVOr6s3tZ4gczRUTvAt5LehUqY3POASyJ4_2bLJwRbE-Vp-uwDlFLJ6K-8tjJHWV6KXaopJNNJy80bX3sfnBbT3Ti6dbRljm6X57ecM1-YCZaYfJwX5lMpKq2t--a37L5bi0ySPS3KQgpgmAPlrVoORI19HnfU6A78Z0YwTc"/>
     <title lang="tr">Gece Haberi</title>
-  </programme>
-  <programme start="20261118090000 +0000" stop="20261118103000 +0000" channel="FIGHTNETWORK.tr">
-    <category lang="tr">Dövüş Sporları</category>
-    <desc lang="tr">TNA Wrestling.</desc>
-    <icon src="https://iptv-epg.org/images/Wlxr_-HCFTczpMcfQdeiWXHLOyqRh37ozwzZMnWFuyo7uoOv6OIvGyrCwGh-ybRZDlG5L_Hx43f8RuZtstQuJfc8kxrq5m4jpBb3vUsUlI5XtA02J1vk4Y1wEpjd0UiF_RaXh9518o9pI3o"/>
-    <title lang="tr">TNA Wrestling</title>
-  </programme>
-  <programme start="20261118103000 +0000" stop="20261118123000 +0000" channel="FIGHTNETWORK.tr">
-    <category lang="tr">Dövüş Sporları</category>
-    <desc lang="tr">Bellator MMA.</desc>
-    <icon src="https://iptv-epg.org/images/IS8oR5tKD9pQM5IGn4uSutUEUenWXg_7nh_F2BsRCtgh6UGngA_xB7GTVRqvcSE4ekiid6KtcNpkcs0SyfdzDSOYcYOZ5a_3WCm4cl5p7tpk73XbWDYwndlNoqY_HB2EBLbhzF1zUqT6y3g"/>
-    <title lang="tr">Bellator MMA</title>
-  </programme>
-  <programme start="20261118123000 +0000" stop="20261118140000 +0000" channel="FIGHTNETWORK.tr">
-    <category lang="tr">Dövüş Sporları</category>
-    <desc lang="tr">IJF World Championships.</desc>
-    <icon src="https://iptv-epg.org/images/Wlxr_-HCFTczpMcfQdeiWXHLOyqRh37ozwzZMnWFuyo7uoOv6OIvGyrCwGh-ybRZDlG5L_Hx43f8RuZtstQuJfc8kxrq5m4jpBb3vUsUlI5XtA02J1vk4Y1wEpjd0UiF_RaXh9518o9pI3o"/>
-    <title lang="tr">IJF World Championships</title>
-  </programme>
-  <programme start="20261118140000 +0000" stop="20261118154000 +0000" channel="FIGHTNETWORK.tr">
-    <category lang="tr">Dövüş Sporları</category>
-    <desc lang="tr">BKB Bare Knuckle Boxing.</desc>
-    <icon src="https://iptv-epg.org/images/Wlxr_-HCFTczpMcfQdeiWXHLOyqRh37ozwzZMnWFuyo7uoOv6OIvGyrCwGh-ybRZDlG5L_Hx43f8RuZtstQuJfc8kxrq5m4jpBb3vUsUlI5XtA02J1vk4Y1wEpjd0UiF_RaXh9518o9pI3o"/>
-    <title lang="tr">BKB Bare Knuckle Boxing</title>
-  </programme>
-  <programme start="20261118154000 +0000" stop="20261118180000 +0000" channel="FIGHTNETWORK.tr">
-    <category lang="tr">Dövüş Sporları</category>
-    <desc lang="tr">Fight Network Recharged.</desc>
-    <icon src="https://iptv-epg.org/images/8tbQBenAHeZETedkYV5WojzKoJrYiZ0qxVlOgK0NgcNug7o_KMHEEVxMH1fqK35L-XbteL24Bw_nZYmbCcOS1oxu-vMl2Ar_eGRTTd7GwumaZizFys6h1YLRd1Di_fo64M51KquYc0vFpYM"/>
-    <title lang="tr">Fight Network Recharged</title>
   </programme>
   <programme start="20261118180000 +0000" stop="20261118200000 +0000" channel="FIGHTNETWORK.tr">
     <category lang="tr">Dövüş Sporları</category>
@@ -143839,54 +143777,6 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <icon src="https://iptv-epg.org/images/ehD33yeilcnM3yLm6-_BW9XXVnMxmD7-svyW8nonfxx7FwTV5e9uVg5Zk7_4jz5mfuxrHFhxE1rveoL8eHMCzP26lHwqdsSBzZizQP4wmKUI4ZzIBrSG9GcZCqYm9MDkqTH6IESSxR_vJfAwJR_cRXdtHGxXYz1tN6PTKGMnKDX-6q1TMwBwmbiRZa8BfJ-wj6IDinWp"/>
     <title lang="tr">Ülkede Bu Gece</title>
   </programme>
-  <programme start="20261118090000 +0000" stop="20261118100000 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">Süper Lig Maç Özetleri.</desc>
-    <title lang="tr">Süper Lig Maç Özetleri</title>
-  </programme>
-  <programme start="20261118100000 +0000" stop="20261118113000 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">Gün Ortası.</desc>
-    <title lang="tr">Gün Ortası</title>
-  </programme>
-  <programme start="20261118113000 +0000" stop="20261118114500 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">Premier League Golleri.</desc>
-    <title lang="tr">Premier League Golleri</title>
-  </programme>
-  <programme start="20261118114500 +0000" stop="20261118120000 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">Ligue 1 Haftanın Golleri.</desc>
-    <title lang="tr">Ligue 1 Haftanın Golleri</title>
-  </programme>
-  <programme start="20261118120000 +0000" stop="20261118130000 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">BSL Maç Özetleri.</desc>
-    <title lang="tr">BSL Maç Özetleri</title>
-  </programme>
-  <programme start="20261118130000 +0000" stop="20261118133000 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">Basketbol Süper Ligi Raporu.</desc>
-    <title lang="tr">Basketbol Süper Ligi Raporu</title>
-  </programme>
-  <programme start="20261118133000 +0000" stop="20261118140000 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">This İs Paris.</desc>
-    <title lang="tr">This İs Paris</title>
-  </programme>
-  <programme start="20261118140000 +0000" stop="20261118150000 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">Premier League Maç Özetleri.</desc>
-    <title lang="tr">Premier League Maç Özetleri</title>
-  </programme>
-  <programme start="20261118150000 +0000" stop="20261118153000 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">Haber.</desc>
-    <title lang="tr">Haber</title>
-  </programme>
-  <programme start="20261118153000 +0000" stop="20261118154500 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">Ligue 1 Haftanın Golleri.</desc>
-    <title lang="tr">Ligue 1 Haftanın Golleri</title>
-  </programme>
-  <programme start="20261118154500 +0000" stop="20261118160000 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">Ligue 2 Haftanın Golleri.</desc>
-    <title lang="tr">Ligue 2 Haftanın Golleri</title>
-  </programme>
-  <programme start="20261118160000 +0000" stop="20261118170000 +0000" channel="beINSPORTSHABER.tr">
-    <desc lang="tr">Muhabir Masası.</desc>
-    <title lang="tr">Muhabir Masası</title>
-  </programme>
   <programme start="20261118170000 +0000" stop="20261118183000 +0000" channel="beINSPORTSHABER.tr">
     <desc lang="tr">beIN Akşam.</desc>
     <title lang="tr">beIN Akşam</title>
@@ -144231,46 +144121,6 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc lang="tr">This İs Paris.</desc>
     <title lang="tr">This İs Paris</title>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
-  </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
-  </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
-  </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
-  </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
-  </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
-  </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
-  </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="BBCEARTH.tr">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
-  </programme>
   <programme start="20261119150000 +0000" stop="20261119160000 +0000" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -144591,42 +144441,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="BBCWorldNews.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="BBCWorldNews.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="BBCWorldNews.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="BBCWorldNews.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="BBCWorldNews.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="BBCWorldNews.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="BBCWorldNews.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="BBCWorldNews.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="BBCEARTH.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -144951,42 +144801,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="beINSPORTS1.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="beINSPORTS1.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="beINSPORTS1.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="beINSPORTS1.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="beINSPORTS1.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="beINSPORTS1.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="beINSPORTS1.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="beINSPORTS1.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="BBCWorldNews.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -145311,42 +145161,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="beINSPORTS2.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="beINSPORTS2.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="beINSPORTS2.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="beINSPORTS2.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="beINSPORTS2.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="beINSPORTS2.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="beINSPORTS2.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="beINSPORTS2.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="beINSPORTS1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -145671,42 +145521,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="beINSPORTSMAX 1.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="beINSPORTS2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -146031,42 +145881,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="beINSPORTSMAX 2.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="beINSPORTSMAX 1.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -146391,42 +146241,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="DiziSmartMax.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="DiziSmartMax.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="DiziSmartMax.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="DiziSmartMax.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="DiziSmartMax.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="DiziSmartMax.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="DiziSmartMax.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="DiziSmartMax.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="beINSPORTSMAX 2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -146751,42 +146601,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="DiziSmartPremium.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="DiziSmartPremium.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="DiziSmartPremium.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="DiziSmartPremium.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="DiziSmartPremium.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="DiziSmartPremium.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="DiziSmartPremium.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="DiziSmartPremium.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="DiziSmartMax.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -147111,42 +146961,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="FilmBox.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="FilmBox.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="FilmBox.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="FilmBox.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="FilmBox.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="FilmBox.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="FilmBox.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="FilmBox.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="DiziSmartPremium.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -147471,42 +147321,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="FOXCRIME.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="FOXCRIME.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="FOXCRIME.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="FOXCRIME.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="FOXCRIME.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="FOXCRIME.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="FOXCRIME.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="FOXCRIME.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="FilmBox.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -147831,42 +147681,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="FX.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="FX.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="FX.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="FX.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="FX.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="FX.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="FX.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="FX.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="FOXCRIME.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -148191,42 +148041,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="LIDERHABERTV.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="LIDERHABERTV.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="LIDERHABERTV.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="LIDERHABERTV.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="LIDERHABERTV.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="LIDERHABERTV.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="LIDERHABERTV.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="LIDERHABERTV.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="FX.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -148551,42 +148401,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="MovieSmartClassic.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="MovieSmartClassic.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="MovieSmartClassic.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="MovieSmartClassic.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="MovieSmartClassic.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="MovieSmartClassic.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="MovieSmartClassic.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="MovieSmartClassic.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="LIDERHABERTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -148911,42 +148761,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SaudiQuranTV.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SaudiQuranTV.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SaudiQuranTV.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SaudiQuranTV.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SaudiQuranTV.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SaudiQuranTV.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SaudiQuranTV.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SaudiQuranTV.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="MovieSmartClassic.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -149271,42 +149121,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SaudiSunnahTV.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SaudiSunnahTV.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SaudiSunnahTV.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SaudiSunnahTV.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SaudiSunnahTV.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SaudiSunnahTV.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SaudiSunnahTV.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SaudiSunnahTV.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SaudiQuranTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -149631,42 +149481,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SinemaTV.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SinemaTV.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SinemaTV.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SinemaTV.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SinemaTV.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SinemaTV.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SinemaTV.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SinemaTV.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SaudiSunnahTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -149991,42 +149841,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SinemaTV2.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SinemaTV2.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SinemaTV2.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SinemaTV2.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SinemaTV2.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SinemaTV2.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SinemaTV2.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SinemaTV2.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SinemaTV.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -150351,42 +150201,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SinemaTV1001.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SinemaTV1001.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SinemaTV1001.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SinemaTV1001.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SinemaTV1001.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SinemaTV1001.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SinemaTV1001.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SinemaTV1001.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SinemaTV2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -150711,42 +150561,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SinemaTV1002.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SinemaTV1002.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SinemaTV1002.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SinemaTV1002.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SinemaTV1002.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SinemaTV1002.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SinemaTV1002.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SinemaTV1002.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SinemaTV1001.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -151071,42 +150921,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SinemaTVAile.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SinemaTVAile.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SinemaTVAile.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SinemaTVAile.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SinemaTVAile.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SinemaTVAile.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SinemaTVAile.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SinemaTVAile.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SinemaTV1002.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -151431,42 +151281,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SinemaTVAile2.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SinemaTVAile2.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SinemaTVAile2.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SinemaTVAile2.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SinemaTVAile2.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SinemaTVAile2.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SinemaTVAile2.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SinemaTVAile2.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SinemaTVAile.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -151791,42 +151641,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SinemaTVAksiyon.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SinemaTVAksiyon.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SinemaTVAksiyon.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SinemaTVAksiyon.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SinemaTVAksiyon.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SinemaTVAksiyon.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SinemaTVAksiyon.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SinemaTVAksiyon.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SinemaTVAile2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -152151,42 +152001,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SinemaTVAksiyon2.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SinemaTVAksiyon.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -152511,42 +152361,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SinemaTVComedy.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SinemaTVComedy.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SinemaTVComedy.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SinemaTVComedy.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SinemaTVComedy.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SinemaTVComedy.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SinemaTVComedy.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SinemaTVComedy.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SinemaTVAksiyon2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -152871,42 +152721,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="SinemaTVComedy2.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="SinemaTVComedy2.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="SinemaTVComedy2.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="SinemaTVComedy2.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="SinemaTVComedy2.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="SinemaTVComedy2.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="SinemaTVComedy2.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="SinemaTVComedy2.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SinemaTVComedy.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -153231,42 +153081,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="TRT4K.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="TRT4K.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="TRT4K.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="TRT4K.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="TRT4K.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="TRT4K.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="TRT4K.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="TRT4K.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="SinemaTVComedy2.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -153591,42 +153441,42 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119070000 +0000" stop="20261119080000 +0000" channel="MovieSmartTurk.tr">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119090000 +0000" channel="MovieSmartTurk.tr">
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119100000 +0000" channel="MovieSmartTurk.tr">
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119100000 +0000" stop="20261119110000 +0000" channel="MovieSmartTurk.tr">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119110000 +0000" stop="20261119120000 +0000" channel="MovieSmartTurk.tr">
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119130000 +0000" channel="MovieSmartTurk.tr">
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="MovieSmartTurk.tr">
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
-  <programme start="20261119140000 +0000" stop="20261119150000 +0000" channel="MovieSmartTurk.tr">
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="TRT4K.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
@@ -153947,6 +153797,46 @@ Kıran kırana bir mücadelenin yaşandığı MasterChef Türkiye'de şef adayla
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
   </programme>
   <programme start="20261122060000 +0000" stop="20261122070000 +0000" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
+  </programme>
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
+  </programme>
+  <programme start="20261122080000 +0000" stop="20261122090000 +0000" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
+  </programme>
+  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
+  </programme>
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
+  </programme>
+  <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
+  </programme>
+  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
+  </programme>
+  <programme start="20261122130000 +0000" stop="20261122140000 +0000" channel="MovieSmartTurk.tr">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
+  </programme>
+  <programme start="20261122140000 +0000" stop="20261122150000 +0000" channel="MovieSmartTurk.tr">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW"/>
