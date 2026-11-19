@@ -191,7 +191,7 @@ https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.etv" tvg-name="ETV" group-title="REGIONAIS",ETV
+#EXTINF:-1 tvg-id="custom.etv" tvg-name="ETV" group-title="REGIONAIS" tvg-logo="https://www.etvkayseri.com/wp-content/uploads/2023/03/cropped-cropped-E-Tv-Logo_yeni-e1679137718168-1.png",ETV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 
@@ -375,7 +375,7 @@ https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.luystv" tvg-name="Luys TV" group-title="CULTURA/EDUCAÇÃO",Luys TV
+#EXTINF:-1 tvg-id="custom.luystv" tvg-name="Luys TV" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://assets.tvcdn.net/e876bf88-411c-4a9c-ad29-e449e651f7ae.png",Luys TV
 #EXTVLCOPT:network-caching=1000
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/mt_2.m3u8
 
@@ -749,7 +749,7 @@ https://vavoo.to/vavoo-iptv/play/20249540025118ba1bc88c
 #EXTVLCOPT:network-caching=1000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
 
-#EXTINF:-1 tvg-name="ABN TURKEY" group-title="RELIGIOSOS" tvg-id="custom.abnturkey",ABN TURKEY
+#EXTINF:-1 tvg-name="ABN TURKEY" group-title="RELIGIOSOS" tvg-id="custom.abnturkey" tvg-logo="https://assets.tvcdn.net/19146761-32ae-46ad-a0f0-2862c2f887e9.png",ABN TURKEY
 #EXTVLCOPT:network-caching=1000
 https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
 
