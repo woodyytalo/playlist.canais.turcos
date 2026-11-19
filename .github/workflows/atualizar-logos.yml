@@ -180,6 +180,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh workflow run atualizar-epg.yml --ref "${GITHUB_REF_NAME}"
+          gh workflow run sincronizar-teleguia-tempo-real.yml --ref "${GITHUB_REF_NAME}"
           echo "Sincronização do EPG solicitada para a versão atualizada de Tv.m3u."
 # Logos da TV principal: PNG 512x165 (3,10:1), cores originais e transparência preservadas.
