@@ -223,7 +223,7 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 #EXTVLCOPT:network-caching=1000
 https://gcinemahls.wns.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-id="custom.grtgazianteptv" tvg-name="GRT Gaziantep TV" group-title="REGIONAIS",GRT Gaziantep TV
+#EXTINF:-1 tvg-id="custom.grtgazianteptv" tvg-name="GRT Gaziantep TV" tvg-logo="https://static.daktilo.com/sites/1525/uploads/2023/11/28/large/desktop.png" group-title="REGIONAIS",GRT Gaziantep TV
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 
@@ -296,7 +296,7 @@ https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 
-#EXTINF:-1 tvg-id="custom.kanal32" tvg-name="Kanal 32" group-title="REGIONAIS",Kanal 32
+#EXTINF:-1 tvg-id="custom.kanal32" tvg-name="Kanal 32" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kanal-32-tr.png" group-title="REGIONAIS",Kanal 32
 #EXTVLCOPT:network-caching=1000
 https://vavoo.to/vavoo-iptv/play/37609264903fe9705b8a5e
 
@@ -700,7 +700,7 @@ https://live.yoltv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-name="RTG International" group-title="INTERNACIONAIS" tvg-id="custom.rtginternational" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/internacionais/rtg-international.png",RTG International
 #EXTVLCOPT:network-caching=1000
 http://213.91.179.28:8000/play/a0bw
-#EXTINF:-1 tvg-name="Kanal Ada" tvg-id="custom.kanalada" group-title="REGIONAIS",Kanal Ada
+#EXTINF:-1 tvg-name="Kanal Ada" tvg-id="custom.kanalada" tvg-logo="https://assets.tvcdn.net/5cbdd199-9ed1-4f2d-a106-a6d9c53227c4.png" group-title="REGIONAIS",Kanal Ada
 #EXTVLCOPT:network-caching=1000
 http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum
 
