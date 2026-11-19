@@ -177,10 +177,9 @@ def main():
         updated += 1
 
     if failures:
-        print("Canais sem logo correspondente:")
+        print("Canais sem logo por falta de fonte válida (serão listados como pendentes):")
         for name, reason in failures:
             print(f"- {name}: {reason}")
-        raise SystemExit(f"Processamento interrompido: {len(failures)} de {len(entries)} canais sem logo. Tv.m3u não foi alterado.")
 
     PLAYLIST.write_text("\n".join(lines) + "\n", encoding="utf-8")
     dimensions_ok = 0
@@ -193,6 +192,7 @@ def main():
             pass
 
     print(f"Logos associadas à TV principal: {updated}/{len(entries)}")
+    print(f"Canais pendentes sem fonte válida: {len(failures)}")
     print(f"PNG 512x165 verificados na pasta de saída: {dimensions_ok}")
     print("Padrão: canvas 512x165 (3,10:1), logo original centralizada, cores e transparência preservadas, sem cortes nem deformação.")
 
