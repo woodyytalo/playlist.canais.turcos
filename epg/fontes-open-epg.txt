@@ -26,6 +26,9 @@ https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/TurkishEPG.xml
 https://raw.githubusercontent.com/hayatiptv/iptv/master/tr-EPG-guide.xml
 https://teleonline.github.io/epg/epg.xml.gz
 
+# Guia XMLTV internacional agregado (cobertura multi-país)
+https://epg.pw/xmltv/epg.xml.gz
+
 # As fontes são validadas como XMLTV antes de serem arquivadas e combinadas.
 # A correspondência usa tvg-id ou display-name normalizado exatamente; não inventa programação.
 # Tv.m3u8 dispara a sincronização ao receber alterações; há também execução diária e manual.
