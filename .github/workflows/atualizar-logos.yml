@@ -516,7 +516,7 @@ jobs:
                   image = normalize(raw)
                   target.parent.mkdir(parents=True,exist_ok=True)
                   image.save(target,format="PNG",optimize=True)
-                  # A branch contém barras; refs/heads/ identifica o ref completo sem ambiguidade.
+                  # O caminho raw usa o nome completo da branch diretamente, sem refs/heads/.
                   new_url = base + branch + "logos-ajustadas/" + folder + "/" + filename
                   lines[i] = line[:match.start(1)] + new_url + line[match.end(1):]
                   ok += 1
