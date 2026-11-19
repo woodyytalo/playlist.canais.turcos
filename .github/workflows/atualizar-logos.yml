@@ -213,7 +213,7 @@ jobs:
                   failed += 1
                   print(f"MANTIDA SEM ALTERAÇÃO: {channel} ({error})")
 
-          playlist.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+          playlist.write_text("\n".join(lines) + "\n", encoding="utf-8")
           print(f"Resultado: {completed} logos padronizadas em 512x165; {failed} sem alteração.")
           PY
 
