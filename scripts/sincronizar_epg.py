@@ -158,7 +158,7 @@ def main():
         report.parent.mkdir(parents=True, exist_ok=True)
         lines = [f'Relatório XMLTV — {destination}', f'Canais na playlist: {len(records)}', f'Canais com programação real: {len(matched)}', f'Canais sem programação correspondente: {len(unmatched)}', f'Programas reais copiados: {copied}', '', 'CANAIS SEM PROGRAMAÇÃO:']
         lines.extend(f'- {name} | ID: {channel_id} | Categoria: {category or "sem categoria"}' for channel_id, name, category in unmatched)
-        report.write_text('\\n'.join(lines) + '\\n', encoding='utf-8')
+        report.write_text('\n'.join(lines) + '\n', encoding='utf-8')
     print(f'{destination}: {len(actual)} canais declarados; {len(matched)} com programação; {len(unmatched)} sem correspondência; {copied} programas reais.')
 
 if __name__ == '__main__':
