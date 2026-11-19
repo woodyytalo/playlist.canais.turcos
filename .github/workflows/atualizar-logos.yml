@@ -259,3 +259,4 @@ jobs:
         run: |
           gh workflow run atualizar-epg.yml --ref "${GITHUB_REF_NAME}"
           echo "Sincronização do EPG solicitada para a versão atualizada de Tv.m3u."
+# Reprocessamento integral das logos da TV principal solicitado.
