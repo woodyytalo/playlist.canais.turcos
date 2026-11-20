@@ -16,7 +16,9 @@ for svg in files:
     alpha = im.getchannel("A")
     bbox = alpha.getbbox()
     if not bbox:
-        raise RuntimeError(f"Logo sem pixels visíveis: {svg.name}")
+        print(f"AVISO: SVG sem arte visível; gerando quadro transparente: {svg.name}")
+        Image.new("RGBA", (512, 512), (0, 0, 0, 0)).save(target / (svg.stem + ".png"), optimize=True)
+        continue
     im = im.crop(bbox)
     im.thumbnail((460, 460), Image.Resampling.LANCZOS)
     canvas = Image.new("RGBA", (512, 512), (0, 0, 0, 0))
