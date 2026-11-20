@@ -1,3 +1,3 @@
-Validar bot corrigido nas duas playlists: reutilizar os SVGs 512x512 existentes, preservar o cache e aplicar aliases seguros somente aos canais sem logo em IPTV-Cat.m3u. Preservar streams, frequências e o canal Dost HD sem associação ambígua.
+Atualização das fontes originais de logos da TV principal. Reconstruir os SVGs quadrados de 512x512 a partir das URLs diretas do repositório tv-logo/tv-logos/countries/turkey para as 93 associações verificadas no catálogo. O hash da fonte alterada gera novos arquivos e impede reutilizar SVGs antigos do cache. Preservar proporções, transparência, centralização e não cortar ou distorcer as marcas.
 
-Escopo exclusivo: Tv.m3u e logos-turcas-catalogo/tv-principal-svg. Não ler nem modificar IPTV-Cat.m3u. Validar as 211 entradas, preservar URLs de transmissão e metadados de frequência.
+Escopo exclusivo: Tv.m3u e logos-turcas-catalogo/tv-principal-svg. Não modificar IPTV-Cat.m3u. Preservar URLs dos streams, grupos, frequências e metadados dos canais. Não substituir canais sem correspondência inequívoca por marcas de outro canal. Manter Dost musical pendente até localizar fonte correta.
