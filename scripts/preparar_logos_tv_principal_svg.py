@@ -85,9 +85,8 @@ def main() -> None:
     if missing:
         raise RuntimeError("Canais sem logo correspondente no catálogo: " + ", ".join(missing))
 
-    if OUT.exists():
-        shutil.rmtree(OUT)
-    OUT.mkdir(parents=True)
+    # Preserve the cache: reuse valid SVGs from previous successful runs.
+    OUT.mkdir(parents=True, exist_ok=True)
     TMP.mkdir(parents=True, exist_ok=True)
     session = requests.Session()
     retry = Retry(total=8, connect=5, read=5, status=8, backoff_factor=3,
@@ -112,10 +111,29 @@ def main() -> None:
         filename = f"{slug(channel)}-{digest}.svg"
         output = OUT / filename
         temp_png = TMP / f"{slug(channel)}-{digest}.png"
-        response = session.get(url, timeout=60)
-        response.raise_for_status()
-        detail = convert_source(response, output, temp_png)
-        time.sleep(0.8)
+
+        # Reuse previously generated assets when their SVG and square canvas are valid.
+        valid_cached = False
+        if output.is_file():
+            try:
+                cached_root = ET.parse(output).getroot()
+                valid_cached = (
+                    cached_root.tag.split("}")[-1].lower() == "svg" and
+                    cached_root.attrib.get("viewBox") == "0 0 512 512" and
+                    cached_root.attrib.get("width") == "512" and
+                    cached_root.attrib.get("height") == "512"
+                )
+            except (ET.ParseError, OSError):
+                valid_cached = False
+
+        if valid_cached:
+            detail = "SVG existente reutilizado; canvas 512x512 validado"
+        else:
+            response = session.get(url, timeout=90)
+            response.raise_for_status()
+            detail = convert_source(response, output, temp_png)
+            time.sleep(5.0)
+
         root = ET.parse(output).getroot()
         if (root.attrib.get("viewBox") != "0 0 512 512" or
             root.attrib.get("width") != "512" or root.attrib.get("height") != "512"):
@@ -154,7 +172,7 @@ def main() -> None:
     (OUT / "README.md").write_text(
         "# Logos SVG — TV principal\n\n"
         "- Logos do catálogo unificado: 211\n"
-        "- SVGs preparados: 210\n"
+        "- SVGs preparados: 210 (reutilizados do cache quando válidos)\n"
         "- Pendência: Dost (logo musical correta não localizada)\n"
         "- Canvas externo: 512 x 512, transparente\n"
         "- Enquadramento: centralizado, xMidYMid meet, sem corte ou deformação\n"
