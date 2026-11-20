@@ -2,6 +2,7 @@
 """Fetch image references from the unified catalog and trace them into SVG files."""
 from __future__ import annotations
 import csv, hashlib, io, re
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlsplit
 import requests
@@ -55,6 +56,28 @@ for index, url in enumerate(candidates, 1):
         )
         if not svg_path.exists() or svg_path.stat().st_size < 100:
             raise ValueError("Conversor não produziu SVG válido")
+
+        # Padroniza a área externa em 512x512 sem deformar nem recortar o desenho.
+        # O SVG vetorial original fica aninhado e é ajustado por preserveAspectRatio.
+        namespace = "http://www.w3.org/2000/svg"
+        ET.register_namespace("", namespace)
+        original_svg = ET.parse(svg_path).getroot()
+        original_svg.set("width", "512")
+        original_svg.set("height", "512")
+        original_svg.set("preserveAspectRatio", "xMidYMid meet")
+        square_svg = ET.Element(
+            f"{{{namespace}}}svg",
+            {
+                "width": "512",
+                "height": "512",
+                "viewBox": "0 0 512 512",
+                "preserveAspectRatio": "xMidYMid meet",
+            },
+        )
+        square_svg.append(original_svg)
+        ET.ElementTree(square_svg).write(
+            svg_path, encoding="utf-8", xml_declaration=True
+        )
         status = "vetorizado"
         detail = f"{image.format} {image.width}x{image.height}"
     except Exception as exc:
