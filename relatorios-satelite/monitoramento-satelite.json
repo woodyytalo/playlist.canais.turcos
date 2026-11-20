@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T16:08:45+00:00",
+  "generated_at_utc": "2026-11-20T16:22:50+00:00",
   "source_url": "https://tr.canlitv.watch/frekans-bilgileri",
   "source_check": {
     "ok": true,
@@ -9,11 +9,12 @@
     "table_rows": 211,
     "unique_channels": 211,
     "expected_channels": 211,
-    "pending_verification": 78,
+    "pending_verification": 71,
     "channels_with_multiple_transponders": 0,
     "satellites": {
       "Eutelsat 7 West A": 1,
-      "Türksat 4A": 105,
+      "Türksat 3A": 5,
+      "Türksat 4A": 107,
       "Türksat 4A / Türksat 5B": 2,
       "Türksat 4A / Türksat 6A": 3,
       "Türksat 5B": 11,
@@ -54,29 +55,9 @@
       "fec": "—"
     },
     {
-      "number": 15,
-      "channel": "ARAS TV",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 18,
       "channel": "ATV Alanya",
       "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 27,
-      "channel": "CİNE1",
-      "category": "FILMES E SÉRIES",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",
@@ -386,46 +367,6 @@
     {
       "number": 104,
       "channel": "Play TV",
-      "category": "MÚSICA",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 106,
-      "channel": "NR1 Aşk",
-      "category": "MÚSICA",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 107,
-      "channel": "NR1 Damar",
-      "category": "MÚSICA",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 108,
-      "channel": "NR1 Dance",
-      "category": "MÚSICA",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 110,
-      "channel": "Number 1 TV",
       "category": "MÚSICA",
       "satellite": "A verificar",
       "frequency_mhz": "—",
@@ -787,16 +728,6 @@
       "number": 210,
       "channel": "4U Family (persa)",
       "category": "INTERNACIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 211,
-      "channel": "Power TV (720p)",
-      "category": "MÚSICA",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",

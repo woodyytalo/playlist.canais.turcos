@@ -1,6 +1,6 @@
 # Auditoria de frequencias via satelite
 
-- Gerado em UTC: 2026-11-20T16:08:45+00:00
+- Gerado em UTC: 2026-11-20T16:22:50+00:00
 - Arquivo: dados-satelite/ANOTACAO-CANAIS-FREQUENCIAS.md
 - Fonte: https://tr.canlitv.watch/frekans-bilgileri
 - Resposta HTTP da fonte: OK
@@ -9,7 +9,7 @@
 
 - Linhas de transponder: **211**
 - Canais unicos: **211** (esperado: 211)
-- Canais A verificar: **78**
+- Canais A verificar: **71**
 - Canais com multiplos transponders: **0**
 - Entradas confirmadas com campos invalidos: **45**
 
@@ -18,7 +18,8 @@
 | Satelite | Linhas |
 |---|---:|
 | Eutelsat 7 West A | 1 |
-| Türksat 4A | 105 |
+| Türksat 3A | 5 |
+| Türksat 4A | 107 |
 | Türksat 4A / Türksat 5B | 2 |
 | Türksat 4A / Türksat 6A | 3 |
 | Türksat 5B | 11 |
@@ -32,9 +33,7 @@
 | 4 | 4U TV | ENTRETENIMENTO |
 | 11 | Alanya Posta TV | REGIONAIS |
 | 14 | Anadolu TV | REGIONAIS |
-| 15 | ARAS TV | REGIONAIS |
 | 18 | ATV Alanya | REGIONAIS |
-| 27 | CİNE1 | FILMES E SÉRIES |
 | 32 | Deniz Postası TV | REGIONAIS |
 | 33 | DHA | NOTÍCIAS |
 | 34 | Dim TV | REGIONAIS |
@@ -66,10 +65,6 @@
 | 98 | Mekameleen TV | REGIONAIS |
 | 103 | MTürk TV | REGIONAIS |
 | 104 | Play TV | MÚSICA |
-| 106 | NR1 Aşk | MÚSICA |
-| 107 | NR1 Damar | MÚSICA |
-| 108 | NR1 Dance | MÚSICA |
-| 110 | Number 1 TV | MÚSICA |
 | 111 | Power Dance TV | MÚSICA |
 | 112 | Power Love TV | MÚSICA |
 | 114 | MUKABELE TV | RELIGIOSOS |
@@ -106,7 +101,6 @@
 | 206 | TopPop | MÚSICA |
 | 207 | Retro Music Television | MÚSICA |
 | 210 | 4U Family (persa) | INTERNACIONAIS |
-| 211 | Power TV (720p) | MÚSICA |
 
 ## Limites da auditoria
 - Audita a estrutura dos dados e a disponibilidade HTTP da pagina-fonte.
