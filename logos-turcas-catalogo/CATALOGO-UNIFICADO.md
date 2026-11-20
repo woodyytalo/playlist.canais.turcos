@@ -947,3 +947,50 @@ Esta seção registra os 24 canais da categoria `MÚSICA` que ainda não estavam
 5. Não alterar `Tv.m3u`, `TV2.m3u`, `Euro.m3u` ou `Backup.m3u` durante esta etapa de pesquisa.
 
 **Estado:** referências catalogadas para pesquisa; nenhuma logo foi aprovada para substituição e nenhuma playlist foi modificada.
+
+
+# Fontes oficiais adicionais — canais musicais e identidades institucionais (20/11/2026)
+
+Esta seção separa **fontes primárias/publicadas pelos próprios grupos ou emissoras** de referências secundárias. Uma página institucional confirma a identidade e a existência do canal, mas não significa, por si só, que tenha sido localizado um arquivo de logo atual, direto e reutilizável. As fontes abaixo foram acrescentadas para orientar a validação dos canais pendentes da categoria `MÚSICA` e de marcas musicais já presentes em `Tv.m3u`.
+
+## Fontes primárias confirmadas
+
+| Canal/marca relacionada à playlist | Fonte institucional | O que confirma | Situação para uso de logo |
+|---|---|---|---|
+| PowerTürk TV | https://www.powerapp.com.tr/tvs/power-tvs/ | Página oficial PowerApp lista PowerTürk TV entre os canais de televisão do grupo. | Fonte oficial de identidade; conferir/obter a imagem atual diretamente da página ou do CDN oficial antes de aplicar. |
+| Power TV | https://www.powerapp.com.tr/tvs/power-tvs/ | Página oficial PowerApp lista Power TV. | Fonte oficial de identidade; a referência PNG de terceiros já catalogada continua sendo apenas candidata. |
+| Power Dance TV | https://www.powerapp.com.tr/tvs/power-tvs/powerdancetv/ | Página oficial individual do canal e presença na lista de TVs PowerApp. | Fonte oficial de identidade; usar a arte servida pelo site oficial após validação visual. |
+| Power Love TV | https://www.powerapp.com.tr/tvs/power-tvs/ | Página oficial PowerApp lista Power Love TV. | Fonte oficial de identidade; conferir a imagem atual no site/CDN oficial. |
+| PowerTürk Taptaze TV | https://www.powerapp.com.tr/tvs/power-tvs/ | Página oficial PowerApp lista PowerTürk Taptaze TV. | Fonte oficial de identidade; conferir a imagem atual no site/CDN oficial. |
+| NR1 / Number 1 TV, Number1 Aşk, Number1 Dance e Fashion One | https://www.numberone.com.tr/tv/ | Página oficial Number1 lista páginas/transmissões para Nr1 TV, Nr1 Türk, Number1 Aşk, Number1 Dance e Fashionone TV. | Fonte primária para confirmar as marcas. A página não foi tratada como confirmação de arquivo de logo PNG direto. |
+| Güçlü TV | https://turkuyayincilik.net/ | Site institucional da Türkü Yayıncılık identifica Güçlü TV e apresenta dados de transmissão. | Fonte oficial de identidade; não foi localizado nesta consulta um arquivo de logo direto e inequívoco. Confirmar situação de licença/transmissão antes de aprovar a marca para a entrada atual da playlist. |
+| TRT Müzik | https://www.trt.net.tr/kurumsal/logolar ; https://www.trt.net.tr/logos/Televizyon.zip | Portal institucional de logos e pacote de logos da TRT. | Fonte oficial prioritária; comparar o arquivo do pacote com a imagem atualmente usada. |
+| Dream Türk | https://www.dreamturk.com.tr/ | Site oficial associado à marca Dream Türk; a página institucional/expediente do grupo confirma a identidade editorial. | Fonte primária de identidade; o CDN de imagem já listado no catálogo permanece referência até validar a versão atual. |
+| 30A Music | https://30a.media/television/ | Site da própria 30A Media apresenta a operação de televisão 30A. | Fonte oficial da emissora norte-americana, mas não comprova que seja a identidade correta da entrada “30A Music” da playlist turca. Não aplicar sem confirmar essa correspondência. |
+
+## Canais pendentes sem fonte oficial inequívoca localizada
+
+| Entrada em Tv.m3u | Resultado desta rodada |
+|---|---|
+| 1Mus | Não foi encontrada página institucional oficial que vincule inequivocamente a marca à entrada e ao stream da playlist. As duas imagens de listas externas permanecem candidatas, não oficiais. |
+| Play TV | Não foi identificada emissora/site oficial que corresponda de forma inequívoca ao canal e ao stream da playlist. |
+| Dost | O resultado “Dost TV” encontrado em diretórios refere-se a uma emissora religiosa; não comprova identidade com a entrada musical “Dost”. Não reutilizar essa logo. |
+| Company TV | Não foi localizada fonte oficial que associe a entrada da playlist a uma emissora musical turca. Não usar a emissora italiana homônima. |
+| IQ Channel | Não foi localizada fonte institucional correspondente à entrada da playlist; resultados homônimos estrangeiros não são prova de identidade. |
+| TopPop | Há referências em playlists de terceiros e dados de stream, mas não foi identificada página institucional oficial que confirme a marca e forneça logo. |
+| Retro Music Television | A referência visual encontrada é de uma emissora tcheca; não é fonte oficial para a entrada da playlist. |
+
+## Referências regulatórias e diretórios secundários — não são fontes de arquivos oficiais
+
+- RTÜK — https://www.rtuk.gov.tr/ : usar para conferir titularidade, licença, nome jurídico e situação regulatória de serviços de mídia; documentos regulatórios não substituem um pacote oficial de identidade visual.
+- Televizyon.com.tr — https://televizyon.com.tr/kanallar/muzik : diretório secundário útil para cruzar nomes e grupos de canais musicais; não tratar como fonte oficial de logos.
+- TVLogo.org — https://www.tvlogo.org/turkey/ : repositório de terceiros; pode fornecer PNGs candidatos, mas não transforma os arquivos em logos oficiais.
+- Playlists M3U públicas: fontes de descoberta e comparação de metadados, nunca prova isolada de titularidade ou oficialidade de uma imagem.
+
+## Regras de classificação adotadas
+
+1. **Oficial/primária:** domínio da emissora ou do grupo responsável, portal institucional ou pacote de identidade visual publicado pelo titular.
+2. **Secundária:** diretório de logos, agregador de canais, CDN sem vínculo institucional demonstrado ou playlist de terceiros.
+3. **Identidade não confirmada:** nome semelhante, canal de outro país, stream sem dados institucionais ou marca homônima.
+4. Uma fonte oficial de identidade não autoriza automaticamente baixar, redistribuir ou converter a imagem; verificar termos de uso, licença e condições de reutilização.
+5. Nenhuma logo foi aprovada ou aplicada nesta atualização. Nenhuma playlist foi modificada; esta alteração limita-se ao catálogo unificado.
