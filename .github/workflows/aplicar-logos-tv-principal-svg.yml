@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Tv.m3u logos-turcas-catalogo/CATALOGO-UNIFICADO.md logos-turcas-catalogo/tv-principal-svg logos-turcas-catalogo/canlitv-images-report.csv
+          git add Tv.m3u logos-turcas-catalogo/CATALOGO-UNIFICADO.md logos-turcas-catalogo/tv-principal-svg logos-turcas-catalogo/canlitv-originals logos-turcas-catalogo/canlitv-images-report.csv
           if git diff --cached --quiet; then
             echo "TV principal já está atualizada; nenhuma alteração nova."
           else
