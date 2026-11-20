@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T16:03:28+00:00",
+  "generated_at_utc": "2026-11-20T16:06:03+00:00",
   "source_url": "https://tr.canlitv.watch/frekans-bilgileri",
   "source_check": {
     "ok": true,
@@ -9,13 +9,13 @@
     "table_rows": 211,
     "unique_channels": 211,
     "expected_channels": 211,
-    "pending_verification": 86,
+    "pending_verification": 85,
     "channels_with_multiple_transponders": 0,
     "satellites": {
       "Türksat 4A": 99,
       "Türksat 4A / Türksat 5B": 2,
       "Türksat 4A / Türksat 6A": 3,
-      "Türksat 5B": 10,
+      "Türksat 5B": 11,
       "Türksat 6A": 9,
       "Türksat 6A / Türksat 4A": 2
     },
@@ -66,16 +66,6 @@
       "number": 15,
       "channel": "ARAS TV",
       "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 16,
-      "channel": "AS TV",
-      "category": "NOTÍCIAS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",

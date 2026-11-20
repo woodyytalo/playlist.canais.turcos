@@ -1,6 +1,6 @@
 # Auditoria de frequencias via satelite
 
-- Gerado em UTC: 2026-11-20T16:03:28+00:00
+- Gerado em UTC: 2026-11-20T16:06:03+00:00
 - Arquivo: dados-satelite/ANOTACAO-CANAIS-FREQUENCIAS.md
 - Fonte: https://tr.canlitv.watch/frekans-bilgileri
 - Resposta HTTP da fonte: OK
@@ -9,7 +9,7 @@
 
 - Linhas de transponder: **211**
 - Canais unicos: **211** (esperado: 211)
-- Canais A verificar: **86**
+- Canais A verificar: **85**
 - Canais com multiplos transponders: **0**
 - Entradas confirmadas com campos invalidos: **45**
 
@@ -20,7 +20,7 @@
 | Türksat 4A | 99 |
 | Türksat 4A / Türksat 5B | 2 |
 | Türksat 4A / Türksat 6A | 3 |
-| Türksat 5B | 10 |
+| Türksat 5B | 11 |
 | Türksat 6A | 9 |
 | Türksat 6A / Türksat 4A | 2 |
 
@@ -33,7 +33,6 @@
 | 12 | Almahriah TV | INTERNACIONAIS |
 | 14 | Anadolu TV | REGIONAIS |
 | 15 | ARAS TV | REGIONAIS |
-| 16 | AS TV | NOTÍCIAS |
 | 18 | ATV Alanya | REGIONAIS |
 | 27 | CİNE1 | FILMES E SÉRIES |
 | 32 | Deniz Postası TV | REGIONAIS |
