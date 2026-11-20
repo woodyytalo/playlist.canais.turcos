@@ -1,129 +1,135 @@
 Relatório XMLTV — epg/guia-open-epg.xml
 Canais na playlist: 211
-Canais com programação real: 89
-Canais sem programação correspondente: 122
-Programas reais copiados: 11810
+Canais com programação real: 83
+Canais sem programação correspondente: 128
+Programas reais copiados: 11667
 
 CANAIS SEM PROGRAMAÇÃO:
-- 4U TV | ID: 4UTV.tr@SD | Categoria: ENTRETENIMENTO
-- Aksu TV | ID: AksuTV.tr@SD | Categoria: REGIONAIS
-- Al Zahra TV Turkic | ID: AlZahraTVTurkic.tr@SD | Categoria: RELIGIOSOS
-- Alanya Posta TV | ID: AlanyaPostaTV.tr@SD | Categoria: REGIONAIS
-- Almahriah TV | ID: custom.almahriahtv | Categoria: INTERNACIONAIS
-- Altas TV | ID: custom.altastv | Categoria: REGIONAIS
-- Anadolu TV | ID: custom.anadolutv | Categoria: REGIONAIS
-- ARAS TV | ID: custom.arastv | Categoria: REGIONAIS
-- ATV Alanya | ID: custom.atvalanya | Categoria: REGIONAIS
-- Bi Kanal | ID: Bi.Kanal.tr | Categoria: ENTRETENIMENTO
-- Bir TV | ID: custom.birtv | Categoria: ENTRETENIMENTO
-- BRTV Karabük | ID: custom.brtvkarabuk | Categoria: REGIONAIS
-- CİNE1 | ID: custom.cine1 | Categoria: FILMES E SÉRIES
-- Çay TV | ID: custom.caytv | Categoria: REGIONAIS
-- Deniz Postası TV | ID: custom.denizpostastv | Categoria: REGIONAIS
-- DHA | ID: custom.dha | Categoria: NOTÍCIAS
-- Dim TV | ID: custom.dimtv | Categoria: REGIONAIS
-- Diyar TV | ID: custom.diyartv | Categoria: RELIGIOSOS
-- 1Mus | ID: custom.n1mus | Categoria: MÚSICA
-- 30A Music | ID: custom.n30amusic | Categoria: MÚSICA
-- Edessa TV | ID: custom.edessatv | Categoria: REGIONAIS
-- Elsharq TV | ID: custom.elsharqtv | Categoria: INTERNACIONAIS
-- ER TV Malatya | ID: custom.ertvmalatya | Categoria: REGIONAIS
-- Erciyes TV | ID: custom.erciyestv | Categoria: REGIONAIS
-- Erzurum Web TV | ID: custom.erzurumwebtv | Categoria: REGIONAIS
-- ES TV | ID: custom.estv | Categoria: REGIONAIS
-- Ezgi TV | ID: custom.ezgitv | Categoria: REGIONAIS
-- FRT TV | ID: custom.frttv | Categoria: REGIONAIS
-- Grand Cinema | ID: custom.grandcinema | Categoria: FILMES E SÉRIES
-- GRT Gaziantep TV | ID: custom.grtgazianteptv | Categoria: REGIONAIS
-- Haber61 TV | ID: custom.haber61tv | Categoria: NOTÍCIAS
-- Güneydoğu TV | ID: custom.guneydogutv | Categoria: REGIONAIS
-- Hunat TV | ID: custom.hunattv | Categoria: REGIONAIS
-- İçel TV | ID: custom.iceltv | Categoria: REGIONAIS
-- Kardelen TV | ID: KardelenTV.tr | Categoria: REGIONAIS
-- İzmir Time 35 TV | ID: custom.izmirtime35tv | Categoria: REGIONAIS
-- İlke TV | ID: custom.ilketv | Categoria: NOTÍCIAS
-- K+ Kayseri | ID: custom.kkayseri | Categoria: REGIONAIS
-- Kanal 12 | ID: custom.kanal12 | Categoria: REGIONAIS
-- Kanal 15 | ID: custom.kanal15 | Categoria: REGIONAIS
-- Kanal 19 | ID: custom.kanal19 | Categoria: REGIONAIS
-- Kanal 26 Eskişehir | ID: custom.kanal26eskisehir | Categoria: REGIONAIS
-- Kanal 3 | ID: custom.kanal3 | Categoria: REGIONAIS
-- Kanal 32 | ID: custom.kanal32 | Categoria: REGIONAIS
-- Kanal 34 | ID: custom.kanal34 | Categoria: REGIONAIS
-- Kanal 53 | ID: custom.kanal53 | Categoria: REGIONAIS
-- Kanal 58 | ID: custom.kanal58 | Categoria: REGIONAIS
-- Kanal Avrupa | ID: custom.kanalavrupa | Categoria: INTERNACIONAIS
-- Kanal D Drama | ID: custom.kanalddrama | Categoria: ENTRETENIMENTO
-- Kanal Fırat | ID: custom.kanalfrat | Categoria: REGIONAIS
-- Kay TV | ID: custom.kaytv | Categoria: REGIONAIS
-- Kayhan TV | ID: custom.kayhantv | Categoria: REGIONAIS
-- Kent Türk TV | ID: custom.kentturktv | Categoria: REGIONAIS
-- Konya KTV | ID: custom.konyaktv | Categoria: REGIONAIS
-- Konya Olay TV | ID: custom.konyaolaytv | Categoria: REGIONAIS
-- Life TV | ID: custom.lifetv | Categoria: NOTÍCIAS
-- Luys TV | ID: custom.luystv | Categoria: CULTURA/EDUCAÇÃO
-- Med Müzik | ID: custom.medmuzik | Categoria: MÚSICA
-- Mekameleen TV | ID: custom.mekameleentv | Categoria: REGIONAIS
-- Mercan TV | ID: custom.mercantv | Categoria: REGIONAIS
-- MTürk TV | ID: custom.mturktv | Categoria: REGIONAIS
-- Play TV | ID: custom.playtv | Categoria: MÚSICA
-- NR1 Aşk | ID: custom.nr1ask | Categoria: MÚSICA
-- NR1 Damar | ID: custom.nr1damar | Categoria: MÚSICA
-- NR1 Dance | ID: custom.nr1dance | Categoria: MÚSICA
-- Power Dance TV | ID: custom.powerdancetv | Categoria: MÚSICA
-- Power Love TV | ID: custom.powerlovetv | Categoria: MÚSICA
-- PowerTürk Taptaze | ID: custom.powerturktaptaze | Categoria: MÚSICA
+- 4U TV | ID: 4utv.local | Categoria: ENTRETENIMENTO
+- Aksu TV | ID: aksutv.local | Categoria: REGIONAIS
+- Al Zahra TV Turkic | ID: alzahratvturkic.local | Categoria: RELIGIOSOS
+- Alanya Posta TV | ID: alanyapostatv.local | Categoria: REGIONAIS
+- Almahriah TV | ID: almahriahtv.local | Categoria: INTERNACIONAIS
+- Altas TV | ID: altastv.local | Categoria: REGIONAIS
+- Anadolu TV | ID: anadolutv.local | Categoria: REGIONAIS
+- ARAS TV | ID: arastv.local | Categoria: REGIONAIS
+- ATV Alanya | ID: atvalanya.local | Categoria: REGIONAIS
+- Bi Kanal | ID: bikanal.local | Categoria: ENTRETENIMENTO
+- Bir TV | ID: birtv.local | Categoria: ENTRETENIMENTO
+- Bloomberg HT 2 | ID: bloomberght2.local | Categoria: NOTÍCIAS
+- BRTV Karabük | ID: brtvkarabuk.local | Categoria: REGIONAIS
+- Cartoon Network Türkiye | ID: cartoonnetworkturkiye.local | Categoria: INFANTIS
+- CİNE1 | ID: jgskjh5s5asjefn | Categoria: FILMES E SÉRIES
+- Çay TV | ID: caytv.local | Categoria: REGIONAIS
+- Deniz Postası TV | ID: denizpostastv.local | Categoria: REGIONAIS
+- DHA | ID: dha.local | Categoria: NOTÍCIAS
+- Dim TV | ID: dimtv.local | Categoria: REGIONAIS
+- Diyar TV | ID: diyartv.local | Categoria: RELIGIOSOS
+- 1Mus | ID: 1mus.local | Categoria: MÚSICA
+- 30A Music | ID: 30amusic.local | Categoria: MÚSICA
+- TMB TV | ID: tmbtv.local | Categoria: MÚSICA
+- Edessa TV | ID: edessatv.local | Categoria: REGIONAIS
+- Elsharq TV | ID: elsharqtv.local | Categoria: INTERNACIONAIS
+- ER TV Malatya | ID: ertvmalatya.local | Categoria: REGIONAIS
+- Erciyes TV | ID: erciyestv.local | Categoria: REGIONAIS
+- Erzurum Web TV | ID: erzurumwebtv.local | Categoria: REGIONAIS
+- ES TV | ID: estv.local | Categoria: REGIONAIS
+- Ezgi TV | ID: ezgitv.local | Categoria: REGIONAIS
+- FRT TV | ID: frttv.local | Categoria: REGIONAIS
+- Grand Cinema | ID: grandcinema.local | Categoria: FILMES E SÉRIES
+- GRT Gaziantep TV | ID: grtgazianteptv.local | Categoria: REGIONAIS
+- Haber61 TV | ID: haber61tv.local | Categoria: NOTÍCIAS
+- Güneydoğu TV | ID: guneydogutv.local | Categoria: REGIONAIS
+- Hunat TV | ID: hunattv.local | Categoria: REGIONAIS
+- İçel TV | ID: iceltv.local | Categoria: REGIONAIS
+- Kardelen TV | ID: kardelentv.local | Categoria: REGIONAIS
+- İzmir Time 35 TV | ID: izmirtime35tv.local | Categoria: REGIONAIS
+- İlke TV | ID: ilketv.local | Categoria: NOTÍCIAS
+- K+ Kayseri | ID: kkayseri.local | Categoria: REGIONAIS
+- Kanal 12 | ID: kanal12.local | Categoria: REGIONAIS
+- Kanal 15 | ID: kanal15.local | Categoria: REGIONAIS
+- Kanal 19 | ID: kanal19.local | Categoria: REGIONAIS
+- Kanal 26 Eskişehir | ID: kanal26eskisehir.local | Categoria: REGIONAIS
+- Kanal 3 | ID: kanal3.local | Categoria: REGIONAIS
+- Kanal 32 | ID: kanal32.local | Categoria: REGIONAIS
+- Kanal 34 | ID: kanal34.local | Categoria: REGIONAIS
+- Kanal 53 | ID: kanal53.local | Categoria: REGIONAIS
+- Kanal 58 | ID: kanal58.local | Categoria: REGIONAIS
+- Kanal Avrupa | ID: kanalavrupa.local | Categoria: INTERNACIONAIS
+- Kanal D Drama | ID: kanalddrama.local | Categoria: ENTRETENIMENTO
+- Kanal Fırat | ID: kanalfrat.local | Categoria: REGIONAIS
+- Kay TV | ID: kaytv.local | Categoria: REGIONAIS
+- Kayhan TV | ID: kayhantv.local | Categoria: REGIONAIS
+- Kent Türk TV | ID: kentturktv.local | Categoria: REGIONAIS
+- Konya KTV | ID: konyaktv.local | Categoria: REGIONAIS
+- Konya Olay TV | ID: konyaolaytv.local | Categoria: REGIONAIS
+- Life TV | ID: lifetv.local | Categoria: NOTÍCIAS
+- Luys TV | ID: 85vcygdgu27fg6o | Categoria: CULTURA/EDUCAÇÃO
+- Med Müzik | ID: medmuzik.local | Categoria: MÚSICA
+- Mekameleen TV | ID: mekameleentv.local | Categoria: REGIONAIS
+- Mercan TV | ID: mercantv.local | Categoria: REGIONAIS
+- MTürk TV | ID: mturktv.local | Categoria: REGIONAIS
+- Play TV | ID: playtv.local | Categoria: MÚSICA
+- NR1 Aşk | ID: nr1ask.local | Categoria: MÚSICA
+- NR1 Damar | ID: nr1damar.local | Categoria: MÚSICA
+- NR1 Dance | ID: nr1dance.local | Categoria: MÚSICA
+- Power Dance TV | ID: powerdancetv.local | Categoria: MÚSICA
+- Power Love TV | ID: powerlovetv.local | Categoria: MÚSICA
+- PowerTürk Taptaze | ID: powerturktaptaze.local | Categoria: MÚSICA
 - MUKABELE TV | ID: mukabeletv.local | Categoria: RELIGIOSOS
-- Rehber TV | ID: custom.rehbertv | Categoria: RELIGIOSOS
-- Sat7 Türk | ID: custom.sat7turk | Categoria: RELIGIOSOS
-- Sercem TV | ID: custom.sercemtv | Categoria: RELIGIOSOS
-- Spacetoon Türkiye | ID: custom.spacetoonturkiye | Categoria: INFANTIS
-- Tempo TV | ID: custom.tempotv | Categoria: REGIONAIS
-- Ton TV | ID: custom.tontv | Categoria: REGIONAIS
-- TRT EBA Ortaokul | ID: custom.trtebaortaokul | Categoria: CULTURA/EDUCAÇÃO
-- KRAL POP | ID: custom.kralpop | Categoria: MÚSICA
-- NR1 FASHION ONE | ID: custom.nr1fashionone | Categoria: MÚSICA
-- TV 264 | ID: custom.tv264 | Categoria: REGIONAIS
-- TV 41 | ID: custom.tv41 | Categoria: REGIONAIS
-- TV 52 | ID: custom.tv52 | Categoria: REGIONAIS
-- TV DEN | ID: custom.tvden | Categoria: REGIONAIS
-- TV Karadeniz | ID: custom.tvkaradeniz | Categoria: CULTURA/EDUCAÇÃO
-- Vuslat TV | ID: custom.vuslattv | Categoria: REGIONAIS
-- Zarok TV Kurmanji | ID: custom.zaroktvkurmanji | Categoria: INFANTIS
-- Zarok TV Sorani | ID: custom.zaroktvsorani | Categoria: INFANTIS
-- Euro Star TV | ID: custom.eurostartv | Categoria: ENTRETENIMENTO
-- Natural TV | ID: custom.naturaltv | Categoria: REGIONAIS
-- Sun RTV | ID: custom.sunrtv | Categoria: REGIONAIS
-- TBMM TV | ID: custom.tbmmtv | Categoria: REGIONAIS
-- Van 65 TV | ID: custom.van65tv | Categoria: REGIONAIS
-- Tabii | ID: custom.tabii | Categoria: FILMES E SÉRIES
-- Balkan Türk | ID: custom.balkanturk | Categoria: INTERNACIONAIS
-- Thaqalayn TV | ID: custom.thaqalayntv | Categoria: INTERNACIONAIS
-- KN Music TV | ID: custom.knmusictv | Categoria: MÚSICA
-- YOL TV | ID: custom.yoltv | Categoria: REGIONAIS
-- Kanal Ada | ID: custom.kanalada | Categoria: REGIONAIS
-- Arzu Film | ID: custom.arzufilm | Categoria: FILMES E SÉRIES
-- Kanal Urfa | ID: custom.kanalurfa | Categoria: REGIONAIS
-- Trabzon Buyuksehir Belediyesi TV | ID: custom.trabzonbuyuksehirbelediyesitv | Categoria: REGIONAIS
-- Urfanatik TV | ID: custom.urfanatiktv | Categoria: REGIONAIS
-- MADINAH TV | ID: custom.madinahtv | Categoria: RELIGIOSOS
-- MC EU TV | ID: MCTV.de@HD | Categoria: INTERNACIONAIS
-- Persiana Türkiye | ID: PersianaTurkiye.fr@SD | Categoria: INTERNACIONAIS
-- ETV Manisa | ID: custom.etvmanisa | Categoria: REGIONAIS
-- Dizi TV | ID: custom.dizitv | Categoria: FILMES E SÉRIES
-- ABN TURKEY | ID: custom.abnturkey | Categoria: RELIGIOSOS
-- Dost | ID: custom.dost | Categoria: MÚSICA
-- Company TV | ID: custom.companytv | Categoria: MÚSICA
-- INTV Australia | ID: custom.intvaustralia | Categoria: INTERNACIONAIS
-- Güçlü TV | ID: custom.guclutv | Categoria: MÚSICA
-- İSVİÇRE TV | ID: custom.isvicretv | Categoria: INTERNACIONAIS
-- MOR TV | ID: custom.mortv | Categoria: ESTILO DE VIDA
-- IQ Channel | ID: custom.iqchannel | Categoria: MÚSICA
-- JÎN TV | ID: custom.jintv | Categoria: INTERNACIONAIS
-- MAKKAH TV | ID: custom.makkahtv | Categoria: RELIGIOSOS
-- MK TV | ID: custom.mktv | Categoria: REGIONAIS
-- TopPop | ID: custom.toppop | Categoria: MÚSICA
-- Retro Music Television | ID: custom.retromusictelevision | Categoria: MÚSICA
-- beIN Sports 1 Turk | ID: custom.beinsports1turk | Categoria: ESPORTES
-- 4U Family (persa) | ID: custom.4ufamilypersian | Categoria: INTERNACIONAIS
-- Power TV (720p) | ID: custom.powertv720p | Categoria: MÚSICA
+- Rehber TV | ID: rehbertv.local | Categoria: RELIGIOSOS
+- Sat7 Türk | ID: sat7turk.local | Categoria: RELIGIOSOS
+- Sercem TV | ID: sercemtv.local | Categoria: RELIGIOSOS
+- Spacetoon Türkiye | ID: spacetoonturkiye.local | Categoria: INFANTIS
+- Tempo TV | ID: tempotv.local | Categoria: REGIONAIS
+- Ton TV | ID: tontv.local | Categoria: REGIONAIS
+- TRT EBA Ortaokul | ID: trtebaortaokul.local | Categoria: CULTURA/EDUCAÇÃO
+- KRAL POP | ID: kralpop.local | Categoria: MÚSICA
+- NR1 FASHION ONE | ID: nr1fashionone.local | Categoria: MÚSICA
+- TürkHaber | ID: turkhaber.local | Categoria: NOTÍCIAS
+- TV 264 | ID: imohs5fyptw23ih | Categoria: REGIONAIS
+- TV 41 | ID: tv41.local | Categoria: REGIONAIS
+- TV 52 | ID: tv52.local | Categoria: REGIONAIS
+- TV DEN | ID: tvden.local | Categoria: REGIONAIS
+- TV Karadeniz | ID: tvkaradeniz.local | Categoria: CULTURA/EDUCAÇÃO
+- Vuslat TV | ID: vuslattv.local | Categoria: REGIONAIS
+- Zarok TV Kurmanji | ID: zaroktvkurmanji.local | Categoria: INFANTIS
+- Zarok TV Sorani | ID: zaroktvsorani.local | Categoria: INFANTIS
+- Euro Star TV | ID: eurostartv.local | Categoria: ENTRETENIMENTO
+- Natural TV | ID: naturaltv.local | Categoria: REGIONAIS
+- Sun RTV | ID: sunrtv.local | Categoria: REGIONAIS
+- TBMM TV | ID: tbmmtv.local | Categoria: REGIONAIS
+- Van 65 TV | ID: van65tv.local | Categoria: REGIONAIS
+- Tabii | ID: tabii.local | Categoria: FILMES E SÉRIES
+- Ekol TV | ID: 3kluptlla8k8re0 | Categoria: NOTÍCIAS
+- Balkan Türk | ID: balkanturk.local | Categoria: INTERNACIONAIS
+- Thaqalayn TV | ID: thaqalayntv.local | Categoria: INTERNACIONAIS
+- KN Music TV | ID: knmusictv.local | Categoria: MÚSICA
+- YOL TV | ID: yoltv.local | Categoria: REGIONAIS
+- Kanal Ada | ID: kanalada.local | Categoria: REGIONAIS
+- Arzu Film | ID: arzufilm.local | Categoria: FILMES E SÉRIES
+- Ekol Sports | ID: ekolsports.local | Categoria: ESPORTES
+- Kanal Urfa | ID: kanalurfa.local | Categoria: REGIONAIS
+- Trabzon Buyuksehir Belediyesi TV | ID: trabzonbuyuksehirbelediyesitv.local | Categoria: REGIONAIS
+- Urfanatik TV | ID: urfanatiktv.local | Categoria: REGIONAIS
+- MADINAH TV | ID: madinahtv.local | Categoria: RELIGIOSOS
+- MC EU TV | ID: mceutv.local | Categoria: INTERNACIONAIS
+- Persiana Türkiye | ID: persianaturkiye.local | Categoria: INTERNACIONAIS
+- ETV Manisa | ID: etvmanisa.local | Categoria: REGIONAIS
+- Dizi TV | ID: dizitv.local | Categoria: FILMES E SÉRIES
+- ABN TURKEY | ID: abnturkey.local | Categoria: RELIGIOSOS
+- Dost | ID: dost.local | Categoria: MÚSICA
+- Company TV | ID: companytv.local | Categoria: MÚSICA
+- INTV Australia | ID: intvaustralia.local | Categoria: INTERNACIONAIS
+- Güçlü TV | ID: guclutv.local | Categoria: MÚSICA
+- İSVİÇRE TV | ID: isvicretv.local | Categoria: INTERNACIONAIS
+- MOR TV | ID: mortv.local | Categoria: ESTILO DE VIDA
+- IQ Channel | ID: iqchannel.local | Categoria: MÚSICA
+- JÎN TV | ID: jintv.local | Categoria: INTERNACIONAIS
+- MAKKAH TV | ID: makkahtv.local | Categoria: RELIGIOSOS
+- MK TV | ID: mktv.local | Categoria: REGIONAIS
+- TopPop | ID: toppop.local | Categoria: MÚSICA
+- Retro Music Television | ID: retromusictelevision.local | Categoria: MÚSICA
+- beIN Sports 1 Turk | ID: beinsports1turk.local | Categoria: ESPORTES
+- 4U Family (persa) | ID: 4ufamilypersa.local | Categoria: INTERNACIONAIS
+- Power TV (720p) | ID: powertv720p.local | Categoria: MÚSICA
