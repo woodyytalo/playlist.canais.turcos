@@ -1,0 +1,1446 @@
+{
+  "generated_at_utc": "2026-11-20T15:30:21+00:00",
+  "source_url": "https://tr.canlitv.watch/frekans-bilgileri",
+  "source_check": {
+    "ok": true,
+    "http_status": 200
+  },
+  "summary": {
+    "table_rows": 221,
+    "unique_channels": 211,
+    "expected_channels": 211,
+    "pending_verification": 137,
+    "channels_with_multiple_transponders": 10,
+    "satellites": {
+      "Türksat 4A": 71,
+      "Türksat 5B": 6,
+      "Türksat 6A": 7
+    },
+    "invalid_confirmed_entries": 0
+  },
+  "pending_channels": [
+    {
+      "number": 2,
+      "channel": "Lider Haber",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 4,
+      "channel": "4U TV",
+      "category": "ENTRETENIMENTO",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 11,
+      "channel": "Alanya Posta TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 12,
+      "channel": "Almahriah TV",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 13,
+      "channel": "Altas TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 14,
+      "channel": "Anadolu TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 15,
+      "channel": "ARAS TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 16,
+      "channel": "AS TV",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 18,
+      "channel": "ATV Alanya",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 27,
+      "channel": "CİNE1",
+      "category": "FILMES E SÉRIES",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 32,
+      "channel": "Deniz Postası TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 33,
+      "channel": "DHA",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 34,
+      "channel": "Dim TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 36,
+      "channel": "Diyar TV",
+      "category": "RELIGIOSOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 38,
+      "channel": "1Mus",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 39,
+      "channel": "30A Music",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 41,
+      "channel": "TMB TV",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 44,
+      "channel": "Elsharq TV",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 46,
+      "channel": "Erciyes TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 47,
+      "channel": "Erzurum Web TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 49,
+      "channel": "ETV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 51,
+      "channel": "Ezgi TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 54,
+      "channel": "Fashion One",
+      "category": "ESTILO DE VIDA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 55,
+      "channel": "FRT TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 56,
+      "channel": "Grand Cinema",
+      "category": "FILMES E SÉRIES",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 59,
+      "channel": "Haber61 TV",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 64,
+      "channel": "Hunat TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 65,
+      "channel": "İçel TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 66,
+      "channel": "Kardelen TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 67,
+      "channel": "İzmir Time 35 TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 69,
+      "channel": "K+ Kayseri",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 72,
+      "channel": "Kanal 19",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 78,
+      "channel": "Kanal 34",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 79,
+      "channel": "Kanal 53",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 85,
+      "channel": "Kanal D Drama",
+      "category": "ENTRETENIMENTO",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 88,
+      "channel": "Kay TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 89,
+      "channel": "Kayhan TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 90,
+      "channel": "Kent Türk TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 92,
+      "channel": "Konya KTV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 93,
+      "channel": "Konya Olay TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 95,
+      "channel": "Life TV",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 97,
+      "channel": "Med Müzik",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 98,
+      "channel": "Mekameleen TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 103,
+      "channel": "MTürk TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 104,
+      "channel": "Play TV",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 106,
+      "channel": "NR1 Aşk",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 107,
+      "channel": "NR1 Damar",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 108,
+      "channel": "NR1 Dance",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 110,
+      "channel": "Number 1 TV",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 111,
+      "channel": "Power Dance TV",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 112,
+      "channel": "Power Love TV",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 114,
+      "channel": "MUKABELE TV",
+      "category": "RELIGIOSOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 115,
+      "channel": "Rehber TV",
+      "category": "RELIGIOSOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 116,
+      "channel": "Sat7 Türk",
+      "category": "RELIGIOSOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 117,
+      "channel": "Semerkand TV",
+      "category": "RELIGIOSOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 118,
+      "channel": "Sercem TV",
+      "category": "RELIGIOSOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 119,
+      "channel": "Show Max",
+      "category": "ENTRETENIMENTO",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 121,
+      "channel": "Spacetoon Türkiye",
+      "category": "INFANTIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 123,
+      "channel": "TAY TV",
+      "category": "ESPORTES",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 124,
+      "channel": "TELE1",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 125,
+      "channel": "Tempo TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 126,
+      "channel": "teve2",
+      "category": "ENTRETENIMENTO",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 127,
+      "channel": "TGRT Haber",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 128,
+      "channel": "Tivi 6",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 129,
+      "channel": "TJK TV",
+      "category": "ESPORTES",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 130,
+      "channel": "Ton TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 132,
+      "channel": "TRT Arabi",
+      "category": "TRT",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 133,
+      "channel": "TRT Avaz",
+      "category": "TRT",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 134,
+      "channel": "TRT Çocuk",
+      "category": "INFANTIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 135,
+      "channel": "TRT Diyanet Çocuk",
+      "category": "INFANTIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 136,
+      "channel": "TRT EBA Ortaokul",
+      "category": "CULTURA/EDUCAÇÃO",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 137,
+      "channel": "TRT Genç",
+      "category": "TRT",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 138,
+      "channel": "TRT Haber",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 139,
+      "channel": "TRT Kurdî",
+      "category": "TRT",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 140,
+      "channel": "TRT Müzik",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 141,
+      "channel": "Kral Pop",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 142,
+      "channel": "NR1 Fashion One",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 143,
+      "channel": "TRT Türk",
+      "category": "TRT",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 144,
+      "channel": "TRT World",
+      "category": "TRT",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 145,
+      "channel": "TürkHaber",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 146,
+      "channel": "TV 1",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 147,
+      "channel": "TV 264",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 148,
+      "channel": "TV 41",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 149,
+      "channel": "TV 52",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 150,
+      "channel": "TV DEN",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 151,
+      "channel": "TV Karadeniz",
+      "category": "CULTURA/EDUCAÇÃO",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 152,
+      "channel": "TV100",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 153,
+      "channel": "TV4",
+      "category": "ESTILO DE VIDA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 154,
+      "channel": "TV5",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 156,
+      "channel": "TVNET",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 158,
+      "channel": "Ülke TV",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 159,
+      "channel": "Vav TV",
+      "category": "RELIGIOSOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 160,
+      "channel": "Zarok TV Kurmanji",
+      "category": "INFANTIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 161,
+      "channel": "Zarok TV Sorani",
+      "category": "INFANTIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 162,
+      "channel": "Euro Star TV",
+      "category": "ENTRETENIMENTO",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 164,
+      "channel": "Natural TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 165,
+      "channel": "Sun RTV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 166,
+      "channel": "TBMM TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 167,
+      "channel": "Van 65 TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 169,
+      "channel": "Tabii",
+      "category": "FILMES E SÉRIES",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 170,
+      "channel": "BBC First Türkiye",
+      "category": "FILMES E SÉRIES",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 171,
+      "channel": "Ekol TV",
+      "category": "NOTÍCIAS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 172,
+      "channel": "Syria TV",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 173,
+      "channel": "Balkan Türk",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 174,
+      "channel": "Thaqalayn TV",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 175,
+      "channel": "KN Music TV",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 176,
+      "channel": "YOL TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 177,
+      "channel": "RTG International",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 178,
+      "channel": "Kanal Ada",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 179,
+      "channel": "Arzu Film",
+      "category": "FILMES E SÉRIES",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 180,
+      "channel": "Ekol Sports",
+      "category": "ESPORTES",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 182,
+      "channel": "Trabzon Buyuksehir Belediyesi TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 183,
+      "channel": "Urfanatik TV",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 184,
+      "channel": "MADINAH TV",
+      "category": "RELIGIOSOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 185,
+      "channel": "MC EU TV",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 187,
+      "channel": "BabyFirst TV",
+      "category": "INFANTIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 188,
+      "channel": "TLC",
+      "category": "DOCUMENTÁRIOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 190,
+      "channel": "ETV Manisa",
+      "category": "REGIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 191,
+      "channel": "Dizi TV",
+      "category": "FILMES E SÉRIES",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 192,
+      "channel": "ABN TURKEY",
+      "category": "RELIGIOSOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 193,
+      "channel": "Dost",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 194,
+      "channel": "Company TV",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 195,
+      "channel": "INTV Australia",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 196,
+      "channel": "Güçlü TV",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 197,
+      "channel": "İSVİÇRE TV",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 198,
+      "channel": "Now 70 s",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 199,
+      "channel": "Now 80 s",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 200,
+      "channel": "NOW ROCK",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 201,
+      "channel": "MOR TV",
+      "category": "ESTILO DE VIDA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 202,
+      "channel": "IQ Channel",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 203,
+      "channel": "JÎN TV",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 204,
+      "channel": "Makkah TV",
+      "category": "RELIGIOSOS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 206,
+      "channel": "TopPop",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 207,
+      "channel": "Retro Music Television",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 209,
+      "channel": "beIN Sports 1 Turk",
+      "category": "ESPORTES",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 210,
+      "channel": "4U Family (persa)",
+      "category": "INTERNACIONAIS",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    },
+    {
+      "number": 211,
+      "channel": "Power TV (720p)",
+      "category": "MÚSICA",
+      "satellite": "A verificar",
+      "frequency_mhz": "—",
+      "polarization": "—",
+      "symbol_rate_ksps": "—",
+      "fec": "—"
+    }
+  ],
+  "multiple_transponders": [
+    {
+      "number": 23,
+      "channel": "Bloomberg HT",
+      "transponders": 2
+    },
+    {
+      "number": 24,
+      "channel": "Bloomberg HT 2",
+      "transponders": 2
+    },
+    {
+      "number": 35,
+      "channel": "Diyanet TV",
+      "transponders": 2
+    },
+    {
+      "number": 57,
+      "channel": "GRT Gaziantep TV",
+      "transponders": 2
+    },
+    {
+      "number": 60,
+      "channel": "Habertürk",
+      "transponders": 2
+    },
+    {
+      "number": 61,
+      "channel": "Halk TV",
+      "transponders": 2
+    },
+    {
+      "number": 62,
+      "channel": "HT Spor TV",
+      "transponders": 2
+    },
+    {
+      "number": 63,
+      "channel": "Güneydoğu TV",
+      "transponders": 2
+    },
+    {
+      "number": 81,
+      "channel": "Kanal 7 Avrupa",
+      "transponders": 2
+    },
+    {
+      "number": 99,
+      "channel": "Meltem TV",
+      "transponders": 2
+    }
+  ],
+  "invalid_entries": []
+}
