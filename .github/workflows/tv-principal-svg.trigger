@@ -1,1 +1,1 @@
-Executar a preparação das 211 logos selecionadas no CATALOGO-UNIFICADO.md, gerar SVGs 512x512 centralizados e proporcionais e atualizar somente os atributos tvg-logo em Tv.m3u.
+Executar aplicação das 210 logos SVG quadradas atualizadas no catálogo; manter Dost musical sem alteração até localizar fonte correta.
