@@ -1173,7 +1173,7 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | TBMM TV | ![Logo TBMM TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tbmm-tv-tr-9d1f406b88.svg) |
 | Van 65 TV | ![Logo Van 65 TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/van65tv.png) |
 | YOL TV | ![Logo YOL TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/yol-tv-tr-a747116203.svg) |
-| Kanal Ada | Pendente — sem `tvg-logo` na playlist |
+| Kanal Ada | ![Logo Kanal Ada](https://assets.tvcdn.net/5cbdd199-9ed1-4f2d-a106-a6d9c53227c4.png) |
 | Kanal Urfa | ![Logo Kanal Urfa ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-urfa-tr-0831c8c3c9.svg) |
 | Trabzon Buyuksehir Belediyesi TV | ![Logo Trabzon Buyuksehir Belediyesi TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/trabzonbuyuksehirbelediyesitv.png) |
 | Urfanatik TV | ![Logo Urfanatik TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/urfanatiktv.png) |
@@ -1313,4 +1313,4 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 
 ## Pendências
 
-- **Kanal Ada** — a entrada atual de `Tv.m3u` não contém atributo `tvg-logo`. Isso não significa que o canal não tenha identidade visual: o site do próprio Kanal Ada está ativo em https://www.kanalada.com/ . A URL direta do arquivo da logo ainda precisa ser identificada e validada para inserir a miniatura correta.
+- **Kanal Ada** — a entrada atual de `Tv.m3u` continua sem atributo `tvg-logo`. A logo foi incluída na galeria a partir do endereço `https://assets.tvcdn.net/5cbdd199-9ed1-4f2d-a106-a6d9c53227c4.png`, associado ao canal Kanal Ada em uma playlist pública de referência que também identifica o fluxo `stream.tvcdn.net/yerel/kanal-ada.m3u8`. Fonte de conferência: https://github.com/erdodo/iptv/blob/main/tv.m3u8. A referência visual foi adicionada ao catálogo; a playlist principal não foi alterada.
