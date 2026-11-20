@@ -1,34 +1,24 @@
 {
-  "generated_at_utc": "2026-11-20T15:30:21+00:00",
+  "generated_at_utc": "2026-11-20T15:44:32+00:00",
   "source_url": "https://tr.canlitv.watch/frekans-bilgileri",
   "source_check": {
     "ok": true,
     "http_status": 200
   },
   "summary": {
-    "table_rows": 221,
+    "table_rows": 233,
     "unique_channels": 211,
     "expected_channels": 211,
-    "pending_verification": 137,
-    "channels_with_multiple_transponders": 10,
+    "pending_verification": 106,
+    "channels_with_multiple_transponders": 20,
     "satellites": {
-      "Türksat 4A": 71,
-      "Türksat 5B": 6,
-      "Türksat 6A": 7
+      "Türksat 4A": 107,
+      "Türksat 5B": 10,
+      "Türksat 6A": 10
     },
     "invalid_confirmed_entries": 0
   },
   "pending_channels": [
-    {
-      "number": 2,
-      "channel": "Lider Haber",
-      "category": "NOTÍCIAS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
     {
       "number": 4,
       "channel": "4U TV",
@@ -180,16 +170,6 @@
       "fec": "—"
     },
     {
-      "number": 41,
-      "channel": "TMB TV",
-      "category": "MÚSICA",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 44,
       "channel": "Elsharq TV",
       "category": "INTERNACIONAIS",
@@ -292,16 +272,6 @@
     {
       "number": 65,
       "channel": "İçel TV",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 66,
-      "channel": "Kardelen TV",
       "category": "REGIONAIS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
@@ -540,69 +510,9 @@
       "fec": "—"
     },
     {
-      "number": 115,
-      "channel": "Rehber TV",
-      "category": "RELIGIOSOS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 116,
-      "channel": "Sat7 Türk",
-      "category": "RELIGIOSOS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 117,
-      "channel": "Semerkand TV",
-      "category": "RELIGIOSOS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 118,
-      "channel": "Sercem TV",
-      "category": "RELIGIOSOS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 119,
-      "channel": "Show Max",
-      "category": "ENTRETENIMENTO",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 121,
       "channel": "Spacetoon Türkiye",
       "category": "INFANTIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 123,
-      "channel": "TAY TV",
-      "category": "ESPORTES",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",
@@ -622,36 +532,6 @@
     {
       "number": 125,
       "channel": "Tempo TV",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 126,
-      "channel": "teve2",
-      "category": "ENTRETENIMENTO",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 127,
-      "channel": "TGRT Haber",
-      "category": "NOTÍCIAS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 128,
-      "channel": "Tivi 6",
       "category": "REGIONAIS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
@@ -700,76 +580,6 @@
       "fec": "—"
     },
     {
-      "number": 134,
-      "channel": "TRT Çocuk",
-      "category": "INFANTIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 135,
-      "channel": "TRT Diyanet Çocuk",
-      "category": "INFANTIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 136,
-      "channel": "TRT EBA Ortaokul",
-      "category": "CULTURA/EDUCAÇÃO",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 137,
-      "channel": "TRT Genç",
-      "category": "TRT",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 138,
-      "channel": "TRT Haber",
-      "category": "NOTÍCIAS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 139,
-      "channel": "TRT Kurdî",
-      "category": "TRT",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 140,
-      "channel": "TRT Müzik",
-      "category": "MÚSICA",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 141,
       "channel": "Kral Pop",
       "category": "MÚSICA",
@@ -790,119 +600,9 @@
       "fec": "—"
     },
     {
-      "number": 143,
-      "channel": "TRT Türk",
-      "category": "TRT",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 144,
-      "channel": "TRT World",
-      "category": "TRT",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 145,
-      "channel": "TürkHaber",
-      "category": "NOTÍCIAS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 146,
-      "channel": "TV 1",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 147,
-      "channel": "TV 264",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 148,
-      "channel": "TV 41",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 149,
-      "channel": "TV 52",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 150,
-      "channel": "TV DEN",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 151,
       "channel": "TV Karadeniz",
       "category": "CULTURA/EDUCAÇÃO",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 152,
-      "channel": "TV100",
-      "category": "NOTÍCIAS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 153,
-      "channel": "TV4",
-      "category": "ESTILO DE VIDA",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 154,
-      "channel": "TV5",
-      "category": "NOTÍCIAS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",
@@ -972,16 +672,6 @@
     {
       "number": 164,
       "channel": "Natural TV",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 165,
-      "channel": "Sun RTV",
       "category": "REGIONAIS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
@@ -1439,6 +1129,56 @@
     {
       "number": 99,
       "channel": "Meltem TV",
+      "transponders": 2
+    },
+    {
+      "number": 119,
+      "channel": "Show Max",
+      "transponders": 2
+    },
+    {
+      "number": 127,
+      "channel": "TGRT Haber",
+      "transponders": 2
+    },
+    {
+      "number": 134,
+      "channel": "TRT Çocuk",
+      "transponders": 2
+    },
+    {
+      "number": 135,
+      "channel": "TRT Diyanet Çocuk",
+      "transponders": 2
+    },
+    {
+      "number": 136,
+      "channel": "TRT EBA Ortaokul",
+      "transponders": 2
+    },
+    {
+      "number": 137,
+      "channel": "TRT Genç",
+      "transponders": 2
+    },
+    {
+      "number": 138,
+      "channel": "TRT Haber",
+      "transponders": 3
+    },
+    {
+      "number": 139,
+      "channel": "TRT Kurdî",
+      "transponders": 2
+    },
+    {
+      "number": 140,
+      "channel": "TRT Müzik",
+      "transponders": 3
+    },
+    {
+      "number": 143,
+      "channel": "TRT Türk",
       "transponders": 2
     }
   ],

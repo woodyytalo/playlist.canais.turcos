@@ -1,31 +1,30 @@
 # Auditoria de frequencias via satelite
 
-- Gerado em UTC: 2026-11-20T15:30:21+00:00
+- Gerado em UTC: 2026-11-20T15:44:32+00:00
 - Arquivo: dados-satelite/ANOTACAO-CANAIS-FREQUENCIAS.md
 - Fonte: https://tr.canlitv.watch/frekans-bilgileri
 - Resposta HTTP da fonte: OK
 
 ## Resumo
 
-- Linhas de transponder: **221**
+- Linhas de transponder: **233**
 - Canais unicos: **211** (esperado: 211)
-- Canais A verificar: **137**
-- Canais com multiplos transponders: **10**
+- Canais A verificar: **106**
+- Canais com multiplos transponders: **20**
 - Entradas confirmadas com campos invalidos: **0**
 
 ## Distribuicao por satelite
 
 | Satelite | Linhas |
 |---|---:|
-| Türksat 4A | 71 |
-| Türksat 5B | 6 |
-| Türksat 6A | 7 |
+| Türksat 4A | 107 |
+| Türksat 5B | 10 |
+| Türksat 6A | 10 |
 
 ## Canais pendentes
 
 | Nº | Canal | Categoria |
 |---:|---|---|
-| 2 | Lider Haber | NOTÍCIAS |
 | 4 | 4U TV | ENTRETENIMENTO |
 | 11 | Alanya Posta TV | REGIONAIS |
 | 12 | Almahriah TV | INTERNACIONAIS |
@@ -41,7 +40,6 @@
 | 36 | Diyar TV | RELIGIOSOS |
 | 38 | 1Mus | MÚSICA |
 | 39 | 30A Music | MÚSICA |
-| 41 | TMB TV | MÚSICA |
 | 44 | Elsharq TV | INTERNACIONAIS |
 | 46 | Erciyes TV | REGIONAIS |
 | 47 | Erzurum Web TV | REGIONAIS |
@@ -53,7 +51,6 @@
 | 59 | Haber61 TV | NOTÍCIAS |
 | 64 | Hunat TV | REGIONAIS |
 | 65 | İçel TV | REGIONAIS |
-| 66 | Kardelen TV | REGIONAIS |
 | 67 | İzmir Time 35 TV | REGIONAIS |
 | 69 | K+ Kayseri | REGIONAIS |
 | 72 | Kanal 19 | REGIONAIS |
@@ -77,43 +74,16 @@
 | 111 | Power Dance TV | MÚSICA |
 | 112 | Power Love TV | MÚSICA |
 | 114 | MUKABELE TV | RELIGIOSOS |
-| 115 | Rehber TV | RELIGIOSOS |
-| 116 | Sat7 Türk | RELIGIOSOS |
-| 117 | Semerkand TV | RELIGIOSOS |
-| 118 | Sercem TV | RELIGIOSOS |
-| 119 | Show Max | ENTRETENIMENTO |
 | 121 | Spacetoon Türkiye | INFANTIS |
-| 123 | TAY TV | ESPORTES |
 | 124 | TELE1 | NOTÍCIAS |
 | 125 | Tempo TV | REGIONAIS |
-| 126 | teve2 | ENTRETENIMENTO |
-| 127 | TGRT Haber | NOTÍCIAS |
-| 128 | Tivi 6 | REGIONAIS |
 | 129 | TJK TV | ESPORTES |
 | 130 | Ton TV | REGIONAIS |
 | 132 | TRT Arabi | TRT |
 | 133 | TRT Avaz | TRT |
-| 134 | TRT Çocuk | INFANTIS |
-| 135 | TRT Diyanet Çocuk | INFANTIS |
-| 136 | TRT EBA Ortaokul | CULTURA/EDUCAÇÃO |
-| 137 | TRT Genç | TRT |
-| 138 | TRT Haber | NOTÍCIAS |
-| 139 | TRT Kurdî | TRT |
-| 140 | TRT Müzik | MÚSICA |
 | 141 | Kral Pop | MÚSICA |
 | 142 | NR1 Fashion One | MÚSICA |
-| 143 | TRT Türk | TRT |
-| 144 | TRT World | TRT |
-| 145 | TürkHaber | NOTÍCIAS |
-| 146 | TV 1 | REGIONAIS |
-| 147 | TV 264 | REGIONAIS |
-| 148 | TV 41 | REGIONAIS |
-| 149 | TV 52 | REGIONAIS |
-| 150 | TV DEN | REGIONAIS |
 | 151 | TV Karadeniz | CULTURA/EDUCAÇÃO |
-| 152 | TV100 | NOTÍCIAS |
-| 153 | TV4 | ESTILO DE VIDA |
-| 154 | TV5 | NOTÍCIAS |
 | 156 | TVNET | NOTÍCIAS |
 | 158 | Ülke TV | NOTÍCIAS |
 | 159 | Vav TV | RELIGIOSOS |
@@ -121,7 +91,6 @@
 | 161 | Zarok TV Sorani | INFANTIS |
 | 162 | Euro Star TV | ENTRETENIMENTO |
 | 164 | Natural TV | REGIONAIS |
-| 165 | Sun RTV | REGIONAIS |
 | 166 | TBMM TV | REGIONAIS |
 | 167 | Van 65 TV | REGIONAIS |
 | 169 | Tabii | FILMES E SÉRIES |
