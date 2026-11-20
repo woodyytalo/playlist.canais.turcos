@@ -138,7 +138,7 @@
 | 126 | teve2 | ENTRETENIMENTO | Türksat 4A | 12245 | H | 27500 | 5/6 |
 | 127 | TGRT Haber | NOTÍCIAS | Türksat 6A / Türksat 4A | 12149 / 12380 | V | 27500 | 3/4 |
 | 128 | Tivi 6 | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
-| 129 | TJK TV | ESPORTES | A verificar | — | — | — | — |
+| 129 | TJK TV | ESPORTES | Türksat 5B | 11345 | V | 29750 | 5/6 |
 | 130 | Ton TV | REGIONAIS | A verificar | — | — | — | — |
 | 131 | TRT 1 | ENTRETENIMENTO | Türksat 4A | 11794 | V | 30000 | 3/4 |
 | 132 | TRT Arabi | TRT | Türksat 4A | 12092 | H | 27500 | 5/6 |
