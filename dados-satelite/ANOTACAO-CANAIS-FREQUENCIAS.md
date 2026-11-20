@@ -2,10 +2,10 @@
 
 - **Base:** `Tv.m3u` da branch `github/workflows/atualizar-logos.yml`.
 - **Escopo:** os 211 canais presentes na playlist, preservando a ordem e a categoria.
-- **Fonte dos parâmetros:** [CanliTV — Uydu Frekans Bilgileri](https://tr.canlitv.watch/frekans-bilgileri).
+- **Fontes dos parâmetros:** [CanliTV — Uydu Frekans Bilgileri](https://tr.canlitv.watch/frekans-bilgileri), [TÜRKSAT — lista oficial](https://www.turksat.com.tr/uydu/yayincilik-hizmetleri/turksat-frekans-listesi), LyngSat, SAT FRQ e páginas oficiais dos canais, conforme a correspondência de cada entrada.
 - **Atualização da fonte consultada:** 20 de novembro de 2026.
 - **Campos:** satélite, frequência (MHz), polarização, SR (kS/s) e FEC.
-- **Importante:** os dados abaixo são correspondências identificadas na tabela de frequências do CanliTV. Canal sem correspondência confirmada fica como **A verificar**; isso não significa que não transmita por satélite. Vários canais da playlist podem ser exclusivamente IPTV ou ter parâmetros publicados em outras fontes.
+- **Importante:** os parâmetros foram cruzados com fontes de frequência e, quando possível, fontes oficiais dos canais. Canal sem correspondência confirmada fica como **A verificar**; isso não significa que não transmita por satélite. Vários canais da playlist podem ser exclusivamente IPTV ou ter parâmetros publicados em outras fontes.
 - A lista do CanliTV é de canais presentes nos satélites Türksat; não se deve inferir que todos os canais da playlist estejam disponíveis por satélite.
 
 | Nº | Canal na playlist | Categoria | Satélite | Frequência (MHz) | Polarização | SR | FEC |
@@ -21,7 +21,7 @@
 | 9 | Aksu TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 10 | Al Zahra TV Turkic | RELIGIOSOS | Türksat 6A | 12149 | V | 27500 | 3/4 |
 | 11 | Alanya Posta TV | REGIONAIS | A verificar | — | — | — | — |
-| 12 | Almahriah TV | INTERNACIONAIS | A verificar | — | — | — | — |
+| 12 | Almahriah TV | INTERNACIONAIS | Eutelsat 7 West A | 11603 | H | 27500 | 5/6 |
 | 13 | Altas TV | REGIONAIS | Türksat 4A | 11996 | V | 27500 | 3/4 |
 | 14 | Anadolu TV | REGIONAIS | A verificar | — | — | — | — |
 | 15 | ARAS TV | REGIONAIS | A verificar | — | — | — | — |
@@ -45,7 +45,7 @@
 | 33 | DHA | NOTÍCIAS | A verificar | — | — | — | — |
 | 34 | Dim TV | REGIONAIS | A verificar | — | — | — | — |
 | 35 | Diyanet TV | RELIGIOSOS | Türksat 4A | 12380 / 12423 | V / H | 27500 / 30000 | 3/4 |
-| 36 | Diyar TV | RELIGIOSOS | A verificar | — | — | — | — |
+| 36 | Diyar TV | RELIGIOSOS | Türksat 4A | 12264 | V | 27500 | 5/6 |
 | 37 | Dost TV | RELIGIOSOS | Türksat 4A | 11996 | V | 27500 | 3/4 |
 | 38 | 1Mus | MÚSICA | A verificar | — | — | — | — |
 | 39 | 30A Music | MÚSICA | A verificar | — | — | — | — |
@@ -130,7 +130,7 @@
 | 118 | Sercem TV | RELIGIOSOS | Türksat 6A | 12111 | V | 27500 | 3/4 |
 | 119 | Show Max | ENTRETENIMENTO | Türksat 4A | 11845 / 12303 | V | 10833 / 27500 | 2/3 / 3/4 |
 | 120 | Show TV | ENTRETENIMENTO | Türksat 4A | 12303 | V | 27500 | 3/4 |
-| 121 | Spacetoon Türkiye | INFANTIS | A verificar | — | — | — | — |
+| 121 | Spacetoon Türkiye | INFANTIS | Türksat 4A | 12379 | V | 27500 | 3/4 |
 | 122 | Star TV | ENTRETENIMENTO | Türksat 4A | 12015 | H | 27500 | 3/4 |
 | 123 | TAY TV | ESPORTES | Türksat 4A | 12245 | H | 27500 | 5/6 |
 | 124 | TELE1 | NOTÍCIAS | Türksat 4A | 12034 | V | 27500 | 3/4 |
@@ -175,7 +175,7 @@
 | 163 | Sözcü TV | NOTÍCIAS | Türksat 6A | 12111 | V | 27500 | 3/4 |
 | 164 | Natural TV | REGIONAIS | A verificar | — | — | — | — |
 | 165 | Sun RTV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
-| 166 | TBMM TV | REGIONAIS | A verificar | — | — | — | — |
+| 166 | TBMM TV | REGIONAIS | Türksat 4A | 11958 | V | 27500 | 5/6 |
 | 167 | Van 65 TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 168 | PowerTürk TV | MÚSICA | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 169 | Tabii | FILMES E SÉRIES | A verificar | — | — | — | — |
@@ -189,7 +189,7 @@
 | 177 | RTG International | INTERNACIONAIS | A verificar | — | — | — | — |
 | 178 | Kanal Ada | REGIONAIS | A verificar | — | — | — | — |
 | 179 | Arzu Film | FILMES E SÉRIES | A verificar | — | — | — | — |
-| 180 | Ekol Sports | ESPORTES | A verificar | — | — | — | — |
+| 180 | Ekol Sports | ESPORTES | Türksat 4A | 12379 | H | 30000 | 3/4 |
 | 181 | Kanal Urfa | REGIONAIS | Türksat 4A | 12423 | V | 27500 | 2/3 |
 | 182 | Trabzon Buyuksehir Belediyesi TV | REGIONAIS | A verificar | — | — | — | — |
 | 183 | Urfanatik TV | REGIONAIS | A verificar | — | — | — | — |
