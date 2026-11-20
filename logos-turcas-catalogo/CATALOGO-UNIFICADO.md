@@ -608,3 +608,23 @@ O RTÜK é útil para confirmar que houve alteração oficial de identidade e pa
 4. Registrar URL original, nome do arquivo, data de consulta, autoria e licença/condições de uso.
 5. Só depois converter e padronizar a cópia local; preservar o arquivo de origem quando a licença permitir.
 6. Não substituir automaticamente logos na playlist: manter a playlist intacta até revisão e aprovação.
+
+
+---
+
+# Galeria de imagens de referência — Wikimedia Commons
+
+As imagens abaixo foram incorporadas como pré-visualizações diretamente neste catálogo. Cada imagem aponta para o arquivo hospedado no Wikimedia Commons; abra a página de origem para conferir autoria, licença, histórico e resolução antes de reutilizar ou redistribuir. São referências visuais e não uma confirmação automática de que todas representam a identidade atualmente em uso.
+
+| Canal | Pré-visualização | Página de origem |
+|---|---|---|
+| ATV | ![Logo ATV](https://commons.wikimedia.org/wiki/Special:FilePath/Atv%20logo%202010.svg) | https://commons.wikimedia.org/wiki/File:Atv_logo_2010.svg |
+| Bloomberg HT | ![Logo Bloomberg HT](https://commons.wikimedia.org/wiki/Special:FilePath/Bloomberg%20HT%20logo.svg) | https://commons.wikimedia.org/wiki/File:Bloomberg_HT_logo.svg |
+| CNN Türk | ![Logo CNN Türk](https://commons.wikimedia.org/wiki/Special:FilePath/CNN%20T%C3%BCrk%20logo.svg) | https://commons.wikimedia.org/wiki/File:CNN_T%C3%BCrk_logo.svg |
+| Diyanet TV | ![Logo Diyanet TV](https://commons.wikimedia.org/wiki/Special:FilePath/Diyanet%20TV%20logo.svg) | https://commons.wikimedia.org/wiki/Category:SVG_logos_of_television_channels_in_Turkey |
+| Habertürk TV | ![Logo Habertürk TV](https://commons.wikimedia.org/wiki/Special:FilePath/Habert%C3%BCrk%20TV%20logo.svg) | https://commons.wikimedia.org/wiki/Category:SVG_logos_of_television_channels_in_Turkey |
+| NTV | ![Logo NTV](https://commons.wikimedia.org/wiki/Special:FilePath/NTV%20(Turkey)%20logo.svg) | https://commons.wikimedia.org/wiki/File:NTV_%28Turkey%29_logo.svg |
+| Show TV | ![Logo Show TV](https://commons.wikimedia.org/wiki/Special:FilePath/Show%20TV%20logo.svg) | https://commons.wikimedia.org/wiki/Category:SVG_logos_of_television_channels_in_Turkey |
+| TRT 1 | ![Logo TRT 1](https://commons.wikimedia.org/wiki/Special:FilePath/TRT%201%20logo%20(2021-).svg) | https://commons.wikimedia.org/wiki/Category:SVG_logos_of_television_channels_in_Turkey |
+
+**Notas de uso:** algumas categorias incluem versões históricas. A logo ATV listada, por exemplo, é identificada como versão de 2010. Compare com o site oficial e com o sinal atual do canal antes de selecionar a imagem definitiva. As pré-visualizações são links externos, não cópias dos arquivos dentro do repositório.
