@@ -24,12 +24,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install Pillow requests vtracer
-      - name: Preparar e aplicar as 211 logos
+      - name: Preparar e aplicar 210 logos; manter Dost pendente
         run: python scripts/preparar_logos_tv_principal_svg.py
       - name: Salvar alterações
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Tv.m3u logos-turcas-catalogo/tv-principal-svg
-          git commit -m "Aplicar 211 logos quadradas SVG na TV principal"
+          git commit -m "Aplicar 210 logos quadradas SVG na TV principal"
           git push
