@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T15:56:22+00:00",
+  "generated_at_utc": "2026-11-20T15:58:56+00:00",
   "source_url": "https://tr.canlitv.watch/frekans-bilgileri",
   "source_check": {
     "ok": true,
@@ -9,10 +9,10 @@
     "table_rows": 211,
     "unique_channels": 211,
     "expected_channels": 211,
-    "pending_verification": 90,
+    "pending_verification": 88,
     "channels_with_multiple_transponders": 0,
     "satellites": {
-      "Türksat 4A": 96,
+      "Türksat 4A": 98,
       "Türksat 4A / Türksat 5B": 2,
       "Türksat 4A / Türksat 6A": 3,
       "Türksat 5B": 9,
@@ -543,16 +543,6 @@
       "fec": "—"
     },
     {
-      "number": 141,
-      "channel": "Kral Pop",
-      "category": "MÚSICA",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 142,
       "channel": "NR1 Fashion One",
       "category": "MÚSICA",
@@ -756,16 +746,6 @@
       "number": 192,
       "channel": "ABN TURKEY",
       "category": "RELIGIOSOS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 193,
-      "channel": "Dost",
-      "category": "MÚSICA",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",

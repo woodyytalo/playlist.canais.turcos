@@ -1,6 +1,6 @@
 # Auditoria de frequencias via satelite
 
-- Gerado em UTC: 2026-11-20T15:56:22+00:00
+- Gerado em UTC: 2026-11-20T15:58:56+00:00
 - Arquivo: dados-satelite/ANOTACAO-CANAIS-FREQUENCIAS.md
 - Fonte: https://tr.canlitv.watch/frekans-bilgileri
 - Resposta HTTP da fonte: OK
@@ -9,7 +9,7 @@
 
 - Linhas de transponder: **211**
 - Canais unicos: **211** (esperado: 211)
-- Canais A verificar: **90**
+- Canais A verificar: **88**
 - Canais com multiplos transponders: **0**
 - Entradas confirmadas com campos invalidos: **45**
 
@@ -17,7 +17,7 @@
 
 | Satelite | Linhas |
 |---|---:|
-| Türksat 4A | 96 |
+| Türksat 4A | 98 |
 | Türksat 4A / Türksat 5B | 2 |
 | Türksat 4A / Türksat 6A | 3 |
 | Türksat 5B | 9 |
@@ -80,7 +80,6 @@
 | 124 | TELE1 | NOTÍCIAS |
 | 129 | TJK TV | ESPORTES |
 | 130 | Ton TV | REGIONAIS |
-| 141 | Kral Pop | MÚSICA |
 | 142 | NR1 Fashion One | MÚSICA |
 | 164 | Natural TV | REGIONAIS |
 | 166 | TBMM TV | REGIONAIS |
@@ -102,7 +101,6 @@
 | 190 | ETV Manisa | REGIONAIS |
 | 191 | Dizi TV | FILMES E SÉRIES |
 | 192 | ABN TURKEY | RELIGIOSOS |
-| 193 | Dost | MÚSICA |
 | 194 | Company TV | MÚSICA |
 | 195 | INTV Australia | INTERNACIONAIS |
 | 196 | Güçlü TV | MÚSICA |
