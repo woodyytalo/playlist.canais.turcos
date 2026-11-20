@@ -557,3 +557,54 @@ TRT oficial,TRT Diyanet Cocuk,logos-turcas-catalogo/fontes-adicionais/trt-oficia
 TRT oficial,__MACOSX/Televizyon/._TRT Diyanet Cocuk.png,,https://www.trt.net.tr/logos/Televizyon.zip,TRT - pacote oficial,TRT Kurumsal,FALHA: cannot identify image file <_io.BytesIO object at 0x752fdb34c590>
 GunesTV,Catálogo Turkey,,https://raw.githubusercontent.com/Oktay2617/gunestv/main/channels_turkey.json,,,FALHA: Expecting value: line 923 column 24 (char 39906)
 ```
+
+
+---
+
+# Fontes adicionais pesquisadas — atualização de 19/11/2026
+
+Esta seção acrescenta pontos de consulta e validação encontrados em nova pesquisa. Os links abaixo são fontes para localizar, comparar ou confirmar logos; sua inclusão **não significa** que todos os arquivos tenham sido baixados, validados ou autorizados para redistribuição.
+
+## 1. Wikimedia Commons — categorias específicas e subcategorias
+
+- Categoria geral de logos de canais turcos: https://commons.wikimedia.org/wiki/Category:Logos_of_television_channels_in_Turkey
+  - Índice com 64 arquivos e 28 subcategorias na consulta realizada.
+  - Subcategorias úteis: ATV, beIN, BluTV, CNN Türk, Digiturk, Haber Global, Halk TV, Kanal 7, NTV, S Sport, Show TV, Star TV, TGRT, TRT, TVnet e Türksat Kablo.
+- Categoria de logos vetoriais SVG: https://commons.wikimedia.org/wiki/Category:SVG_logos_of_television_channels_in_Turkey
+  - Índice com 77 arquivos SVG na consulta realizada; inclui versões de Bloomberg HT, CNN Türk, Diyanet TV, Haber Global, Habertürk, NOW, NTV, Show TV e diversos canais TRT.
+- Categoria complementar de televisão turca: https://commons.wikimedia.org/wiki/Category:Television_logos_of_Turkey
+- Categoria de emissoras turcas: https://commons.wikimedia.org/wiki/Category:Television_channels_from_Turkey
+- Categoria específica NTV: https://commons.wikimedia.org/wiki/Category:NTV_logos
+- Categoria específica Show TV: https://commons.wikimedia.org/wiki/Category:Show_TV_logos
+
+**Orientação:** priorizar SVG quando houver versão atual; verificar a data/versão, autoria e licença na página de cada arquivo. O índice também contém logos históricos, portanto não assumir que a primeira imagem encontrada seja a identidade visual vigente.
+
+## 2. TRT — pacote oficial de logos
+
+- Página institucional: https://www.trt.net.tr/kurumsal/logolar
+- Pacote de logos de televisão indicado pela página institucional: https://www.trt.net.tr/logos/Televizyon.zip
+
+A página institucional disponibiliza seção de canais de televisão e opção de baixar o conjunto. Usar como referência primária para canais TRT; conferir individualmente os arquivos e descartar entradas auxiliares de sistema que possam existir dentro do ZIP.
+
+## 3. TheSportsDB — possível fonte complementar de imagens
+
+- Discussão sobre canais de TV da Turquia e atualização de imagens: https://www.thesportsdb.com/forum_topic.php?t=6415
+
+A discussão aponta que há imagens associadas a canais turcos na base, mas também alerta para logos antigos, canais encerrados e imagens com recorte/transparência inadequados. Tratar como fonte secundária de descoberta, não como autoridade para confirmar a logo atual.
+
+## 4. RTÜK — validação de identidade e alterações oficiais
+
+- Regulamento sobre logo e indicativo de emissoras: https://www.rtuk.gov.tr/by-law-on-administrative-and-financial-conditions-with-which-media-service-providers-and--platform-and-infrastructure-operators-are-required-to-comply/4049/en
+- Exemplo de decisão oficial sobre alteração de logo de canal: https://www.rtuk.gov.tr/UstKurulKarar/Detay/17176
+- Guia oficial para solicitação de alteração de logo: https://www.rtuk.gov.tr/Media/FM/Icerik/Klavuzlar%2C%20Form%20ve%20Beyan%20%C3%96rnekleri/logo-degisikligi-basvuru-kilavuzu.pdf
+
+O RTÜK é útil para confirmar que houve alteração oficial de identidade e para evitar associar uma logo antiga a um canal atual. As decisões e os documentos regulatórios são fontes de validação, não necessariamente repositórios de arquivos gráficos.
+
+## Critérios para incorporar logos ao acervo
+
+1. Confirmar que o canal existe na playlist e identificar o nome/variante exatos.
+2. Preferir página oficial da emissora ou pacote institucional; em seguida, SVG com licença explícita; por último, fontes secundárias.
+3. Conferir se a imagem é atual, se corresponde à versão SD/HD/ internacional correta e se não é logo de programa, plataforma ou canal encerrado.
+4. Registrar URL original, nome do arquivo, data de consulta, autoria e licença/condições de uso.
+5. Só depois converter e padronizar a cópia local; preservar o arquivo de origem quando a licença permitir.
+6. Não substituir automaticamente logos na playlist: manter a playlist intacta até revisão e aprovação.
