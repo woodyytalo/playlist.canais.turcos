@@ -1,15 +1,15 @@
 Relatório XMLTV — epg/guia-open-epg.xml
 Canais na playlist: 211
-Canais com programação real: 83
-Canais sem programação correspondente: 128
-Programas reais copiados: 11667
+Canais com programação real: 84
+Canais sem programação correspondente: 127
+Programas reais copiados: 11705
 
 CANAIS SEM PROGRAMAÇÃO:
 - 4U TV | ID: 4utv.local | Categoria: ENTRETENIMENTO
 - Aksu TV | ID: aksutv.local | Categoria: REGIONAIS
 - Al Zahra TV Turkic | ID: alzahratvturkic.local | Categoria: RELIGIOSOS
 - Alanya Posta TV | ID: alanyapostatv.local | Categoria: REGIONAIS
-- Almahriah TV | ID: almahriahtv.local | Categoria: INTERNACIONAIS
+- Almahriah TV | ID: AlmahriahTV.tr@SD | Categoria: INTERNACIONAIS
 - Altas TV | ID: altastv.local | Categoria: REGIONAIS
 - Anadolu TV | ID: anadolutv.local | Categoria: REGIONAIS
 - ARAS TV | ID: arastv.local | Categoria: REGIONAIS
@@ -29,7 +29,7 @@ CANAIS SEM PROGRAMAÇÃO:
 - 30A Music | ID: 30amusic.local | Categoria: MÚSICA
 - TMB TV | ID: tmbtv.local | Categoria: MÚSICA
 - Edessa TV | ID: edessatv.local | Categoria: REGIONAIS
-- Elsharq TV | ID: elsharqtv.local | Categoria: INTERNACIONAIS
+- Elsharq TV | ID: ElsharqTV.tr@SD | Categoria: INTERNACIONAIS
 - ER TV Malatya | ID: ertvmalatya.local | Categoria: REGIONAIS
 - Erciyes TV | ID: erciyestv.local | Categoria: REGIONAIS
 - Erzurum Web TV | ID: erzurumwebtv.local | Categoria: REGIONAIS
@@ -55,7 +55,7 @@ CANAIS SEM PROGRAMAÇÃO:
 - Kanal 34 | ID: kanal34.local | Categoria: REGIONAIS
 - Kanal 53 | ID: kanal53.local | Categoria: REGIONAIS
 - Kanal 58 | ID: kanal58.local | Categoria: REGIONAIS
-- Kanal Avrupa | ID: kanalavrupa.local | Categoria: INTERNACIONAIS
+- Kanal Avrupa | ID: KanalAvrupa.tr | Categoria: INTERNACIONAIS
 - Kanal D Drama | ID: kanalddrama.local | Categoria: ENTRETENIMENTO
 - Kanal Fırat | ID: kanalfrat.local | Categoria: REGIONAIS
 - Kay TV | ID: kaytv.local | Categoria: REGIONAIS
@@ -95,7 +95,6 @@ CANAIS SEM PROGRAMAÇÃO:
 - Vuslat TV | ID: vuslattv.local | Categoria: REGIONAIS
 - Zarok TV Kurmanji | ID: zaroktvkurmanji.local | Categoria: INFANTIS
 - Zarok TV Sorani | ID: zaroktvsorani.local | Categoria: INFANTIS
-- Euro Star TV | ID: eurostartv.local | Categoria: ENTRETENIMENTO
 - Natural TV | ID: naturaltv.local | Categoria: REGIONAIS
 - Sun RTV | ID: sunrtv.local | Categoria: REGIONAIS
 - TBMM TV | ID: tbmmtv.local | Categoria: REGIONAIS
@@ -103,7 +102,7 @@ CANAIS SEM PROGRAMAÇÃO:
 - Tabii | ID: tabii.local | Categoria: FILMES E SÉRIES
 - Ekol TV | ID: 3kluptlla8k8re0 | Categoria: NOTÍCIAS
 - Balkan Türk | ID: balkanturk.local | Categoria: INTERNACIONAIS
-- Thaqalayn TV | ID: thaqalayntv.local | Categoria: INTERNACIONAIS
+- Thaqalayn TV | ID: ThaqalaynTV.tr@SD | Categoria: INTERNACIONAIS
 - KN Music TV | ID: knmusictv.local | Categoria: MÚSICA
 - YOL TV | ID: yoltv.local | Categoria: REGIONAIS
 - Kanal Ada | ID: kanalada.local | Categoria: REGIONAIS
@@ -113,23 +112,23 @@ CANAIS SEM PROGRAMAÇÃO:
 - Trabzon Buyuksehir Belediyesi TV | ID: trabzonbuyuksehirbelediyesitv.local | Categoria: REGIONAIS
 - Urfanatik TV | ID: urfanatiktv.local | Categoria: REGIONAIS
 - MADINAH TV | ID: madinahtv.local | Categoria: RELIGIOSOS
-- MC EU TV | ID: mceutv.local | Categoria: INTERNACIONAIS
-- Persiana Türkiye | ID: persianaturkiye.local | Categoria: INTERNACIONAIS
+- MC EU TV | ID: MCTV.de@HD | Categoria: INTERNACIONAIS
+- Persiana Türkiye | ID: PersianaTurkiye.fr@SD | Categoria: INTERNACIONAIS
 - ETV Manisa | ID: etvmanisa.local | Categoria: REGIONAIS
 - Dizi TV | ID: dizitv.local | Categoria: FILMES E SÉRIES
 - ABN TURKEY | ID: abnturkey.local | Categoria: RELIGIOSOS
 - Dost | ID: dost.local | Categoria: MÚSICA
 - Company TV | ID: companytv.local | Categoria: MÚSICA
-- INTV Australia | ID: intvaustralia.local | Categoria: INTERNACIONAIS
+- INTV Australia | ID: INTVAustralia.au@SD | Categoria: INTERNACIONAIS
 - Güçlü TV | ID: guclutv.local | Categoria: MÚSICA
 - İSVİÇRE TV | ID: isvicretv.local | Categoria: INTERNACIONAIS
 - MOR TV | ID: mortv.local | Categoria: ESTILO DE VIDA
 - IQ Channel | ID: iqchannel.local | Categoria: MÚSICA
-- JÎN TV | ID: jintv.local | Categoria: INTERNACIONAIS
+- JÎN TV | ID: JinTV.nl@SD | Categoria: INTERNACIONAIS
 - MAKKAH TV | ID: makkahtv.local | Categoria: RELIGIOSOS
 - MK TV | ID: mktv.local | Categoria: REGIONAIS
 - TopPop | ID: toppop.local | Categoria: MÚSICA
 - Retro Music Television | ID: retromusictelevision.local | Categoria: MÚSICA
 - beIN Sports 1 Turk | ID: beinsports1turk.local | Categoria: ESPORTES
-- 4U Family (persa) | ID: 4ufamilypersa.local | Categoria: INTERNACIONAIS
+- 4U Family (persa) | ID: 4UFamily.tr | Categoria: INTERNACIONAIS
 - Power TV (720p) | ID: powertv720p.local | Categoria: MÚSICA
