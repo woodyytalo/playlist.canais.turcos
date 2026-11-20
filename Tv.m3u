@@ -700,7 +700,7 @@ https://live.yoltv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-chno="177" tvg-name="RTG International" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/rtginternational.png",RTG International
 #EXTVLCOPT:network-caching=1000
 http://213.91.179.28:8000/play/a0bw
-#EXTINF:-1 tvg-chno="178" tvg-name="Kanal Ada" group-title="REGIONAIS" tvg-logo="https://www.tvlogo.org/turkey/ada-tv-tr.png",Kanal Ada
+#EXTINF:-1 tvg-chno="178" tvg-name="Kanal Ada" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/452b2b545564c6454a36.png",Kanal Ada
 #EXTVLCOPT:network-caching=1000
 http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum
 
