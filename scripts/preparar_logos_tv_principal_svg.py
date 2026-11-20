@@ -193,9 +193,9 @@ def main() -> None:
         }
         def add_category_logo(match):
             line = match.group(0)
-            if re.search(r'\\btvg-logo="https?://[^"]+"', line):
+            if re.search(r'\btvg-logo="https?://[^"]+"', line):
                 return line
-            name_match = re.search(r'\\btvg-name="([^"]+)"', line)
+            name_match = re.search(r'\btvg-name="([^"]+)"', line)
             if not name_match:
                 return line
             source_name = aliases.get(name_match.group(1))
@@ -205,7 +205,7 @@ def main() -> None:
             logo_url = RAW_BASE + "logos-turcas-catalogo/tv-principal-svg/" + filename
             return re.sub(r'(?=,)', f' tvg-logo="{logo_url}"', line, count=1)
         category_updated, category_count = re.subn(
-            r'^#EXTINF:[^\\n]*', add_category_logo, category_original, flags=re.M
+            r'^#EXTINF:[^\n]*', add_category_logo, category_original, flags=re.M
         )
         CATEGORY_PLAYLIST.write_text(category_updated, encoding="utf-8", newline="")
         print(f"Playlist categorizada: {category_count} linhas EXTINF verificadas; aliases seguros aplicados somente onde faltava logo.")
