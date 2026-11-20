@@ -320,7 +320,7 @@ https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
 #EXTVLCOPT:network-caching=1000
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
 
-#EXTINF:-1 tvg-id="KanalAvrupa.tr@SD" tvg-chno="82" tvg-name="Kanal Avrupa" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-avrupa-tr-6994284255.svg",Kanal Avrupa
+#EXTINF:-1 tvg-id="KanalAvrupa.tr" tvg-chno="82" tvg-name="Kanal Avrupa" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-avrupa-tr-6994284255.svg",Kanal Avrupa
 #EXTVLCOPT:network-caching=1000
 http://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v3a1/mono.m3u8
 
