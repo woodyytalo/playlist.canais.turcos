@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-20 15:06 UTC
+- Executado em: 2026-11-20 15:07 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **211**
 - URLs únicas: **209**
@@ -9,11 +9,10 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 192 |
-| FALHA DE CONEXÃO (URLError) | 15 |
-| LINK NÃO ENCONTRADO (404) | 2 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 189 |
+| FALHA DE CONEXÃO (URLError) | 16 |
+| LINK NÃO ENCONTRADO (404) | 5 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
-| FALHA DE CONEXÃO (TimeoutError) | 1 |
 
 ## Detalhamento
 
@@ -51,7 +50,7 @@
 | Çay TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Çiftçi TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Deniz Postası TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| DHA | \`603c568fccdf5.streamlock.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| DHA | \`603c568fccdf5.streamlock.net\` | FALHA DE CONEXÃO (URLError) | - |
 | Dim TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Diyanet TV | \`eustr73.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Diyar TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -99,7 +98,7 @@
 | Kanal 34 | \`live.euromediacenter.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Kanal 53 | \`kanal53.ozelip.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Kanal 58 | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Kanal 7 Avrupa | \`livetv.radyotvonline.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| Kanal 7 Avrupa | \`livetv.radyotvonline.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | Kanal Avrupa | \`cdn-kanalavrupa.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Kanal B | \`tv.kanalb.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Kanal D | \`demiroren.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -123,7 +122,7 @@
 | Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | MTürk TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Play TV | \`web.onair-radio.eu\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| NOW | \`uycyyuuzyh.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
+| NOW | \`uycyyuuzyh.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | NR1 Aşk | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NR1 Damar | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NR1 Dance | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -142,7 +141,7 @@
 | Spacetoon Türkiye | \`live-tr-next.spacetoongo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Star TV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TAY TV | \`duhnet.hipodrom.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TELE1 | \`tele1-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TELE1 | \`tele1-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | Tempo TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | teve2 | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TGRT Haber | \`canli.tgrthaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -153,7 +152,7 @@
 | TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
-| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -176,7 +175,7 @@
 | TV8 | \`rkhubpaomb.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TVNET | \`tvnet-live.lg.mncdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Vuslat TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Ülke TV | \`livetv.radyotvonline.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| Ülke TV | \`livetv.radyotvonline.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | Vav TV | \`playlist.fasttvcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Zarok TV Kurmanji | \`zindikurmanci.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Zarok TV Sorani | \`zindisorani.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
