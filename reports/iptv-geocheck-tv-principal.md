@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-20 04:42 UTC
+- Executado em: 2026-11-20 13:23 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **211**
 - URLs únicas: **209**
@@ -9,10 +9,9 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 188 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 191 |
 | FALHA DE CONEXÃO (URLError) | 16 |
-| LINK NÃO ENCONTRADO (404) | 5 |
-| ACESSO NEGADO — possível restrição regional ou autorização | 1 |
+| LINK NÃO ENCONTRADO (404) | 3 |
 | FALHA DE CONEXÃO (TimeoutError) | 1 |
 
 ## Detalhamento
@@ -110,14 +109,14 @@
 | Kayhan TV | \`playout395.livestreamingcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Kent Türk TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Kocaeli TV | \`edge.taksimbilisim.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Konya KTV | \`cdn-ktvtv.yayin.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
+| Konya KTV | \`cdn-ktvtv.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Konya Olay TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Lalegül TV | \`lbl.netmedya.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Life TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Luys TV | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Med Müzik | \`54.36.110.140\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Mekameleen TV | \`mn-nl.mncdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| Meltem TV | \`vhxyrsly.rocketcdn.com\` | LINK NÃO ENCONTRADO (404) | 404 |
+| Meltem TV | \`vhxyrsly.rocketcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Mercan TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Minika Çocuk | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -155,7 +154,7 @@
 | TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
+| TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Kurdî | \`tv-trtkurdi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Müzik | \`stream8.cinerama.uz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
