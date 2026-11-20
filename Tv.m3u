@@ -46,7 +46,7 @@ https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_48
 #EXTVLCOPT:network-caching=5000
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AlmahriahTV.tr@SD" tvg-chno="12" tvg-name="Almahriah TV" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/almahriahtv.png",Almahriah TV [Satélite: a verificar]
+#EXTINF:-1 tvg-id="AlmahriahTV.tr@SD" tvg-chno="12" tvg-name="Almahriah TV" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/almahriahtv.png",Almahriah TV [Eutelsat 7 West A: 11603 H, SR 27500, FEC 5/6]
 #EXTVLCOPT:network-caching=5000
 https://starmenajo.com/hls/almahriah/index.m3u8
 
@@ -142,7 +142,7 @@ https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="36" tvg-name="Diyar TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/diyar-tv-tr-7522d5d784.svg",Diyar TV [Satélite: a verificar]
+#EXTINF:-1 tvg-chno="36" tvg-name="Diyar TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/diyar-tv-tr-7522d5d784.svg",Diyar TV [Türksat 4A: 12264 V, SR 27500, FEC 5/6]
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 
@@ -474,7 +474,7 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 #EXTVLCOPT:network-caching=5000
 https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 
-#EXTINF:-1 tvg-chno="121" tvg-name="Spacetoon Türkiye" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/spacetoonturkiye.png",Spacetoon Türkiye [Satélite: a verificar]
+#EXTINF:-1 tvg-chno="121" tvg-name="Spacetoon Türkiye" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/spacetoonturkiye.png",Spacetoon Türkiye [Türksat 4A: 12379 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:http-referrer=https://spacetoon.com.tr/
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
@@ -653,7 +653,7 @@ https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="166" tvg-name="TBMM TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tbmm-tv-tr-9d1f406b88.svg",TBMM TV [Satélite: a verificar]
+#EXTINF:-1 tvg-chno="166" tvg-name="TBMM TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tbmm-tv-tr-9d1f406b88.svg",TBMM TV [Türksat 4A: 11958 V, SR 27500, FEC 5/6]
 #EXTVLCOPT:network-caching=5000
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
@@ -707,7 +707,7 @@ http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforu
 #EXTINF:-1 tvg-chno="179" tvg-name="Arzu Film" group-title="FILMES E SÉRIES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/arzufilm.png",Arzu Film [Satélite: a verificar]
 #EXTVLCOPT:network-caching=5000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u
-#EXTINF:-1 tvg-chno="180" tvg-name="Ekol Sports" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/630d257ef2c1efbb2c24.png",Ekol Sports [Satélite: a verificar]
+#EXTINF:-1 tvg-chno="180" tvg-name="Ekol Sports" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/630d257ef2c1efbb2c24.png",Ekol Sports [Türksat 4A: 12379 H, SR 30000, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #EXTINF:-1 tvg-chno="181" tvg-name="Kanal Urfa" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-urfa-tr-0831c8c3c9.svg",Kanal Urfa [Türksat 4A: 12423 V, SR 27500, FEC 2/3]
