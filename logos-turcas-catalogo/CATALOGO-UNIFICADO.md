@@ -628,3 +628,41 @@ As imagens abaixo foram incorporadas como pré-visualizações diretamente neste
 | TRT 1 | ![Logo TRT 1](https://commons.wikimedia.org/wiki/Special:FilePath/TRT%201%20logo%20(2021-).svg) | https://commons.wikimedia.org/wiki/Category:SVG_logos_of_television_channels_in_Turkey |
 
 **Notas de uso:** algumas categorias incluem versões históricas. A logo ATV listada, por exemplo, é identificada como versão de 2010. Compare com o site oficial e com o sinal atual do canal antes de selecionar a imagem definitiva. As pré-visualizações são links externos, não cópias dos arquivos dentro do repositório.
+
+
+---
+
+# Fontes adicionais — canais de música já presentes na Tv.m3u
+
+Pesquisa complementar de fontes para logos de canais de música que já constam na playlist. Esta seção não propõe adicionar canais novos e não altera os campos `tvg-logo` da playlist. As imagens externas abaixo são referências/candidatas: confirmar identidade, versão vigente e licença antes de copiar para o repositório.
+
+## Candidatas com correspondência identificada
+
+| Canal | Fonte de logo / referência | Observações |
+|---|---|---|
+| Med Müzik (Med Muzîk) | PNG: https://i.imgur.com/gtUFmCD.png · Identificação do canal: https://iptv-org.github.io/channels/tr/MedMuzik | A página do iptv-org identifica Med Muzik como canal da Turquia, idioma curdo, categoria Music e site http://medmuzik.tv/. A fonte é útil para confirmar a identidade; verificar se a imagem continua atual e se o canal está ativo antes de adotar. |
+| NR1 Fashion One | PNG: https://i.ibb.co/HV0x9JZ/fashion-one.png · Lista M3U de referência: https://github.com/maotuon/iptv-listesi/blob/main/iptv.m3u | A lista associa a imagem ao nome NR1 FASHION ONE. Atenção: há registro do RTÜK de alteração de logo/nome relacionado a “FASHION ONE TELEVİZYON” para “NR1 TÜRK”; tratar esta imagem como candidata possivelmente histórica e confirmar a identidade atual. |
+| TopPop / Toppop TV | PNG: http://assets.tvcdn.net/4a8468ec-c134-4db1-93ef-699f15e1522b.png · Lista M3U de referência: https://github.com/hhdblog/TR/blob/main/tv_radyo.m3u | A lista apresenta uma imagem específica para Toppop TV. Confirmar que corresponde exatamente à entrada TopPop da playlist, pois outras listas encontradas reutilizam uma imagem genérica/placeholder. |
+| Power TV | Logo: https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c155866ac331e0feb22b · Lista de referência: https://github.com/tecobaba/m3link/blob/main/ulusal.m3u | Fonte encontrada em lista que também relaciona canais do grupo Power. Candidata para a entrada Power TV; confirmar versão e direitos de reutilização. |
+| KN Music TV | Site: https://www.knmusictv.com/ · PNG oficial indicado: https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png | Há logo no site da emissora, mas a identificação consultada aponta para canal do Azerbaijão, não da Turquia. Só associar à entrada da playlist depois de confirmar que é a mesma emissora/sinal. |
+| 30A Music | PNG em lista de referência: https://i.imgur.com/gNWg9tl.png · Site da emissora: https://30a.media/television/ | A emissora identificada é dos Estados Unidos, não turca. Manter apenas como possível logo da entrada internacional 30A Music se o stream da playlist corresponder a essa emissora. |
+
+## Correspondências que exigem cautela — não usar como logo turca sem confirmação
+
+- **Retro Music Television:** foi encontrada uma versão SVG em https://www.tvchannellists.com/w/File:Retro_Music_Television.svg e uma imagem no Wikimedia Commons em https://commons.wikimedia.org/wiki/File:Retro_Music_TV_logo.png. As referências identificam a emissora como canal de música da República Tcheca, não da Turquia. Não associar automaticamente à entrada da playlist.
+- **KN Music TV:** embora exista logo no site oficial, a emissora identificada é azeri. A presença de um stream em infraestrutura de distribuição turca não prova que o canal seja turco.
+- **NR1 Fashion One:** a imagem encontrada pode ser antiga em razão do histórico regulatório de alteração de identidade. Confirmar com o sinal atual e fontes oficiais antes de adotar.
+
+## Outras listas consultadas — fontes secundárias de descoberta
+
+Estas listas podem ajudar a cruzar nomes e URLs, mas não devem ser tratadas como autoridades de identidade, atualidade ou licença:
+
+- https://github.com/Roblabs-Teknoloji/iptv
+- https://github.com/hayatiptv
+- https://github.com/maotuon/iptv-listesi
+- https://github.com/tecobaba/m3link
+- https://github.com/hhdblog/TR
+- https://github.com/maviing/tr
+- https://github.com/gkhncksn/m3u8_lists
+
+**Procedimento recomendado:** conferir o canal diretamente no sinal e no site oficial; comparar nome, país e identidade visual; registrar licença e autoria da imagem; só então armazenar uma cópia local. Nenhuma dessas referências foi aplicada à playlist nesta atualização.
