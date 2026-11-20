@@ -1,0 +1,30 @@
+name: Normalizar logos 512x512
+on:
+  push:
+    branches:
+      - 'github/workflows/atualizar-logos.yml'
+    paths:
+      - '.github/workflows/normalizar-logos.yml'
+      - 'scripts/normalizar_logos.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow cairosvg
+      - run: python scripts/normalizar_logos.py
+      - name: Commit normalized images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logos-turcas-catalogo/TODAS-LOGOS-NA-ORDEM/PNG-512-CENTRALIZADAS
+          git commit -m "Normalize all 211 channel logos to centered 512x512 PNGs" || exit 0
+          git push
