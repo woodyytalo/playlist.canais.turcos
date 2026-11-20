@@ -714,3 +714,56 @@ As listas consultadas confirmam diretamente várias associações nome/PNG/strea
 **Limitação da pesquisa:** os PNGs de BRTV Karabük e ES TV foram preservados porque foram apresentados na pesquisa anterior, mas não tiveram confirmação independente equivalente nas listas consultadas nesta atualização. Anadolu Net TV também deve ser comparada com a entrada “Anadolu TV” antes de qualquer adoção. A URL da Bir TV aparece como PNG de emissora e em lista de referência.
 
 Nenhum arquivo de imagem foi baixado para o repositório nesta etapa. Este catálogo armazena os endereços e as observações para posterior validação; a playlist permanece intacta.
+
+
+---
+
+# Complemento de fontes PNG — demais canais locais e regionais da Tv.m3u
+
+Pesquisa complementar de 19/11/2026. Esta seção acrescenta fontes PNG diretas para outros canais que já aparecem na categoria `REGIONAIS` da playlist. Os links são extraídos de listas M3U públicas e/ou páginas de emissoras. Não representam validação de licença, nem confirmação visual independente de cada arquivo. Não alterar a playlist automaticamente.
+
+## PNGs diretos encontrados
+
+| Canal na Tv.m3u | PNG direto | Fonte / observação |
+|---|---|---|
+| Hunat TV | https://i.imgur.com/NrxHGnb.png | Lista M3U turca; nome e stream coincidem. |
+| İçel TV | https://i.imgur.com/CGwImKv.png | Lista M3U turca; nome e stream coincidem. |
+| Kanal 12 | https://i.imgur.com/51xCkXG.png | Lista M3U turca; nome e stream coincidem. |
+| Kanal 15 | https://i.imgur.com/wb1Cdc9.png | Lista M3U turca; nome e stream coincidem. |
+| Kanal 23 | https://i.imgur.com/3br8RCq.png | Duas listas de referência associam a imagem ao canal. |
+| Kanal 26 Eskişehir | https://i.imgur.com/Mr7XPii.png | Lista M3U; confirmar que corresponde à entrada “Kanal 26 Eskişehir”. |
+| Kanal 33 | https://i.imgur.com/5WYaoFZ.png | Lista M3U turca; nome e stream coincidem. |
+| Kanal 34 | https://i.imgur.com/SIaI6Sj.png | Lista M3U turca; confirmar se é a mesma emissora local da playlist. |
+| Kanal 58 | https://i.imgur.com/Rgc66sv.png | Lista M3U turca; nome e stream coincidem. |
+| Kanal V | https://i.imgur.com/7RNjTno.png | Lista M3U turca; nome e stream coincidem. |
+| Kardelen TV | https://www.tvlogo.org/turkey/kardelen-tv-tr.png | Diretório de logos da Turquia; confirmar URL e identidade visual atual. |
+| Kent Türk TV | https://i.imgur.com/FQKPjsm.png | Lista M3U turca; nome semelhante e stream de Kent Türk. |
+| Kocaeli TV | https://i.imgur.com/LeTP4zq.png | Lista M3U turca; nome e stream coincidem. |
+| Konya Olay TV | https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg | Fonte no domínio da emissora; imagem é JPG, não PNG. Mantida como referência, não como PNG validado. |
+| Mercan TV | https://i.imgur.com/3CWV8bS.png | Lista M3U turca; nome e stream coincidem. |
+| MTürk TV | https://i.imgur.com/xj1gvrq.png | Lista M3U turca; nome e stream coincidem. |
+| Tempo TV | https://i.imgur.com/tZpx32y.png | Lista M3U turca; nome e stream coincidem. |
+| TV 1 | https://i.imgur.com/8CtrYVb.png | Lista M3U turca; nome e stream coincidem. |
+| TV 264 | https://i.imgur.com/tudXdOZ.png | Listas M3U independentes associam a imagem ao canal. |
+| TV 41 | https://i.imgur.com/6T472LM.png | Listas M3U independentes associam a imagem ao canal. |
+| TV 42 | https://www.tv42.com.tr/logo.png | PNG no domínio oficial da emissora. |
+| TV 52 | https://i.imgur.com/k4R5CzO.png | Listas M3U e referência institucional para TV52. |
+| TV Den | https://i.imgur.com/Uhg95Ze.png | Lista M3U turca; nome e stream coincidem. |
+| Urfanatik TV | https://i.imgur.com/8KO0uxn.png | Lista M3U usa o nome “Urfa Natik TV”, com o mesmo stream da entrada Urfanatik TV; confirmar grafia/identidade. |
+| Van 65 TV | https://van65tv.com/assets/images/logo/logo.png | PNG no domínio da própria emissora. |
+
+## Referências consultadas
+
+- Lista de canais turcos com imagens diretas e streams: https://github.com/baycuman-hub/turk-tv/blob/main/Turk-Kanallari.m3u
+- Outra lista M3U com logos de Kanal 23, 26, 32, 33, 53, 56, 58 e Kanal Fırat: https://github.com/erdodo/iptv/blob/main/tv.m3u8
+- Lista de referência com logos de ETV Kayseri, Hunat TV, İçel TV e outros canais locais: https://gist.github.com/akan1970/ba2a378e5552a1feabca4c9c8a73b075
+- Diretório de logos de canais turcos: https://www.tvlogo.org/turkey/
+- Catálogo de canais locais: https://tr.canlitv.watch/kanallar/yerel
+
+## Canais da categoria REGIONAIS ainda sem PNG direto confirmado nesta rodada
+
+Aksu TV, Alanya Posta TV, Altaş TV, ARAS TV, ATV Alanya, BRTV Karabük, Çay TV, Deniz Postası TV, Dim TV, Edessa TV, ER TV Malatya, Erciyes TV, Erzurum Web TV, ES TV, ETV, Ezgi TV, FRT TV, GRT Gaziantep TV, Güneydoğu TV, İzmir Time 35 TV, K+ Kayseri, Kanal 19, Kanal 32, Kanal B, Kanal Fırat, Kayhan TV, Konya KTV, Mekameleen TV, Tivi 6, Natural TV, Sun RTV, TBMM TV, Vuslat TV, YOL TV, Kanal Ada, Kanal Urfa, Trabzon Büyükşehir Belediyesi TV, MK TV e outros que exigem conferência individual. Alguns desses canais já possuem fontes registradas em seções anteriores deste catálogo; esta lista indica apenas que não foi acrescentado um novo PNG direto confirmado nesta rodada.
+
+**Atenção à classificação:** Mekameleen TV e TBMM TV não são necessariamente canais locais comerciais; a presença em `group-title="REGIONAIS"` da playlist não comprova que sejam emissoras regionais. Confirmar a natureza de cada emissora antes de padronizar ou mover categorias.
+
+Nenhum PNG foi baixado para o repositório nesta atualização. Foram acrescentados apenas URLs e notas de validação. `Tv.m3u` permanece intacta.
