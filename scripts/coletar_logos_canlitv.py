@@ -4,10 +4,10 @@ from __future__ import annotations
 import csv, re, time, unicodedata
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
+from io import BytesIO
 import requests
 from bs4 import BeautifulSoup
 from PIL import Image
-from io import BytesIO
 
 ROOT = Path(__file__).resolve().parents[1]
 PLAYLIST = ROOT / "Tv.m3u"
@@ -21,8 +21,7 @@ def norm(value: str) -> str:
     value = value.upper().replace("&", " AND ")
     value = re.sub(r"\b(HD|SD|UHD|4K)\b", " ", value)
     value = re.sub(r"\bTV\b$", " ", value)
-    value = re.sub(r"[^A-Z0-9]+", "", value)
-    return value
+    return re.sub(r"[^A-Z0-9]+", "", value)
 
 def image_from_detail(session: requests.Session, page_url: str) -> str:
     response = session.get(page_url, timeout=35)
@@ -56,7 +55,7 @@ def main() -> None:
     session = requests.Session()
     session.headers.update({"User-Agent": "Mozilla/5.0 (compatible; PlaylistLogoCollector/1.0)"})
     playlist = PLAYLIST.read_text(encoding="utf-8")
-    names = re.findall(r'^#EXTINF:[^\\n]*?\\btvg-name="([^"]+)"', playlist, re.M)
+    names = re.findall(r'^#EXTINF:[^\n]*?\btvg-name="([^"]+)"', playlist, re.M)
     if len(names) != 211:
         raise RuntimeError(f"Esperados 211 canais em Tv.m3u; encontrados {len(names)}")
 
@@ -69,17 +68,14 @@ def main() -> None:
             href = urljoin(BASE, anchor["href"])
             if "/frekans-bilgileri/" not in urlparse(href).path:
                 continue
-            label = anchor.get_text(" ", strip=True)
-            key = norm(label)
+            key = norm(anchor.get_text(" ", strip=True))
             if key:
                 channel_pages.setdefault(key, href)
 
-    catalog = CATALOG.read_text(encoding="utf-8")
     source_by_channel = {}
     report = []
     for index, name in enumerate(names, 1):
-        key = norm(name)
-        page = channel_pages.get(key)
+        page = channel_pages.get(norm(name))
         if not page:
             report.append({"number": index, "channel": name, "status": "not_listed", "page_url": "", "image_url": ""})
             continue
@@ -94,29 +90,18 @@ def main() -> None:
     if not source_by_channel:
         raise RuntimeError("Nenhuma imagem de canal foi extraída do CanliTV; catálogo não será alterado.")
 
-    updated = []
-    pattern = re.compile(r"^(\\|\\s*)(.*?)(\\s*\\|\\s*!\\[[^\\]]*\\]\\()([^)]*)(\\)\\s*\\|\\s*)$")
-    for line in catalog.splitlines():
-        match = pattern.match(line)
-        if match:
-            channel = match.group(2).strip().casefold()
-            if channel in source_by_channel:
-                url = source_by_channel[channel]
-                line = f"{match.group(1)}{match.group(2)}{match.group(3)}{url}{match.group(5)}"
-                updated.append(channel)
-        # Keep every non-matching catalog line unchanged.
-        if not match:
-            pass
-    # Apply replacements by exact channel row without changing table order or other sections.
-    lines = catalog.splitlines()
+    catalog = CATALOG.read_text(encoding="utf-8")
+    pattern = re.compile(r"^(\|\s*)(.*?)(\s*\|\s*!\[[^\]]*\]\()([^)]*)(\)\s*\|\s*)$")
     output = []
-    for line in lines:
+    replaced = set()
+    for line in catalog.splitlines():
         match = pattern.match(line)
         if match and match.group(2).strip().casefold() in source_by_channel:
             channel = match.group(2).strip().casefold()
             line = f"{match.group(1)}{match.group(2)}{match.group(3)}{source_by_channel[channel]}{match.group(5)}"
+            replaced.add(channel)
         output.append(line)
-    CATALOG.write_text("\\n".join(output) + "\\n", encoding="utf-8")
+    CATALOG.write_text("\n".join(output) + "\n", encoding="utf-8")
 
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     with REPORT.open("w", newline="", encoding="utf-8") as file:
@@ -126,9 +111,7 @@ def main() -> None:
     found = sum(row["status"] == "image_found" for row in report)
     unavailable = sum(row["status"] == "image_unavailable" for row in report)
     absent = sum(row["status"] == "not_listed" for row in report)
-    print(f"CanliTV: {found}/211 imagens encontradas; {unavailable} páginas sem imagem válida; {absent} canais não listados.")
-    if found == 0:
-        raise SystemExit(1)
+    print(f"CanliTV: {found}/211 imagens encontradas; {unavailable} páginas sem imagem válida; {absent} canais não listados; {len(replaced)} fontes registradas no catálogo.")
 
 if __name__ == "__main__":
     main()
