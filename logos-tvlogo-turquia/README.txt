@@ -1,1 +1,0 @@
-Logos PNG originais baixadas do diretório oficial https://www.tvlogo.org/turkey/\nArquivos baixados: 298\nFalhas: 0\n
