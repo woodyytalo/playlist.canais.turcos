@@ -28,6 +28,28 @@ jobs:
         run: python scripts/coletar_logos_canlitv.py
       - name: Preparar e aplicar logos quadradas SVG
         run: python scripts/preparar_logos_tv_principal_svg.py
+      - name: Montar arquivo ZIP com todas as logos SVG da TV principal
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile, ZIP_DEFLATED
+          source = Path("logos-turcas-catalogo/tv-principal-svg")
+          files = sorted(source.glob("*.svg"))
+          if not files:
+              raise SystemExit("Nenhuma logo SVG encontrada; ZIP não será criado.")
+          output = Path("logos-tv-principal-canlitv.zip")
+          with ZipFile(output, "w", ZIP_DEFLATED) as archive:
+              for file in files:
+                  archive.write(file, arcname=file.name)
+          print(f"ZIP criado com {len(files)} logos SVG.")
+          PY
+      - name: Publicar arquivo ZIP como artefato
+        uses: actions/upload-artifact@v4
+        with:
+          name: logos-tv-principal-canlitv
+          path: logos-tv-principal-canlitv.zip
+          if-no-files-found: error
+          retention-days: 30
       - name: Salvar alterações
         run: |
           git config user.name "github-actions[bot]"
