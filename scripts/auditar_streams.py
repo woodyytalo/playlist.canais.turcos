@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Auditoria HTTP/HLS dos canais do grupo MÚSICA em Tv.m3u.
+"""Auditoria HTTP/HLS de todos os canais com URL em Tv.m3u.
 
 Não reproduz vídeo, não altera a playlist e não grava URLs com query strings
 nos relatórios. Testa manifesto e uma pequena amostra do primeiro segmento.
@@ -18,7 +18,7 @@ from urllib.error import HTTPError, URLError
 
 PLAYLIST = Path("Tv.m3u")
 OUT = Path("reports")
-TIMEOUT = 15
+TIMEOUT = 12
 MAX_MANIFEST = 1_000_000
 SEGMENT_SAMPLE = 64 * 1024
 UA = "PlaylistStreamAudit/1.0 (+GitHub Actions)"
@@ -63,19 +63,19 @@ def parse_channels(text: str):
     for i, line in enumerate(lines):
         if not line.startswith("#EXTINF"):
             continue
-        if not re.search(r'group-title="MÚSICA"', line, re.IGNORECASE):
-            continue
         name = line.rsplit(",", 1)[-1].strip() if "," in line else "Canal sem nome"
+        group = re.search(r'group-title="([^"]*)"', line, re.IGNORECASE)
+        category = group.group(1) if group else "Sem categoria"
         url = next((x.strip() for x in lines[i + 1:] if x.strip() and not x.startswith("#")), "")
         if url.startswith(("http://", "https://")):
-            found.append({"name": name, "url": url})
+            found.append({"name": name, "category": category, "url": url})
     return found
 
 
 def audit(channel):
     url = channel["url"]
     result = {
-        "channel": channel["name"], "url": safe_url(url),
+        "channel": channel["name"], "category": channel.get("category", "Sem categoria"), "url": safe_url(url),
         "scheme": urlsplit(url).scheme.lower(), "manifest": "FAIL",
         "http_status": None, "response_ms": None, "content_type": "",
         "resolution": [], "bandwidth_kbps": [], "segment_sample": "NOT_TESTED",
@@ -148,29 +148,31 @@ def main():
         return 2
     channels = parse_channels(PLAYLIST.read_text(encoding="utf-8", errors="replace"))
     if not channels:
-        print('Nenhum canal com group-title="MÚSICA" encontrado.', file=sys.stderr)
+        print('Nenhum canal com URL HTTP/HTTPS encontrado.', file=sys.stderr)
         return 2
 
     OUT.mkdir(exist_ok=True)
-    results = [audit(ch) for ch in channels]
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=12) as pool:
+        results = list(pool.map(audit, channels))
     payload = {"checked_at_utc": datetime.now(timezone.utc).isoformat(),
                "playlist": str(PLAYLIST), "channels_checked": len(results), "results": results}
     (OUT / "stream-audit.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     rows = [
-        "# Relatório de auditoria HLS — grupo MÚSICA", "",
+        "# Relatório de auditoria HLS — todos os canais", "",
         f"- Verificado em (UTC): {payload['checked_at_utc']}",
         f"- Canais testados: {len(results)}",
         "- Teste: resposta HTTP, manifesto HLS, playlist de mídia (quando master) e amostra do primeiro segmento.",
         "- Limite: teste pontual; não mede reprodução contínua, buffering real ou qualidade percebida.", "",
-        "| Canal | Protocolo | HTTP | Manifesto | Resolução declarada | Segmento | Resposta (ms) |",
-        "|---|---:|---:|---|---|---|---:|",
+        "| Canal | Categoria | Protocolo | HTTP | Manifesto | Resolução declarada | Segmento | Resposta (ms) |",
+        "|---|---|---:|---:|---|---|---|---:|",
     ]
     for r in results:
-        rows.append(f"| {r['channel'].replace('|', '/')} | {r['scheme']} | {r['http_status'] or '—'} | {r['manifest']} | {', '.join(r['resolution']) or '—'} | {r['segment_sample']} | {r['response_ms'] if r['response_ms'] is not None else '—'} |")
+        rows.append(f"| {r['channel'].replace('|', '/')} | {r['category']} | {r['scheme']} | {r['http_status'] or '—'} | {r['manifest']} | {', '.join(r['resolution']) or '—'} | {r['segment_sample']} | {r['response_ms'] if r['response_ms'] is not None else '—'} |")
     rows += ["", "## Detalhes", ""]
     for r in results:
-        rows += [f"### {r['channel']}", f"- URL: `{r['url']}`",
+        rows += [f"### {r['channel']}", f"- Categoria: {r['category']}", f"- URL: `{r['url']}`",
                  f"- Tipo: {r['content_type'] or 'não informado'}",
                  f"- Bitrate declarado (kbps): {', '.join(map(str, r['bandwidth_kbps'])) or 'não informado'}",
                  f"- Segmento HTTP: {r['segment_status'] or 'não testado'}",
