@@ -1,3 +1,1 @@
-Executar aplicação das 210 logos SVG quadradas atualizadas no catálogo; manter Dost musical sem alteração até localizar fonte correta.
-
-Reexecutar com a proteção de preservação do canal Dost.
+Aplicar novamente as logos da TV principal usando exclusivamente a configuração SVG quadrada 512x512 mantida, com centralização, proporção preservada e sem corte ou deformação. Preservar o canal Dost musical pendente.
