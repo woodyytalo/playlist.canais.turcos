@@ -749,7 +749,7 @@ https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
 
-#EXTINF:-1 tvg-chno="192" tvg-name="ABN TURKEY" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/abnturkey.png",ABN TURKEY
+#EXTINF:-1 tvg-chno="192" tvg-name="ABN TURKEY" group-title="RELIGIOSOS" tvg-logo="http://assets.tvcdn.net/19146761-32ae-46ad-a0f0-2862c2f887e9.png",ABN TURKEY
 #EXTVLCOPT:network-caching=5000
 https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
 
