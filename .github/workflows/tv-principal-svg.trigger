@@ -1,1 +1,3 @@
 Validar bot corrigido nas duas playlists: reutilizar os SVGs 512x512 existentes, preservar o cache e aplicar aliases seguros somente aos canais sem logo em IPTV-Cat.m3u. Preservar streams, frequências e o canal Dost HD sem associação ambígua.
+
+Escopo exclusivo: Tv.m3u e logos-turcas-catalogo/tv-principal-svg. Não ler nem modificar IPTV-Cat.m3u. Validar as 211 entradas, preservar URLs de transmissão e metadados de frequência.
