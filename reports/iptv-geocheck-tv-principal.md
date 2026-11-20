@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-20 15:55 UTC
+- Executado em: 2026-11-20 16:09 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **211**
 - URLs únicas: **209**
@@ -12,7 +12,7 @@
 | ACESSÍVEL NO AMBIENTE DO TESTE | 192 |
 | FALHA DE CONEXÃO (URLError) | 16 |
 | LINK NÃO ENCONTRADO (404) | 2 |
-| ACESSO NEGADO — possível restrição regional ou autorização | 1 |
+| FALHA DE CONEXÃO (TimeoutError) | 1 |
 
 ## Detalhamento
 
@@ -29,11 +29,11 @@
 | FEC 3/4] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`ak.imamhussein.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Alanya Posta TV [Satélite: a verificar] | \`api-tv3.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Almahriah TV [Satélite: a verificar] | \`starmenajo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 5/6] | \`starmenajo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Anadolu TV [Satélite: a verificar] | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
 | ARAS TV [Satélite: a verificar] | \`1.rtmp.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| AS TV [Satélite: a verificar] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 3/4] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | ATV Alanya [Satélite: a verificar] | \`cdn-alanyatv.yayin.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
 | FEC 3/4] | \`tv.ensonhaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -53,7 +53,7 @@
 | DHA [Satélite: a verificar] | \`603c568fccdf5.streamlock.net\` | FALHA DE CONEXÃO (URLError) | - |
 | Dim TV [Satélite: a verificar] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`eustr73.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Diyar TV [Satélite: a verificar] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 5/6] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`dost.stream.emsal.im\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 1Mus [Satélite: a verificar] | \`hz1.teleport.cc\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 30A Music [Satélite: a verificar] | \`30a-tv.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -107,7 +107,7 @@
 | FEC 3/4] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Kay TV [Satélite: a verificar] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Kayhan TV [Satélite: a verificar] | \`playout395.livestreamingcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| Kent Türk TV [Satélite: a verificar] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 5/6] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 5/6] | \`edge.taksimbilisim.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Konya KTV [Satélite: a verificar] | \`cdn-ktvtv.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Konya Olay TV [Satélite: a verificar] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -122,7 +122,7 @@
 | FEC 3/4] | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | MTürk TV [Satélite: a verificar] | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Play TV [Satélite: a verificar] | \`web.onair-radio.eu\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| FEC 2/3] | \`uycyyuuzyh.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| FEC 2/3] | \`uycyyuuzyh.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
 | NR1 Aşk [Satélite: a verificar] | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NR1 Damar [Satélite: a verificar] | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NR1 Dance [Satélite: a verificar] | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -138,27 +138,27 @@
 | FEC 3/4] | \`canli.sercemtv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 2/3] | \`rmtftbjlne.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | FEC 3/4] | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| Spacetoon Türkiye [Satélite: a verificar] | \`live-tr-next.spacetoongo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 3/4] | \`live-tr-next.spacetoongo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | FEC 5/6] | \`duhnet.hipodrom.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TELE1 [Satélite: a verificar] | \`tele1-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 3/4] | \`tele1-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 5/6] | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | FEC 3/4] | \`canli.tgrthaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TJK TV [Satélite: a verificar] | \`tjktv-live.tjk.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| Ton TV [Satélite: a verificar] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| FEC 3/4] | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| FEC 5/6] | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| FEC 5/6] | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| FEC 5/6] | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| FEC 5/6] | \`tjktv-live.tjk.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| FEC 5/6] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 3/4] | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| FEC 5/6] | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 5/6] | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 5/6] | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | FEC 3/4] | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| FEC 3/4] | \`tv-trtgenc.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
+| FEC 3/4] | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | FEC 5/6] | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 5/6] | \`tv-trtkurdi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 5/6] | \`stream8.cinerama.uz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Kral Pop [Satélite: a verificar] | \`dygvideo.dygdigital.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| FEC 3/4] | \`dygvideo.dygdigital.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | NR1 Fashion One [Satélite: a verificar] | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 5/6] | \`tv-trtturk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`cdn.pishow.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -183,7 +183,7 @@
 | FEC 3/4] | \`raw.githubusercontent.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Natural TV [Satélite: a verificar] | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | FEC 3/4] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TBMM TV [Satélite: a verificar] | \`meclistv-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| FEC 5/6] | \`meclistv-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | FEC 3/4] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 3/4] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Tabii [Satélite: a verificar] | \`ceokzokgtd.erbvr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -197,7 +197,7 @@
 | RTG International [Satélite: a verificar] | \`213.91.179.28\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Kanal Ada [Satélite: a verificar] | \`145.239.58.133\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Arzu Film [Satélite: a verificar] | \`raw.githubusercontent.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Ekol Sports [Satélite: a verificar] | \`ekoltv-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 3/4] | \`ekoltv-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | FEC 2/3] | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Trabzon Buyuksehir Belediyesi TV [Satélite: a verificar] | \`tv191.radyotelekom.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Urfanatik TV [Satélite: a verificar] | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -210,7 +210,7 @@
 | ETV Manisa [Satélite: a verificar] | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Dizi TV [Satélite: a verificar] | \`playlist.fasttvcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | ABN TURKEY [Satélite: a verificar] | \`mediaserver.abnvideos.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Dost [Satélite: a verificar] | \`yayin.santraltr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| FEC 3/4] | \`yayin.santraltr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Company TV [Satélite: a verificar] | \`5929b138b139d.streamlock.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | INTV Australia [Satélite: a verificar] | \`tv1.intv.mk\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Güçlü TV [Satélite: a verificar] | \`yayin.santraltr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
