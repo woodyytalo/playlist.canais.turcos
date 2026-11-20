@@ -62,7 +62,7 @@ https://vavoo.to/vavoo-iptv/play/1917558455120761543969
 #EXTVLCOPT:network-caching=5000
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-name="AS TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/astv.png",AS TV
+#EXTINF:-1 tvg-chno="16" tvg-name="AS TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-corrigidas/as-tv-200x227.svg",AS TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 
@@ -74,7 +74,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 #EXTVLCOPT:network-caching=5000
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-name="Bengü Türk" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/bengu-turk-tr-df28759989.svg",Bengü Türk
+#EXTINF:-1 tvg-chno="19" tvg-name="Bengü Türk" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-corrigidas/bengu-turk-200x227.svg",Bengü Türk
 #EXTVLCOPT:network-caching=5000
 https://tv.ensonhaber.com/benguturk/benguturk_480p.m3u8
 
@@ -499,7 +499,7 @@ https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="127" tvg-id="qz2fp61itc8xm4g" tvg-name="TGRT Haber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tgrt-haber-tr-909feb71b1.svg",TGRT Haber
+#EXTINF:-1 tvg-chno="127" tvg-id="qz2fp61itc8xm4g" tvg-name="TGRT Haber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-corrigidas/tgrt-haber-200x227.svg",TGRT Haber
 #EXTVLCOPT:network-caching=5000
 https://canli.tgrthaber.com/tgrt.m3u8
 
