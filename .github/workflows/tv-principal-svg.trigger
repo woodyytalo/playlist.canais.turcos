@@ -1,1 +1,1 @@
-Aplicar novamente as logos da TV principal usando exclusivamente a configuração SVG quadrada 512x512 mantida, com centralização, proporção preservada e sem corte ou deformação. Preservar o canal Dost musical pendente.
+Executar a aplicação das 210 logos SVG no padrão quadrado 512x512, centralizado, proporcional e sem corte. O processamento agora possui retentativas com espera para respostas HTTP 429 e falhas temporárias das fontes. Preservar Dost musical pendente.
