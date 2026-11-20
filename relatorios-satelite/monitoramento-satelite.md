@@ -1,25 +1,28 @@
 # Auditoria de frequencias via satelite
 
-- Gerado em UTC: 2026-11-20T15:50:35+00:00
+- Gerado em UTC: 2026-11-20T15:56:22+00:00
 - Arquivo: dados-satelite/ANOTACAO-CANAIS-FREQUENCIAS.md
 - Fonte: https://tr.canlitv.watch/frekans-bilgileri
 - Resposta HTTP da fonte: OK
 
 ## Resumo
 
-- Linhas de transponder: **235**
+- Linhas de transponder: **211**
 - Canais unicos: **211** (esperado: 211)
 - Canais A verificar: **90**
-- Canais com multiplos transponders: **22**
-- Entradas confirmadas com campos invalidos: **0**
+- Canais com multiplos transponders: **0**
+- Entradas confirmadas com campos invalidos: **45**
 
 ## Distribuicao por satelite
 
 | Satelite | Linhas |
 |---|---:|
-| Türksat 4A | 120 |
-| Türksat 5B | 11 |
-| Türksat 6A | 14 |
+| Türksat 4A | 96 |
+| Türksat 4A / Türksat 5B | 2 |
+| Türksat 4A / Türksat 6A | 3 |
+| Türksat 5B | 9 |
+| Türksat 6A | 9 |
+| Türksat 6A / Türksat 4A | 2 |
 
 ## Canais pendentes
 

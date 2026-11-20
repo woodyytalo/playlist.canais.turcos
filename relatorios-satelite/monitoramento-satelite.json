@@ -1,22 +1,25 @@
 {
-  "generated_at_utc": "2026-11-20T15:50:35+00:00",
+  "generated_at_utc": "2026-11-20T15:56:22+00:00",
   "source_url": "https://tr.canlitv.watch/frekans-bilgileri",
   "source_check": {
     "ok": true,
     "http_status": 200
   },
   "summary": {
-    "table_rows": 235,
+    "table_rows": 211,
     "unique_channels": 211,
     "expected_channels": 211,
     "pending_verification": 90,
-    "channels_with_multiple_transponders": 22,
+    "channels_with_multiple_transponders": 0,
     "satellites": {
-      "Türksat 4A": 120,
-      "Türksat 5B": 11,
-      "Türksat 6A": 14
+      "Türksat 4A": 96,
+      "Türksat 4A / Türksat 5B": 2,
+      "Türksat 4A / Türksat 6A": 3,
+      "Türksat 5B": 9,
+      "Türksat 6A": 9,
+      "Türksat 6A / Türksat 4A": 2
     },
-    "invalid_confirmed_entries": 0
+    "invalid_confirmed_entries": 45
   },
   "pending_channels": [
     {
@@ -920,117 +923,232 @@
       "fec": "—"
     }
   ],
-  "multiple_transponders": [
+  "multiple_transponders": [],
+  "invalid_entries": [
     {
-      "number": 23,
       "channel": "Bloomberg HT",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12303 / 11845"
     },
     {
-      "number": 24,
+      "channel": "Bloomberg HT",
+      "field": "symbol_rate_ksps",
+      "value": "27500 / 10833"
+    },
+    {
       "channel": "Bloomberg HT 2",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12303 / 11845"
     },
     {
-      "number": 35,
+      "channel": "Bloomberg HT 2",
+      "field": "symbol_rate_ksps",
+      "value": "27500 / 10833"
+    },
+    {
       "channel": "Diyanet TV",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12380 / 12423"
     },
     {
-      "number": 57,
+      "channel": "Diyanet TV",
+      "field": "polarization",
+      "value": "V / H"
+    },
+    {
+      "channel": "Diyanet TV",
+      "field": "symbol_rate_ksps",
+      "value": "27500 / 30000"
+    },
+    {
       "channel": "GRT Gaziantep TV",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12265 / 12423"
     },
     {
-      "number": 60,
       "channel": "Habertürk",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12303 / 11845"
     },
     {
-      "number": 61,
+      "channel": "Habertürk",
+      "field": "symbol_rate_ksps",
+      "value": "27500 / 10833"
+    },
+    {
       "channel": "Halk TV",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12380 / 11225"
     },
     {
-      "number": 62,
+      "channel": "Halk TV",
+      "field": "symbol_rate_ksps",
+      "value": "27500 / 30000"
+    },
+    {
       "channel": "HT Spor TV",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12303 / 11845"
     },
     {
-      "number": 63,
+      "channel": "HT Spor TV",
+      "field": "symbol_rate_ksps",
+      "value": "27500 / 10833"
+    },
+    {
       "channel": "Güneydoğu TV",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12423 / 12111"
     },
     {
-      "number": 81,
       "channel": "Kanal 7 Avrupa",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12458 / 12111"
     },
     {
-      "number": 99,
+      "channel": "Kanal 7 Avrupa",
+      "field": "polarization",
+      "value": "H / V"
+    },
+    {
       "channel": "Meltem TV",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12423 / 11225"
     },
     {
-      "number": 119,
+      "channel": "Meltem TV",
+      "field": "symbol_rate_ksps",
+      "value": "27500 / 30000"
+    },
+    {
       "channel": "Show Max",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "11845 / 12303"
     },
     {
-      "number": 127,
+      "channel": "Show Max",
+      "field": "symbol_rate_ksps",
+      "value": "10833 / 27500"
+    },
+    {
       "channel": "TGRT Haber",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12149 / 12380"
     },
     {
-      "number": 133,
       "channel": "TRT Avaz",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "11958 / 12092"
     },
     {
-      "number": 134,
+      "channel": "TRT Avaz",
+      "field": "polarization",
+      "value": "V / H"
+    },
+    {
       "channel": "TRT Çocuk",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12092 / 11794"
     },
     {
-      "number": 135,
+      "channel": "TRT Çocuk",
+      "field": "polarization",
+      "value": "H / V"
+    },
+    {
+      "channel": "TRT Çocuk",
+      "field": "symbol_rate_ksps",
+      "value": "27500 / 30000"
+    },
+    {
       "channel": "TRT Diyanet Çocuk",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "11794 / 12092"
     },
     {
-      "number": 136,
+      "channel": "TRT Diyanet Çocuk",
+      "field": "polarization",
+      "value": "V / H"
+    },
+    {
+      "channel": "TRT Diyanet Çocuk",
+      "field": "symbol_rate_ksps",
+      "value": "30000 / 27500"
+    },
+    {
       "channel": "TRT EBA Ortaokul",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12149 / 12458"
     },
     {
-      "number": 137,
+      "channel": "TRT EBA Ortaokul",
+      "field": "polarization",
+      "value": "V / H"
+    },
+    {
       "channel": "TRT Genç",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "11794 / 12092"
     },
     {
-      "number": 138,
+      "channel": "TRT Genç",
+      "field": "polarization",
+      "value": "V / H"
+    },
+    {
+      "channel": "TRT Genç",
+      "field": "symbol_rate_ksps",
+      "value": "30000 / 27500"
+    },
+    {
       "channel": "TRT Haber",
-      "transponders": 3
+      "field": "frequency_mhz",
+      "value": "11958 / 12092 / 12226"
     },
     {
-      "number": 139,
+      "channel": "TRT Haber",
+      "field": "polarization",
+      "value": "V / H"
+    },
+    {
       "channel": "TRT Kurdî",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12092 / 12226"
     },
     {
-      "number": 140,
+      "channel": "TRT Kurdî",
+      "field": "polarization",
+      "value": "H / V"
+    },
+    {
       "channel": "TRT Müzik",
-      "transponders": 3
+      "field": "frequency_mhz",
+      "value": "11958 / 12092 / 12226"
     },
     {
-      "number": 143,
+      "channel": "TRT Müzik",
+      "field": "polarization",
+      "value": "V / H"
+    },
+    {
       "channel": "TRT Türk",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12092 / 12226"
     },
     {
-      "number": 158,
+      "channel": "TRT Türk",
+      "field": "polarization",
+      "value": "H / V"
+    },
+    {
       "channel": "Ülke TV",
-      "transponders": 2
+      "field": "frequency_mhz",
+      "value": "12458 / 12111"
+    },
+    {
+      "channel": "Ülke TV",
+      "field": "polarization",
+      "value": "H / V"
     }
-  ],
-  "invalid_entries": []
+  ]
 }
