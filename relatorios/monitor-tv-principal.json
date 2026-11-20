@@ -1,8 +1,8 @@
 {
   "total": 211,
-  "validos": 190,
-  "falhas": 21,
-  "lentos": 2,
+  "validos": 193,
+  "falhas": 18,
+  "lentos": 1,
   "canais": [
     {
       "canal": "24 TV",
@@ -11,7 +11,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 600,
+        "ms": 809,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -23,7 +23,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 435,
+        "ms": 545,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -35,7 +35,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 580,
+        "ms": 748,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -47,7 +47,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 516,
+        "ms": 474,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -59,7 +59,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 881,
+        "ms": 1246,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -71,7 +71,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 1028,
+        "ms": 1124,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -83,7 +83,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 881,
+        "ms": 966,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -95,7 +95,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 986,
+        "ms": 1232,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -107,7 +107,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1287,
+        "ms": 1876,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -119,7 +119,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 552,
+        "ms": 824,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -131,7 +131,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 842,
+        "ms": 1032,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -143,7 +143,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 430,
+        "ms": 521,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -155,7 +155,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 264,
+        "ms": 353,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -167,7 +167,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 562,
+        "ms": 649,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -179,7 +179,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 380,
+        "ms": 587,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -191,7 +191,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1228,
+        "ms": 1531,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -203,7 +203,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 893,
+        "ms": 1007,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -215,7 +215,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 775,
+        "ms": 967,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -227,7 +227,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 382,
+        "ms": 372,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -239,7 +239,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 647,
+        "ms": 791,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -251,7 +251,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 716,
+        "ms": 1116,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -263,7 +263,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 527,
+        "ms": 681,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -275,7 +275,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 886,
+        "ms": 999,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -287,7 +287,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 364,
+        "ms": 190,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -299,7 +299,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1115,
+        "ms": 1463,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -311,7 +311,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 218,
+        "ms": 288,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -323,7 +323,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 709,
+        "ms": 946,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -335,7 +335,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 1145,
+        "ms": 1179,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -347,7 +347,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 337,
+        "ms": 468,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -359,7 +359,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 263,
+        "ms": 331,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -371,7 +371,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1287,
+        "ms": 1531,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -383,7 +383,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1450,
+        "ms": 2302,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -395,7 +395,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 5229,
+        "ms": 5281,
         "tipo": "rede",
         "detalhe": "<urlopen error _ssl.c:1001: The handshake operation timed out>"
       }
@@ -407,7 +407,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1112,
+        "ms": 1903,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -419,7 +419,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 619,
+        "ms": 732,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -431,7 +431,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1120,
+        "ms": 912,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -443,7 +443,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 677,
+        "ms": 821,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -455,7 +455,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 318,
+        "ms": 364,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -467,7 +467,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 612,
+        "ms": 753,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -479,7 +479,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 948,
+        "ms": 923,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -491,7 +491,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1107,
+        "ms": 1210,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -503,7 +503,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 411,
+        "ms": 489,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -515,7 +515,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 563,
+        "ms": 655,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -527,7 +527,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 452,
+        "ms": 645,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -539,7 +539,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1097,
+        "ms": 957,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -551,7 +551,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1087,
+        "ms": 1480,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -563,7 +563,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 677,
+        "ms": 1029,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -575,7 +575,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 752,
+        "ms": 1169,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -585,11 +585,11 @@
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8",
       "teste": {
-        "status": "FALHA",
-        "http": 404,
-        "ms": 1096,
-        "tipo": "HTTP",
-        "detalhe": "Not Found"
+        "status": "OK",
+        "http": 206,
+        "ms": 942,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
       }
     },
     {
@@ -599,7 +599,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 666,
+        "ms": 612,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -611,7 +611,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 518,
+        "ms": 653,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -623,7 +623,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 561,
+        "ms": 773,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -635,7 +635,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 760,
+        "ms": 898,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -647,7 +647,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 772,
+        "ms": 760,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -659,7 +659,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1147,
+        "ms": 912,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -671,7 +671,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 406,
+        "ms": 460,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -683,7 +683,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1631,
+        "ms": 1342,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -695,7 +695,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 215,
+        "ms": 266,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -707,7 +707,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 453,
+        "ms": 448,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -719,7 +719,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 343,
+        "ms": 139,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'haberturk.blutv.com'. (_ssl.c:1018)>"
       }
@@ -731,7 +731,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 721,
+        "ms": 944,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -743,7 +743,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 742,
+        "ms": 1011,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -755,7 +755,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 268,
+        "ms": 342,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -767,7 +767,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1697,
+        "ms": 1001,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -779,7 +779,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 258,
+        "ms": 315,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -791,7 +791,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 253,
+        "ms": 333,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -803,7 +803,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 772,
+        "ms": 1090,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -815,7 +815,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 575,
+        "ms": 643,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -827,7 +827,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 738,
+        "ms": 1139,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -839,7 +839,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 752,
+        "ms": 1487,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -851,7 +851,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1319,
+        "ms": 1518,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -863,7 +863,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 570,
+        "ms": 597,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -875,7 +875,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 765,
+        "ms": 939,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -887,7 +887,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1541,
+        "ms": 926,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -899,7 +899,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1129,
+        "ms": 937,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -911,7 +911,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 259,
+        "ms": 330,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -923,7 +923,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 287,
+        "ms": 315,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -935,7 +935,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 490,
+        "ms": 644,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -947,7 +947,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 588,
+        "ms": 682,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -959,7 +959,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1486,
+        "ms": 1520,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -971,7 +971,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 500,
+        "ms": 627,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -983,7 +983,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 404,
+        "ms": 337,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -995,7 +995,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 1824,
+        "ms": 2018,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1007,7 +1007,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 770,
+        "ms": 957,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1019,7 +1019,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 320,
+        "ms": 322,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1031,7 +1031,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1295,
+        "ms": 927,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1043,7 +1043,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1267,
+        "ms": 910,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1055,7 +1055,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 749,
+        "ms": 1807,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1067,7 +1067,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 373,
+        "ms": 623,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1079,7 +1079,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1261,
+        "ms": 926,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1091,7 +1091,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 492,
+        "ms": 707,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1103,7 +1103,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 680,
+        "ms": 1010,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1115,7 +1115,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 755,
+        "ms": 925,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1127,7 +1127,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 328,
+        "ms": 395,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1139,7 +1139,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 746,
+        "ms": 937,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1151,7 +1151,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 642,
+        "ms": 1130,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1163,7 +1163,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 270,
+        "ms": 305,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1175,7 +1175,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 535,
+        "ms": 588,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1187,7 +1187,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 894,
+        "ms": 1102,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1199,7 +1199,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 777,
+        "ms": 1879,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1211,7 +1211,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 1027,
+        "ms": 1143,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1223,7 +1223,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 859,
+        "ms": 834,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1235,7 +1235,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 246,
+        "ms": 330,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -1247,7 +1247,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 787,
+        "ms": 1002,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1257,11 +1257,11 @@
       "categoria": "ENTRETENIMENTO",
       "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
       "teste": {
-        "status": "FALHA",
-        "http": null,
-        "ms": 5624,
-        "tipo": "rede",
-        "detalhe": "The read operation timed out"
+        "status": "OK",
+        "http": 200,
+        "ms": 2061,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
       }
     },
     {
@@ -1271,7 +1271,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 654,
+        "ms": 836,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1283,7 +1283,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 519,
+        "ms": 745,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1295,7 +1295,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 647,
+        "ms": 648,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1307,7 +1307,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 960,
+        "ms": 1165,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1319,7 +1319,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 800,
+        "ms": 829,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1331,7 +1331,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1234,
+        "ms": 2482,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1343,7 +1343,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1235,
+        "ms": 1529,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1355,7 +1355,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 647,
+        "ms": 559,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1367,7 +1367,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 684,
+        "ms": 608,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1379,7 +1379,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 417,
+        "ms": 524,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1391,7 +1391,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 765,
+        "ms": 923,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1403,7 +1403,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 726,
+        "ms": 529,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1415,7 +1415,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 407,
+        "ms": 693,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1427,7 +1427,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 952,
+        "ms": 1121,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1439,7 +1439,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 801,
+        "ms": 615,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1451,7 +1451,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 881,
+        "ms": 1640,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1463,7 +1463,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 479,
+        "ms": 752,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1475,7 +1475,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 1189,
+        "ms": 1445,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1485,11 +1485,11 @@
       "categoria": "NOTÍCIAS",
       "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
       "teste": {
-        "status": "FALHA",
-        "http": 404,
-        "ms": 648,
-        "tipo": "HTTP",
-        "detalhe": "Not Found"
+        "status": "OK",
+        "http": 206,
+        "ms": 792,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
       }
     },
     {
@@ -1499,7 +1499,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 769,
+        "ms": 1150,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1511,7 +1511,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 618,
+        "ms": 864,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1523,7 +1523,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 454,
+        "ms": 586,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1535,7 +1535,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 746,
+        "ms": 941,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1547,7 +1547,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 888,
+        "ms": 1194,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1559,7 +1559,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 748,
+        "ms": 913,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1571,7 +1571,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 334,
+        "ms": 504,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1582,8 +1582,8 @@
       "url": "https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8",
       "teste": {
         "status": "OK",
-        "http": 206,
-        "ms": 609,
+        "http": 200,
+        "ms": 676,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1595,7 +1595,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 341,
+        "ms": 565,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1607,7 +1607,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 330,
+        "ms": 451,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1619,7 +1619,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 550,
+        "ms": 559,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1631,7 +1631,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 905,
+        "ms": 1152,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1642,8 +1642,8 @@
       "url": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8",
       "teste": {
         "status": "OK",
-        "http": 200,
-        "ms": 702,
+        "http": 206,
+        "ms": 600,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1655,7 +1655,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 464,
+        "ms": 272,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1667,7 +1667,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 379,
+        "ms": 316,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1679,7 +1679,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 870,
+        "ms": 1019,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1691,7 +1691,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 492,
+        "ms": 663,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1703,7 +1703,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 542,
+        "ms": 635,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1715,7 +1715,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 806,
+        "ms": 346,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1727,7 +1727,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 779,
+        "ms": 663,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1739,7 +1739,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 249,
+        "ms": 342,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -1751,7 +1751,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 256,
+        "ms": 332,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -1763,7 +1763,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 776,
+        "ms": 894,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1775,7 +1775,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 744,
+        "ms": 927,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1787,7 +1787,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 259,
+        "ms": 320,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -1799,7 +1799,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 801,
+        "ms": 1309,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1811,7 +1811,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 753,
+        "ms": 911,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1823,7 +1823,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 738,
+        "ms": 754,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1835,7 +1835,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 622,
+        "ms": 755,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1847,7 +1847,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 741,
+        "ms": 867,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1859,7 +1859,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 917,
+        "ms": 1073,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1871,7 +1871,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 304,
+        "ms": 381,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1883,7 +1883,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 749,
+        "ms": 928,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1895,7 +1895,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 532,
+        "ms": 640,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1907,7 +1907,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 494,
+        "ms": 598,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1919,7 +1919,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 553,
+        "ms": 691,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1931,7 +1931,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 400,
+        "ms": 715,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1943,7 +1943,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 198,
+        "ms": 114,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1955,7 +1955,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 50,
+        "ms": 74,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1967,7 +1967,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 254,
+        "ms": 350,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -1979,7 +1979,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 746,
+        "ms": 911,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1991,7 +1991,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 508,
+        "ms": 641,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2003,7 +2003,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 745,
+        "ms": 943,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2015,7 +2015,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 719,
+        "ms": 926,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2027,7 +2027,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 518,
+        "ms": 642,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2039,7 +2039,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 270,
+        "ms": 350,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2051,7 +2051,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 687,
+        "ms": 816,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2063,7 +2063,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 374,
+        "ms": 350,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2075,7 +2075,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 493,
+        "ms": 630,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2087,7 +2087,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 963,
+        "ms": 925,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2099,7 +2099,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 428,
+        "ms": 493,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2111,7 +2111,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 448,
+        "ms": 584,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2123,7 +2123,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 852,
+        "ms": 1027,
         "tipo": "HTTP",
         "detalhe": "Resposta recebida"
       }
@@ -2135,7 +2135,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 324,
+        "ms": 434,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2147,7 +2147,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 146,
+        "ms": 111,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2159,7 +2159,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 650,
+        "ms": 823,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2171,7 +2171,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 256,
+        "ms": 349,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2183,7 +2183,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 679,
+        "ms": 812,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2195,7 +2195,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 746,
+        "ms": 936,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2207,7 +2207,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 285,
+        "ms": 515,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2219,7 +2219,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 1393,
+        "ms": 1625,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2231,7 +2231,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 380,
+        "ms": 615,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2243,7 +2243,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 224,
+        "ms": 418,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2255,7 +2255,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 389,
+        "ms": 475,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2267,7 +2267,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1038,
+        "ms": 931,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2279,7 +2279,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 276,
+        "ms": 303,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2291,7 +2291,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 485,
+        "ms": 605,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2303,7 +2303,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 162,
+        "ms": 276,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2315,7 +2315,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 371,
+        "ms": 395,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2327,7 +2327,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 431,
+        "ms": 620,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2339,7 +2339,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 612,
+        "ms": 1001,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2351,7 +2351,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 193,
+        "ms": 199,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2363,7 +2363,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 593,
+        "ms": 689,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2375,7 +2375,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 171,
+        "ms": 665,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2387,7 +2387,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 401,
+        "ms": 650,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2399,7 +2399,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 177,
+        "ms": 690,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2411,7 +2411,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 501,
+        "ms": 628,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2423,7 +2423,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 336,
+        "ms": 353,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2435,7 +2435,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 705,
+        "ms": 818,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2447,7 +2447,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 333,
+        "ms": 846,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2459,7 +2459,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 768,
+        "ms": 933,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2471,7 +2471,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 177,
+        "ms": 328,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2483,7 +2483,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 555,
+        "ms": 706,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2495,7 +2495,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 458,
+        "ms": 475,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2507,7 +2507,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 503,
+        "ms": 662,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2519,7 +2519,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 387,
+        "ms": 605,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2531,7 +2531,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 762,
+        "ms": 916,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
