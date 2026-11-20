@@ -4,7 +4,7 @@
 
 
 #FREQUÊNCIA: Türksat 4A: 11862 V, SR 16666, FEC 2/3
-#EXTINF:-1 tvg-chno="1" tvg-name="24 TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/24-TV-9175c1becd.svg",24 TV
+#EXTINF:-1 tvg-chno="1" tvg-name="24 TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/24-TV-14191a48d5.svg",24 TV
 #EXTVLCOPT:network-caching=5000
 https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
 
@@ -13,7 +13,7 @@ https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
 #EXTVLCOPT:network-caching=5000
 http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8
 #FREQUÊNCIA: Türksat 4A: 11862 V, SR 16666, FEC 2/3
-#EXTINF:-1 tvg-chno="3" tvg-name="360 TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/360-TV-592e01d726.svg",360 TV
+#EXTINF:-1 tvg-chno="3" tvg-name="360 TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/360-TV-a6c1ef1e5f.svg",360 TV
 #EXTVLCOPT:network-caching=5000
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 
@@ -23,27 +23,27 @@ https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 https://hls.4utv.live/hls/stream.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="5" tvg-id="ql8qf4vb46o1h7t" tvg-name="A Haber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A-Haber-64444762a9.svg",A Haber
+#EXTINF:-1 tvg-chno="5" tvg-id="ql8qf4vb46o1h7t" tvg-name="A Haber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A-Haber-0e12de135e.svg",A Haber
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="6" tvg-id="8yfvm8ak2t1qoe6" tvg-name="A Para" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A-Para-086d086261.svg",A Para
+#EXTINF:-1 tvg-chno="6" tvg-id="8yfvm8ak2t1qoe6" tvg-name="A Para" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A-Para-820d81f110.svg",A Para
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="7" tvg-id="v25znppc6itjprw" tvg-name="A Spor" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A-Spor-90983d0fe6.svg",A Spor
+#EXTINF:-1 tvg-chno="7" tvg-id="v25znppc6itjprw" tvg-name="A Spor" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A-Spor-680178f640.svg",A Spor
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="8" tvg-id="fc29p3wbp8wkgo4" tvg-name="A2" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A2-da0caad468.svg",A2
+#EXTINF:-1 tvg-chno="8" tvg-id="fc29p3wbp8wkgo4" tvg-name="A2" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A2-568e8467b4.svg",A2
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="9" tvg-name="Aksu TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Aksu-TV-eed97936ac.svg",Aksu TV
+#EXTINF:-1 tvg-chno="9" tvg-name="Aksu TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Aksu-TV-48e618312c.svg",Aksu TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 
@@ -63,7 +63,7 @@ https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 https://starmenajo.com/hls/almahriah/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="13" tvg-name="Altas TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Altas-TV-6f46a908b5.svg",Altas TV
+#EXTINF:-1 tvg-chno="13" tvg-name="Altas TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Altas-TV-1fe70ad52d.svg",Altas TV
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 
@@ -83,7 +83,7 @@ http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="17" tvg-id="2zkzbuscxwyjc4k" tvg-name="ATV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ATV-019987e5c1.svg",ATV
+#EXTINF:-1 tvg-chno="17" tvg-id="2zkzbuscxwyjc4k" tvg-name="ATV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ATV-38255fc6b9.svg",ATV
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 
@@ -93,12 +93,12 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="19" tvg-name="Bengü Türk" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Beng-T-rk-5c60594e9f.svg",Bengü Türk
+#EXTINF:-1 tvg-chno="19" tvg-name="Bengü Türk" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Beng-T-rk-b5a4205983.svg",Bengü Türk
 #EXTVLCOPT:network-caching=5000
 https://tv.ensonhaber.com/benguturk/benguturk_480p.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="20" tvg-id="edf3lp61qexxxhl" tvg-name="Beyaz TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Beyaz-TV-30e7d50ade.svg",Beyaz TV
+#EXTINF:-1 tvg-chno="20" tvg-id="edf3lp61qexxxhl" tvg-name="Beyaz TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Beyaz-TV-8103c07996.svg",Beyaz TV
 #EXTVLCOPT:network-caching=5000
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8
 
@@ -113,7 +113,7 @@ https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12303 V, SR 27500, FEC 3/4 / Türksat 4A: 11845 V, SR 10833, FEC 2/3
-#EXTINF:-1 tvg-chno="23" tvg-id="4nu4fjjhm0y6wqm" tvg-name="Bloomberg HT" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Bloomberg-HT-81dc6c32e8.svg",Bloomberg HT
+#EXTINF:-1 tvg-chno="23" tvg-id="4nu4fjjhm0y6wqm" tvg-name="Bloomberg HT" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Bloomberg-HT-619303b303.svg",Bloomberg HT
 #EXTVLCOPT:network-caching=5000
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 
@@ -123,7 +123,7 @@ https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 https://tv.ensonhaber.com/bloomberght/bloomberght_480p.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="25" tvg-name="BRTV Karabük" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/BRTV-Karab-k-19c00a9ed3.svg",BRTV Karabük
+#EXTINF:-1 tvg-chno="25" tvg-name="BRTV Karabük" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/BRTV-Karab-k-2cd77261b3.svg",BRTV Karabük
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_brtv/brtv/chunks.m3u8
 
@@ -138,22 +138,22 @@ http://176.65.153.40:6002/play/a013/index.m3u8
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="28" tvg-id="pr3t0gzb7bxbc27" tvg-name="CNBC e" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/CNBC-e-19e4621c78.svg",CNBC e
+#EXTINF:-1 tvg-chno="28" tvg-id="pr3t0gzb7bxbc27" tvg-name="CNBC e" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/CNBC-e-a586ac4bc9.svg",CNBC e
 #EXTVLCOPT:network-caching=5000
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12034 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="29" tvg-name="CNN Türk" tvg-id="ah7mr9ol040kp3b" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/CNN-T-rk-47c65fa5f7.svg",CNN Türk
+#EXTINF:-1 tvg-chno="29" tvg-name="CNN Türk" tvg-id="ah7mr9ol040kp3b" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/CNN-T-rk-847ee257c9.svg",CNN Türk
 #EXTVLCOPT:network-caching=5000
 http://85.117.61.84/cnnturk/index.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11425 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="30" tvg-name="Çay TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ay-TV-47cc465b92.svg",Çay TV
+#EXTINF:-1 tvg-chno="30" tvg-name="Çay TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ay-TV-054dc3a332.svg",Çay TV
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="31" tvg-name="Çiftçi TV" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ift-i-TV-8e2be3765f.svg",Çiftçi TV
+#EXTINF:-1 tvg-chno="31" tvg-name="Çiftçi TV" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ift-i-TV-e7d3b11109.svg",Çiftçi TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 
@@ -173,17 +173,17 @@ https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12380 V, SR 27500, FEC 3/4 / Türksat 4A: 12423 H, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="35" tvg-name="Diyanet TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Diyanet-TV-706d376281.svg",Diyanet TV
+#EXTINF:-1 tvg-chno="35" tvg-name="Diyanet TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Diyanet-TV-e1bc430169.svg",Diyanet TV
 #EXTVLCOPT:network-caching=5000
 http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12264 V, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="36" tvg-name="Diyar TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Diyar-TV-1d6fff4dec.svg",Diyar TV
+#EXTINF:-1 tvg-chno="36" tvg-name="Diyar TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Diyar-TV-a4dcb0cb83.svg",Diyar TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="37" tvg-name="Dost TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Dost-TV-4d8f2f7a0d.svg",Dost TV
+#EXTINF:-1 tvg-chno="37" tvg-name="Dost TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Dost-TV-d40dc20c97.svg",Dost TV
 #EXTVLCOPT:network-caching=5000
 https://dost.stream.emsal.im/tv/live.m3u8
 
@@ -196,7 +196,7 @@ http://hz1.teleport.cc/HLS/HD.m3u8
 #EXTVLCOPT:network-caching=5000
 https://30a-tv.com/music.m3u8
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="40" tvg-id="ttlji9eholru11x" tvg-name="Dream Türk" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Dream-T-rk-e70223e2ad.svg",Dream Türk
+#EXTINF:-1 tvg-chno="40" tvg-id="ttlji9eholru11x" tvg-name="Dream Türk" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Dream-T-rk-2b404ae59d.svg",Dream Türk
 #EXTVLCOPT:network-caching=5000
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
@@ -205,12 +205,12 @@ https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 https://str.yodacdn.net/tmb_tr_app/tracks-v1a1/mono.m3u8?token=tmb_app_token_13579
 
 #FREQUÊNCIA: Türksat 6A: 12111 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="42" tvg-name="Edessa TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Edessa-TV-8b7aec133e.svg",Edessa TV
+#EXTINF:-1 tvg-chno="42" tvg-name="Edessa TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Edessa-TV-0a6848a85e.svg",Edessa TV
 #EXTVLCOPT:network-caching=5000
 https://canli.edessatv.com/hls/stream.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12345 V, SR 30000, FEC 2/3
-#EXTINF:-1 tvg-chno="43" tvg-name="Ekotürk" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Ekot-rk-1a28889d52.svg",Ekotürk
+#EXTINF:-1 tvg-chno="43" tvg-name="Ekotürk" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Ekot-rk-93ea15b8d8.svg",Ekotürk
 #EXTVLCOPT:network-caching=5000
 https://cdn.ekoturk.net/hls/master.m3u8
 
@@ -235,7 +235,7 @@ https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="48" tvg-name="ES TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ES-TV-d9d234ea8c.svg",ES TV
+#EXTINF:-1 tvg-chno="48" tvg-name="ES TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ES-TV-42f1d0ccd4.svg",ES TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 
@@ -285,7 +285,7 @@ https://gcinemahls.wns.live/hls/stream.m3u8
 https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12034 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="58" tvg-id="bwmpobxuqn2pz87" tvg-name="Haber Global" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Haber-Global-e3f3989857.svg",Haber Global
+#EXTINF:-1 tvg-chno="58" tvg-id="bwmpobxuqn2pz87" tvg-name="Haber Global" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Haber-Global-e147843de0.svg",Haber Global
 #EXTVLCOPT:network-caching=5000
 https://tv.ensonhaber.com/haberglobal/haberglobal_480p.m3u8
 
@@ -295,12 +295,12 @@ https://tv.ensonhaber.com/haberglobal/haberglobal_480p.m3u8
 https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12303 V, SR 27500, FEC 3/4 / Türksat 4A: 11845 V, SR 10833, FEC 2/3
-#EXTINF:-1 tvg-chno="60" tvg-id="gil1w2erz9l7imc" tvg-name="Habertürk" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Habert-rk-d66b5a8a4b.svg",Habertürk
+#EXTINF:-1 tvg-chno="60" tvg-id="gil1w2erz9l7imc" tvg-name="Habertürk" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Habert-rk-4e8b8e89db.svg",Habertürk
 #EXTVLCOPT:network-caching=5000
 https://haberturk.blutv.com/blutv_haberturk_live/live.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12380 V, SR 27500, FEC 3/4 / Türksat 5B: 11225 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="61" tvg-id="d1exl1gxity48nl" tvg-name="Halk TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Halk-TV-9a4f7a85b3.svg",Halk TV
+#EXTINF:-1 tvg-chno="61" tvg-id="d1exl1gxity48nl" tvg-name="Halk TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Halk-TV-5686df5ee9.svg",Halk TV
 #EXTVLCOPT:network-caching=5000
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 
@@ -310,7 +310,7 @@ https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 https://ciner.daioncdn.net/ht-spor/ht-spor_480p.m3u8?ex=0&sid=8wn2p2rpc61m&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 
 #FREQUÊNCIA: Türksat 4A: 12423 V, SR 27500, FEC 2/3 / Türksat 6A: 12111 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="63" tvg-name="Güneydoğu TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/G-neydo-u-TV-46633e5ee3.svg",Güneydoğu TV
+#EXTINF:-1 tvg-chno="63" tvg-name="Güneydoğu TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/G-neydo-u-TV-c58e2f8e80.svg",Güneydoğu TV
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
@@ -323,7 +323,7 @@ https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
 #FREQUÊNCIA: Türksat 4A: 12423 V, SR 27500, FEC 2/3
-#EXTINF:-1 tvg-chno="66" tvg-name="Kardelen TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kardelen-TV-48cd8675c1.svg",Kardelen TV
+#EXTINF:-1 tvg-chno="66" tvg-name="Kardelen TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kardelen-TV-263dc595fa.svg",Kardelen TV
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
@@ -347,7 +347,7 @@ https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.
 https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="71" tvg-name="Kanal 15" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-15-dc7938e90a.svg",Kanal 15
+#EXTINF:-1 tvg-chno="71" tvg-name="Kanal 15" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-15-8b724b9bbd.svg",Kanal 15
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 
@@ -357,17 +357,17 @@ https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="73" tvg-name="Kanal 23" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-23-f17a6df79c.svg",Kanal 23
+#EXTINF:-1 tvg-chno="73" tvg-name="Kanal 23" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-23-924a620d38.svg",Kanal 23
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="74" tvg-name="Kanal 26 Eskişehir" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-26-Eski-ehir-883f7baa43.svg",Kanal 26 Eskişehir
+#EXTINF:-1 tvg-chno="74" tvg-name="Kanal 26 Eskişehir" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-26-Eski-ehir-cf271e4844.svg",Kanal 26 Eskişehir
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="75" tvg-name="Kanal 3" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-3-c58d44f295.svg",Kanal 3
+#EXTINF:-1 tvg-chno="75" tvg-name="Kanal 3" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-3-1c8a045032.svg",Kanal 3
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 
@@ -377,7 +377,7 @@ https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12458 V, SR 30000, FEC 2/3
-#EXTINF:-1 tvg-chno="77" tvg-name="Kanal 33" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-33-b20781cd6d.svg",Kanal 33
+#EXTINF:-1 tvg-chno="77" tvg-name="Kanal 33" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-33-ea3893ece4.svg",Kanal 33
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 
@@ -392,27 +392,27 @@ https://live.euromediacenter.com/kanal34/index.m3u8
 https://kanal53.ozelip.com:3448/hybrid/play.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="80" tvg-name="Kanal 58" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-58-7a7073e3ce.svg",Kanal 58
+#EXTINF:-1 tvg-chno="80" tvg-name="Kanal 58" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-58-639b91997a.svg",Kanal 58
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12458 H, SR 27500, FEC 2/3 / Türksat 6A: 12111 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="81" tvg-name="Kanal 7 Avrupa" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-7-Avrupa-d5dfb0954a.svg",Kanal 7 Avrupa
+#EXTINF:-1 tvg-chno="81" tvg-name="Kanal 7 Avrupa" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-7-Avrupa-8ca7054a47.svg",Kanal 7 Avrupa
 #EXTVLCOPT:network-caching=5000
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12458 V, SR 30000, FEC 2/3
-#EXTINF:-1 tvg-id="KanalAvrupa.tr" tvg-chno="82" tvg-name="Kanal Avrupa" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-Avrupa-9abf274b56.svg",Kanal Avrupa
+#EXTINF:-1 tvg-id="KanalAvrupa.tr" tvg-chno="82" tvg-name="Kanal Avrupa" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-Avrupa-1f71f978b2.svg",Kanal Avrupa
 #EXTVLCOPT:network-caching=5000
 http://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v3a1/mono.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12149 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="83" tvg-name="Kanal B" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-B-9e6e4d1d27.svg",Kanal B
+#EXTINF:-1 tvg-chno="83" tvg-name="Kanal B" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-B-5d8fb0ebce.svg",Kanal B
 #EXTVLCOPT:network-caching=5000
 https://tv.kanalb.tr/hls/kanalb/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="84" tvg-id="bbwgmhsmhhoatzg" tvg-name="Kanal D" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-D-c2076937fc.svg",Kanal D
+#EXTINF:-1 tvg-chno="84" tvg-id="bbwgmhsmhhoatzg" tvg-name="Kanal D" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-D-b8227fa11e.svg",Kanal D
 #EXTVLCOPT:network-caching=5000
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 
@@ -422,12 +422,12 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371fb4d7475349d6f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="86" tvg-name="Kanal Fırat" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-F-rat-fea272bdd1.svg",Kanal Fırat
+#EXTINF:-1 tvg-chno="86" tvg-name="Kanal Fırat" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-F-rat-d240f1ec8f.svg",Kanal Fırat
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="87" tvg-name="Kanal V" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-V-9bdf8f154f.svg",Kanal V
+#EXTINF:-1 tvg-chno="87" tvg-name="Kanal V" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-V-1d741ba4b7.svg",Kanal V
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 
@@ -446,7 +446,7 @@ https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="91" tvg-name="Kocaeli TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kocaeli-TV-ec27ae9b5d.svg",Kocaeli TV
+#EXTINF:-1 tvg-chno="91" tvg-name="Kocaeli TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kocaeli-TV-9ae87052ae.svg",Kocaeli TV
 #EXTVLCOPT:network-caching=5000
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 
@@ -461,7 +461,7 @@ https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/chunklist_w16313685.m3u8
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12423 V, SR 27500, FEC 2/3
-#EXTINF:-1 tvg-chno="94" tvg-name="Lalegül TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Laleg-l-TV-cf43228b82.svg",Lalegül TV
+#EXTINF:-1 tvg-chno="94" tvg-name="Lalegül TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Laleg-l-TV-c22b6888e6.svg",Lalegül TV
 #EXTVLCOPT:network-caching=5000
 https://lbl.netmedya.net/hls/lalegultv.m3u8
 
@@ -491,17 +491,17 @@ https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8
 https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="100" tvg-name="Mercan TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Mercan-TV-e5bdca096a.svg",Mercan TV
+#EXTINF:-1 tvg-chno="100" tvg-name="Mercan TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Mercan-TV-5323026da5.svg",Mercan TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="101" tvg-id="52hjq0o16nwpdnq" tvg-name="Minika Çocuk" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Minika-ocuk-42cc01a4b3.svg",Minika Çocuk
+#EXTINF:-1 tvg-chno="101" tvg-id="52hjq0o16nwpdnq" tvg-name="Minika Çocuk" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Minika-ocuk-d3694045b8.svg",Minika Çocuk
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="102" tvg-id="phekqx3pyw2wiiq" tvg-name="Minika GO" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Minika-GO-23dbb5c4e0.svg",Minika GO
+#EXTINF:-1 tvg-chno="102" tvg-id="phekqx3pyw2wiiq" tvg-name="Minika GO" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Minika-GO-18cf210d72.svg",Minika GO
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 
@@ -516,32 +516,32 @@ https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/chunklist_w538521591.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11887 V, SR 10833, FEC 2/3
-#EXTINF:-1 tvg-chno="105" tvg-id="m0abaihy7vla6ma" tvg-name="NOW" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NOW-f48aed7a7c.svg",NOW
+#EXTINF:-1 tvg-chno="105" tvg-id="m0abaihy7vla6ma" tvg-name="NOW" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NOW-1ca6ef54d3.svg",NOW
 #EXTVLCOPT:network-caching=5000
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 
 #FREQUÊNCIA: Türksat 3A: 12729 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="106" tvg-name="NR1 Aşk" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NR1-A-k-14f6fab64f.svg",NR1 Aşk
+#EXTINF:-1 tvg-chno="106" tvg-name="NR1 Aşk" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NR1-A-k-cb0b9b42b5.svg",NR1 Aşk
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 3A: 12729 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="107" tvg-name="NR1 Damar" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NR1-Damar-732ff20a62.svg",NR1 Damar
+#EXTINF:-1 tvg-chno="107" tvg-name="NR1 Damar" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NR1-Damar-b3970e2032.svg",NR1 Damar
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 3A: 12729 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="108" tvg-name="NR1 Dance" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NR1-Dance-66218a0424.svg",NR1 Dance
+#EXTINF:-1 tvg-chno="108" tvg-name="NR1 Dance" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NR1-Dance-25fd16c65c.svg",NR1 Dance
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12015 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="109" tvg-id="nyz5s8p798n9cqg" tvg-name="NTV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NTV-696b247b98.svg",NTV
+#EXTINF:-1 tvg-chno="109" tvg-id="nyz5s8p798n9cqg" tvg-name="NTV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NTV-8fc51e2c34.svg",NTV
 #EXTVLCOPT:network-caching=5000
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 
 #FREQUÊNCIA: Türksat 3A: 12729 V, SR 30000, FEC 2/3
-#EXTINF:-1 tvg-chno="110" tvg-name="Number 1 TV" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Number-1-TV-97e9925342.svg",Number 1 TV
+#EXTINF:-1 tvg-chno="110" tvg-name="Number 1 TV" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Number-1-TV-1fa2ce8e40.svg",Number 1 TV
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
 
@@ -566,16 +566,16 @@ http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11425 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="115" tvg-name="Rehber TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Rehber-TV-c75fadd960.svg",Rehber TV
+#EXTINF:-1 tvg-chno="115" tvg-name="Rehber TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Rehber-TV-d88945189b.svg",Rehber TV
 #EXTVLCOPT:network-caching=5000
 https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="116" tvg-name="Sat7 Türk" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Sat7-T-rk-9ba93b411f.svg",Sat7 Türk
+#EXTINF:-1 tvg-chno="116" tvg-name="Sat7 Türk" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Sat7-T-rk-515a6968c3.svg",Sat7 Türk
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11425 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="117" tvg-name="Semerkand TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Semerkand-TV-bee9bce781.svg",Semerkand TV
+#EXTINF:-1 tvg-chno="117" tvg-name="Semerkand TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Semerkand-TV-8cb5d44d64.svg",Semerkand TV
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_2.m3u8
 
@@ -585,12 +585,12 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d91
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11845 V, SR 10833, FEC 2/3
-#EXTINF:-1 tvg-chno="119" tvg-id="8xihgna8cyvdnyd" tvg-name="Show Max" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Show-Max-aad270ca56.svg",Show Max
+#EXTINF:-1 tvg-chno="119" tvg-id="8xihgna8cyvdnyd" tvg-name="Show Max" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Show-Max-97f2ea264b.svg",Show Max
 #EXTVLCOPT:network-caching=5000
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12303 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="120" tvg-id="pvr08e5grfsebfw" tvg-name="Show TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Show-TV-07ac3c3cd8.svg",Show TV
+#EXTINF:-1 tvg-chno="120" tvg-id="pvr08e5grfsebfw" tvg-name="Show TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Show-TV-d3c3d64f4a.svg",Show TV
 #EXTVLCOPT:network-caching=5000
 https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 
@@ -601,42 +601,42 @@ https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrA
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12015 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="122" tvg-name="Star TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Star-TV-9a953173d0.svg",Star TV
+#EXTINF:-1 tvg-chno="122" tvg-name="Star TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Star-TV-2887e41c6d.svg",Star TV
 #EXTVLCOPT:network-caching=5000
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="123" tvg-id="jgxiih7f6yhagpj" tvg-name="TAY TV" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TAY-TV-06cb6391e9.svg",TAY TV
+#EXTINF:-1 tvg-chno="123" tvg-id="jgxiih7f6yhagpj" tvg-name="TAY TV" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TAY-TV-2c14408b46.svg",TAY TV
 #EXTVLCOPT:network-caching=5000
 https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12034 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="124" tvg-id="2m3k6xyjyek7djr" tvg-name="TELE1" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TELE1-bbc0030db1.svg",TELE1
+#EXTINF:-1 tvg-chno="124" tvg-id="2m3k6xyjyek7djr" tvg-name="TELE1" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TELE1-8e64cd614b.svg",TELE1
 #EXTVLCOPT:network-caching=5000
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="125" tvg-name="Tempo TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Tempo-TV-e376b13c52.svg",Tempo TV
+#EXTINF:-1 tvg-chno="125" tvg-name="Tempo TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Tempo-TV-58b6a42f4d.svg",Tempo TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="126" tvg-id="6vs4sg9183gdxth" tvg-name="teve2" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/teve2-afdb045f14.svg",teve2
+#EXTINF:-1 tvg-chno="126" tvg-id="6vs4sg9183gdxth" tvg-name="teve2" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/teve2-dec69e536a.svg",teve2
 #EXTVLCOPT:network-caching=5000
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12149 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="127" tvg-id="qz2fp61itc8xm4g" tvg-name="TGRT Haber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TGRT-Haber-289a30928d.svg",TGRT Haber
+#EXTINF:-1 tvg-chno="127" tvg-id="qz2fp61itc8xm4g" tvg-name="TGRT Haber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TGRT-Haber-5bf23b8059.svg",TGRT Haber
 #EXTVLCOPT:network-caching=5000
 https://canli.tgrthaber.com/tgrt.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="128" tvg-name="Tivi 6" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Tivi-6-2ace501196.svg",Tivi 6
+#EXTINF:-1 tvg-chno="128" tvg-name="Tivi 6" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Tivi-6-5104e5a963.svg",Tivi 6
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11345 V, SR 29750, FEC 5/6
-#EXTINF:-1 tvg-chno="129" tvg-name="TJK TV" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TJK-TV-0ae28d98f8.svg",TJK TV
+#EXTINF:-1 tvg-chno="129" tvg-name="TJK TV" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TJK-TV-3159cccbdd.svg",TJK TV
 #EXTVLCOPT:network-caching=5000
 https://tjktv-live.tjk.org/tjktv.m3u8
 
@@ -646,22 +646,22 @@ https://tjktv-live.tjk.org/tjktv.m3u8
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11794 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="131" tvg-id="af0zo9et4xguwsk" tvg-name="TRT 1" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-1-7723e2f817.svg",TRT 1
+#EXTINF:-1 tvg-chno="131" tvg-id="af0zo9et4xguwsk" tvg-name="TRT 1" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-1-e8b996c4e0.svg",TRT 1
 #EXTVLCOPT:network-caching=5000
 https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="132" tvg-name="TRT Arabi" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-Arabi-cdc90e420b.svg",TRT Arabi
+#EXTINF:-1 tvg-chno="132" tvg-name="TRT Arabi" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-Arabi-76470da4a5.svg",TRT Arabi
 #EXTVLCOPT:network-caching=5000
 https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11958 V, SR 27500, FEC 5/6 / Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="133" tvg-id="p6sz5lndgfas2r9" tvg-name="TRT Avaz" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-Avaz-418609a895.svg",TRT Avaz
+#EXTINF:-1 tvg-chno="133" tvg-id="p6sz5lndgfas2r9" tvg-name="TRT Avaz" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-Avaz-b70a0594a8.svg",TRT Avaz
 #EXTVLCOPT:network-caching=5000
 https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="134" tvg-id="ybv52n8pldp0lfq" tvg-name="TRT Çocuk" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-ocuk-5ae0aad7a9.svg",TRT Çocuk
+#EXTINF:-1 tvg-chno="134" tvg-id="ybv52n8pldp0lfq" tvg-name="TRT Çocuk" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-ocuk-d47ebf81e7.svg",TRT Çocuk
 #EXTVLCOPT:network-caching=5000
 https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8
 
@@ -676,22 +676,22 @@ https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11794 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="137" tvg-name="TRT Genç" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-Gen-395d8134f6.svg",TRT Genç
+#EXTINF:-1 tvg-chno="137" tvg-name="TRT Genç" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-Gen-32ad995c01.svg",TRT Genç
 #EXTVLCOPT:network-caching=5000
 https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11958 V, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="138" tvg-id="in3p7jng04mr97m" tvg-name="TRT Haber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-Haber-07645c85bd.svg",TRT Haber
+#EXTINF:-1 tvg-chno="138" tvg-id="in3p7jng04mr97m" tvg-name="TRT Haber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-Haber-b4516f7d7e.svg",TRT Haber
 #EXTVLCOPT:network-caching=5000
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="139" tvg-name="TRT Kurdî" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-Kurd-9b4d4f899f.svg",TRT Kurdî
+#EXTINF:-1 tvg-chno="139" tvg-name="TRT Kurdî" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-Kurd-b7c5e5c419.svg",TRT Kurdî
 #EXTVLCOPT:network-caching=5000
 https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11958 V, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="140" tvg-id="18ws4yk42js588h" tvg-name="TRT Müzik" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-M-zik-279ada7c87.svg",TRT Müzik
+#EXTINF:-1 tvg-chno="140" tvg-id="18ws4yk42js588h" tvg-name="TRT Müzik" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-M-zik-bdc06bfb58.svg",TRT Müzik
 #EXTVLCOPT:network-caching=5000
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 
@@ -706,27 +706,27 @@ http://dygvideo.dygdigital.com/live/hls/kralpop
 http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="143" tvg-id="xe24vekaidpsql3" tvg-name="TRT Türk" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-T-rk-a57b0a1e55.svg",TRT Türk
+#EXTINF:-1 tvg-chno="143" tvg-id="xe24vekaidpsql3" tvg-name="TRT Türk" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-T-rk-f2e006c2e9.svg",TRT Türk
 #EXTVLCOPT:network-caching=5000
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12226 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="144" tvg-id="j1x67766q1lr7r6" tvg-name="TRT World" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-World-9383987b9a.svg",TRT World
+#EXTINF:-1 tvg-chno="144" tvg-id="j1x67766q1lr7r6" tvg-name="TRT World" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-World-71346f46c2.svg",TRT World
 #EXTVLCOPT:network-caching=5000
 https://cdn.pishow.tv/ott/live/266/266_2.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12423 V, SR 27500, FEC 2/3
-#EXTINF:-1 tvg-chno="145" tvg-name="TürkHaber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/T-rkHaber-a3fe403cd3.svg",TürkHaber
+#EXTINF:-1 tvg-chno="145" tvg-name="TürkHaber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/T-rkHaber-8c8db77438.svg",TürkHaber
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="146" tvg-name="TV 1" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-1-8710063d10.svg",TV 1
+#EXTINF:-1 tvg-chno="146" tvg-name="TV 1" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-1-8b73d12386.svg",TV 1
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="147" tvg-id="imohs5fyptw23ih" tvg-name="TV 264" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-264-e60d7f8e86.svg",TV 264
+#EXTINF:-1 tvg-chno="147" tvg-id="imohs5fyptw23ih" tvg-name="TV 264" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-264-1435e991a1.svg",TV 264
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 
@@ -736,12 +736,12 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee2
 https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="149" tvg-name="TV 52" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-52-9473348d18.svg",TV 52
+#EXTINF:-1 tvg-chno="149" tvg-name="TV 52" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-52-3e0cf141b1.svg",TV 52
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="150" tvg-name="TV DEN" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-DEN-09695ed03b.svg",TV DEN
+#EXTINF:-1 tvg-chno="150" tvg-name="TV DEN" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-DEN-6da59cbf65.svg",TV DEN
 #EXTVLCOPT:network-caching=5000
 http://canli.tvden.com.tr/hls/live.m3u8
 
@@ -751,26 +751,26 @@ http://canli.tvden.com.tr/hls/live.m3u8
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11225 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="152" tvg-id="5i5mds6ap6h7m7w" tvg-name="TV100" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV100-b888398798.svg",TV100
+#EXTINF:-1 tvg-chno="152" tvg-id="5i5mds6ap6h7m7w" tvg-name="TV100" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV100-b3dc87e393.svg",TV100
 #EXTVLCOPT:network-caching=5000
 https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11862 V, SR 16666, FEC 2/3
-#EXTINF:-1 tvg-chno="153" tvg-name="TV4" group-title="ESTILO DE VIDA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV4-677d868adb.svg",TV4
+#EXTINF:-1 tvg-chno="153" tvg-name="TV4" group-title="ESTILO DE VIDA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV4-cd9949cc65.svg",TV4
 #EXTVLCOPT:network-caching=5000
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11225 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="154" tvg-name="TV5" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV5-89d8e621ac.svg",TV5
+#EXTINF:-1 tvg-chno="154" tvg-name="TV5" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV5-285a0dcdf1.svg",TV5
 #EXTVLCOPT:network-caching=5000
 https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11901 V, SR 12500, FEC 3/4
-#EXTINF:-1 tvg-chno="155" tvg-id="w7x32brlcz26ibb" tvg-name="TV8" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV8-b4430bb9ed.svg",TV8
+#EXTINF:-1 tvg-chno="155" tvg-id="w7x32brlcz26ibb" tvg-name="TV8" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV8-3611e53d06.svg",TV8
 #EXTVLCOPT:network-caching=5000
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #FREQUÊNCIA: Türksat 5B: 11225 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="156" tvg-id="njoweqtgl6xngkj" tvg-name="TVNET" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TVNET-1747ed0f84.svg",TVNET
+#EXTINF:-1 tvg-chno="156" tvg-id="njoweqtgl6xngkj" tvg-name="TVNET" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TVNET-d003909a1f.svg",TVNET
 #EXTVLCOPT:network-caching=5000
 https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/playlist.m3u8
 
@@ -780,17 +780,17 @@ https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12458 H, SR 27500, FEC 2/3 / Türksat 6A: 12111 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="158" tvg-id="kanaalkyymvqcjf" tvg-name="Ülke TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/lke-TV-688ba6a84f.svg",Ülke TV
+#EXTINF:-1 tvg-chno="158" tvg-id="kanaalkyymvqcjf" tvg-name="Ülke TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/lke-TV-364d86b3fa.svg",Ülke TV
 #EXTVLCOPT:network-caching=5000
 https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="159" tvg-name="Vav TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Vav-TV-c3ad270208.svg",Vav TV
+#EXTINF:-1 tvg-chno="159" tvg-name="Vav TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Vav-TV-51587bb2ef.svg",Vav TV
 #EXTVLCOPT:network-caching=5000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12111 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="160" tvg-name="Zarok TV Kurmanji" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Zarok-TV-Kurmanji-829b26763d.svg",Zarok TV Kurmanji
+#EXTINF:-1 tvg-chno="160" tvg-name="Zarok TV Kurmanji" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Zarok-TV-Kurmanji-3c1496b313.svg",Zarok TV Kurmanji
 #EXTVLCOPT:network-caching=5000
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 
@@ -819,7 +819,7 @@ https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11958 V, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="166" tvg-name="TBMM TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TBMM-TV-c678afcda0.svg",TBMM TV
+#EXTINF:-1 tvg-chno="166" tvg-name="TBMM TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TBMM-TV-0f358a14fa.svg",TBMM TV
 #EXTVLCOPT:network-caching=5000
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
@@ -829,7 +829,7 @@ https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="168" tvg-name="PowerTürk TV" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/PowerT-rk-TV-42de005e28.svg",PowerTürk TV
+#EXTINF:-1 tvg-chno="168" tvg-name="PowerTürk TV" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/PowerT-rk-TV-18942772c4.svg",PowerTürk TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
 
@@ -869,7 +869,7 @@ http://62.60.207.173:8080/hls/thaqalayn/1_2/index.m3u8?tkn=751218219
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="176" tvg-name="YOL TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/YOL-TV-313c333216.svg",YOL TV
+#EXTINF:-1 tvg-chno="176" tvg-name="YOL TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/YOL-TV-a90dfc9855.svg",YOL TV
 #EXTVLCOPT:network-caching=5000
 https://live.yoltv.com/hls/stream.m3u8
 
@@ -891,7 +891,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A
 #EXTVLCOPT:network-caching=5000
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #FREQUÊNCIA: Türksat 4A: 12423 V, SR 27500, FEC 2/3
-#EXTINF:-1 tvg-chno="181" tvg-name="Kanal Urfa" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-Urfa-6988a81bd9.svg",Kanal Urfa
+#EXTINF:-1 tvg-chno="181" tvg-name="Kanal Urfa" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-Urfa-b64e88728e.svg",Kanal Urfa
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
@@ -1026,7 +1026,7 @@ http://57.129.0.61:1990/stream/117/index.m3u8
 #EXTVLCOPT:network-caching=5000
 https://familyhls.4utv.live/hls/stream.m3u8
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="211" tvg-name="Power TV (720p)" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Power-TV-720p-55507889e6.svg",Power TV (720p)
+#EXTINF:-1 tvg-chno="211" tvg-name="Power TV (720p)" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Power-TV-720p-377e0ddc94.svg",Power TV (720p)
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 
