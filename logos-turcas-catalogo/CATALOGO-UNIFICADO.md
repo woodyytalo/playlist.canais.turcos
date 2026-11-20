@@ -767,3 +767,83 @@ Aksu TV, Alanya Posta TV, Altaş TV, ARAS TV, ATV Alanya, BRTV Karabük, Çay TV
 **Atenção à classificação:** Mekameleen TV e TBMM TV não são necessariamente canais locais comerciais; a presença em `group-title="REGIONAIS"` da playlist não comprova que sejam emissoras regionais. Confirmar a natureza de cada emissora antes de padronizar ou mover categorias.
 
 Nenhum PNG foi baixado para o repositório nesta atualização. Foram acrescentados apenas URLs e notas de validação. `Tv.m3u` permanece intacta.
+
+
+---
+
+# Inventário completo dos canais REGIONAIS da Tv.m3u — 68 entradas
+
+Esta tabela inclui **todos os 68 canais** identificados na categoria `group-title="REGIONAIS"` da versão da playlist consultada em 19/11/2026. O objetivo é manter um controle único: quais já têm referências de logo registradas neste catálogo e quais ainda precisam de pesquisa. “Fonte registrada” não significa que o arquivo foi baixado, que a URL foi testada agora ou que a imagem foi aprovada para uso.
+
+| Canal na playlist | Situação das fontes neste catálogo |
+|---|---|
+| Aksu TV | Fonte PNG registrada na seção anterior |
+| Alanya Posta TV | Fonte PNG registrada na seção anterior |
+| Altas TV | Fonte PNG registrada como Altaş TV |
+| Anadolu TV | Candidata Anadolu Net TV; identidade ainda precisa ser comparada |
+| ARAS TV | Fonte PNG registrada na seção anterior |
+| ATV Alanya | Fonte PNG registrada na seção anterior |
+| BRTV Karabük | Fonte candidata registrada; confirmação independente pendente |
+| Çay TV | Fonte PNG registrada na seção anterior |
+| Deniz Postası TV | Fonte PNG registrada na seção anterior |
+| Dim TV | Sem novo PNG direto registrado |
+| Edessa TV | Fonte PNG registrada na seção anterior |
+| ER TV Malatya | Fonte PNG registrada na seção anterior |
+| Erciyes TV | Sem novo PNG direto registrado |
+| Erzurum Web TV | Fonte PNG registrada na seção anterior |
+| ES TV | Fonte candidata registrada; confirmação independente pendente |
+| ETV | Sem novo PNG direto registrado; não confundir com ETV Manisa |
+| Ezgi TV | Sem novo PNG direto registrado |
+| FRT TV | Sem novo PNG direto registrado |
+| GRT Gaziantep TV | Sem novo PNG direto registrado |
+| Güneydoğu TV | Sem novo PNG direto registrado |
+| Hunat TV | PNG direto acrescentado na atualização complementar |
+| İçel TV | PNG direto acrescentado na atualização complementar |
+| Kardelen TV | Fonte de diretório registrada na atualização complementar; validar arquivo |
+| İzmir Time 35 TV | Sem novo PNG direto registrado |
+| K+ Kayseri | Sem novo PNG direto registrado |
+| Kanal 12 | PNG direto acrescentado na atualização complementar |
+| Kanal 15 | PNG direto acrescentado na atualização complementar |
+| Kanal 19 | Sem novo PNG direto registrado |
+| Kanal 23 | PNG direto acrescentado na atualização complementar |
+| Kanal 26 Eskişehir | PNG direto acrescentado na atualização complementar; confirmar correspondência |
+| Kanal 3 | Sem novo PNG direto registrado |
+| Kanal 32 | Sem novo PNG direto registrado nesta rodada |
+| Kanal 33 | PNG direto acrescentado na atualização complementar |
+| Kanal 34 | PNG direto acrescentado na atualização complementar; confirmar emissora |
+| Kanal 53 | Sem novo PNG direto registrado |
+| Kanal 58 | PNG direto acrescentado na atualização complementar |
+| Kanal B | Sem novo PNG direto registrado |
+| Kanal Fırat | Sem novo PNG direto registrado |
+| Kanal V | PNG direto acrescentado na atualização complementar |
+| Kay TV | Sem novo PNG direto registrado |
+| Kayhan TV | Sem novo PNG direto registrado |
+| Kent Türk TV | PNG direto acrescentado na atualização complementar |
+| Kocaeli TV | PNG direto acrescentado na atualização complementar |
+| Konya KTV | Sem novo PNG direto registrado |
+| Konya Olay TV | Referência de imagem JPG registrada; não é PNG |
+| Mekameleen TV | Sem novo PNG direto registrado; classificar identidade/categoria |
+| Mercan TV | PNG direto acrescentado na atualização complementar |
+| MTürk TV | PNG direto acrescentado na atualização complementar |
+| Tempo TV | PNG direto acrescentado na atualização complementar |
+| Tivi 6 | Sem novo PNG direto registrado |
+| Ton TV | Sem novo PNG direto registrado |
+| TV 1 | PNG direto acrescentado na atualização complementar |
+| TV 264 | PNG direto acrescentado na atualização complementar |
+| TV 41 | PNG direto acrescentado na atualização complementar |
+| TV 52 | PNG direto acrescentado na atualização complementar |
+| TV DEN | PNG direto acrescentado na atualização complementar |
+| Vuslat TV | Sem novo PNG direto registrado |
+| Natural TV | Sem novo PNG direto registrado |
+| Sun RTV | Fonte PNG registrada na seção anterior |
+| TBMM TV | Sem novo PNG direto registrado; emissora institucional, não regional comercial |
+| Van 65 TV | PNG direto no domínio da emissora acrescentado na atualização complementar |
+| YOL TV | Sem novo PNG direto registrado |
+| Kanal Ada | Sem URL de logo registrada; entrada sem tvg-logo na playlist |
+| Kanal Urfa | Sem novo PNG direto registrado |
+| Trabzon Buyuksehir Belediyesi TV | Sem novo PNG direto registrado |
+| Urfanatik TV | PNG direto acrescentado; confirmar grafia/identidade |
+| ETV Manisa | Fonte PNG registrada na seção anterior |
+| MK TV | Sem novo PNG direto registrado |
+
+**Resultado do inventário:** 68 de 68 canais estão agora listados nominalmente neste arquivo. Os canais sem fonte direta continuam explicitamente marcados como pendentes, em vez de receberem URLs inventadas ou logos de emissoras homônimas. Os links PNG candidatos das seções anteriores e complementares permanecem sujeitos a validação visual, disponibilidade e correspondência de identidade. A playlist não foi modificada.
