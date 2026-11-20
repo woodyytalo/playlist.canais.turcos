@@ -101,13 +101,6 @@ def main() -> None:
     manifest_rows = []
 
     for index, (channel, url) in enumerate(entries, 1):
-        if channel.casefold() == "dost":
-            manifest_rows.append({
-                "channel": channel, "source_url": url, "svg_file": "",
-                "status": "pending", "details": "Logo musical correta não localizada; não usar a marca religiosa Dost TV.",
-            })
-            print(f"[{index}/{len(entries)}] PENDENTE: {channel} — fonte inequívoca não localizada")
-            continue
         digest = hashlib.sha256((channel + "\0" + url).encode("utf-8")).hexdigest()[:10]
         filename = f"{slug(channel)}-{digest}.svg"
         output = OUT / filename
