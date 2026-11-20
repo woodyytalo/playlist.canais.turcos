@@ -32,10 +32,8 @@
 | 20 | Beyaz TV | ENTRETENIMENTO | Türksat 4A | 11996 | V | 27500 | 3/4 |
 | 21 | Bi Kanal | ENTRETENIMENTO | Türksat 5B | 11425 | V | 30000 | 3/4 |
 | 22 | Bir TV | ENTRETENIMENTO | Türksat 4A | 11996 | V | 27500 | 3/4 |
-| 23 | Bloomberg HT | NOTÍCIAS | Türksat 4A | 12303 | V | 27500 | 3/4 |
-| 23 | Bloomberg HT | NOTÍCIAS | Türksat 4A | 11845 | V | 10833 | 2/3 |
-| 24 | Bloomberg HT 2 | NOTÍCIAS | Türksat 4A | 12303 | V | 27500 | 3/4 |
-| 24 | Bloomberg HT 2 | NOTÍCIAS | Türksat 4A | 11845 | V | 10833 | 2/3 |
+| 23 | Bloomberg HT | NOTÍCIAS | Türksat 4A | 12303 / 11845 | V | 27500 / 10833 | 3/4 / 2/3 |
+| 24 | Bloomberg HT 2 | NOTÍCIAS | Türksat 4A | 12303 / 11845 | V | 27500 / 10833 | 3/4 / 2/3 |
 | 25 | BRTV Karabük | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 26 | Cartoon Network Türkiye | INFANTIS | Türksat 4A | 12245 | H | 27500 | 5/6 |
 | 27 | CİNE1 | FILMES E SÉRIES | A verificar | — | — | — | — |
@@ -46,8 +44,7 @@
 | 32 | Deniz Postası TV | REGIONAIS | A verificar | — | — | — | — |
 | 33 | DHA | NOTÍCIAS | A verificar | — | — | — | — |
 | 34 | Dim TV | REGIONAIS | A verificar | — | — | — | — |
-| 35 | Diyanet TV | RELIGIOSOS | Türksat 4A | 12380 | V | 27500 | 3/4 |
-| 35 | Diyanet TV | RELIGIOSOS | Türksat 4A | 12423 | H | 30000 | 3/4 |
+| 35 | Diyanet TV | RELIGIOSOS | Türksat 4A | 12380 / 12423 | V / H | 27500 / 30000 | 3/4 |
 | 36 | Diyar TV | RELIGIOSOS | A verificar | — | — | — | — |
 | 37 | Dost TV | RELIGIOSOS | Türksat 4A | 11996 | V | 27500 | 3/4 |
 | 38 | 1Mus | MÚSICA | A verificar | — | — | — | — |
@@ -69,18 +66,13 @@
 | 54 | Fashion One | ESTILO DE VIDA | A verificar | — | — | — | — |
 | 55 | FRT TV | REGIONAIS | A verificar | — | — | — | — |
 | 56 | Grand Cinema | FILMES E SÉRIES | A verificar | — | — | — | — |
-| 57 | GRT Gaziantep TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
-| 57 | GRT Gaziantep TV | REGIONAIS | Türksat 4A | 12423 | V | 27500 | 2/3 |
+| 57 | GRT Gaziantep TV | REGIONAIS | Türksat 4A | 12265 / 12423 | V | 27500 | 3/4 / 2/3 |
 | 58 | Haber Global | NOTÍCIAS | Türksat 4A | 12034 | V | 27500 | 3/4 |
 | 59 | Haber61 TV | NOTÍCIAS | A verificar | — | — | — | — |
-| 60 | Habertürk | NOTÍCIAS | Türksat 4A | 12303 | V | 27500 | 3/4 |
-| 60 | Habertürk | NOTÍCIAS | Türksat 4A | 11845 | V | 10833 | 2/3 |
-| 61 | Halk TV | NOTÍCIAS | Türksat 4A | 12380 | V | 27500 | 3/4 |
-| 61 | Halk TV | NOTÍCIAS | Türksat 5B | 11225 | V | 30000 | 3/4 |
-| 62 | HT Spor TV | ESPORTES | Türksat 4A | 12303 | V | 27500 | 3/4 |
-| 62 | HT Spor TV | ESPORTES | Türksat 4A | 11845 | V | 10833 | 2/3 |
-| 63 | Güneydoğu TV | REGIONAIS | Türksat 4A | 12423 | V | 27500 | 2/3 |
-| 63 | Güneydoğu TV | REGIONAIS | Türksat 6A | 12111 | V | 27500 | 3/4 |
+| 60 | Habertürk | NOTÍCIAS | Türksat 4A | 12303 / 11845 | V | 27500 / 10833 | 3/4 / 2/3 |
+| 61 | Halk TV | NOTÍCIAS | Türksat 4A / Türksat 5B | 12380 / 11225 | V | 27500 / 30000 | 3/4 |
+| 62 | HT Spor TV | ESPORTES | Türksat 4A | 12303 / 11845 | V | 27500 / 10833 | 3/4 / 2/3 |
+| 63 | Güneydoğu TV | REGIONAIS | Türksat 4A / Türksat 6A | 12423 / 12111 | V | 27500 | 2/3 / 3/4 |
 | 64 | Hunat TV | REGIONAIS | A verificar | — | — | — | — |
 | 65 | İçel TV | REGIONAIS | A verificar | — | — | — | — |
 | 66 | Kardelen TV | REGIONAIS | Türksat 4A | 12423 | V | 27500 | 2/3 |
@@ -98,8 +90,7 @@
 | 78 | Kanal 34 | REGIONAIS | A verificar | — | — | — | — |
 | 79 | Kanal 53 | REGIONAIS | A verificar | — | — | — | — |
 | 80 | Kanal 58 | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
-| 81 | Kanal 7 Avrupa | ENTRETENIMENTO | Türksat 4A | 12458 | H | 27500 | 2/3 |
-| 81 | Kanal 7 Avrupa | ENTRETENIMENTO | Türksat 6A | 12111 | V | 27500 | 3/4 |
+| 81 | Kanal 7 Avrupa | ENTRETENIMENTO | Türksat 4A / Türksat 6A | 12458 / 12111 | H / V | 27500 | 2/3 / 3/4 |
 | 82 | Kanal Avrupa | INTERNACIONAIS | Türksat 4A | 12458 | V | 30000 | 2/3 |
 | 83 | Kanal B | REGIONAIS | Türksat 6A | 12149 | V | 27500 | 3/4 |
 | 84 | Kanal D | ENTRETENIMENTO | Türksat 4A | 12245 | H | 27500 | 5/6 |
@@ -117,8 +108,7 @@
 | 96 | Luys TV | CULTURA/EDUCAÇÃO | Türksat 4A | 12458 | V | 30000 | 2/3 |
 | 97 | Med Müzik | MÚSICA | A verificar | — | — | — | — |
 | 98 | Mekameleen TV | REGIONAIS | A verificar | — | — | — | — |
-| 99 | Meltem TV | RELIGIOSOS | Türksat 4A | 12423 | V | 27500 | 2/3 |
-| 99 | Meltem TV | RELIGIOSOS | Türksat 5B | 11225 | V | 30000 | 3/4 |
+| 99 | Meltem TV | RELIGIOSOS | Türksat 4A / Türksat 5B | 12423 / 11225 | V | 27500 / 30000 | 2/3 / 3/4 |
 | 100 | Mercan TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 101 | Minika Çocuk | INFANTIS | Türksat 4A | 12207 | H | 27500 | 3/4 |
 | 102 | Minika GO | INFANTIS | Türksat 4A | 12207 | H | 27500 | 3/4 |
@@ -138,8 +128,7 @@
 | 116 | Sat7 Türk | RELIGIOSOS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 117 | Semerkand TV | RELIGIOSOS | Türksat 5B | 11425 | V | 30000 | 3/4 |
 | 118 | Sercem TV | RELIGIOSOS | Türksat 6A | 12111 | V | 27500 | 3/4 |
-| 119 | Show Max | ENTRETENIMENTO | Türksat 4A | 11845 | V | 10833 | 2/3 |
-| 119 | Show Max | ENTRETENIMENTO | Türksat 4A | 12303 | V | 27500 | 3/4 |
+| 119 | Show Max | ENTRETENIMENTO | Türksat 4A | 11845 / 12303 | V | 10833 / 27500 | 2/3 / 3/4 |
 | 120 | Show TV | ENTRETENIMENTO | Türksat 4A | 12303 | V | 27500 | 3/4 |
 | 121 | Spacetoon Türkiye | INFANTIS | A verificar | — | — | — | — |
 | 122 | Star TV | ENTRETENIMENTO | Türksat 4A | 12015 | H | 27500 | 3/4 |
@@ -147,35 +136,23 @@
 | 124 | TELE1 | NOTÍCIAS | A verificar | — | — | — | — |
 | 125 | Tempo TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 126 | teve2 | ENTRETENIMENTO | Türksat 4A | 12245 | H | 27500 | 5/6 |
-| 127 | TGRT Haber | NOTÍCIAS | Türksat 6A | 12149 | V | 27500 | 3/4 |
-| 127 | TGRT Haber | NOTÍCIAS | Türksat 4A | 12380 | V | 27500 | 3/4 |
+| 127 | TGRT Haber | NOTÍCIAS | Türksat 6A / Türksat 4A | 12149 / 12380 | V | 27500 | 3/4 |
 | 128 | Tivi 6 | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 129 | TJK TV | ESPORTES | A verificar | — | — | — | — |
 | 130 | Ton TV | REGIONAIS | A verificar | — | — | — | — |
 | 131 | TRT 1 | ENTRETENIMENTO | Türksat 4A | 11794 | V | 30000 | 3/4 |
 | 132 | TRT Arabi | TRT | Türksat 4A | 12092 | H | 27500 | 5/6 |
-| 133 | TRT Avaz | TRT | Türksat 4A | 11958 | V | 27500 | 5/6 |
-| 133 | TRT Avaz | TRT | Türksat 4A | 12092 | H | 27500 | 5/6 |
-| 134 | TRT Çocuk | INFANTIS | Türksat 4A | 12092 | H | 27500 | 5/6 |
-| 134 | TRT Çocuk | INFANTIS | Türksat 4A | 11794 | V | 30000 | 3/4 |
-| 135 | TRT Diyanet Çocuk | INFANTIS | Türksat 4A | 11794 | V | 30000 | 3/4 |
-| 135 | TRT Diyanet Çocuk | INFANTIS | Türksat 4A | 12092 | H | 27500 | 5/6 |
-| 136 | TRT EBA Ortaokul | CULTURA/EDUCAÇÃO | Türksat 6A | 12149 | V | 27500 | 3/4 |
-| 136 | TRT EBA Ortaokul | CULTURA/EDUCAÇÃO | Türksat 4A | 12458 | H | 27500 | 2/3 |
-| 137 | TRT Genç | TRT | Türksat 4A | 11794 | V | 30000 | 3/4 |
-| 137 | TRT Genç | TRT | Türksat 4A | 12092 | H | 27500 | 5/6 |
-| 138 | TRT Haber | NOTÍCIAS | Türksat 4A | 11958 | V | 27500 | 5/6 |
-| 138 | TRT Haber | NOTÍCIAS | Türksat 4A | 12092 | H | 27500 | 5/6 |
-| 138 | TRT Haber | NOTÍCIAS | Türksat 4A | 12226 | V | 27500 | 3/4 |
-| 139 | TRT Kurdî | TRT | Türksat 4A | 12092 | H | 27500 | 5/6 |
-| 139 | TRT Kurdî | TRT | Türksat 4A | 12226 | V | 27500 | 3/4 |
-| 140 | TRT Müzik | MÚSICA | Türksat 4A | 11958 | V | 27500 | 5/6 |
-| 140 | TRT Müzik | MÚSICA | Türksat 4A | 12092 | H | 27500 | 5/6 |
-| 140 | TRT Müzik | MÚSICA | Türksat 4A | 12226 | V | 27500 | 3/4 |
+| 133 | TRT Avaz | TRT | Türksat 4A | 11958 / 12092 | V / H | 27500 | 5/6 |
+| 134 | TRT Çocuk | INFANTIS | Türksat 4A | 12092 / 11794 | H / V | 27500 / 30000 | 5/6 / 3/4 |
+| 135 | TRT Diyanet Çocuk | INFANTIS | Türksat 4A | 11794 / 12092 | V / H | 30000 / 27500 | 3/4 / 5/6 |
+| 136 | TRT EBA Ortaokul | CULTURA/EDUCAÇÃO | Türksat 6A / Türksat 4A | 12149 / 12458 | V / H | 27500 | 3/4 / 2/3 |
+| 137 | TRT Genç | TRT | Türksat 4A | 11794 / 12092 | V / H | 30000 / 27500 | 3/4 / 5/6 |
+| 138 | TRT Haber | NOTÍCIAS | Türksat 4A | 11958 / 12092 / 12226 | V / H | 27500 | 5/6 / 3/4 |
+| 139 | TRT Kurdî | TRT | Türksat 4A | 12092 / 12226 | H / V | 27500 | 5/6 / 3/4 |
+| 140 | TRT Müzik | MÚSICA | Türksat 4A | 11958 / 12092 / 12226 | V / H | 27500 | 5/6 / 3/4 |
 | 141 | Kral Pop | MÚSICA | A verificar | — | — | — | — |
 | 142 | NR1 Fashion One | MÚSICA | A verificar | — | — | — | — |
-| 143 | TRT Türk | TRT | Türksat 4A | 12092 | H | 27500 | 5/6 |
-| 143 | TRT Türk | TRT | Türksat 4A | 12226 | V | 27500 | 3/4 |
+| 143 | TRT Türk | TRT | Türksat 4A | 12092 / 12226 | H / V | 27500 | 5/6 / 3/4 |
 | 144 | TRT World | TRT | Türksat 4A | 12226 | V | 27500 | 3/4 |
 | 145 | TürkHaber | NOTÍCIAS | Türksat 4A | 12423 | V | 27500 | 2/3 |
 | 146 | TV 1 | REGIONAIS | Türksat 4A | 11996 | V | 27500 | 3/4 |
@@ -190,8 +167,7 @@
 | 155 | TV8 | ENTRETENIMENTO | Türksat 4A | 11901 | V | 12500 | 3/4 |
 | 156 | TVNET | NOTÍCIAS | Türksat 5B | 11225 | V | 30000 | 3/4 |
 | 157 | Vuslat TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
-| 158 | Ülke TV | NOTÍCIAS | Türksat 4A | 12458 | H | 27500 | 2/3 |
-| 158 | Ülke TV | NOTÍCIAS | Türksat 6A | 12111 | V | 27500 | 3/4 |
+| 158 | Ülke TV | NOTÍCIAS | Türksat 4A / Türksat 6A | 12458 / 12111 | H / V | 27500 | 2/3 / 3/4 |
 | 159 | Vav TV | RELIGIOSOS | Türksat 4A | 12207 | H | 27500 | 3/4 |
 | 160 | Zarok TV Kurmanji | INFANTIS | Türksat 6A | 12111 | V | 27500 | 3/4 |
 | 161 | Zarok TV Sorani | INFANTIS | Türksat 6A | 12111 | V | 27500 | 3/4 |
@@ -251,7 +227,7 @@
 - **V** = polarização vertical; **H** = horizontal.
 - **SR** = Symbol Rate (taxa de símbolos).
 - **FEC** = Forward Error Correction (correção de erros).
-- Quando um canal tem mais de uma transmissão/transponder na fonte, há mais de uma linha.
+- Quando um canal tem mais de um transponder confirmado na fonte, todos os parâmetros são reunidos em uma única linha; os valores em cada coluna seguem a mesma ordem e são separados por “ / ”.
 - A listagem do CanliTV também apresenta cobertura e PIDs; esses campos podem ser acrescentados numa revisão posterior.
 - Antes de configurar o receptor, confirme novamente os parâmetros na página-fonte, pois frequências e transponders podem mudar.
 
