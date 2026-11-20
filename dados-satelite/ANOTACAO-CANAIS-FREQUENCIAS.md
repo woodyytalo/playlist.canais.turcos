@@ -203,7 +203,7 @@
 | 167 | Van 65 TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 168 | PowerTürk TV | MÚSICA | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 169 | Tabii | FILMES E SÉRIES | A verificar | — | — | — | — |
-| 170 | BBC First Türkiye | FILMES E SÉRIES | A verificar | — | — | — | — |
+| 170 | BBC First Türkiye | FILMES E SÉRIES | Türksat 4A | 11789 | H | 20000 | 3/4 |
 | 171 | Ekol TV | NOTÍCIAS | Türksat 4A | 12345 | V | 30000 | 2/3 |
 | 172 | Syria TV | INTERNACIONAIS | A verificar | — | — | — | — |
 | 173 | Balkan Türk | INTERNACIONAIS | A verificar | — | — | — | — |
@@ -242,7 +242,7 @@
 | 206 | TopPop | MÚSICA | A verificar | — | — | — | — |
 | 207 | Retro Music Television | MÚSICA | A verificar | — | — | — | — |
 | 208 | GZT | NOTÍCIAS | Türksat 5B | 11225 | V | 30000 | 3/4 |
-| 209 | beIN Sports 1 Turk | ESPORTES | A verificar | — | — | — | — |
+| 209 | beIN Sports 1 Turk | ESPORTES | Türksat 4A | 12073 | V | 27500 | 3/4 |
 | 210 | 4U Family (persa) | INTERNACIONAIS | A verificar | — | — | — | — |
 | 211 | Power TV (720p) | MÚSICA | A verificar | — | — | — | — |
 
