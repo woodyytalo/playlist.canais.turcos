@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T15:58:56+00:00",
+  "generated_at_utc": "2026-11-20T16:02:09+00:00",
   "source_url": "https://tr.canlitv.watch/frekans-bilgileri",
   "source_check": {
     "ok": true,
@@ -9,10 +9,10 @@
     "table_rows": 211,
     "unique_channels": 211,
     "expected_channels": 211,
-    "pending_verification": 88,
+    "pending_verification": 87,
     "channels_with_multiple_transponders": 0,
     "satellites": {
-      "Türksat 4A": 98,
+      "Türksat 4A": 99,
       "Türksat 4A / Türksat 5B": 2,
       "Türksat 4A / Türksat 6A": 3,
       "Türksat 5B": 9,
@@ -506,16 +506,6 @@
       "number": 121,
       "channel": "Spacetoon Türkiye",
       "category": "INFANTIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 124,
-      "channel": "TELE1",
-      "category": "NOTÍCIAS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",

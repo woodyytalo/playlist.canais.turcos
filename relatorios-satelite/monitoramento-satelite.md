@@ -1,6 +1,6 @@
 # Auditoria de frequencias via satelite
 
-- Gerado em UTC: 2026-11-20T15:58:56+00:00
+- Gerado em UTC: 2026-11-20T16:02:09+00:00
 - Arquivo: dados-satelite/ANOTACAO-CANAIS-FREQUENCIAS.md
 - Fonte: https://tr.canlitv.watch/frekans-bilgileri
 - Resposta HTTP da fonte: OK
@@ -9,7 +9,7 @@
 
 - Linhas de transponder: **211**
 - Canais unicos: **211** (esperado: 211)
-- Canais A verificar: **88**
+- Canais A verificar: **87**
 - Canais com multiplos transponders: **0**
 - Entradas confirmadas com campos invalidos: **45**
 
@@ -17,7 +17,7 @@
 
 | Satelite | Linhas |
 |---|---:|
-| Türksat 4A | 98 |
+| Türksat 4A | 99 |
 | Türksat 4A / Türksat 5B | 2 |
 | Türksat 4A / Türksat 6A | 3 |
 | Türksat 5B | 9 |
@@ -77,7 +77,6 @@
 | 112 | Power Love TV | MÚSICA |
 | 114 | MUKABELE TV | RELIGIOSOS |
 | 121 | Spacetoon Türkiye | INFANTIS |
-| 124 | TELE1 | NOTÍCIAS |
 | 129 | TJK TV | ESPORTES |
 | 130 | Ton TV | REGIONAIS |
 | 142 | NR1 Fashion One | MÚSICA |
