@@ -123,7 +123,10 @@ def main() -> None:
         name_match = re.search(r'\btvg-name="([^"]+)"', line)
         if not name_match:
             raise RuntimeError("Linha EXTINF sem tvg-name.")
-        filename = output_by_name[name_match.group(1).casefold()]
+        channel_key = name_match.group(1).casefold()
+        if channel_key not in output_by_name:
+            return line
+        filename = output_by_name[channel_key]
         new_url = RAW_BASE + "logos-turcas-catalogo/tv-principal-svg/" + filename
         return re.sub(r'\btvg-logo="[^"]*"', f'tvg-logo="{new_url}"', line, count=1)
 
