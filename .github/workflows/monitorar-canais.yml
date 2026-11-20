@@ -1,0 +1,31 @@
+name: Monitoramento seguro dos canais
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: monitoramento-canais
+  cancel-in-progress: false
+
+jobs:
+  monitorar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+      - name: Executar diagnóstico somente leitura
+        run: python3 bot-monitoramento.py
+      - name: Publicar relatórios como artefato
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-canais-\${{ github.run_number }}
+          path: relatorios-monitoramento/
+          if-no-files-found: warn
+          retention-days: 30
