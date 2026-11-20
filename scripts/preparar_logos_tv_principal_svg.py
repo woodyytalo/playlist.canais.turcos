@@ -93,6 +93,13 @@ def main() -> None:
     manifest_rows = []
 
     for index, (channel, url) in enumerate(entries, 1):
+        if channel.casefold() == "dost":
+            manifest_rows.append({
+                "channel": channel, "source_url": url, "svg_file": "",
+                "status": "pending", "details": "Logo musical correta não localizada; não usar a marca religiosa Dost TV.",
+            })
+            print(f"[{index}/{len(entries)}] PENDENTE: {channel} — fonte inequívoca não localizada")
+            continue
         digest = hashlib.sha256((channel + "\0" + url).encode("utf-8")).hexdigest()[:10]
         filename = f"{slug(channel)}-{digest}.svg"
         output = OUT / filename
@@ -135,7 +142,8 @@ def main() -> None:
     (OUT / "README.md").write_text(
         "# Logos SVG — TV principal\n\n"
         "- Logos do catálogo unificado: 211\n"
-        "- SVGs preparados: 211\n"
+        "- SVGs preparados: 210\n"
+        "- Pendência: Dost (logo musical correta não localizada)\n"
         "- Canvas externo: 512 x 512, transparente\n"
         "- Enquadramento: centralizado, xMidYMid meet, sem corte ou deformação\n"
         "- Tv.m3u: somente os valores de tvg-logo foram atualizados\n\n"
@@ -144,7 +152,7 @@ def main() -> None:
         "em degradês, transparências ou detalhes finos. Consulte manifest.csv para rastreabilidade.\n",
         encoding="utf-8",
     )
-    print("SUCESSO: 211/211 logos preparadas e aplicadas à Tv.m3u.")
+    print("SUCESSO: 210/211 logos preparadas e aplicadas à Tv.m3u; Dost permaneceu inalterado e pendente.")
 
 if __name__ == "__main__":
     main()
