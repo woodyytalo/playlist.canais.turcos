@@ -1,11 +1,11 @@
-#EXTM3U
-#EXTINF:-1 tvg-name="A2" group-title="ENTRETENIMENTO",A2
+#EXTM3U url-tvg="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml"
+#EXTINF:-1 tvg-id="fc29p3wbp8wkgo4" tvg-name="A2" group-title="ENTRETENIMENTO",A2
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A2.m3u
-#EXTINF:-1 tvg-name="NOW" group-title="ENTRETENIMENTO",NOW
+#EXTINF:-1 tvg-id="m0abaihy7vla6ma" tvg-name="NOW" group-title="ENTRETENIMENTO",NOW
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/NOW.m3u
-#EXTINF:-1 tvg-name="Show Max" group-title="ENTRETENIMENTO",Show Max
+#EXTINF:-1 tvg-id="8xihgna8cyvdnyd" tvg-name="Show Max" group-title="ENTRETENIMENTO",Show Max
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Show_Max.m3u
-#EXTINF:-1 tvg-name="Teve2" group-title="ENTRETENIMENTO",Teve2
+#EXTINF:-1 tvg-id="6vs4sg9183gdxth" tvg-name="Teve2" group-title="ENTRETENIMENTO",Teve2
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Teve2.m3u
 #EXTINF:-1 tvg-name="Arzu Film" group-title="Filmes e Séries",Arzu Film
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u
@@ -23,31 +23,31 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/E
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_7_Avrupa.m3u
 #EXTINF:-1 tvg-name="Kanal Euro D" group-title="Internacionais",Kanal Euro D
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_Euro_D.m3u
-#EXTINF:-1 tvg-name="A Haber" group-title="NOTÍCIAS",A Haber
+#EXTINF:-1 tvg-id="ql8qf4vb46o1h7t" tvg-name="A Haber" group-title="NOTÍCIAS",A Haber
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Haber.m3u
-#EXTINF:-1 tvg-name="A Para" group-title="NOTÍCIAS",A Para
+#EXTINF:-1 tvg-id="8yfvm8ak2t1qoe6" tvg-name="A Para" group-title="NOTÍCIAS",A Para
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Para.m3u
-#EXTINF:-1 tvg-name="24 TV" group-title="NOTÍCIAS",24 TV
+#EXTINF:-1 tvg-id="9b7ltozvb9c333g" tvg-name="24 TV" group-title="NOTÍCIAS",24 TV
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/24_TV.m3u
-#EXTINF:-1 tvg-name="Bloomberg HT" group-title="NOTÍCIAS",Bloomberg HT
+#EXTINF:-1 tvg-id="4nu4fjjhm0y6wqm" tvg-name="Bloomberg HT" group-title="NOTÍCIAS",Bloomberg HT
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bloomberg_HT.m3u
-#EXTINF:-1 tvg-name="CNN Türk" group-title="NOTÍCIAS",CNN Türk
+#EXTINF:-1 tvg-id="ah7mr9ol040kp3b" tvg-name="CNN Türk" group-title="NOTÍCIAS",CNN Türk
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/CNN_Turk.m3u
-#EXTINF:-1 tvg-name="Haber Global" group-title="NOTÍCIAS",Haber Global
+#EXTINF:-1 tvg-id="bwmpobxuqn2pz87" tvg-name="Haber Global" group-title="NOTÍCIAS",Haber Global
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Haber_Global.m3u
-#EXTINF:-1 tvg-name="NTV" group-title="NOTÍCIAS",NTV
+#EXTINF:-1 tvg-id="nyz5s8p798n9cqg" tvg-name="NTV" group-title="NOTÍCIAS",NTV
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/NTV.m3u
-#EXTINF:-1 tvg-name="Sözcü TV" group-title="NOTÍCIAS",Sözcü TV
+#EXTINF:-1 tvg-id="5zoe73avn97ggnt" tvg-name="Sözcü TV" group-title="NOTÍCIAS",Sözcü TV
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Sozcu_TV.m3u
-#EXTINF:-1 tvg-name="TGRT Haber" group-title="NOTÍCIAS",TGRT Haber
+#EXTINF:-1 tvg-id="qz2fp61itc8xm4g" tvg-name="TGRT Haber" group-title="NOTÍCIAS",TGRT Haber
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TGRT_Haber.m3u
-#EXTINF:-1 tvg-name="TRT Haber" group-title="NOTÍCIAS",TRT Haber
+#EXTINF:-1 tvg-id="in3p7jng04mr97m" tvg-name="TRT Haber" group-title="NOTÍCIAS",TRT Haber
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TRT_Haber.m3u
-#EXTINF:-1 tvg-name="TV100" group-title="NOTÍCIAS",TV100
+#EXTINF:-1 tvg-id="5i5mds6ap6h7m7w" tvg-name="TV100" group-title="NOTÍCIAS",TV100
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TV100.m3u
-#EXTINF:-1 tvg-name="TVNET" group-title="NOTÍCIAS",TVNET
+#EXTINF:-1 tvg-id="njoweqtgl6xngkj" tvg-name="TVNET" group-title="NOTÍCIAS",TVNET
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TVNET.m3u
-#EXTINF:-1 tvg-name="A Spor" group-title="ESPORTES",A Spor
+#EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-name="A Spor" group-title="ESPORTES",A Spor
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Spor.m3u
-#EXTINF:-1 tvg-name="beIN Sports Haberler" group-title="ESPORTES",beIN Sports Haberler
+#EXTINF:-1 tvg-id="kazwkgx73ijjqob" tvg-name="beIN Sports Haberler" group-title="ESPORTES",beIN Sports Haberler
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bein_Sports_Haberler.m3u
