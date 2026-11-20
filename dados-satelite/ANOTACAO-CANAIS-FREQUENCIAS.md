@@ -2,10 +2,10 @@
 
 - **Base:** `Tv.m3u` da branch `github/workflows/atualizar-logos.yml`.
 - **Escopo:** os 211 canais presentes na playlist, preservando a ordem e a categoria.
-- **Fontes dos parâmetros:** [CanliTV — Uydu Frekans Bilgileri](https://tr.canlitv.watch/frekans-bilgileri), [TÜRKSAT — lista oficial](https://www.turksat.com.tr/uydu/yayincilik-hizmetleri/turksat-frekans-listesi), LyngSat, SAT FRQ e páginas oficiais dos canais, conforme a correspondência de cada entrada.
+- **Fonte dos parâmetros:** exclusivamente [CanliTV — Uydu Frekans Bilgileri](https://tr.canlitv.watch/frekans-bilgileri) e fichas de canais hospedadas no próprio CanliTV, quando exibem dados de frequência.
 - **Atualização da fonte consultada:** 20 de novembro de 2026.
 - **Campos:** satélite, frequência (MHz), polarização, SR (kS/s) e FEC.
-- **Importante:** os parâmetros foram cruzados com fontes de frequência e, quando possível, fontes oficiais dos canais. Canal sem correspondência confirmada fica como **A verificar**; isso não significa que não transmita por satélite. Vários canais da playlist podem ser exclusivamente IPTV ou ter parâmetros publicados em outras fontes.
+- **Importante:** somente foram preenchidos canais da playlist com dados de satélite publicados pelo CanliTV e correspondência identificável. Canal sem frequência de satélite confirmada no CanliTV permanece como **A verificar**; não foram inferidos parâmetros de canais parecidos ou de outras fontes.
 - A lista do CanliTV é de canais presentes nos satélites Türksat; não se deve inferir que todos os canais da playlist estejam disponíveis por satélite.
 
 | Nº | Canal na playlist | Categoria | Satélite | Frequência (MHz) | Polarização | SR | FEC |
@@ -24,7 +24,7 @@
 | 12 | Almahriah TV | INTERNACIONAIS | Eutelsat 7 West A | 11603 | H | 27500 | 5/6 |
 | 13 | Altas TV | REGIONAIS | Türksat 4A | 11996 | V | 27500 | 3/4 |
 | 14 | Anadolu TV | REGIONAIS | A verificar | — | — | — | — |
-| 15 | ARAS TV | REGIONAIS | A verificar | — | — | — | — |
+| 15 | ARAS TV | REGIONAIS | Türksat 3A | 11027 | H | 7500 | 3/4 |
 | 16 | AS TV | NOTÍCIAS | Türksat 5B | 11425 | V | 30000 | 3/4 |
 | 17 | ATV | ENTRETENIMENTO | Türksat 4A | 12207 | H | 27500 | 3/4 |
 | 18 | ATV Alanya | REGIONAIS | A verificar | — | — | — | — |
@@ -36,7 +36,7 @@
 | 24 | Bloomberg HT 2 | NOTÍCIAS | Türksat 4A | 12303 / 11845 | V | 27500 / 10833 | 3/4 / 2/3 |
 | 25 | BRTV Karabük | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 26 | Cartoon Network Türkiye | INFANTIS | Türksat 4A | 12245 | H | 27500 | 5/6 |
-| 27 | CİNE1 | FILMES E SÉRIES | A verificar | — | — | — | — |
+| 27 | CİNE1 | FILMES E SÉRIES | Türksat 4A | 12265 | V | 27500 | 5/6 |
 | 28 | CNBC e | NOTÍCIAS | Türksat 4A | 12245 | H | 27500 | 5/6 |
 | 29 | CNN Türk | NOTÍCIAS | Türksat 4A | 12034 | V | 27500 | 3/4 |
 | 30 | Çay TV | REGIONAIS | Türksat 5B | 11425 | V | 30000 | 3/4 |
@@ -115,11 +115,11 @@
 | 103 | MTürk TV | REGIONAIS | A verificar | — | — | — | — |
 | 104 | Play TV | MÚSICA | A verificar | — | — | — | — |
 | 105 | NOW | ENTRETENIMENTO | Türksat 4A | 11887 | V | 10833 | 2/3 |
-| 106 | NR1 Aşk | MÚSICA | A verificar | — | — | — | — |
-| 107 | NR1 Damar | MÚSICA | A verificar | — | — | — | — |
-| 108 | NR1 Dance | MÚSICA | A verificar | — | — | — | — |
+| 106 | NR1 Aşk | MÚSICA | Türksat 3A | 12729 | V | 30000 | 3/4 |
+| 107 | NR1 Damar | MÚSICA | Türksat 3A | 12729 | V | 30000 | 3/4 |
+| 108 | NR1 Dance | MÚSICA | Türksat 3A | 12729 | V | 30000 | 3/4 |
 | 109 | NTV | NOTÍCIAS | Türksat 4A | 12015 | H | 27500 | 3/4 |
-| 110 | Number 1 TV | MÚSICA | A verificar | — | — | — | — |
+| 110 | Number 1 TV | MÚSICA | Türksat 3A | 12729 | V | 30000 | 2/3 |
 | 111 | Power Dance TV | MÚSICA | A verificar | — | — | — | — |
 | 112 | Power Love TV | MÚSICA | A verificar | — | — | — | — |
 | 113 | PowerTürk Taptaze | MÚSICA | Türksat 4A | 12265 | V | 27500 | 3/4 |
@@ -220,7 +220,7 @@
 | 208 | GZT | NOTÍCIAS | Türksat 5B | 11225 | V | 30000 | 3/4 |
 | 209 | beIN Sports 1 Turk | ESPORTES | Türksat 4A | 12073 | V | 27500 | 3/4 |
 | 210 | 4U Family (persa) | INTERNACIONAIS | A verificar | — | — | — | — |
-| 211 | Power TV (720p) | MÚSICA | A verificar | — | — | — | — |
+| 211 | Power TV (720p) | MÚSICA | Türksat 4A | 12265 | V | 27500 | 5/6 |
 
 ## Observações de leitura
 
