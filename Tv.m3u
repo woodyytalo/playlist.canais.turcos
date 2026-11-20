@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml,https://epg.pw/api/epg.xml?channel_id=76711" x-tvg-url="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml,https://epg.pw/api/epg.xml?channel_id=76711"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml,https://epg.pw/api/epg.xml?channel_id=76711,https://epg.pw/api/epg.xml?channel_id=448568" x-tvg-url="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml,https://epg.pw/api/epg.xml?channel_id=76711,https://epg.pw/api/epg.xml?channel_id=448568"
 # Atualização de mapeamento XMLTV executada pelo workflow de EPG
 # Canais adicionados do Backup — números originais preservados
 
@@ -677,7 +677,7 @@ http://88.212.7.14/live/bbc_first/index.m3u8
 #EXTVLCOPT:network-caching=1000
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 
-#EXTINF:-1 tvg-chno="172" tvg-name="Syria TV" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/syriatv.png",Syria TV
+#EXTINF:-1 tvg-chno="172" tvg-id="448568" tvg-name="Syria TV" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/syriatv.png",Syria TV
 #EXTVLCOPT:network-caching=1000
 https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/chunks_dvr.m3u8
 
