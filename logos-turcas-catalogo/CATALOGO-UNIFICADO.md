@@ -666,3 +666,51 @@ Estas listas podem ajudar a cruzar nomes e URLs, mas não devem ser tratadas com
 - https://github.com/gkhncksn/m3u8_lists
 
 **Procedimento recomendado:** conferir o canal diretamente no sinal e no site oficial; comparar nome, país e identidade visual; registrar licença e autoria da imagem; só então armazenar uma cópia local. Nenhuma dessas referências foi aplicada à playlist nesta atualização.
+
+
+---
+
+# Fontes PNG — canais locais e regionais da Tv.m3u
+
+Atualização de 19/11/2026. Esta seção reúne todos os links PNG diretos apresentados na pesquisa de canais locais e regionais. São referências externas para os canais já existentes na playlist; não adiciona emissoras e não altera os campos `tvg-logo` de `Tv.m3u`.
+
+**Critério de uso:** os links são candidatos de imagem. Antes de copiar qualquer arquivo para o repositório ou substituir uma logo, conferir se o PNG abre, se representa o canal correto, se a identidade visual é atual e se há permissão/licença de reutilização. A inclusão neste catálogo não significa que todos os arquivos foram validados individualmente.
+
+## Links PNG diretos por canal
+
+| Canal existente / referência | PNG direto | Observação |
+|---|---|---|
+| Aksu TV | https://i.imgur.com/mgDCKiy.png | Correspondência em lista M3U de referência. |
+| Alanya Posta TV | https://i.imgur.com/a3w9eFe.png | Correspondência em lista M3U de referência. |
+| Altaş TV | https://i.imgur.com/XaJ7fp6.png | Correspondência em lista M3U de referência. |
+| ARAS TV | https://i.imgur.com/JsDCyWG.png | Correspondência em lista M3U de referência. |
+| ATV Alanya | https://i.imgur.com/bUwarR0.png | Correspondência em lista M3U de referência. |
+| BRTV Karabük | https://i.imgur.com/U3qlEAp.png | Candidata da pesquisa anterior; confirmar associação exata. |
+| Çay TV | https://i.imgur.com/ndupxwu.png | Correspondência em lista M3U de referência. |
+| Deniz Postası TV | https://i.imgur.com/Mm8hdfx.png | Correspondência em lista M3U de referência. |
+| Edessa TV | https://i.imgur.com/rhU6j9I.png | Correspondência em lista M3U de referência. |
+| ER TV Malatya | https://i.imgur.com/VDGEPrD.png | Correspondência em lista M3U de referência para ER TV. |
+| Erzurum Web TV | https://i.imgur.com/HF7N4Li.png | Correspondência em lista M3U de referência. |
+| ES TV | https://i.imgur.com/epAEBrp.png | Candidata da pesquisa anterior; confirmar associação exata. |
+| ETV Manisa | https://i.ibb.co/QKXtdkz/sOd3INg.png | Correspondência em lista M3U de referência. |
+| Sun RTV | https://i.imgur.com/64tph9N.png | Correspondência em lista M3U de referência. |
+| Anadolu Net TV | https://www.anadolunettv.com/d/r/logo.png | URL PNG indicada como fonte da emissora; verificar correspondência com a entrada “Anadolu TV” da playlist. |
+| Bir TV | https://birtv.tv/assets/upload/637f83951df60.png | PNG indicado no site da emissora e em lista M3U. |
+
+## Diretórios e fontes adicionais de descoberta
+
+- TVLogo.org — diretório de logos de canais turcos: https://www.tvlogo.org/turkey/
+- Repositório de listas M3U com logos diretas: https://github.com/Roblabs-Teknoloji/iptv
+- Lista turca de referência: https://github.com/baycuman-hub/turk-tv
+- Gist público com logos e streams de canais turcos: https://gist.github.com/lThrone/8fae0a913039b4676872f6abd30a2b37
+
+## Evidência de correspondência em listas M3U
+
+As listas consultadas confirmam diretamente várias associações nome/PNG/stream, incluindo Aksu TV, Alanya Posta TV, Altaş TV, ATV Alanya, Çay TV, Deniz Postası TV, ETV Manisa, Sun RTV, ARAS TV, Edessa TV, ER TV e Erzurum Web TV. Referências:
+- https://github.com/Roblabs-Teknoloji/iptv/blob/master/index.m3u
+- https://gist.github.com/lThrone/8fae0a913039b4676872f6abd30a2b37
+- https://github.com/stardustbro/StarDustyList/blob/main/clean_playlist.m3u
+
+**Limitação da pesquisa:** os PNGs de BRTV Karabük e ES TV foram preservados porque foram apresentados na pesquisa anterior, mas não tiveram confirmação independente equivalente nas listas consultadas nesta atualização. Anadolu Net TV também deve ser comparada com a entrada “Anadolu TV” antes de qualquer adoção. A URL da Bir TV aparece como PNG de emissora e em lista de referência.
+
+Nenhum arquivo de imagem foi baixado para o repositório nesta etapa. Este catálogo armazena os endereços e as observações para posterior validação; a playlist permanece intacta.
