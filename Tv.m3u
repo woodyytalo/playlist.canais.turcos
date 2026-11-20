@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml" x-tvg-url="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml,https://epg.pw/api/epg.xml?channel_id=76711" x-tvg-url="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml,https://epg.pw/api/epg.xml?channel_id=76711"
 # Atualização de mapeamento XMLTV executada pelo workflow de EPG
 # Canais adicionados do Backup — números originais preservados
 
@@ -638,7 +638,7 @@ https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTVLCOPT:network-caching=1000
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 
-#EXTINF:-1 tvg-chno="162" tvg-name="Euro Star TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/eurostartv.png",Euro Star TV
+#EXTINF:-1 tvg-chno="162" tvg-id="76711" tvg-name="Euro Star TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/eurostartv.png",Euro Star TV
 #EXTVLCOPT:network-caching=1000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
 
