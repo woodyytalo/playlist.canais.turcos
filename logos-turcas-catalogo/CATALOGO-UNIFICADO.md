@@ -1039,70 +1039,70 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 
 | Canal | Logo |
 |---|---|
-| 24 TV| ![Logo 24 TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/24-tr.png) |
-| Lider Haber | ![Logo Lider Haber ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/liderhaber.png) |
-| A Haber| ![Logo A Haber ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-haber-tr.png) |
-| A Para| ![Logo A Para ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-para-tr.png) |
-| AS TV | ![Logo AS TV ](https://www.onlinetvplayer.com/images/logos/xwmjg5wy.png) |
-| Bengü Türk| ![Logo Bengü Türk ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bengu-turk-tr.png) |
-| Bloomberg HT| ![Logo Bloomberg HT ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bloomberg-ht-tr.png) |
+| 24 TV| ![Logo 24 TV ](https://tr.canlitv.watch/channels/kanal24.webp) |
+| Lider Haber | ![Logo Lider Haber ](https://tr.canlitv.watch/channels/lider-haber.webp) |
+| A Haber| ![Logo A Haber ](https://tr.canlitv.watch/channels/a-haber.webp) |
+| A Para| ![Logo A Para ](https://tr.canlitv.watch/channels/a-para.webp) |
+| AS TV | ![Logo AS TV ](https://tr.canlitv.watch/channels/as-tv.webp) |
+| Bengü Türk| ![Logo Bengü Türk ](https://tr.canlitv.watch/channels/benguturk-tv.webp) |
+| Bloomberg HT| ![Logo Bloomberg HT ](https://tr.canlitv.watch/channels/bloomberg-ht.webp) |
 | Bloomberg HT 2 | ![Logo Bloomberg HT 2 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bloomberg-ht-tr.png) |
-| CNBC e| ![Logo CNBC e ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cnbc-e-tr.png) |
-| CNN Türk| ![Logo CNN Türk ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cnn-turk-tr.png) |
+| CNBC e| ![Logo CNBC e ](https://tr.canlitv.watch/channels/cnbc-e.webp) |
+| CNN Türk| ![Logo CNN Türk ](https://tr.canlitv.watch/channels/cnn-turk.webp) |
 | DHA | ![Logo DHA ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/dha.png) |
-| Ekotürk| ![Logo Ekotürk ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ekoturk-tr.png) |
+| Ekotürk| ![Logo Ekotürk ](https://tr.canlitv.watch/channels/ekoturk-tv.webp) |
 | Flash Haber TV | ![Logo Flash Haber TV ](https://upload.wikimedia.org/wikipedia/commons/2/23/Flash_haber_tv_2025.png) |
-| Haber Global| ![Logo Haber Global ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/haber-global-tr.png) |
+| Haber Global| ![Logo Haber Global ](https://tr.canlitv.watch/channels/haber-global.webp) |
 | Haber61 TV | ![Logo Haber61 TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/haber61tv.png) |
-| Habertürk| ![Logo Habertürk ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/haberturk-tr.png) |
-| Halk TV| ![Logo Halk TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/halk-tv-tr.png) |
-| İlke TV | ![Logo İlke TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/ilketv.png) |
+| Habertürk| ![Logo Habertürk ](https://tr.canlitv.watch/channels/haber-turk.webp) |
+| Halk TV| ![Logo Halk TV ](https://tr.canlitv.watch/channels/halk-tv-izle.webp) |
+| İlke TV | ![Logo İlke TV ](https://tr.canlitv.watch/channels/ilke-tv.webp) |
 | Life TV | ![Logo Life TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/lifetv.png) |
-| NTV| ![Logo NTV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png) |
+| NTV| ![Logo NTV ](https://tr.canlitv.watch/channels/ntv.webp) |
 | TELE1| ![Logo TELE1 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tele1-tr.png) |
-| TGRT Haber| ![Logo TGRT Haber ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tgrt-haber-tr.png) |
-| TRT Haber| ![Logo TRT Haber ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-haber-tr.png) |
+| TGRT Haber| ![Logo TGRT Haber ](https://tr.canlitv.watch/channels/tgrt-haber.webp) |
+| TRT Haber| ![Logo TRT Haber ](https://tr.canlitv.watch/channels/trt-haber.webp) |
 | TürkHaber| ![Logo TürkHaber ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/turk-haber-tr.png) |
-| TV100| ![Logo TV100 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv100-tr.png) |
-| TV5| ![Logo TV5 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv5-tr.png) |
-| TVNET| ![Logo TVNET ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tvnet-tr.png) |
+| TV100| ![Logo TV100 ](https://tr.canlitv.watch/channels/tv-100-izle.webp) |
+| TV5| ![Logo TV5 ](https://tr.canlitv.watch/channels/tv5.webp) |
+| TVNET| ![Logo TVNET ](https://tr.canlitv.watch/channels/tvnet.webp) |
 | Ülke TV| ![Logo Ülke TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ulke-tv-tr.png) |
 | Sözcü TV | ![Logo Sözcü TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/sozcutv.png) |
 | Ekol TV | ![Logo Ekol TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/ekoltv.png) |
-| GZT | ![Logo GZT ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/gzt.png) |
+| GZT | ![Logo GZT ](https://tr.canlitv.watch/channels/gzt-tv.webp) |
 
 ## ENTRETENIMENTO (19)
 
 | Canal | Logo |
 |---|---|
-| 360 TV| ![Logo 360 TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/360-tr.png) |
+| 360 TV| ![Logo 360 TV ](https://tr.canlitv.watch/channels/tv-360.webp) |
 | 4U TV | ![Logo 4U TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/4utv.png) |
-| A2| ![Logo A2 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a2-tr.png) |
-| ATV| ![Logo ATV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png) |
+| A2| ![Logo A2 ](https://tr.canlitv.watch/channels/a2-tv.webp) |
+| ATV| ![Logo ATV ](https://tr.canlitv.watch/channels/atv.webp) |
 | Beyaz TV| ![Logo Beyaz TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png) |
-| Bi Kanal | ![Logo Bi Kanal ](https://upload.wikimedia.org/wikipedia/commons/9/9e/Bi-kanal-logo.png) |
-| Bir TV | ![Logo Bir TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/birtv.png) |
-| EURO D | ![Logo EURO D ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/euro-d-tr-dec2cd5c7b.svg) |
+| Bi Kanal | ![Logo Bi Kanal ](https://tr.canlitv.watch/channels/bi-kanal.webp) |
+| Bir TV | ![Logo Bir TV ](https://tr.canlitv.watch/channels/bir-tv.webp) |
+| EURO D | ![Logo EURO D ](https://tr.canlitv.watch/channels/euro-d.webp) |
 | Kanal 7 Avrupa| ![Logo Kanal 7 Avrupa ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-7-avrupa-tr.png) |
-| Kanal D| ![Logo Kanal D ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png) |
+| Kanal D| ![Logo Kanal D ](https://tr.canlitv.watch/channels/kanal-d.webp) |
 | Kanal D Drama | ![Logo Kanal D Drama ](https://www.onlinetvplayer.com/images/logos/4wndrkq1.png) |
-| NOW| ![Logo NOW ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/now-tr.png) |
-| Show Max| ![Logo Show Max ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-max-tr.png) |
-| Show TV| ![Logo Show TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tr.png) |
+| NOW| ![Logo NOW ](https://tr.canlitv.watch/channels/now-tv.webp) |
+| Show Max| ![Logo Show Max ](https://tr.canlitv.watch/channels/show-max.webp) |
+| Show TV| ![Logo Show TV ](https://tr.canlitv.watch/channels/show-tv.webp) |
 | Star TV| ![Logo Star TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png) |
 | teve2| ![Logo teve2 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/teve2-tr.png) |
-| TRT 1| ![Logo TRT 1 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png) |
-| TV8| ![Logo TV8 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png) |
-| Euro Star TV | ![Logo Euro Star TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/euro-star-tr.png) |
+| TRT 1| ![Logo TRT 1 ](https://tr.canlitv.watch/channels/trt-1.webp) |
+| TV8| ![Logo TV8 ](https://tr.canlitv.watch/channels/tv8.webp) |
+| Euro Star TV | ![Logo Euro Star TV ](https://tr.canlitv.watch/channels/euro-star.webp) |
 
 ## ESPORTES (7)
 
 | Canal | Logo |
 |---|---|
-| A Spor| ![Logo A Spor ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-spor-tr.png) |
-| FB TV | ![Logo FB TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/fbtv.png) |
-| HT Spor TV | ![Logo HT Spor TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/htsportv.png) |
-| TAY TV| ![Logo TAY TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tay-tv-tr.png) |
+| A Spor| ![Logo A Spor ](https://tr.canlitv.watch/channels/a-spor.webp) |
+| FB TV | ![Logo FB TV ](https://tr.canlitv.watch/channels/fb-tv-izle.webp) |
+| HT Spor TV | ![Logo HT Spor TV ](https://tr.canlitv.watch/channels/ht-spor.webp) |
+| TAY TV| ![Logo TAY TV ](https://tr.canlitv.watch/channels/tay-tv-izle.webp) |
 | TJK TV| ![Logo TJK TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tjk-tv-tr.png) |
 | Ekol Sports | ![Logo Ekol Sports ](https://i.ibb.co/Y4tR1tTm/Ekolsports.jpg) |
 | beIN Sports 1 Turk | ![Logo beIN Sports 1 Turk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/beinsports1turk.png) |
@@ -1111,91 +1111,91 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 
 | Canal | Logo |
 |---|---|
-| Aksu TV| ![Logo Aksu TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/aksu-tv-tr.png) |
+| Aksu TV| ![Logo Aksu TV ](https://tr.canlitv.watch/channels/aksu-tv.webp) |
 | Alanya Posta TV | ![Logo Alanya Posta TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/alanyapostatv.png) |
 | Altas TV| ![Logo Altas TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/altas-tv-tr.png) |
 | Anadolu TV | ![Logo Anadolu TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/anadolutv.png) |
 | ARAS TV | ![Logo ARAS TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/arastv.png) |
 | ATV Alanya | ![Logo ATV Alanya ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/atvalanya.png) |
 | BRTV Karabük| ![Logo BRTV Karabük ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/brtv-tr.png) |
-| Çay TV| ![Logo Çay TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cay-tv-tr.png) |
+| Çay TV| ![Logo Çay TV ](https://tr.canlitv.watch/channels/cay-tv.webp) |
 | Deniz Postası TV | ![Logo Deniz Postası TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/denizpostastv.png) |
 | Dim TV | ![Logo Dim TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/dimtv.png) |
-| Edessa TV| ![Logo Edessa TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/edessa-tv-tr.png) |
+| Edessa TV| ![Logo Edessa TV ](https://tr.canlitv.watch/channels/show-tv.webp) |
 | ER TV Malatya | ![Logo ER TV Malatya ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/ertvmalatya.png) |
 | Erciyes TV | ![Logo Erciyes TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/erciyestv.png) |
 | Erzurum Web TV | ![Logo Erzurum Web TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/erzurumwebtv.png) |
-| ES TV| ![Logo ES TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/es-tv-tr.png) |
+| ES TV| ![Logo ES TV ](https://tr.canlitv.watch/channels/es-tv.webp) |
 | ETV | ![Logo ETV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/etv.png) |
 | Ezgi TV | ![Logo Ezgi TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/ezgitv.png) |
 | FRT TV | ![Logo FRT TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/frttv.png) |
 | GRT Gaziantep TV | ![Logo GRT Gaziantep TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/grtgazianteptv.png) |
-| Güneydoğu TV| ![Logo Güneydoğu TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/guneydogu-tv-tr.png) |
+| Güneydoğu TV| ![Logo Güneydoğu TV ](https://tr.canlitv.watch/channels/guneydogu-tv.webp) |
 | Hunat TV | ![Logo Hunat TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/hunattv.png) |
 | İçel TV | ![Logo İçel TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/iceltv.png) |
 | Kardelen TV| ![Logo Kardelen TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kardelen-tv-tr.png) |
 | İzmir Time 35 TV | ![Logo İzmir Time 35 TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/izmirtime35tv.png) |
 | K+ Kayseri | ![Logo K+ Kayseri ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kkayseri.png) |
-| Kanal 12 | ![Logo Kanal 12 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanal12.png) |
-| Kanal 15| ![Logo Kanal 15 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-15-tr.png) |
+| Kanal 12 | ![Logo Kanal 12 ](https://tr.canlitv.watch/channels/kanal-12-izle.webp) |
+| Kanal 15| ![Logo Kanal 15 ](https://tr.canlitv.watch/channels/kanal-15.webp) |
 | Kanal 19 | ![Logo Kanal 19 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanal19.png) |
-| Kanal 23| ![Logo Kanal 23 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-23-tr.png) |
+| Kanal 23| ![Logo Kanal 23 ](https://tr.canlitv.watch/channels/kanal-23.webp) |
 | Kanal 26 Eskişehir| ![Logo Kanal 26 Eskişehir ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-26-tr.png) |
-| Kanal 3| ![Logo Kanal 3 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal3-tr.png) |
-| Kanal 32 | ![Logo Kanal 32 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanal32.png) |
-| Kanal 33| ![Logo Kanal 33 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-33-tr.png) |
+| Kanal 3| ![Logo Kanal 3 ](https://tr.canlitv.watch/channels/kanal-3.webp) |
+| Kanal 32 | ![Logo Kanal 32 ](https://tr.canlitv.watch/channels/kanal-32.webp) |
+| Kanal 33| ![Logo Kanal 33 ](https://tr.canlitv.watch/channels/kanal-33.webp) |
 | Kanal 34 | ![Logo Kanal 34 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanal34.png) |
 | Kanal 53 | ![Logo Kanal 53 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanal53.png) |
-| Kanal 58| ![Logo Kanal 58 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-58-tr.png) |
-| Kanal B| ![Logo Kanal B ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-b-tr.png) |
+| Kanal 58| ![Logo Kanal 58 ](https://tr.canlitv.watch/channels/kanal-58.webp) |
+| Kanal B| ![Logo Kanal B ](https://tr.canlitv.watch/channels/kanal-b.webp) |
 | Kanal Fırat| ![Logo Kanal Fırat ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-firat-tr.png) |
-| Kanal V| ![Logo Kanal V ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-v-tr.png) |
+| Kanal V| ![Logo Kanal V ](https://tr.canlitv.watch/channels/kanal-v.webp) |
 | Kay TV | ![Logo Kay TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kaytv.png) |
 | Kayhan TV | ![Logo Kayhan TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kayhantv.png) |
 | Kent Türk TV | ![Logo Kent Türk TV ](https://i.imgur.com/FQKPjsm.png) |
-| Kocaeli TV| ![Logo Kocaeli TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kocaeli-tv-tr.png) |
+| Kocaeli TV| ![Logo Kocaeli TV ](https://tr.canlitv.watch/channels/kocaeli-tv.webp) |
 | Konya KTV | ![Logo Konya KTV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/konyaktv.png) |
 | Konya Olay TV | ![Logo Konya Olay TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/konyaolaytv.png) |
 | Mekameleen TV | ![Logo Mekameleen TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/mekameleentv.png) |
-| Mercan TV| ![Logo Mercan TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/mercan-tv-tr.png) |
+| Mercan TV| ![Logo Mercan TV ](https://tr.canlitv.watch/channels/mercan-tv.webp) |
 | MTürk TV | ![Logo MTürk TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/mturktv.png) |
 | Tempo TV| ![Logo Tempo TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tempo-tv-tr.png) |
-| Tivi 6| ![Logo Tivi 6 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tivi6-tr.png) |
+| Tivi 6| ![Logo Tivi 6 ](https://tr.canlitv.watch/channels/tivi-6.webp) |
 | Ton TV | ![Logo Ton TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/tontv.png) |
-| TV 1| ![Logo TV 1 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv1-tr.png) |
-| TV 264| ![Logo TV 264 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv264-tr.png) |
-| TV 41 | ![Logo TV 41 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/tv41.png) |
-| TV 52| ![Logo TV 52 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv52-tr.png) |
-| TV DEN| ![Logo TV DEN ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv-den-tr.png) |
+| TV 1| ![Logo TV 1 ](https://tr.canlitv.watch/channels/tv-1.webp) |
+| TV 264| ![Logo TV 264 ](https://tr.canlitv.watch/channels/tv264.webp) |
+| TV 41 | ![Logo TV 41 ](https://tr.canlitv.watch/channels/tv-41.webp) |
+| TV 52| ![Logo TV 52 ](https://tr.canlitv.watch/channels/tv-52.webp) |
+| TV DEN| ![Logo TV DEN ](https://tr.canlitv.watch/channels/tv-den.webp) |
 | Vuslat TV | ![Logo Vuslat TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/vuslattv.png) |
 | Natural TV | ![Logo Natural TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/naturaltv.png) |
-| Sun RTV | ![Logo Sun RTV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/sunrtv.png) |
+| Sun RTV | ![Logo Sun RTV ](https://tr.canlitv.watch/channels/sun-rtv.webp) |
 | TBMM TV| ![Logo TBMM TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tbmm-tv-tr.png) |
-| Van 65 TV | ![Logo Van 65 TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/van65tv.png) |
+| Van 65 TV | ![Logo Van 65 TV ](https://tr.canlitv.watch/channels/van65-tv.webp) |
 | YOL TV| ![Logo YOL TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/yol-tv-tr.png) |
 | Kanal Ada | ![Logo Kanal Ada](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-ada.svg) |
-| Kanal Urfa| ![Logo Kanal Urfa ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-urfa-tr.png) |
+| Kanal Urfa| ![Logo Kanal Urfa ](https://tr.canlitv.watch/channels/kanal-urfa.webp) |
 | Trabzon Buyuksehir Belediyesi TV | ![Logo Trabzon Buyuksehir Belediyesi TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/trabzonbuyuksehirbelediyesitv.png) |
 | Urfanatik TV | ![Logo Urfanatik TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/urfanatiktv.png) |
 | ETV Manisa | ![Logo ETV Manisa ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/etvmanisa.png) |
-| MK TV | ![Logo MK TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/mktv.png) |
+| MK TV | ![Logo MK TV ](https://tr.canlitv.watch/channels/show-tv.webp) |
 
 ## RELIGIOSOS (15)
 
 | Canal | Logo |
 |---|---|
 | Al Zahra TV Turkic | ![Logo Al Zahra TV Turkic ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/alzahratvturkic.png) |
-| Diyanet TV| ![Logo Diyanet TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/diyanet-tv-tr.png) |
+| Diyanet TV| ![Logo Diyanet TV ](https://tr.canlitv.watch/channels/diyanet-tv.webp) |
 | Diyar TV| ![Logo Diyar TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/diyar-tv-tr.png) |
-| Dost TV| ![Logo Dost TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/dost-tv-tr.png) |
-| Lalegül TV| ![Logo Lalegül TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/lalegul-tv-tr.png) |
-| Meltem TV | ![Logo Meltem TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/meltemtv.png) |
+| Dost TV| ![Logo Dost TV ](https://tr.canlitv.watch/channels/dost-tv-i.webp) |
+| Lalegül TV| ![Logo Lalegül TV ](https://tr.canlitv.watch/channels/lalegul-tv.webp) |
+| Meltem TV | ![Logo Meltem TV ](https://tr.canlitv.watch/channels/meltem-tv.webp) |
 | MUKABELE TV | ![Logo MUKABELE TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/mukabele-tv.svg) |
 | Rehber TV| ![Logo Rehber TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/rehber-tv-tr.png) |
-| Sat7 Türk| ![Logo Sat7 Türk ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sat7-turk-tr.png) |
-| Semerkand TV| ![Logo Semerkand TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/semerkand-tv-tr.png) |
-| Sercem TV | ![Logo Sercem TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/sercemtv.png) |
-| Vav TV| ![Logo Vav TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/vav-tv-tr.png) |
+| Sat7 Türk| ![Logo Sat7 Türk ](https://tr.canlitv.watch/channels/sat-7-turk.webp) |
+| Semerkand TV| ![Logo Semerkand TV ](https://tr.canlitv.watch/channels/semerkand-tv.webp) |
+| Sercem TV | ![Logo Sercem TV ](https://tr.canlitv.watch/channels/sercem-tv.webp) |
+| Vav TV| ![Logo Vav TV ](https://tr.canlitv.watch/channels/vav-tv.webp) |
 | MADINAH TV | ![Logo MADINAH TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/madinahtv.png) |
 | ABN TURKEY | ![Logo ABN TURKEY ](https://i.ibb.co/ChhQT8b/Abn.png) |
 | Makkah TV | ![Logo Makkah TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/makkahtv.png) |
@@ -1206,13 +1206,13 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 |---|---|
 | Almahriah TV | ![Logo Almahriah TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/almahriahtv.png) |
 | Elsharq TV | ![Logo Elsharq TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/elsharqtv.png) |
-| Kanal Avrupa| ![Logo Kanal Avrupa ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-avrupa-tr.png) |
+| Kanal Avrupa| ![Logo Kanal Avrupa ](https://tr.canlitv.watch/channels/show-tv.webp) |
 | Syria TV | ![Logo Syria TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/syriatv.png) |
 | Balkan Türk | ![Logo Balkan Türk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/balkanturk.png) |
 | Thaqalayn TV | ![Logo Thaqalayn TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/thaqalayntv.png) |
 | RTG International | ![Logo RTG International ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/rtginternational.png) |
 | MC EU TV | ![Logo MC EU TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/mceutv.png) |
-| Persiana Türkiye | ![Logo Persiana Türkiye ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/persianaturkiye.png) |
+| Persiana Türkiye | ![Logo Persiana Türkiye ](https://tr.canlitv.watch/channels/show-tv.webp) |
 | INTV Australia | ![Logo INTV Australia ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/intvaustralia.png) |
 | İSVİÇRE TV | ![Logo İSVİÇRE TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/isvicretv.png) |
 | JÎN TV | ![Logo JÎN TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/jintv.png) |
@@ -1223,11 +1223,11 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Canal | Logo |
 |---|---|
 | Cartoon Network Türkiye | ![Logo Cartoon Network Türkiye ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/cartoonnetworkturkiye.png) |
-| Minika Çocuk| ![Logo Minika Çocuk ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/minika-cocuk-tr.png) |
-| Minika GO| ![Logo Minika GO ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/minika-go-tr.png) |
+| Minika Çocuk| ![Logo Minika Çocuk ](https://tr.canlitv.watch/channels/minika-cocuk.webp) |
+| Minika GO| ![Logo Minika GO ](https://tr.canlitv.watch/channels/minika-go-izle.webp) |
 | Spacetoon Türkiye | ![Logo Spacetoon Türkiye ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/spacetoonturkiye.png) |
-| TRT Çocuk| ![Logo TRT Çocuk ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-cocuk-tr.png) |
-| TRT Diyanet Çocuk | ![Logo TRT Diyanet Çocuk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/trtdiyanetcocuk.png) |
+| TRT Çocuk| ![Logo TRT Çocuk ](https://tr.canlitv.watch/channels/trt-cocuk.webp) |
+| TRT Diyanet Çocuk | ![Logo TRT Diyanet Çocuk ](https://tr.canlitv.watch/channels/trt-diyanet-cocuk.webp) |
 | Zarok TV Kurmanji| ![Logo Zarok TV Kurmanji ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/zarok-tv-tr.png) |
 | Zarok TV Sorani | ![Logo Zarok TV Sorani ](https://i.postimg.cc/g0fvZH6Q/Zarok-200.jpg) |
 | BabyFirst TV | ![Logo BabyFirst TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/babyfirsttv.png) |
@@ -1247,8 +1247,8 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 
 | Canal | Logo |
 |---|---|
-| Çiftçi TV| ![Logo Çiftçi TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ciftci-tv-tr.png) |
-| Luys TV | ![Logo Luys TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/luys-tv.svg) |
+| Çiftçi TV| ![Logo Çiftçi TV ](https://tr.canlitv.watch/channels/ciftci-tv.webp) |
+| Luys TV | ![Logo Luys TV ](https://tr.canlitv.watch/channels/show-tv.webp) |
 | TRT EBA Ortaokul | ![Logo TRT EBA Ortaokul ](https://upload.wikimedia.org/wikipedia/commons/4/41/TRT_EBA_TV_Ortaokul_logo.svg) |
 | TV Karadeniz | ![Logo TV Karadeniz ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/tvkaradeniz.png) |
 
@@ -1258,8 +1258,8 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 |---|---|
 | 1Mus | ![Logo 1Mus ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/1mus.png) |
 | 30A Music | ![Logo 30A Music ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/gNWg9tl-950f250b00.svg) |
-| Dream Türk| ![Logo Dream Türk ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/dream-turk-tr.png) |
-| TMB TV | ![Logo TMB TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tmb-tr-7d943cd91a.svg) |
+| Dream Türk| ![Logo Dream Türk ](https://tr.canlitv.watch/channels/dream-turk-tv.webp) |
+| TMB TV | ![Logo TMB TV ](https://tr.canlitv.watch/channels/tmb-tv.webp) |
 | Med Müzik | ![Logo Med Müzik ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/gtUFmCD-16b5c1691d.svg) |
 | Play TV | ![Logo Play TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/playtv.png) |
 | NR1 Aşk| ![Logo NR1 Aşk ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-ask-tr.png) |
@@ -1269,12 +1269,12 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Power Dance TV | ![Logo Power Dance TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/logo_40-c210f3f043.svg) |
 | Power Love TV | ![Logo Power Love TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/logo_2559-7d3e7ab543.svg) |
 | PowerTürk Taptaze | ![Logo PowerTürk Taptaze ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/logo_2534-9630fe0103.svg) |
-| TRT Müzik| ![Logo TRT Müzik ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-muzik-tr.png) |
+| TRT Müzik| ![Logo TRT Müzik ](https://tr.canlitv.watch/channels/trt-muzik.webp) |
 | Kral Pop | ![Logo Kral Pop ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kral-pop-tr-f8a6e4ca20.svg) |
 | NR1 Fashion One | ![Logo NR1 Fashion One ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/fashion-one-da3b8e871a.svg) |
-| PowerTürk TV| ![Logo PowerTürk TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/powerturk-tr.png) |
+| PowerTürk TV| ![Logo PowerTürk TV ](https://tr.canlitv.watch/channels/power-turk-tv.webp) |
 | KN Music TV | ![Logo KN Music TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/LOGO2112-24686be8ce.svg) |
-| Dost | ![Logo Dost ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/dost.png) |
+| Dost | ![Logo Dost ](https://tr.canlitv.watch/channels/dost-tv-i.webp) |
 | Company TV | ![Logo Company TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/companytv.png) |
 | Güçlü TV | ![Logo Güçlü TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/guclutv.png) |
 | Now 70 s | ![Logo Now 70 s ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/NOW-70s-7b89fcaeac.svg) |
@@ -1290,7 +1290,7 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Canal | Logo |
 |---|---|
 | Fashion One | ![Logo Fashion One ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/fashion-one-tv-tr-2a744d42ce.svg) |
-| TV4| ![Logo TV4 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv4-tr.png) |
+| TV4| ![Logo TV4 ](https://tr.canlitv.watch/channels/tv4.webp) |
 | MOR TV | ![Logo MOR TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/mortv.png) |
 
 ## TRT (6)
@@ -1298,18 +1298,18 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Canal | Logo |
 |---|---|
 | TRT Arabi| ![Logo TRT Arabi ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-arabi-tr.png) |
-| TRT Avaz| ![Logo TRT Avaz ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-avaz-tr.png) |
-| TRT Genç| ![Logo TRT Genç ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-genç-tr.png) |
-| TRT Kurdî| ![Logo TRT Kurdî ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-kurdi-tr.png) |
-| TRT Türk| ![Logo TRT Türk ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-turk-tr.png) |
-| TRT World| ![Logo TRT World ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-world-tr.png) |
+| TRT Avaz| ![Logo TRT Avaz ](https://tr.canlitv.watch/channels/trt-avaz.webp) |
+| TRT Genç| ![Logo TRT Genç ](https://tr.canlitv.watch/channels/trt-genc.webp) |
+| TRT Kurdî| ![Logo TRT Kurdî ](https://tr.canlitv.watch/channels/trt-kurdi.webp) |
+| TRT Türk| ![Logo TRT Türk ](https://tr.canlitv.watch/channels/trt-turk.webp) |
+| TRT World| ![Logo TRT World ](https://tr.canlitv.watch/channels/trt-world.webp) |
 
 ## DOCUMENTÁRIOS (2)
 
 | Canal | Logo |
 |---|---|
-| TLC | ![Logo TLC ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/tlc.png) |
-| Love Nature | ![Logo Love Nature ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/lovenature.png) |
+| TLC | ![Logo TLC ](https://tr.canlitv.watch/channels/tlc-tv.webp) |
+| Love Nature | ![Logo Love Nature ](https://tr.canlitv.watch/channels/show-tv.webp) |
 
 ## Pendências
 
