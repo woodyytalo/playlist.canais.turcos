@@ -1043,15 +1043,15 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Lider Haber | ![Logo Lider Haber ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/liderhaber.png) |
 | A Haber | ![Logo A Haber ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/a-haber-tr-afc99b5484.svg) |
 | A Para | ![Logo A Para ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/a-para-tr-554f2e296a.svg) |
-| AS TV | ![Logo AS TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/astv.png) |
+| AS TV | ![Logo AS TV ](https://www.onlinetvplayer.com/images/logos/xwmjg5wy.png) |
 | Bengü Türk | ![Logo Bengü Türk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/bengu-turk-tr-df28759989.svg) |
 | Bloomberg HT | ![Logo Bloomberg HT ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/bloomberg-ht-tr-5043c40214.svg) |
-| Bloomberg HT 2 | ![Logo Bloomberg HT 2 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/bloomberght2.png) |
+| Bloomberg HT 2 | ![Logo Bloomberg HT 2 ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bloomberg-ht-tr.png) |
 | CNBC e | ![Logo CNBC e ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/cnbc-e-tr-07bac24fc2.svg) |
 | CNN Türk | ![Logo CNN Türk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/cnn-turk-tr-4b24f7fc71.svg) |
 | DHA | ![Logo DHA ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/dha.png) |
 | Ekotürk | ![Logo Ekotürk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/ekoturk-tr-f24a44f2a2.svg) |
-| Flash Haber TV | ![Logo Flash Haber TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/flashhabertv.png) |
+| Flash Haber TV | ![Logo Flash Haber TV ](https://upload.wikimedia.org/wikipedia/commons/2/23/Flash_haber_tv_2025.png) |
 | Haber Global | ![Logo Haber Global ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/haber-global-tr-84b7531601.svg) |
 | Haber61 TV | ![Logo Haber61 TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/haber61tv.png) |
 | Habertürk | ![Logo Habertürk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/haberturk-tr-216bd975f1.svg) |
@@ -1080,20 +1080,20 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | A2 | ![Logo A2 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/a2-tr-73490be5f4.svg) |
 | ATV | ![Logo ATV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/atv-tr-0ff6d6098d.svg) |
 | Beyaz TV | ![Logo Beyaz TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/beyaz-tv-tr-db1ed61595.svg) |
-| Bi Kanal | ![Logo Bi Kanal ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/bikanal.png) |
+| Bi Kanal | ![Logo Bi Kanal ](https://upload.wikimedia.org/wikipedia/commons/9/9e/Bi-kanal-logo.png) |
 | Bir TV | ![Logo Bir TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/birtv.png) |
 | EURO D | ![Logo EURO D ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/euro-d-tr-dec2cd5c7b.svg) |
 | Kanal 7 Avrupa | ![Logo Kanal 7 Avrupa ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-7-avrupa-tr-652c0937af.svg) |
 | Kanal D | ![Logo Kanal D ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-d-tr-b170d0acaf.svg) |
-| Kanal D Drama | ![Logo Kanal D Drama ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanalddrama.png) |
+| Kanal D Drama | ![Logo Kanal D Drama ](https://www.onlinetvplayer.com/images/logos/4wndrkq1.png) |
 | NOW | ![Logo NOW ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/now-tr-c1ea46eafb.svg) |
 | Show Max | ![Logo Show Max ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/show-max-tr-376e98d883.svg) |
-| Show TV | ![Logo Show TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/showtv.png) |
+| Show TV | ![Logo Show TV ](https://commons.wikimedia.org/wiki/Special:FilePath/Show%20TV%20logo.svg) |
 | Star TV | ![Logo Star TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/star-tv-tr-8c39b00aae.svg) |
 | teve2 | ![Logo teve2 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/teve2-tr-4dfc4fc940.svg) |
 | TRT 1 | ![Logo TRT 1 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/trt-1-tr-770d4f54e5.svg) |
 | TV8 | ![Logo TV8 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tv8-tr-3fc55e9fc0.svg) |
-| Euro Star TV | ![Logo Euro Star TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/eurostartv.png) |
+| Euro Star TV | ![Logo Euro Star TV ](https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/euro-star-tr.png) |
 
 ## ESPORTES (7)
 
@@ -1104,7 +1104,7 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | HT Spor TV | ![Logo HT Spor TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/htsportv.png) |
 | TAY TV | ![Logo TAY TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tay-tv-tr-b8a6ca1c6a.svg) |
 | TJK TV | ![Logo TJK TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tjk-tv-tr-cc00aa14d4.svg) |
-| Ekol Sports | ![Logo Ekol Sports ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/ekolsports.png) |
+| Ekol Sports | ![Logo Ekol Sports ](https://i.ibb.co/Y4tR1tTm/Ekolsports.jpg) |
 | beIN Sports 1 Turk | ![Logo beIN Sports 1 Turk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/beinsports1turk.png) |
 
 ## REGIONAIS (68)
@@ -1140,7 +1140,7 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Kanal 15 | ![Logo Kanal 15 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-15-tr-34ab83c63c.svg) |
 | Kanal 19 | ![Logo Kanal 19 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanal19.png) |
 | Kanal 23 | ![Logo Kanal 23 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-23-tr-2c993cfc8d.svg) |
-| Kanal 26 Eskişehir | ![Logo Kanal 26 Eskişehir ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanal26eskisehir.png) |
+| Kanal 26 Eskişehir | ![Logo Kanal 26 Eskişehir ](https://i.imgur.com/Mr7XPii.png) |
 | Kanal 3 | ![Logo Kanal 3 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal3-tr-5954d469cb.svg) |
 | Kanal 32 | ![Logo Kanal 32 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanal32.png) |
 | Kanal 33 | ![Logo Kanal 33 ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-33-tr-1cb420e0fb.svg) |
@@ -1152,7 +1152,7 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Kanal V | ![Logo Kanal V ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-v-tr-266a073b4c.svg) |
 | Kay TV | ![Logo Kay TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kaytv.png) |
 | Kayhan TV | ![Logo Kayhan TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kayhantv.png) |
-| Kent Türk TV | ![Logo Kent Türk TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kentturktv.png) |
+| Kent Türk TV | ![Logo Kent Türk TV ](https://i.imgur.com/FQKPjsm.png) |
 | Kocaeli TV | ![Logo Kocaeli TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kocaeli-tv-tr-701a7249cc.svg) |
 | Konya KTV | ![Logo Konya KTV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/konyaktv.png) |
 | Konya Olay TV | ![Logo Konya Olay TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/konyaolaytv.png) |
@@ -1197,7 +1197,7 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Sercem TV | ![Logo Sercem TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/sercemtv.png) |
 | Vav TV | ![Logo Vav TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/vav-tv-tr-2a9fd4d80a.svg) |
 | MADINAH TV | ![Logo MADINAH TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/madinahtv.png) |
-| ABN TURKEY | ![Logo ABN TURKEY ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/abnturkey.png) |
+| ABN TURKEY | ![Logo ABN TURKEY ](https://i.ibb.co/ChhQT8b/Abn.png) |
 | Makkah TV | ![Logo Makkah TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/makkahtv.png) |
 
 ## INTERNACIONAIS (13)
@@ -1228,8 +1228,8 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Spacetoon Türkiye | ![Logo Spacetoon Türkiye ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/spacetoonturkiye.png) |
 | TRT Çocuk | ![Logo TRT Çocuk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/trt-cocuk-tr-43225604c7.svg) |
 | TRT Diyanet Çocuk | ![Logo TRT Diyanet Çocuk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/trtdiyanetcocuk.png) |
-| Zarok TV Kurmanji | ![Logo Zarok TV Kurmanji ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/zaroktvkurmanji.png) |
-| Zarok TV Sorani | ![Logo Zarok TV Sorani ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/zaroktvsorani.png) |
+| Zarok TV Kurmanji | ![Logo Zarok TV Kurmanji ](https://i.postimg.cc/g0fvZH6Q/Zarok-200.jpg) |
+| Zarok TV Sorani | ![Logo Zarok TV Sorani ](https://i.postimg.cc/g0fvZH6Q/Zarok-200.jpg) |
 | BabyFirst TV | ![Logo BabyFirst TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/babyfirsttv.png) |
 
 ## FILMES E SÉRIES (6)
@@ -1249,7 +1249,7 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 |---|---|
 | Çiftçi TV | ![Logo Çiftçi TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/ciftci-tv-tr-ac1e5d4e6e.svg) |
 | Luys TV | ![Logo Luys TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/luys-tv.svg) |
-| TRT EBA Ortaokul | ![Logo TRT EBA Ortaokul ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/trtebaortaokul.png) |
+| TRT EBA Ortaokul | ![Logo TRT EBA Ortaokul ](https://upload.wikimedia.org/wikipedia/commons/4/41/TRT_EBA_TV_Ortaokul_logo.svg) |
 | TV Karadeniz | ![Logo TV Karadeniz ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/tvkaradeniz.png) |
 
 ## MÚSICA (28)
@@ -1314,3 +1314,27 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 ## Pendências
 
 - **Kanal Ada** — a entrada atual de `Tv.m3u` continua sem atributo `tvg-logo`. A logo foi incluída na galeria a partir do endereço `https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-ada.svg`, associado ao canal Kanal Ada em uma playlist pública de referência que também identifica o fluxo `stream.tvcdn.net/yerel/kanal-ada.m3u8`. Fonte de conferência: https://github.com/erdodo/iptv/blob/main/tv.m3u8. A referência visual foi adicionada ao catálogo; a playlist principal não foi alterada.
+
+
+## Reposição das 14 logos ausentes — 20/11/2026
+
+As URLs abaixo substituem referências locais antigas que retornavam 404. Foram associadas às entradas com base na pesquisa de identidade visual e cruzamento de fontes. As duas versões Zarok compartilham a mesma imagem; Bloomberg HT 2 compartilha a marca Bloomberg HT, sem evidência de logo independente.
+
+| Canal | Fonte incorporada | Observação |
+|---|---|---|
+| AS TV | https://www.onlinetvplayer.com/images/logos/xwmjg5wy.png | Fonte candidata identificada na pesquisa; validar disponibilidade e identidade visual na conversão. |
+| Bloomberg HT 2 | https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bloomberg-ht-tr.png | Logo Bloomberg HT compartilhada; não foi localizada variante HT 2 independente. |
+| Flash Haber TV | https://upload.wikimedia.org/wikipedia/commons/2/23/Flash_haber_tv_2025.png | Fonte candidata identificada na pesquisa; validar disponibilidade e identidade visual na conversão. |
+| Bi Kanal | https://upload.wikimedia.org/wikipedia/commons/9/9e/Bi-kanal-logo.png | Fonte candidata identificada na pesquisa; validar disponibilidade e identidade visual na conversão. |
+| Kanal D Drama | https://www.onlinetvplayer.com/images/logos/4wndrkq1.png | Fonte candidata identificada na pesquisa; validar disponibilidade e identidade visual na conversão. |
+| Show TV | https://commons.wikimedia.org/wiki/Special:FilePath/Show%20TV%20logo.svg | Fonte candidata identificada na pesquisa; validar disponibilidade e identidade visual na conversão. |
+| Euro Star TV | https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/euro-star-tr.png | Fonte candidata identificada na pesquisa; validar disponibilidade e identidade visual na conversão. |
+| Ekol Sports | https://i.ibb.co/Y4tR1tTm/Ekolsports.jpg | Imagem de referência em JPG; manter a marca do canal. |
+| Kanal 26 Eskişehir | https://i.imgur.com/Mr7XPii.png | Fonte de lista M3U; correspondência visual a conferir. |
+| Kent Türk TV | https://i.imgur.com/FQKPjsm.png | Fonte candidata identificada na pesquisa; validar disponibilidade e identidade visual na conversão. |
+| ABN TURKEY | https://i.ibb.co/ChhQT8b/Abn.png | Fonte candidata identificada na pesquisa; validar disponibilidade e identidade visual na conversão. |
+| Zarok TV Kurmanji | https://i.postimg.cc/g0fvZH6Q/Zarok-200.jpg | Imagem compartilhada para as versões Kurmanji e Sorani. |
+| Zarok TV Sorani | https://i.postimg.cc/g0fvZH6Q/Zarok-200.jpg | Imagem compartilhada para as versões Kurmanji e Sorani. |
+| TRT EBA Ortaokul | https://upload.wikimedia.org/wikipedia/commons/4/41/TRT_EBA_TV_Ortaokul_logo.svg | Fonte candidata identificada na pesquisa; validar disponibilidade e identidade visual na conversão. |
+
+Pendente: Dost (canal musical). A imagem de Dost TV é de uma emissora religiosa distinta e não foi associada. O endereço anterior permanece sem substituição até surgir uma fonte inequívoca. A playlist não deve receber a logo religiosa por engano.
