@@ -7,7 +7,7 @@ https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
 #EXTINF:-1 tvg-name="A Spor (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A-Spor-90983d0fe6.svg" group-title="ESPORTES",A Spor (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
-#EXTINF:-1 tvg-name="A2TV (1080p)" group-title="ENTRETENIMENTO",A2TV (1080p)
+#EXTINF:-1 tvg-name="A2TV (1080p)" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A2-da0caad468.svg",A2TV (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 #EXTINF:-1 tvg-name="AFN Music Iran" group-title="MÚSICA",AFN Music Iran
 https://bozztv.com/1gbw5/tintv2/tintv2/chunklist.m3u8
@@ -27,21 +27,21 @@ https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 https://starmenajo.com/hls/almahriah/index.m3u8
 #EXTINF:-1 tvg-name="Altas TV (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Altas-TV-6f46a908b5.svg" group-title="REGIONAIS",Altas TV (1080p)
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="Anadolu Net TV (1080p)" group-title="REGIONAIS",Anadolu Net TV (1080p)
+#EXTINF:-1 tvg-name="Anadolu Net TV (1080p)" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Anadolu-TV-fc2e70f890.svg",Anadolu Net TV (1080p)
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
-#EXTINF:-1 tvg-name="BRTV (720p)" group-title="REGIONAIS",BRTV (720p)
+#EXTINF:-1 tvg-name="BRTV (720p)" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/BRTV-Karab-k-19c00a9ed3.svg",BRTV (720p)
 https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
 #EXTINF:-1 tvg-name="Bloomberg HT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Bloomberg-HT-81dc6c32e8.svg" group-title="NOTÍCIAS",Bloomberg HT
 http://ciner.daioncdn.net/bloomberght/bloomberght_720p.m3u8
 #EXTINF:-1 tvg-name="Bloomberg HT (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Bloomberg-HT-81dc6c32e8.svg" group-title="NOTÍCIAS",Bloomberg HT (720p)
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
-#EXTINF:-1 tvg-name="Bursa AS TV (900p)" group-title="REGIONAIS",Bursa AS TV (900p)
+#EXTINF:-1 tvg-name="Bursa AS TV (900p)" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/AS-TV-ba259ef4c0.svg",Bursa AS TV (900p)
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 #EXTINF:-1 tvg-name="CNBC-e" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/CNBC-e-19e4621c78.svg" group-title="NOTÍCIAS",CNBC-e
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTINF:-1 tvg-name="CNN Türk (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/CNN-T-rk-47c65fa5f7.svg" group-title="NOTÍCIAS",CNN Türk (1080p)
 http://85.117.61.84/cnnturk/index.m3u8
-#EXTINF:-1 tvg-name="Cartoon Network" group-title="INFANTIS",Cartoon Network
+#EXTINF:-1 tvg-name="Cartoon Network" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Cartoon-Network-T-rkiye-324689c23a.svg",Cartoon Network
 http://176.65.153.40:6002/play/a013/index.m3u8
 #EXTINF:-1 tvg-name="Çay TV (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ay-TV-47cc465b92.svg" group-title="REGIONAIS",Çay TV (720p)
 https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
@@ -71,7 +71,7 @@ https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 https://canli.edessatv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Ekotürk (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Ekot-rk-1a28889d52.svg" group-title="NOTÍCIAS",Ekotürk (720p)
 https://cdn.ekoturk.net/hls/master.m3u8
-#EXTINF:-1 tvg-name="Er TV (1080p)" group-title="REGIONAIS",Er TV (1080p)
+#EXTINF:-1 tvg-name="Er TV (1080p)" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ER-TV-Malatya-df3219d403.svg",Er TV (1080p)
 https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
 #EXTINF:-1 tvg-name="Euro D (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/EURO-D-d515a06920.svg" group-title="INTERNACIONAIS",Euro D (720p)
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
@@ -101,7 +101,7 @@ https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ppid=675956db19f9bb686edda21d15d911e8&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch
 #EXTINF:-1 tvg-name="HT Spor TV — link 3" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/HT-Spor-TV-8e7fc9bfba.svg" group-title="ESPORTES",HT Spor TV — link 3
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch&ppid=675956db19f9bb686edda21d15d911e8
-#EXTINF:-1 tvg-name="Haber 61 (alternativo)" group-title="REGIONAIS",Haber 61 (alternativo)
+#EXTINF:-1 tvg-name="Haber 61 (alternativo)" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Haber61-TV-21c82b8d9d.svg",Haber 61 (alternativo)
 https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Halk TV (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Halk-TV-9a4f7a85b3.svg" group-title="NOTÍCIAS",Halk TV (1080p)
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
@@ -121,13 +121,13 @@ https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/k
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 #EXTINF:-1 tvg-name="Kanal 23 (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-23-f17a6df79c.svg" group-title="REGIONAIS",Kanal 23 (720p)
 https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
-#EXTINF:-1 tvg-name="Kanal 26 (720p)" group-title="REGIONAIS",Kanal 26 (720p)
+#EXTINF:-1 tvg-name="Kanal 26 (720p)" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-26-Eski-ehir-883f7baa43.svg",Kanal 26 (720p)
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 #EXTINF:-1 tvg-name="Kanal 3 (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-3-c58d44f295.svg" group-title="REGIONAIS",Kanal 3 (1080p)
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 #EXTINF:-1 tvg-name="Kanal 33 (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-33-b20781cd6d.svg" group-title="REGIONAIS",Kanal 33 (720p)
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="Kanal 7 (576p)" group-title="RELIGIOSOS",Kanal 7 (576p)
+#EXTINF:-1 tvg-name="Kanal 7 (576p)" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-7-Avrupa-d5dfb0954a.svg",Kanal 7 (576p)
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 #EXTINF:-1 tvg-name="Kanal 7 Avrupa (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-7-Avrupa-d5dfb0954a.svg" group-title="INTERNACIONAIS",Kanal 7 Avrupa (720p)
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
@@ -173,7 +173,7 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 #EXTINF:-1 tvg-name="NOW (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NOW-f48aed7a7c.svg" group-title="ENTRETENIMENTO",NOW (720p)
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
-#EXTINF:-1 tvg-name="NOW TV (720p) alternativo" group-title="ENTRETENIMENTO",NOW TV (720p) alternativo
+#EXTINF:-1 tvg-name="NOW TV (720p) alternativo" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NOW-f48aed7a7c.svg",NOW TV (720p) alternativo
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NTV-696b247b98.svg" group-title="NOTÍCIAS",NTV
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
@@ -183,9 +183,9 @@ https://saran-live.ercdn.net/natgeohd/index.m3u8
 https://saran-live.ercdn.net/natgeowild/index.m3u8
 #EXTINF:-1 tvg-name="Natural TV (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Natural-TV-df2d193ef6.svg" group-title="REGIONAIS",Natural TV (720p)
 https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="Number 1 Damar" group-title="MÚSICA",Number 1 Damar
+#EXTINF:-1 tvg-name="Number 1 Damar" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NR1-Damar-732ff20a62.svg",Number 1 Damar
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
-#EXTINF:-1 tvg-name="Number 1 Dance" group-title="MÚSICA",Number 1 Dance
+#EXTINF:-1 tvg-name="Number 1 Dance" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NR1-Dance-66218a0424.svg",Number 1 Dance
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
 #EXTINF:-1 tvg-name="Number 1 TV (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Number-1-TV-97e9925342.svg" group-title="MÚSICA",Number 1 TV (720p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
@@ -195,9 +195,9 @@ https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
 https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8
 #EXTINF:-1 tvg-name="Persiana Türkiye" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Persiana-T-rkiye-bcaa252746.svg" group-title="INTERNACIONAIS",Persiana Türkiye
 https://turkhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name="Power Dance (1080p)" group-title="MÚSICA",Power Dance (1080p)
+#EXTINF:-1 tvg-name="Power Dance (1080p)" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Power-Dance-TV-e047dbea01.svg",Power Dance (1080p)
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Power Love (1080p)" group-title="MÚSICA",Power Love (1080p)
+#EXTINF:-1 tvg-name="Power Love (1080p)" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Power-Love-TV-c88144da89.svg",Power Love (1080p)
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Power TV (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Power-TV-720p-55507889e6.svg" group-title="MÚSICA",Power TV (720p)
 https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
@@ -225,7 +225,7 @@ https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 #EXTINF:-1 tvg-name="Sözcü TV (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/S-zc-TV-c615554bf1.svg" group-title="NOTÍCIAS",Sözcü TV (1080p)
 https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8
-#EXTINF:-1 tvg-name="Spacetoon Turkey (720p)" group-title="INFANTIS",Spacetoon Turkey (720p)
+#EXTINF:-1 tvg-name="Spacetoon Turkey (720p)" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Spacetoon-T-rkiye-8d86d1dad0.svg",Spacetoon Turkey (720p)
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 #EXTINF:-1 tvg-name="Star TV (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Star-TV-9a953173d0.svg" group-title="ENTRETENIMENTO",Star TV (720p)
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
@@ -251,11 +251,11 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 https://cdn.pishow.tv/ott/live/266/master.m3u8
 #EXTINF:-1 tvg-name="TRT World — link 2" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-World-9383987b9a.svg" group-title="INTERNACIONAIS",TRT World — link 2
 https://fta.ektv.in/live/416/master.m3u8
-#EXTINF:-1 tvg-name="TV 24 (720p)" group-title="NOTÍCIAS",TV 24 (720p)
+#EXTINF:-1 tvg-name="TV 24 (720p)" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/24-TV-9175c1becd.svg",TV 24 (720p)
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 #EXTINF:-1 tvg-name="TV 264 (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-264-e60d7f8e86.svg" group-title="REGIONAIS",TV 264 (1080p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="TV 264 Sakarya" group-title="REGIONAIS",TV 264 Sakarya
+#EXTINF:-1 tvg-name="TV 264 Sakarya" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-264-e60d7f8e86.svg",TV 264 Sakarya
 https://mc1.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 41 (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-41-0144e5a341.svg" group-title="REGIONAIS",TV 41 (720p)
 https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
@@ -273,13 +273,13 @@ https://teve2vod.duhnet.tv/S12/HLS_VOD/382843_2e5b/index.m3u8
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
 #EXTINF:-1 tvg-name="Ton TV (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Ton-TV-8bb0657442.svg" group-title="REGIONAIS",Ton TV (720p)
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
-#EXTINF:-1 tvg-name="Trabzon Büyükşehir TV (1080p)" group-title="REGIONAIS",Trabzon Büyükşehir TV (1080p)
+#EXTINF:-1 tvg-name="Trabzon Büyükşehir TV (1080p)" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Trabzon-Buyuksehir-Belediyesi-TV-cec83e2a9c.svg",Trabzon Büyükşehir TV (1080p)
 https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
 #EXTINF:-1 tvg-name="Türksat Tanıtım (1080p)" group-title="INTERNACIONAIS",Türksat Tanıtım (1080p)
 http://176.65.153.26:6004/play/a02s/index.m3u8
 #EXTINF:-1 tvg-name="TürkHaber (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/T-rkHaber-a3fe403cd3.svg" group-title="NOTÍCIAS",TürkHaber (720p)
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="Urfanatik TV Yedek (backup)" group-title="REGIONAIS",Urfanatik TV Yedek (backup)
+#EXTINF:-1 tvg-name="Urfanatik TV Yedek (backup)" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Urfanatik-TV-b0307ae1bd.svg",Urfanatik TV Yedek (backup)
 https://edge1.socialsmart.tv/urfanatiktv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-name="Urfa Natik TV (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Urfanatik-TV-b0307ae1bd.svg" group-title="REGIONAIS",Urfa Natik TV (720p)
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
@@ -293,7 +293,7 @@ https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Vuslat TV (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Vuslat-TV-335636f0b4.svg" group-title="REGIONAIS",Vuslat TV (720p)
 https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
-#EXTINF:-1 tvg-name="Zarok TV (720p)" group-title="INFANTIS",Zarok TV (720p)
+#EXTINF:-1 tvg-name="Zarok TV (720p)" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Zarok-TV-Kurmanji-829b26763d.svg",Zarok TV (720p)
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-name="beIN Sports 1 Turk" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/beIN-Sports-1-Turk-41f8e9ccb6.svg" group-title="ESPORTES",beIN Sports 1 Turk
 http://57.129.0.61:1990/stream/117/index.m3u8
