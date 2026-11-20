@@ -2,6 +2,11 @@ name: Monitoramento seguro dos canais
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - github/workflows/atualizar-logos.yml
+    paths:
+      - .github/workflows/monitorar-canais.yml
   schedule:
     - cron: "17 */6 * * *"
 
