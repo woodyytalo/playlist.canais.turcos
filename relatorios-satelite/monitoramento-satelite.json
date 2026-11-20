@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T16:06:03+00:00",
+  "generated_at_utc": "2026-11-20T16:08:45+00:00",
   "source_url": "https://tr.canlitv.watch/frekans-bilgileri",
   "source_check": {
     "ok": true,
@@ -9,10 +9,11 @@
     "table_rows": 211,
     "unique_channels": 211,
     "expected_channels": 211,
-    "pending_verification": 85,
+    "pending_verification": 78,
     "channels_with_multiple_transponders": 0,
     "satellites": {
-      "Türksat 4A": 99,
+      "Eutelsat 7 West A": 1,
+      "Türksat 4A": 105,
       "Türksat 4A / Türksat 5B": 2,
       "Türksat 4A / Türksat 6A": 3,
       "Türksat 5B": 11,
@@ -36,16 +37,6 @@
       "number": 11,
       "channel": "Alanya Posta TV",
       "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 12,
-      "channel": "Almahriah TV",
-      "category": "INTERNACIONAIS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",
@@ -116,16 +107,6 @@
       "number": 34,
       "channel": "Dim TV",
       "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 36,
-      "channel": "Diyar TV",
-      "category": "RELIGIOSOS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",
@@ -343,16 +324,6 @@
       "fec": "—"
     },
     {
-      "number": 90,
-      "channel": "Kent Türk TV",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 92,
       "channel": "Konya KTV",
       "category": "REGIONAIS",
@@ -493,26 +464,6 @@
       "fec": "—"
     },
     {
-      "number": 121,
-      "channel": "Spacetoon Türkiye",
-      "category": "INFANTIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 130,
-      "channel": "Ton TV",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 142,
       "channel": "NR1 Fashion One",
       "category": "MÚSICA",
@@ -525,16 +476,6 @@
     {
       "number": 164,
       "channel": "Natural TV",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 166,
-      "channel": "TBMM TV",
       "category": "REGIONAIS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
@@ -626,16 +567,6 @@
       "number": 179,
       "channel": "Arzu Film",
       "category": "FILMES E SÉRIES",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 180,
-      "channel": "Ekol Sports",
-      "category": "ESPORTES",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",

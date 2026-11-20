@@ -1,6 +1,6 @@
 # Auditoria de frequencias via satelite
 
-- Gerado em UTC: 2026-11-20T16:06:03+00:00
+- Gerado em UTC: 2026-11-20T16:08:45+00:00
 - Arquivo: dados-satelite/ANOTACAO-CANAIS-FREQUENCIAS.md
 - Fonte: https://tr.canlitv.watch/frekans-bilgileri
 - Resposta HTTP da fonte: OK
@@ -9,7 +9,7 @@
 
 - Linhas de transponder: **211**
 - Canais unicos: **211** (esperado: 211)
-- Canais A verificar: **85**
+- Canais A verificar: **78**
 - Canais com multiplos transponders: **0**
 - Entradas confirmadas com campos invalidos: **45**
 
@@ -17,7 +17,8 @@
 
 | Satelite | Linhas |
 |---|---:|
-| Türksat 4A | 99 |
+| Eutelsat 7 West A | 1 |
+| Türksat 4A | 105 |
 | Türksat 4A / Türksat 5B | 2 |
 | Türksat 4A / Türksat 6A | 3 |
 | Türksat 5B | 11 |
@@ -30,7 +31,6 @@
 |---:|---|---|
 | 4 | 4U TV | ENTRETENIMENTO |
 | 11 | Alanya Posta TV | REGIONAIS |
-| 12 | Almahriah TV | INTERNACIONAIS |
 | 14 | Anadolu TV | REGIONAIS |
 | 15 | ARAS TV | REGIONAIS |
 | 18 | ATV Alanya | REGIONAIS |
@@ -38,7 +38,6 @@
 | 32 | Deniz Postası TV | REGIONAIS |
 | 33 | DHA | NOTÍCIAS |
 | 34 | Dim TV | REGIONAIS |
-| 36 | Diyar TV | RELIGIOSOS |
 | 38 | 1Mus | MÚSICA |
 | 39 | 30A Music | MÚSICA |
 | 44 | Elsharq TV | INTERNACIONAIS |
@@ -60,7 +59,6 @@
 | 85 | Kanal D Drama | ENTRETENIMENTO |
 | 88 | Kay TV | REGIONAIS |
 | 89 | Kayhan TV | REGIONAIS |
-| 90 | Kent Türk TV | REGIONAIS |
 | 92 | Konya KTV | REGIONAIS |
 | 93 | Konya Olay TV | REGIONAIS |
 | 95 | Life TV | NOTÍCIAS |
@@ -75,11 +73,8 @@
 | 111 | Power Dance TV | MÚSICA |
 | 112 | Power Love TV | MÚSICA |
 | 114 | MUKABELE TV | RELIGIOSOS |
-| 121 | Spacetoon Türkiye | INFANTIS |
-| 130 | Ton TV | REGIONAIS |
 | 142 | NR1 Fashion One | MÚSICA |
 | 164 | Natural TV | REGIONAIS |
-| 166 | TBMM TV | REGIONAIS |
 | 169 | Tabii | FILMES E SÉRIES |
 | 172 | Syria TV | INTERNACIONAIS |
 | 173 | Balkan Türk | INTERNACIONAIS |
@@ -89,7 +84,6 @@
 | 177 | RTG International | INTERNACIONAIS |
 | 178 | Kanal Ada | REGIONAIS |
 | 179 | Arzu Film | FILMES E SÉRIES |
-| 180 | Ekol Sports | ESPORTES |
 | 182 | Trabzon Buyuksehir Belediyesi TV | REGIONAIS |
 | 183 | Urfanatik TV | REGIONAIS |
 | 184 | MADINAH TV | RELIGIOSOS |
