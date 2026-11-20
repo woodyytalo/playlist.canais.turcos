@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/K
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kurtar_Vadisi_Pusu.m3u
 #EXTINF:-1 tvg-name="Euro Star TV" group-title="Internacionais",Euro Star TV
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
-#EXTINF:-1 tvg-name="Kanal 7 Avrupa" group-title="Internacionais",Kanal 7 Avrupa
+#EXTINF:-1 tvg-id="Kanal7.tr" tvg-name="Kanal 7 Avrupa" group-title="Internacionais",Kanal 7 Avrupa
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_7_Avrupa.m3u
 #EXTINF:-1 tvg-id="55758" tvg-name="Euro D" group-title="Internacionais",Kanal Euro D
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_Euro_D.m3u
