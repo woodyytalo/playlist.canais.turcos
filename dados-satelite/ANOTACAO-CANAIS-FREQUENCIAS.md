@@ -3,7 +3,7 @@
 - **Base:** `Tv.m3u` da branch `github/workflows/atualizar-logos.yml`.
 - **Escopo:** os 211 canais presentes na playlist, preservando a ordem e a categoria.
 - **Fonte dos parâmetros:** [CanliTV — Uydu Frekans Bilgileri](https://tr.canlitv.watch/frekans-bilgileri).
-- **Atualização da fonte consultada:** novembro de 2026.
+- **Atualização da fonte consultada:** 20 de novembro de 2026.
 - **Campos:** satélite, frequência (MHz), polarização, SR (kS/s) e FEC.
 - **Importante:** os dados abaixo são correspondências identificadas na tabela de frequências do CanliTV. Canal sem correspondência confirmada fica como **A verificar**; isso não significa que não transmita por satélite. Vários canais da playlist podem ser exclusivamente IPTV ou ter parâmetros publicados em outras fontes.
 - A lista do CanliTV é de canais presentes nos satélites Türksat; não se deve inferir que todos os canais da playlist estejam disponíveis por satélite.
@@ -153,8 +153,9 @@
 | 129 | TJK TV | ESPORTES | A verificar | — | — | — | — |
 | 130 | Ton TV | REGIONAIS | A verificar | — | — | — | — |
 | 131 | TRT 1 | ENTRETENIMENTO | Türksat 4A | 11794 | V | 30000 | 3/4 |
-| 132 | TRT Arabi | TRT | A verificar | — | — | — | — |
-| 133 | TRT Avaz | TRT | A verificar | — | — | — | — |
+| 132 | TRT Arabi | TRT | Türksat 4A | 12092 | H | 27500 | 5/6 |
+| 133 | TRT Avaz | TRT | Türksat 4A | 11958 | V | 27500 | 5/6 |
+| 133 | TRT Avaz | TRT | Türksat 4A | 12092 | H | 27500 | 5/6 |
 | 134 | TRT Çocuk | INFANTIS | Türksat 4A | 12092 | H | 27500 | 5/6 |
 | 134 | TRT Çocuk | INFANTIS | Türksat 4A | 11794 | V | 30000 | 3/4 |
 | 135 | TRT Diyanet Çocuk | INFANTIS | Türksat 4A | 11794 | V | 30000 | 3/4 |
@@ -182,27 +183,28 @@
 | 148 | TV 41 | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 149 | TV 52 | REGIONAIS | Türksat 4A | 11996 | V | 27500 | 3/4 |
 | 150 | TV DEN | REGIONAIS | Türksat 4A | 11996 | V | 27500 | 3/4 |
-| 151 | TV Karadeniz | CULTURA/EDUCAÇÃO | A verificar | — | — | — | — |
+| 151 | TV Karadeniz | CULTURA/EDUCAÇÃO | Türksat 4A | 12458 | V | 30000 | 2/3 |
 | 152 | TV100 | NOTÍCIAS | Türksat 5B | 11225 | V | 30000 | 3/4 |
 | 153 | TV4 | ESTILO DE VIDA | Türksat 4A | 11862 | V | 16666 | 2/3 |
 | 154 | TV5 | NOTÍCIAS | Türksat 5B | 11225 | V | 30000 | 3/4 |
 | 155 | TV8 | ENTRETENIMENTO | Türksat 4A | 11901 | V | 12500 | 3/4 |
-| 156 | TVNET | NOTÍCIAS | A verificar | — | — | — | — |
+| 156 | TVNET | NOTÍCIAS | Türksat 5B | 11225 | V | 30000 | 3/4 |
 | 157 | Vuslat TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
-| 158 | Ülke TV | NOTÍCIAS | A verificar | — | — | — | — |
-| 159 | Vav TV | RELIGIOSOS | A verificar | — | — | — | — |
-| 160 | Zarok TV Kurmanji | INFANTIS | A verificar | — | — | — | — |
-| 161 | Zarok TV Sorani | INFANTIS | A verificar | — | — | — | — |
-| 162 | Euro Star TV | ENTRETENIMENTO | A verificar | — | — | — | — |
+| 158 | Ülke TV | NOTÍCIAS | Türksat 4A | 12458 | H | 27500 | 2/3 |
+| 158 | Ülke TV | NOTÍCIAS | Türksat 6A | 12111 | V | 27500 | 3/4 |
+| 159 | Vav TV | RELIGIOSOS | Türksat 4A | 12207 | H | 27500 | 3/4 |
+| 160 | Zarok TV Kurmanji | INFANTIS | Türksat 6A | 12111 | V | 27500 | 3/4 |
+| 161 | Zarok TV Sorani | INFANTIS | Türksat 6A | 12111 | V | 27500 | 3/4 |
+| 162 | Euro Star TV | ENTRETENIMENTO | Türksat 6A | 12111 | V | 27500 | 3/4 |
 | 163 | Sözcü TV | NOTÍCIAS | Türksat 6A | 12111 | V | 27500 | 3/4 |
 | 164 | Natural TV | REGIONAIS | A verificar | — | — | — | — |
 | 165 | Sun RTV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 166 | TBMM TV | REGIONAIS | A verificar | — | — | — | — |
-| 167 | Van 65 TV | REGIONAIS | A verificar | — | — | — | — |
+| 167 | Van 65 TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 168 | PowerTürk TV | MÚSICA | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 169 | Tabii | FILMES E SÉRIES | A verificar | — | — | — | — |
 | 170 | BBC First Türkiye | FILMES E SÉRIES | A verificar | — | — | — | — |
-| 171 | Ekol TV | NOTÍCIAS | A verificar | — | — | — | — |
+| 171 | Ekol TV | NOTÍCIAS | Türksat 4A | 12345 | V | 30000 | 2/3 |
 | 172 | Syria TV | INTERNACIONAIS | A verificar | — | — | — | — |
 | 173 | Balkan Türk | INTERNACIONAIS | A verificar | — | — | — | — |
 | 174 | Thaqalayn TV | INTERNACIONAIS | A verificar | — | — | — | — |
@@ -219,7 +221,7 @@
 | 185 | MC EU TV | INTERNACIONAIS | A verificar | — | — | — | — |
 | 186 | Persiana Türkiye | INTERNACIONAIS | Türksat 4A | 12458 | H | 27500 | 2/3 |
 | 187 | BabyFirst TV | INFANTIS | A verificar | — | — | — | — |
-| 188 | TLC | DOCUMENTÁRIOS | A verificar | — | — | — | — |
+| 188 | TLC | DOCUMENTÁRIOS | Türksat 4A | 12015 | H | 27500 | 3/4 |
 | 189 | Love Nature | DOCUMENTÁRIOS | Türksat 4A | 12245 | H | 27500 | 5/6 |
 | 190 | ETV Manisa | REGIONAIS | A verificar | — | — | — | — |
 | 191 | Dizi TV | FILMES E SÉRIES | A verificar | — | — | — | — |
