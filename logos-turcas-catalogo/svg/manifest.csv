@@ -1,0 +1,420 @@
+source_url,svg_file,status,details
+https://commons.wikimedia.org/wiki/Special:FilePath/Atv%20logo%202010.svg,,error,UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x794b74f293a0>
+https://commons.wikimedia.org/wiki/Special:FilePath/Bloomberg%20HT%20logo.svg,,error,UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x794b74f0ffb0>
+https://commons.wikimedia.org/wiki/Special:FilePath/CNN%20T%C3%BCrk%20logo.svg,,error,UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x794b74f294e0>
+https://commons.wikimedia.org/wiki/Special:FilePath/Diyanet%20TV%20logo.svg,,error,HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://upload.wikimedia.org/wikipedia/commons/4/43/Diyanet_TV_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+https://commons.wikimedia.org/wiki/Special:FilePath/Habert%C3%BCrk%20TV%20logo.svg,,error,HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://upload.wikimedia.org/wikipedia/commons/f/f2/Habert%C3%BCrk_TV_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+https://commons.wikimedia.org/wiki/Special:FilePath/NTV%20(Turkey,,error,HTTPError: 404 Client Error: Not Found for url: https://commons.wikimedia.org/wiki/Special:Redirect/file/NTV_(Turkey
+https://commons.wikimedia.org/wiki/Special:FilePath/Show%20TV%20logo.svg,,error,HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Show_TV_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+https://commons.wikimedia.org/wiki/Special:FilePath/TRT%201%20logo%20(2021-,,error,HTTPError: 404 Client Error: Not Found for url: https://commons.wikimedia.org/wiki/Special:Redirect/file/TRT_1_logo_(2021-
+https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c085866ac31da06187cd,,error,"ConnectionError: HTTPSConnectionPool(host='blutv-images.mncdn.com', port=443): Max retries exceeded with url: /q/t/i/bluv2/100/750x750/5dc2c085866ac31da06187cd (Caused by NameResolutionError(""HTTPSConnection(host='blutv-images.mncdn.com', port=443): Failed to resolve 'blutv-images.mncdn.com' ([Errno -2] Name or service not known)""))"
+https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6,,error,"ConnectionError: HTTPSConnectionPool(host='blutv-images.mncdn.com', port=443): Max retries exceeded with url: /q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6 (Caused by NameResolutionError(""HTTPSConnection(host='blutv-images.mncdn.com', port=443): Failed to resolve 'blutv-images.mncdn.com' ([Errno -2] Name or service not known)""))"
+http://assets.tvcdn.net/61431fea-4103-46a3-9f8c-aad1504b9776.png,,error,"ConnectionError: HTTPConnectionPool(host='assets.tvcdn.net', port=80): Max retries exceeded with url: /61431fea-4103-46a3-9f8c-aad1504b9776.png (Caused by NameResolutionError(""HTTPConnection(host='assets.tvcdn.net', port=80): Failed to resolve 'assets.tvcdn.net' ([Errno -2] Name or service not known)""))"
+https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/12382043.png,12382043-fcc6a37545.svg,vetorizado,PNG 750x750
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/24-tr.png,24-tr-6c8ffebcb1.svg,vetorizado,PNG 512x530
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/360-tr.png,360-tr-94cc53e4c2.svg,vetorizado,PNG 512x417
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/4-eylul-tr.png,4-eylul-tr-0392359df0.svg,vetorizado,PNG 512x133
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-haber-tr.png,a-haber-tr-afc99b5484.svg,vetorizado,PNG 512x581
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-news-tr.png,a-news-tr-e751795059.svg,vetorizado,PNG 512x539
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-para-tr.png,a-para-tr-554f2e296a.svg,vetorizado,PNG 512x540
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-spor-tr.png,a-spor-tr-a909d55490.svg,vetorizado,PNG 512x581
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a2-tr.png,a2-tr-73490be5f4.svg,vetorizado,PNG 512x705
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ada-tv-tr.png,ada-tv-tr-49f7dcd07d.svg,vetorizado,PNG 512x390
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/agro-tv-tr.png,agro-tv-tr-3bdfcb53c4.svg,vetorizado,PNG 512x123
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/akit-tv-tr.png,akit-tv-tr-62be789511.svg,vetorizado,PNG 512x132
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/aksu-tv-tr.png,aksu-tv-tr-41a97bb2ae.svg,vetorizado,PNG 512x421
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/altas-tv-tr.png,altas-tv-tr-2c1a3838b8.svg,vetorizado,PNG 512x383
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/anadolu-dernek-tr.png,anadolu-dernek-tr-be0df7dd35.svg,vetorizado,PNG 512x173
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-avrupa-tr.png,atv-avrupa-tr-9787305275.svg,vetorizado,PNG 512x407
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png,atv-tr-0ff6d6098d.svg,vetorizado,PNG 512x482
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bahar-turk-tr.png,bahar-turk-tr-eb96f3cb5a.svg,vetorizado,PNG 512x191
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bbn-turk-tr.png,bbn-turk-tr-947d94802b.svg,vetorizado,PNG 512x92
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-box-office-1-hz-tr.png,bein-box-office-1-hz-tr-49ef1738d7.svg,vetorizado,PNG 512x63
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-box-office-1-tr.png,bein-box-office-1-tr-24adbd69f0.svg,vetorizado,PNG 512x262
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-box-office-2-hz-tr.png,bein-box-office-2-hz-tr-cbcb86a474.svg,vetorizado,PNG 512x63
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-box-office-2-tr.png,bein-box-office-2-tr-0b6ea4c39a.svg,vetorizado,PNG 512x262
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-box-office-3-hz-tr.png,bein-box-office-3-hz-tr-a147cc9b62.svg,vetorizado,PNG 512x63
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-box-office-3-tr.png,bein-box-office-3-tr-80e48fbf69.svg,vetorizado,PNG 512x262
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-gurme-hd-hz-tr.png,bein-gurme-hd-hz-tr-e9b17498f8.svg,vetorizado,PNG 512x74
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-gurme-hd-tr.png,bein-gurme-hd-tr-68820fe28f.svg,vetorizado,PNG 512x262
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-h-and-e-hd-hz-tr.png,bein-h-and-e-hd-hz-tr-10d9e1be8a.svg,vetorizado,PNG 512x74
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-h-and-e-hd-tr.png,bein-h-and-e-hd-tr-b1a684ab30.svg,vetorizado,PNG 512x262
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-hd-tr.png,bein-hd-tr-99d831d409.svg,vetorizado,PNG 512x130
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-iz-hd-hz-tr.png,bein-iz-hd-hz-tr-1f2d25fa7e.svg,vetorizado,PNG 512x74
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-iz-hd-tr.png,bein-iz-hd-tr-6e2cd8a831.svg,vetorizado,PNG 512x262
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-action-2-hd-hz-tr.png,bein-movies-action-2-hd-hz-tr-e867fef4a4.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-action-2-hd-tr.png,bein-movies-action-2-hd-tr-44a0fb16fe.svg,vetorizado,PNG 512x325
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-action-hd-hz-tr.png,bein-movies-action-hd-hz-tr-57e72d8a2b.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-action-hd-tr.png,bein-movies-action-hd-tr-7a05588ba5.svg,vetorizado,PNG 512x325
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-family-hd-hz-tr.png,bein-movies-family-hd-hz-tr-49fe702cef.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-family-hd-tr.png,bein-movies-family-hd-tr-2ff9cd9571.svg,vetorizado,PNG 512x324
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-premiere-2-hd-hz-tr.png,bein-movies-premiere-2-hd-hz-tr-94e327ebe0.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-premiere-2-hd-tr.png,bein-movies-premiere-2-hd-tr-e9e7c27354.svg,vetorizado,PNG 512x324
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-premiere-hd-hz-tr.png,bein-movies-premiere-hd-hz-tr-e7a3817bfd.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-premiere-hd-tr.png,bein-movies-premiere-hd-tr-3992be0e7f.svg,vetorizado,PNG 512x324
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-stars-hd-hz-tr.png,bein-movies-stars-hd-hz-tr-64949565f7.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-stars-hd-tr.png,bein-movies-stars-hd-tr-0d38d9b425.svg,vetorizado,PNG 512x325
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-turk-hd-hz-tr.png,bein-movies-turk-hd-hz-tr-fc353139fc.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-movies-turk-hd-tr.png,bein-movies-turk-hd-tr-aa1bcd3927.svg,vetorizado,PNG 512x325
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-series-comedy-hd-hz-tr.png,bein-series-comedy-hd-hz-tr-a932b05a06.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-series-comedy-hd-tr.png,bein-series-comedy-hd-tr-b3d69d980c.svg,vetorizado,PNG 512x325
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-series-drama-hd-hz-tr.png,bein-series-drama-hd-hz-tr-14783124b0.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-series-drama-hd-tr.png,bein-series-drama-hd-tr-022bc66f27.svg,vetorizado,PNG 512x325
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-series-sci-fi-hd-hz-tr.png,bein-series-sci-fi-hd-hz-tr-b4dc0fc8ac.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-series-sci-fi-hd-tr.png,bein-series-sci-fi-hd-tr-1051cd77c1.svg,vetorizado,PNG 512x325
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-series-vice-hd-hz-tr.png,bein-series-vice-hd-hz-tr-4d2e1cb675.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-series-vice-hd-tr.png,bein-series-vice-hd-tr-f4959ecaed.svg,vetorizado,PNG 512x325
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-haber-hz-tr.png,bein-sports-haber-hz-tr-eb8d67cda2.svg,vetorizado,PNG 512x64
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-haber-tr.png,bein-sports-haber-tr-1fe89ca27d.svg,vetorizado,PNG 512x443
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bengu-turk-tr.png,bengu-turk-tr-df28759989.svg,vetorizado,PNG 512x344
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/berat-tv-tr.png,berat-tv-tr-57d478028c.svg,vetorizado,PNG 512x118
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png,beyaz-tv-tr-db1ed61595.svg,vetorizado,PNG 512x164
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beykent-tv-tr.png,beykent-tv-tr-4503c59c78.svg,vetorizado,PNG 512x101
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bizimev-tv-tr.png,bizimev-tv-tr-773bfb309d.svg,vetorizado,PNG 512x205
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bloomberg-ht-tr.png,bloomberg-ht-tr-5043c40214.svg,vetorizado,PNG 512x131
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/brt-1-hd-tr.png,brt-1-hd-tr-1ccc8d3d5c.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/brt-1-tr.png,brt-1-tr-822733093f.svg,vetorizado,PNG 512x166
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/brt-2-hd-tr.png,brt-2-hd-tr-3fed55dda2.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/brt-2-tr.png,brt-2-tr-410603814a.svg,vetorizado,PNG 512x166
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/brt-3-tr.png,brt-3-tr-161b40c0eb.svg,vetorizado,PNG 512x166
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/brtv-tr.png,brtv-tr-e91e9891f3.svg,vetorizado,PNG 512x254
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bursaspor-tv-tr.png,bursaspor-tv-tr-dd7f0ff2b2.svg,vetorizado,PNG 512x110
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cay-tv-tr.png,cay-tv-tr-ea28c9051f.svg,vetorizado,PNG 512x193
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cem-tv-tr.png,cem-tv-tr-91181cf9dd.svg,vetorizado,PNG 512x307
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ciftci-tv-tr.png,ciftci-tv-tr-ac1e5d4e6e.svg,vetorizado,PNG 512x389
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cnbc-e-tr.png,cnbc-e-tr-07bac24fc2.svg,vetorizado,PNG 512x119
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cnn-turk-tr.png,cnn-turk-tr-4b24f7fc71.svg,vetorizado,PNG 512x404
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cocuk-smart-hd-tr.png,cocuk-smart-hd-tr-618857f41a.svg,vetorizado,PNG 512x102
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cocuk-smart-tr.png,cocuk-smart-tr-b6c8f220ce.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/disney-channel-tr.png,disney-channel-tr-0c239290c3.svg,vetorizado,PNG 512x224
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/diyanet-tv-tr.png,diyanet-tv-tr-781c463071.svg,vetorizado,PNG 512x122
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/diyar-tv-tr.png,diyar-tv-tr-7522d5d784.svg,vetorizado,PNG 512x100
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/dizi-smart-max-hd-tr.png,dizi-smart-max-hd-tr-f15dd51a7f.svg,vetorizado,PNG 512x123
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/dizi-smart-max-tr.png,dizi-smart-max-tr-f83616ed04.svg,vetorizado,PNG 512x145
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/dizi-smart-premium-hd-tr.png,dizi-smart-premium-hd-tr-2e6bb8eaae.svg,vetorizado,PNG 512x123
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/dizi-smart-premium-tr.png,dizi-smart-premium-tr-fb451b39ad.svg,vetorizado,PNG 512x145
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/dost-tv-tr.png,dost-tv-tr-383cfcdda0.svg,vetorizado,PNG 512x168
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/dream-turk-tr.png,dream-turk-tr-e6563818a6.svg,vetorizado,PNG 512x507
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/drt-denizli-tr.png,drt-denizli-tr-f88ce6946f.svg,vetorizado,PNG 512x85
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/eba-tv-ilkokul-tr.png,eba-tv-ilkokul-tr-4b67aa5207.svg,vetorizado,PNG 512x316
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/eba-tv-lise-tr.png,eba-tv-lise-tr-5a8bc02938.svg,vetorizado,PNG 512x318
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/eba-tv-ortaokul-tr.png,eba-tv-ortaokul-tr-130e80a1f5.svg,vetorizado,PNG 512x285
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/edessa-tv-tr.png,edessa-tv-tr-d97485b114.svg,vetorizado,PNG 512x512
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ege-tv-tr.png,ege-tv-tr-966bba587e.svg,vetorizado,PNG 512x526
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ekin-tv-turk-tr.png,ekin-tv-turk-tr-e5da8bb0e2.svg,vetorizado,PNG 512x189
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ekoturk-tr.png,ekoturk-tr-f24a44f2a2.svg,vetorizado,PNG 512x122
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/es-tv-tr.png,es-tv-tr-603faff734.svg,vetorizado,PNG 512x454
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/euro-d-tr.png,euro-d-tr-dec2cd5c7b.svg,vetorizado,PNG 512x304
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/euro-star-tr.png,euro-star-tr-dcb428c8e7.svg,vetorizado,PNG 512x522
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fashion-one-tv-tr.png,fashion-one-tv-tr-2a744d42ce.svg,vetorizado,PNG 512x478
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fenerbahce-tv-tr.png,fenerbahce-tv-tr-428f7fe776.svg,vetorizado,PNG 512x644
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/filmbox-hd-tr.png,filmbox-hd-tr-f990a97747.svg,vetorizado,PNG 512x278
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/filmbox-tr.png,filmbox-tr-92313ee3d6.svg,vetorizado,PNG 512x278
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/flash-tv-tr.png,flash-tv-tr-3835aa93a6.svg,vetorizado,PNG 512x173
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fm-tv-tr.png,fm-tv-tr-36137b5df8.svg,vetorizado,PNG 512x216
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-crime-tr.png,fox-crime-tr-cdd9e60d8a.svg,vetorizado,PNG 512x96
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png,fox-tr-f1d2976dcb.svg,vetorizado,PNG 512x220
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fx-tr.png,fx-tr-abe58e766b.svg,vetorizado,PNG 512x313
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/galatasaray-tv-tr.png,galatasaray-tv-tr-23a365f7b9.svg,vetorizado,PNG 512x1095
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/gaziantep-olay-tv-tr.png,gaziantep-olay-tv-tr-9ff2a83c88.svg,vetorizado,PNG 512x128
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/guneydogu-tv-tr.png,guneydogu-tv-tr-9e4e4c2bb3.svg,vetorizado,PNG 512x309
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/haber-global-tr.png,haber-global-tr-84b7531601.svg,vetorizado,PNG 512x62
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/haberturk-tr.png,haberturk-tr-216bd975f1.svg,vetorizado,PNG 512x245
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/halk-tv-tr.png,halk-tv-tr-eb19ced815.svg,vetorizado,PNG 512x689
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/hrt-akdeniz-tr.png,hrt-akdeniz-tr-47cf9460c8.svg,vetorizado,PNG 512x319
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ht-hayat-tr.png,ht-hayat-tr-b6e792b08f.svg,vetorizado,PNG 512x160
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kadirga-tr.png,kadirga-tr-c0a56fbbd2.svg,vetorizado,PNG 512x108
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-15-tr.png,kanal-15-tr-34ab83c63c.svg,vetorizado,PNG 512x273
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-16-tr.png,kanal-16-tr-81f06cf5d9.svg,vetorizado,PNG 512x424
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-23-tr.png,kanal-23-tr-2c993cfc8d.svg,vetorizado,PNG 512x464
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-26-tr.png,kanal-26-tr-fbfec278f5.svg,vetorizado,PNG 512x512
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-33-tr.png,kanal-33-tr-1cb420e0fb.svg,vetorizado,PNG 512x184
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-42-tr.png,kanal-42-tr-8584b12137.svg,vetorizado,PNG 512x598
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-58-tr.png,kanal-58-tr-ff0d629d70.svg,vetorizado,PNG 512x175
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-7-avrupa-tr.png,kanal-7-avrupa-tr-652c0937af.svg,vetorizado,PNG 512x427
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-7-tr.png,kanal-7-tr-e8e0d6fa5f.svg,vetorizado,PNG 512x444
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-avrupa-tr.png,kanal-avrupa-tr-6994284255.svg,vetorizado,PNG 512x566
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-b-tr.png,kanal-b-tr-fc20656db8.svg,vetorizado,PNG 512x500
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png,kanal-d-tr-b170d0acaf.svg,vetorizado,PNG 512x555
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-ege-tr.png,kanal-ege-tr-8e87a0472d.svg,vetorizado,PNG 512x169
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-firat-tr.png,kanal-firat-tr-cb801bab12.svg,vetorizado,PNG 512x487
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-sim-tr.png,kanal-sim-tr-135f02ce08.svg,vetorizado,PNG 512x307
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-t-tr.png,kanal-t-tr-f856fd02d6.svg,vetorizado,PNG 512x535
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-urfa-tr.png,kanal-urfa-tr-0831c8c3c9.svg,vetorizado,PNG 512x345
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-v-tr.png,kanal-v-tr-266a073b4c.svg,vetorizado,PNG 512x154
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-z-tr.png,kanal-z-tr-54a470070c.svg,vetorizado,PNG 512x414
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal23-tr.png,kanal23-tr-a872a36df0.svg,vetorizado,PNG 512x464
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal3-tr.png,kanal3-tr-5954d469cb.svg,vetorizado,PNG 512x241
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kardelen-tv-tr.png,kardelen-tv-tr-cc27bf2e6d.svg,vetorizado,PNG 512x400
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kent-turk-tr.png,kent-turk-tr-843e16cda3.svg,vetorizado,PNG 512x189
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kocaeli-tv-tr.png,kocaeli-tv-tr-701a7249cc.svg,vetorizado,PNG 512x639
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kon-tv-hd-tr.png,kon-tv-hd-tr-f417ec8b05.svg,vetorizado,PNG 512x92
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kon-tv-tr.png,kon-tv-tr-a3ff3a0f16.svg,vetorizado,PNG 512x120
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/koy-tv-tr.png,koy-tv-tr-2766b913a7.svg,vetorizado,PNG 512x162
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/koza-tv-tr.png,koza-tv-tr-6f5e612243.svg,vetorizado,PNG 512x131
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kral-pop-tr.png,kral-pop-tr-f8a6e4ca20.svg,vetorizado,PNG 512x71
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kral-tv-hd-tr.png,kral-tv-hd-tr-4773ff2ac3.svg,vetorizado,PNG 512x120
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kral-tv-tr.png,kral-tv-tr-5ca88e1199.svg,vetorizado,PNG 512x84
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/krt-tr.png,krt-tr-aaf48d9b0c.svg,vetorizado,PNG 512x197
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/lalegul-tv-tr.png,lalegul-tv-tr-bf073564f5.svg,vetorizado,PNG 512x150
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/line-tv-tr.png,line-tv-tr-fcaa65a298.svg,vetorizado,PNG 512x522
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/manisa-tv-tr.png,manisa-tv-tr-85cc8df873.svg,vetorizado,PNG 512x163
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/mavi-karadeniz-tr.png,mavi-karadeniz-tr-4b35ccb7fc.svg,vetorizado,PNG 512x244
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/mercan-tv-tr.png,mercan-tv-tr-657f4262fa.svg,vetorizado,PNG 512x154
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/milyon-tv-tr.png,milyon-tv-tr-eea7280c68.svg,vetorizado,PNG 512x389
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/minika-cocuk-tr.png,minika-cocuk-tr-3210746295.svg,vetorizado,PNG 512x199
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/minika-go-tr.png,minika-go-tr-f1ffe0aa8e.svg,vetorizado,PNG 512x252
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-action-hd-tr.png,movie-smart-action-hd-tr-573a00ca22.svg,vetorizado,PNG 512x102
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-action-tr.png,movie-smart-action-tr-9b3cc7d11b.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-classic-hd-tr.png,movie-smart-classic-hd-tr-d2658e5640.svg,vetorizado,PNG 512x102
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-classic-tr.png,movie-smart-classic-tr-b3ba4adf03.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-family-hd-tr.png,movie-smart-family-hd-tr-75460e64d3.svg,vetorizado,PNG 512x102
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-family-tr.png,movie-smart-family-tr-bb6602349c.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-fest-hd-tr.png,movie-smart-fest-hd-tr-eac87180c7.svg,vetorizado,PNG 512x103
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-fest-tr.png,movie-smart-fest-tr-354cf1c117.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-gold-hd-tr.png,movie-smart-gold-hd-tr-9ad34cb414.svg,vetorizado,PNG 512x102
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-gold-tr.png,movie-smart-gold-tr-788d841ac2.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-platin-hd-tr.png,movie-smart-platin-hd-tr-6aa18f1121.svg,vetorizado,PNG 512x102
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-platin-tr.png,movie-smart-platin-tr-59826cda0a.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-platin2-hd-tr.png,movie-smart-platin2-hd-tr-076fd98ec4.svg,vetorizado,PNG 512x102
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-platin2-tr.png,movie-smart-platin2-tr-626f9a6494.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-premium-hd-tr.png,movie-smart-premium-hd-tr-4e403e435e.svg,vetorizado,PNG 512x102
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-premium-tr.png,movie-smart-premium-tr-c0256841f0.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-premium2-hd-tr.png,movie-smart-premium2-hd-tr-82da9c9c69.svg,vetorizado,PNG 512x102
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-premium2-tr.png,movie-smart-premium2-tr-3589f2481c.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-turk-hd-tr.png,movie-smart-turk-hd-tr-4dc13fa835.svg,vetorizado,PNG 512x102
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/movie-smart-turk-tr.png,movie-smart-turk-tr-88698ea316.svg,vetorizado,PNG 512x117
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/now-tr.png,now-tr-c1ea46eafb.svg,vetorizado,PNG 512x167
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-ask-hd-tr.png,nr1-ask-hd-tr-e90392696b.svg,vetorizado,PNG 512x558
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-ask-tr.png,nr1-ask-tr-960a0c941c.svg,vetorizado,PNG 512x601
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-damar-hd-tr.png,nr1-damar-hd-tr-4d5de95a3c.svg,vetorizado,PNG 512x489
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-damar-tr.png,nr1-damar-tr-0bc61fba80.svg,vetorizado,PNG 512x525
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-dance-hd-tr.png,nr1-dance-hd-tr-817f99bc38.svg,vetorizado,PNG 512x487
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-dance-tr.png,nr1-dance-tr-d1a6b0933f.svg,vetorizado,PNG 512x513
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-hd-tr.png,nr1-hd-tr-6963ae2901.svg,vetorizado,PNG 512x312
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-tr.png,nr1-tr-40bc6b63ea.svg,vetorizado,PNG 512x341
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-turk-hd-tr.png,nr1-turk-hd-tr-4916b6b501.svg,vetorizado,PNG 512x463
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/nr1-turk-tr.png,nr1-turk-tr-93b3701ef6.svg,vetorizado,PNG 512x534
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png,ntv-tr-db227ac5f3.svg,vetorizado,PNG 512x192
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/on4-tv-tr.png,on4-tv-tr-5846a78bd6.svg,vetorizado,PNG 512x167
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/pamukkale-tv-tr.png,pamukkale-tv-tr-443f9cccd3.svg,vetorizado,PNG 512x108
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/planet-cocuk-tr.png,planet-cocuk-tr-c4b1348156.svg,vetorizado,PNG 512x79
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/planet-pembe-tr.png,planet-pembe-tr-03e9d389fb.svg,vetorizado,PNG 512x79
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/planet-sinema-tr.png,planet-sinema-tr-0574d0bb62.svg,vetorizado,PNG 512x79
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/planet-turk-tr.png,planet-turk-tr-7873f4a0a0.svg,vetorizado,PNG 512x79
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/planet-tv-tr.png,planet-tv-tr-6d3528657b.svg,vetorizado,PNG 512x79
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/power-tv-hd-tr.png,power-tv-hd-tr-940ad7409c.svg,vetorizado,PNG 512x111
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/power-tv-tr.png,power-tv-tr-81828c6842.svg,vetorizado,PNG 512x153
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/powerturk-tr.png,powerturk-tr-d394635d8d.svg,vetorizado,PNG 512x282
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/rehber-tv-tr.png,rehber-tv-tr-13433fc4a3.svg,vetorizado,PNG 512x581
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/rumeli-tv-tr.png,rumeli-tv-tr-33d3e983f7.svg,vetorizado,PNG 512x113
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/s-sport-2-tr.png,s-sport-2-tr-eecde87ee6.svg,vetorizado,PNG 512x205
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/s-sport-plus-tr.png,s-sport-plus-tr-199769c41b.svg,vetorizado,PNG 512x203
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/s-sport-tr.png,s-sport-tr-62062ee4e1.svg,vetorizado,PNG 512x239
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sat7-turk-tr.png,sat7-turk-tr-5046f8f42f.svg,vetorizado,PNG 512x266
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/semerkand-tv-tr.png,semerkand-tv-tr-2709228c81.svg,vetorizado,PNG 512x340
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-max-tr.png,show-max-tr-376e98d883.svg,vetorizado,PNG 512x512
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tr.png,show-tr-5ca7001e81.svg,vetorizado,PNG 512x508
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-turk-tr.png,show-turk-tr-69e965a925.svg,vetorizado,PNG 512x629
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-1001-hz-tr.png,sinema-1001-hz-tr-4b5e7d04f5.svg,vetorizado,PNG 512x63
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-1001-tr.png,sinema-1001-tr-43cc5bd33a.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-1002-hz-tr.png,sinema-1002-hz-tr-24ca1d24d5.svg,vetorizado,PNG 512x61
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-1002-tr.png,sinema-1002-tr-841a46a560.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-aile-hz-tr.png,sinema-aile-hz-tr-d9ea1eb434.svg,vetorizado,PNG 512x61
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-aile-tr.png,sinema-aile-tr-6ee4b34dc3.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-aile2-hz-tr.png,sinema-aile2-hz-tr-17d89116a2.svg,vetorizado,PNG 512x56
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-aile2-tr.png,sinema-aile2-tr-3e27e7c188.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-aksiyon-hz-tr.png,sinema-aksiyon-hz-tr-cf4cf95d00.svg,vetorizado,PNG 512x47
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-aksiyon-tr.png,sinema-aksiyon-tr-7c477e659b.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-aksiyon2-hz-tr.png,sinema-aksiyon2-hz-tr-506eb370e2.svg,vetorizado,PNG 512x44
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-aksiyon2-tr.png,sinema-aksiyon2-tr-f6933e7467.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-komedi-hz-tr.png,sinema-komedi-hz-tr-29ccb149f6.svg,vetorizado,PNG 512x50
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-komedi-tr.png,sinema-komedi-tr-7e3b11689d.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-komedi2-hz-tr.png,sinema-komedi2-hz-tr-7761fa0b08.svg,vetorizado,PNG 512x47
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-komedi2-tr.png,sinema-komedi2-tr-f85cd340ce.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-tv-hz-tr.png,sinema-tv-hz-tr-0ba88670a9.svg,vetorizado,PNG 512x70
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-tv-tr.png,sinema-tv-tr-b01010336c.svg,vetorizado,PNG 512x145
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-tv2-hz-tr.png,sinema-tv2-hz-tr-ecc53ce073.svg,vetorizado,PNG 512x77
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-tv2-tr.png,sinema-tv2-tr-34852d02ef.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-yerli-hz-tr.png,sinema-yerli-hz-tr-145ddfd6d4.svg,vetorizado,PNG 512x56
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-yerli-tr.png,sinema-yerli-tr-042df2e182.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-yerli2-hz-tr.png,sinema-yerli2-hz-tr-323c65cb04.svg,vetorizado,PNG 512x52
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-yerli2-tr.png,sinema-yerli2-tr-c4fcfa3a3c.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/spor-smart-hd-tr.png,spor-smart-hd-tr-a489aa0965.svg,vetorizado,PNG 512x97
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sports-tv-tr.png,sports-tv-tr-00b0c9bc24.svg,vetorizado,PNG 512x146
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png,star-tv-tr-8c39b00aae.svg,vetorizado,PNG 512x598
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/stingray-ambiance-4k-tr.png,stingray-ambiance-4k-tr-7502a38751.svg,vetorizado,PNG 512x147
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/stingray-ambiance-tr.png,stingray-ambiance-tr-a205ef2e45.svg,vetorizado,PNG 512x147
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tarim-turk-tr.png,tarim-turk-tr-02a4cbd6d1.svg,vetorizado,PNG 512x327
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tarim-tv-tr.png,tarim-tv-tr-671a694ac5.svg,vetorizado,PNG 512x217
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tatlises-tv-tr.png,tatlises-tv-tr-deab74b728.svg,vetorizado,PNG 512x73
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tay-tv-tr.png,tay-tv-tr-b8a6ca1c6a.svg,vetorizado,PNG 512x754
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tbmm-tv-tr.png,tbmm-tv-tr-9d1f406b88.svg,vetorizado,PNG 512x295
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tek-rumeli-tr.png,tek-rumeli-tr-bce47a392f.svg,vetorizado,PNG 512x457
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tele1-tr.png,tele1-tr-23e3dde442.svg,vetorizado,PNG 512x238
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tempo-tv-tr.png,tempo-tv-tr-f7eb709e2b.svg,vetorizado,PNG 512x116
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/teve2-tr.png,teve2-tr-4dfc4fc940.svg,vetorizado,PNG 512x349
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tgrt-belgesel-tr.png,tgrt-belgesel-tr-87f1c84706.svg,vetorizado,PNG 512x324
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tgrt-eu-tr.png,tgrt-eu-tr-52121c4b42.svg,vetorizado,PNG 512x355
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tgrt-haber-tr.png,tgrt-haber-tr-909feb71b1.svg,vetorizado,PNG 512x352
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tivi6-tr.png,tivi6-tr-a26898c5d8.svg,vetorizado,PNG 512x176
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tjk-tv-tr.png,tjk-tv-tr-cc00aa14d4.svg,vetorizado,PNG 512x574
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tmb-tr.png,tmb-tr-cf8b02fc1f.svg,vetorizado,PNG 512x333
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/toprak-tv-tr.png,toprak-tv-tr-cc31cc5cb2.svg,vetorizado,PNG 512x164
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tr-35-tr.png,tr-35-tr-f64cd95892.svg,vetorizado,PNG 512x164
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-hd-tr.png,trt-1-hd-tr-38e87f0df1.svg,vetorizado,PNG 512x119
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png,trt-1-tr-770d4f54e5.svg,vetorizado,PNG 512x168
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-2-tr.png,trt-2-tr-717878c736.svg,vetorizado,PNG 512x192
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-3-spor-tr.png,trt-3-spor-tr-1d3e17abf5.svg,vetorizado,PNG 512x72
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-3-tr.png,trt-3-tr-753d48ba76.svg,vetorizado,PNG 512x152
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-4k-tr.png,trt-4k-tr-c60007368a.svg,vetorizado,PNG 512x121
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-arabi-tr.png,trt-arabi-tr-114c5303c8.svg,vetorizado,PNG 512x92
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-avaz-tr.png,trt-avaz-tr-75ce0bdca3.svg,vetorizado,PNG 512x98
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-belgesel-tr.png,trt-belgesel-tr-4995b8f751.svg,vetorizado,PNG 512x55
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-cocuk-tr.png,trt-cocuk-tr-43225604c7.svg,vetorizado,PNG 512x110
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-genç-tr.png,trt-gen--tr-45bcd327f9.svg,vetorizado,PNG 512x91
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-haber-hd-tr.png,trt-haber-hd-tr-0dae9ad071.svg,vetorizado,PNG 512x74
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-haber-tr.png,trt-haber-tr-71c1281f72.svg,vetorizado,PNG 512x90
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-kurdi-tr.png,trt-kurdi-tr-617f440f3b.svg,vetorizado,PNG 512x81
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-muzik-tr.png,trt-muzik-tr-74b356c37f.svg,vetorizado,PNG 512x93
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-spor-2-tr.png,trt-spor-2-tr-90251f7705.svg,vetorizado,PNG 512x96
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-spor-hd-tr.png,trt-spor-hd-tr-cc4654d7fa.svg,vetorizado,PNG 512x83
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-spor-tr.png,trt-spor-tr-611076fc4a.svg,vetorizado,PNG 512x81
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-spor-yildiz-tr.png,trt-spor-yildiz-tr-7c3776bee3.svg,vetorizado,PNG 512x81
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-turk-tr.png,trt-turk-tr-7ba89a0beb.svg,vetorizado,PNG 512x94
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-world-hd-tr.png,trt-world-hd-tr-8886bdfea8.svg,vetorizado,PNG 512x54
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-world-tr.png,trt-world-tr-54ed154eef.svg,vetorizado,PNG 512x68
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/turk-haber-tr.png,turk-haber-tr-a295fd4816.svg,vetorizado,PNG 512x540
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv-35-tr.png,tv-35-tr-03a0d7b219.svg,vetorizado,PNG 512x200
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv-den-tr.png,tv-den-tr-a265989388.svg,vetorizado,PNG 512x187
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv-kayseri-tr.png,tv-kayseri-tr-6141ebbb0e.svg,vetorizado,PNG 512x120
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv1-tr.png,tv1-tr-6e1cc90803.svg,vetorizado,PNG 512x332
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv100-tr.png,tv100-tr-c1bb2dda9f.svg,vetorizado,PNG 512x194
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv2-tr.png,tv2-tr-652039397b.svg,vetorizado,PNG 512x598
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv264-tr.png,tv264-tr-a197381feb.svg,vetorizado,PNG 512x119
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv4-tr.png,tv4-tr-ea5eb885c8.svg,vetorizado,PNG 512x374
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv5-tr.png,tv5-tr-8d4e094d6e.svg,vetorizado,PNG 512x520
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv52-tr.png,tv52-tr-cfffa086e3.svg,vetorizado,PNG 512x481
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-int-tr.png,tv8-int-tr-0ca611072d.svg,vetorizado,PNG 512x324
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png,tv8-tr-3fc55e9fc0.svg,vetorizado,PNG 512x462
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv85-tr.png,tv85-tr-168fabea76.svg,vetorizado,PNG 512x370
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tvnet-tr.png,tvnet-tr-eabc386abb.svg,vetorizado,PNG 512x132
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ucankus-tr.png,ucankus-tr-4eaab9d86c.svg,vetorizado,PNG 512x385
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ulke-tv-tr.png,ulke-tv-tr-85b432a94c.svg,vetorizado,PNG 512x122
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ulusal-tv-tr.png,ulusal-tv-tr-18e2e5c7ff.svg,vetorizado,PNG 512x145
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/uzay-haber-tr.png,uzay-haber-tr-5ec7ad53a3.svg,vetorizado,PNG 512x312
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/uzay-tv-tr.png,uzay-tv-tr-c54147b95a.svg,vetorizado,PNG 512x213
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/vatan-tv-tr.png,vatan-tv-tr-105af56fdc.svg,vetorizado,PNG 512x359
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/vav-tv-tr.png,vav-tv-tr-2a9fd4d80a.svg,vetorizado,PNG 512x606
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/vizyon-58-tr.png,vizyon-58-tr-f574e03bb1.svg,vetorizado,PNG 512x445
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/vizyon-turk-tr.png,vizyon-turk-tr-db69c6b393.svg,vetorizado,PNG 512x172
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/yaban-tr.png,yaban-tr-7a73d0fb41.svg,vetorizado,PNG 512x477
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/yildiz-en-tv-tr.png,yildiz-en-tv-tr-b2a468bd07.svg,vetorizado,PNG 512x144
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/yol-tv-tr.png,yol-tv-tr-a747116203.svg,vetorizado,PNG 512x233
+https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/zarok-tv-tr.png,zarok-tv-tr-09835b4c3b.svg,vetorizado,PNG 512x369
+"https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public",Ahaber_Logo-a7a94cfbc7.svg,vetorizado,PNG 200x227
+"https://upload.wikimedia.org/wikipedia/commons/0/03/ATV_Logo_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",ATV_Logo_2-5897917982.svg,vetorizado,PNG 200x150
+"https://upload.wikimedia.org/wikipedia/commons/2/2f/Beng%C3%BCt%C3%BCrk_TV.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",Beng-C3-BCt-C3-BCrk_TV-4365fda8c8.svg,vetorizado,PNG 2338x1570
+"https://upload.wikimedia.org/wikipedia/commons/f/fc/Beykent_TV_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public",Beykent_TV_logo-681bf8ce62.svg,vetorizado,PNG 300x82
+"https://upload.wikimedia.org/wikipedia/commons/2/2f/Cem_TV_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public",,error,"HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Cem_TV_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public"
+"https://upload.wikimedia.org/wikipedia/commons/d/d3/Cine5_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://upload.wikimedia.org/wikipedia/commons/d/d3/Cine5_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/5/52/Csahaber-lo1go-1-.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/5/52/Csahaber-lo1go-1-.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/c/c5/E2_%282006-2011%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/c/c5/E2_%282006-2011%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/a/a1/E2_logo_%28Turkish_tv_channel%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/a/a1/E2_logo_%28Turkish_tv_channel%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public"
+"https://upload.wikimedia.org/wikipedia/commons/6/62/Ekol_TV_Kanal%C4%B1n%C4%B1n_Logosu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/6/62/Ekol_TV_Kanal%C4%B1n%C4%B1n_Logosu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/4/46/Euro_D_v2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Kanal",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/4/46/Euro_D_v2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0,Kanal"
+"https://upload.wikimedia.org/wikipedia/commons/2/23/Flash_haber_tv_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public",Flash_haber_tv_2025-f809f0dbf4.svg,vetorizado,PNG 600x344
+"https://upload.wikimedia.org/wikipedia/commons/7/72/Former_logo_of_Max_Smart_%282010-2011%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/7/72/Former_logo_of_Max_Smart_%282010-2011%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public"
+"https://upload.wikimedia.org/wikipedia/commons/6/6a/Fox_Life_Turkey.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/6/6a/Fox_Life_Turkey.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/9/90/Gala_TV.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/9/90/Gala_TV.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/f/fb/Gala-TV-logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/f/fb/Gala-TV-logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/5/5f/Gemtv.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/5/5f/Gemtv.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/f/fd/Grt-tv-tr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Grt-tv-tr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0"
+"https://upload.wikimedia.org/wikipedia/commons/0/05/Gurmeler_Televizyon-Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/0/05/Gurmeler_Televizyon-Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0"
+"https://upload.wikimedia.org/wikipedia/commons/f/f7/Hdkaradenizlogo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/f/f7/Hdkaradenizlogo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC0"
+"https://upload.wikimedia.org/wikipedia/commons/0/0c/HDTV_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/0/0c/HDTV_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/8/83/Kanal_1_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/8/83/Kanal_1_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/d/d9/Kanal_1_logosu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Kanal_1_logosu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/2/24/Kanalt%C3%BCrk_logosu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/2/24/Kanalt%C3%BCrk_logosu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/e/ec/KaramelTVLogo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/e/ec/KaramelTVLogo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/2/2f/Kral_TV_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Kral_TV_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/3/39/Logo_of_Maxi_TV.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/3/39/Logo_of_Maxi_TV.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public"
+"https://upload.wikimedia.org/wikipedia/commons/0/0a/Music_Box_TR.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/0/0a/Music_Box_TR.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/7/7a/MusicBoxHD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/7/7a/MusicBoxHD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/d/d0/National_Geographic_T%C3%BCrkiye_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Public",National_Geographic_T-C3-BCrkiye_logo-6edda59a5b.svg,vetorizado,PNG 856x309
+"https://upload.wikimedia.org/wikipedia/commons/c/c3/Nr1-HD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/c/c3/Nr1-HD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/2/28/O-TV-preview.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/2/28/O-TV-preview.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/2/24/OTV-music_logosu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/2/24/OTV-music_logosu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/f/f5/OTVmusic_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/f/f5/OTVmusic_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/b/be/OTVmusicHD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/b/be/OTVmusicHD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/a/a9/OTVMusicHD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/a/a9/OTVMusicHD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/c/ca/Puhutv.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/c/ca/Puhutv.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/3/3e/Trt_1_logolar%C4%B1ndan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/3/3e/Trt_1_logolar%C4%B1ndan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/a/ac/Trt11997-1998.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/a/ac/Trt11997-1998.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/9/92/TRT1logo1992-1993.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/9/92/TRT1logo1992-1993.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+"https://upload.wikimedia.org/wikipedia/commons/8/89/%C3%87RT_LOGO.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC",,error,"HTTPError: 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/8/89/%C3%87RT_LOGO.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,CC"
+https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Inkscape-ws.svg/40px-Inkscape-ws.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail,40px-Inkscape-ws.svg-9c5c785bd2.svg,vetorizado,PNG 40x40
+https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Inkscape-ws.svg/60px-Inkscape-ws.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail,60px-Inkscape-ws.svg-84ababa4b6.svg,vetorizado,PNG 60x60
+https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/TRT_logo_%282018-%29.svg/40px-TRT_logo_%282018-%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail,40px-TRT_logo_-282018--29.svg-80aef65579.svg,vetorizado,PNG 40x15
+https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/TRT_logo_%282018-%29.svg/60px-TRT_logo_%282018-%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail,60px-TRT_logo_-282018--29.svg-19c00550f2.svg,vetorizado,PNG 60x22
+https://i.imgur.com/gtUFmCD.png,gtUFmCD-16b5c1691d.svg,vetorizado,PNG 105x99
+https://i.ibb.co/HV0x9JZ/fashion-one.png,fashion-one-da3b8e871a.svg,vetorizado,PNG 512x478
+http://assets.tvcdn.net/4a8468ec-c134-4db1-93ef-699f15e1522b.png,,error,"ConnectionError: HTTPConnectionPool(host='assets.tvcdn.net', port=80): Max retries exceeded with url: /4a8468ec-c134-4db1-93ef-699f15e1522b.png (Caused by NameResolutionError(""HTTPConnection(host='assets.tvcdn.net', port=80): Failed to resolve 'assets.tvcdn.net' ([Errno -2] Name or service not known)""))"
+https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png,LOGO2112-24686be8ce.svg,vetorizado,PNG 1920x1080
+https://i.imgur.com/gNWg9tl.png,gNWg9tl-950f250b00.svg,vetorizado,PNG 285x298
+https://commons.wikimedia.org/wiki/File:Retro_Music_TV_logo.png,,error,UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x794b7412e110>
+https://i.imgur.com/mgDCKiy.png,mgDCKiy-7a4a98e755.svg,vetorizado,PNG 111x96
+https://i.imgur.com/a3w9eFe.png,a3w9eFe-1820df71a6.svg,vetorizado,PNG 432x512
+https://i.imgur.com/XaJ7fp6.png,XaJ7fp6-d794ce3a0f.svg,vetorizado,PNG 110x86
+https://i.imgur.com/JsDCyWG.png,JsDCyWG-987b9dc0b3.svg,vetorizado,PNG 135x139
+https://i.imgur.com/bUwarR0.png,bUwarR0-ef0c701c54.svg,vetorizado,PNG 132x90
+https://i.imgur.com/U3qlEAp.png,U3qlEAp-5bfaa25a3f.svg,vetorizado,PNG 132x72
+https://i.imgur.com/ndupxwu.png,ndupxwu-672fffa5c5.svg,vetorizado,PNG 178x178
+https://i.imgur.com/Mm8hdfx.png,Mm8hdfx-00133404b5.svg,vetorizado,PNG 306x440
+https://i.imgur.com/rhU6j9I.png,rhU6j9I-1d35f253f1.svg,vetorizado,PNG 110x94
+https://i.imgur.com/VDGEPrD.png,VDGEPrD-bd1e82e67f.svg,vetorizado,PNG 124x76
+https://i.imgur.com/HF7N4Li.png,HF7N4Li-46b5d3152c.svg,vetorizado,PNG 289x60
+https://i.imgur.com/epAEBrp.png,epAEBrp-6536c57eb8.svg,vetorizado,PNG 103x92
+https://i.ibb.co/QKXtdkz/sOd3INg.png,sOd3INg-8227a6d0ce.svg,vetorizado,PNG 325x125
+https://i.imgur.com/64tph9N.png,64tph9N-ddff3a08c7.svg,vetorizado,PNG 114x98
+https://www.anadolunettv.com/d/r/logo.png,logo-582652b843.svg,vetorizado,PNG 306x75
+https://birtv.tv/assets/upload/637f83951df60.png,637f83951df60-371e2e2a2e.svg,vetorizado,PNG 739x627
+https://i.imgur.com/NrxHGnb.png,NrxHGnb-e40e8d39fa.svg,vetorizado,PNG 473x473
+https://i.imgur.com/CGwImKv.png,CGwImKv-46f6c0e548.svg,vetorizado,PNG 237x178
+https://i.imgur.com/51xCkXG.png,51xCkXG-243f312d9e.svg,vetorizado,PNG 175x182
+https://i.imgur.com/wb1Cdc9.png,wb1Cdc9-3e5f7a0785.svg,vetorizado,PNG 128x75
+https://i.imgur.com/3br8RCq.png,3br8RCq-27781fe74d.svg,vetorizado,PNG 295x260
+https://i.imgur.com/Mr7XPii.png,Mr7XPii-8a03b2e7dd.svg,vetorizado,PNG 102x97
+https://i.imgur.com/5WYaoFZ.png,5WYaoFZ-28f4d4adfb.svg,vetorizado,PNG 280x280
+https://i.imgur.com/SIaI6Sj.png,SIaI6Sj-843dc7a22e.svg,vetorizado,PNG 252x245
+https://i.imgur.com/Rgc66sv.png,Rgc66sv-320272f2d1.svg,vetorizado,PNG 128x44
+https://i.imgur.com/7RNjTno.png,7RNjTno-fa59059912.svg,vetorizado,PNG 427x127
+https://www.tvlogo.org/turkey/kardelen-tv-tr.png,kardelen-tv-tr-96e6f44d3c.svg,vetorizado,PNG 512x400
+https://i.imgur.com/FQKPjsm.png,FQKPjsm-63db40765e.svg,vetorizado,PNG 95x95
+https://i.imgur.com/LeTP4zq.png,LeTP4zq-bd9dfeb42a.svg,vetorizado,PNG 95x99
+https://i.imgur.com/3CWV8bS.png,3CWV8bS-f64314cd9f.svg,vetorizado,PNG 130x41
+https://i.imgur.com/xj1gvrq.png,xj1gvrq-5ed6447827.svg,vetorizado,PNG 159x61
+https://i.imgur.com/tZpx32y.png,tZpx32y-cdd84282a6.svg,vetorizado,PNG 476x161
+https://i.imgur.com/8CtrYVb.png,8CtrYVb-343151383c.svg,vetorizado,PNG 132x79
+https://i.imgur.com/tudXdOZ.png,tudXdOZ-86df5df108.svg,vetorizado,PNG 132x40
+https://i.imgur.com/6T472LM.png,6T472LM-7ec4fa9788.svg,vetorizado,PNG 127x74
+https://www.tv42.com.tr/logo.png,logo-d347c281cf.svg,vetorizado,PNG 2770x1433
+https://i.imgur.com/k4R5CzO.png,k4R5CzO-0c164dc356.svg,vetorizado,PNG 144x136
+https://i.imgur.com/Uhg95Ze.png,Uhg95Ze-e4dd777877.svg,vetorizado,PNG 173x83
+https://i.imgur.com/8KO0uxn.png,8KO0uxn-2cea7e6400.svg,vetorizado,PNG 350x83
+https://van65tv.com/assets/images/logo/logo.png,logo-de755d644c.svg,vetorizado,PNG 200x70
+https://commons.wikimedia.org/wiki/File:Kral_TV_logo.png,,error,UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x794b74f0c860>
+https://www.tvlogo.org/turkey/nr1-ask-tr.png,nr1-ask-tr-e4ccc540f4.svg,vetorizado,PNG 512x601
+https://www.tvlogo.org/turkey/nr1-damar-tr.png,nr1-damar-tr-7db83aa170.svg,vetorizado,PNG 512x525
+https://www.tvlogo.org/turkey/nr1-dance-tr.png,nr1-dance-tr-a671de54fb.svg,vetorizado,PNG 512x513
+https://www.tvlogo.org/turkey/nr1-tr.png,nr1-tr-4bdfbc1994.svg,vetorizado,PNG 512x341
+https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_40.png,logo_40-c210f3f043.svg,vetorizado,PNG 500x500
+https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2559.png,logo_2559-7d3e7ab543.svg,vetorizado,PNG 500x500
+https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2534.png,logo_2534-9630fe0103.svg,vetorizado,PNG 500x500
+https://i.ibb.co/JrXDQJy/power-tv.png,power-tv-69f69ef8fe.svg,vetorizado,PNG 512x153
+https://assets.tvcdn.net/4a8468ec-c134-4db1-93ef-699f15e1522b.png,,error,"ConnectionError: HTTPSConnectionPool(host='assets.tvcdn.net', port=443): Max retries exceeded with url: /4a8468ec-c134-4db1-93ef-699f15e1522b.png (Caused by NameResolutionError(""HTTPSConnection(host='assets.tvcdn.net', port=443): Failed to resolve 'assets.tvcdn.net' ([Errno -2] Name or service not known)""))"
+https://epg.ovh/logo/NOW+70s.png,NOW-70s-7b89fcaeac.svg,vetorizado,JPEG 1920x1080
+https://epg.ovh/logo/NOW+80s.png,NOW-80s-c66cb1d53d.svg,vetorizado,PNG 420x254
+https://epg.ovh/logo/NOW+ROCK.png,NOW-ROCK-730c1ac459.svg,vetorizado,JPEG 1920x1080
+https://www.tvlogo.org/turkey/tmb-tr.png,tmb-tr-7d943cd91a.svg,vetorizado,PNG 512x333
+https://www.tvlogo.org/turkey/dost-tv-tr.png,dost-tv-tr-19fe83f8ba.svg,vetorizado,PNG 512x168
