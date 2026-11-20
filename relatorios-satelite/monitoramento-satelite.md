@@ -1,6 +1,6 @@
 # Auditoria de frequencias via satelite
 
-- Gerado em UTC: 2026-11-20T15:46:57+00:00
+- Gerado em UTC: 2026-11-20T15:49:45+00:00
 - Arquivo: dados-satelite/ANOTACAO-CANAIS-FREQUENCIAS.md
 - Fonte: https://tr.canlitv.watch/frekans-bilgileri
 - Resposta HTTP da fonte: OK
@@ -9,7 +9,7 @@
 
 - Linhas de transponder: **235**
 - Canais unicos: **211** (esperado: 211)
-- Canais A verificar: **94**
+- Canais A verificar: **92**
 - Canais com multiplos transponders: **22**
 - Entradas confirmadas com campos invalidos: **0**
 
@@ -17,7 +17,7 @@
 
 | Satelite | Linhas |
 |---|---:|
-| Türksat 4A | 116 |
+| Türksat 4A | 118 |
 | Türksat 5B | 11 |
 | Türksat 6A | 14 |
 
@@ -84,7 +84,6 @@
 | 164 | Natural TV | REGIONAIS |
 | 166 | TBMM TV | REGIONAIS |
 | 169 | Tabii | FILMES E SÉRIES |
-| 170 | BBC First Türkiye | FILMES E SÉRIES |
 | 172 | Syria TV | INTERNACIONAIS |
 | 173 | Balkan Türk | INTERNACIONAIS |
 | 174 | Thaqalayn TV | INTERNACIONAIS |
@@ -116,7 +115,6 @@
 | 204 | Makkah TV | RELIGIOSOS |
 | 206 | TopPop | MÚSICA |
 | 207 | Retro Music Television | MÚSICA |
-| 209 | beIN Sports 1 Turk | ESPORTES |
 | 210 | 4U Family (persa) | INTERNACIONAIS |
 | 211 | Power TV (720p) | MÚSICA |
 

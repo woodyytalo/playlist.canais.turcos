@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T15:46:57+00:00",
+  "generated_at_utc": "2026-11-20T15:49:45+00:00",
   "source_url": "https://tr.canlitv.watch/frekans-bilgileri",
   "source_check": {
     "ok": true,
@@ -9,10 +9,10 @@
     "table_rows": 235,
     "unique_channels": 211,
     "expected_channels": 211,
-    "pending_verification": 94,
+    "pending_verification": 92,
     "channels_with_multiple_transponders": 22,
     "satellites": {
-      "Türksat 4A": 116,
+      "Türksat 4A": 118,
       "Türksat 5B": 11,
       "Türksat 6A": 14
     },
@@ -610,16 +610,6 @@
       "fec": "—"
     },
     {
-      "number": 170,
-      "channel": "BBC First Türkiye",
-      "category": "FILMES E SÉRIES",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 172,
       "channel": "Syria TV",
       "category": "INTERNACIONAIS",
@@ -923,16 +913,6 @@
       "number": 207,
       "channel": "Retro Music Television",
       "category": "MÚSICA",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 209,
-      "channel": "beIN Sports 1 Turk",
-      "category": "ESPORTES",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",
