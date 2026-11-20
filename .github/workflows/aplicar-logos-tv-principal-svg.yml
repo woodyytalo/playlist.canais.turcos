@@ -1,0 +1,35 @@
+name: Aplicar logos quadradas SVG na TV principal
+on:
+  push:
+    branches:
+      - github/workflows/atualizar-logos.yml
+    paths:
+      - .github/workflows/tv-principal-svg.trigger
+permissions:
+  contents: write
+jobs:
+  apply-tv-logos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout da branch
+        uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install Pillow requests vtracer
+      - name: Preparar e aplicar as 211 logos
+        run: python scripts/preparar_logos_tv_principal_svg.py
+      - name: Salvar alterações
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Tv.m3u logos-turcas-catalogo/tv-principal-svg
+          git commit -m "Aplicar 211 logos quadradas SVG na TV principal"
+          git push
