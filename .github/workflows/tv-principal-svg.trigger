@@ -2,3 +2,5 @@ Coletar as imagens oficiais/exibidas nas páginas individuais do CanliTV para os
 
 Escopo: Tv.m3u, logos-turcas-catalogo/CATALOGO-UNIFICADO.md, logos-turcas-catalogo/canlitv-images-report.csv e logos-turcas-catalogo/tv-principal-svg. Não modificar IPTV-Cat.m3u. Preservar ordem, streams, grupos, frequências e demais metadados.
 Gerar e publicar um arquivo ZIP contendo todas as logos SVG preparadas para os canais da lista Tv.m3u como artefato baixável do workflow.
+
+Criar e versionar a pasta logos-turcas-catalogo/canlitv-originals com os arquivos de imagem originais do CanliTV, um arquivo por canal com imagem própria validada; descartar imagens genéricas repetidas e registrar ausências no relatório.
