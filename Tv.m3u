@@ -50,7 +50,7 @@ https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://starmenajo.com/hls/almahriah/index.m3u8
 
-#EXTINF:-1 tvg-chno="13" tvg-name="Altas TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/altas-tv-tr-2c1a3838b8.svg",Altas TV [Satélite: a verificar]
+#EXTINF:-1 tvg-chno="13" tvg-name="Altas TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/altas-tv-tr-2c1a3838b8.svg",Altas TV [Türksat 4A: 11996 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 
@@ -491,7 +491,7 @@ https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
 
-#EXTINF:-1 tvg-chno="125" tvg-name="Tempo TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tempo-tv-tr-f7eb709e2b.svg",Tempo TV [Satélite: a verificar]
+#EXTINF:-1 tvg-chno="125" tvg-name="Tempo TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tempo-tv-tr-f7eb709e2b.svg",Tempo TV [Türksat 4A: 12265 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 
