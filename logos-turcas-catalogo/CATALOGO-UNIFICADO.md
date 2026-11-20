@@ -1033,7 +1033,7 @@ As imagens acima foram localizadas por pesquisa pública na web (incluindo resul
 
 Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `github/workflows/atualizar-logos.yml`. Cada miniatura usa exatamente o endereço `tvg-logo` já declarado na playlist; nenhuma URL foi inventada e nenhuma playlist foi modificada. As imagens são carregadas dos seus endereços de origem (incluindo arquivos hospedados neste repositório), não duplicadas como arquivos binários dentro deste catálogo.
 
-**Cobertura:** 211 entradas de canais; 210 entradas com logo; 1 entrada(s) sem `tvg-logo`.
+**Cobertura:** 211 entradas de canais; 210 entradas com URL de logo na playlist; 1 entrada sem `tvg-logo` cadastrado (Kanal Ada, cuja identidade visual existe, mas cuja URL direta ainda não foi confirmada).
 
 ## NOTÍCIAS (31)
 
@@ -1313,4 +1313,4 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 
 ## Pendências
 
-- **Kanal Ada** — não possui atributo `tvg-logo` na entrada atual de `Tv.m3u`; não foi adicionada imagem presumida.
+- **Kanal Ada** — a entrada atual de `Tv.m3u` não contém atributo `tvg-logo`. Isso não significa que o canal não tenha identidade visual: o site do próprio Kanal Ada está ativo em https://www.kanalada.com/ . A URL direta do arquivo da logo ainda precisa ser identificada e validada para inserir a miniatura correta.
