@@ -99,7 +99,7 @@
 | 87 | Kanal V | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 88 | Kay TV | REGIONAIS | A verificar | — | — | — | — |
 | 89 | Kayhan TV | REGIONAIS | A verificar | — | — | — | — |
-| 90 | Kent Türk TV | REGIONAIS | A verificar | — | — | — | — |
+| 90 | Kent Türk TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 5/6 |
 | 91 | Kocaeli TV | REGIONAIS | Türksat 4A | 12245 | H | 27500 | 5/6 |
 | 92 | Konya KTV | REGIONAIS | A verificar | — | — | — | — |
 | 93 | Konya Olay TV | REGIONAIS | A verificar | — | — | — | — |
@@ -139,7 +139,7 @@
 | 127 | TGRT Haber | NOTÍCIAS | Türksat 6A / Türksat 4A | 12149 / 12380 | V | 27500 | 3/4 |
 | 128 | Tivi 6 | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 129 | TJK TV | ESPORTES | Türksat 5B | 11345 | V | 29750 | 5/6 |
-| 130 | Ton TV | REGIONAIS | A verificar | — | — | — | — |
+| 130 | Ton TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 5/6 |
 | 131 | TRT 1 | ENTRETENIMENTO | Türksat 4A | 11794 | V | 30000 | 3/4 |
 | 132 | TRT Arabi | TRT | Türksat 4A | 12092 | H | 27500 | 5/6 |
 | 133 | TRT Avaz | TRT | Türksat 4A | 11958 / 12092 | V / H | 27500 | 5/6 |
