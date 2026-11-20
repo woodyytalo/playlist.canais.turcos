@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Prepare every selected unified-catalog logo as a square SVG for the main TV playlist."""
 from __future__ import annotations
-import csv, hashlib, io, re, shutil
+import csv, hashlib, io, re, shutil, time
 import xml.etree.ElementTree as ET
 from pathlib import Path
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from PIL import Image
 from vtracer import convert_image_to_svg_py
 
@@ -88,7 +90,13 @@ def main() -> None:
     OUT.mkdir(parents=True)
     TMP.mkdir(parents=True, exist_ok=True)
     session = requests.Session()
-    session.headers.update({"User-Agent": "Mozilla/5.0 (compatible; TVPrincipalLogoBuilder/1.0)"})
+    retry = Retry(total=8, connect=5, read=5, status=8, backoff_factor=3,
+                  status_forcelist=(429, 500, 502, 503, 504),
+                  allowed_methods=frozenset(["GET"]), respect_retry_after_header=True)
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=4, pool_maxsize=4)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    session.headers.update({"User-Agent": "TVPrincipalLogoBuilder/1.0 (logo processing; contact: repository maintainer)"})
     output_by_name = {}
     manifest_rows = []
 
@@ -107,6 +115,7 @@ def main() -> None:
         response = session.get(url, timeout=60)
         response.raise_for_status()
         detail = convert_source(response, output, temp_png)
+        time.sleep(0.8)
         root = ET.parse(output).getroot()
         if (root.attrib.get("viewBox") != "0 0 512 512" or
             root.attrib.get("width") != "512" or root.attrib.get("height") != "512"):
