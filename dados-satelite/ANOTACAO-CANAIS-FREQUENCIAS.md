@@ -25,7 +25,7 @@
 | 13 | Altas TV | REGIONAIS | Türksat 4A | 11996 | V | 27500 | 3/4 |
 | 14 | Anadolu TV | REGIONAIS | A verificar | — | — | — | — |
 | 15 | ARAS TV | REGIONAIS | A verificar | — | — | — | — |
-| 16 | AS TV | NOTÍCIAS | A verificar | — | — | — | — |
+| 16 | AS TV | NOTÍCIAS | Türksat 5B | 11425 | V | 30000 | 3/4 |
 | 17 | ATV | ENTRETENIMENTO | Türksat 4A | 12207 | H | 27500 | 3/4 |
 | 18 | ATV Alanya | REGIONAIS | A verificar | — | — | — | — |
 | 19 | Bengü Türk | NOTÍCIAS | Türksat 4A | 11996 | V | 27500 | 3/4 |
