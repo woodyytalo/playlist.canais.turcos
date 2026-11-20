@@ -1,0 +1,41 @@
+name: Auditar streams HLS
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "Tv.m3u"
+      - "scripts/auditar_streams.py"
+      - ".github/workflows/auditar-streams.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: stream-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Testar manifestos HLS e segmentos
+        run: python scripts/auditar_streams.py
+
+      - name: Publicar relatório como artefato
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: auditoria-streams-hls
+          path: reports/
+          if-no-files-found: warn
+          retention-days: 14
