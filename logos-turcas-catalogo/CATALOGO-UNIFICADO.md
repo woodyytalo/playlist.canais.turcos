@@ -898,3 +898,52 @@ Fonte da imagem: CDN de imagens de TV, referenciada em lista M3U para Kral Pop T
 Fonte da imagem: domínio CDN da TRT. Conferir correspondência com o pacote institucional de logos em https://www.trt.net.tr/kurumsal/logolar.
 
 **Nota de validação:** estas imagens são referências de trabalho, não uma aprovação definitiva de uso. Verificar identidade, atualidade, resolução e condições de reutilização antes de substituir qualquer logo na playlist. Nenhuma playlist foi alterada.
+
+
+# Inventário complementar — canais de música da Tv.m3u (fontes candidatas e pendências)
+
+Esta seção registra os 24 canais da categoria `MÚSICA` que ainda não estavam contemplados na galeria de quatro logos originais (Dream Türk, PowerTürk TV, Kral Pop e TRT Müzik). As URLs abaixo são referências de pesquisa: não se afirma que todos os arquivos foram baixados, que permanecem ativos ou que representam a identidade visual atual. Não usar estas imagens para substituir logos na playlist sem validação visual e confirmação da emissora.
+
+## Fontes de imagem candidatas localizadas
+
+| Canal na Tv.m3u | Referência de imagem ou fonte | Observação |
+|---|---|---|
+| NR1 Aşk | https://www.tvlogo.org/turkey/nr1-ask-tr.png | Candidato do diretório TVLogo; validar versão e identidade. |
+| NR1 Damar | https://www.tvlogo.org/turkey/nr1-damar-tr.png | Candidato do diretório TVLogo; validar versão e identidade. |
+| NR1 Dance | https://www.tvlogo.org/turkey/nr1-dance-tr.png | Candidato do diretório TVLogo; validar versão e identidade. |
+| Number 1 TV | https://www.tvlogo.org/turkey/nr1-tr.png | Candidato do diretório TVLogo; conferir se corresponde à variante exata da playlist. |
+| NR1 Fashion One | https://i.ibb.co/HV0x9JZ/fashion-one.png | Referência PNG encontrada em lista M3U; pode ser antiga. |
+| Med Müzik | https://i.imgur.com/gtUFmCD.png | PNG candidato; referência de canal turco de música curda. Confirmar atualidade. |
+| Power Dance TV | https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_40.png | CDN do Power Group; candidato associado ao canal. |
+| Power Love TV | https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2559.png | CDN do Power Group; candidato associado ao canal. |
+| PowerTürk Taptaze | https://cdn.powergroup.com.tr/image/500x500/powerapp/channels/v3/logo_2534.png | CDN do Power Group; candidato associado à marca/canal. |
+| Power TV (720p) | https://i.ibb.co/JrXDQJy/power-tv.png | Referência PNG encontrada em lista M3U; validar correspondência com a entrada da playlist. |
+| TopPop | https://assets.tvcdn.net/4a8468ec-c134-4db1-93ef-699f15e1522b.png | CDN de imagens de TV; candidato, identidade atual a confirmar. |
+| Now 70 s | https://epg.ovh/logo/NOW+70s.png | Diretório de logos EPG; confirmar que corresponde à entrada da playlist. |
+| Now 80 s | https://epg.ovh/logo/NOW+80s.png | Diretório de logos EPG; confirmar que corresponde à entrada da playlist. |
+| NOW ROCK | https://epg.ovh/logo/NOW+ROCK.png | Diretório de logos EPG; confirmar que corresponde à entrada da playlist. |
+| KN Music TV | https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png | Site do canal; emissora do Azerbaijão, não turca. Manter separada das identidades turcas. |
+| Retro Music Television | https://www.tvchannellists.com/w/File:Retro_Music_Television.svg | Referência SVG; canal tcheco, não turco. Página de arquivo, não URL PNG direta. |
+| 30A Music | https://30a.media/television/ | Página institucional da emissora; emissora norte-americana. Não foi identificada URL direta de PNG nesta pesquisa. |
+| TMB TV | https://www.tvlogo.org/turkey/tmb-tr.png | PNG candidato atribuído ao TMB TV; confirmar no site da emissora antes de aprovar. |
+
+## Canais sem logo original inequívoca ou com identidade divergente
+
+| Canal na Tv.m3u | Resultado da pesquisa | Próxima validação necessária |
+|---|---|---|
+| 1Mus | A correspondência encontrada para “1MUS COM” é russa e não comprova relação com a entrada da playlist. | Identificar emissora, país e site oficial antes de associar qualquer logo. |
+| Play TV | Não foi localizada correspondência inequívoca com um canal musical turco. | Obter nome empresarial, site ou identificador de transmissão. |
+| Dost | Foi localizada uma imagem de Dost TV (https://www.tvlogo.org/turkey/dost-tv-tr.png), mas a emissora identificada é religiosa, não um canal musical. Não associar automaticamente. | Confirmar se a entrada “Dost” da playlist é realmente Dost TV ou outra emissora. |
+| Company TV | A correspondência localizada é uma emissora musical italiana; não há evidência de que seja a entrada da playlist. | Confirmar país, operador e identidade da entrada. |
+| Güçlü TV | Foi localizada uma referência institucional à Türkü Yayıncılık (https://turkuyayincilik.net/), mas não foi confirmada uma URL de logo isolada e atual. | Solicitar/identificar o arquivo oficial da emissora e confirmar que corresponde à entrada. |
+| IQ Channel | A correspondência encontrada é um antigo canal musical da Costa Rica, sem vínculo comprovado com a entrada da playlist. | Identificar a emissora correta antes de usar essa imagem. |
+
+## Critérios de aprovação
+
+1. Priorizar arquivo publicado no site/CDN oficial da própria emissora ou em pacote institucional de logos.
+2. Conferir visualmente o nome, símbolo, país e variante do canal contra a entrada exata em `Tv.m3u`.
+3. Marcar como “candidato” qualquer arquivo vindo de diretório de terceiros, lista M3U, agregador ou CDN sem confirmação oficial.
+4. Não reutilizar logos de canais homônimos de outros países (por exemplo, KN Music TV, Retro Music Television, Company TV ou IQ Channel) como se fossem turcos.
+5. Não alterar `Tv.m3u`, `TV2.m3u`, `Euro.m3u` ou `Backup.m3u` durante esta etapa de pesquisa.
+
+**Estado:** referências catalogadas para pesquisa; nenhuma logo foi aprovada para substituição e nenhuma playlist foi modificada.
