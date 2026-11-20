@@ -994,3 +994,34 @@ Esta seção separa **fontes primárias/publicadas pelos próprios grupos ou emi
 3. **Identidade não confirmada:** nome semelhante, canal de outro país, stream sem dados institucionais ou marca homônima.
 4. Uma fonte oficial de identidade não autoriza automaticamente baixar, redistribuir ou converter a imagem; verificar termos de uso, licença e condições de reutilização.
 5. Nenhuma logo foi aprovada ou aplicada nesta atualização. Nenhuma playlist foi modificada; esta alteração limita-se ao catálogo unificado.
+
+
+---
+
+# Logos pesquisadas no Google — LUYS TV e MUKABELE TV
+
+Imagens localizadas por pesquisa de imagens e cruzamento com fontes públicas. As duas referências ficam registradas como imagens externas no catálogo; não foram baixadas nem armazenadas como arquivos binários neste commit.
+
+## LUYS TV
+
+![Logo LUYS TV](https://pbs.twimg.com/profile_images/1476179658643226628/8FjXUjD6.jpg)
+
+- Imagem direta: https://pbs.twimg.com/profile_images/1476179658643226628/8FjXUjD6.jpg
+- Perfil associado à emissora: https://x.com/luystv
+- Site institucional: https://luysmedya.com/
+- Confirmação regulatória: RTÜK, reunião 2021/34, decisão 7, aprovou a alteração do logotipo de “LUYS 1” para “LUYS TV”: https://www.rtuk.gov.tr/UstKurulKarar/Detay/17061
+- Classificação: imagem associada ao perfil da emissora; referência visual identificada. A decisão do RTÜK confirma o nome da marca, não necessariamente a atualidade desta imagem específica.
+
+## MUKABELE TV
+
+![Logo MUKABELE TV](https://assets.tvcdn.net/23b391ac-5edb-4e37-8664-27da64fb0785.png)
+
+- Imagem direta: https://assets.tvcdn.net/23b391ac-5edb-4e37-8664-27da64fb0785.png
+- Referência em playlist pública com a entrada “MUKABELE TV” e identificador “MUKABELE TV.tr”: https://github.com/erdodo/iptv/blob/main/tv.m3u8
+- Referência adicional com a mesma imagem e nome do canal: https://github.com/tecobaba/m3link/blob/main/ulusal.m3u
+- Stream listado junto à entrada em uma das referências: https://stream.tvcdn.net/dini/mukabele-tv.m3u8
+- Classificação: imagem associada de forma consistente ao serviço/canal “Mukabele TV” em listas públicas de canais; não foi localizada confirmação institucional independente do titular da marca.
+
+## Nota de procedência
+
+As imagens acima foram localizadas por pesquisa pública na web (incluindo resultados de imagens e páginas indexadas). A inclusão registra as referências visuais e suas fontes para consulta; não declara que os arquivos sejam licenciados para redistribuição nem que tenham sido baixados para o repositório. Antes de converter ou redistribuir localmente, verificar direitos e condições de uso. Esta atualização altera somente o catálogo unificado, não as playlists.
