@@ -13,6 +13,7 @@ from vtracer import convert_image_to_svg_py
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "logos-turcas-catalogo" / "CATALOGO-UNIFICADO.md"
 PLAYLIST = ROOT / "Tv.m3u"
+CATEGORY_PLAYLIST = ROOT / "IPTV-Cat.m3u"
 OUT = ROOT / "logos-turcas-catalogo" / "tv-principal-svg"
 TMP = ROOT / "artifacts" / "tv-principal-svg"
 BRANCH = "github/workflows/atualizar-logos.yml"
@@ -164,6 +165,50 @@ def main() -> None:
     if mask(playlist_original) != mask(playlist_updated):
         raise RuntimeError("A validação detectou alteração fora dos atributos tvg-logo.")
     PLAYLIST.write_text(playlist_updated, encoding="utf-8", newline="")
+
+    # Apply only verified channel-name aliases to missing logos in the categorized playlist.
+    if CATEGORY_PLAYLIST.is_file():
+        category_original = CATEGORY_PLAYLIST.read_text(encoding="utf-8")
+        aliases = {
+            "A2TV (1080p)": "A2",
+            "Anadolu Net TV (1080p)": "Anadolu TV",
+            "BRTV (720p)": "BRTV Karabük",
+            "Bursa AS TV (900p)": "AS TV",
+            "Cartoon Network": "Cartoon Network Türkiye",
+            "Er TV (1080p)": "ER TV Malatya",
+            "Haber 61 (alternativo)": "Haber61 TV",
+            "Kanal 26 (720p)": "Kanal 26 Eskişehir",
+            "Kanal 7 (576p)": "Kanal 7 Avrupa",
+            "NOW TV (720p) alternativo": "NOW",
+            "Number 1 Damar": "NR1 Damar",
+            "Number 1 Dance": "NR1 Dance",
+            "Power Dance (1080p)": "Power Dance TV",
+            "Power Love (1080p)": "Power Love TV",
+            "Spacetoon Turkey (720p)": "Spacetoon Türkiye",
+            "TV 24 (720p)": "24 TV",
+            "TV 264 Sakarya": "TV 264",
+            "Trabzon Büyükşehir TV (1080p)": "Trabzon Buyuksehir Belediyesi TV",
+            "Urfanatik TV Yedek (backup)": "Urfanatik TV",
+            "Zarok TV (720p)": "Zarok TV Kurmanji",
+        }
+        def add_category_logo(match):
+            line = match.group(0)
+            if re.search(r'\\btvg-logo="https?://[^"]+"', line):
+                return line
+            name_match = re.search(r'\\btvg-name="([^"]+)"', line)
+            if not name_match:
+                return line
+            source_name = aliases.get(name_match.group(1))
+            filename = output_by_name.get(source_name.casefold()) if source_name else None
+            if not filename:
+                return line
+            logo_url = RAW_BASE + "logos-turcas-catalogo/tv-principal-svg/" + filename
+            return re.sub(r'(?=,)', f' tvg-logo="{logo_url}"', line, count=1)
+        category_updated, category_count = re.subn(
+            r'^#EXTINF:[^\\n]*', add_category_logo, category_original, flags=re.M
+        )
+        CATEGORY_PLAYLIST.write_text(category_updated, encoding="utf-8", newline="")
+        print(f"Playlist categorizada: {category_count} linhas EXTINF verificadas; aliases seguros aplicados somente onde faltava logo.")
 
     with (OUT / "manifest.csv").open("w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(file, fieldnames=["channel", "source_url", "svg_file", "status", "details"])
