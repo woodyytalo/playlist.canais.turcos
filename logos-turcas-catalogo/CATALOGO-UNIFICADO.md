@@ -871,3 +871,30 @@ Esta seção registra as referências visuais identificadas para canais de músi
 - Categoria de logos de canais turcos no Wikimedia Commons: https://commons.wikimedia.org/wiki/Category:Logos_of_television_channels_in_Turkey
 
 **Critérios:** uma imagem encontrada em lista M3U ou CDN de terceiros é tratada como referência/candidata, não como confirmação automática de que seja o logo oficial e atual. A imagem histórica de Kral TV foi separada de Kral Pop para evitar associação incorreta. Antes de aplicar qualquer logo à playlist, verificar visualmente a identidade, atualidade, transparência, resolução e licença/condições de reutilização.
+
+
+# Galeria visual — quatro logos originais de canais de música
+
+As quatro imagens abaixo foram incorporadas como referências visuais externas para consulta. Elas não foram baixadas nem armazenadas como arquivos locais neste commit.
+
+### Dream Türk
+![Referência visual da logo Dream Türk](https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c085866ac31da06187cd)
+
+Fonte da imagem: CDN associada ao canal. Validar se corresponde à identidade visual atual.
+
+### PowerTürk TV
+![Referência visual da logo PowerTürk TV](https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6)
+
+Fonte da imagem: CDN associada ao canal. Validar se corresponde à identidade visual atual.
+
+### Kral Pop
+![Referência visual da logo Kral Pop](http://assets.tvcdn.net/61431fea-4103-46a3-9f8c-aad1504b9776.png)
+
+Fonte da imagem: CDN de imagens de TV, referenciada em lista M3U para Kral Pop TV. Confirmar a versão vigente.
+
+### TRT Müzik
+![Referência visual da logo TRT Müzik](https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/12382043.png)
+
+Fonte da imagem: domínio CDN da TRT. Conferir correspondência com o pacote institucional de logos em https://www.trt.net.tr/kurumsal/logolar.
+
+**Nota de validação:** estas imagens são referências de trabalho, não uma aprovação definitiva de uso. Verificar identidade, atualidade, resolução e condições de reutilização antes de substituir qualquer logo na playlist. Nenhuma playlist foi alterada.
