@@ -847,3 +847,27 @@ Esta tabela inclui **todos os 68 canais** identificados na categoria `group-titl
 | MK TV | Sem novo PNG direto registrado |
 
 **Resultado do inventário:** 68 de 68 canais estão agora listados nominalmente neste arquivo. Os canais sem fonte direta continuam explicitamente marcados como pendentes, em vez de receberem URLs inventadas ou logos de emissoras homônimas. Os links PNG candidatos das seções anteriores e complementares permanecem sujeitos a validação visual, disponibilidade e correspondência de identidade. A playlist não foi modificada.
+
+
+# Logos originais de canais de música — referências visuais pesquisadas em 20/11/2026
+
+Esta seção registra as referências visuais identificadas para canais de música já presentes na playlist `Tv.m3u`. Os links são fontes externas; nenhum arquivo de imagem foi baixado para o repositório nesta atualização e nenhuma entrada da playlist foi alterada.
+
+| Canal da playlist | Referência direta da imagem | Fonte / observação | Situação |
+|---|---|---|---|
+| Dream Türk | https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c085866ac31da06187cd | Imagem CDN associada ao canal; também aparece em listas M3U de referência | Candidata; validar versão atual |
+| PowerTürk TV | https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/5dc2c125866ac31da06187d6 | Imagem CDN associada ao canal; também aparece em listas M3U de referência | Candidata; validar versão atual |
+| Kral Pop | http://assets.tvcdn.net/61431fea-4103-46a3-9f8c-aad1504b9776.png | Imagem usada em lista M3U de referência para Kral Pop TV | Candidata; validar versão atual |
+| TRT Müzik | https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/12382043.png | Imagem servida no domínio CDN da TRT; portal institucional de logos: https://www.trt.net.tr/kurumsal/logolar | Referência institucional; conferir correspondência com a identidade visual vigente |
+| Kral TV (histórico) | https://commons.wikimedia.org/wiki/File:Kral_TV_logo.png | Wikimedia Commons; referência histórica, não confundir com Kral Pop | Apenas referência histórica; não usar como logo atual de Kral Pop |
+
+## Fontes de confirmação e contexto
+
+- Lista M3U de referência com Dream Türk, PowerTürk TV, Kral Pop TV e Number One TV: https://github.com/hhdblog/TR/blob/main/tv_radyo.m3u
+- Lista M3U de referência com Dream Türk, PowerTürk TV e TRT Müzik: https://github.com/tecobaba/m3link/blob/main/ulusal.m3u
+- Outra lista M3U de referência com Dream Türk, PowerTürk TV, TRT Müzik e canais NR1: https://github.com/officialmmt/lists/blob/main/bos.m3u
+- Página de canais de música que identifica TRT Müzik, Dream Türk, Kral Pop TV, Number1 TV e PowerTürk TV: https://televizyon.com.tr/kanallar
+- Portal oficial de logos da TRT: https://www.trt.net.tr/kurumsal/logolar
+- Categoria de logos de canais turcos no Wikimedia Commons: https://commons.wikimedia.org/wiki/Category:Logos_of_television_channels_in_Turkey
+
+**Critérios:** uma imagem encontrada em lista M3U ou CDN de terceiros é tratada como referência/candidata, não como confirmação automática de que seja o logo oficial e atual. A imagem histórica de Kral TV foi separada de Kral Pop para evitar associação incorreta. Antes de aplicar qualquer logo à playlist, verificar visualmente a identidade, atualidade, transparência, resolução e licença/condições de reutilização.
