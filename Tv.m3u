@@ -94,7 +94,7 @@ https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-name="Bloomberg HT 2" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/bloomberght2.png",Bloomberg HT 2 [Türksat 4A: 12303 V, SR 27500, FEC 3/4 / Türksat 4A: 11845 V, SR 10833, FEC 2/3]
+#EXTINF:-1 tvg-chno="24" tvg-name="Bloomberg HT 2" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/bloomberg-ht-tr-5043c40214.svg",Bloomberg HT 2 [Türksat 4A: 12303 V, SR 27500, FEC 3/4 / Türksat 4A: 11845 V, SR 10833, FEC 2/3]
 #EXTVLCOPT:network-caching=5000
 https://tv.ensonhaber.com/bloomberght/bloomberght_480p.m3u8
 
@@ -207,7 +207,7 @@ https://live.euromediacenter.com/ezgitv/index.m3u8
 #EXTVLCOPT:network-caching=5000
 http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="53" tvg-name="Flash Haber TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/flashhabertv.png",Flash Haber TV [Türksat 6A: 12111 V, SR 27500, FEC 3/4]
+#EXTINF:-1 tvg-chno="53" tvg-name="Flash Haber TV" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/Flash_haber_tv_2025-f809f0dbf4.svg",Flash Haber TV [Türksat 6A: 12111 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
 
@@ -288,7 +288,7 @@ https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="74" tvg-name="Kanal 26 Eskişehir" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanal26eskisehir.png",Kanal 26 Eskişehir [Türksat 4A: 12265 V, SR 27500, FEC 3/4]
+#EXTINF:-1 tvg-chno="74" tvg-name="Kanal 26 Eskişehir" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-26-tr-fbfec278f5.svg",Kanal 26 Eskişehir [Türksat 4A: 12265 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 
@@ -351,7 +351,7 @@ https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="90" tvg-name="Kent Türk TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kentturktv.png",Kent Türk TV [Türksat 4A: 12265 V, SR 27500, FEC 5/6]
+#EXTINF:-1 tvg-chno="90" tvg-name="Kent Türk TV" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kent-turk-tr-843e16cda3.svg",Kent Türk TV [Türksat 4A: 12265 V, SR 27500, FEC 5/6]
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 
@@ -375,7 +375,7 @@ https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="96" tvg-id="85vcygdgu27fg6o" tvg-name="Luys TV" tvg-logo="https://assets.tvcdn.net/e876bf88-411c-4a9c-ad29-e449e651f7ae.png" group-title="CULTURA/EDUCAÇÃO",Luys TV [Türksat 4A: 12458 V, SR 30000, FEC 2/3]
+#EXTINF:-1 tvg-chno="96" tvg-id="85vcygdgu27fg6o" tvg-name="Luys TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/luys-tv.svg" group-title="CULTURA/EDUCAÇÃO",Luys TV [Türksat 4A: 12458 V, SR 30000, FEC 2/3]
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
 
@@ -447,14 +447,14 @@ https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="114" tvg-name="MUKABELE TV" tvg-logo="http://assets.tvcdn.net/23b391ac-5edb-4e37-8664-27da64fb0785.png" group-title="RELIGIOSOS",MUKABELE TV [Satélite: a verificar]
+#EXTINF:-1 tvg-chno="114" tvg-name="MUKABELE TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/mukabele-tv.svg" group-title="RELIGIOSOS",MUKABELE TV [Satélite: a verificar]
 #EXTVLCOPT:network-caching=5000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.m3u8
 
 #EXTINF:-1 tvg-chno="115" tvg-name="Rehber TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/rehber-tv-tr-13433fc4a3.svg",Rehber TV [Türksat 5B: 11425 V, SR 30000, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-chno="116" tvg-name="Sat7 Türk" group-title="RELIGIOSOS" tvg-logo="https://assets.tvcdn.net/ca0a924f-a0ee-44a4-b590-b500ceb3e42b.png",Sat7 Türk [Türksat 4A: 12265 V, SR 27500, FEC 3/4]
+#EXTINF:-1 tvg-chno="116" tvg-name="Sat7 Türk" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/sat7-turk-tr-5046f8f42f.svg",Sat7 Türk [Türksat 4A: 12265 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 
@@ -470,7 +470,7 @@ https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 #EXTVLCOPT:network-caching=5000
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 
-#EXTINF:-1 tvg-chno="120" tvg-id="pvr08e5grfsebfw" tvg-name="Show TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/showtv.png",Show TV [Türksat 4A: 12303 V, SR 27500, FEC 3/4]
+#EXTINF:-1 tvg-chno="120" tvg-id="pvr08e5grfsebfw" tvg-name="Show TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/show-tr-5ca7001e81.svg",Show TV [Türksat 4A: 12303 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 
@@ -535,7 +535,7 @@ https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8
 #EXTVLCOPT:network-caching=5000
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8
 
-#EXTINF:-1 tvg-chno="136" tvg-name="TRT EBA Ortaokul" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/trtebaortaokul.png",TRT EBA Ortaokul [Türksat 6A: 12149 V, SR 27500, FEC 3/4]
+#EXTINF:-1 tvg-chno="136" tvg-name="TRT EBA Ortaokul" group-title="CULTURA/EDUCAÇÃO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/eba-tv-ortaokul-tr-130e80a1f5.svg",TRT EBA Ortaokul [Türksat 6A: 12149 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
@@ -630,15 +630,15 @@ https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="160" tvg-name="Zarok TV Kurmanji" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/zaroktvkurmanji.png",Zarok TV Kurmanji [Türksat 6A: 12111 V, SR 27500, FEC 3/4]
+#EXTINF:-1 tvg-chno="160" tvg-name="Zarok TV Kurmanji" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/zarok-tv-tr-09835b4c3b.svg",Zarok TV Kurmanji [Türksat 6A: 12111 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 
-#EXTINF:-1 tvg-chno="161" tvg-name="Zarok TV Sorani" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/zaroktvsorani.png",Zarok TV Sorani [Türksat 6A: 12111 V, SR 27500, FEC 3/4]
+#EXTINF:-1 tvg-chno="161" tvg-name="Zarok TV Sorani" group-title="INFANTIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/zarok-tv-tr-09835b4c3b.svg",Zarok TV Sorani [Türksat 6A: 12111 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 
-#EXTINF:-1 tvg-chno="162" tvg-id="76711" tvg-name="Euro Star TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/eurostartv.png",Euro Star TV [Türksat 6A: 12111 V, SR 27500, FEC 3/4]
+#EXTINF:-1 tvg-chno="162" tvg-id="76711" tvg-name="Euro Star TV" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/euro-star-tr-dcb428c8e7.svg",Euro Star TV [Türksat 6A: 12111 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
 
@@ -753,7 +753,7 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
 #EXTVLCOPT:network-caching=5000
 https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
 
-#EXTINF:-1 tvg-chno="193" group-title="MÚSICA" tvg-name="Dost" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/dost.png",Dost [Türksat 4A: 11996 V, SR 27500, FEC 3/4]
+#EXTINF:-1 tvg-chno="193" group-title="MÚSICA" tvg-name="Dost" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/dost-tv-tr-19fe83f8ba.svg",Dost [Türksat 4A: 11996 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://yayin.santraltr.com/hls/dost.m3u8
 
