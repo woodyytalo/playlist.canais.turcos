@@ -133,7 +133,7 @@
 | 121 | Spacetoon Türkiye | INFANTIS | A verificar | — | — | — | — |
 | 122 | Star TV | ENTRETENIMENTO | Türksat 4A | 12015 | H | 27500 | 3/4 |
 | 123 | TAY TV | ESPORTES | Türksat 4A | 12245 | H | 27500 | 5/6 |
-| 124 | TELE1 | NOTÍCIAS | A verificar | — | — | — | — |
+| 124 | TELE1 | NOTÍCIAS | Türksat 4A | 12034 | V | 27500 | 3/4 |
 | 125 | Tempo TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 126 | teve2 | ENTRETENIMENTO | Türksat 4A | 12245 | H | 27500 | 5/6 |
 | 127 | TGRT Haber | NOTÍCIAS | Türksat 6A / Türksat 4A | 12149 / 12380 | V | 27500 | 3/4 |
