@@ -1,1 +1,1 @@
-Executar bot corrigido: preservar e reutilizar os 210 SVGs já gerados quando válidos (canvas 512x512); baixar somente arquivos ausentes ou inválidos. Não apagar o cache. Manter Dost musical pendente e preservar todos os dados de frequência e URLs de transmissão.
+Validar bot corrigido nas duas playlists: reutilizar os SVGs 512x512 existentes, preservar o cache e aplicar aliases seguros somente aos canais sem logo em IPTV-Cat.m3u. Preservar streams, frequências e o canal Dost HD sem associação ambígua.
