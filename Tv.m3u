@@ -336,10 +336,6 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 #EXTVLCOPT:network-caching=5000
 https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371fb4d7475349d6f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8
 
-#EXTINF:-1 tvg-chno="86" tvg-name="Kanal Fırat" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanalfrat.png",Kanal Fırat [Türksat 4A: 12265 V, SR 27500, FEC 3/4]
-#EXTVLCOPT:network-caching=5000
-https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
-
 #EXTINF:-1 tvg-chno="87" tvg-name="Kanal V" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-v-tr-266a073b4c.svg",Kanal V [Türksat 4A: 12265 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
@@ -797,9 +793,6 @@ https://live.jintv.org/medialive/jintv.m3u8
 #EXTINF:-1 tvg-chno="204" tvg-name="MAKKAH TV" group-title="RELIGIOSOS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/makkahtv.png",Makkah TV [Satélite: a verificar]
 #EXTVLCOPT:network-caching=5000
 https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all
-#EXTINF:-1 tvg-chno="205" group-title="REGIONAIS" tvg-name="MK TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/mktv.png",MK TV [Türksat 4A: 12265 V, SR 27500, FEC 3/4]
-#EXTVLCOPT:network-caching=5000
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 #EXTINF:-1 tvg-chno="206" group-title="MÚSICA" tvg-name="TopPop" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/toppop.png",TopPop [Satélite: a verificar]
 #EXTVLCOPT:network-caching=5000
 https://yayin.santraltr.com/hls/toppop.m3u8
