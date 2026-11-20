@@ -1014,9 +1014,9 @@ Imagens localizadas por pesquisa de imagens e cruzamento com fontes públicas. A
 
 ## MUKABELE TV
 
-![Logo MUKABELE TV](https://assets.tvcdn.net/23b391ac-5edb-4e37-8664-27da64fb0785.png)
+![Logo MUKABELE TV](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/mukabele-tv.svg)
 
-- Imagem direta: https://assets.tvcdn.net/23b391ac-5edb-4e37-8664-27da64fb0785.png
+- Imagem direta: https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/mukabele-tv.svg
 - Referência em playlist pública com a entrada “MUKABELE TV” e identificador “MUKABELE TV.tr”: https://github.com/erdodo/iptv/blob/main/tv.m3u8
 - Referência adicional com a mesma imagem e nome do canal: https://github.com/tecobaba/m3link/blob/main/ulusal.m3u
 - Stream listado junto à entrada em uma das referências: https://stream.tvcdn.net/dini/mukabele-tv.m3u8
@@ -1173,7 +1173,7 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | TBMM TV | ![Logo TBMM TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/tbmm-tv-tr-9d1f406b88.svg) |
 | Van 65 TV | ![Logo Van 65 TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/van65tv.png) |
 | YOL TV | ![Logo YOL TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/yol-tv-tr-a747116203.svg) |
-| Kanal Ada | ![Logo Kanal Ada](https://assets.tvcdn.net/5cbdd199-9ed1-4f2d-a106-a6d9c53227c4.png) |
+| Kanal Ada | ![Logo Kanal Ada](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-ada.svg) |
 | Kanal Urfa | ![Logo Kanal Urfa ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-urfa-tr-0831c8c3c9.svg) |
 | Trabzon Buyuksehir Belediyesi TV | ![Logo Trabzon Buyuksehir Belediyesi TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/trabzonbuyuksehirbelediyesitv.png) |
 | Urfanatik TV | ![Logo Urfanatik TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/urfanatiktv.png) |
@@ -1190,7 +1190,7 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Dost TV | ![Logo Dost TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/dost-tv-tr-19fe83f8ba.svg) |
 | Lalegül TV | ![Logo Lalegül TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/lalegul-tv-tr-bf073564f5.svg) |
 | Meltem TV | ![Logo Meltem TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/meltemtv.png) |
-| MUKABELE TV | ![Logo MUKABELE TV ](https://assets.tvcdn.net/23b391ac-5edb-4e37-8664-27da64fb0785.png) |
+| MUKABELE TV | ![Logo MUKABELE TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/mukabele-tv.svg) |
 | Rehber TV | ![Logo Rehber TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/rehber-tv-tr-13433fc4a3.svg) |
 | Sat7 Türk | ![Logo Sat7 Türk ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/sat7-turk-tr-5046f8f42f.svg) |
 | Semerkand TV | ![Logo Semerkand TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/semerkand-tv-tr-2709228c81.svg) |
@@ -1248,7 +1248,7 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 | Canal | Logo |
 |---|---|
 | Çiftçi TV | ![Logo Çiftçi TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/ciftci-tv-tr-ac1e5d4e6e.svg) |
-| Luys TV | ![Logo Luys TV ](https://assets.tvcdn.net/e876bf88-411c-4a9c-ad29-e449e651f7ae.png) |
+| Luys TV | ![Logo Luys TV ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/luys-tv.svg) |
 | TRT EBA Ortaokul | ![Logo TRT EBA Ortaokul ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/trtebaortaokul.png) |
 | TV Karadeniz | ![Logo TV Karadeniz ](https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/tvkaradeniz.png) |
 
@@ -1313,4 +1313,4 @@ Inventário visual gerado a partir das entradas da playlist `Tv.m3u` na branch `
 
 ## Pendências
 
-- **Kanal Ada** — a entrada atual de `Tv.m3u` continua sem atributo `tvg-logo`. A logo foi incluída na galeria a partir do endereço `https://assets.tvcdn.net/5cbdd199-9ed1-4f2d-a106-a6d9c53227c4.png`, associado ao canal Kanal Ada em uma playlist pública de referência que também identifica o fluxo `stream.tvcdn.net/yerel/kanal-ada.m3u8`. Fonte de conferência: https://github.com/erdodo/iptv/blob/main/tv.m3u8. A referência visual foi adicionada ao catálogo; a playlist principal não foi alterada.
+- **Kanal Ada** — a entrada atual de `Tv.m3u` continua sem atributo `tvg-logo`. A logo foi incluída na galeria a partir do endereço `https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-ada.svg`, associado ao canal Kanal Ada em uma playlist pública de referência que também identifica o fluxo `stream.tvcdn.net/yerel/kanal-ada.m3u8`. Fonte de conferência: https://github.com/erdodo/iptv/blob/main/tv.m3u8. A referência visual foi adicionada ao catálogo; a playlist principal não foi alterada.
