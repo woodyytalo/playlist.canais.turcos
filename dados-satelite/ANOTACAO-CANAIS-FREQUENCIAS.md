@@ -22,7 +22,7 @@
 | 10 | Al Zahra TV Turkic | RELIGIOSOS | Türksat 6A | 12149 | V | 27500 | 3/4 |
 | 11 | Alanya Posta TV | REGIONAIS | A verificar | — | — | — | — |
 | 12 | Almahriah TV | INTERNACIONAIS | A verificar | — | — | — | — |
-| 13 | Altas TV | REGIONAIS | A verificar | — | — | — | — |
+| 13 | Altas TV | REGIONAIS | Türksat 4A | 11996 | V | 27500 | 3/4 |
 | 14 | Anadolu TV | REGIONAIS | A verificar | — | — | — | — |
 | 15 | ARAS TV | REGIONAIS | A verificar | — | — | — | — |
 | 16 | AS TV | NOTÍCIAS | A verificar | — | — | — | — |
@@ -145,7 +145,7 @@
 | 122 | Star TV | ENTRETENIMENTO | Türksat 4A | 12015 | H | 27500 | 3/4 |
 | 123 | TAY TV | ESPORTES | Türksat 4A | 12245 | H | 27500 | 5/6 |
 | 124 | TELE1 | NOTÍCIAS | A verificar | — | — | — | — |
-| 125 | Tempo TV | REGIONAIS | A verificar | — | — | — | — |
+| 125 | Tempo TV | REGIONAIS | Türksat 4A | 12265 | V | 27500 | 3/4 |
 | 126 | teve2 | ENTRETENIMENTO | Türksat 4A | 12245 | H | 27500 | 5/6 |
 | 127 | TGRT Haber | NOTÍCIAS | Türksat 6A | 12149 | V | 27500 | 3/4 |
 | 127 | TGRT Haber | NOTÍCIAS | Türksat 4A | 12380 | V | 27500 | 3/4 |
