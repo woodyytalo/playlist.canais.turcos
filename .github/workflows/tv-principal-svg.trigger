@@ -1,1 +1,1 @@
-Executar a aplicação das 210 logos SVG no padrão quadrado 512x512, centralizado, proporcional e sem corte. O processamento agora possui retentativas com espera para respostas HTTP 429 e falhas temporárias das fontes. Preservar Dost musical pendente.
+Executar bot corrigido: preservar e reutilizar os 210 SVGs já gerados quando válidos (canvas 512x512); baixar somente arquivos ausentes ou inválidos. Não apagar o cache. Manter Dost musical pendente e preservar todos os dados de frequência e URLs de transmissão.
