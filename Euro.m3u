@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml,https://epg.pw/api/epg.xml?channel_id=55758,https://tvprofil.net/xmltv/epg_tvprofil.net.xml"
 #EXTINF:-1 tvg-id="fc29p3wbp8wkgo4" tvg-name="A2" group-title="ENTRETENIMENTO",A2
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A2.m3u
 #EXTINF:-1 tvg-id="m0abaihy7vla6ma" tvg-name="NOW" group-title="ENTRETENIMENTO",NOW
@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/K
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
 #EXTINF:-1 tvg-name="Kanal 7 Avrupa" group-title="Internacionais",Kanal 7 Avrupa
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_7_Avrupa.m3u
-#EXTINF:-1 tvg-name="Kanal Euro D" group-title="Internacionais",Kanal Euro D
+#EXTINF:-1 tvg-id="55758" tvg-name="Euro D" group-title="Internacionais",Kanal Euro D
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_Euro_D.m3u
 #EXTINF:-1 tvg-id="ql8qf4vb46o1h7t" tvg-name="A Haber" group-title="NOTÍCIAS",A Haber
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Haber.m3u
@@ -51,3 +51,6 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/T
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Spor.m3u
 #EXTINF:-1 tvg-id="kazwkgx73ijjqob" tvg-name="beIN Sports Haberler" group-title="ESPORTES",beIN Sports Haberler
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bein_Sports_Haberler.m3u
+
+#EXTINF:-1 tvg-id="kanal-d.movie" tvg-name="Kanal D Drama" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanalddrama.png",Kanal D Drama
+https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8
