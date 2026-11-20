@@ -150,7 +150,7 @@
 | 138 | TRT Haber | NOTÍCIAS | Türksat 4A | 11958 / 12092 / 12226 | V / H | 27500 | 5/6 / 3/4 |
 | 139 | TRT Kurdî | TRT | Türksat 4A | 12092 / 12226 | H / V | 27500 | 5/6 / 3/4 |
 | 140 | TRT Müzik | MÚSICA | Türksat 4A | 11958 / 12092 / 12226 | V / H | 27500 | 5/6 / 3/4 |
-| 141 | Kral Pop | MÚSICA | A verificar | — | — | — | — |
+| 141 | Kral Pop | MÚSICA | Türksat 4A | 12015 | H | 27500 | 3/4 |
 | 142 | NR1 Fashion One | MÚSICA | A verificar | — | — | — | — |
 | 143 | TRT Türk | TRT | Türksat 4A | 12092 / 12226 | H / V | 27500 | 5/6 / 3/4 |
 | 144 | TRT World | TRT | Türksat 4A | 12226 | V | 27500 | 3/4 |
@@ -202,7 +202,7 @@
 | 190 | ETV Manisa | REGIONAIS | A verificar | — | — | — | — |
 | 191 | Dizi TV | FILMES E SÉRIES | A verificar | — | — | — | — |
 | 192 | ABN TURKEY | RELIGIOSOS | A verificar | — | — | — | — |
-| 193 | Dost | MÚSICA | A verificar | — | — | — | — |
+| 193 | Dost | MÚSICA | Türksat 4A | 11996 | V | 27500 | 3/4 |
 | 194 | Company TV | MÚSICA | A verificar | — | — | — | — |
 | 195 | INTV Australia | INTERNACIONAIS | A verificar | — | — | — | — |
 | 196 | Güçlü TV | MÚSICA | A verificar | — | — | — | — |
