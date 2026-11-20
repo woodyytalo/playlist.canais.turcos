@@ -25,6 +25,78 @@ jobs:
       - name: Baixar repositório
         uses: actions/checkout@v4
 
+      - name: Preparar logos da TV principal em 200x227 px
+        shell: bash
+        run: |
+          python -m pip install --disable-pip-version-check Pillow
+          python - <<'PY'
+          import hashlib
+          import io
+          import re
+          import urllib.request
+          from pathlib import Path
+          from PIL import Image
+
+          playlist = Path("Tv.m3u")
+          logo_dir = Path("logos")
+          logo_dir.mkdir(exist_ok=True)
+          lines = playlist.read_text(encoding="utf-8-sig").splitlines()
+          changed = 0
+          downloaded = 0
+          failed = 0
+
+          for index, line in enumerate(lines):
+              if not line.startswith("#EXTINF:"):
+                  continue
+              match = re.search(r'tvg-logo="([^"]+)"', line, re.I)
+              if not match:
+                  continue
+              source = match.group(1).strip()
+              if not source.startswith(("http://", "https://")):
+                  continue
+
+              filename = hashlib.sha256(source.encode("utf-8")).hexdigest()[:20] + ".png"
+              destination = logo_dir / filename
+              try:
+                  if not destination.exists():
+                      request = urllib.request.Request(
+                          source,
+                          headers={"User-Agent": "PlaylistLogoResizer/1.0"}
+                      )
+                      with urllib.request.urlopen(request, timeout=25) as response:
+                          raw = response.read(8 * 1024 * 1024 + 1)
+                      if len(raw) > 8 * 1024 * 1024:
+                          raise ValueError("imagem excede 8 MB")
+                      with Image.open(io.BytesIO(raw)) as original:
+                          image = original.convert("RGBA")
+                          image.thumbnail((200, 227), Image.Resampling.LANCZOS)
+                          canvas = Image.new("RGBA", (200, 227), (0, 0, 0, 0))
+                          x = (200 - image.width) // 2
+                          y = (227 - image.height) // 2
+                          canvas.alpha_composite(image, (x, y))
+                          canvas.save(destination, format="PNG", optimize=True)
+                      downloaded += 1
+
+                  new_url = (
+                      "https://raw.githubusercontent.com/"
+                      + "${{ github.repository }}"
+                      + "/${{ github.ref_name }}/logos/"
+                      + filename
+                  )
+                  lines[index] = line[:match.start(1)] + new_url + line[match.end(1):]
+                  if new_url != source:
+                      changed += 1
+              except Exception as error:
+                  failed += 1
+                  print(f"Logo mantida na URL original ({source}): {error}")
+
+          playlist.write_text("\n".join(lines) + "\n", encoding="utf-8")
+          print(
+              f"Logos preparadas: {downloaded}; URLs atualizadas: {changed}; "
+              f"falhas mantidas na origem: {failed}. Tamanho de saída: 200x227 px."
+          )
+          PY
+
       - name: Corrigir automaticamente nomes e remover números de catálogo
         shell: bash
         run: |
@@ -133,14 +205,14 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if [[ -z "$(git status --porcelain -- Tv.m3u)" ]]; then
+          if [[ -z "$(git status --porcelain -- Tv.m3u logos/)" ]]; then
             echo "Nenhuma alteração para salvar."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Tv.m3u
+          git add Tv.m3u logos/
           git commit -m "Atualizar programação, qualidade e buffer da TV principal"
 
           # Outros bots também gravam na mesma branch. Rebaseia sobre a versão
