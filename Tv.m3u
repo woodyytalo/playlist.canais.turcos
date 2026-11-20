@@ -82,7 +82,7 @@ https://tv.ensonhaber.com/benguturk/benguturk_480p.m3u8
 #EXTVLCOPT:network-caching=5000
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-name="Bi Kanal" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/8e8a6f92abf75922c21a.png",Bi Kanal
+#EXTINF:-1 tvg-chno="21" tvg-name="Bi Kanal" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/257d1b7c27c4ddd90054.png",Bi Kanal
 #EXTVLCOPT:network-caching=5000
 https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 
@@ -332,7 +332,7 @@ https://tv.kanalb.tr/hls/kanalb/index.m3u8
 #EXTVLCOPT:network-caching=5000
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 
-#EXTINF:-1 tvg-chno="85" tvg-name="Kanal D Drama" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/507cf7f5077dd4b10fc1.png",Kanal D Drama
+#EXTINF:-1 tvg-chno="85" tvg-name="Kanal D Drama" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/e369009e61dbe33833e7.png",Kanal D Drama
 #EXTVLCOPT:network-caching=5000
 https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371fb4d7475349d6f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8
 
@@ -700,14 +700,14 @@ https://live.yoltv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-chno="177" tvg-name="RTG International" group-title="INTERNACIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/rtginternational.png",RTG International
 #EXTVLCOPT:network-caching=5000
 http://213.91.179.28:8000/play/a0bw
-#EXTINF:-1 tvg-chno="178" tvg-name="Kanal Ada" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/48c1afab9219adfc2e75.png",Kanal Ada
+#EXTINF:-1 tvg-chno="178" tvg-name="Kanal Ada" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/625303001b0e69a7bdba.png",Kanal Ada
 #EXTVLCOPT:network-caching=5000
 http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum
 
 #EXTINF:-1 tvg-chno="179" tvg-name="Arzu Film" group-title="FILMES E SÉRIES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/arzufilm.png",Arzu Film
 #EXTVLCOPT:network-caching=5000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u
-#EXTINF:-1 tvg-chno="180" tvg-name="Ekol Sports" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/c8de0820fe82322ae065.png",Ekol Sports
+#EXTINF:-1 tvg-chno="180" tvg-name="Ekol Sports" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos/54d2f05354865688ed46.png",Ekol Sports
 #EXTVLCOPT:network-caching=5000
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #EXTINF:-1 tvg-chno="181" tvg-name="Kanal Urfa" group-title="REGIONAIS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kanal-urfa-tr-0831c8c3c9.svg",Kanal Urfa
