@@ -2,6 +2,11 @@ name: Gerar todas as logos — padrão vermelho metálico
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - github/workflows/atualizar-logos.yml
+    paths:
+      - .github/workflows/gerar-logos-todos-canais.trigger
 
 permissions:
   contents: read
