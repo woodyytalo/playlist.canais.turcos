@@ -24,7 +24,16 @@ Este documento reúne as fontes identificadas para localizar, conferir e obter l
 | Digiturk | https://www.digiturk.com.tr/ | Catálogo de operadora | Referência para conferir nomes, marcas e identidade de canais. Não foi confirmado como arquivo público de logos em lote. |
 | Tivibu | https://www.tivibu.com.tr/ | Catálogo de operadora | Referência para conferir nomes, marcas e identidade de canais. Não foi confirmado como arquivo público de logos em lote. |
 
-## 3. Regras para incorporar imagens ao catálogo
+## 3. Fontes adicionais identificadas
+
+| Fonte | Endereço | Tipo | Uso e observações |
+|---|---|---|---|
+| msvsee/IPTV — Turkey Turkish | https://github.com/msvsee/IPTV/blob/main/turkey_turkish.m3u | Playlist M3U com metadados tvg-logo | Fonte de descoberta para nomes de canais e URLs de logos. Validar cada URL individualmente; não importar a playlist como catálogo de imagens. |
+| baycuman-hub/turk-tv | https://github.com/baycuman-hub/turk-tv/blob/main/Turk-Kanallari.m3u.m3u | Playlist M3U com metadados tvg-logo | Fonte complementar de descoberta e cruzamento de canais/logos. Validar atualidade, correspondência e URL de cada imagem. |
+| yasserstudio/tv-logos | https://github.com/yasserstudio/tv-logos | Repositório GitHub de logos por país | Repositório arquivado (somente leitura, conforme consulta realizada). Conferir se há arquivos da Turquia que acrescentem cobertura além de tv-logo/tv-logos antes de importar. |
+| Wikimedia Commons — NTV logos | https://commons.wikimedia.org/wiki/Category:NTV_logos | Categoria especializada de mídia | Inclui versões atuais e históricas; selecionar somente a versão atual correspondente ao canal NTV. |
+
+## 4. Regras para incorporar imagens ao catálogo
 
 1. Confirmar que a logo pertence exatamente ao canal da entrada da playlist.
 2. Preferir a versão atual e oficial; não substituir logo atual por variante histórica.
@@ -34,10 +43,11 @@ Este documento reúne as fontes identificadas para localizar, conferir e obter l
 6. Não alterar os links de transmissão, categorias ou a playlist TV principal durante a coleta de logos.
 7. Catálogos de operadoras e playlists de terceiros são fontes de conferência; não devem ser raspados automaticamente como se fossem repositórios de imagens sem verificar permissões, estabilidade e URLs diretas.
 
-## 4. Estado da integração
+## 5. Estado da integração
 
 - **Já contempladas na automação do catálogo:** tv-logo/tv-logos, Wikimedia Commons, TRT oficial e GunesTV.
-- **Registradas como fontes adicionais de consulta:** TVLogo.org, Wikimedia geral, dataset discevisita/iptv, D-Smart, Digiturk e Tivibu.
+- **Registradas como fontes adicionais de consulta:** TVLogo.org, Wikimedia geral, dataset discevisita/iptv, D-Smart, Digiturk, Tivibu, msvsee/IPTV, baycuman-hub/turk-tv, yasserstudio/tv-logos e categoria NTV do Wikimedia Commons.
 - O registro neste documento não significa que todas as imagens dessas fontes já foram baixadas, convertidas ou associadas aos canais.
+- Playlists M3U são fontes para descobrir nomes e metadados tvg-logo; não são arquivos PNG nem garantem que os endereços estejam ativos ou que a imagem seja oficial.
 - A playlist TV principal e os arquivos de transmissão não são modificados por este catálogo de fontes.
 
