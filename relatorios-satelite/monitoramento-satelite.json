@@ -1,20 +1,20 @@
 {
-  "generated_at_utc": "2026-11-20T15:44:32+00:00",
+  "generated_at_utc": "2026-11-20T15:46:57+00:00",
   "source_url": "https://tr.canlitv.watch/frekans-bilgileri",
   "source_check": {
     "ok": true,
     "http_status": 200
   },
   "summary": {
-    "table_rows": 233,
+    "table_rows": 235,
     "unique_channels": 211,
     "expected_channels": 211,
-    "pending_verification": 106,
-    "channels_with_multiple_transponders": 20,
+    "pending_verification": 94,
+    "channels_with_multiple_transponders": 22,
     "satellites": {
-      "Türksat 4A": 107,
-      "Türksat 5B": 10,
-      "Türksat 6A": 10
+      "Türksat 4A": 116,
+      "Türksat 5B": 11,
+      "Türksat 6A": 14
     },
     "invalid_confirmed_entries": 0
   },
@@ -560,26 +560,6 @@
       "fec": "—"
     },
     {
-      "number": 132,
-      "channel": "TRT Arabi",
-      "category": "TRT",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 133,
-      "channel": "TRT Avaz",
-      "category": "TRT",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 141,
       "channel": "Kral Pop",
       "category": "MÚSICA",
@@ -593,76 +573,6 @@
       "number": 142,
       "channel": "NR1 Fashion One",
       "category": "MÚSICA",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 151,
-      "channel": "TV Karadeniz",
-      "category": "CULTURA/EDUCAÇÃO",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 156,
-      "channel": "TVNET",
-      "category": "NOTÍCIAS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 158,
-      "channel": "Ülke TV",
-      "category": "NOTÍCIAS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 159,
-      "channel": "Vav TV",
-      "category": "RELIGIOSOS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 160,
-      "channel": "Zarok TV Kurmanji",
-      "category": "INFANTIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 161,
-      "channel": "Zarok TV Sorani",
-      "category": "INFANTIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 162,
-      "channel": "Euro Star TV",
-      "category": "ENTRETENIMENTO",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",
@@ -690,16 +600,6 @@
       "fec": "—"
     },
     {
-      "number": 167,
-      "channel": "Van 65 TV",
-      "category": "REGIONAIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
       "number": 169,
       "channel": "Tabii",
       "category": "FILMES E SÉRIES",
@@ -713,16 +613,6 @@
       "number": 170,
       "channel": "BBC First Türkiye",
       "category": "FILMES E SÉRIES",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 171,
-      "channel": "Ekol TV",
-      "category": "NOTÍCIAS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",
@@ -863,16 +753,6 @@
       "number": 187,
       "channel": "BabyFirst TV",
       "category": "INFANTIS",
-      "satellite": "A verificar",
-      "frequency_mhz": "—",
-      "polarization": "—",
-      "symbol_rate_ksps": "—",
-      "fec": "—"
-    },
-    {
-      "number": 188,
-      "channel": "TLC",
-      "category": "DOCUMENTÁRIOS",
       "satellite": "A verificar",
       "frequency_mhz": "—",
       "polarization": "—",
@@ -1142,6 +1022,11 @@
       "transponders": 2
     },
     {
+      "number": 133,
+      "channel": "TRT Avaz",
+      "transponders": 2
+    },
+    {
       "number": 134,
       "channel": "TRT Çocuk",
       "transponders": 2
@@ -1179,6 +1064,11 @@
     {
       "number": 143,
       "channel": "TRT Türk",
+      "transponders": 2
+    },
+    {
+      "number": 158,
+      "channel": "Ülke TV",
       "transponders": 2
     }
   ],

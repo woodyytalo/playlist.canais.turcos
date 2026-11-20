@@ -1,25 +1,25 @@
 # Auditoria de frequencias via satelite
 
-- Gerado em UTC: 2026-11-20T15:44:32+00:00
+- Gerado em UTC: 2026-11-20T15:46:57+00:00
 - Arquivo: dados-satelite/ANOTACAO-CANAIS-FREQUENCIAS.md
 - Fonte: https://tr.canlitv.watch/frekans-bilgileri
 - Resposta HTTP da fonte: OK
 
 ## Resumo
 
-- Linhas de transponder: **233**
+- Linhas de transponder: **235**
 - Canais unicos: **211** (esperado: 211)
-- Canais A verificar: **106**
-- Canais com multiplos transponders: **20**
+- Canais A verificar: **94**
+- Canais com multiplos transponders: **22**
 - Entradas confirmadas com campos invalidos: **0**
 
 ## Distribuicao por satelite
 
 | Satelite | Linhas |
 |---|---:|
-| Türksat 4A | 107 |
-| Türksat 5B | 10 |
-| Türksat 6A | 10 |
+| Türksat 4A | 116 |
+| Türksat 5B | 11 |
+| Türksat 6A | 14 |
 
 ## Canais pendentes
 
@@ -79,23 +79,12 @@
 | 125 | Tempo TV | REGIONAIS |
 | 129 | TJK TV | ESPORTES |
 | 130 | Ton TV | REGIONAIS |
-| 132 | TRT Arabi | TRT |
-| 133 | TRT Avaz | TRT |
 | 141 | Kral Pop | MÚSICA |
 | 142 | NR1 Fashion One | MÚSICA |
-| 151 | TV Karadeniz | CULTURA/EDUCAÇÃO |
-| 156 | TVNET | NOTÍCIAS |
-| 158 | Ülke TV | NOTÍCIAS |
-| 159 | Vav TV | RELIGIOSOS |
-| 160 | Zarok TV Kurmanji | INFANTIS |
-| 161 | Zarok TV Sorani | INFANTIS |
-| 162 | Euro Star TV | ENTRETENIMENTO |
 | 164 | Natural TV | REGIONAIS |
 | 166 | TBMM TV | REGIONAIS |
-| 167 | Van 65 TV | REGIONAIS |
 | 169 | Tabii | FILMES E SÉRIES |
 | 170 | BBC First Türkiye | FILMES E SÉRIES |
-| 171 | Ekol TV | NOTÍCIAS |
 | 172 | Syria TV | INTERNACIONAIS |
 | 173 | Balkan Türk | INTERNACIONAIS |
 | 174 | Thaqalayn TV | INTERNACIONAIS |
@@ -110,7 +99,6 @@
 | 184 | MADINAH TV | RELIGIOSOS |
 | 185 | MC EU TV | INTERNACIONAIS |
 | 187 | BabyFirst TV | INFANTIS |
-| 188 | TLC | DOCUMENTÁRIOS |
 | 190 | ETV Manisa | REGIONAIS |
 | 191 | Dizi TV | FILMES E SÉRIES |
 | 192 | ABN TURKEY | RELIGIOSOS |
