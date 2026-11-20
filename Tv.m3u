@@ -555,7 +555,7 @@ https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8
 #EXTVLCOPT:network-caching=5000
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-chno="141" tvg-name="KRAL POP" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kral-pop-tr-f8a6e4ca20.svg",Kral Pop [Satélite: a verificar]
+#EXTINF:-1 tvg-chno="141" tvg-name="KRAL POP" group-title="MÚSICA" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/svg/kral-pop-tr-f8a6e4ca20.svg",Kral Pop [Türksat 4A: 12015 H, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 http://dygvideo.dygdigital.com/live/hls/kralpop
 
@@ -753,7 +753,7 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
 #EXTVLCOPT:network-caching=5000
 https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
 
-#EXTINF:-1 tvg-chno="193" group-title="MÚSICA" tvg-name="Dost" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/dost.png",Dost [Satélite: a verificar]
+#EXTINF:-1 tvg-chno="193" group-title="MÚSICA" tvg-name="Dost" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/dost.png",Dost [Türksat 4A: 11996 V, SR 27500, FEC 3/4]
 #EXTVLCOPT:network-caching=5000
 https://yayin.santraltr.com/hls/dost.m3u8
 
