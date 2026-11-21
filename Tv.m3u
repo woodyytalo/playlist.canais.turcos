@@ -310,7 +310,7 @@ https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 https://ciner.daioncdn.net/ht-spor/ht-spor_480p.m3u8?ex=0&sid=8wn2p2rpc61m&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 
 #FREQUÊNCIA: Türksat 4A: 12423 V, SR 27500, FEC 2/3 / Türksat 6A: 12111 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="GuneydoguTV.tr@SD" tvg-chno="63" tvg-name="Güneydoğu TV" group-title="REGIONAIS" tvg-language="Turkish",Güneydoğu TV
+#EXTINF:-1 tvg-id="GuneydoguTV.tr@SD" tvg-chno="63" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/063-guneydogu-tv.png" tvg-name="Güneydoğu TV" group-title="REGIONAIS" tvg-language="Turkish",Güneydoğu TV
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
@@ -357,7 +357,7 @@ https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="Kanal23.tr@SD" tvg-chno="73" tvg-name="Kanal 23" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/073-Kanal-23-b5387b5c95.png" group-title="REGIONAIS" tvg-language="Turkish",Kanal 23
+#EXTINF:-1 tvg-id="Kanal23.tr@SD" tvg-chno="73" tvg-name="Kanal 23" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/073-kanal-23.png" group-title="REGIONAIS" tvg-language="Turkish",Kanal 23
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
 
