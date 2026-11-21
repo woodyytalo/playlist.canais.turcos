@@ -819,7 +819,7 @@ https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11958 V, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-chno="166" tvg-name="TBMM TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/166-TBMM-TV-0f358a14fa.png" group-title="REGIONAIS" tvg-language="Turkish",TBMM TV
+#EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-chno="166" tvg-name="TBMM TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/166-tbmm-tv.png" group-title="REGIONAIS" tvg-language="Turkish",TBMM TV
 #EXTVLCOPT:network-caching=5000
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
@@ -869,7 +869,7 @@ http://62.60.207.173:8080/hls/thaqalayn/1_2/index.m3u8?tkn=751218219
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="YOLTV.de@SD" tvg-chno="176" tvg-name="YOL TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/176-YOL-TV-a90dfc9855.png" group-title="REGIONAIS" tvg-language="Turkish",YOL TV
+#EXTINF:-1 tvg-id="YOLTV.de@SD" tvg-chno="176" tvg-name="YOL TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/176-yol-tv.png" group-title="REGIONAIS" tvg-language="Turkish",YOL TV
 #EXTVLCOPT:network-caching=5000
 https://live.yoltv.com/hls/stream.m3u8
 
@@ -891,7 +891,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A
 #EXTVLCOPT:network-caching=5000
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #FREQUÊNCIA: Türksat 4A: 12423 V, SR 27500, FEC 2/3
-#EXTINF:-1 tvg-id="KanalUrfa.tr" tvg-chno="181" tvg-name="Kanal Urfa" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/181-Kanal-Urfa-46ef3047d8.png" group-title="REGIONAIS" tvg-language="Turkish",Kanal Urfa
+#EXTINF:-1 tvg-id="KanalUrfa.tr" tvg-chno="181" tvg-name="Kanal Urfa" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/181-kanal-urfa.png" group-title="REGIONAIS" tvg-language="Turkish",Kanal Urfa
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
