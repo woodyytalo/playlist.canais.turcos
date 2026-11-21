@@ -1032,3 +1032,139 @@ https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 
 # Atualização automática das logos por categoria
 
+# Lista complementar: canais da playlist original Roblabs-Teknoloji/iptv (URLs ainda não presentes)
+#EXTINF:-1 tvg-id="24TV.tr@SD" tvg-logo="https://i.imgur.com/8FO41es.png" tvg-language="Turkish" group-title="News",24 TV (720p)
+#EXTVLCOPT:network-caching=5000
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1 tvg-id="AnadoluNetTV.tr@SD" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" tvg-language="Turkish" group-title="General",Anadolu Net TV (1080p)
+#EXTVLCOPT:network-caching=5000
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
+#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" tvg-language="Turkish" group-title="General",ATV (Turkiye) (1080p)
+#EXTVLCOPT:network-caching=5000
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-logo="https://i.imgur.com/bmkXfIE.png" tvg-language="Turkish" group-title="Business",Bloomberg HT (720p)
+#EXTVLCOPT:network-caching=5000
+https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
+#EXTINF:-1 tvg-id="CekmekoyTV.tr@SD" tvg-logo="https://i.imgur.com/sjAGFWu.png" tvg-language="Turkish" group-title="General",Cekmekoy TV (1080p)
+#EXTVLCOPT:network-caching=5000
+https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
+#EXTINF:-1 tvg-id="DiyanetTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png" tvg-language="Turkish" group-title="Religious",Diyanet TV (1080p)
+#EXTVLCOPT:network-caching=5000
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="GZT.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/960px-GZT_logo.svg.png" tvg-language="Turkish" group-title="Documentary;Series",GZT (1080p)
+#EXTVLCOPT:network-caching=5000
+https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
+#EXTINF:-1 tvg-id="HunatTV.tr" tvg-name="Hunat TV" tvg-country="TR" tvg-language="Turkish" group-title="Türkiye",Hunat TV (480p, kesintili)
+#EXTVLCOPT:network-caching=5000
+https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8
+#EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" tvg-language="Turkish" group-title="Sports",HTSpor TV (1080p)
+#EXTVLCOPT:network-caching=5000
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 tvg-id="Kanal23.tr@SD" tvg-logo="https://i.imgur.com/3br8RCq.png" tvg-language="Turkish" group-title="General",Kanal 23 (1080p)
+#EXTVLCOPT:network-caching=5000
+https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
+#EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-logo="https://i.imgur.com/ch365lh.png" tvg-language="Turkish" group-title="Music",Kral Pop TV (720p)
+#EXTVLCOPT:network-caching=5000
+https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerLove.tr@SD" tvg-logo="https://i.imgur.com/0RzUswR.png" tvg-language="Turkish" group-title="Music",Power Love (1080p)
+#EXTVLCOPT:network-caching=5000
+https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTV.tr@SD" tvg-logo="https://i.imgur.com/XSL1gd7.png" tvg-language="Turkish" group-title="Undefined",Power TV (Turkiye) (1080p)
+#EXTVLCOPT:network-caching=5000
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTurkAkustik.tr@SD" tvg-logo="https://i.imgur.com/driabBO.png" tvg-language="Turkish" group-title="Music",PowerTurk Akustik (1080p)
+#EXTVLCOPT:network-caching=5000
+https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTurkSlow.tr@SD" tvg-logo="https://i.imgur.com/tQSoQXW.png" tvg-language="Turkish" group-title="Music",PowerTurk Slow (1080p)
+#EXTVLCOPT:network-caching=5000
+https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTurkTaptaze.tr@SD" tvg-logo="https://i.imgur.com/a5nW3HU.png" tvg-language="Turkish" group-title="Music",PowerTurk Taptaze (1080p)
+#EXTVLCOPT:network-caching=5000
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" tvg-language="Turkish" group-title="Undefined",TBMM TV (720p)
+#EXTVLCOPT:network-caching=5000
+https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+#EXTINF:-1 tvg-id="TGRTBelgesel.tr" tvg-name="TGRT Belgesel" tvg-country="TR" tvg-language="Turkish" group-title="Türkiye",TGRT Belgesel (576p, kesintili)
+#EXTVLCOPT:network-caching=5000
+https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" tvg-language="Turkish" group-title="Undefined",TRT 1 (1440p)
+#EXTVLCOPT:network-caching=5000
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT3.tr@SD" tvg-logo="https://i.imgur.com/JrWFwBd.png" tvg-language="Turkish" group-title="Undefined",TRT 3 (720p)
+#EXTVLCOPT:network-caching=5000
+https://tv-trt3.live.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTAvaz.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/960px-TRT_Avaz_logo.svg.png" tvg-language="Turkish" group-title="Undefined",TRT Avaz (720p)
+#EXTVLCOPT:network-caching=5000
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTBelgesel.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png" tvg-language="Turkish" group-title="Documentary",TRT Belgesel (720p)
+#EXTVLCOPT:network-caching=5000
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png" tvg-language="Turkish" group-title="Kids",TRT Cocuk (1440p)
+#EXTVLCOPT:network-caching=5000
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr@SD" tvg-logo="https://i.imgur.com/8PmXz9t.png" tvg-language="Turkish" group-title="Kids",TRT Diyanet Cocuk (720p)
+#EXTVLCOPT:network-caching=5000
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTEBAIlkokul.tr@SD" tvg-logo="https://i.imgur.com/CRBfZi4.png" tvg-language="Turkish" group-title="Education",TRT EBA Ilkokul (720p)
+#EXTVLCOPT:network-caching=5000
+https://tv-e-okul00.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTEBALise.tr@SD" tvg-logo="https://i.imgur.com/vj2L2L2.png" tvg-language="Turkish" group-title="Education",TRT EBA Lise (720p)
+#EXTVLCOPT:network-caching=5000
+https://tv-e-okul02.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTHaber.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png" tvg-language="Turkish" group-title="News",TRT Haber (720p)
+#EXTVLCOPT:network-caching=5000
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTMuzik.tr@SD" tvg-logo="https://i.imgur.com/JgUzRH8.png" tvg-language="Turkish" group-title="Music",TRT Muzik (720p)
+#EXTVLCOPT:network-caching=5000
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTTurk.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png" tvg-language="Turkish" group-title="Undefined",TRT Turk (720p)
+#EXTVLCOPT:network-caching=5000
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TV4.tr@SD" tvg-logo="https://i.imgur.com/UpsQsbd.png" tvg-language="Turkish" group-title="Undefined",TV 4 (720p)
+#EXTVLCOPT:network-caching=5000
+https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+#EXTINF:-1 tvg-id="TV8.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" tvg-language="Turkish" group-title="General",TV8 (Turkiye) (1080p)
+#EXTVLCOPT:network-caching=5000
+https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 tvg-id="TVNET.tr@SD" tvg-logo="https://i.imgur.com/mQo8yWQ.png" tvg-language="Turkish" group-title="Undefined",TVNET (Turkiye) (1080p)
+#EXTVLCOPT:network-caching=5000
+https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1 tvg-id="TRTSpor.tr" tvg-name="TRT Spor" tvg-country="TR" tvg-language="Turkish" group-title="Türkiye",TRT Spor (720p)
+#EXTVLCOPT:network-caching=5000
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="SZC.tr" tvg-name="Sözcü TV" tvg-country="TR" tvg-language="Turkish" group-title="Haber",Sözcü TV (resmî YouTube canlı yayını)
+#EXTVLCOPT:network-caching=5000
+https://www.youtube.com/@sozcutelevizyonu/live
+#EXTINF:-1 tvg-name="Outdoor America" tvg-country="US" tvg-language="English" group-title="Balıkçılık & Avcılık",Outdoor America (ABD / İngilizce)
+#EXTVLCOPT:network-caching=5000
+https://linear-600.frequency.stream/dist/viewnexa/600/hls/master/playlist-1.m3u8
+#EXTINF:-1 tvg-name="Outdoor Action TV" tvg-country="US" tvg-language="English" group-title="Balıkçılık & Avcılık",Outdoor Action TV (ABD / İngilizce)
+#EXTVLCOPT:network-caching=5000
+https://careco-outdoor-action-1-us.ono.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Waypoint TV" tvg-country="US" tvg-language="English" group-title="Balıkçılık & Avcılık",Waypoint TV (ABD / İngilizce)
+#EXTVLCOPT:network-caching=5000
+https://waypoint-waypointtv-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Duck Hunting TV" tvg-country="US" tvg-language="English" group-title="Balıkçılık & Avcılık",Duck Hunting TV (ABD / İngilizce)
+#EXTVLCOPT:network-caching=5000
+https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8
+#EXTINF:-1 tvg-name="Italian Fishing TV" tvg-country="IT" tvg-language="Italian" group-title="Balıkçılık & Avcılık",Italian Fishing TV (İtalya / İtalyanca)
+#EXTVLCOPT:network-caching=5000
+https://fms.premio.link/fishingtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Hunt Fish TV" tvg-language="English" group-title="Balıkçılık & Avcılık",Hunt Fish TV (İngilizce)
+#EXTVLCOPT:network-caching=5000
+https://amg00585-sportstribal-amg00585c3-sportstribal-emea-2177.playouts.now.amagi.tv/playlist/amg00585-sportstribaltvfast-huntfishtv-sportstribalemea/playlist.m3u8
+#EXTINF:-1 tvg-name="Sports Fishing" tvg-language="English" group-title="Balıkçılık & Avcılık",Sports Fishing (İngilizce)
+#EXTVLCOPT:network-caching=5000
+https://amg00585-amg00585c12-sportstribal-emea-5521.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-sportsfishing-sportstribalemea/playlist.m3u8
+#EXTINF:-1 tvg-id="360.tr@SD" tvg-logo="https://i.imgur.com/agn47sQ.png" tvg-language="Turkish" group-title="Türkiye",360 (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=5000
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
+#EXTINF:-1 tvg-id="Kanal32.tr@SD" tvg-logo="" tvg-language="Turkish" group-title="Türkiye",Kanal 32 (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=5000
+https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="LineTV.tr@SD" tvg-logo="https://i.imgur.com/6GNp7f8.png" tvg-language="Turkish" group-title="Türkiye",Line TV (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=5000
+https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="SemerkandTV.tr@SD" tvg-logo="https://i.imgur.com/UVGGrQd.png" tvg-language="Turkish" group-title="Türkiye",Semerkand TV (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=5000
+https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
