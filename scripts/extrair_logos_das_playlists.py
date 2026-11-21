@@ -10,6 +10,10 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "logos-turcas-catalogo" / "LOGOS-EXTRAIDAS-DAS-PLAYLISTS"
 PLAYLISTS = ["Backup.m3u", "Euro.m3u", "IPTV-Cat.m3u", "TV2.m3u", "Tvt.m3u"]
 PRIORITY = {"IPTV-Cat.m3u": 0, "Backup.m3u": 1, "Tvt.m3u": 2, "Euro.m3u": 3, "TV2.m3u": 4}
+LOGO_OVERRIDES = {
+    # Logo correta confirmada em outras playlists M3U (Luys TV).
+    "Luys TV": "https://i.imgur.com/9EruWIQ.png",
+}
 ALIASES = {
     "360 TV": ["360"], "4U TV": ["4U"], "Bloomberg HT 2": ["Bloomberg HT"],
     "BRTV Karabük": ["BRTV"], "Cartoon Network Türkiye": ["Cartoon Network"],
@@ -102,6 +106,10 @@ def main():
         keys=[norm(channel)]+[norm(x) for x in ALIASES.get(channel,[])]
         candidates=[]
         seen=set()
+        override_url = LOGO_OVERRIDES.get(channel)
+        if override_url:
+            candidates.append((override_url, "Logo override oficial", channel))
+            seen.add(override_url)
         for key in keys:
             for item in by_name.get(key,[]):
                 if item[0] not in seen:
