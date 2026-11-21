@@ -27,6 +27,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add logos-turcas-catalogo/TODAS-LOGOS-NA-ORDEM/PNG-512-CENTRALIZADAS
           git commit -m "Normalize all 211 channel logos to centered 512x512 PNGs" || exit 0
+          git fetch origin github/workflows/atualizar-logos.yml
+          git rebase FETCH_HEAD
           git push
 
-# Reprocessamento do lote após tratar SVG sem pixels visíveis.
+# Reprocessamento do lote com publicação resiliente a atualizações simultâneas.
