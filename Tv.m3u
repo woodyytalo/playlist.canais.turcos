@@ -656,7 +656,7 @@ https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11958 V, SR 27500, FEC 5/6 / Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="133" tvg-id="TRTAvaz.tr@SD" tvg-name="TRT Avaz" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/133-TRT-Avaz-801dd07aff.png" group-title="TRT" tvg-language="Turkish",TRT Avaz
+#EXTINF:-1 tvg-chno="133" tvg-id="TRTAvaz.tr@SD" tvg-name="TRT Avaz" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/133-trt-avaz.png" group-title="TRT" tvg-language="Turkish",TRT Avaz
 #EXTVLCOPT:network-caching=5000
 https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
 
@@ -686,7 +686,7 @@ https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-id="TRTKurdi.tr@SD" tvg-chno="139" tvg-name="TRT Kurdî" group-title="TRT" tvg-language="Turkish",TRT Kurdî
+#EXTINF:-1 tvg-id="TRTKurdi.tr@SD" tvg-chno="139" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/139-trt-kurdi.png" tvg-name="TRT Kurdî" group-title="TRT" tvg-language="Turkish",TRT Kurdî
 #EXTVLCOPT:network-caching=5000
 https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8
 
