@@ -137,3 +137,32 @@ for number, (filename, url) in OFFICIAL_CANLITV.items():
 print(f"Logos oficiais do Canlı TV baixadas e centralizadas: {len(saved)}")
 print("Canais sem logo confirmada no Canlı TV: somente nome, sem imagem substituta.")
 print("\\n".join(saved))
+
+
+# Última verificação: não manter PNGs que ainda tenham fundo retangular opaco.
+# Um fundo retangular ocupa os quatro cantos do canvas; arquivos assim são removidos
+# do catálogo em vez de serem apresentados como logos sem fundo.
+removed_rectangles = []
+for existing in sorted(PREFIX.glob("*.png")):
+    try:
+        with Image.open(existing) as source:
+            rgba = source.convert("RGBA")
+            w, h = rgba.size
+            if w < 8 or h < 8:
+                continue
+            px = rgba.load()
+            corners = [
+                [px[x, y][3] for x in range(5) for y in range(5)],
+                [px[w-1-x, y][3] for x in range(5) for y in range(5)],
+                [px[x, h-1-y][3] for x in range(5) for y in range(5)],
+                [px[w-1-x, h-1-y][3] for x in range(5) for y in range(5)],
+            ]
+            # Considera retangular quando os quatro cantos estão praticamente opacos.
+            if all(sum(alpha >= 245 for alpha in corner) / len(corner) >= 0.90 for corner in corners):
+                existing.unlink()
+                removed_rectangles.append(existing.name)
+    except Exception as exc:
+        print(f"AVISO: não foi possível verificar {existing.name}: {exc}")
+
+print(f"Imagens com fundo retangular opaco removidas: {len(removed_rectangles)}")
+print("\\n".join(removed_rectangles))
