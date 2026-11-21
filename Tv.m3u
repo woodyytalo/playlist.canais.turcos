@@ -1035,4 +1035,5 @@ https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8#all
 #EXTINF:-1 tvg-name="TYT TÜRK" tvg-language="Turkish" tvg-id="TYT.TÜRK.tr" tvg-logo="http://ginikoturkish.com/channels/logo/tytturk.jpg" group-title="TYT TURK",TYT TÜRK
+#EXTVLCOPT:network-caching=5000
 https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8
