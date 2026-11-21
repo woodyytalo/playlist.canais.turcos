@@ -1,0 +1,33 @@
+name: Restaurar e melhorar logos originais
+on:
+  push:
+    branches:
+      - 'github/workflows/atualizar-logos.yml'
+    paths:
+      - '.github/workflows/restaurar-logos-originais.yml'
+      - 'scripts/restaurar_logos_originais.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python scripts/restaurar_logos_originais.py
+      - name: Commit improved original images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+users.noreply.github.com"
+          git add logos-turcas-catalogo/TODAS-LOGOS-NA-ORDEM/PNG-512-CENTRALIZADAS
+          git commit -m "Restore and sharpen original logos as square PNGs" || exit 0
+          git fetch origin github/workflows/atualizar-logos.yml
+          git rebase FETCH_HEAD
+          git push
