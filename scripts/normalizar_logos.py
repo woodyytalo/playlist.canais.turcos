@@ -26,3 +26,25 @@ for svg in files:
     canvas.save(target / (svg.stem + ".png"), optimize=True)
 
 print(f"Geradas {len(files)} imagens PNG de 512x512, centralizadas.")
+
+
+# Padroniza também as logos efetivamente usadas pela playlist principal.
+# A referência é assets/logos/017-atv.png: 512x482 pixels.
+from pathlib import Path as _Path
+from PIL import Image as _Image
+
+_assets = _Path("assets/logos")
+_reference = _Image.open(_assets / "017-atv.png")
+_target_size = _reference.size
+_processed = 0
+
+for _file in sorted(_assets.glob("*.png")):
+    with _Image.open(_file) as _source:
+        _im = _source.convert("RGBA")
+        _im.thumbnail(_target_size, _Image.Resampling.LANCZOS)
+        _canvas = _Image.new("RGBA", _target_size, (0, 0, 0, 0))
+        _canvas.alpha_composite(_im, ((_target_size[0] - _im.width) // 2, (_target_size[1] - _im.height) // 2))
+        _canvas.save(_file, format="PNG", optimize=True)
+        _processed += 1
+
+print(f"Padronizadas {_processed} logos em {_target_size[0]}x{_target_size[1]} pixels.")
