@@ -1,6 +1,6 @@
 ﻿ordem,canal_Tv.m3u,status,lista_origem,nome_encontrado,url_logo
 001,24 TV,OK,Backup.m3u,24 TV,https://i.imgur.com/8FO41es.png
-002,Lider Haber,OK,Backup.m3u,Lider Haber,https://i.ibb.co/0j6pWsPt/Liderhaber.png
+002,Lider Haber,OK,Backup.m3u,LIDER HABER HD,https://i0.wp.com/resim.yayins.com/haber/lider-haber-tv.png
 003,360 TV,OK,Backup.m3u,360,https://i.ibb.co/FVnG3Zr/360tv.png
 004,4U TV,SEM LOGO CORRESPONDENTE,,,
 005,A Haber,OK,Backup.m3u,A HABER,https://i.ibb.co/1X8nWHc/ahaber.png
@@ -58,7 +58,7 @@
 057,GRT Gaziantep TV,SEM LOGO CORRESPONDENTE,,,
 058,Haber Global,OK,Backup.m3u,HABER GLOBAL,https://i.ibb.co/4ZpZWkf/haber-global.png
 059,Haber61 TV,OK,Backup.m3u,Haber61 TV,https://i.imgur.com/2a2XUKl.png
-060,Habertürk,OK,Backup.m3u,HABER TURK,https://upload.wikimedia.org/wikipedia/commons/7/78/Haberturk_logo.png
+060,Habertürk,OK,Backup.m3u,HABER TÜRK,https://i.ibb.co/wdwm0fn/haberturk.png
 061,Halk TV,OK,Backup.m3u,HALK TV,https://i.ibb.co/DYhmg6k/halk-tv.png
 062,HT Spor TV,OK,Backup.m3u,HTSpor TV,https://www.htspor.com/images/manifest/social-share-logo.png
 063,Güneydoğu TV,OK,Backup.m3u,Güneydoğu TV,https://i.imgur.com/JT5pp3Y.png
@@ -80,7 +80,7 @@
 079,Kanal 53,SEM LOGO CORRESPONDENTE,,,
 080,Kanal 58,OK,Backup.m3u,Kanal 58,https://i.imgur.com/Rgc66sv.png
 081,Kanal 7 Avrupa,OK,Backup.m3u,KANAL 7 AVRUPA,https://i.ibb.co/cDxKJy1/k7avr1.png
-082,Kanal Avrupa,OK,Backup.m3u,Kanal Avrupa,https://i.imgur.com/bIGk6RN.png
+082,Kanal Avrupa,OK,Backup.m3u,KANAL AVRUPA HD,https://i0.wp.com/resim.yayins.com/yerel/kanalavrupa.png
 083,Kanal B,OK,Backup.m3u,Kanal B,https://i.imgur.com/bUsbxTQ.png
 084,Kanal D,OK,Backup.m3u,KANAL D,https://i.ibb.co/s9mVqWH/kanald.png
 085,Kanal D Drama,OK,Backup.m3u,Kanal D Drama (1080p),https://i.imgur.com/WIeZMKT.png
@@ -88,7 +88,7 @@
 087,Kanal V,OK,Backup.m3u,Kanal V,https://i.imgur.com/7RNjTno.png
 088,Kay TV,OK,Backup.m3u,Kay TV,https://i.imgur.com/MymuDJ1.png
 089,Kayhan TV,SEM LOGO CORRESPONDENTE,,,
-090,Kent Türk TV,SEM LOGO CORRESPONDENTE,,,
+090,Kent Türk TV,OK,Backup.m3u,Kent Turk,https://i.imgur.com/FQKPjsm.png
 091,Kocaeli TV,OK,Backup.m3u,KOCAELİ TV,https://i.ibb.co/mHt7rQf/Tryerel.png
 092,Konya KTV,SEM LOGO CORRESPONDENTE,,,
 093,Konya Olay TV,OK,Backup.m3u,KONYA OLAY TV,https://i.ibb.co/mHt7rQf/Tryerel.png
@@ -138,7 +138,7 @@
 137,TRT Genç,OK,Backup.m3u,TRT Genc,https://i.imgur.com/fCHQYWS.png
 138,TRT Haber,OK,Backup.m3u,TRT HABER,https://i.ibb.co/Bt6frts/trthaber.png
 139,TRT Kurdî,OK,Backup.m3u,TRT Kurdî,https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-kurdi-tr.png
-140,TRT Müzik,OK,Backup.m3u,TRT Müzik,https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-muzik-tr.png
+140,TRT Müzik,OK,Backup.m3u,TRT MUZIK HD,https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png
 141,Kral Pop,OK,Backup.m3u,KRAL POP,https://i.ibb.co/vk0bKz0/kral-pop.png
 142,NR1 Fashion One,OK,Backup.m3u,NR1 FASHION ONE,https://i.ibb.co/HV0x9JZ/fashion-one.png
 143,TRT Türk,OK,Backup.m3u,TRT TURK,https://i.ibb.co/zN1BK38/trt-turk.png
@@ -155,13 +155,13 @@
 154,TV5,OK,Backup.m3u,TV 5,https://i.ibb.co/6m9Pb3t/tv5tr1.png
 155,TV8,OK,Backup.m3u,TV 8,https://i.ibb.co/Kr5SFY1/tv8.png
 156,TVNET,OK,Backup.m3u,TV NET,https://i.ibb.co/1RWhvy4/tvnet.png
-157,Vuslat TV,SEM LOGO CORRESPONDENTE,,,
-158,Ülke TV,OK,Backup.m3u,Ülke TV,https://i.ibb.co/zG9kTh6/ulke-tv.png
+157,Vuslat TV,OK,Backup.m3u,Malatya Vuslat TV,https://vuslattv.com.tr/uploads/logo/logo_66bdb4352c7ab7-60769650.png
+158,Ülke TV,OK,Backup.m3u,ULKE TV HD,https://i0.wp.com/resim.yayins.com/ulusal/ulketv.png
 159,Vav TV,OK,Backup.m3u,VAV TV,https://i.ibb.co/bj1H8LCm/vavtv.png
 160,Zarok TV Kurmanji,OK,Backup.m3u,Zarok TV,https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/zarok-tv-tr.png
 161,Zarok TV Sorani,OK,Backup.m3u,Zarok TV,https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/zarok-tv-tr.png
 162,Euro Star TV,OK,Backup.m3u,EuroStar TV (1080p),https://i.imgur.com/kb165Ot.png
-163,Sözcü TV,OK,Backup.m3u,Sozcu TV,https://i.imgur.com/BxpdvsG.png
+163,Sözcü TV,OK,Backup.m3u,SOZCU TV HD,https://i0.wp.com/resim.yayins.com/haber/sozcu.png
 164,Natural TV,SEM LOGO CORRESPONDENTE,,,
 165,Sun RTV,OK,Backup.m3u,Sun RTV,https://i.imgur.com/64tph9N.png
 166,TBMM TV,OK,Backup.m3u,TBMM TV,https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tbmm-tv-tr.png
@@ -175,7 +175,7 @@
 174,Thaqalayn TV,OK,Backup.m3u,Thaqalayn TV,https://i.imgur.com/u02FSgI.png
 175,KN Music TV,OK,Backup.m3u,KN Music TV,https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png
 176,YOL TV,OK,Backup.m3u,YOL TV,https://i.ibb.co/hB9yNXV/yol22.png
-177,RTG International,SEM LOGO CORRESPONDENTE,,,
+177,RTG International,OK,Backup.m3u,RTG int.,https://i.imgur.com/ZpUNou4.png
 178,Kanal Ada,SEM LOGO CORRESPONDENTE,,,
 179,Arzu Film,SEM LOGO CORRESPONDENTE,,,
 180,Ekol Sports,OK,Backup.m3u,EKOL SPORTS,https://i.ibb.co/Y4tR1tTm/Ekolsports.jpg
@@ -207,6 +207,6 @@
 206,TopPop,OK,Backup.m3u,TopPop,https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp
 207,Retro Music Television,SEM LOGO CORRESPONDENTE,,,
 208,GZT,SEM LOGO CORRESPONDENTE,,,
-209,beIN Sports 1 Turk,SEM LOGO CORRESPONDENTE,,,
+209,beIN Sports 1 Turk,OK,Backup.m3u,BEINSPORTS 1,https://i.ibb.co/N31fVBp/bein-sports-1.png
 210,4U Family (persa),SEM LOGO CORRESPONDENTE,,,
 211,Power TV (720p),OK,Backup.m3u,POWER TV,https://i.ibb.co/JrXDQJy/power-tv.png
