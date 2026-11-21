@@ -516,7 +516,7 @@ https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/chunklist_w538521591.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11887 V, SR 10833, FEC 2/3
-#EXTINF:-1 tvg-chno="105" tvg-id="NOW.tr@SD" tvg-name="NOW" group-title="ENTRETENIMENTO" tvg-language="Turkish",NOW
+#EXTINF:-1 tvg-chno="105" tvg-id="NOWTV.tr@SD" tvg-name="NOW" group-title="ENTRETENIMENTO" tvg-language="Turkish",NOW
 #EXTVLCOPT:network-caching=5000
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 
@@ -921,12 +921,12 @@ https://turkhls.persiana.live/hls/stream.m3u8
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest/1.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12015 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="188" tvg-id="9z32hgan37zhgr6" group-title="DOCUMENTÁRIOS" tvg-name="TLC" tvg-language="Turkish",TLC
+#EXTINF:-1 tvg-chno="188" tvg-id="TLC.tr@SD" group-title="DOCUMENTÁRIOS" tvg-name="TLC" tvg-language="Turkish",TLC
 #EXTVLCOPT:network-caching=5000
 https://s6.hopslan.com/tlcX/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="189" tvg-id="dbd4aka7iu29rko" group-title="DOCUMENTÁRIOS" tvg-name="Love Nature" tvg-language="Turkish",Love Nature
+#EXTINF:-1 tvg-chno="189" tvg-id="LoveNature.ca@SD" group-title="DOCUMENTÁRIOS" tvg-name="Love Nature" tvg-language="Turkish",Love Nature
 #EXTVLCOPT:network-caching=5000
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 
