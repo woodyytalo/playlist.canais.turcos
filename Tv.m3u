@@ -496,12 +496,12 @@ https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="101" tvg-id="MinikaCocuk.tr@SD" tvg-name="Minika Çocuk" group-title="INFANTIS" tvg-language="Turkish",Minika Çocuk
+#EXTINF:-1 tvg-chno="101" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/101-minika-cocuk.png" tvg-id="MinikaCocuk.tr@SD" tvg-name="Minika Çocuk" group-title="INFANTIS" tvg-language="Turkish",Minika Çocuk
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="102" tvg-id="MinikaGo.tr@SD" tvg-name="Minika GO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/102-Minika-GO-039a0d48e2.png" group-title="INFANTIS" tvg-language="Turkish",Minika GO
+#EXTINF:-1 tvg-chno="102" tvg-id="MinikaGo.tr@SD" tvg-name="Minika GO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/102-minika-go.png" group-title="INFANTIS" tvg-language="Turkish",Minika GO
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 
@@ -516,12 +516,12 @@ https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/chunklist_w538521591.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11887 V, SR 10833, FEC 2/3
-#EXTINF:-1 tvg-chno="105" tvg-id="NOW.tr@SD" tvg-name="NOW" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/105-NOW-e831e22d76.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",NOW
+#EXTINF:-1 tvg-chno="105" tvg-id="NOW.tr@SD" tvg-name="NOW" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/105-now.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",NOW
 #EXTVLCOPT:network-caching=5000
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 
 #FREQUÊNCIA: Türksat 3A: 12729 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-id="Number1Ask.tr@SD" tvg-chno="106" tvg-name="NR1 Aşk" group-title="MÚSICA" tvg-language="Turkish",NR1 Aşk
+#EXTINF:-1 tvg-id="Number1Ask.tr@SD" tvg-chno="106" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/106-nr1-ask.png" tvg-name="NR1 Aşk" group-title="MÚSICA" tvg-language="Turkish",NR1 Aşk
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
 
