@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-21 16:24 UTC
+- Executado em: 2026-11-21 16:26 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **213**
 - URLs únicas: **211**
@@ -9,10 +9,11 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 190 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 189 |
 | FALHA DE CONEXÃO (URLError) | 17 |
 | LINK NÃO ENCONTRADO (404) | 5 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
+| FALHA DE CONEXÃO (TimeoutError) | 1 |
 
 ## Detalhamento
 
@@ -122,7 +123,7 @@
 | Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | MTürk TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Play TV | \`web.onair-radio.eu\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| NOW | \`uycyyuuzyh.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| NOW | \`uycyyuuzyh.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
 | NR1 Aşk | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NR1 Damar | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NR1 Dance | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -148,11 +149,11 @@
 | Tivi 6 | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TJK TV | \`tjktv-live.tjk.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Ton TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
 | TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
