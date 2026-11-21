@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101b4d"/>
+      <stop offset="1" stop-color="#263b86"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff2a8"/>
+      <stop offset="1" stop-color="#e4ad35"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="34" fill="url(#bg)"/>
+  <circle cx="400" cy="170" r="108" fill="none" stroke="url(#gold)" stroke-width="7"/>
+  <path d="M400 82l22 63 66 1-53 39 20 63-55-38-55 38 20-63-53-39 66-1z" fill="url(#gold)"/>
+  <text x="400" y="340" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="5" fill="#fff">EURO STAR</text>
+  <text x="400" y="390" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="600" letter-spacing="12" fill="#e8d69d">TV</text>
+</svg>
