@@ -26,3 +26,23 @@ for svg in files:
     canvas.save(target / (svg.stem + ".png"), optimize=True)
 
 print(f"Geradas {len(files)} imagens PNG de 512x512, centralizadas.")
+
+
+# Diagnostico: logos cujo conteudo visivel e um retangulo predominantemente preto.
+for png in sorted(target.glob("*.png")):
+    im = Image.open(png).convert("RGBA")
+    alpha = im.getchannel("A")
+    bbox = alpha.getbbox()
+    if not bbox:
+        continue
+    crop = im.crop(bbox)
+    pixels = list(crop.getdata())
+    visible = [(r, g, b) for r, g, b, a in pixels if a > 16]
+    if not visible:
+        continue
+    black = sum(1 for r, g, b in visible if max(r, g, b) < 28)
+    occupancy = len(visible) / (crop.width * crop.height)
+    black_ratio = black / len(visible)
+    aspect = max(crop.width, crop.height) / max(1, min(crop.width, crop.height))
+    if black_ratio >= 0.92 and occupancy >= 0.72 and aspect >= 1.25:
+        print(f"RETANGULO PRETO SUSPEITO: {png.name} | preto={black_ratio:.1%} | ocupacao={occupancy:.1%} | proporcao={aspect:.2f}")
