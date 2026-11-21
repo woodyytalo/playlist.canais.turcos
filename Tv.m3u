@@ -138,22 +138,22 @@ http://176.65.153.40:6002/play/a013/index.m3u8
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="28" tvg-id="CNBCe.tr@SD" tvg-name="CNBC e" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/028-CNBC-e-70f51fe9b6.png" group-title="NOTÍCIAS" tvg-language="Turkish",CNBC e
+#EXTINF:-1 tvg-chno="28" tvg-id="CNBCe.tr@SD" tvg-name="CNBC e" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/028-cnbc-e.png" group-title="NOTÍCIAS" tvg-language="Turkish",CNBC e
 #EXTVLCOPT:network-caching=5000
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12034 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="29" tvg-name="CNN Türk" tvg-id="CNNTurk.tr@SD" group-title="NOTÍCIAS" tvg-language="Turkish",CNN Türk
+#EXTINF:-1 tvg-chno="29" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/029-cnn-turk.png" tvg-name="CNN Türk" tvg-id="CNNTurk.tr@SD" group-title="NOTÍCIAS" tvg-language="Turkish",CNN Türk
 #EXTVLCOPT:network-caching=5000
 http://85.117.61.84/cnnturk/index.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11425 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-id="CayTV.tr@SD" tvg-chno="30" tvg-name="Çay TV" group-title="REGIONAIS" tvg-language="Turkish",Çay TV
+#EXTINF:-1 tvg-id="CayTV.tr@SD" tvg-chno="30" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/030-cay-tv.png" tvg-name="Çay TV" group-title="REGIONAIS" tvg-language="Turkish",Çay TV
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="CiftciTV.tr@SD" tvg-chno="31" tvg-name="Çiftçi TV" group-title="CULTURA/EDUCAÇÃO" tvg-language="Turkish",Çiftçi TV
+#EXTINF:-1 tvg-id="CiftciTV.tr@SD" tvg-chno="31" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/031-ciftci-tv.png" tvg-name="Çiftçi TV" group-title="CULTURA/EDUCAÇÃO" tvg-language="Turkish",Çiftçi TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 
@@ -173,7 +173,7 @@ https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12380 V, SR 27500, FEC 3/4 / Türksat 4A: 12423 H, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-id="DiyanetTV.tr@SD" tvg-chno="35" tvg-name="Diyanet TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/035-Diyanet-TV-564f95aa03.png" group-title="RELIGIOSOS" tvg-language="Turkish",Diyanet TV
+#EXTINF:-1 tvg-id="DiyanetTV.tr@SD" tvg-chno="35" tvg-name="Diyanet TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/035-diyanet-tv.png" group-title="RELIGIOSOS" tvg-language="Turkish",Diyanet TV
 #EXTVLCOPT:network-caching=5000
 http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
 
