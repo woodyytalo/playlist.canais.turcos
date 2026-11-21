@@ -23,27 +23,27 @@ https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 https://hls.4utv.live/hls/stream.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="5" tvg-id="AHaber.tr@SD" tvg-name="A Haber" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/005-A-Haber-822786c766.png" group-title="NOTÍCIAS" tvg-language="Turkish",A Haber
+#EXTINF:-1 tvg-chno="5" tvg-id="AHaber.tr@SD" tvg-name="A Haber" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/005-a-haber.png" group-title="NOTÍCIAS" tvg-language="Turkish",A Haber
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="6" tvg-id="8yfvm8ak2t1qoe6" tvg-name="A Para" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/006-A-Para-ad88d558eb.png" group-title="NOTÍCIAS" tvg-language="Turkish",A Para
+#EXTINF:-1 tvg-chno="6" tvg-id="8yfvm8ak2t1qoe6" tvg-name="A Para" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/006-a-para.png" group-title="NOTÍCIAS" tvg-language="Turkish",A Para
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="7" tvg-id="ASpor.tr@SD" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ESPORTES" tvg-language="Turkish",A Spor
+#EXTINF:-1 tvg-chno="7" tvg-id="ASpor.tr@SD" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/007-a-spor.png" group-title="ESPORTES" tvg-language="Turkish",A Spor
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="8" tvg-id="A2TV.tr@SD" tvg-name="A2" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/008-A2-471abed9b9.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",A2
+#EXTINF:-1 tvg-chno="8" tvg-id="A2TV.tr@SD" tvg-name="A2" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/008-a2.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",A2
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="AksuTV.tr@SD" tvg-chno="9" tvg-name="Aksu TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/009-Aksu-TV-fa03b3be9d.png" group-title="REGIONAIS" tvg-language="Turkish",Aksu TV
+#EXTINF:-1 tvg-id="AksuTV.tr@SD" tvg-chno="9" tvg-name="Aksu TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/009-aksu-tv.png" group-title="REGIONAIS" tvg-language="Turkish",Aksu TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 
