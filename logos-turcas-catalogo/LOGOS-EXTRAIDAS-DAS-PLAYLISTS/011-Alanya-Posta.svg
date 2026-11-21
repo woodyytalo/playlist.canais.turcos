@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123b63"/><stop offset="1" stop-color="#0e9aa7"/></linearGradient></defs>
+<rect width="512" height="512" rx="72" fill="url(#g)"/><rect x="32" y="32" width="448" height="448" rx="64" fill="none" stroke="#fff" stroke-width="8"/>
+<rect x="84" y="82" width="344" height="224" rx="30" fill="none" stroke="#fff" stroke-width="12"/><path d="M220 140v108l96-54z" fill="#fff"/>
+<text x="256" y="378" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="800" fill="#fff">ALANYA</text>
+<text x="256" y="435" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="800" fill="#fff">POSTA TV</text>
+</svg>
