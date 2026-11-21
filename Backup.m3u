@@ -8696,5 +8696,3 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8?checkedby:iptvcat.net
 # Lista complementar: Roblabs-Teknoloji/iptv (entradas sem URL duplicada)
 #EXTINF:-1 tvg-id="SZC.tr" tvg-name="Sözcü TV" tvg-country="TR" tvg-language="Turkish" group-title="Haber",Sözcü TV (resmî YouTube canlı yayını)
 https://www.youtube.com/@sozcutelevizyonu/live
-#EXTINF:-1 tvg-name="Italian Fishing TV" tvg-country="IT" tvg-language="Italian" group-title="Balıkçılık & Avcılık",Italian Fishing TV (İtalya / İtalyanca)
-https://fms.premio.link/fishingtv/playlist.m3u8
