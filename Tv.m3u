@@ -989,6 +989,8 @@ https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
 #EXTINF:-1 tvg-chno="201" tvg-name="MOR TV" group-title="ESTILO DE VIDA" tvg-language="Turkish",MOR TV
 #EXTVLCOPT:network-caching=5000
 https://live.euromediacenter.com/tvmor/index.m3u8
+#EXTINF:-1 tvg-name="Fortuna TV" tvg-language="Turkish" group-title="ESTILO DE VIDA",Fortuna TV
+https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8#all
 #FREQUÊNCIA: Satélite: a verificar
 #EXTINF:-1 tvg-chno="202" group-title="MÚSICA" tvg-name="IQ Channel" tvg-language="Turkish",IQ Channel
 #EXTVLCOPT:network-caching=5000
@@ -1017,6 +1019,8 @@ https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 tvg-chno="208" tvg-name="GZT" group-title="NOTÍCIAS" tvg-language="Turkish",GZT
 #EXTVLCOPT:network-caching=5000
 https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8
+#EXTINF:-1 tvg-name="TYT TÜRK" tvg-language="Turkish" tvg-id="TYT.TÜRK.tr" group-title="NOTÍCIAS",TYT TÜRK
+https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8
 #FREQUÊNCIA: Türksat 4A: 12073 V, SR 27500, FEC 3/4
 #EXTINF:-1 tvg-chno="209" tvg-name="beIN Sports 1 Turk" group-title="ESPORTES" tvg-language="Turkish",beIN Sports 1 Turk
 #EXTVLCOPT:network-caching=5000
@@ -1031,9 +1035,3 @@ https://familyhls.4utv.live/hls/stream.m3u8
 https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 
 # Atualização automática das logos por categoria
-#EXTINF:-1 tvg-name="Fortuna TV" tvg-language="Turkish" group-title="FORTUNA TV",Fortuna TV
-#EXTVLCOPT:network-caching=5000
-https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="TYT TÜRK" tvg-language="Turkish" tvg-id="TYT.TÜRK.tr" tvg-logo="http://ginikoturkish.com/channels/logo/tytturk.jpg" group-title="TYT TURK",TYT TÜRK
-#EXTVLCOPT:network-caching=5000
-https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8
