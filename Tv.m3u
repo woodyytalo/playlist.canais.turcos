@@ -68,7 +68,7 @@ https://starmenajo.com/hls/almahriah/index.m3u8
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="14" tvg-name="Anadolu TV" group-title="REGIONAIS" tvg-language="Turkish",Anadolu TV
+#EXTINF:-1 tvg-chno="14" tvg-name="Anadolu TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/014-anadolu-tv.png" group-title="REGIONAIS" tvg-language="Turkish",Anadolu TV
 #EXTVLCOPT:network-caching=5000
 https://vavoo.to/vavoo-iptv/play/1917558455120761543969
 
@@ -168,7 +168,7 @@ https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist
 https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="34" tvg-name="Dim TV" group-title="REGIONAIS" tvg-language="Turkish",Dim TV
+#EXTINF:-1 tvg-chno="34" tvg-name="Dim TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/034-dim-tv.png" group-title="REGIONAIS" tvg-language="Turkish",Dim TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 
@@ -240,7 +240,7 @@ https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="ETVKayseri.tr@SD" tvg-chno="49" tvg-name="ETV" group-title="REGIONAIS" tvg-language="Turkish",ETV
+#EXTINF:-1 tvg-id="ETVKayseri.tr@SD" tvg-chno="49" tvg-name="ETV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/049-etv.png" group-title="REGIONAIS" tvg-language="Turkish",ETV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 
@@ -270,7 +270,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c05
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="KanalFirat.tr@SD" tvg-chno="55" tvg-name="FRT TV" group-title="REGIONAIS" tvg-language="Turkish",FRT TV
+#EXTINF:-1 tvg-id="KanalFirat.tr@SD" tvg-chno="55" tvg-name="FRT TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/055-frt-tv.png" group-title="REGIONAIS" tvg-language="Turkish",FRT TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 
@@ -280,7 +280,7 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 https://gcinemahls.wns.live/hls/stream.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4 / Türksat 4A: 12423 V, SR 27500, FEC 2/3
-#EXTINF:-1 tvg-chno="57" tvg-name="GRT Gaziantep TV" group-title="REGIONAIS" tvg-language="Turkish",GRT Gaziantep TV
+#EXTINF:-1 tvg-chno="57" tvg-name="GRT Gaziantep TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/057-grt-gaziantep-tv.png" group-title="REGIONAIS" tvg-language="Turkish",GRT Gaziantep TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 
@@ -323,7 +323,7 @@ https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
 #FREQUÊNCIA: Türksat 4A: 12423 V, SR 27500, FEC 2/3
-#EXTINF:-1 tvg-id="KardelenTV.tr" tvg-chno="66" tvg-name="Kardelen TV" group-title="REGIONAIS" tvg-language="Turkish",Kardelen TV
+#EXTINF:-1 tvg-id="KardelenTV.tr" tvg-chno="66" tvg-name="Kardelen TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/066-kardelen-tv.png" group-title="REGIONAIS" tvg-language="Turkish",Kardelen TV
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
@@ -337,7 +337,7 @@ https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="69" tvg-name="K+ Kayseri" group-title="REGIONAIS" tvg-language="Turkish",K+ Kayseri
+#EXTINF:-1 tvg-chno="69" tvg-name="K+ Kayseri" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/069-k-kayseri.png" group-title="REGIONAIS" tvg-language="Turkish",K+ Kayseri
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
 
@@ -372,7 +372,7 @@ https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="Kanal32.tr@SD" tvg-chno="76" tvg-name="Kanal 32" group-title="REGIONAIS" tvg-language="Turkish",Kanal 32
+#EXTINF:-1 tvg-id="Kanal32.tr@SD" tvg-chno="76" tvg-name="Kanal 32" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/076-kanal-32.png" group-title="REGIONAIS" tvg-language="Turkish",Kanal 32
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8
 
@@ -436,7 +436,7 @@ https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="89" tvg-name="Kayhan TV" group-title="REGIONAIS" tvg-language="Turkish",Kayhan TV
+#EXTINF:-1 tvg-chno="89" tvg-name="Kayhan TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/089-kayhan-tv.png" group-title="REGIONAIS" tvg-language="Turkish",Kayhan TV
 #EXTVLCOPT:network-caching=5000
 https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
 
@@ -451,7 +451,7 @@ https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="92" tvg-name="Konya KTV" group-title="REGIONAIS" tvg-language="Turkish",Konya KTV
+#EXTINF:-1 tvg-chno="92" tvg-name="Konya KTV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/092-konya-ktv.png" group-title="REGIONAIS" tvg-language="Turkish",Konya KTV
 #EXTVLCOPT:network-caching=5000
 https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/chunklist_w16313685.m3u8
 
@@ -561,7 +561,7 @@ https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="114" tvg-name="MUKABELE TV" group-title="RELIGIOSOS" tvg-language="Turkish",MUKABELE TV
+#EXTINF:-1 tvg-chno="114" tvg-name="MUKABELE TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/114-mukabele-tv.png" group-title="RELIGIOSOS" tvg-language="Turkish",MUKABELE TV
 #EXTVLCOPT:network-caching=5000
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.m3u8
 
@@ -570,7 +570,7 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.
 #EXTVLCOPT:network-caching=5000
 https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="Sat7Turk.cy@SD" tvg-chno="116" tvg-name="Sat7 Türk" group-title="RELIGIOSOS" tvg-language="Turkish",Sat7 Türk
+#EXTINF:-1 tvg-id="Sat7Turk.cy@SD" tvg-chno="116" tvg-name="Sat7 Türk" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/116-sat7-turk.png" group-title="RELIGIOSOS" tvg-language="Turkish",Sat7 Türk
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 
@@ -878,7 +878,7 @@ https://live.yoltv.com/hls/stream.m3u8
 #EXTVLCOPT:network-caching=5000
 http://213.91.179.28:8000/play/a0bw
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="178" tvg-name="Kanal Ada" group-title="REGIONAIS" tvg-language="Turkish",Kanal Ada
+#EXTINF:-1 tvg-chno="178" tvg-name="Kanal Ada" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/178-kanal-ada.png" group-title="REGIONAIS" tvg-language="Turkish",Kanal Ada
 #EXTVLCOPT:network-caching=5000
 http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum
 
@@ -993,7 +993,7 @@ https://live.euromediacenter.com/tvmor/index.m3u8
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8#all
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="202" group-title="MÚSICA" tvg-name="IQ Channel" tvg-language="Turkish",IQ Channel
+#EXTINF:-1 tvg-chno="202" group-title="MÚSICA" tvg-name="IQ Channel" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/202-iq-channel.png" tvg-language="Turkish",IQ Channel
 #EXTVLCOPT:network-caching=5000
 https://rtmp.info/iqtv/envivo/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
@@ -1005,7 +1005,7 @@ https://live.jintv.org/medialive/jintv.m3u8
 #EXTVLCOPT:network-caching=5000
 https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="MaviKaradenizTV.tr@SD" tvg-chno="205" group-title="REGIONAIS" tvg-name="MK TV" tvg-language="Turkish",MK TV
+#EXTINF:-1 tvg-id="MaviKaradenizTV.tr@SD" tvg-chno="205" group-title="REGIONAIS" tvg-name="MK TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/205-mk-tv.png" tvg-language="Turkish",MK TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
@@ -1017,7 +1017,7 @@ https://yayin.santraltr.com/hls/toppop.m3u8
 #EXTVLCOPT:network-caching=5000
 https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #FREQUÊNCIA: Türksat 5B: 11225 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-id="GZT.tr@SD" tvg-chno="208" tvg-name="GZT" group-title="NOTÍCIAS" tvg-language="Turkish",GZT
+#EXTINF:-1 tvg-id="GZT.tr@SD" tvg-chno="208" tvg-name="GZT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/208-gzt.png" group-title="NOTÍCIAS" tvg-language="Turkish",GZT
 #EXTVLCOPT:network-caching=5000
 https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8
 #EXTINF:-1 tvg-name="TYT TÜRK" tvg-language="Turkish" tvg-id="TYT.TÜRK.tr" group-title="NOTÍCIAS",TYT TÜRK

@@ -1,4 +1,4 @@
-﻿ordem,canal_Tv.m3u,status,lista_origem,nome_encontrado,url_logo
+ordem,canal_Tv.m3u,status,lista_origem,nome_encontrado,url_logo
 001,24 TV,OK,Backup.m3u,24 TV,https://i.imgur.com/8FO41es.png
 002,Lider Haber,OK,Backup.m3u,Lider Haber,https://i.ibb.co/0j6pWsPt/Liderhaber.png
 003,360 TV,OK,Backup.m3u,360,https://i.ibb.co/FVnG3Zr/360tv.png
@@ -12,7 +12,7 @@
 011,Alanya Posta TV,OK,Backup.m3u,ALANYA POSTA TV,https://i.ibb.co/mHt7rQf/Tryerel.png
 012,Almahriah TV,OK,Backup.m3u,Almahriah TV (576p),https://i.imgur.com/GgEeTNr.png
 013,Altas TV,OK,Backup.m3u,Altas TV,https://i.imgur.com/XaJ7fp6.png
-014,Anadolu TV,SEM LOGO CORRESPONDENTE,,,
+"014","Anadolu TV","OK","Backup.m3u","Anadolu TV","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/014-Anadolu-TV-fc2e70f890.png"
 015,ARAS TV,OK,Backup.m3u,ARAS TV,https://i.imgur.com/JsDCyWG.png
 016,AS TV,OK,Backup.m3u,AS TV,https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png
 017,ATV,OK,Backup.m3u,ATV,https://i.ibb.co/n1SCYqN/atv.png
@@ -32,7 +32,7 @@
 031,Çiftçi TV,OK,Backup.m3u,Çiftçi TV,https://i.imgur.com/CLzP4vL.png
 032,Deniz Postası TV,SEM LOGO CORRESPONDENTE,,,
 033,DHA,OK,Backup.m3u,DHA (feed 1),https://i.ibb.co/K6BKFqY/dha.png
-034,Dim TV,SEM LOGO CORRESPONDENTE,,,
+"034","Dim TV","OK","Backup.m3u","Dim TV","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/034-Dim-TV-d9d3b880e6.png"
 035,Diyanet TV,OK,Backup.m3u,Diyanet TV,https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/diyanet-tv-tr.png
 036,Diyar TV,OK,Backup.m3u,Diyar TV,https://i.imgur.com/qWkHjRA.png
 037,Dost TV,OK,Backup.m3u,DOST TV,https://i.ibb.co/LrDzHxW/dost.png
@@ -47,15 +47,15 @@
 046,Erciyes TV,OK,Backup.m3u,Erciyes TV,https://s.erciyestv.com.tr/dosya/logo/erciyes-tv-og.jpg
 047,Erzurum Web TV,OK,Backup.m3u,ERZURUM WEB TV,https://i.ibb.co/mHt7rQf/Tryerel.png
 048,ES TV,OK,Backup.m3u,ES TV,https://i.imgur.com/epAEBrp.png
-049,ETV,SEM LOGO CORRESPONDENTE,,,
+"049","ETV","OK","Backup.m3u","ETV","https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj"
 050,EURO D,OK,Backup.m3u,EURO D,https://i.ibb.co/THj0Jrg/eurod22.png
 051,Ezgi TV,SEM LOGO CORRESPONDENTE,,,
 052,FB TV,OK,Backup.m3u,FB TV,https://i.ibb.co/315SYpK/fb-tv.png
 053,Flash Haber TV,OK,Backup.m3u,Flash Haber TV,https://i.imgur.com/8FO41es.png
 054,Fashion One,OK,Backup.m3u,FASHION ONE,https://i.ibb.co/9grLJCS/fone22.png
-055,FRT TV,SEM LOGO CORRESPONDENTE,,,
+"055","FRT TV","OK","Backup.m3u","FRT TV","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/055-FRT-TV-b5bd91bf0b.png"
 056,Grand Cinema,SEM LOGO CORRESPONDENTE,,,
-057,GRT Gaziantep TV,SEM LOGO CORRESPONDENTE,,,
+"057","GRT Gaziantep TV","OK","Backup.m3u","GRT Gaziantep TV","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/057-GRT-Gaziantep-TV-ac1e9bcdac.png"
 058,Haber Global,OK,Backup.m3u,HABER GLOBAL,https://i.ibb.co/4ZpZWkf/haber-global.png
 059,Haber61 TV,OK,Backup.m3u,Haber61 TV,https://i.imgur.com/2a2XUKl.png
 060,Habertürk,OK,Backup.m3u,HABER TURK,https://upload.wikimedia.org/wikipedia/commons/7/78/Haberturk_logo.png
@@ -64,17 +64,17 @@
 063,Güneydoğu TV,OK,Backup.m3u,Güneydoğu TV,https://i.imgur.com/JT5pp3Y.png
 064,Hunat TV,OK,Backup.m3u,Hunat TV,https://i.imgur.com/NrxHGnb.png
 065,İçel TV,OK,Backup.m3u,Icel TV,https://i.imgur.com/CGwImKv.png
-066,Kardelen TV,SEM LOGO CORRESPONDENTE,,,
+"066","Kardelen TV","OK","Backup.m3u","Kardelen TV","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/066-Kardelen-TV-263dc595fa.png"
 067,İzmir Time 35 TV,SEM LOGO CORRESPONDENTE,,,
 068,İlke TV,OK,Backup.m3u,Ilke TV,https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png
-069,K+ Kayseri,SEM LOGO CORRESPONDENTE,,,
+"069","K+ Kayseri","OK","Backup.m3u","K+ Kayseri","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/069-K-Kayseri-9a1e6fe0e4.png"
 070,Kanal 12,OK,Backup.m3u,Kanal 12,https://i.imgur.com/51xCkXG.png
 071,Kanal 15,OK,Backup.m3u,Kanal 15,https://i.imgur.com/wb1Cdc9.png
 072,Kanal 19,SEM LOGO CORRESPONDENTE,,,
 073,Kanal 23,OK,Backup.m3u,Kanal 23,https://i.imgur.com/3br8RCq.png
 074,Kanal 26 Eskişehir,OK,Backup.m3u,Kanal 26,https://i.imgur.com/Mr7XPii.png
 075,Kanal 3,OK,Backup.m3u,Kanal 3,https://i.imgur.com/eXErSv0.png
-076,Kanal 32,SEM LOGO CORRESPONDENTE,,,
+"076","Kanal 32","OK","Backup.m3u","Kanal 32","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/076-Kanal-32-ff629dc122.png"
 077,Kanal 33,OK,Backup.m3u,Kanal 33,https://i.imgur.com/5WYaoFZ.png
 078,Kanal 34,OK,Backup.m3u,Kanal 34,https://i.imgur.com/SIaI6Sj.png
 079,Kanal 53,SEM LOGO CORRESPONDENTE,,,
@@ -87,10 +87,10 @@
 086,Kanal Fırat,OK,Backup.m3u,Kanal Fırat,https://i.imgur.com/3o8Rokp.png
 087,Kanal V,OK,Backup.m3u,Kanal V,https://i.imgur.com/7RNjTno.png
 088,Kay TV,OK,Backup.m3u,Kay TV,https://i.imgur.com/MymuDJ1.png
-089,Kayhan TV,SEM LOGO CORRESPONDENTE,,,
+"089","Kayhan TV","OK","Backup.m3u","Kayhan TV","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/089-Kayhan-TV-8a19d99b53.png"
 090,Kent Türk TV,OK,Backup.m3u,Kent Turk,https://i.imgur.com/FQKPjsm.png
 091,Kocaeli TV,OK,Backup.m3u,KOCAELİ TV,https://i.ibb.co/mHt7rQf/Tryerel.png
-092,Konya KTV,SEM LOGO CORRESPONDENTE,,,
+"092","Konya KTV","OK","Backup.m3u","Konya KTV","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/092-Konya-KTV-49dd4a4f8f.png"
 093,Konya Olay TV,OK,Backup.m3u,KONYA OLAY TV,https://i.ibb.co/mHt7rQf/Tryerel.png
 094,Lalegül TV,OK,Backup.m3u,Lalegül TV,https://i.imgur.com/wwCysFs.png
 095,Life TV,OK,Backup.m3u,LIFE TV,https://i.ibb.co/9hCVNks/life-tv.png
@@ -112,9 +112,9 @@
 111,Power Dance TV,OK,Backup.m3u,POWER DANCE,https://i.ibb.co/5hwZ7xw/power-dance.png
 112,Power Love TV,OK,Backup.m3u,POWER LOVE,https://i.ibb.co/bJL1VnX/power-love.png
 113,PowerTürk Taptaze,OK,Backup.m3u,POWER TURK TAPTAZE,https://i.ibb.co/F5K5xs9/powerturk-taptaze.png
-114,MUKABELE TV,SEM LOGO CORRESPONDENTE,,,
+"114","MUKABELE TV","OK","Backup.m3u","MUKABELE TV","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/114-MUKABELE-TV-77fbeb8aab.png"
 115,Rehber TV,OK,Backup.m3u,Rehber TV,https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/rehber-tv-tr.png
-116,Sat7 Türk,SEM LOGO CORRESPONDENTE,,,
+"116","Sat7 Türk","OK","Backup.m3u","SAT 7 TURK","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Sat7-T-rk-9ba93b411f.svg"
 117,Semerkand TV,OK,Backup.m3u,Semerkand TV,https://i.imgur.com/UVGGrQd.png
 118,Sercem TV,OK,Backup.m3u,Sercem TV,https://sercemtv.com.tr/sercemlogo.jpg
 119,Show Max,OK,Backup.m3u,SHOW MAX,https://i.ibb.co/kxjKk89/showmax.png
@@ -176,7 +176,7 @@
 175,KN Music TV,OK,Backup.m3u,KN Music TV,https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png
 176,YOL TV,OK,Backup.m3u,YOL TV,https://i.ibb.co/hB9yNXV/yol22.png
 177,RTG International,OK,Backup.m3u,RTG int.,https://i.imgur.com/ZpUNou4.png
-178,Kanal Ada,SEM LOGO CORRESPONDENTE,,,
+"178","Kanal Ada","OK","Backup.m3u","Kanal Ada","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/178-Kanal-Ada-9f0dfd2538.png"
 179,Arzu Film,SEM LOGO CORRESPONDENTE,,,
 180,Ekol Sports,OK,Backup.m3u,EKOL SPORTS,https://i.ibb.co/Y4tR1tTm/Ekolsports.jpg
 181,Kanal Urfa,OK,Backup.m3u,Kanal Urfa,https://www.kanalurfa.com/upload/masaustu.png
@@ -200,13 +200,13 @@
 199,Now 80 s,OK,Backup.m3u,Now 80's,https://www.lyngsat.com/logo/tv/nn/now-80s-uk.svg
 200,NOW ROCK,OK,Backup.m3u,NOW ROCK,https://www.lyngsat.com/logo/tv/nn/now-rock-uk.png
 201,MOR TV,OK,Backup.m3u,MOR TV,https://i.ibb.co/qRsfyb2/tvmor.png
-202,IQ Channel,SEM LOGO CORRESPONDENTE,,,
+"202","IQ Channel","OK","Backup.m3u","IQ Channel","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/202-IQ-Channel-8da53c150e.png"
 203,JÎN TV,OK,Backup.m3u,JÎN TV,https://i.ibb.co/cXd3MBV/symkr.png
 204,Makkah TV,OK,Backup.m3u,MAKKAH TV,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCVPXXnt4LxrLpCI6sRKfYu0bZkjHUg1WkQ&s
-205,MK TV,SEM LOGO CORRESPONDENTE,,,
+"205","MK TV","OK","Backup.m3u","MK TV","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/205-MK-TV-073ee34817.png"
 206,TopPop,OK,Backup.m3u,TopPop,https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp
 207,Retro Music Television,SEM LOGO CORRESPONDENTE,,,
-208,GZT,SEM LOGO CORRESPONDENTE,,,
+"208","GZT","OK","IPTV-Cat.m3u","GZT","https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/GZT-af79c3a250.svg"
 209,beIN Sports 1 Turk,OK,Backup.m3u,BEINSPORTS 1,https://i.ibb.co/N31fVBp/bein-sports-1.png
 210,4U Family (persa),SEM LOGO CORRESPONDENTE,,,
 211,Power TV (720p),OK,Backup.m3u,POWER TV,https://i.ibb.co/JrXDQJy/power-tv.png
