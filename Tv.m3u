@@ -235,7 +235,7 @@ https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="ESTV.tr@SD" tvg-chno="48" tvg-name="ES TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/048-ES-TV-35f31cb6ec.png" group-title="REGIONAIS" tvg-language="Turkish",ES TV
+#EXTINF:-1 tvg-id="ESTV.tr@SD" tvg-chno="48" tvg-name="ES TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/048-es-tv.png" group-title="REGIONAIS" tvg-language="Turkish",ES TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 
@@ -245,7 +245,7 @@ https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12034 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="EuroD.tr@SD" tvg-chno="50" tvg-name="Euro D" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/050-EURO-D-43558222f9.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",EURO D
+#EXTINF:-1 tvg-id="EuroD.tr@SD" tvg-chno="50" tvg-name="Euro D" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/050-euro-d.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",EURO D
 #EXTVLCOPT:network-caching=5000
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 
@@ -295,12 +295,12 @@ https://tv.ensonhaber.com/haberglobal/haberglobal_480p.m3u8
 https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12303 V, SR 27500, FEC 3/4 / Türksat 4A: 11845 V, SR 10833, FEC 2/3
-#EXTINF:-1 tvg-chno="60" tvg-id="gil1w2erz9l7imc" tvg-name="Habertürk" group-title="NOTÍCIAS" tvg-language="Turkish",Habertürk
+#EXTINF:-1 tvg-chno="60" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/060-haberturk.png" tvg-id="gil1w2erz9l7imc" tvg-name="Habertürk" group-title="NOTÍCIAS" tvg-language="Turkish",Habertürk
 #EXTVLCOPT:network-caching=5000
 https://haberturk.blutv.com/blutv_haberturk_live/live.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12380 V, SR 27500, FEC 3/4 / Türksat 5B: 11225 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="61" tvg-id="HalkTV.tr@SD" tvg-name="Halk TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="NOTÍCIAS" tvg-language="Turkish",Halk TV
+#EXTINF:-1 tvg-chno="61" tvg-id="HalkTV.tr@SD" tvg-name="Halk TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/061-halk-tv.png" group-title="NOTÍCIAS" tvg-language="Turkish",Halk TV
 #EXTVLCOPT:network-caching=5000
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 
