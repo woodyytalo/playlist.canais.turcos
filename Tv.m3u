@@ -696,7 +696,7 @@ https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12015 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="Kral.Pop.Radyo.tr" tvg-chno="141" tvg-name="KRAL POP" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/141-Kral-Pop-31068fc217.png" group-title="MÚSICA" tvg-language="Turkish",Kral Pop
+#EXTINF:-1 tvg-id="Kral.Pop.Radyo.tr" tvg-chno="141" tvg-name="KRAL POP" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/141-kral-pop.png" group-title="MÚSICA" tvg-language="Turkish",Kral Pop
 #EXTVLCOPT:network-caching=5000
 http://dygvideo.dygdigital.com/live/hls/kralpop
 
@@ -711,7 +711,7 @@ http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12226 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="144" tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT" tvg-language="Turkish",TRT World
+#EXTINF:-1 tvg-chno="144" tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/144-trt-world.png" group-title="TRT" tvg-language="Turkish",TRT World
 #EXTVLCOPT:network-caching=5000
 https://cdn.pishow.tv/ott/live/266/266_2.m3u8
 
@@ -751,7 +751,7 @@ http://canli.tvden.com.tr/hls/live.m3u8
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11225 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="152" tvg-id="5i5mds6ap6h7m7w" tvg-name="TV100" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/152-TV100-0033f51fa5.png" group-title="NOTÍCIAS" tvg-language="Turkish",TV100
+#EXTINF:-1 tvg-chno="152" tvg-id="5i5mds6ap6h7m7w" tvg-name="TV100" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/152-tv100.png" group-title="NOTÍCIAS" tvg-language="Turkish",TV100
 #EXTVLCOPT:network-caching=5000
 https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
 
