@@ -26,6 +26,12 @@ ALIASES = {
     "Company TV": ["Company TV"], "INTV Australia": ["INTV"],
     "IQ Channel": ["IQ Channel"], "MK TV": ["MK TV"],
     "Retro Music Television": ["Retro Music"],
+    "Dim TV": ["DIM TV"], "Kardelen TV": ["KARDELEN TV"],
+    "Kanal 32": ["KANAL 32"], "Kent Türk TV": ["Kent Turk", "KENT TÜRK"],
+    "Luys TV": ["LUYS TV"], "Sat7 Türk": ["SAT 7 TÜRK"],
+    "Vuslat TV": ["Malatya Vuslat TV", "VUSLAT TV"],
+    "RTG International": ["RTG int."], "MC EU TV": ["MC EU"],
+    "beIN Sports 1 Turk": ["BEINSPORTS 1 HD", "BEIN SPORTS 1 HD"],
 }
 def norm(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
@@ -89,7 +95,7 @@ def main():
     for name,url,source in entries:
         by_name.setdefault(norm(name),[]).append((url,source,name))
     OUT.mkdir(parents=True,exist_ok=True)
-    for p in OUT.glob("*.png"): p.unlink()
+    # Preserva PNGs existentes caso uma fonte externa falhe temporariamente.
     rows=[]
     downloaded=0
     for index,channel in enumerate(channels,1):
