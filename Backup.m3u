@@ -8687,3 +8687,9 @@ https://cdn.pishow.tv/ott/live/266/master.m3u8?checkedby:iptvcat.net
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8?checkedby:iptvcat.net
 #EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",PowerTÃ¼rk TV (720p)
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",Fortuna TV (1080p)
+https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",NOW (720p)
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",TRT Spor Yildiz (720p) [Geo-blocked]
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8?checkedby:iptvcat.net
