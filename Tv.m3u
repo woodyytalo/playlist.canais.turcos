@@ -1032,5 +1032,5 @@ https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 
 # Atualização automática das logos por categoria
 #EXTINF:-1 tvg-name="Fortuna TV" tvg-logo="https://i.imgur.com/ZbUSlOC.png" tvg-language="Turkish" group-title="FORTUNA TV",Fortuna TV
-#EXTVLCOPT:network-caching=60000
+#EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8#all
