@@ -11,8 +11,14 @@ OUT = ROOT / "logos-turcas-catalogo" / "LOGOS-EXTRAIDAS-DAS-PLAYLISTS"
 PLAYLISTS = ["Backup.m3u", "Euro.m3u", "IPTV-Cat.m3u", "TV2.m3u", "Tvt.m3u"]
 PRIORITY = {"IPTV-Cat.m3u": 0, "Backup.m3u": 1, "Tvt.m3u": 2, "Euro.m3u": 3, "TV2.m3u": 4}
 LOGO_OVERRIDES = {
-    # Logo correta confirmada em outras playlists M3U (Luys TV).
+    # Logos identificadas em listas M3U e catálogos de canais.
     "Luys TV": "https://i.imgur.com/9EruWIQ.png",
+    "4U TV": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UTV.tr.png",
+    "Al Zahra TV Turkic": "https://i.imgur.com/QEHKGnG.png",
+    "Grand Cinema": "https://www.lyngsat.com/logo/tv/gg/grand-cinema.png",
+    "İzmir Time 35 TV": "https://izmirtime35com.teimg.com/izmirtime35-com/uploads/2023/09/logo.png",
+    "Mekameleen TV": "https://i.postimg.cc/85dghYss/mekameleentv.png",
+    "INTV Australia": "https://i.imgur.com/1nJl0Pv.png",
 }
 ALIASES = {
     "360 TV": ["360"], "4U TV": ["4U"], "Bloomberg HT 2": ["Bloomberg HT"],
