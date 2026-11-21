@@ -1,19 +1,18 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-21 15:58 UTC
+- Executado em: 2026-11-21 16:24 UTC
 - Playlist analisada: \`Tv.m3u\`
-- Entradas testadas: **212**
-- URLs únicas: **210**
+- Entradas testadas: **213**
+- URLs únicas: **211**
 
 ## Resumo
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 188 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 190 |
 | FALHA DE CONEXÃO (URLError) | 17 |
 | LINK NÃO ENCONTRADO (404) | 5 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
-| FALHA DE CONEXÃO (TimeoutError) | 1 |
 
 ## Detalhamento
 
@@ -123,7 +122,7 @@
 | Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | MTürk TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | Play TV | \`web.onair-radio.eu\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| NOW | \`uycyyuuzyh.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
+| NOW | \`uycyyuuzyh.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | NR1 Aşk | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NR1 Damar | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NR1 Dance | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -149,11 +148,11 @@
 | Tivi 6 | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TJK TV | \`tjktv-live.tjk.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Ton TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
 | TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -220,6 +219,7 @@
 | Now 80 s | \`lightning-now80s-samsungnz.amagi.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NOW ROCK | \`lightning-now90s-samsungnz.amagi.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | MOR TV | \`live.euromediacenter.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| Fortuna TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | IQ Channel | \`rtmp.info\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | JÎN TV | \`live.jintv.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Makkah TV | \`live.kwikmotion.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -227,10 +227,10 @@
 | TopPop | \`yayin.santraltr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Retro Music Television | \`stream.mediawork.cz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | GZT | \`gzttv-live.lg.mncdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TYT TÜRK | \`tytturk-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | beIN Sports 1 Turk | \`57.129.0.61\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 4U Family (persa) | \`familyhls.4utv.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Power TV (720p) | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| Fortuna TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 
 ## Observações
 
