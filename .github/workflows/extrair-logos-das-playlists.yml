@@ -1,0 +1,35 @@
+name: Extrair logos das outras listas M3U
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/extrair_logos_das_playlists.py"
+      - ".github/workflows/extrair-logos-das-playlists.yml"
+jobs:
+  extrair:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar dependências
+        run: pip install pillow cairosvg
+      - name: Extrair logos
+        run: python scripts/extrair_logos_das_playlists.py
+      - name: Salvar pasta no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para salvar."
+          else
+            git commit -m "Adicionar logos extraídas das outras listas M3U"
+            git push
+          fi
