@@ -4791,7 +4791,7 @@ https://tvsms.club/tvz.php?kanal=arma&file=.m3u8
 #EXTVLCOPT:network-caching=60000
 http://164.132.23.92:22372/ayztv/ayztv/playlist.m3u8
 #EXTINF:0 group-title="IMPORTADOS",BBCNEWS
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://46.47.113.35:4000/bbcnews.ts
 #EXTINF:-1 tvg-name="Bir TV" tvg-chno="22" tvg-logo="https://i.ibb.co/dDdPMWq/birtv.png" group-title="ENTRETENIMENTO",BİR TV
 #EXTVLCOPT:network-caching=60000
@@ -4803,7 +4803,7 @@ https://canli.cine6tv.com.tr:3614/stream/play.m3u8
 #EXTVLCOPT:network-caching=60000
 https://ip240.radyotelekom.com.tr:3118/stream/play.m3u8
 #EXTINF:0 group-title="IMPORTADOS",CNBC
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://46.47.113.35:4000/cnbc.ts
 #EXTINF:-1 group-title="IMPORTADOS",DAMAR TV
 #EXTVLCOPT:network-caching=60000
@@ -4818,19 +4818,19 @@ https://tvsms.club/tvz.php?kanal=dost&file=.m3u8
 #EXTVLCOPT:network-caching=60000
 https://live.duhnet.tv//S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:0 group-title="IMPORTADOS",DW HD
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://46.47.113.35:4001/dw_hd.ts
 #EXTINF:-1 tvg-name="Edessa TV" tvg-chno="42" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Edessa-TV-8b7aec133e.svg" group-title="REGIONAIS",EDESSA TV
 #EXTVLCOPT:network-caching=60000
 https://tv170.radyotelekom.com.tr:21764/edessatv/edessatv/chunklist.m3u8
 #EXTINF:0 group-title="IMPORTADOS",EEURONEWS
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://46.47.113.35:4000/euronews.ts
 #EXTINF:0 group-title="IMPORTADOS",ESPN
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://62.131.195.211:8086/4.ts
 #EXTINF:0 group-title="IMPORTADOS",EUROSPORT 1
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://62.131.195.211:8086/8.ts
 #EXTINF:-1 group-title="IMPORTADOS",EZO TV
 #EXTVLCOPT:network-caching=60000
@@ -4899,13 +4899,13 @@ https://live.artidijitalmedya.com/artidijital_noratv/noratv/chunks.m3u8
 #EXTVLCOPT:network-caching=60000
 https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=gTOF3OqplTwBKT7GBsKJJQ&e=1756424675
 #EXTINF:0 group-title="IMPORTADOS",NPO 1
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://62.131.195.211:8086/12.ts
 #EXTINF:0 group-title="IMPORTADOS",NPO 2
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://62.131.195.211:8087/20.ts
 #EXTINF:0 group-title="IMPORTADOS",NPO ZAPPELEN
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://62.131.195.211:8087/24.ts
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2yCF7ms/nr1-damar.png" group-title="IMPORTADOS",NR 1 DAMAR
 #EXTVLCOPT:network-caching=60000
@@ -4926,7 +4926,7 @@ https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b1428000_sltur.m3u
 #EXTVLCOPT:network-caching=60000
 https://yayin30.haber100.com/live/rehbertv/playlist.m3u8
 #EXTINF:0 group-title="IMPORTADOS",RTL 4
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://62.131.195.211:8087/28.ts
 #EXTINF:-1 tvg-logo="https://i.ibb.co/rtCJSqm/show-turk.png" group-title="IMPORTADOS",SHOW TÜRK
 #EXTVLCOPT:network-caching=60000
@@ -4980,7 +4980,7 @@ https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTVLCOPT:network-caching=60000
 https://viamotionhsi.netplus.ch/live/eds/trtturk/browser-dash/trtturk.mpd
 #EXTINF:0 tvg-id="j1x67766q1lr7r6" tvg-name="TRT World" tvg-chno="144" group-title="TRT",TRT WORLD
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://46.47.113.35:4002/trtworld.ts
 #EXTINF:-1 tvg-logo="https://i.ibb.co/6PRYHdW/tv85.png" group-title="IMPORTADOS",TV 8.5
 #EXTVLCOPT:network-caching=60000
@@ -5013,7 +5013,7 @@ https://vrttv.ozelip.com:3644/multi_web/play_720.m3u8
 #EXTVLCOPT:network-caching=60000
 https://ip252.ozelip.com:22524/marstv/marstv/chunklist.m3u8
 #EXTINF:0 group-title="IMPORTADOS",Z SELECT
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=60000
 http://62.131.195.211:8086/0.ts
 #EXTINF:-1 group-title="IMPORTADOS",ZEYNO TV
 #EXTVLCOPT:network-caching=60000
