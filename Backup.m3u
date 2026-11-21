@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/guia-turquia.xml" x-tvg-url="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/epg/guia-turquia.xml"
+# Atualização de mapeamento XMLTV executada pelo workflow de EPG
+
 
 #EXTINF:-1 tvg-name="24 TV" tvg-chno="1" tvg-id="24 TV.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/001-24-TV-77bac50729.png" group-title="NOTÍCIAS",24 TV
 #EXTVLCOPT:network-caching=60000
@@ -21,11 +23,11 @@ https://turkmedya-live.ercdn.net/tv24/tv24.m3u8#all
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8#top50
 
 #EXTINF:-1 tvg-chno="1" tvg-id="24 TV" tvg-name="24 TV" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/001-24-TV-77bac50729.png" group-title="NOTÍCIAS",24 TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/chunklist_b896000.m3u8
 
 #EXTINF:-1 tvg-name="24 TV" tvg-chno="1" tvg-id="24TV.tr@SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/001-24-TV-77bac50729.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML group-title="NOTÍCIAS",24 TV (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-name="24 TV" tvg-id="40" tvg-id="24TV.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/001-24-TV-77bac50729.png" group-title="HABER",24
@@ -104,7 +106,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8#top50
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="ql8qf4vb46o1h7t" tvg-name="A Haber" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/005-A-Haber-822786c766.png" group-title="NOTÍCIAS",A Haber
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 http://antalya.tvizlehd.com/live/ahaber.m3u8
 
 #EXTINF:-1 tvg-id="ql8qf4vb46o1h7t" tvg-chno="5" tvg-name="A Haber" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/005-A-Haber-822786c766.png",A Haber
@@ -213,7 +215,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8#top50
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="v25znppc6itjprw" tvg-name="A Spor" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ESPORTES",a Spor
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 
 #EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-chno="7" tvg-name="A Spor" group-title="ESPORTES" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png",A Spor
@@ -266,7 +268,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8#all
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8#top50
 
 #EXTINF:-1 tvg-chno="8" tvg-id="fc29p3wbp8wkgo4" tvg-name="A2" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/008-A2-471abed9b9.png" group-title="ENTRETENIMENTO",A2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 http://antalya.tvizlehd.com/live/a2tv.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="fc29p3wbp8wkgo4" tvg-name="A2" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/008-A2-471abed9b9.png" group-title="ENTRETENIMENTO",A2 (Dizi & Sinema)
@@ -559,7 +561,7 @@ https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8#all
 
 #EXTINF:-1 tvg-chno="20" tvg-id="edf3lp61qexxxhl" tvg-name="Beyaz TV" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/020-Beyaz-TV-8103c07996.png" group-title="ENTRETENIMENTO",Beyaz TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
 
 #EXTINF:-1 tvg-chno="20" tvg-name="Beyaz TV" tvg-language="Turkish" tvg-country="TR" tvg-id="edf3lp61qexxxhl" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/020-Beyaz-TV-8103c07996.png" group-title="ENTRETENIMENTO",Beyaz TV
@@ -778,7 +780,7 @@ https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8
 https://helga.iptv2022.com/sh/cnn_turk/tracks-v4a1/mono.ts.m3u8?filter.tracks=a1v1v2v3v4&|User-Agent=okhttp/3.8.0/|Referer=https://turkcanli.tv/#all
 
 #EXTINF:-1 tvg-chno="29" tvg-id="ah7mr9ol040kp3b" tvg-name="CNN Türk" tvg-language="Turkish" tvg-logo="https://i.ibb.co/5W0L35x/cnnturk.png" group-title="NOTÍCIAS",CNN Türk
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/track_4_1000/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="29" tvg-name="CNN Türk" tvg-id="ah7mr9ol040kp3b" tvg-logo="https://i.ibb.co/bFsmkwJ/cnn-turk.png" group-title="NOTÍCIAS",CNN TURK
@@ -1100,7 +1102,7 @@ https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8#all
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8#top50
 
 #EXTINF:-1 tvg-chno="50" tvg-id="Euro D" tvg-name="Euro D" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/050-EURO-D-43558222f9.png" group-title="ENTRETENIMENTO",Euro D
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_eurod2/live.m3u8
 
 #EXTINF:-1 tvg-name="Euro D" tvg-chno="50" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/050-EURO-D-43558222f9.png" tvg-id="EuroD.tr@SD" group-title="ENTRETENIMENTO",Euro D (720p)
@@ -1218,7 +1220,7 @@ https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8#top50
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
 
 #EXTINF:-1 tvg-id="HABERGLOBAL" tvg-name="HABERGLOBAL" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/058-Haber-Global-5afccd5466.png" group-title="HABER GLOBAL",HABERGLOBAL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_haberglobal_dvr/live_720p2000000/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/058-Haber-Global-5afccd5466.png" group-title="IMPORTADOS",HABERGLOBAL
@@ -1272,11 +1274,11 @@ https://vavoo.to/vavoo-iptv/play/24027723806f7d250c32c3
 https://vavoo.to/vavoo-iptv/play/2129890787bca734ae3a3c
 
 #EXTINF:-1 tvg-chno="60" tvg-id="gil1w2erz9l7imc" tvg-name="Habertürk" tvg-language="Turkish" tvg-logo="https://i.ibb.co/Hd6cPGm/haberturk.png" group-title="NOTÍCIAS",HABERTURK
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_haberturk_dvr/live_720p2000000/index.m3u8
 
 #EXTINF:-1 tvg-id="gil1w2erz9l7imc" tvg-name="Habertürk" tvg-chno="60" tvg-logo="https://i.imgur.com/6Tw3rUp.png" group-title="NOTÍCIAS",Habertürk
-#EXTVLCOPT:http-referrer=https://www.haberturk.com/canliyayin
+#EXTVLCOPT:network-caching=60000
 #EXTVLCOPT:http-referer=https://www.haberturk.com/canliyayin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.haberturk.com/canliyayin"}
@@ -1326,7 +1328,7 @@ https://halktv-live.daioncdn.net/halktv/halktv.m3u8#top50
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 
 #EXTINF:-1 tvg-chno="61" tvg-id="d1exl1gxity48nl" tvg-name="Halk TV" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="NOTÍCIAS",Halk TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_halktv2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-chno="61" tvg-name="Halk TV" tvg-language="Turkish" tvg-country="TR" tvg-id="d1exl1gxity48nl" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="NOTÍCIAS",Halk TV
@@ -1735,7 +1737,7 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3#all
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3#top50
 
 #EXTINF:-1 tvg-chno="84" tvg-id="bbwgmhsmhhoatzg" tvg-name="Kanal D" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="ENTRETENIMENTO",Kanal D
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_kanald2/live.m3u8
 
 #EXTINF:-1 tvg-name="Kanal D" tvg-chno="84" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" tvg-id="bbwgmhsmhhoatzg" group-title="ENTRETENIMENTO",Kanal D (1080p)
@@ -1761,11 +1763,11 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-sams
 http://190.93.224.42/KANAL-D-DRAMA/index.m3u8
 
 #EXTINF:-1 tvg-name="Kanal D Drama" tvg-chno="85" tvg-id="KanalDDrama.tr@SD" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/085-Kanal-D-Drama-89c9741948.png",Kanal D Drama (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/KanalD.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Kanal D Drama" tvg-chno="85" tvg-id="KanalDDrama.tr@SD" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/085-Kanal-D-Drama-89c9741948.png",Kanal D Drama (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/KanalD_principal_SRT/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="86" tvg-name="Kanal Fırat" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/086-Kanal-F-rat-d240f1ec8f.png" group-title="REGIONAIS",Kanal Fırat
@@ -2023,7 +2025,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 
 #EXTINF:-1 tvg-chno="101" tvg-id="52hjq0o16nwpdnq" tvg-name="Minika Çocuk" tvg-language="Turkish" tvg-logo="https://i.ibb.co/3RVSssb/minikacocuk.png" group-title="INFANTIS",Minika Çocuk
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://antalya.tvizlehd.com/live/minikacocuk.m3u8
 
 #EXTINF:-1 tvg-id="52hjq0o16nwpdnq" tvg-chno="101" tvg-name="Minika Çocuk" tvg-logo="https://i.ibb.co/L8ftBdN/minikacocuk.png" group-title="INFANTIS",MİNİKA ÇOCUK (backoff)
@@ -2243,7 +2245,7 @@ https://dogus.daioncdn.net/ntv/ntv_720p.m3u8#all
 https://dogus.daioncdn.net/ntv/ntv_720p.m3u8#top50
 
 #EXTINF:-1 tvg-chno="109" tvg-id="nyz5s8p798n9cqg" tvg-name="NTV" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" group-title="NOTÍCIAS",NTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_ntv_dvr/live_720p2000000/index.m3u8
 
 #EXTINF:-1 tvg-name="NTV" tvg-chno="109" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" tvg-id="nyz5s8p798n9cqg" group-title="NOTÍCIAS",NTV
@@ -2452,7 +2454,7 @@ https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-3
 https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558#all
 
 #EXTINF:-1 tvg-chno="120" tvg-id="pvr08e5grfsebfw" tvg-name="Show TV" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/120-Show-TV-664ea07c5f.png" group-title="ENTRETENIMENTO",Show TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_showtv2/live.m3u8
 
 #EXTINF:-1 tvg-chno="120" tvg-name="Show TV" tvg-language="Turkish" tvg-country="TR" tvg-id="pvr08e5grfsebfw" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/120-Show-TV-664ea07c5f.png" group-title="ENTRETENIMENTO",Show TV
@@ -2480,7 +2482,7 @@ https://vavoo.to/vavoo-iptv/play/69930592375bf26f3bb25
 https://vavoo.to/vavoo-iptv/play/395479001546efe8f75dd3
 
 #EXTINF:-1 tvg-name="Star TV" tvg-chno="122" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="ENTRETENIMENTO",Star TV
-#EXTVLCOPT:http-referrer=https://www.startv.com.tr/
+#EXTVLCOPT:network-caching=60000
 #EXTVLCOPT:http-referer=https://www.startv.com.tr/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.startv.com.tr/"}
@@ -2504,7 +2506,7 @@ https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-2
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5#top50
 
 #EXTINF:-1 tvg-chno="122" tvg-id="Star TV (TR)" tvg-name="Star TV" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="ENTRETENIMENTO",Star TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_startv2/live.m3u8
 
 #EXTINF:-1 tvg-chno="122" tvg-name="Star TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_StarTV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="ENTRETENIMENTO",Star TV
@@ -2546,7 +2548,7 @@ https://ythlsgo.onrender.com/channel/UCjkRA7KEdp7PDKDUs396XHg.m3u8
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tele1-canli
 #EXTINF:-1 tvg-name="TELE 1" tvg-id="Tele1.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/124-TELE1-8e64cd614b.png" group-title="HABER",TELE 1
-#EXTVLCOPT:http-user-agent=Lavf53.32.100
+#EXTVLCOPT:network-caching=60000
 https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8
 #EXTINF:-1 tvg-id="2m3k6xyjyek7djr" tvg-name="TELE1" tvg-chno="124" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/124-TELE1-8e64cd614b.png" group-title="NOTÍCIAS",TELE1
 #EXTVLCOPT:network-caching=60000
@@ -2572,7 +2574,7 @@ https://tele1.blutv.com/blutv_tele1_live/live.m3u8
 https://vavoo.to/vavoo-iptv/play/135762464349d3676ea069
 
 #EXTINF:-1 tvg-id="Tele 1" tvg-name="Tele 1" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/124-TELE1-8e64cd614b.png" group-title="TELE 1",Tele 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_tele1_dvr/live_720p2000000/index.m3u8
 
 #EXTINF:-1 tvg-id="2m3k6xyjyek7djr" tvg-chno="124" tvg-name="TELE1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/124-TELE1-8e64cd614b.png" group-title="NOTÍCIAS",Tele1
@@ -2647,7 +2649,7 @@ https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8#all
 
 #EXTINF:-1 tvg-chno="126" tvg-id="6vs4sg9183gdxth" tvg-name="teve2" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/126-teve2-dec69e536a.png" group-title="ENTRETENIMENTO",Teve2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_teve22/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-name="teve2" tvg-chno="126" tvg-id="6vs4sg9183gdxth" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/126-teve2-dec69e536a.png" group-title="ENTRETENIMENTO",Teve2 (1080p)
@@ -2674,7 +2676,7 @@ https://canli.tgrthaber.com/tgrt.m3u8#all
 https://canli.tgrthaber.com/tgrt.m3u8#top50
 
 #EXTINF:-1 tvg-chno="127" tvg-id="qz2fp61itc8xm4g" tvg-name="TGRT Haber" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="NOTÍCIAS",TGRT Haber
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_tgrthaber2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-chno="127" tvg-name="TGRT Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="qz2fp61itc8xm4g" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="NOTÍCIAS",TGRT Haber
@@ -2823,7 +2825,7 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8#all
 https://tv-trt1.medya.trt.com.tr/master.m3u8#top50
 
 #EXTINF:-1 tvg-chno="131" tvg-id="af0zo9et4xguwsk" tvg-name="TRT 1" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="ENTRETENIMENTO",TRT 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 #https://tv-trt1.medya.trt.com.tr/master_720.m3u8
 https://blutv-test-live.ercdn.net/test/trt1_1080p.m3u8
 
@@ -3117,7 +3119,7 @@ https://tv-trtworld.medya.trt.com.tr/master_720.m3u8
 https://cdn.pishow.tv/ott/live/266/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT World" tvg-chno="144" tvg-id="j1x67766q1lr7r6" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png",TRT World (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://fta.ektv.in/live/416/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT World" tvg-chno="144" tvg-id="j1x67766q1lr7r6" group-title="TRT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png",TRT World (720p)
@@ -3453,7 +3455,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/ulke-tv-c
 http://217.174.229.138:8000/play/a0el
 
 #EXTINF:-1 tvg-chno="158" tvg-id="kanaalkyymvqcjf" tvg-name="Ülke TV" tvg-logo="https://i.ibb.co/zG9kTh6/ulke-tv.png" http-user-agent="Lavf53.32.100" group-title="NOTÍCIAS",Ülke TV
-#EXTVLCOPT:http-user-agent=Lavf53.32.100
+#EXTVLCOPT:network-caching=60000
 https://ulketv.blutv.com/blutv_ulketv2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-id="kanaalkyymvqcjf" tvg-chno="158" tvg-name="Ülke TV" tvg-logo="https://logo.huhu.to/logo?c=3053206623.png" group-title="NOTÍCIAS",ÜLKE TV
@@ -3477,7 +3479,7 @@ https://mn-nl.mncdn.com/blutv_ulketv2/live.m3u8
 https://trkvz-live.ercdn.net/vavtv/vavtv.m3u8
 
 #EXTINF:-1 tvg-name="Vav TV" tvg-chno="159" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/159-Vav-TV-08a4c862b0.png" group-title="RELIGIOSOS",VAV TV
-#EXTVLCOPT:http-referrer=https://www.vavtv.com.tr/canli-yayin
+#EXTVLCOPT:network-caching=60000
 #EXTVLCOPT:http-referer=https://www.vavtv.com.tr/canli-yayin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.vavtv.com.tr/canli-yayin"}
@@ -3512,7 +3514,7 @@ https://vavoo.to/vavoo-iptv/play/960578312ee36cc17c5d2
 https://ythls.kekikakademi.org/youtube/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
 
 #EXTINF:-1 tvg-chno="163" tvg-id="5zoe73avn97ggnt" tvg-name="Sözcü TV" tvg-logo="https://i.ibb.co/6NX1j0n/szc-tv.png" http-user-agent="Lavf53.32.100" group-title="NOTÍCIAS",Sözcü TV
-#EXTVLCOPT:http-user-agent=Lavf53.32.100
+#EXTVLCOPT:network-caching=60000
 https://szctvdvr.blutv.com/blutv_szctv_dvr/live_720p4350000kbps/index.m3u8
 
 #EXTINF:-1 tvg-id="5zoe73avn97ggnt" tvg-chno="163" tvg-name="Sözcü TV" tvg-logo="https://i.ibb.co/B40rjP3/szc1.png" group-title="NOTÍCIAS",SÖZCÜ TV
@@ -3821,7 +3823,7 @@ https://vavoo.to/vavoo-iptv/play/17668406603d2e9e4942ac
 https://s6.hopslan.com/tlcX/index.m3u8
 
 #EXTINF:-1 tvg-chno="188" tvg-id="9z32hgan37zhgr6" tvg-name="TLC" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/188-TLC-e1552761f4.png" group-title="DOCUMENTÁRIOS",TLC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_tlc_dvr/live_720p2000000/index.m3u8
 
 #EXTINF:-1 tvg-id="dbd4aka7iu29rko" tvg-chno="189" tvg-name="Love Nature" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/189-Love-Nature-3cd5065bf1.png" group-title="DOCUMENTÁRIOS",LOVE NATURE
@@ -4109,7 +4111,7 @@ https://vavoo.to/vavoo-iptv/play/8121316298dfb2ba1be71
 https://vavoo.to/vavoo-iptv/play/3415462105074dc2b1d646
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/6tWCzTp.png" group-title="A NEWS",A News
-#EXTVLCOPT:http-referrer=https://www.anews.com.tr/webtv/live-broadcast
+#EXTVLCOPT:network-caching=60000
 #EXTVLCOPT:http-referer=https://www.anews.com.tr/webtv/live-broadcast
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.anews.com.tr/webtv/live-broadcast"}
@@ -4510,7 +4512,7 @@ http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/eb8806ac-ebbf-43c3-a874-afd02b6
 https://vavoo.to/vavoo-iptv/play/31959103511474b82d3792
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-avrupa-tr.png" group-title="ATV AVRUPA",ATV Avrupa
-#EXTVLCOPT:http-referrer=https://www.atvavrupa.tv/canli-yayin
+#EXTVLCOPT:network-caching=60000
 #EXTVLCOPT:http-referer=https://www.atvavrupa.tv/canli-yayin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.atvavrupa.tv/canli-yayin"}
@@ -4518,7 +4520,7 @@ https://vavoo.to/vavoo-iptv/play/31959103511474b82d3792
 https://trkvz-live.ercdn.net/atvavrupa/atvavrupa.m3u8?st=-JWLJZf6vK4PPJCTVy5UhA&e=1794692014
 
 #EXTINF:-1 tvg-id="ATV Avrupa" tvg-name="ATV Avrupa" tvg-language="Turkish" tvg-logo="https://i.ibb.co/k4yHhn7/atvavrupa.png" group-title="ATV AVRUPA",ATV Avrupa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 http://antalya.tvizlehd.com/live/atvavrupa.m3u8
 
 #EXTINF:-1 tvg-name="ATV AVRUPA" tvg-logo="https://i.ibb.co/PtH4wGr/atvavr.png" group-title="ATV AVRUPA",ATV AVRUPA ( BOZUK!! )
@@ -4642,7 +4644,7 @@ https://vavoo.to/vavoo-iptv/play/22284968562a623d1b95b4
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/bba3f221-e4da-4a6d-b835-fab9c3197b4d.m3u
 
 #EXTINF:-1 tvg-id="BBCFirst.uk@Turkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML group-title="BBC FİRST",BBC First
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.7.14/live/bbc_first/index.m3u8
@@ -5940,7 +5942,7 @@ http://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8
 https://trn03.tulix.tv/gt-dmax-tv/index.m3u8
 
 #EXTINF:-1 tvg-id="DMAX" tvg-name="DMAX" tvg-language="Turkish" tvg-logo="https://i.ibb.co/412LJ1F/dmax.png" group-title="DMAX",DMAX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_dmax_dvr/live_720p2000000/index.m3u8
 
 #EXTINF:-1 tvg-name="DMAX [downline]" tvg-logo="https://i.ibb.co/QQQR6VK/dmax.png" group-title="DMAX",DMAX [downline]
@@ -6337,7 +6339,7 @@ http://nimplus3.bozztv.com/eurostar/eurostar/playlist.m3u8
 https://vavoo.to/vavoo-iptv/play/21476140819198063bb491
 
 #EXTINF:-1 tvg-id="EuroStar" tvg-name="EuroStar" tvg-language="Turkish" tvg-logo="https://i.ibb.co/r4SLvnN/eurostar.png" group-title="EURO STAR",EuroStar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_eurostar2/live.m3u8
 
 #EXTINF:-1 tvg-name="EUROSPORT 1" tvg-logo="https://logo.huhu.to/logo?c=3458631461.png" group-title="EUROSPORT 1",EUROSPORT 1
@@ -6577,7 +6579,7 @@ https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
 https://vavoo.to/vavoo-iptv/play/14539175875ea1ccde8ce
 
 #EXTINF:-1 tvg-id="Fox TR" tvg-name="Fox TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/pxHprXH/fox.png" group-title="FOX",FOX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_foxtv2/live.m3u8
 
 #EXTINF:-1 tvg-name="FOX CRIME HEVC" group-title="FOX CRIME",FOX CRIME HEVC
@@ -7877,7 +7879,7 @@ http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/5a41f081-d9fd-4f65-8cc6-2094d34
 https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1628000.m3u8
 
 #EXTINF:-1 tvg-id="KRT.tr" tvg-name="KRT" tvg-logo="https://i.ibb.co/F8WT2QK/krt.png" http-user-agent="Lavf53.32.100" group-title="KRT",KRT
-#EXTVLCOPT:http-user-agent=Lavf53.32.100
+#EXTVLCOPT:network-caching=60000
 https://krtdvr.blutv.com/blutv_krt_live_dvr/live_720p4350000kbps/index.m3u8
 
 #EXTINF:-1 tvg-name="KRT" tvg-logo="https://logo.huhu.to/logo?c=331685130.png" group-title="KRT",KRT
@@ -9022,7 +9024,7 @@ https://livetv.powerapp.com.tr/pplustv/pplustv.smil/playlist.m3u8
 https://vavoo.to/vavoo-iptv/play/2703806315a67a7c89a263
 
 #EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-logo="https://i.ibb.co/xXcBD2C/powerturk.png" group-title="POWER TURK",Power Turk (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="PowerTurkTV.tr" tvg-logo="https://i.ibb.co/xXcBD2C/powerturk.png" group-title="POWER TURK",Power Turk (1080p)
@@ -9500,7 +9502,7 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/sht
 https://ciner-live.ercdn.net/showturk/showturk_720p.m3u8?e=1769787111&st=W-BgNviSIVo-bjsuov1PbA&tv=1
 
 #EXTINF:-1 tvg-id="Show Türk" tvg-name="Show Türk" tvg-language="Turkish" tvg-logo="https://i.ibb.co/xJZR1jT/showturk.png" group-title="SHOW TÜRK",Show Türk
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_showturk2/live.m3u8
 
 #EXTINF:-1 tvg-name="SHOW TÜRK (geçici geçerli)" tvg-logo="https://i.ibb.co/WvhGGP0/showturk1.png" group-title="SHOW TÜRK",SHOW TÜRK (geçici geçerli)
@@ -9735,7 +9737,7 @@ https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/64
 #EXTVLCOPT:network-caching=60000
 https://bcovlive-a.akamaihd.net/540fcb034b144b848e7ff887f61a293a/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 #EXTINF:-1 tvg-id="SportsTV.tr" tvg-name="Sports TV" tvg-logo="https://i.ibb.co/R3q43dk/sportstv.png" http-user-agent="Lavf53.32.100" group-title="SPORTS TV",Sports TV
-#EXTVLCOPT:http-user-agent=Lavf53.32.100
+#EXTVLCOPT:network-caching=60000
 https://sportstv.blutv.com/blutv_sportstv2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-name="SPORTS TV" tvg-logo="https://logo.huhu.to/logo?c=3422827985.png" group-title="SPORTS TV",SPORTS TV
@@ -9755,7 +9757,7 @@ https://live.sportstv.com.tr/hls/low/sportstv_hd/index.m3u8
 https://live.sportstv.com.tr/hls/low/sportstv.m3u8
 
 #EXTINF:-1 tvg-id="Sports TV" tvg-name="Sports TV" tvg-language="Turkish" tvg-logo="https://i.ibb.co/TBqyqRx/sportstv.png" group-title="SPORTS TV",Sports TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_sportstv2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-id="SportsTV.tr" tvg-logo="https://i.ibb.co/R3q43dk/sportstv.png" group-title="SPORTS TV",Sports TV (720p) [Geo-blocked]
@@ -10748,7 +10750,7 @@ https://tv-trtspor1.medya.trt.com.tr/master.m3u8#top50
 https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRT Spor" tvg-name="TRT Spor" tvg-language="Turkish" tvg-logo="https://i.ibb.co/DktF0DL/trtspor.png" group-title="TRT SPOR",TRT Spor
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_trtspor2/live.m3u8
 
 #EXTINF:-1 tvg-name="TRT Spor"tvg-id="Spor_TRT"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png":http-referrer="":http-user-agent="" tvg-logo="https://i.ibb.co/WxD4PLG/trt-spor.png" group-title="TRT SPOR",TRT Spor
@@ -11096,7 +11098,7 @@ https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=tv8bucuk_web&ce=3#all
 https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=tv8bucuk_web&ce=3#top50
 
 #EXTINF:-1 tvg-id="TV8.5" tvg-name="TV8.5" tvg-language="Turkish" tvg-logo="https://i.ibb.co/frpQs6q/tv85.png" group-title="TV8 5",TV8.5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_tv8_52/live.m3u8
 
 #EXTINF:-1 tvg-name="TV8 BUÇUK" tvg-logo="https://i.ibb.co/dgj3MTh/tv85.png" group-title="TV8 BUÇUK",TV8 BUÇUK
@@ -11132,7 +11134,7 @@ https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788
 https://bozztv.com/gin-dvrfl05/gin-tv8int/index.m3u8
 
 #EXTINF:-1 tvg-id="TV8 INT" tvg-name="TV8 INT" tvg-language="Turkish" tvg-logo="https://i.ibb.co/YyjrbR7/tv8int.png" group-title="TV8 INT",TV8 INT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+#EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_tv8_int2/live.m3u8
 
 #EXTINF:-1 tvg-name="TV8 INT (geçici geçerli)" tvg-logo="https://i.ibb.co/n7Jy3h5/tv8int22.png" group-title="TV8 INT",TV8 INT (geçici geçerli)
@@ -11230,10 +11232,10 @@ https://tgn.bozztv.com/dvrfl05/gin-atvavrupa/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:network-caching=60000
 https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
 #EXTINF:-1 tvg-name="KANAL 7" tvg-id="Kanal7.tr" tvg-logo="https://i.ibb.co/dcC9pzY/kanal-7.png" group-title="ULUSAL",KANAL 7
-#EXTVLCOPT:http-user-agent=Lavf53.32.100
+#EXTVLCOPT:network-caching=60000
 https://kanal7dvr.blutv.com/blutv_kanal7_dvr2/live_720p2000000kbps/index.m3u8
 #EXTINF:-1 tvg-name="SHOW TURK" tvg-id="ShowTurk.tr" tvg-logo="https://i.ibb.co/rtCJSqm/show-turk.png" group-title="ULUSAL",SHOW TURK
-#EXTVLCOPT:http-user-agent=Lavf53.32.100
+#EXTVLCOPT:network-caching=60000
 https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showturk.m3u8
 #EXTINF:-1 tvg-name="TGRT EU" tvg-id="TGRTEU.tr" tvg-logo="https://i.ibb.co/kMM9hwR/tgrt-eu.png" group-title="ULUSAL",TGRT EU
 #EXTVLCOPT:network-caching=60000
@@ -11325,7 +11327,7 @@ https://uskudarunv.mediatriple.net/uskudarunv/uskudar1/playlist.m3u8
 https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8
 
 #EXTINF:-1 tvg-id="VTV.tr" group-title="V TV",V TV (720p)
-#EXTVLCOPT:http-referrer=https://www.vtv.net.tr/
+#EXTVLCOPT:network-caching=60000
 https://serdar.tiviplayer.com/player/m3u8/65aae71c9b93f0965aaed3a92660d98b/65aae71c9b93f0965aaed3a92660d98b.m3u8
 
 #EXTINF:-1 tvg-name="VAN 65 TV ORT" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="VAN 65 TV ORT",VAN 65 TV ORT
