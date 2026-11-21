@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-21 16:26 UTC
+- Executado em: 2026-11-21 16:30 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **213**
 - URLs únicas: **211**
@@ -9,11 +9,11 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 189 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 188 |
 | FALHA DE CONEXÃO (URLError) | 17 |
 | LINK NÃO ENCONTRADO (404) | 5 |
+| FALHA DE CONEXÃO (TimeoutError) | 2 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
-| FALHA DE CONEXÃO (TimeoutError) | 1 |
 
 ## Detalhamento
 
@@ -152,8 +152,8 @@
 | TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
 | TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -173,7 +173,7 @@
 | TV100 | \`ensonhaber-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TV4 | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TV5 | \`ip252.ozelip.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TV8 | \`rkhubpaomb.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TV8 | \`rkhubpaomb.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
 | TVNET | \`tvnet-live.lg.mncdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Vuslat TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Ülke TV | \`livetv.radyotvonline.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
