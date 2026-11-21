@@ -621,7 +621,7 @@ https://tele1-live.ercdn.net/tele1/tele1.m3u8
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="126" tvg-id="6vs4sg9183gdxth" tvg-name="teve2" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/126-teve2-dec69e536a.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",teve2
+#EXTINF:-1 tvg-chno="126" tvg-id="6vs4sg9183gdxth" tvg-name="teve2" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/126-teve2.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",teve2
 #EXTVLCOPT:network-caching=5000
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
 
@@ -636,7 +636,7 @@ https://canli.tgrthaber.com/tgrt.m3u8
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11345 V, SR 29750, FEC 5/6
-#EXTINF:-1 tvg-id="TJKTV.tr@SD" tvg-chno="129" tvg-name="TJK TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/129-TJK-TV-3159cccbdd.png" group-title="ESPORTES" tvg-language="Turkish",TJK TV
+#EXTINF:-1 tvg-id="TJKTV.tr@SD" tvg-chno="129" tvg-name="TJK TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/129-tjk-tv.png" group-title="ESPORTES" tvg-language="Turkish",TJK TV
 #EXTVLCOPT:network-caching=5000
 https://tjktv-live.tjk.org/tjktv.m3u8
 
@@ -651,7 +651,7 @@ https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-id="TRTArabi.tr@SD" tvg-chno="132" tvg-name="TRT Arabi" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/132-TRT-Arabi-76470da4a5.png" group-title="TRT" tvg-language="Turkish",TRT Arabi
+#EXTINF:-1 tvg-id="TRTArabi.tr@SD" tvg-chno="132" tvg-name="TRT Arabi" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/132-trt-arabi.png" group-title="TRT" tvg-language="Turkish",TRT Arabi
 #EXTVLCOPT:network-caching=5000
 https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8
 
