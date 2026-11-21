@@ -58,7 +58,7 @@ https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_48
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 
 #FREQUÊNCIA: Eutelsat 7 West A: 11603 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Almahriah-TV-bb29f293d6.svg" tvg-id="AlmahriahTV.tr@SD" tvg-chno="12" tvg-name="Almahriah TV" group-title="INTERNACIONAIS" tvg-language="Turkish",Almahriah TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/012-almahriah-tv.png" tvg-id="AlmahriahTV.tr@SD" tvg-chno="12" tvg-name="Almahriah TV" group-title="INTERNACIONAIS" tvg-language="Turkish",Almahriah TV
 #EXTVLCOPT:network-caching=5000
 https://starmenajo.com/hls/almahriah/index.m3u8
 
@@ -220,7 +220,7 @@ https://cdn.ekoturk.net/hls/master.m3u8
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ER-TV-Malatya-df3219d403.svg" tvg-chno="45" tvg-name="ER TV Malatya" group-title="REGIONAIS" tvg-language="Turkish",ER TV Malatya
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/045-er-tv-malatya.png" tvg-chno="45" tvg-name="ER TV Malatya" group-title="REGIONAIS" tvg-language="Turkish",ER TV Malatya
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
 
@@ -290,7 +290,7 @@ https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 https://tv.ensonhaber.com/haberglobal/haberglobal_480p.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Haber61-TV-21c82b8d9d.svg" tvg-id="Haber61TV.tr@SD" tvg-chno="59" tvg-name="Haber61 TV" group-title="NOTÍCIAS" tvg-language="Turkish",Haber61 TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/059-haber61-tv.png" tvg-id="Haber61TV.tr@SD" tvg-chno="59" tvg-name="Haber61 TV" group-title="NOTÍCIAS" tvg-language="Turkish",Haber61 TV
 #EXTVLCOPT:network-caching=5000
 https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
 
@@ -432,7 +432,7 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kay-TV-db4254d86b.svg" tvg-id="KayTV.tr@SD" tvg-chno="88" tvg-name="Kay TV" group-title="REGIONAIS" tvg-language="Turkish",Kay TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/088-kay-tv.png" tvg-id="KayTV.tr@SD" tvg-chno="88" tvg-name="Kay TV" group-title="REGIONAIS" tvg-language="Turkish",Kay TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
@@ -476,7 +476,7 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Med-M-zik-e9dac2c4f1.svg" tvg-id="MedMuzik.tr@SD" tvg-chno="97" tvg-name="Med Müzik" group-title="MÚSICA" tvg-language="Turkish",Med Müzik
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/097-med-muzik.png" tvg-id="MedMuzik.tr@SD" tvg-chno="97" tvg-name="Med Müzik" group-title="MÚSICA" tvg-language="Turkish",Med Müzik
 #EXTVLCOPT:network-caching=5000
 http://54.36.110.140/live3/live3.m3u8
 
@@ -691,7 +691,7 @@ https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11958 V, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-M-zik-279ada7c87.svg" tvg-chno="140" tvg-id="TRTMuzik.tr@SD" tvg-name="TRT Müzik" group-title="MÚSICA" tvg-language="Turkish",TRT Müzik
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/140-trt-muzik.png" tvg-chno="140" tvg-id="TRTMuzik.tr@SD" tvg-name="TRT Müzik" group-title="MÚSICA" tvg-language="Turkish",TRT Müzik
 #EXTVLCOPT:network-caching=5000
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 
@@ -790,7 +790,7 @@ https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12111 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Zarok-TV-Kurmanji-829b26763d.svg" tvg-chno="160" tvg-name="Zarok TV Kurmanji" group-title="INFANTIS" tvg-language="Turkish",Zarok TV Kurmanji
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/160-zarok-tv-kurmanji.png" tvg-chno="160" tvg-name="Zarok TV Kurmanji" group-title="INFANTIS" tvg-language="Turkish",Zarok TV Kurmanji
 #EXTVLCOPT:network-caching=5000
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 
