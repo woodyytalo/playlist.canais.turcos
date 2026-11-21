@@ -392,27 +392,27 @@ https://live.euromediacenter.com/kanal34/index.m3u8
 https://kanal53.ozelip.com:3448/hybrid/play.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="Kanal58.tr@SD" tvg-chno="80" tvg-name="Kanal 58" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/080-Kanal-58-1d08a0e5dc.png" group-title="REGIONAIS" tvg-language="Turkish",Kanal 58
+#EXTINF:-1 tvg-id="Kanal58.tr@SD" tvg-chno="80" tvg-name="Kanal 58" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/080-kanal-58.png" group-title="REGIONAIS" tvg-language="Turkish",Kanal 58
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12458 H, SR 27500, FEC 2/3 / Türksat 6A: 12111 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="Kanal7Avrupa.tr@SD" tvg-chno="81" tvg-name="Kanal 7 Avrupa" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/081-Kanal-7-Avrupa-8ca7054a47.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",Kanal 7 Avrupa
+#EXTINF:-1 tvg-id="Kanal7Avrupa.tr@SD" tvg-chno="81" tvg-name="Kanal 7 Avrupa" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/081-kanal-7-avrupa.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",Kanal 7 Avrupa
 #EXTVLCOPT:network-caching=5000
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12458 V, SR 30000, FEC 2/3
-#EXTINF:-1 tvg-id="KanalAvrupa.tr" tvg-chno="82" tvg-name="Kanal Avrupa" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/082-Kanal-Avrupa-b771c1239b.png" group-title="INTERNACIONAIS" tvg-language="Turkish",Kanal Avrupa
+#EXTINF:-1 tvg-id="KanalAvrupa.tr" tvg-chno="82" tvg-name="Kanal Avrupa" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/082-kanal-avrupa.png" group-title="INTERNACIONAIS" tvg-language="Turkish",Kanal Avrupa
 #EXTVLCOPT:network-caching=5000
 http://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v3a1/mono.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12149 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="KanalB.tr@SD" tvg-chno="83" tvg-name="Kanal B" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/083-Kanal-B-a2dd70c31d.png" group-title="REGIONAIS" tvg-language="Turkish",Kanal B
+#EXTINF:-1 tvg-id="KanalB.tr@SD" tvg-chno="83" tvg-name="Kanal B" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/083-kanal-b.png" group-title="REGIONAIS" tvg-language="Turkish",Kanal B
 #EXTVLCOPT:network-caching=5000
 https://tv.kanalb.tr/hls/kanalb/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="84" tvg-id="KanalD.tr@SD" tvg-name="Kanal D" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",Kanal D
+#EXTINF:-1 tvg-chno="84" tvg-id="KanalD.tr@SD" tvg-name="Kanal D" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/084-kanal-d.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",Kanal D
 #EXTVLCOPT:network-caching=5000
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 
