@@ -93,7 +93,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="19" tvg-name="Bengü Türk" group-title="NOTÍCIAS" tvg-language="Turkish",Bengü Türk
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CHWhMvQ/bengu-turk.png" tvg-chno="19" tvg-name="Bengü Türk" group-title="NOTÍCIAS" tvg-language="Turkish",Bengü Türk
 #EXTVLCOPT:network-caching=5000
 https://tv.ensonhaber.com/benguturk/benguturk_480p.m3u8
 
@@ -118,12 +118,12 @@ https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12303 V, SR 27500, FEC 3/4 / Türksat 4A: 11845 V, SR 10833, FEC 2/3
-#EXTINF:-1 tvg-chno="24" tvg-name="Bloomberg HT 2" group-title="NOTÍCIAS" tvg-language="Turkish",Bloomberg HT 2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/023-Bloomberg-HT-03d5a9a3f9.png" tvg-chno="24" tvg-name="Bloomberg HT 2" group-title="NOTÍCIAS" tvg-language="Turkish",Bloomberg HT 2
 #EXTVLCOPT:network-caching=5000
 https://tv.ensonhaber.com/bloomberght/bloomberght_480p.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="25" tvg-name="BRTV Karabük" group-title="REGIONAIS" tvg-language="Turkish",BRTV Karabük
+#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=134086061.png" tvg-chno="25" tvg-name="BRTV Karabük" group-title="REGIONAIS" tvg-language="Turkish",BRTV Karabük
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_brtv/brtv/chunks.m3u8
 
@@ -133,7 +133,7 @@ https://live.artidijitalmedya.com/artidijital_brtv/brtv/chunks.m3u8
 http://176.65.153.40:6002/play/a013/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="27" tvg-id="jgskjh5s5asjefn" tvg-name="CİNE1" group-title="FILMES E SÉRIES" tvg-language="Turkish",CİNE1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/zhxTBMR/cine1.png" tvg-chno="27" tvg-id="jgskjh5s5asjefn" tvg-name="CİNE1" group-title="FILMES E SÉRIES" tvg-language="Turkish",CİNE1
 #EXTVLCOPT:network-caching=5000
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 
@@ -163,7 +163,7 @@ https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="DHA.tr@SD" tvg-chno="33" tvg-name="DHA" group-title="NOTÍCIAS" tvg-language="Turkish",DHA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/K6BKFqY/dha.png" tvg-id="DHA.tr@SD" tvg-chno="33" tvg-name="DHA" group-title="NOTÍCIAS" tvg-language="Turkish",DHA
 #EXTVLCOPT:network-caching=5000
 https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 
@@ -285,7 +285,7 @@ https://gcinemahls.wns.live/hls/stream.m3u8
 https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12034 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="58" tvg-id="HaberGlobal.tr@SD" tvg-name="Haber Global" group-title="NOTÍCIAS" tvg-language="Turkish",Haber Global
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/058-Haber-Global-5afccd5466.png" tvg-chno="58" tvg-id="HaberGlobal.tr@SD" tvg-name="Haber Global" group-title="NOTÍCIAS" tvg-language="Turkish",Haber Global
 #EXTVLCOPT:network-caching=5000
 https://tv.ensonhaber.com/haberglobal/haberglobal_480p.m3u8
 
@@ -305,7 +305,7 @@ https://haberturk.blutv.com/blutv_haberturk_live/live.m3u8
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12303 V, SR 27500, FEC 3/4 / Türksat 4A: 11845 V, SR 10833, FEC 2/3
-#EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-chno="62" tvg-name="HT Spor TV" group-title="ESPORTES" tvg-language="Turkish",HT Spor TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/062-HT-Spor-TV-4bd4f8380a.png" tvg-id="HTSporTV.tr@SD" tvg-chno="62" tvg-name="HT Spor TV" group-title="ESPORTES" tvg-language="Turkish",HT Spor TV
 #EXTVLCOPT:network-caching=5000
 https://ciner.daioncdn.net/ht-spor/ht-spor_480p.m3u8?ex=0&sid=8wn2p2rpc61m&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 
@@ -382,7 +382,7 @@ https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="Kanal34.tr@SD" tvg-chno="78" tvg-name="Kanal 34" group-title="REGIONAIS" tvg-language="Turkish",Kanal 34
+#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=1869339322.png" tvg-id="Kanal34.tr@SD" tvg-chno="78" tvg-name="Kanal 34" group-title="REGIONAIS" tvg-language="Turkish",Kanal 34
 #EXTVLCOPT:network-caching=5000
 https://live.euromediacenter.com/kanal34/index.m3u8
 
@@ -575,7 +575,7 @@ https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11425 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-id="SemerkandTV.tr@SD" tvg-chno="117" tvg-name="Semerkand TV" group-title="RELIGIOSOS" tvg-language="Turkish",Semerkand TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/117-Semerkand-TV-4c80a6c988.png" tvg-id="SemerkandTV.tr@SD" tvg-chno="117" tvg-name="Semerkand TV" group-title="RELIGIOSOS" tvg-language="Turkish",Semerkand TV
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_2.m3u8
 
@@ -590,7 +590,7 @@ https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12303 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="120" tvg-id="pvr08e5grfsebfw" tvg-name="Show TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",Show TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/120-Show-TV-664ea07c5f.png" tvg-chno="120" tvg-id="pvr08e5grfsebfw" tvg-name="Show TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",Show TV
 #EXTVLCOPT:network-caching=5000
 https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 
@@ -646,7 +646,7 @@ https://tjktv-live.tjk.org/tjktv.m3u8
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11794 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-chno="131" tvg-id="TRT1.tr@SD" tvg-name="TRT 1" group-title="ENTRETENIMENTO" tvg-language="Turkish",TRT 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" tvg-chno="131" tvg-id="TRT1.tr@SD" tvg-name="TRT 1" group-title="ENTRETENIMENTO" tvg-language="Turkish",TRT 1
 #EXTVLCOPT:network-caching=5000
 https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 
@@ -661,12 +661,12 @@ https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8
 https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="134" tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Çocuk" group-title="INFANTIS" tvg-language="Turkish",TRT Çocuk
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mbvwYMB/trt-cocuk.png" tvg-chno="134" tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Çocuk" group-title="INFANTIS" tvg-language="Turkish",TRT Çocuk
 #EXTVLCOPT:network-caching=5000
 https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11794 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr@SD" tvg-chno="135" tvg-name="TRT Diyanet Çocuk" group-title="INFANTIS" tvg-language="Turkish",TRT Diyanet Çocuk
+#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=1101849390.png" tvg-id="TRTDiyanetCocuk.tr@SD" tvg-chno="135" tvg-name="TRT Diyanet Çocuk" group-title="INFANTIS" tvg-language="Turkish",TRT Diyanet Çocuk
 #EXTVLCOPT:network-caching=5000
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8
 
@@ -800,7 +800,7 @@ https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12111 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="162" tvg-id="76711" tvg-name="Euro Star TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",Euro Star TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CbdPSX6/euro-star.png" tvg-chno="162" tvg-id="76711" tvg-name="Euro Star TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",Euro Star TV
 #EXTVLCOPT:network-caching=5000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
 
@@ -834,12 +834,12 @@ https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="TABİİ.tr" tvg-chno="169" tvg-name="Tabii" group-title="FILMES E SÉRIES" tvg-language="Turkish",Tabii
+#EXTINF:-1 tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" tvg-id="TABİİ.tr" tvg-chno="169" tvg-name="Tabii" group-title="FILMES E SÉRIES" tvg-language="Turkish",Tabii
 #EXTVLCOPT:network-caching=5000
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_360p.m3u8?sid=yoAHas4-h0yTN6NtBHZwpw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=1000000
 
 #FREQUÊNCIA: Türksat 4A: 11789 H, SR 20000, FEC 3/4
-#EXTINF:-1 tvg-chno="170" tvg-name="BBC First Türkiye" group-title="FILMES E SÉRIES" tvg-language="Turkish",BBC First Türkiye
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UBoBYUI.png" tvg-chno="170" tvg-name="BBC First Türkiye" group-title="FILMES E SÉRIES" tvg-language="Turkish",BBC First Türkiye
 #EXTVLCOPT:network-caching=5000
 http://88.212.7.14/live/bbc_first/index.m3u8
 
@@ -859,7 +859,7 @@ https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/
 https://live.euromediacenter.com/balkanturktv/index.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="ThaqalaynTV.tr@SD" tvg-chno="174" tvg-name="Thaqalayn TV" group-title="INTERNACIONAIS" tvg-language="Turkish",Thaqalayn TV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/u02FSgI.png" tvg-id="ThaqalaynTV.tr@SD" tvg-chno="174" tvg-name="Thaqalayn TV" group-title="INTERNACIONAIS" tvg-language="Turkish",Thaqalayn TV
 #EXTVLCOPT:network-caching=5000
 http://62.60.207.173:8080/hls/thaqalayn/1_2/index.m3u8?tkn=751218219
 
@@ -903,12 +903,12 @@ https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="184" tvg-name="MADINAH TV" group-title="RELIGIOSOS" tvg-language="Turkish",MADINAH TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/184-MADINAH-TV-7d10e449b9.png" tvg-chno="184" tvg-name="MADINAH TV" group-title="RELIGIOSOS" tvg-language="Turkish",MADINAH TV
 #EXTVLCOPT:network-caching=5000
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="MCTV.de@HD" tvg-chno="185" tvg-name="MC EU TV" group-title="INTERNACIONAIS" tvg-language="Turkish",MC EU TV
+#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=3849971860.png" tvg-id="MCTV.de@HD" tvg-chno="185" tvg-name="MC EU TV" group-title="INTERNACIONAIS" tvg-language="Turkish",MC EU TV
 #EXTVLCOPT:network-caching=5000
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #FREQUÊNCIA: Türksat 4A: 12458 H, SR 27500, FEC 2/3
@@ -916,7 +916,7 @@ https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=
 #EXTVLCOPT:network-caching=5000
 https://turkhls.persiana.live/hls/stream.m3u8
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="187" tvg-name="BabyFirst TV" group-title="INFANTIS" tvg-language="Turkish",BabyFirst TV
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WxLHBwu.png" tvg-chno="187" tvg-name="BabyFirst TV" group-title="INFANTIS" tvg-language="Turkish",BabyFirst TV
 #EXTVLCOPT:network-caching=5000
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest/1.m3u8
 
