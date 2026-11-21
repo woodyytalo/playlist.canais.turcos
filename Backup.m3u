@@ -8693,3 +8693,19 @@ https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8?checkedby:iptvcat.net
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8?checkedby:iptvcat.net
 #EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",TRT Spor Yildiz (720p) [Geo-blocked]
 https://tv-trtspor2.medya.trt.com.tr/master.m3u8?checkedby:iptvcat.net
+
+# Lista complementar: Roblabs-Teknoloji/iptv (entradas sem URL duplicada)
+#EXTINF:-1 tvg-id="SZC.tr" tvg-name="Sözcü TV" tvg-country="TR" tvg-language="Turkish" group-title="Haber",Sözcü TV (resmî YouTube canlı yayını)
+https://www.youtube.com/@sozcutelevizyonu/live
+#EXTINF:-1 tvg-name="Outdoor America" tvg-country="US" tvg-language="English" group-title="Balıkçılık & Avcılık",Outdoor America (ABD / İngilizce)
+https://linear-600.frequency.stream/dist/viewnexa/600/hls/master/playlist-1.m3u8
+#EXTINF:-1 tvg-name="Outdoor Action TV" tvg-country="US" tvg-language="English" group-title="Balıkçılık & Avcılık",Outdoor Action TV (ABD / İngilizce)
+https://careco-outdoor-action-1-us.ono.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Duck Hunting TV" tvg-country="US" tvg-language="English" group-title="Balıkçılık & Avcılık",Duck Hunting TV (ABD / İngilizce)
+https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8
+#EXTINF:-1 tvg-name="Italian Fishing TV" tvg-country="IT" tvg-language="Italian" group-title="Balıkçılık & Avcılık",Italian Fishing TV (İtalya / İtalyanca)
+https://fms.premio.link/fishingtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Hunt Fish TV" tvg-language="English" group-title="Balıkçılık & Avcılık",Hunt Fish TV (İngilizce)
+https://amg00585-sportstribal-amg00585c3-sportstribal-emea-2177.playouts.now.amagi.tv/playlist/amg00585-sportstribaltvfast-huntfishtv-sportstribalemea/playlist.m3u8
+#EXTINF:-1 tvg-name="Sports Fishing" tvg-language="English" group-title="Balıkçılık & Avcılık",Sports Fishing (İngilizce)
+https://amg00585-amg00585c12-sportstribal-emea-5521.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-sportsfishing-sportstribalemea/playlist.m3u8
