@@ -849,7 +849,7 @@ http://88.212.7.14/live/bbc_first/index.m3u8
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="172" tvg-id="448568" tvg-name="Syria TV" group-title="INTERNACIONAIS" tvg-language="Turkish",Syria TV
+#EXTINF:-1 tvg-chno="172" tvg-id="448568" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/Syria_TV_logo_2026.png" tvg-name="Syria TV" group-title="INTERNACIONAIS" tvg-language="Turkish",Syria TV
 #EXTVLCOPT:network-caching=5000
 https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/chunks_dvr.m3u8
 
@@ -1013,7 +1013,7 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 #EXTVLCOPT:network-caching=5000
 https://yayin.santraltr.com/hls/toppop.m3u8
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="207" group-title="MÚSICA" tvg-name="Retro Music Television" tvg-language="Turkish",Retro Music Television
+#EXTINF:-1 tvg-chno="207" group-title="MÚSICA" tvg-name="Retro Music Television" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Retro_Music_TV_logo.png/250px-Retro_Music_TV_logo.png" tvg-language="Turkish",Retro Music Television
 #EXTVLCOPT:network-caching=5000
 https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #FREQUÊNCIA: Türksat 5B: 11225 V, SR 30000, FEC 3/4
