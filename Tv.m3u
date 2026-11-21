@@ -178,7 +178,7 @@ https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12264 V, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-id="DiyarTV.tr@SD" tvg-chno="36" tvg-name="Diyar TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/036-Diyar-TV-a4dcb0cb83.png" group-title="RELIGIOSOS" tvg-language="Turkish",Diyar TV
+#EXTINF:-1 tvg-id="DiyarTV.tr@SD" tvg-chno="36" tvg-name="Diyar TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/036-diyar-tv.png" group-title="RELIGIOSOS" tvg-language="Turkish",Diyar TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 
@@ -196,7 +196,7 @@ http://hz1.teleport.cc/HLS/HD.m3u8
 #EXTVLCOPT:network-caching=5000
 https://30a-tv.com/music.m3u8
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="40" tvg-id="DreamTurk.tr@SD" tvg-name="Dream Türk" group-title="MÚSICA" tvg-language="Turkish",Dream Türk
+#EXTINF:-1 tvg-chno="40" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/040-dream-turk.png" tvg-id="DreamTurk.tr@SD" tvg-name="Dream Türk" group-title="MÚSICA" tvg-language="Turkish",Dream Türk
 #EXTVLCOPT:network-caching=5000
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
@@ -205,7 +205,7 @@ https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 https://str.yodacdn.net/tmb_tr_app/tracks-v1a1/mono.m3u8?token=tmb_app_token_13579
 
 #FREQUÊNCIA: Türksat 6A: 12111 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="EdessaTV.tr@SD" tvg-chno="42" tvg-name="Edessa TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/042-Edessa-TV-0dcc8793ec.png" group-title="REGIONAIS" tvg-language="Turkish",Edessa TV
+#EXTINF:-1 tvg-id="EdessaTV.tr@SD" tvg-chno="42" tvg-name="Edessa TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/042-edessa-tv.png" group-title="REGIONAIS" tvg-language="Turkish",Edessa TV
 #EXTVLCOPT:network-caching=5000
 https://canli.edessatv.com/hls/stream.m3u8
 
