@@ -102,6 +102,23 @@ def download_logo(url):
 
 PREFIX.mkdir(parents=True, exist_ok=True)
 
+# Segunda passada: remover fundos lisos conectados às bordas em TODO o catálogo,
+# não apenas nos sete arquivos baixados do Canlı TV nesta execução.
+# Mantém o desenho interno e o canvas quadrado; não estica nem redesenha marcas.
+cleaned = []
+for existing in sorted(PREFIX.glob("*.png")):
+    try:
+        with Image.open(existing) as source:
+            before = source.convert("RGBA")
+        after = remove_flat_edge_background(before)
+        if after.tobytes() != before.tobytes():
+            after.save(existing, "PNG", optimize=True)
+            cleaned.append(existing.name)
+    except Exception as exc:
+        print(f"AVISO: não foi possível processar {existing.name}: {exc}")
+
+print(f"Fundos lisos removidos em {len(cleaned)} arquivos já existentes.")
+
 # Remove versões antigas (inclusive duplicatas numéricas) somente dos 31 canais auditados.
 for path in PREFIX.glob("*.png"):
     try:
