@@ -63,7 +63,7 @@ https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 https://starmenajo.com/hls/almahriah/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="AltasTV.tr@SD" tvg-chno="13" tvg-name="Altas TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/013-Altas-TV-1fe70ad52d.png" group-title="REGIONAIS" tvg-language="Turkish",Altas TV
+#EXTINF:-1 tvg-id="AltasTV.tr@SD" tvg-chno="13" tvg-name="Altas TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/013-altas-tv.png" group-title="REGIONAIS" tvg-language="Turkish",Altas TV
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 
@@ -83,7 +83,7 @@ http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="17" tvg-id="ATV.tr@SD" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",ATV
+#EXTINF:-1 tvg-chno="17" tvg-id="ATV.tr@SD" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/017-atv.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",ATV
 #EXTVLCOPT:network-caching=5000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 
@@ -98,7 +98,7 @@ https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 https://tv.ensonhaber.com/benguturk/benguturk_480p.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11996 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="20" tvg-id="BeyazTV.tr@SD" tvg-name="Beyaz TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/020-Beyaz-TV-8103c07996.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",Beyaz TV
+#EXTINF:-1 tvg-chno="20" tvg-id="BeyazTV.tr@SD" tvg-name="Beyaz TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/020-beyaz-tv.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",Beyaz TV
 #EXTVLCOPT:network-caching=5000
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8
 
@@ -113,7 +113,7 @@ https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12303 V, SR 27500, FEC 3/4 / Türksat 4A: 11845 V, SR 10833, FEC 2/3
-#EXTINF:-1 tvg-chno="23" tvg-id="BloombergHT.tr@SD" tvg-name="Bloomberg HT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/023-Bloomberg-HT-03d5a9a3f9.png" group-title="NOTÍCIAS" tvg-language="Turkish",Bloomberg HT
+#EXTINF:-1 tvg-chno="23" tvg-id="BloombergHT.tr@SD" tvg-name="Bloomberg HT" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github%2Fworkflows%2Fatualizar-logos.yml/assets/logos/023-bloomberg-ht.png" group-title="NOTÍCIAS" tvg-language="Turkish",Bloomberg HT
 #EXTVLCOPT:network-caching=5000
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 
