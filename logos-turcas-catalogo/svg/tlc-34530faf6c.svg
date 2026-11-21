@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><svg version="1.1" width="512" height="512" preserveAspectRatio="xMidYMid meet">
-<path d="M0 0 C168.96 0 337.92 0 512 0 C512 54.45 512 108.9 512 165 C343.04 165 174.08 165 0 165 C0 110.55 0 56.1 0 0 Z " fill="#000000" transform="translate(0,0)" />
-<path d="M0 0 C3.63 0 7.26 0 11 0 C11 5.61 11 11.22 11 17 C7.37 17 3.74 17 0 17 C0 11.39 0 5.78 0 0 Z " fill="#CCCCCC" transform="translate(294,54)" />
-<path d="M0 0 C1.98 0 3.96 0 6 0 C6 3.3 6 6.6 6 10 C5.34 10 4.68 10 4 10 C4.33 12.31 4.66 14.62 5 17 C3.35 17 1.7 17 0 17 C0 11.39 0 5.78 0 0 Z " fill="#C2C2C2" transform="translate(306,54)" />
-<path d="M0 0 C0.99 0 1.98 0 3 0 C3 1.98 3 3.96 3 6 C3.99 6 4.98 6 6 6 C6 4.02 6 2.04 6 0 C6.66 0 7.32 0 8 0 C8.33 2.97 8.66 5.94 9 9 C6.03 9 3.06 9 0 9 C0 6.03 0 3.06 0 0 Z " fill="#FCFCFC" transform="translate(295,61)" />
-<path d="M0 0 C2.31 0 4.62 0 7 0 C7 0.99 7 1.98 7 3 C6.34 3 5.68 3 5 3 C5 4.98 5 6.96 5 9 C4.01 9 3.02 9 2 9 C2 7.02 2 5.04 2 3 C1.34 3 0.68 3 0 3 C0 2.01 0 1.02 0 0 Z " fill="#7B7B7B" transform="translate(296,58)" />
-<path d="M0 0 C0.66 0 1.32 0 2 0 C2 1.32 2 2.64 2 4 C1.34 4 0.68 4 0 4 C0 6.31 0 8.62 0 11 C-0.33 11 -0.66 11 -1 11 C-1.027 9.354 -1.046 7.708 -1.062 6.062 C-1.074 5.146 -1.086 4.229 -1.098 3.285 C-1 1 -1 1 0 0 Z " fill="#DFDFDF" transform="translate(309,55)" />
-</svg></svg>
