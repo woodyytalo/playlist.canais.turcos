@@ -18,7 +18,7 @@ http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="4UTV.tr@SD" tvg-chno="4" tvg-name="4U TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",4U TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/004-4U-TV.png" tvg-id="4UTV.tr@SD" tvg-chno="4" tvg-name="4U TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",4U TV
 #EXTVLCOPT:network-caching=5000
 https://hls.4utv.live/hls/stream.m3u8
 
@@ -48,7 +48,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12149 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="AlZahraTVTurkic.tr@SD" tvg-chno="10" tvg-name="Al Zahra TV Turkic" group-title="RELIGIOSOS" tvg-language="Turkish",Al Zahra TV Turkic
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/010-Al-Zahra-TV-Turkic.png" tvg-id="AlZahraTVTurkic.tr@SD" tvg-chno="10" tvg-name="Al Zahra TV Turkic" group-title="RELIGIOSOS" tvg-language="Turkish",Al Zahra TV Turkic
 #EXTVLCOPT:network-caching=5000
 https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_480p/chunks.m3u8
 
@@ -250,7 +250,7 @@ https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="51" tvg-name="Ezgi TV" group-title="REGIONAIS" tvg-language="Turkish",Ezgi TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/Ezgi-TV.svg" tvg-chno="51" tvg-name="Ezgi TV" group-title="REGIONAIS" tvg-language="Turkish",Ezgi TV
 #EXTVLCOPT:network-caching=5000
 https://live.euromediacenter.com/ezgitv/index.m3u8
 
@@ -275,7 +275,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2e
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="GrandCinema.tr" tvg-chno="56" tvg-name="Grand Cinema" group-title="FILMES E SÉRIES" tvg-language="Turkish",Grand Cinema
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/056-Grand-Cinema.svg" tvg-id="GrandCinema.tr" tvg-chno="56" tvg-name="Grand Cinema" group-title="FILMES E SÉRIES" tvg-language="Turkish",Grand Cinema
 #EXTVLCOPT:network-caching=5000
 https://gcinemahls.wns.live/hls/stream.m3u8
 
@@ -854,7 +854,7 @@ https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/chunks_dvr.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="173" tvg-name="Balkan Türk" group-title="INTERNACIONAIS" tvg-language="Turkish",Balkan Türk
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/Balkan-Turk.svg" tvg-chno="173" tvg-name="Balkan Türk" group-title="INTERNACIONAIS" tvg-language="Turkish",Balkan Türk
 #EXTVLCOPT:network-caching=5000
 https://live.euromediacenter.com/balkanturktv/index.m3u8
 
@@ -956,7 +956,7 @@ https://yayin.santraltr.com/hls/dost.m3u8
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/chunklist_w1608519565_b878000_slita.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="INTVAustralia.au@SD" tvg-chno="195" group-title="INTERNACIONAIS" tvg-name="INTV Australia" tvg-language="Turkish",INTV Australia
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/195-INTV-Australia.png" tvg-id="INTVAustralia.au@SD" tvg-chno="195" group-title="INTERNACIONAIS" tvg-name="INTV Australia" tvg-language="Turkish",INTV Australia
 #EXTVLCOPT:network-caching=5000
 http://tv1.intv.mk:1935/live/intv/index.m3u8
 
