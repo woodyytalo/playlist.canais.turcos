@@ -61,6 +61,7 @@ def programme_is_turkish(programme):
 
 def playlist_records(path):
     records = []
+    id_counts = {}
     for line in Path(path).read_text(encoding='utf-8').splitlines():
         if not line.startswith('#EXTINF:'):
             continue
@@ -71,12 +72,12 @@ def playlist_records(path):
         names = {clean_name(name), clean_name(display)}
         names.discard('')
         channel_id = a.get('tvg-id') or clean_name(name) + '.local'
+        id_counts[channel_id] = id_counts.get(channel_id, 0) + 1
+        if id_counts[channel_id] > 1:
+            channel_id = f'{channel_id}.duplicate{id_counts[channel_id]}'
         records.append((channel_id, name, names, a.get('tvg-logo', ''), a.get('group-title', '')))
     if not records:
         raise SystemExit('Nenhum canal #EXTINF encontrado na playlist.')
-    ids = [r[0] for r in records]
-    if len(ids) != len(set(ids)):
-        raise SystemExit('Há tvg-id duplicado na playlist; sincronização cancelada.')
     return records
 
 def main():
@@ -123,22 +124,21 @@ def main():
 
     output = ET.Element('tv', root_attrs)
     output.set('generator-info-name', 'Playlist Turquia XMLTV - Open-EPG + EPGShare + FreeEPG + fontes adicionais')
-    source_to_playlist, used, matched = {}, set(), set()
+    source_to_playlist, matched = {}, set()
 
     for channel_id, name, aliases, logo, category in records:
         candidates = [k for k in id_index.get(clean_name(channel_id), [])
-                      if counts.get(k, 0) > 0 and k not in used]
+                      if counts.get(k, 0) > 0]
         if not candidates:
             verified_aliases = aliases | MANUAL_ALIASES.get(clean_name(name), set())
             for alias in verified_aliases:
                 candidates.extend(k for k in name_index.get(alias, [])
-                                  if counts.get(k, 0) > 0 and k not in used)
+                                  if counts.get(k, 0) > 0)
         # Nunca associa uma programação por semelhança parcial: só ID/nome normalizado exato.
         source_key = max(set(candidates), key=lambda k: counts.get(k, 0)) if candidates else None
 
         if source_key:
-            used.add(source_key)
-            source_to_playlist[source_key] = channel_id
+            source_to_playlist.setdefault(source_key, []).append(channel_id)
             matched.add(channel_id)
             node = copy.deepcopy(source_channels[source_key])
             node.set('id', channel_id)
@@ -163,18 +163,17 @@ def main():
 
     copied, seen = 0, set()
     for source_key, programme in source_programmes:
-        target = source_to_playlist.get(source_key)
-        if not target:
-            continue
-        dedupe = (target, programme.get('start'), programme.get('stop'),
-                  ''.join(x.text or '' for x in programme.findall('title')))
-        if dedupe in seen:
-            continue
-        seen.add(dedupe)
-        node = copy.deepcopy(programme)
-        node.set('channel', target)
-        output.append(node)
-        copied += 1
+        targets = source_to_playlist.get(source_key, [])
+        for target in targets:
+            dedupe = (target, programme.get('start'), programme.get('stop'),
+                      ''.join(x.text or '' for x in programme.findall('title')))
+            if dedupe in seen:
+                continue
+            seen.add(dedupe)
+            node = copy.deepcopy(programme)
+            node.set('channel', target)
+            output.append(node)
+            copied += 1
 
     if copied == 0:
         raise SystemExit('Nenhum programa real associado; saída não publicada.')
