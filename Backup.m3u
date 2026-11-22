@@ -11625,3 +11625,9 @@ https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8?checkedby:iptvcat.net
 https://tv-trtspor2.medya.trt.com.tr/master.m3u8?checkedby:iptvcat.net
 
 # Lista complementar: Roblabs-Teknoloji/iptv (entradas sem URL duplicada)
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",Flash Haber TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",Minika Cocuk (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",TJK TV (1080p)
+https://tjktv-live.tjk.org/tjktv.m3u8?checkedby:iptvcat.net
