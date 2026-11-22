@@ -20984,7 +20984,7 @@ https://vavoo.to/vavoo-iptv/play/18867436247890d4c5bd71
 
 
 
-#EXTINF:-1 tvg-name="Tv8 group-title="TV8",5" group-title="TV8", Tv8,5
+#EXTINF:-1 tvg-name="Tv8,5" group-title="TV8", Tv8,5
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tv85canli-hd
 
