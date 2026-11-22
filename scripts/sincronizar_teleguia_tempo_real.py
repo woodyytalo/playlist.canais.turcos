@@ -31,6 +31,34 @@ def clean_name(value):
     value = value.casefold().replace('&', ' and ')
     return re.sub(r'[^a-z0-9]+', '', value)
 
+def is_turkish_lang(value):
+    """Aceita códigos XMLTV explícitos de turco; idioma ausente é tratado pelas validações de texto."""
+    lang = (value or '').strip().replace('_', '-').casefold()
+    return not lang or lang == 'tr' or lang == 'tur' or lang.startswith('tr-')
+
+def has_non_turkish_script(value):
+    """Detecta sistemas de escrita incompatíveis com a programação turca em alfabeto latino."""
+    for char in value or '':
+        code = ord(char)
+        if (0x3040 <= code <= 0x30FF or 0x3400 <= code <= 0x9FFF or
+            0xAC00 <= code <= 0xD7AF or 0x0400 <= code <= 0x052F or
+            0x0600 <= code <= 0x06FF or 0x0370 <= code <= 0x03FF):
+            return True
+    return False
+
+def programme_is_turkish(programme):
+    # Não publica programas com idioma explicitamente diferente de turco
+    # nem títulos/descrições escritos em japonês, chinês, coreano, cirílico,
+    # árabe ou grego. Fontes usadas pelo workflow são específicas da Turquia.
+    text_nodes = [node for node in programme.iter()
+                  if node is not programme and (node.text or '').strip()]
+    for node in text_nodes:
+        if not is_turkish_lang(node.get('lang')):
+            return False
+        if has_non_turkish_script(node.text):
+            return False
+    return True
+
 def playlist_records(path):
     records = []
     for line in Path(path).read_text(encoding='utf-8').splitlines():
@@ -75,6 +103,8 @@ def main():
                 source_channels[key] = channel
         for programme in root.findall('programme'):
             source_key = (source_path, programme.get('channel'))
+            if not programme_is_turkish(programme):
+                continue
             source_programmes.append((source_key, programme))
             counts[source_key] = counts.get(source_key, 0) + 1
 
