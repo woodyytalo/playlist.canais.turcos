@@ -235,7 +235,7 @@ https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
 #EXTINF:-1 tvg-chno="105" tvg-id="NOW.tr@SD" tvg-name="NOW" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/105-NOW.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",NOW
 #EXTVLCOPT:network-caching=5000
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 
 #FREQUÊNCIA: Türksat 3A: 12729 V, SR 30000, FEC 3/4
 #EXTINF:-1 tvg-chno="119" tvg-id="8xihgna8cyvdnyd" tvg-name="Show Max" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/119-Show-Max.png" group-title="ENTRETENIMENTO" tvg-language="Turkish",Show Max
