@@ -142,6 +142,13 @@ def main():
             matched.add(channel_id)
             node = copy.deepcopy(source_channels[source_key])
             node.set('id', channel_id)
+            # Remove nomes/categorias alternativos identificados como outro idioma.
+            for child in list(node):
+                if child.tag in ('display-name', 'category') and (
+                    not is_turkish_lang(child.get('lang')) or
+                    has_non_turkish_script(child.text or '')
+                ):
+                    node.remove(child)
         else:
             node = ET.Element('channel', {'id': channel_id})
 
