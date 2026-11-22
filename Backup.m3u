@@ -573,7 +573,7 @@ https://5be5d840359c6.streamlock.net/afyonturktv/afyonturktv/playlist.m3u8
 
 # ===== CATEGORIA: Agro TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="AgroTV.tr" TV" group-title="Agro TV",Agro TV (1080p)
+#EXTINF:-1 tvg-id="AgroTV.tr" TV" group-title="AGRO TV",Agro TV (1080p)
 #EXTVLCOPT:network-caching=60000
 https://yayin30.haber100.com/live/agrotv/playlist.m3u8
 
@@ -704,7 +704,7 @@ http://akittv-live.ercdn.net/akittv/akittv.m3u8
 
 # ===== CATEGORIA: Akıllı Tv (1 canais) =====
 
-#EXTINF:-1 tvg-name="Akıllı Tv" group-title="Akıllı Tv",Akıllı Tv
+#EXTINF:-1 tvg-name="Akıllı Tv" group-title="AKILLI TV",Akıllı Tv
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/akilli-tv
 
@@ -2133,7 +2133,7 @@ https://vavoo.to/vavoo-iptv/play/9008513956c6b4eb4e05
 
 # ===== CATEGORIA: Av Tv (1 canais) =====
 
-#EXTINF:-1 tvg-name="Av Tv" group-title="Av Tv",Av Tv
+#EXTINF:-1 tvg-name="Av Tv" group-title="AV TV",Av Tv
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/av-tv
 
@@ -2190,19 +2190,19 @@ https://vavoo.to/vavoo-iptv/play/40965694547a9def110e6c
 
 # ===== CATEGORIA: Baby TV (3 canais) =====
 
-#EXTINF:-1 tvg-id="BABY.TV.tr" tvg-name="Baby TV" tvg-logo="https://i.imgur.com/02kCsqR.png" group-title="Baby TV",Baby TV
+#EXTINF:-1 tvg-id="BABY.TV.tr" tvg-name="Baby TV" tvg-logo="https://i.imgur.com/02kCsqR.png" group-title="BABY TV",Baby TV
 #EXTVLCOPT:network-caching=60000
 https://saran-live.ercdn.net/babytv/index.m3u8#all
 
 
 
-#EXTINF:-1 tvg-id="BABY.TV.tr" tvg-name="Baby TV" tvg-logo="https://i.imgur.com/02kCsqR.png" group-title="Baby TV",Baby TV
+#EXTINF:-1 tvg-id="BABY.TV.tr" tvg-name="Baby TV" tvg-logo="https://i.imgur.com/02kCsqR.png" group-title="BABY TV",Baby TV
 #EXTVLCOPT:network-caching=60000
 https://saran-live.ercdn.net/babytv/index.m3u8#top50
 
 
 
-#EXTINF:-1 tvg-id="BABY.TV.tr" tvg-name="Baby TV" tvg-logo="https://i.imgur.com/02kCsqR.png" group-title="Baby TV",Baby TV
+#EXTINF:-1 tvg-id="BABY.TV.tr" tvg-name="Baby TV" tvg-logo="https://i.imgur.com/02kCsqR.png" group-title="BABY TV",Baby TV
 #EXTVLCOPT:network-caching=60000
 https://saran-live.ercdn.net/babytv/index.m3u8
 
@@ -3114,7 +3114,7 @@ http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/aea0339c-be03-459b-9bec-8500e7b
 
 # ===== CATEGORIA: Beykent TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="BeykentTV.tr" TV" group-title="Beykent TV",Beykent TV (720p)
+#EXTINF:-1 tvg-id="BeykentTV.tr" TV" group-title="BEYKENT TV",Beykent TV (720p)
 #EXTVLCOPT:network-caching=60000
 https://yayin30.haber100.com/live/beykenttv/playlist.m3u8
 
@@ -3287,7 +3287,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/bizimev-t
 
 # ===== CATEGORIA: Bizimev TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="BizimevTV.tr" group-title="Bizimev TV",Bizimev TV (720p)
+#EXTINF:-1 tvg-id="BizimevTV.tr" group-title="Bizimev Tv",Bizimev TV (720p)
 #EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_bizimev/bizimev_sd.smil/playlist.m3u8
 
@@ -3732,7 +3732,7 @@ https://live.euromediacenter.com/on6tvyayin/index.m3u8
 
 # ===== CATEGORIA: Bursa Tv (1 canais) =====
 
-#EXTINF:-1 tvg-name="Bursa Tv" Tv" group-title="Bursa Tv",Bursa Tv
+#EXTINF:-1 tvg-name="Bursa Tv" Tv" group-title="Bursa TV",Bursa Tv
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/bursa-tv
 
@@ -3822,13 +3822,13 @@ https://vavoo.to/vavoo-iptv/play/24628387059d91397376ea
 
 # ===== CATEGORIA: Can TV (2 canais) =====
 
-#EXTINF:-1 tvg-id="CanTV.tr@SD" tvg-logo="https://i.imgur.com/oIMtuwB.png" TV" group-title="Can TV",Can TV (720p)
+#EXTINF:-1 tvg-id="CanTV.tr@SD" tvg-logo="https://i.imgur.com/oIMtuwB.png" TV" group-title="CAN TV",Can TV (720p)
 #EXTVLCOPT:network-caching=60000
 https://livetv.canbroadcast.com:7443/canlican/tv.m3u8
 
 
 
-#EXTINF:-1 tvg-id="CanTV.tr" TV" group-title="Can TV",Can TV (720p)
+#EXTINF:-1 tvg-id="CanTV.tr" TV" group-title="CAN TV",Can TV (720p)
 #EXTVLCOPT:network-caching=60000
 http://canbroadcast.com:7000/canlican/tv.m3u8
 
@@ -4894,7 +4894,7 @@ https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/chunks.m3u8
 
 # ===== CATEGORIA: DİM TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="DimTV.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/034-Dim-TV-d9d3b880e6.png" TV" group-title="DİM TV",DİM TV (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="DimTV.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/034-Dim-TV-d9d3b880e6.png" TV" group-title="Dim TV",DİM TV (720p) [Geo-blocked]
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 
@@ -5642,7 +5642,7 @@ https://amg01796-amg01796c2-rakuten-uk-3887.playouts.now.amagi.tv/playlist/amg01
 
 # ===== CATEGORIA: DRT Denizli (1 canais) =====
 
-#EXTINF:-1 tvg-id="DRTDenizli.tr" Denizli" group-title="DRT Denizli",DRT Denizli (720p)
+#EXTINF:-1 tvg-id="DRTDenizli.tr" Denizli" group-title="DRT DENİZLİ",DRT Denizli (720p)
 #EXTVLCOPT:network-caching=60000
 https://edge1.socialsmart.tv/drttv/bant1/playlist.m3u8
 
@@ -5842,7 +5842,7 @@ https://vavoo.to/vavoo-iptv/play/658726604ae88a8e690ef
 
 # ===== CATEGORIA: Edirne Tv (1 canais) =====
 
-#EXTINF:-1 tvg-name="Edirne Tv" Tv" group-title="Edirne Tv",Edirne Tv
+#EXTINF:-1 tvg-name="Edirne Tv" Tv" group-title="EDİRNE TV",Edirne Tv
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/edirne-tv
 
@@ -6003,13 +6003,13 @@ https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 
 # ===== CATEGORIA: EKOL SPORTS (2 canais) =====
 
-#EXTINF:-1 tvg-name="EKOL SPORTS HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/180-Ekol-Sports-41a2c0523e.png" group-title="EKOL SPORTS",EKOL SPORTS HD
+#EXTINF:-1 tvg-name="EKOL SPORTS HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/180-Ekol-Sports-41a2c0523e.png" group-title="Ekol Sports",EKOL SPORTS HD
 #EXTVLCOPT:network-caching=60000
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/991447ed-cf07-4305-8b28-e2d424f94eea.m3u
 
 
 
-#EXTINF:-1 tvg-name="EKOL SPORTS UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/180-Ekol-Sports-41a2c0523e.png" group-title="EKOL SPORTS",EKOL SPORTS UHD
+#EXTINF:-1 tvg-name="EKOL SPORTS UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/180-Ekol-Sports-41a2c0523e.png" group-title="Ekol Sports",EKOL SPORTS UHD
 #EXTVLCOPT:network-caching=60000
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/50a490b1-89f8-4700-bf58-a969aaaedbd0.m3u
 
@@ -6065,13 +6065,13 @@ https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8#top50
 
 # ===== CATEGORIA: EKOL TV (2 canais) =====
 
-#EXTINF:-1 tvg-name="EKOL TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/171-Ekol-TV-c67310c229.png" TV" group-title="EKOL TV",EKOL TV HD
+#EXTINF:-1 tvg-name="EKOL TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/171-Ekol-TV-c67310c229.png" TV" group-title="Ekol TV",EKOL TV HD
 #EXTVLCOPT:network-caching=60000
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/d70b9106-b43e-4821-be70-7ef8e1faf062.m3u
 
 
 
-#EXTINF:-1 tvg-name="EKOL TV SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/171-Ekol-TV-c67310c229.png" group-title="EKOL TV",EKOL TV SD
+#EXTINF:-1 tvg-name="EKOL TV SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/171-Ekol-TV-c67310c229.png" group-title="Ekol TV",EKOL TV SD
 #EXTVLCOPT:network-caching=60000
 https://vavoo.to/vavoo-iptv/play/3549408298cd9c66d628e9
 
@@ -6239,7 +6239,7 @@ https://vavoo.to/vavoo-iptv/play/6782616930c5115ad7507
 
 # ===== CATEGORIA: Er TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="ERTV.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ER-TV-Malatya-df3219d403.svg" TV" group-title="Er TV",Er TV (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="ERTV.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/ER-TV-Malatya-df3219d403.svg" TV" group-title="ER TV",Er TV (1080p) [Geo-blocked]
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
 
@@ -6593,7 +6593,7 @@ https://mn-nl.mncdn.com/blutv_eurostar2/live.m3u8
 
 # ===== CATEGORIA: EUROSTAR (1 canais) =====
 
-#EXTINF:-1 tvg-name="EUROSTAR" tvg-logo="https://logo.huhu.to/logo?c=2147614081.png" group-title="EUROSTAR",EUROSTAR
+#EXTINF:-1 tvg-name="EUROSTAR" tvg-logo="https://logo.huhu.to/logo?c=2147614081.png" group-title="EuroStar",EUROSTAR
 #EXTVLCOPT:network-caching=60000
 https://vavoo.to/vavoo-iptv/play/21476140819198063bb491
 
@@ -6809,7 +6809,7 @@ http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/8aed2177-21b6-41bc-93d2-87700e1
 
 # ===== CATEGORIA: Fil Tv (1 canais) =====
 
-#EXTINF:-1 tvg-name="Fil Tv" Tv" group-title="Fil Tv",Fil Tv
+#EXTINF:-1 tvg-name="Fil Tv" Tv" group-title="FİL TV",Fil Tv
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/fil-tv
 
@@ -7049,13 +7049,13 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c05
 
 # ===== CATEGORIA: Flash TV (2 canais) =====
 
-#EXTINF:-1 tvg-id="FlashTV.tr" tvg-name="Flash TV" tvg-logo="https://i.ibb.co/8cP5NzX/flash-haber.png" group-title="Flash TV",Flash TV
+#EXTINF:-1 tvg-id="FlashTV.tr" tvg-name="Flash TV" tvg-logo="https://i.ibb.co/8cP5NzX/flash-haber.png" group-title="FLASH TV",Flash TV
 #EXTVLCOPT:network-caching=60000
 https://ythls.kekikakademi.org/youtube/channel/UCNcjCb2RnA3eMMhTZSxZu3A.m3u8
 
 
 
-#EXTINF:-1 tvg-id="FlashTV.tr@SD" tvg-logo="https://i.imgur.com/L0NHKBM.png" group-title="Flash TV",Flash TV (720p)
+#EXTINF:-1 tvg-id="FlashTV.tr@SD" tvg-logo="https://i.imgur.com/L0NHKBM.png" group-title="FLASH TV",Flash TV (720p)
 #EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_flashtv/live.m3u8
 
@@ -7849,7 +7849,7 @@ https://vavoo.to/vavoo-iptv/play/1224377838995614ed0843
 
 # ===== CATEGORIA: Gonca TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="GoncaTV.tr" TV" group-title="Gonca TV",Gonca TV (720p)
+#EXTINF:-1 tvg-id="GoncaTV.tr" TV" group-title="GONCA TV",Gonca TV (720p)
 #EXTVLCOPT:network-caching=60000
 https://edge1.socialsmart.tv/goncatv/bant1/playlist.m3u8
 
@@ -7925,7 +7925,7 @@ https://vavoo.to/vavoo-iptv/play/257753427816f6887294b8
 
 # ===== CATEGORIA: GS Tv (1 canais) =====
 
-#EXTINF:-1 tvg-name="GS Tv" Tv" group-title="GS Tv",GS Tv
+#EXTINF:-1 tvg-name="GS Tv" Tv" group-title="GS TV",GS Tv
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/gs-tv
 
@@ -8037,7 +8037,7 @@ http://cdn-gurbet24.yayin.com.tr/gurbet24/gurbet24/playlist.m3u8
 
 # ===== CATEGORIA: GURBET 24 TV (1 canais) =====
 
-#EXTINF:-1 tvg-name="GURBET 24 TV" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" 24 TV" group-title="GURBET 24 TV",GURBET 24 TV
+#EXTINF:-1 tvg-name="GURBET 24 TV" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" 24 TV" group-title="Gurbet 24 TV",GURBET 24 TV
 #EXTVLCOPT:network-caching=60000
 http://cdn1-gurbet24.yayin.com.tr/gurbet24/ngrp:gurbet24/playlist.m3u8
 
@@ -8473,25 +8473,25 @@ https://halktv-live.daioncdn.net/halktv/halktv_720p.m3u8
 
 # ===== CATEGORIA: HALK TV (4 canais) =====
 
-#EXTINF:-1 tvg-name="HALK TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="HALK TV",HALK TV HD
+#EXTINF:-1 tvg-name="HALK TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="Halk TV",HALK TV HD
 #EXTVLCOPT:network-caching=60000
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/68223531-ab0e-4079-b809-4608c1b9a2a5.m3u
 
 
 
-#EXTINF:-1 tvg-name="HALK TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="HALK TV",HALK TV HD
+#EXTINF:-1 tvg-name="HALK TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="Halk TV",HALK TV HD
 #EXTVLCOPT:network-caching=60000
 https://vavoo.to/vavoo-iptv/play/17719991006aa1a0ebf68a
 
 
 
-#EXTINF:-1 tvg-name="HALK TV SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="HALK TV",HALK TV SD
+#EXTINF:-1 tvg-name="HALK TV SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="Halk TV",HALK TV SD
 #EXTVLCOPT:network-caching=60000
 https://vavoo.to/vavoo-iptv/play/9403684fc992fae119e
 
 
 
-#EXTINF:-1 tvg-name="HALK TV UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="HALK TV",HALK TV UHD
+#EXTINF:-1 tvg-name="HALK TV UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="Halk TV",HALK TV UHD
 #EXTVLCOPT:network-caching=60000
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/af351190-a379-4283-a52c-32e704f87ccd.m3u
 
@@ -8699,7 +8699,7 @@ http://stream.tvcdn.net/yerel/hrt-akdeniz.m3u8
 
 # ===== CATEGORIA: HT Spor (1 canais) =====
 
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/B3IWp1Ke7InBdWs0z8dkXpRlg4J6lQ0ETi8hbMQ64w3uh9RfHTOtU6K7_uLYRbIoA6NteY9a=s900-c-k-c0x00ffffff-no-rj" group-title="HT Spor",HT Spor
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/B3IWp1Ke7InBdWs0z8dkXpRlg4J6lQ0ETi8hbMQ64w3uh9RfHTOtU6K7_uLYRbIoA6NteY9a=s900-c-k-c0x00ffffff-no-rj" group-title="HT SPOR",HT Spor
 #EXTVLCOPT:network-caching=60000
 https://ciner-live.daioncdn.net/ht-spor/ht-spor_1080p.m3u8
 
@@ -9458,13 +9458,13 @@ https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 
 # ===== CATEGORIA: KANAL 26 (2 canais) =====
 
-#EXTINF:-1 tvg-name="KANAL 26" tvg-logo="https://logo.huhu.to/logo?c=3740752511.png" 26" group-title="KANAL 26",KANAL 26
+#EXTINF:-1 tvg-name="KANAL 26" tvg-logo="https://logo.huhu.to/logo?c=3740752511.png" 26" group-title="Kanal 26",KANAL 26
 #EXTVLCOPT:network-caching=60000
 https://vavoo.to/vavoo-iptv/play/3740752511c05619e34353
 
 
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-26-Eski-ehir-883f7baa43.svg" 26" group-title="KANAL 26",KANAL 26
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-26-Eski-ehir-883f7baa43.svg" 26" group-title="Kanal 26",KANAL 26
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/chunks.m3u8
 
@@ -10024,7 +10024,7 @@ http://51.15.2.151/hls/kanalavrupa.m3u8
 
 # ===== CATEGORIA: KANAL AVRUPA (1 canais) =====
 
-#EXTINF:-1 tvg-name="KANAL AVRUPA HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/082-Kanal-Avrupa-b771c1239b.png" AVRUPA" group-title="KANAL AVRUPA",KANAL AVRUPA HD
+#EXTINF:-1 tvg-name="KANAL AVRUPA HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/082-Kanal-Avrupa-b771c1239b.png" AVRUPA" group-title="Kanal Avrupa",KANAL AVRUPA HD
 #EXTVLCOPT:network-caching=60000
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/9086d042-e5d1-4782-9ac2-fdc7401ade0b.m3u
 
@@ -10367,7 +10367,7 @@ https://vavoo.to/vavoo-iptv/play/7440218437e242db07f3d
 
 # ===== CATEGORIA: Kanal Fırat (1 canais) =====
 
-#EXTINF:-1 tvg-chno="86" tvg-name="Kanal Fırat" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/086-Kanal-F-rat-d240f1ec8f.png" Fırat" group-title="Kanal Fırat",Kanal Fırat
+#EXTINF:-1 tvg-chno="86" tvg-name="Kanal Fırat" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/086-Kanal-F-rat-d240f1ec8f.png" Fırat" group-title="KANAL FIRAT",Kanal Fırat
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8#all
 
@@ -10377,7 +10377,7 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 
 # ===== CATEGORIA: Kanal Hayat (1 canais) =====
 
-#EXTINF:-1 tvg-id="KanalHayat.tr" Hayat" group-title="Kanal Hayat",Kanal Hayat (1080p)
+#EXTINF:-1 tvg-id="KanalHayat.tr" Hayat" group-title="KANAL HAYAT",Kanal Hayat (1080p)
 #EXTVLCOPT:network-caching=60000
 https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
 
@@ -10422,7 +10422,7 @@ https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.
 
 # ===== CATEGORIA: Kanal S (1 canais) =====
 
-#EXTINF:-1 tvg-id="KanalS.tr" S" group-title="Kanal S",Kanal S (720p)
+#EXTINF:-1 tvg-id="KanalS.tr" S" group-title="KANAL S",Kanal S (720p)
 #EXTVLCOPT:network-caching=60000
 https://cdn-kanals.yayin.com.tr/kanals/kanals/playlist.m3u8
 
@@ -10526,7 +10526,7 @@ https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8#all
 
 # ===== CATEGORIA: Kanal Z (1 canais) =====
 
-#EXTINF:-1 tvg-id="KanalZ.tr" Z" group-title="Kanal Z",Kanal Z (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="KanalZ.tr" Z" group-title="KANAL Z",Kanal Z (1080p) [Geo-blocked]
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_kanalz/kanalz/playlist.m3u8
 
@@ -10996,7 +10996,7 @@ https://live.tvkomala.com/live/komala/chunks.m3u8
 
 # ===== CATEGORIA: Kon Tv (1 canais) =====
 
-#EXTINF:-1 tvg-name="Kon Tv" Tv" group-title="Kon Tv",Kon Tv
+#EXTINF:-1 tvg-name="Kon Tv" Tv" group-title="KON TV",Kon Tv
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kon-tv
 
@@ -11005,7 +11005,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/kon-tv
 
 # ===== CATEGORIA: Kon TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="KonTV.tr" TV" group-title="Kon TV",Kon TV (720p)
+#EXTINF:-1 tvg-id="KonTV.tr" TV" group-title="KON TV",Kon TV (720p)
 #EXTVLCOPT:network-caching=60000
 https://mn-nl.mncdn.com/blutv_kontv2/live.m3u8
 
@@ -11103,7 +11103,7 @@ http://185.234.111.229:8000/play/a05v
 
 # ===== CATEGORIA: Köy Tv (1 canais) =====
 
-#EXTINF:-1 tvg-name="Köy Tv" Tv" group-title="Köy Tv",Köy Tv
+#EXTINF:-1 tvg-name="Köy Tv" Tv" group-title="KÖY TV",Köy Tv
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/koy-tv
 
@@ -11322,7 +11322,7 @@ https://vavoo.to/vavoo-iptv/play/14328530251177683d27e4
 
 # ===== CATEGORIA: KRT Tv (1 canais) =====
 
-#EXTINF:-1 tvg-name="KRT Tv" Tv" group-title="KRT Tv",KRT Tv
+#EXTINF:-1 tvg-name="KRT Tv" Tv" group-title="KRT TV",KRT Tv
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/krt-tv
 
@@ -11378,7 +11378,7 @@ https://vavoo.to/vavoo-iptv/play/211438405134cf6d8a4129
 
 # ===== CATEGORIA: Kudüs TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="KudusTV.tr" TV" group-title="Kudüs TV",Kudüs TV (480p) [Geo-blocked]
+#EXTINF:-1 tvg-id="KudusTV.tr" TV" group-title="KUDÜS TV",Kudüs TV (480p) [Geo-blocked]
 #EXTVLCOPT:network-caching=60000
 https://yayin.kudustv.com/981680400/kudustv/playlist.m3u8
 
@@ -11749,13 +11749,13 @@ https://vavoo.to/vavoo-iptv/play/1839766333cbe160b34439
 
 # ===== CATEGORIA: Love Nature (2 canais) =====
 
-#EXTINF:-1 tvg-id="dbd4aka7iu29rko" tvg-chno="189" tvg-name="Love Nature" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/189-Love-Nature-3cd5065bf1.png" group-title="Love Nature",LOVE NATURE
+#EXTINF:-1 tvg-id="dbd4aka7iu29rko" tvg-chno="189" tvg-name="Love Nature" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/189-Love-Nature-3cd5065bf1.png" group-title="LOVE NATURE",LOVE NATURE
 #EXTVLCOPT:network-caching=60000
 https://vavoo.to/vavoo-iptv/play/259380083927b83aced3e1
 
 
 
-#EXTINF:-1 tvg-name="Love Nature" tvg-chno="189" tvg-id="dbd4aka7iu29rko" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/189-Love-Nature-3cd5065bf1.png" group-title="Love Nature",Love Nature
+#EXTINF:-1 tvg-name="Love Nature" tvg-chno="189" tvg-id="dbd4aka7iu29rko" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/189-Love-Nature-3cd5065bf1.png" group-title="LOVE NATURE",Love Nature
 #EXTVLCOPT:network-caching=60000
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 
@@ -12340,7 +12340,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/meclis-tv
 
 # ===== CATEGORIA: Meclis TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="TBMM" tvg-logo="https://seeklogo.com/images/T/tbmm-logo-9FB0F2818C-seeklogo.com.png" TV" group-title="Meclis TV",Meclis TV
+#EXTINF:-1 tvg-id="TBMM" tvg-logo="https://seeklogo.com/images/T/tbmm-logo-9FB0F2818C-seeklogo.com.png" TV" group-title="Meclis Tv",Meclis TV
 #EXTVLCOPT:network-caching=60000
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
@@ -12609,7 +12609,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/milyon-tv
 
 # ===== CATEGORIA: Milyon TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="Muzik_MilyonTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60900db7866ac318488bc30f" TV" group-title="Milyon TV",Milyon TV
+#EXTINF:-1 tvg-id="Muzik_MilyonTV" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/60900db7866ac318488bc30f" TV" group-title="Milyon Tv",Milyon TV
 #EXTVLCOPT:network-caching=60000
 https://sosyoapp-live.cdnnew.com/sosyo/buraya-bir-isim-verin.m3u8
 
@@ -13257,7 +13257,7 @@ https://new.cache-stream.workers.dev/stream/UCQuaIes9sMK8Z0VAZsVsvxQ/live.m3u8
 
 # ===== CATEGORIA: Nora TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="NoraTV.tr" TV" group-title="Nora TV",Nora TV (1080p)
+#EXTINF:-1 tvg-id="NoraTV.tr" TV" group-title="NORA TV",Nora TV (1080p)
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_noratv/noratv/playlist.m3u8
 
@@ -14144,7 +14144,7 @@ https://vavoo.to/vavoo-iptv/play/133847174052c905356751
 
 # ===== CATEGORIA: On 6 (1 canais) =====
 
-#EXTINF:-1 tvg-id="On6.tr" 6" group-title="On 6",On 6 (1080p)
+#EXTINF:-1 tvg-id="On6.tr" 6" group-title="ON 6",On 6 (1080p)
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_kanal16/kanal16/playlist.m3u8
 
@@ -14225,7 +14225,7 @@ https://live.artidijitalmedya.com/artidijital_onstv/onstv/artidijital_onstv/play
 
 # ===== CATEGORIA: Ordu Bel TV (1 canais) =====
 
-#EXTINF:-1 tvg-name="Ordu Bel TV" tvg-logo="data:image/svg+xml;charset=utf-8 Bel TV" group-title="Ordu Bel TV",Ordu Bel TV
+#EXTINF:-1 tvg-name="Ordu Bel TV" tvg-logo="data:image/svg+xml;charset=utf-8 Bel TV" group-title="ORDU BEL TV",Ordu Bel TV
 #EXTVLCOPT:network-caching=60000
 https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8#all
 
@@ -14345,7 +14345,7 @@ https://live.feed.thepalmbeaches.tv/index.m3u8
 
 # ===== CATEGORIA: Pamukkale TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="PamukkaleTV.tr" TV" group-title="Pamukkale TV",Pamukkale TV (614p)
+#EXTINF:-1 tvg-id="PamukkaleTV.tr" TV" group-title="PAMUKKALE TV",Pamukkale TV (614p)
 #EXTVLCOPT:network-caching=60000
 http://ms1.sanlisoy.com:1935/pamukkaletv/pamukkaletv/playlist.m3u8
 
@@ -15233,7 +15233,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/rudaw-tv
 
 # ===== CATEGORIA: Rumeli TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="Rumeli TV.tr" tvg-logo="https://i.imgur.com/xpRPX3a.png" TV" group-title="Rumeli TV",Rumeli TV
+#EXTINF:-1 tvg-id="Rumeli TV.tr" tvg-logo="https://i.imgur.com/xpRPX3a.png" TV" group-title="RUMELİ TV",Rumeli TV
 #EXTVLCOPT:network-caching=60000
 http://185.234.111.229:8000/play/a023
 
@@ -15688,7 +15688,7 @@ https://vavoo.to/vavoo-iptv/play/237609064654251acc3bd9
 
 # ===== CATEGORIA: Sat 7 Türk (1 canais) =====
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/cKQIK4i.png" 7 Türk" group-title="Sat 7 Türk",Sat 7 Türk
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cKQIK4i.png" 7 Türk" group-title="SAT 7 TÜRK",Sat 7 Türk
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 
@@ -15734,7 +15734,7 @@ https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist.m3u8
 
 # ===== CATEGORIA: Satranç TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="BricveSatrancTV.tr" group-title="Satranç TV",Satranç TV (480p)
+#EXTINF:-1 tvg-id="BricveSatrancTV.tr" group-title="SATRANÇ TV",Satranç TV (480p)
 #EXTVLCOPT:network-caching=60000
 http://139.162.182.79/live/test/index.m3u8
 
@@ -17568,7 +17568,7 @@ https://vavoo.to/vavoo-iptv/play/3333865510ce3775d7abc0
 
 # ===== CATEGORIA: Tatlıses TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="Muzik_TatlisesTV" tvg-logo="https://canlitv.center/channels/tatlises-tv.png" group-title="Tatlıses TV",Tatlıses TV
+#EXTINF:-1 tvg-id="Muzik_TatlisesTV" tvg-logo="https://canlitv.center/channels/tatlises-tv.png" group-title="TATLISES TV",Tatlıses TV
 #EXTVLCOPT:network-caching=60000
 https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/playlist.m3u8
 
@@ -17657,7 +17657,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tek-rumel
 
 # ===== CATEGORIA: Tek Rumeli TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="TekRumeliTV.tr" Rumeli TV" group-title="Tek Rumeli TV",Tek Rumeli TV (576p)
+#EXTINF:-1 tvg-id="TekRumeliTV.tr" Rumeli TV" group-title="Tek Rumeli Tv",Tek Rumeli TV (576p)
 #EXTVLCOPT:network-caching=60000
 https://edge1.socialsmart.tv/tekrumelitv/bant1/playlist.m3u8
 
@@ -17899,7 +17899,7 @@ https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
 
 # ===== CATEGORIA: TEVE2 (1 canais) =====
 
-#EXTINF:-1 tvg-name="TEVE2 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/126-teve2-dec69e536a.png" group-title="TEVE2",TEVE2 HD
+#EXTINF:-1 tvg-name="TEVE2 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/126-teve2-dec69e536a.png" group-title="teve2",TEVE2 HD
 #EXTVLCOPT:network-caching=60000
 https://vavoo.to/vavoo-iptv/play/1917502631a9b6866e12b6
 
@@ -20442,7 +20442,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee2
 
 # ===== CATEGORIA: TV 264 Sakarya (1 canais) =====
 
-#EXTINF:-1 tvg-name="TV 264 Sakarya" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-264-e60d7f8e86.svg" group-title="TV 264 Sakarya",TV 264 Sakarya
+#EXTINF:-1 tvg-name="TV 264 Sakarya" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-264-e60d7f8e86.svg" group-title="TV 264 SAKARYA",TV 264 Sakarya
 #EXTVLCOPT:network-caching=60000
 https://mc1.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 
@@ -21303,7 +21303,7 @@ http://live.gostream.nl/armaholding/tvt/playlist.m3u8
 
 # ===== CATEGORIA: TYT Turk (1 canais) =====
 
-#EXTINF:-1 tvg-id="TYTTurk.tr" Turk" group-title="TYT Turk",TYT Turk
+#EXTINF:-1 tvg-id="TYTTurk.tr" Turk" group-title="TYT TURK",TYT Turk
 #EXTVLCOPT:network-caching=60000
 https://cdn-tytturk.yayin.com.tr/tytturk/index.m3u8
 
@@ -21348,7 +21348,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/ucankus-t
 
 # ===== CATEGORIA: UçanKuş TV (1 canais) =====
 
-#EXTINF:-1 tvg-id="UcanKusTV.tr" TV" group-title="UçanKuş TV",UçanKuş TV (720p)
+#EXTINF:-1 tvg-id="UcanKusTV.tr" TV" group-title="Uçankuş Tv",UçanKuş TV (720p)
 #EXTVLCOPT:network-caching=60000
 https://ucankus-live.cdnnew.com/ucankus/ucankus.m3u8
 
@@ -21523,23 +21523,23 @@ https://vavoo.to/vavoo-iptv/play/1868001587a3901abe7695
 
 # ===== CATEGORIA: Ulusal Kanal (4 canais) =====
 
-#EXTINF:-1 tvg-name="Ulusal Kanal" group-title="Ulusal Kanal",Ulusal Kanal
+#EXTINF:-1 tvg-name="Ulusal Kanal" group-title="ULUSAL KANAL",Ulusal Kanal
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/ulusal-kanal
 
 
-#EXTINF:-1 tvg-id="UlusalKanal.tr@SD" tvg-logo="https://i.imgur.com/EwSg612.png" group-title="Ulusal Kanal",Ulusal Kanal SD
+#EXTINF:-1 tvg-id="UlusalKanal.tr@SD" tvg-logo="https://i.imgur.com/EwSg612.png" group-title="ULUSAL KANAL",Ulusal Kanal SD
 #EXTVLCOPT:network-caching=60000
 https://stream.guventechnology.com:19360/ulusaltv/ulusaltv.m3u8
 
 
-#EXTINF:-1 tvg-id="Haber_UlusalKanal" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/603c1580866ac31704a99333" group-title="Ulusal Kanal",Ulusal Kanal
+#EXTINF:-1 tvg-id="Haber_UlusalKanal" tvg-logo="https://blutv-images.mncdn.com/q/t/i/bluv2/100/750x750/603c1580866ac31704a99333" group-title="ULUSAL KANAL",Ulusal Kanal
 #EXTVLCOPT:network-caching=60000
 https://ythls.kekikakademi.org/youtube/channel/UC6T0L26KS1NHMPbTwI1L4Eg.m3u8
 
 
 
-#EXTINF:-1 tvg-id="UlusalKanal.tr" tvg-name="Ulusal Kanal" tvg-logo="https://i.ibb.co/vvZss13/ulusal-tv.png" group-title="Ulusal Kanal",Ulusal Kanal
+#EXTINF:-1 tvg-id="UlusalKanal.tr" tvg-name="Ulusal Kanal" tvg-logo="https://i.ibb.co/vvZss13/ulusal-tv.png" group-title="ULUSAL KANAL",Ulusal Kanal
 #EXTVLCOPT:network-caching=60000
 https://internettv.guventechnology.com/hls/ulusaltv/index.m3u8
 
@@ -21762,7 +21762,7 @@ https://cdn1-vangolutv.yayin.com.tr/vangolutv/amlst:vangolutv/playlist.m3u8
 
 # ===== CATEGORIA: Vatan Tv (1 canais) =====
 
-#EXTINF:-1 tvg-name="Vatan Tv" Tv" group-title="Vatan Tv",Vatan Tv
+#EXTINF:-1 tvg-name="Vatan Tv" Tv" group-title="VATAN TV",Vatan Tv
 #EXTVLCOPT:network-caching=60000
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/vatan-tv
 
