@@ -545,7 +545,7 @@ https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-id="KocaeliTV.tr@SD" tvg-chno="91" tvg-name="Kocaeli TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/091-Kocaeli-TV.png" group-title="REGIONAIS" tvg-language="Turkish",Kocaeli TV
+#EXTINF:-1 tvg-id="KocaeliTV.tr@SD" tvg-chno="91" tvg-name="Kocaeli TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kocaeli-TV-ec27ae9b5d.svg" group-title="REGIONAIS" tvg-language="Turkish",Kocaeli TV
 #EXTVLCOPT:network-caching=5000
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 
@@ -555,7 +555,7 @@ https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/chunklist_w16313685.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/093-Konya-Olay-TV.png" tvg-id="KonyaOlayTV.tr@SD" tvg-chno="93" tvg-name="Konya Olay TV" group-title="REGIONAIS" tvg-language="Turkish",Konya Olay TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Konya-Olay-TV-346ee47b21.svg" tvg-id="KonyaOlayTV.tr@SD" tvg-chno="93" tvg-name="Konya Olay TV" group-title="REGIONAIS" tvg-language="Turkish",Konya Olay TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
 
