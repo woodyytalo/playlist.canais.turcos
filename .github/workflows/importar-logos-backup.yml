@@ -1,0 +1,119 @@
+name: Importar logos referenciadas no Backup
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Backup.m3u"
+      - ".github/workflows/importar-logos-backup.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Baixar todas as logos únicas do Backup.m3u
+        shell: bash
+        run: |
+          python - <<'PY'
+          import concurrent.futures
+          import hashlib
+          import re
+          import time
+          from pathlib import Path
+          from urllib.parse import urlparse, unquote
+          import requests
+
+          playlist = Path("Backup.m3u").read_text(encoding="utf-8", errors="replace")
+          urls = sorted(set(
+              u.strip() for u in re.findall(r'tvg-logo="([^"]*)"', playlist, flags=re.I)
+              if u.strip().startswith(("http://", "https://"))
+          ))
+          target = Path("logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS")
+          target.mkdir(parents=True, exist_ok=True)
+
+          def image_extension(data, content_type, url):
+              head = data[:1024].lstrip().lower()
+              if data.startswith(b"\x89PNG\r\n\x1a\n"): return ".png"
+              if data.startswith(b"\xff\xd8\xff"): return ".jpg"
+              if data.startswith((b"GIF87a", b"GIF89a")): return ".gif"
+              if data.startswith(b"RIFF") and data[8:12] == b"WEBP": return ".webp"
+              if data.startswith((b"BM",)): return ".bmp"
+              if b"<svg" in head or (head.startswith(b"<?xml") and b"<svg" in head):
+                  return ".svg"
+              ext = Path(unquote(urlparse(url).path)).suffix.lower()
+              if ext in {".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp", ".svg"}:
+                  # Só aceita extensão declarada se o conteúdo aparentar imagem.
+                  if content_type.lower().startswith("image/"):
+                      return ".jpg" if ext == ".jpeg" else ext
+              return None
+
+          def download(url):
+              digest = hashlib.sha256(url.encode("utf-8")).hexdigest()[:20]
+              for attempt in range(3):
+                  try:
+                      response = requests.get(
+                          url, timeout=(15, 35),
+                          headers={"User-Agent": "Mozilla/5.0 (compatible; PlaylistLogoArchive/1.0)"}
+                      )
+                      response.raise_for_status()
+                      data = response.content
+                      if not data or len(data) > 20 * 1024 * 1024:
+                          return ("skip", url, "arquivo vazio ou acima de 20 MB")
+                      ctype = response.headers.get("Content-Type", "")
+                      ext = image_extension(data, ctype, url)
+                      if not ext:
+                          return ("skip", url, "resposta não reconhecida como imagem")
+                      path = target / f"backup-{digest}{ext}"
+                      if path.exists():
+                          return ("exists", url, path.name)
+                      path.write_bytes(data)
+                      return ("saved", url, path.name)
+                  except Exception as exc:
+                      if attempt == 2:
+                          return ("error", url, str(exc)[:240])
+                      time.sleep(1.5 * (attempt + 1))
+
+          counts = {"saved": 0, "exists": 0, "skip": 0, "error": 0}
+          failures = []
+          with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:
+              for result in pool.map(download, urls):
+                  status, url, detail = result
+                  counts[status] += 1
+                  if status in ("skip", "error"):
+                      failures.append((url, detail))
+
+          print(f"URLs únicas no Backup.m3u: {len(urls)}")
+          print(f"Novas logos gravadas: {counts['saved']}")
+          print(f"Já existentes: {counts['exists']}")
+          print(f"Ignoradas: {counts['skip']}")
+          print(f"Falhas de download: {counts['error']}")
+          for url, reason in failures:
+              print(f"FALHA: {url} — {reason}")
+
+          if counts["saved"] == 0:
+              print("Nenhuma imagem nova foi adicionada.")
+          PY
+
+      - name: Publicar logos na pasta solicitada
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS/
+          if git diff --cached --quiet; then
+            echo "Nenhuma logo nova para publicar."
+            exit 0
+          fi
+          git commit -m "Adicionar logos referenciadas no Backup.m3u"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
