@@ -2,7 +2,7 @@ Relatório XMLTV — epg/guia-open-epg.xml
 Canais na playlist: 213
 Canais com programação real: 82
 Canais sem programação correspondente: 131
-Programas reais copiados: 9716
+Programas reais copiados: 9719
 
 CANAIS SEM PROGRAMAÇÃO:
 - 4U TV | ID: 4UTV.tr@SD | Categoria: ENTRETENIMENTO
