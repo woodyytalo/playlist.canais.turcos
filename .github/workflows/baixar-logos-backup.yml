@@ -130,16 +130,25 @@ jobs:
 
               if copies_written == 0:
                   raise SystemExit("Nenhuma logo pôde ser baixada; a pasta existente foi preservada.")
-              if destination.exists():
-                  shutil.rmtree(destination)
-              shutil.move(str(staging), str(destination))
+              destination.mkdir(parents=True, exist_ok=True)
+              added = 0
+              skipped = 0
+              for staged_file in staging.iterdir():
+                  target = destination / staged_file.name
+                  if target.exists():
+                      skipped += 1
+                      continue
+                  shutil.copy2(staged_file, target)
+                  added += 1
 
           summary = [
               "## Resultado da coleta de logos",
               f"- Canais na playlist: **{len(channels)}**",
               f"- Canais com URL de logo HTTP(S): **{len(with_logo)}**",
               f"- URLs únicas consultadas: **{len(unique_urls)}**",
-              f"- Arquivos de logo gravados: **{copies_written}**",
+              f"- Arquivos de logo baixados nesta execução: **{copies_written}**",
+              f"- Arquivos novos adicionados à pasta: **{added}**",
+              f"- Arquivos existentes preservados: **{skipped}**",
               f"- URLs que falharam: **{len(failures)}**",
               "- Numeração: posição do canal no Backup.m3u; canais sem logo mantêm seu número sem gerar arquivo.",
           ]
