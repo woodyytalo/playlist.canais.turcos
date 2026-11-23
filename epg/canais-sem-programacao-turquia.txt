@@ -2,7 +2,7 @@ Relatório XMLTV — epg/guia-turquia.xml
 Canais na playlist: 213
 Canais com programação real: 85
 Canais sem programação correspondente: 128
-Programas reais copiados: 9646
+Programas reais copiados: 6952
 
 CANAIS SEM PROGRAMAÇÃO:
 - Bloomberg HT 2 | ID: bloomberght2.local | Categoria: NOTÍCIAS
