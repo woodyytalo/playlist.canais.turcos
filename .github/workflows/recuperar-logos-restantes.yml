@@ -156,4 +156,5 @@ jobs:
           git add -- logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS
           if git diff --cached --quiet; then echo "Nenhum arquivo novo."; exit 0; fi
           git commit -m "Recuperar logos restantes do Backup"
+          git pull --rebase origin "github/workflows/atualizar-logos.yml"
           git push origin "HEAD:github/workflows/atualizar-logos.yml"
