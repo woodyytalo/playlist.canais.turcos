@@ -2,7 +2,7 @@ Relatório XMLTV — epg/guia-open-epg.xml
 Canais na playlist: 213
 Canais com programação real: 83
 Canais sem programação correspondente: 130
-Programas reais copiados: 9571
+Programas reais copiados: 9580
 
 CANAIS SEM PROGRAMAÇÃO:
 - Bloomberg HT 2 | ID: bloomberght2.local | Categoria: NOTÍCIAS
