@@ -45,7 +45,7 @@ jobs:
           destination = Path("logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS")
           text = playlist.read_text(encoding="utf-8-sig", errors="replace")
 
-          logo_re = re.compile(r'tvg-logo\\s*=\\s*"([^"]*)"', re.IGNORECASE)
+          logo_re = re.compile(r'tvg-logo\s*=\s*"([^"]*)"', re.IGNORECASE)
           channels = []
           for line in text.splitlines():
               if line.lstrip().startswith("#EXTINF"):
@@ -144,8 +144,8 @@ jobs:
               "- Numeração: posição do canal no Backup.m3u; canais sem logo mantêm seu número sem gerar arquivo.",
           ]
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as output:
-              output.write("\\n".join(summary) + "\\n")
-          print("\\n".join(summary))
+              output.write("\n".join(summary) + "\n")
+          print("\n".join(summary))
           PY
 
       - name: Publicar logos na pasta do catálogo
