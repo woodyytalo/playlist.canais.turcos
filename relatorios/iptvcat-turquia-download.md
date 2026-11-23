@@ -1,11 +1,11 @@
 # Relatório — IPTV Cat Turquia
 
 - Páginas consultadas: 2
-- URLs de download encontradas: 156
-- Entradas M3U válidas baixadas: 25
-- Entradas novas adicionadas ao Backup.m3u: 3
+- URLs de download encontradas: 158
+- Entradas M3U válidas baixadas: 24
+- Entradas novas adicionadas ao Backup.m3u: 2
 - Streams já existentes ignorados: 22
-- Downloads com falha: 130
+- Downloads com falha: 133
 
 ## Falhas
 - https://list.iptvcat.net/my_list/s/7edc831fffecb8fc809f145152cbde27.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/7edc831fffecb8fc809f145152cbde27.m3u8
@@ -29,6 +29,7 @@
 - https://list.iptvcat.net/my_list/s/cd71e4110c1237f2e418a61848749b54.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/cd71e4110c1237f2e418a61848749b54.m3u8
 - https://list.iptvcat.net/my_list/s/f2d6546c4ae7e345f461748da4bf5a8e.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/f2d6546c4ae7e345f461748da4bf5a8e.m3u8
 - https://list.iptvcat.net/my_list/s/3de2a817750d7e5b1f48942306f31b1b.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/3de2a817750d7e5b1f48942306f31b1b.m3u8
+- https://list.iptvcat.net/my_list/s/c16eb148a141eedbe87a4ee4da030990.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/c16eb148a141eedbe87a4ee4da030990.m3u8
 - https://list.iptvcat.net/my_list/s/1b5e82fe52cbc55019670c9ac26b8806.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/1b5e82fe52cbc55019670c9ac26b8806.m3u8
 - https://list.iptvcat.net/my_list/s/9e5e1959093977dd82bfeb89535ef075.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/9e5e1959093977dd82bfeb89535ef075.m3u8
 - https://list.iptvcat.net/my_list/s/7711740b6f05aa7f0ee9a1c3e6ceb2b8.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/7711740b6f05aa7f0ee9a1c3e6ceb2b8.m3u8
@@ -40,7 +41,6 @@
 - https://list.iptvcat.net/my_list/s/95b6202be3c7eca530aa065bea775e85.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/95b6202be3c7eca530aa065bea775e85.m3u8
 - https://list.iptvcat.net/my_list/s/f45871f24096bae9f84064b5dcedef87.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/f45871f24096bae9f84064b5dcedef87.m3u8
 - https://list.iptvcat.net/my_list/s/6bcbd453b5e8b20ab4ffbc3f1e8d0b45.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/6bcbd453b5e8b20ab4ffbc3f1e8d0b45.m3u8
-- https://list.iptvcat.net/my_list/s/7dccbe4cfa3f0fdfa78dff7decb3c8b7.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/7dccbe4cfa3f0fdfa78dff7decb3c8b7.m3u8
 - https://list.iptvcat.net/my_list/s/7b9889c6712b207cfd5b4d250ea2ec34.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/7b9889c6712b207cfd5b4d250ea2ec34.m3u8
 - https://list.iptvcat.net/my_list/s/bd4435fe22d3ed63c7379f157ea1499c.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/bd4435fe22d3ed63c7379f157ea1499c.m3u8
 - https://list.iptvcat.net/my_list/s/1c07788d4f5f54aaa803196a4302708b.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/1c07788d4f5f54aaa803196a4302708b.m3u8
@@ -70,6 +70,7 @@
 - https://list.iptvcat.net/my_list/s/7c57a8f896693240c3662f792028784e.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/7c57a8f896693240c3662f792028784e.m3u8
 - https://list.iptvcat.net/my_list/s/82d3b44b182a67fc520d953cfda30a58.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/82d3b44b182a67fc520d953cfda30a58.m3u8
 - https://list.iptvcat.net/my_list/s/e099fcd03e2fe2165710798d9f35fc67.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/e099fcd03e2fe2165710798d9f35fc67.m3u8
+- https://list.iptvcat.net/my_list/s/aa3b5e46cfe847e113dff9acab49d068.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/aa3b5e46cfe847e113dff9acab49d068.m3u8
 - https://list.iptvcat.net/my_list/s/ad1c2ce4c9a93b4cfa7605710ff83808.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/ad1c2ce4c9a93b4cfa7605710ff83808.m3u8
 - https://list.iptvcat.net/my_list/s/d5c4e77ed63036bd889880151b89b3e0.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/d5c4e77ed63036bd889880151b89b3e0.m3u8
 - https://list.iptvcat.net/my_list/s/88e0fed0108d3bbb1ecc5ba6cf76549b.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/88e0fed0108d3bbb1ecc5ba6cf76549b.m3u8
@@ -87,10 +88,9 @@
 - https://list.iptvcat.net/my_list/s/29c909cb98c153ad4af4ed1185ae359e.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/29c909cb98c153ad4af4ed1185ae359e.m3u8
 - https://list.iptvcat.net/my_list/s/623d51bba2a47a8194f2294bda01e383.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/623d51bba2a47a8194f2294bda01e383.m3u8
 - https://list.iptvcat.net/my_list/s/beb1c93bfc574b1b59ef3120bbacd7d2.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/beb1c93bfc574b1b59ef3120bbacd7d2.m3u8
-- https://list.iptvcat.net/my_list/s/f53c064046535d4e779c1ddee0076f5f.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/f53c064046535d4e779c1ddee0076f5f.m3u8
 - https://list.iptvcat.net/my_list/s/7d034308cf02a43bb124641991985a2c.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/7d034308cf02a43bb124641991985a2c.m3u8
-- https://list.iptvcat.net/my_list/s/1f429a3a568126a4e8e987e4a37f816e.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/1f429a3a568126a4e8e987e4a37f816e.m3u8
 - https://list.iptvcat.net/my_list/s/98c5674ad7448bbccede20d4e98ff113.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/98c5674ad7448bbccede20d4e98ff113.m3u8
+- https://list.iptvcat.net/my_list/s/1f429a3a568126a4e8e987e4a37f816e.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/1f429a3a568126a4e8e987e4a37f816e.m3u8
 - https://list.iptvcat.net/my_list/s/4585838536fb653a0c0127d37c1c4696.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/4585838536fb653a0c0127d37c1c4696.m3u8
 - https://list.iptvcat.net/my_list/s/8cb86fcb12c8789537c0842f2ffc9b53.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/8cb86fcb12c8789537c0842f2ffc9b53.m3u8
 - https://list.iptvcat.net/my_list/s/7e1556a176fba5cd8c1913aa28794610.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/7e1556a176fba5cd8c1913aa28794610.m3u8
@@ -106,7 +106,9 @@
 - https://list.iptvcat.net/my_list/s/5991fdfafbb5a59bb23599d34f0ae94d.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/5991fdfafbb5a59bb23599d34f0ae94d.m3u8
 - https://list.iptvcat.net/my_list/s/319d7db2ca2ac621213a5c79414442c6.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/319d7db2ca2ac621213a5c79414442c6.m3u8
 - https://list.iptvcat.net/my_list/s/3cf6514246d9aed1c5237691213636f8.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/3cf6514246d9aed1c5237691213636f8.m3u8
+- https://list.iptvcat.net/my_list/s/fb9aaa58d2b066a1e5fa3ce5adc27b5c.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/fb9aaa58d2b066a1e5fa3ce5adc27b5c.m3u8
 - https://list.iptvcat.net/my_list/s/82d7ed0cedb708fc9500252b8cdee44a.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/82d7ed0cedb708fc9500252b8cdee44a.m3u8
+- https://list.iptvcat.net/my_list/s/f15264866ad79d488dd7621d57b2a3cc.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/f15264866ad79d488dd7621d57b2a3cc.m3u8
 - https://list.iptvcat.net/my_list/s/be7ee0156630a22b7691bd5c8a390ec5.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/be7ee0156630a22b7691bd5c8a390ec5.m3u8
 - https://list.iptvcat.net/my_list/s/8774fa3caec4ab39f1297b518ca2f8fd.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/8774fa3caec4ab39f1297b518ca2f8fd.m3u8
 - https://list.iptvcat.net/my_list/s/72173248b639254fa7975445f650bf4c.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/72173248b639254fa7975445f650bf4c.m3u8
@@ -135,6 +137,7 @@
 - https://list.iptvcat.net/my_list/s/0a7cb09eac2c85f883d4ea13f546d5a7.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/0a7cb09eac2c85f883d4ea13f546d5a7.m3u8
 - https://list.iptvcat.net/my_list/s/0153922eccad42d72116f826906def03.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/0153922eccad42d72116f826906def03.m3u8
 - https://list.iptvcat.net/my_list/s/3337391a54e1fe048d039368b9a9ce6f.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/3337391a54e1fe048d039368b9a9ce6f.m3u8
+- https://list.iptvcat.net/my_list/s/20c646fa937efa6cc1c23c3377d6ca83.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/20c646fa937efa6cc1c23c3377d6ca83.m3u8
 - https://list.iptvcat.net/my_list/s/8fecad1cc86ba2357bc22f2a5f746641.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/8fecad1cc86ba2357bc22f2a5f746641.m3u8
 - https://list.iptvcat.net/my_list/s/b0dbd09da0c7139d83e6b136de55e1b9.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/b0dbd09da0c7139d83e6b136de55e1b9.m3u8
 - https://list.iptvcat.net/my_list/s/0dc9ed2ef8a3bb04715fa56c393106ac.m3u8: 429 Client Error: Too Many Requests for url: https://list.iptvcat.net/my_list/s/0dc9ed2ef8a3bb04715fa56c393106ac.m3u8
