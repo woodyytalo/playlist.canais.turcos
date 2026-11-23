@@ -7,6 +7,7 @@ on:
       - "github/workflows/atualizar-logos.yml"
     paths:
       - "Backup.m3u"
+      - ".github/workflows/recuperar-logos-restantes.yml"
 
 permissions:
   contents: write
@@ -49,7 +50,16 @@ jobs:
               return {k.lower():v for k,v in re.findall(r'([\w-]+)\s*=\s*"([^"]*)"',line)}
 
           def existing(i):
-              return next((p for p in BASE.glob(f"{i:04d}.*") if p.suffix.lower() in EXT),None)
+              for p in BASE.glob(f"{i:04d}.*"):
+                  if p.suffix.lower() not in EXT: continue
+                  try:
+                      head=p.read_bytes()[:4096].decode("utf-8",errors="ignore")
+                  except Exception:
+                      head=""
+                  if "LOGO INDISPONÍVEL" in head or "LOGO INDISPONIVEL" in head:
+                      continue
+                  return p
+              return None
 
           def fetch(url):
               last=None
@@ -124,8 +134,8 @@ jobs:
                       failed+=1
                       continue
                   p=BASE/f"{i:04d}{ext}"
-                  if not p.exists():
-                      p.write_bytes(data); added+=1
+                  p.write_bytes(data)
+                  added+=1
 
           numbered=sum(1 for e in entries if existing(e["i"]))
           summary=f"""## Recuperação adicional de logos
