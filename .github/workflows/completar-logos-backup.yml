@@ -1,0 +1,217 @@
+name: Completar logos do Backup.m3u
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Backup.m3u"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: completar-logos-backup
+  cancel-in-progress: false
+
+jobs:
+  completar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter repositório
+        uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
+
+      - name: Cruzar canais com catálogos públicos e baixar logos ausentes
+        id: logos
+        shell: bash
+        run: |
+          python - <<'PY'
+          import concurrent.futures
+          import json
+          import re
+          import time
+          import unicodedata
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+
+          BASE = Path("logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS")
+          UA = "Mozilla/5.0 (compatible; PlaylistLogoMatcher/1.0)"
+
+          def get(url, timeout=45):
+              req = Request(url, headers={"User-Agent": UA})
+              with urlopen(req, timeout=timeout) as response:
+                  return response.read(), response.headers.get("Content-Type", "").split(";", 1)[0].lower()
+
+          def norm(value):
+              value = unicodedata.normalize("NFKD", value or "")
+              value = "".join(c for c in value if not unicodedata.combining(c))
+              value = value.lower().replace("&", " and ")
+              value = re.sub(r"\[[^\]]*(geo.?blocked|not.?24.?7|1080p|720p|576p|480p|2160p)[^\]]*\]", " ", value, flags=re.I)
+              value = re.sub(r"\([^)]*(geo.?blocked|not.?24.?7|1080p|720p|576p|480p|2160p)[^)]*\)", " ", value, flags=re.I)
+              value = re.sub(r"\b(2160p|1440p|1080p|900p|720p|576p|540p|480p|360p|uhd|fhd|4k|hd|sd)\b$", " ", value.strip(), flags=re.I)
+              value = re.sub(r"[^a-z0-9]+", " ", value)
+              return " ".join(value.split())
+
+          def attrs(line):
+              return {k.lower(): v for k, v in re.findall(r'([\w-]+)\s*=\s*"([^"]*)"', line)}
+
+          entries = []
+          for line in Path("Backup.m3u").read_text(encoding="utf-8-sig", errors="replace").splitlines():
+              if line.lstrip().startswith("#EXTINF"):
+                  a = attrs(line)
+                  name = line.split(",", 1)[1].strip() if "," in line else a.get("tvg-name", "")
+                  entries.append({"index": len(entries) + 1, "name": name, "id": a.get("tvg-id", "").strip(), "country": a.get("tvg-country", "").strip().upper()})
+
+          if not entries:
+              raise SystemExit("Nenhum canal #EXTINF encontrado em Backup.m3u.")
+
+          def existing(index):
+              return any(BASE.glob(f"{index:04d}.*"))
+
+          missing = [e for e in entries if not existing(e["index"])]
+          print(f"Canais na playlist: {len(entries)}; já contemplados por arquivo numerado: {len(entries)-len(missing)}; pendentes: {len(missing)}")
+
+          channels, _ = get("https://iptv-org.github.io/api/channels.json")
+          logos, _ = get("https://iptv-org.github.io/api/logos.json")
+          channels = json.loads(channels)
+          logos = json.loads(logos)
+
+          channel_by_id = {c.get("id"): c for c in channels if c.get("id")}
+          logos_by_id = {}
+          for item in logos:
+              cid, url = item.get("channel"), item.get("url")
+              if cid and url and url.startswith("https://"):
+                  logos_by_id.setdefault(cid, []).append(item)
+          for cid in logos_by_id:
+              logos_by_id[cid].sort(key=lambda x: (bool(x.get("in_use")), int(x.get("width") or 0) * int(x.get("height") or 0)), reverse=True)
+
+          name_to_ids = {}
+          for c in channels:
+              cid = c.get("id")
+              if not cid:
+                  continue
+              for n in [c.get("name", "")] + (c.get("alt_names") or []):
+                  key = norm(n)
+                  if key:
+                      name_to_ids.setdefault(key, set()).add(cid)
+
+          # Índice adicional de logos turcos do projeto tv-logos; nomes são comparados integralmente.
+          tvlogos_by_name = {}
+          try:
+              tree_data, _ = get("https://api.github.com/repos/tv-logo/tv-logos/git/trees/main?recursive=1", timeout=60)
+              tree = json.loads(tree_data).get("tree", [])
+              for node in tree:
+                  path = node.get("path", "")
+                  low = path.lower()
+                  if node.get("type") != "blob" or not low.startswith("countries/turkey/") or not low.endswith((".png", ".jpg", ".jpeg", ".webp", ".svg")):
+                      continue
+                  stem = Path(path).stem
+                  stem = re.sub(r"-tr$", "", stem, flags=re.I)
+                  key = norm(stem.replace("-", " "))
+                  if key:
+                      tvlogos_by_name.setdefault(key, []).append("https://raw.githubusercontent.com/tv-logo/tv-logos/main/" + path)
+          except Exception as exc:
+              print(f"Catálogo tv-logos indisponível nesta execução: {exc}")
+
+          def candidates(entry):
+              ids = []
+              raw_id = entry["id"]
+              if raw_id:
+                  ids.append(raw_id)
+                  ids.append(re.sub(r"@(HD|SD|FHD|UHD)$", "", raw_id, flags=re.I))
+              for cid in dict.fromkeys(ids):
+                  if cid in logos_by_id:
+                      return [x["url"] for x in logos_by_id[cid]], "id"
+              key = norm(entry["name"])
+              matched = name_to_ids.get(key, set())
+              # Só aceita nome quando ele aponta para um único canal no catálogo.
+              if len(matched) == 1:
+                  cid = next(iter(matched))
+                  if cid in logos_by_id:
+                      return [x["url"] for x in logos_by_id[cid]], "nome"
+              # Último fallback: nome idêntico ao ficheiro do catálogo turco.
+              tv = tvlogos_by_name.get(key, [])
+              if len(tv) == 1:
+                  return tv, "tv-logos"
+              return [], "sem-correspondencia"
+
+          jobs = []
+          counts = {"id": 0, "nome": 0, "tv-logos": 0, "sem-correspondencia": 0}
+          for entry in missing:
+              urls, method = candidates(entry)
+              if not urls:
+                  counts["sem-correspondencia"] += 1
+              else:
+                  counts[method] += 1
+                  jobs.append((entry, urls, method))
+
+          allowed = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".bmp", ".ico", ".avif"}
+          mime_ext = {"image/png": ".png", "image/jpeg": ".jpg", "image/webp": ".webp", "image/gif": ".gif", "image/svg+xml": ".svg", "image/avif": ".avif", "image/bmp": ".bmp", "image/x-icon": ".ico", "image/vnd.microsoft.icon": ".ico"}
+
+          def download(task):
+              entry, urls, method = task
+              last = None
+              for url in urls[:5]:
+                  for attempt in range(2):
+                      try:
+                          data, mime = get(url, timeout=35)
+                          if not data or mime == "text/html":
+                              raise ValueError("resposta vazia ou HTML")
+                          ext = mime_ext.get(mime, Path(url.split("?", 1)[0]).suffix.lower())
+                          if ext not in allowed:
+                              raise ValueError(f"formato não reconhecido: {mime}")
+                          return entry["index"], data, ext, method
+                      except Exception as exc:
+                          last = exc
+                          if attempt == 0:
+                              time.sleep(1)
+              return entry["index"], None, None, str(last)
+
+          BASE.mkdir(parents=True, exist_ok=True)
+          added = 0
+          failed = 0
+          with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
+              for index, data, ext, method in pool.map(download, jobs):
+                  if data is None:
+                      failed += 1
+                      print(f"FALHA {index:04d}: {method}")
+                      continue
+                  path = BASE / f"{index:04d}{ext}"
+                  if not path.exists():
+                      path.write_bytes(data)
+                      added += 1
+
+          unresolved = len(entries) - sum(1 for e in entries if existing(e["index"])) - added
+          summary = [
+              "## Complemento de logos do Backup.m3u",
+              f"- Canais na playlist: **{len(entries)}**",
+              f"- Canais que já tinham arquivo numerado: **{len(entries)-len(missing)}**",
+              f"- Correspondências por ID: **{counts['id']}**",
+              f"- Correspondências por nome exato e único: **{counts['nome']}**",
+              f"- Correspondências no catálogo tv-logos: **{counts['tv-logos']}**",
+              f"- Novas imagens adicionadas: **{added}**",
+              f"- Falhas ao baixar imagens: **{failed}**",
+              f"- Sem correspondência segura: **{counts['sem-correspondencia']}**",
+              "- Correspondências aproximadas/fuzzy não são usadas para evitar logos de canais errados."
+          ]
+          text = "\n".join(summary)
+          print(text)
+          with open(__import__("os").environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as f:
+              f.write(text + "\n")
+          PY
+
+      - name: Publicar logos encontrados
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS
+          if git diff --cached --quiet; then
+            echo "Nenhuma logo adicional encontrada."
+            exit 0
+          fi
+          git commit -m "Completar logos ausentes do Backup.m3u"
+          git push origin "HEAD:github/workflows/atualizar-logos.yml"
