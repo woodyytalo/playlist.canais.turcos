@@ -1,8 +1,8 @@
 Relatório XMLTV — epg/guia-turquia.xml
 Canais na playlist: 213
-Canais com programação real: 85
-Canais sem programação correspondente: 128
-Programas reais copiados: 6952
+Canais com programação real: 84
+Canais sem programação correspondente: 129
+Programas reais copiados: 9833
 
 CANAIS SEM PROGRAMAÇÃO:
 - Bloomberg HT 2 | ID: bloomberght2.local | Categoria: NOTÍCIAS
@@ -15,6 +15,7 @@ CANAIS SEM PROGRAMAÇÃO:
 - Kanal 7 Avrupa | ID: Kanal7Avrupa.tr@SD | Categoria: ENTRETENIMENTO
 - Kanal D Drama | ID: KanalDDrama.tr@SD | Categoria: ENTRETENIMENTO
 - Euro Star TV | ID: 76711 | Categoria: ENTRETENIMENTO
+- HT Spor TV | ID: HTSporTV.tr@SD | Categoria: ESPORTES
 - beIN Sports 1 Turk | ID: beINSports1Turk.tr@SD | Categoria: ESPORTES
 - Aksu TV | ID: AksuTV.tr@SD | Categoria: REGIONAIS
 - Alanya Posta TV | ID: AlanyaPostaTV.tr@SD | Categoria: REGIONAIS
