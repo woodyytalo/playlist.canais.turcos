@@ -1,0 +1,149 @@
+name: Recuperar logos restantes do Backup
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Backup.m3u"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recuperar-logos-restantes
+  cancel-in-progress: false
+
+jobs:
+  recuperar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
+
+      - name: Recuperar logos por URL da playlist e equivalência exata
+        shell: bash
+        run: |
+          python - <<'PY'
+          import concurrent.futures, json, os, re, shutil, time, unicodedata
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError, URLError
+
+          BASE=Path("logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS")
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+          EXT={".png",".jpg",".jpeg",".webp",".gif",".svg",".bmp",".ico",".avif"}
+          MIME={"image/png":".png","image/jpeg":".jpg","image/webp":".webp","image/gif":".gif","image/svg+xml":".svg","image/avif":".avif","image/bmp":".bmp","image/x-icon":".ico","image/vnd.microsoft.icon":".ico"}
+
+          def norm(s):
+              s=unicodedata.normalize("NFKD",s or "")
+              s="".join(c for c in s if not unicodedata.combining(c)).lower()
+              s=re.sub(r"\[[^\]]*\]|\([^)]*\)"," ",s)
+              s=re.sub(r"\b(2160p|1440p|1080p|900p|720p|576p|540p|480p|360p|uhd|fhd|4k|hd|sd)\b"," ",s)
+              return " ".join(re.sub(r"[^a-z0-9]+"," ",s).split())
+
+          def attrs(line):
+              return {k.lower():v for k,v in re.findall(r'([\w-]+)\s*=\s*"([^"]*)"',line)}
+
+          def existing(i):
+              return next((p for p in BASE.glob(f"{i:04d}.*") if p.suffix.lower() in EXT),None)
+
+          def fetch(url):
+              last=None
+              for attempt in range(6):
+                  try:
+                      req=Request(url,headers={"User-Agent":UA,"Accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"})
+                      with urlopen(req,timeout=35) as r:
+                          data=r.read()
+                          mime=r.headers.get("Content-Type","").split(";",1)[0].lower()
+                      if not data or mime in ("text/html","application/json"):
+                          raise ValueError("resposta não é imagem")
+                      ext=MIME.get(mime,Path(url.split("?",1)[0]).suffix.lower())
+                      if ext not in EXT:
+                          raise ValueError("extensão de imagem não reconhecida: "+mime)
+                      return data,ext
+                  except HTTPError as e:
+                      last=e
+                      if e.code not in (403,404,408,425,429,500,502,503,504): break
+                      time.sleep(min(20,2**attempt))
+                  except Exception as e:
+                      last=e
+                      time.sleep(min(12,2**attempt))
+              raise last
+
+          entries=[]
+          for line in Path("Backup.m3u").read_text(encoding="utf-8-sig",errors="replace").splitlines():
+              if line.lstrip().startswith("#EXTINF"):
+                  a=attrs(line)
+                  entries.append({"i":len(entries)+1,"name":line.split(",",1)[1].strip() if "," in line else a.get("tvg-name",""),"id":a.get("tvg-id","").strip(),"logo":a.get("tvg-logo","").strip()})
+
+          BASE.mkdir(parents=True,exist_ok=True)
+          by_id,by_name={},{}
+          for e in entries:
+              if e["logo"].startswith(("http://","https://")):
+                  if e["id"]: by_id.setdefault(e["id"],[]).append(e["logo"])
+                  k=norm(e["name"])
+                  if k: by_name.setdefault(k,[]).append(e["logo"])
+              p=existing(e["i"])
+              if p:
+                  if e["id"]: by_id.setdefault(e["id"],[]).append(str(p))
+                  k=norm(e["name"])
+                  if k: by_name.setdefault(k,[]).append(str(p))
+
+          missing=[e for e in entries if not existing(e["i"])]
+          def task(e):
+              sources=[]
+              if e["logo"].startswith(("http://","https://")): sources.append(e["logo"])
+              if e["id"]: sources.extend(by_id.get(e["id"],[]))
+              k=norm(e["name"])
+              if k: sources.extend(by_name.get(k,[]))
+              seen=set()
+              for src in sources:
+                  if src in seen: continue
+                  seen.add(src)
+                  try:
+                      if src.startswith("http://") or src.startswith("https://"):
+                          data,ext=fetch(src)
+                      else:
+                          p=Path(src)
+                          if not p.is_file(): continue
+                          data,ext=p.read_bytes(),p.suffix.lower()
+                          if ext not in EXT: continue
+                      return e["i"],data,ext,None
+                  except Exception as ex:
+                      last=str(ex)
+              return e["i"],None,None,last if sources else "sem URL/correspondência exata"
+
+          added=failed=0
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+              for i,data,ext,err in pool.map(task,missing):
+                  if data is None:
+                      failed+=1
+                      continue
+                  p=BASE/f"{i:04d}{ext}"
+                  if not p.exists():
+                      p.write_bytes(data); added+=1
+
+          numbered=sum(1 for e in entries if existing(e["i"]))
+          summary=f"""## Recuperação adicional de logos
+          - Canais na playlist: **{len(entries)}**
+          - Arquivos numerados agora presentes: **{numbered}**
+          - Novos arquivos adicionados nesta etapa: **{added}**
+          - Pendências sem download/correspondência: **{len(entries)-numbered}**
+          - Falhas/sem URL: **{failed}**
+          """
+          print(summary)
+          with open(os.environ["GITHUB_STEP_SUMMARY"],"a") as f: f.write(summary)
+          PY
+
+      - name: Commitar arquivos recuperados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS
+          if git diff --cached --quiet; then echo "Nenhum arquivo novo."; exit 0; fi
+          git commit -m "Recuperar logos restantes do Backup"
+          git push origin "HEAD:github/workflows/atualizar-logos.yml"
