@@ -1,0 +1,162 @@
+name: Baixar logos do Backup.m3u
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - "Backup.m3u"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: baixar-logos-backup
+  cancel-in-progress: false
+
+jobs:
+  baixar-e-publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter repositório
+        uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
+
+      - name: Baixar uma cópia por canal
+        id: logos
+        shell: bash
+        run: |
+          python - <<'PY'
+          import concurrent.futures
+          import mimetypes
+          import os
+          import re
+          import shutil
+          import tempfile
+          import time
+          from pathlib import Path
+          from urllib.error import URLError, HTTPError
+          from urllib.parse import urlsplit
+          from urllib.request import Request, urlopen
+
+          playlist = Path("Backup.m3u")
+          destination = Path("logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS")
+          text = playlist.read_text(encoding="utf-8-sig", errors="replace")
+
+          logo_re = re.compile(r'tvg-logo\\s*=\\s*"([^"]*)"', re.IGNORECASE)
+          channels = []
+          for line in text.splitlines():
+              if line.lstrip().startswith("#EXTINF"):
+                  match = logo_re.search(line)
+                  url = match.group(1).strip() if match else ""
+                  if url.startswith(("http://", "https://")):
+                      channels.append((len(channels) + 1, url))
+                  else:
+                      channels.append((len(channels) + 1, ""))
+
+          with_logo = [(number, url) for number, url in channels if url]
+          unique_urls = list(dict.fromkeys(url for _, url in with_logo))
+          if not channels:
+              raise SystemExit("Nenhum canal #EXTINF foi encontrado em Backup.m3u.")
+
+          mime_extensions = {
+              "image/jpeg": ".jpg",
+              "image/png": ".png",
+              "image/webp": ".webp",
+              "image/gif": ".gif",
+              "image/svg+xml": ".svg",
+              "image/bmp": ".bmp",
+              "image/x-icon": ".ico",
+              "image/vnd.microsoft.icon": ".ico",
+              "image/avif": ".avif",
+              "image/tiff": ".tif",
+          }
+          allowed_extensions = {
+              ".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg",
+              ".bmp", ".ico", ".avif", ".tif", ".tiff"
+          }
+
+          def download(url):
+              last_error = None
+              for attempt in range(3):
+                  try:
+                      request = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; PlaylistLogoFetcher/1.0)"})
+                      with urlopen(request, timeout=35) as response:
+                          data = response.read()
+                          content_type = response.headers.get("Content-Type", "").split(";", 1)[0].lower()
+                      if not data:
+                          raise ValueError("resposta vazia")
+                      if content_type == "text/html":
+                          raise ValueError("o servidor devolveu HTML, não uma imagem")
+                      suffix = mime_extensions.get(content_type, "")
+                      if not suffix:
+                          path_suffix = Path(urlsplit(url).path).suffix.lower()
+                          if path_suffix in allowed_extensions:
+                              suffix = path_suffix
+                      if not suffix:
+                          raise ValueError(f"formato de imagem não identificado (Content-Type: {content_type or 'ausente'})")
+                      return data, suffix
+                  except Exception as exc:
+                      last_error = exc
+                      if attempt < 2:
+                          time.sleep(2 ** attempt)
+              raise RuntimeError(str(last_error))
+
+          downloaded = {}
+          failures = {}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:
+              futures = {pool.submit(download, url): url for url in unique_urls}
+              for future in concurrent.futures.as_completed(futures):
+                  url = futures[future]
+                  try:
+                      downloaded[url] = future.result()
+                  except Exception as exc:
+                      failures[url] = str(exc)
+                      print(f"FALHA: {url} — {exc}")
+
+          copies_written = 0
+          destination.parent.mkdir(parents=True, exist_ok=True)
+          with tempfile.TemporaryDirectory(dir=str(destination.parent)) as temporary:
+              staging = Path(temporary) / "logos"
+              staging.mkdir()
+              for number, url in with_logo:
+                  if url not in downloaded:
+                      continue
+                  data, suffix = downloaded[url]
+                  (staging / f"{number:04d}{suffix}").write_bytes(data)
+                  copies_written += 1
+
+              if copies_written == 0:
+                  raise SystemExit("Nenhuma logo pôde ser baixada; a pasta existente foi preservada.")
+              if destination.exists():
+                  shutil.rmtree(destination)
+              shutil.move(str(staging), str(destination))
+
+          summary = [
+              "## Resultado da coleta de logos",
+              f"- Canais na playlist: **{len(channels)}**",
+              f"- Canais com URL de logo HTTP(S): **{len(with_logo)}**",
+              f"- URLs únicas consultadas: **{len(unique_urls)}**",
+              f"- Arquivos de logo gravados: **{copies_written}**",
+              f"- URLs que falharam: **{len(failures)}**",
+              "- Numeração: posição do canal no Backup.m3u; canais sem logo mantêm seu número sem gerar arquivo.",
+          ]
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as output:
+              output.write("\\n".join(summary) + "\\n")
+          print("\\n".join(summary))
+          PY
+
+      - name: Publicar logos na pasta do catálogo
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração de logos para publicar."
+            exit 0
+          fi
+          git commit -m "Baixar logos numeradas do Backup.m3u"
+          git push origin HEAD:github/workflows/atualizar-logos.yml
