@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-24 00:22 UTC
+- Executado em: 2026-11-24 01:01 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **213**
 - URLs únicas: **211**
@@ -65,7 +65,7 @@
 | Show TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Star TV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | teve2 | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TV8 | \`rkhubpaomb.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Euro Star TV | \`raw.githubusercontent.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TV4 | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
