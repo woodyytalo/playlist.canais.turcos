@@ -108,7 +108,7 @@ https://tele1-live.ercdn.net/tele1/tele1.m3u8
 https://canli.tgrthaber.com/tgrt.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="138" tvg-id="TRTHaber.tr@SD" tvg-name="TRT Haber" group-title="NOTÍCIAS" tvg-language="Turkish",TRT Haber
+#EXTINF:-1 tvg-chno="138" tvg-id="TRTHaber.tr@SD" tvg-name="TRT Haber" group-title="TRT" tvg-language="Turkish",TRT Haber
 #EXTVLCOPT:network-caching=5000
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 
@@ -255,7 +255,7 @@ https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12149 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="131" tvg-id="TRT1.tr@SD" tvg-name="TRT 1" group-title="TRT" tvg-language="Turkish",TRT 1
+#EXTINF:-1 tvg-chno="131" tvg-id="TRT1.tr@SD" tvg-name="TRT 1" group-title="ENTRETENIMENTO" tvg-language="Turkish",TRT 1
 #EXTVLCOPT:network-caching=5000
 https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 
@@ -837,22 +837,22 @@ https://familyhls.4utv.live/hls/stream.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="TRTArabi.tr@SD" tvg-chno="132" tvg-name="TRT Arabi" group-title="INTERNACIONAIS" tvg-language="Turkish",TRT Arabi
+#EXTINF:-1 tvg-id="TRTArabi.tr@SD" tvg-chno="132" tvg-name="TRT Arabi" group-title="TRT" tvg-language="Turkish",TRT Arabi
 #EXTVLCOPT:network-caching=5000
 https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11958 V, SR 27500, FEC 5/6 / Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="133" tvg-id="TRTAvaz.tr@SD" tvg-name="TRT Avaz" group-title="INTERNACIONAIS" tvg-language="Turkish",TRT Avaz
+#EXTINF:-1 tvg-chno="133" tvg-id="TRTAvaz.tr@SD" tvg-name="TRT Avaz" group-title="TRT" tvg-language="Turkish",TRT Avaz
 #EXTVLCOPT:network-caching=5000
 https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-id="TRTKurdi.tr@SD" tvg-chno="139" tvg-name="TRT Kurdî" group-title="INTERNACIONAIS" tvg-language="Turkish",TRT Kurdî
+#EXTINF:-1 tvg-id="TRTKurdi.tr@SD" tvg-chno="139" tvg-name="TRT Kurdî" group-title="TRT" tvg-language="Turkish",TRT Kurdî
 #EXTVLCOPT:network-caching=5000
 https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11958 V, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="143" tvg-id="TRTTurk.tr@SD" tvg-name="TRT Türk" group-title="INTERNACIONAIS" tvg-language="Turkish",TRT Türk
+#EXTINF:-1 tvg-chno="143" tvg-id="TRTTurk.tr@SD" tvg-name="TRT Türk" group-title="TRT" tvg-language="Turkish",TRT Türk
 #EXTVLCOPT:network-caching=5000
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 
@@ -881,12 +881,12 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12015 H, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="134" tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Çocuk" group-title="INFANTIS" tvg-language="Turkish",TRT Çocuk
+#EXTINF:-1 tvg-chno="134" tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Çocuk" group-title="TRT" tvg-language="Turkish",TRT Çocuk
 #EXTVLCOPT:network-caching=5000
 https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11794 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr@SD" tvg-chno="135" tvg-name="TRT Diyanet Çocuk" group-title="INFANTIS" tvg-language="Turkish",TRT Diyanet Çocuk
+#EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr@SD" tvg-chno="135" tvg-name="TRT Diyanet Çocuk" group-title="TRT" tvg-language="Turkish",TRT Diyanet Çocuk
 #EXTVLCOPT:network-caching=5000
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8
 
@@ -946,7 +946,7 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
 
 # ===== CATEGORIA: CULTURA/EDUCAÇÃO (1 canais) =====
 
-#EXTINF:-1 tvg-id="TRTEBA.tr@SD" tvg-chno="136" tvg-name="TRT EBA Ortaokul" group-title="CULTURA/EDUCAÇÃO" tvg-language="Turkish",TRT EBA Ortaokul
+#EXTINF:-1 tvg-id="TRTEBA.tr@SD" tvg-chno="136" tvg-name="TRT EBA Ortaokul" group-title="TRT" tvg-language="Turkish",TRT EBA Ortaokul
 #EXTVLCOPT:network-caching=5000
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
@@ -1019,7 +1019,7 @@ https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="140" tvg-id="TRTMuzik.tr@SD" tvg-name="TRT Müzik" group-title="MÚSICA" tvg-language="Turkish",TRT Müzik
+#EXTINF:-1 tvg-chno="140" tvg-id="TRTMuzik.tr@SD" tvg-name="TRT Müzik" group-title="TRT" tvg-language="Turkish",TRT Müzik
 #EXTVLCOPT:network-caching=5000
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 
