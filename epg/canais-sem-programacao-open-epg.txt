@@ -1,10 +1,11 @@
 Relatório XMLTV — epg/guia-open-epg.xml
 Canais na playlist: 213
-Canais com programação real: 82
-Canais sem programação correspondente: 131
-Programas reais copiados: 9653
+Canais com programação real: 72
+Canais sem programação correspondente: 141
+Programas reais copiados: 6854
 
 CANAIS SEM PROGRAMAÇÃO:
+- Lider Haber | ID: liderhaber.local | Categoria: NOTÍCIAS
 - Bloomberg HT 2 | ID: bloomberght2.local | Categoria: NOTÍCIAS
 - DHA | ID: DHA.tr@SD | Categoria: NOTÍCIAS
 - Haber61 TV | ID: Haber61TV.tr@SD | Categoria: NOTÍCIAS
@@ -15,8 +16,11 @@ CANAIS SEM PROGRAMAÇÃO:
 - Bi Kanal | ID: bikanal.local | Categoria: ENTRETENIMENTO
 - Kanal 7 Avrupa | ID: Kanal7Avrupa.tr@SD | Categoria: ENTRETENIMENTO
 - Kanal D Drama | ID: KanalDDrama.tr@SD | Categoria: ENTRETENIMENTO
+- Show Max | ID: 8xihgna8cyvdnyd | Categoria: ENTRETENIMENTO
 - Euro Star TV | ID: 76711 | Categoria: ENTRETENIMENTO
 - HT Spor TV | ID: HTSporTV.tr@SD | Categoria: ESPORTES
+- TAY TV | ID: jgxiih7f6yhagpj | Categoria: ESPORTES
+- TJK TV | ID: TJKTV.tr@SD | Categoria: ESPORTES
 - Ekol Sports | ID: ekolsports.local | Categoria: ESPORTES
 - beIN Sports 1 Turk | ID: beINSports1Turk.tr@SD | Categoria: ESPORTES
 - Aksu TV | ID: AksuTV.tr@SD | Categoria: REGIONAIS
@@ -56,6 +60,7 @@ CANAIS SEM PROGRAMAÇÃO:
 - Kay TV | ID: KayTV.tr@SD | Categoria: REGIONAIS
 - Kayhan TV | ID: kayhantv.local | Categoria: REGIONAIS
 - Kent Türk TV | ID: KentTurk.tr@SD | Categoria: REGIONAIS
+- Kocaeli TV | ID: KocaeliTV.tr@SD | Categoria: REGIONAIS
 - Konya KTV | ID: konyaktv.local | Categoria: REGIONAIS
 - Konya Olay TV | ID: KonyaOlayTV.tr@SD | Categoria: REGIONAIS
 - Mercan TV | ID: MercanTV.tr@SD | Categoria: REGIONAIS
@@ -81,6 +86,7 @@ CANAIS SEM PROGRAMAÇÃO:
 - TV Karadeniz | ID: MaviKaradenizTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Al Zahra TV Turkic | ID: AlZahraTVTurkic.tr@SD | Categoria: RELIGIOSOS
 - Diyar TV | ID: DiyarTV.tr@SD | Categoria: RELIGIOSOS
+- Dost TV | ID: DostTV.tr@SD | Categoria: RELIGIOSOS
 - MUKABELE TV | ID: mukabeletv.local | Categoria: RELIGIOSOS
 - Rehber TV | ID: rehbertv.local | Categoria: RELIGIOSOS
 - Sat7 Türk | ID: Sat7Turk.cy@SD | Categoria: RELIGIOSOS
@@ -117,12 +123,16 @@ CANAIS SEM PROGRAMAÇÃO:
 - 30A Music | ID: 30amusic.local | Categoria: MÚSICA
 - Med Müzik | ID: MedMuzik.tr@SD | Categoria: MÚSICA
 - Play TV | ID: playtv.local | Categoria: MÚSICA
+- NR1 Aşk | ID: Number1Ask.tr@SD | Categoria: MÚSICA
+- NR1 Damar | ID: Number1Damar.tr@SD | Categoria: MÚSICA
 - NR1 Dance | ID: Number1Dance.tr@SD | Categoria: MÚSICA
+- Number 1 TV | ID: Number1TV.tr@SD | Categoria: MÚSICA
 - Power Dance TV | ID: PowerDance.tr@SD | Categoria: MÚSICA
 - Power Love TV | ID: powerlovetv.local | Categoria: MÚSICA
 - PowerTürk Taptaze | ID: PowerTurkTaptaze.tr@SD | Categoria: MÚSICA
 - KRAL POP | ID: Kral.Pop.Radyo.tr | Categoria: MÚSICA
 - NR1 FASHION ONE | ID: nr1fashionone.local | Categoria: MÚSICA
+- PowerTürk TV | ID: PowerTurkTV.tr@SD | Categoria: MÚSICA
 - KN Music TV | ID: knmusictv.local | Categoria: MÚSICA
 - Dost | ID: dost.local | Categoria: MÚSICA
 - Company TV | ID: companytv.local | Categoria: MÚSICA
