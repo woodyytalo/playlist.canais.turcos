@@ -383,7 +383,7 @@ https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist
 https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12380 V, SR 27500, FEC 3/4 / Türksat 4A: 12423 H, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-id="EdessaTV.tr@SD" tvg-chno="42" tvg-name="Edessa TV" tvg-logo="https://tr.canlitv.watch/channels/show-tv.webp" group-title="REGIONAIS" tvg-language="Turkish",Edessa TV
+#EXTINF:-1 tvg-id="EdessaTV.tr@SD" tvg-chno="42" tvg-name="Edessa TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/042-Edessa-TV-0dcc8793ec.png" group-title="REGIONAIS" tvg-language="Turkish",Edessa TV
 #EXTVLCOPT:network-caching=5000
 https://canli.edessatv.com/hls/stream.m3u8
 
@@ -663,7 +663,7 @@ https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m
 https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="MaviKaradenizTV.tr@SD" tvg-chno="205" tvg-logo="https://tr.canlitv.watch/channels/show-tv.webp" group-title="REGIONAIS" tvg-name="MK TV" tvg-language="Turkish",MK TV
+#EXTINF:-1 tvg-id="MaviKaradenizTV.tr@SD" tvg-chno="205" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/205-MK-TV-073ee34817.png" group-title="REGIONAIS" tvg-name="MK TV" tvg-language="Turkish",MK TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
@@ -776,7 +776,7 @@ https://starmenajo.com/hls/almahriah/index.m3u8
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-id="KanalAvrupa.tr" tvg-chno="82" tvg-name="Kanal Avrupa" tvg-logo="https://tr.canlitv.watch/channels/show-tv.webp" group-title="INTERNACIONAIS" tvg-language="Turkish",Kanal Avrupa
+#EXTINF:-1 tvg-id="KanalAvrupa.tr" tvg-chno="82" tvg-name="Kanal Avrupa" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/082-Kanal-Avrupa-b771c1239b.png" group-title="INTERNACIONAIS" tvg-language="Turkish",Kanal Avrupa
 #EXTVLCOPT:network-caching=5000
 http://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v3a1/mono.m3u8
 
@@ -806,7 +806,7 @@ http://213.91.179.28:8000/play/a0bw
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
 
 #FREQUÊNCIA: Türksat 4A: 12458 H, SR 27500, FEC 2/3
-#EXTINF:-1 tvg-id="PersianaTurkiye.fr@SD" tvg-chno="186" tvg-name="Persiana Türkiye" tvg-logo="https://tr.canlitv.watch/channels/show-tv.webp" group-title="INTERNACIONAIS" tvg-language="Turkish",Persiana Türkiye
+#EXTINF:-1 tvg-id="PersianaTurkiye.fr@SD" tvg-chno="186" tvg-name="Persiana Türkiye" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-turkiye-fr.png" group-title="INTERNACIONAIS" tvg-language="Turkish",Persiana Türkiye
 #EXTVLCOPT:network-caching=5000
 https://turkhls.persiana.live/hls/stream.m3u8
 
@@ -834,7 +834,7 @@ https://familyhls.4utv.live/hls/stream.m3u8
 
 # ===== CATEGORIA: INFANTIS (9 canais) =====
 
-#EXTINF:-1 tvg-chno="96" tvg-id="LuysTV.tr@SD" tvg-name="Luys TV" tvg-logo="https://tr.canlitv.watch/channels/show-tv.webp" group-title="INTERNACIONAIS" tvg-language="Turkish",Luys TV
+#EXTINF:-1 tvg-chno="96" tvg-id="LuysTV.tr@SD" tvg-name="Luys TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/096-Luys-TV-2398569929.png" group-title="INTERNACIONAIS" tvg-language="Turkish",Luys TV
 #EXTVLCOPT:network-caching=5000
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
 
@@ -1130,7 +1130,7 @@ https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8#all
 https://s6.hopslan.com/tlcX/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
-#EXTINF:-1 tvg-chno="189" tvg-id="LoveNature.ca@SD" tvg-logo="https://tr.canlitv.watch/channels/show-tv.webp" group-title="DOCUMENTÁRIOS" tvg-name="Love Nature" tvg-language="Turkish",Love Nature
+#EXTINF:-1 tvg-chno="189" tvg-id="LoveNature.ca@SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/189-Love-Nature-3cd5065bf1.png" group-title="DOCUMENTÁRIOS" tvg-name="Love Nature" tvg-language="Turkish",Love Nature
 #EXTVLCOPT:network-caching=5000
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 
