@@ -13,6 +13,11 @@ jobs:
   importar:
     runs-on: ubuntu-latest
     steps:
+      - name: Baixar código do repositório
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          token: ${{ github.token }}
       - name: Baixar playlist oficial usada pelo FreeIPTV
         run: |
           set -euo pipefail
