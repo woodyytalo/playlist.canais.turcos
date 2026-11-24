@@ -116,6 +116,10 @@ jobs:
           optional_xml "https://streams.uzunmuhalefet.com/epg/tr.xml" /tmp/uzunmuhalefet-turquia.xml
           optional_xml "https://my.iptv.community/epg_temp_dl/output-epgs/turkey.xml" /tmp/iptv-community-turquia.xml
           optional_gzip_xml "https://free-epg.de/api/epg/rytec/tr.xml.gz" /tmp/free-epg-rytec-turquia.xml
+          # Fontes adicionais descobertas: EPG.lat é dedicado à Turquia; os outros dois são agregadores multilíngues.
+          optional_gzip_xml "https://epg.lat/files/tr.xml.gz" /tmp/epg-lat-turquia.xml
+          optional_gzip_xml "https://antifriz.tv/storage/epg/xmltv.xml.gz" /tmp/antifriz-multilingue.xml
+          optional_gzip_xml "https://epg.admuspeh.my/epg.xml.gz" /tmp/admuspeh-multilingue.xml
 
           python3 - "${files[@]}" <<'PY'
           import sys, xml.etree.ElementTree as ET
@@ -136,7 +140,7 @@ jobs:
         run: |
           set -euo pipefail
           args=()
-          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/dearbulut-turquia.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/epghost-turquia.xml /tmp/xmltv-live-turquia.xml /tmp/iptv-epg-tr.xml /tmp/epgfull-turquia.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml /tmp/bevy-turkeypremium1.xml /tmp/bevy-turkeypremium2.xml /tmp/bevy-turkey.xml /tmp/tvcdn-turquia.xml /tmp/uzunmuhalefet-turquia.xml /tmp/iptv-community-turquia.xml /tmp/free-epg-rytec-turquia.xml; do
+          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/dearbulut-turquia.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/epghost-turquia.xml /tmp/xmltv-live-turquia.xml /tmp/iptv-epg-tr.xml /tmp/epgfull-turquia.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml /tmp/bevy-turkeypremium1.xml /tmp/bevy-turkeypremium2.xml /tmp/bevy-turkey.xml /tmp/tvcdn-turquia.xml /tmp/uzunmuhalefet-turquia.xml /tmp/iptv-community-turquia.xml /tmp/free-epg-rytec-turquia.xml /tmp/epg-lat-turquia.xml /tmp/antifriz-multilingue.xml /tmp/admuspeh-multilingue.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
           python3 scripts/sincronizar_teleguia_tempo_real.py --playlist Tv.m3u "${args[@]}" --output epg/guia-open-epg.xml --report epg/canais-sem-programacao-open-epg.txt
@@ -146,7 +150,7 @@ jobs:
         run: |
           set -euo pipefail
           args=(--input /tmp/epg-principal.xml)
-          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/dearbulut-turquia.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/epghost-turquia.xml /tmp/xmltv-live-turquia.xml /tmp/iptv-epg-tr.xml /tmp/epgfull-turquia.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml /tmp/bevy-turkeypremium1.xml /tmp/bevy-turkeypremium2.xml /tmp/bevy-turkey.xml /tmp/tvcdn-turquia.xml /tmp/uzunmuhalefet-turquia.xml /tmp/iptv-community-turquia.xml /tmp/free-epg-rytec-turquia.xml; do
+          for file in /tmp/open-turkey1.xml /tmp/open-turkey2.xml /tmp/open-turkey3.xml /tmp/open-turkey4.xml /tmp/epgshare-tr1.xml /tmp/epgshare-tr3.xml /tmp/dearbulut-turquia.xml /tmp/free-epg-tr.xml /tmp/ghaleb-turkish.xml /tmp/hayatiptv-turkey.xml /tmp/epghost-turquia.xml /tmp/xmltv-live-turquia.xml /tmp/iptv-epg-tr.xml /tmp/epgfull-turquia.xml /tmp/iptv-org-turquia.xml /tmp/iptv-org-tvplus.xml /tmp/iptv-org-digiturk.xml /tmp/iptv-org-dsmart.xml /tmp/iptv-org-turksat-kablo.xml /tmp/bevy-turkeypremium1.xml /tmp/bevy-turkeypremium2.xml /tmp/bevy-turkey.xml /tmp/tvcdn-turquia.xml /tmp/uzunmuhalefet-turquia.xml /tmp/iptv-community-turquia.xml /tmp/free-epg-rytec-turquia.xml /tmp/epg-lat-turquia.xml /tmp/antifriz-multilingue.xml /tmp/admuspeh-multilingue.xml; do
             [[ -s "$file" ]] && args+=(--input "$file")
           done
           python3 scripts/sincronizar_teleguia_tempo_real.py --playlist Tv.m3u "${args[@]}" --output epg/guia-turquia.xml --report epg/canais-sem-programacao-turquia.txt
