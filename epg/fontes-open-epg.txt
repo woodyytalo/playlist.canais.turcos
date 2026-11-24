@@ -52,3 +52,12 @@ https://free-epg.de/api/epg/rytec/tr.xml.gz
 # Não mescladas: feeds globais/multilíngues (risco de publicar títulos em idiomas diferentes do turco).
 https://teleonline.github.io/epg/epg.xml.gz
 https://epg.pw/xmltv/epg.xml.gz
+
+# Fontes adicionais adicionadas ao workflow em 23/11/2026 (download gzip e validação XMLTV)
+# EPG.lat: endpoint dedicado à Turquia; disponibilidade e conteúdo serão verificados em cada execução.
+https://epg.lat/files/tr.xml.gz
+# Agregadores multilíngues: só devem contribuir quando IDs/nomes coincidirem exatamente e os metadados de idioma/script forem compatíveis.
+https://antifriz.tv/storage/epg/xmltv.xml.gz
+https://epg.admuspeh.my/epg.xml.gz
+# EPGWise oferece feed privado; requer URL pessoal de conta e não pode ser integrado com o link público do catálogo.
+https://epgwise.com/countries
