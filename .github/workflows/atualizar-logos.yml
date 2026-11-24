@@ -38,12 +38,12 @@ jobs:
           for i, line in enumerate(lines):
               if not line.startswith("#EXTINF"):
                   continue
-              clean, count = re.subn(r"""\\s+tvg-logo\\s*=\\s*("[^"]*"|'[^']*'|[^\\s,]+)""", "", line, flags=re.I)
+              clean, count = re.subn(r"""\s+tvg-logo\s*=\s*("[^"]*"|'[^']*'|[^\s,]+)""", "", line, flags=re.I)
               if count:
                   lines[i] = clean
                   removed += count
-          path.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
-          remaining = sum(1 for line in lines if line.startswith("#EXTINF") and re.search(r"\\btvg-logo\\s*=", line, re.I))
+          path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+          remaining = sum(1 for line in lines if line.startswith("#EXTINF") and re.search(r"\btvg-logo\s*=", line, re.I))
           if remaining:
               raise SystemExit(f"Falha: {remaining} entradas ainda possuem tvg-logo.")
           print(f"Logos removidas: {removed}; entradas com tvg-logo restantes: {remaining}.")
