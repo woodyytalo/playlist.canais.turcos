@@ -2,7 +2,7 @@ Relatório XMLTV — epg/guia-turquia.xml
 Canais na playlist: 213
 Canais com programação real: 72
 Canais sem programação correspondente: 141
-Programas reais copiados: 8434
+Programas reais copiados: 8384
 
 CANAIS SEM PROGRAMAÇÃO:
 - Lider Haber | ID: liderhaber.local | Categoria: NOTÍCIAS
