@@ -24,7 +24,6 @@ https://iptv-epg.org/files/epg-tr.xml
 # Guias adicionais mantidos em repositórios GitHub
 https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/TurkishEPG.xml
 https://raw.githubusercontent.com/hayatiptv/iptv/master/tr-EPG-guide.xml
-https://teleonline.github.io/epg/epg.xml.gz
 
 # Guia XMLTV internacional agregado (cobertura multi-país)
 https://epg.pw/xmltv/epg.xml.gz
@@ -49,8 +48,7 @@ https://streams.uzunmuhalefet.com/epg/tr.xml
 https://my.iptv.community/epg_temp_dl/output-epgs/turkey.xml
 https://free-epg.de/api/epg/rytec/tr.xml.gz
 
-# Não mescladas: feeds globais/multilíngues (risco de publicar títulos em idiomas diferentes do turco).
-https://teleonline.github.io/epg/epg.xml.gz
+# Feed global multilíngue que não é fonte dedicada à Turquia; Teleonline agora é testado pelo workflow com correspondência exata e filtros de idioma/script.
 https://epg.pw/xmltv/epg.xml.gz
 
 # Fontes adicionais adicionadas ao workflow em 23/11/2026 (download gzip e validação XMLTV)
@@ -66,3 +64,6 @@ https://epgwise.com/countries
 https://epg.g-cdn.app/cbilling.xmltv.xml.gz
 # Ghaleb TurkishEPG já está integrado no workflow como fonte opcional (não duplicar).
 https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/TurkishEPG.xml
+
+# Teleonline EPG (agregador internacional atualizado diariamente; fonte opcional, gzip e validação XMLTV)
+https://teleonline.github.io/epg/epg.xml.gz
