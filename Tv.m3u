@@ -112,6 +112,11 @@ https://canli.tgrthaber.com/tgrt.m3u8
 #EXTVLCOPT:network-caching=5000
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 
+
+#EXTINF:-1 tvg-chno="144" tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" group-title="NOTÍCIAS" tvg-language="Turkish",TRT World
+#EXTVLCOPT:network-caching=5000
+https://cdn.pishow.tv/ott/live/266/266_2.m3u8
+
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
 #EXTINF:-1 tvg-id="TurkHaberTV.tr@SD" tvg-chno="145" tvg-name="TürkHaber" group-title="NOTÍCIAS" tvg-language="Turkish",TürkHaber
 #EXTVLCOPT:network-caching=5000
@@ -160,9 +165,6 @@ https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8
 
 # ===== CATEGORIA: ENTRETENIMENTO (19 canais) =====
 
-#EXTINF:-1 tvg-chno="144" tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" group-title="NOTÍCIAS" tvg-language="Turkish",TRT World
-#EXTVLCOPT:network-caching=5000
-https://cdn.pishow.tv/ott/live/266/266_2.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12423 V, SR 27500, FEC 2/3
 
@@ -1119,7 +1121,7 @@ https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8#all
 
 #FREQUÊNCIA: Satélite: a verificar
 
-# ===== CATEGORIA: TRT (6 canais) =====
+# ===== CATEGORIA: TRT (10 canais) =====
 
 # ===== CATEGORIA: DOCUMENTÁRIOS (2 canais) =====
 
