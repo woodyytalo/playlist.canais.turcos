@@ -18146,3 +18146,9 @@ https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8?checkedby
 # Reexecução da coleta de logos em 2026-11-23
 # Iniciar complemento de logos por catalogos publicos - 2026-11-23
 # Recuperar logos restantes usando URLs e correspondencias exatas - 2026-11-23
+#EXTINF:0 tvg-country="TR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/CNN_T%C3%BCrk_logo.svg/960px-CNN_T%C3%BCrk_logo.svg.png" group-title="",CNN Turk (1080p)
+http://85.117.61.84/cnnturk/index.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",HTSpor TV (1080p)
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/2AcRKdL.png" group-title="",TÃ¼rkHaber (720p)
+https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8?checkedby:iptvcat.net
