@@ -61,3 +61,8 @@ https://antifriz.tv/storage/epg/xmltv.xml.gz
 https://epg.admuspeh.my/epg.xml.gz
 # EPGWise oferece feed privado; requer URL pessoal de conta e não pode ser integrado com o link público do catálogo.
 https://epgwise.com/countries
+
+# G-Cdn: agregador multilíngue com dados turcos; entra na combinação após validação XMLTV.
+https://epg.g-cdn.app/cbilling.xmltv.xml.gz
+# Ghaleb TurkishEPG já está integrado no workflow como fonte opcional (não duplicar).
+https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/TurkishEPG.xml
