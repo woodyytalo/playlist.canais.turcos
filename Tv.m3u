@@ -390,6 +390,12 @@ http://57.129.0.61:1990/stream/117/index.m3u8
 #EXTVLCOPT:adaptive-logic=highest
 #EXTVLCOPT:network-caching=5000
 http://213.91.179.28:8000/play/a05y
+
+#EXTINF:-1 tvg-name="Eurosport 2" group-title="ESPORTES" tvg-language="Turkish",Eurosport 2
+#EXTVLCOPT:adaptive-maxheight=480
+#EXTVLCOPT:adaptive-logic=highest
+#EXTVLCOPT:network-caching=5000
+http://213.91.179.28:8000/play/a04b
 # ===== CATEGORIA: REGIONAIS (68 canais) =====
 
 
