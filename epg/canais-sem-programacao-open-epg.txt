@@ -2,7 +2,7 @@ Relatório XMLTV — epg/guia-open-epg.xml
 Canais na playlist: 213
 Canais com programação real: 72
 Canais sem programação correspondente: 141
-Programas reais copiados: 7019
+Programas reais copiados: 7919
 
 CANAIS SEM PROGRAMAÇÃO:
 - Lider Haber | ID: liderhaber.local | Categoria: NOTÍCIAS
@@ -11,7 +11,7 @@ CANAIS SEM PROGRAMAÇÃO:
 - Haber61 TV | ID: Haber61TV.tr@SD | Categoria: NOTÍCIAS
 - İlke TV | ID: IlkeTV.tr@HD | Categoria: NOTÍCIAS
 - Ekol TV | ID: 3kluptlla8k8re0 | Categoria: NOTÍCIAS
-- Life TV | ID: LifeTV.tr@SD | Categoria: ENTRETENIMENTO
+- Life TV | ID: LifeTV.tr@SD | Categoria: NOTÍCIAS
 - 4U TV | ID: 4UTV.tr@SD | Categoria: ENTRETENIMENTO
 - Bi Kanal | ID: bikanal.local | Categoria: ENTRETENIMENTO
 - Kanal 7 Avrupa | ID: Kanal7Avrupa.tr@SD | Categoria: ENTRETENIMENTO
