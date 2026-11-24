@@ -1,0 +1,59 @@
+name: Aplicar logos da pasta e do Backup na Tv.m3u
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "github/workflows/atualizar-logos.yml"
+    paths:
+      - ".github/workflows/aplicar-logos-tv-backup.trigger"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aplicar-logos-tv-backup
+  cancel-in-progress: false
+
+jobs:
+  aplicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: github/workflows/atualizar-logos.yml
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar suporte a imagens
+        run: pip install Pillow cairosvg
+      - name: Associar logos locais e completar somente pelo Backup.m3u
+        run: python scripts/aplicar_logos_tv_principal_backup.py
+      - name: Validar playlist e publicar
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          text = Path("Tv.m3u").read_text(encoding="utf-8")
+          channels = [line for line in text.splitlines() if line.startswith("#EXTINF:")]
+          missing = [line for line in channels if not re.search(r'\\btvg-logo="https?://[^"]+"', line)]
+          if len(channels) != 213:
+              raise SystemExit(f"Esperados 213 canais; encontrados {len(channels)}")
+          print(f"Canais: {len(channels)}; sem tvg-logo: {len(missing)}")
+          for line in missing:
+              print("PENDENTE: " + line.rsplit(",", 1)[-1])
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Tv.m3u logos-turcas-catalogo/LOGOS-EXTRAIDAS-DAS-PLAYLISTS
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração a publicar."
+            exit 0
+          fi
+          git commit -m "Aplicar logos locais e do backup na TV principal"
+          git push origin HEAD:github/workflows/atualizar-logos.yml
