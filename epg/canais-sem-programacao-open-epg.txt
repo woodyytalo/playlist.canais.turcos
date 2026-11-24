@@ -1,8 +1,8 @@
 Relatório XMLTV — epg/guia-open-epg.xml
-Canais na playlist: 213
-Canais com programação real: 73
+Canais na playlist: 215
+Canais com programação real: 75
 Canais sem programação correspondente: 140
-Programas reais copiados: 7888
+Programas reais copiados: 8113
 
 CANAIS SEM PROGRAMAÇÃO:
 - Lider Haber | ID: liderhaber.local | Categoria: NOTÍCIAS
