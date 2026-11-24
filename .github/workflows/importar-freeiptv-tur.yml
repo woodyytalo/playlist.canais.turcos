@@ -1,0 +1,42 @@
+name: Importar playlist turca do FreeIPTV
+
+on:
+  push:
+    paths:
+      - ".github/workflows/importar-freeiptv-tur.trigger"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar playlist oficial usada pelo FreeIPTV
+        run: |
+          set -euo pipefail
+          curl -fL --retry 3 --retry-delay 2 \
+            "https://iptv-org.github.io/iptv/languages/tur.m3u" \
+            -o FreeIPTV-Tur.m3u
+          grep -q '^#EXTM3U' FreeIPTV-Tur.m3u
+          COUNT=$(grep -c '^#EXTINF' FreeIPTV-Tur.m3u || true)
+          if [ "$COUNT" -lt 1 ]; then
+            echo "A playlist não contém canais."
+            exit 1
+          fi
+          echo "Canais importados: $COUNT"
+      - name: Salvar cópia no repositório
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add FreeIPTV-Tur.m3u
+          if git diff --cached --quiet; then
+            echo "A playlist já está atualizada."
+            exit 0
+          fi
+          git commit -m "Adicionar playlist turca do FreeIPTV"
+          git push
