@@ -3,6 +3,7 @@
 import argparse
 import copy
 import html
+from datetime import datetime, timedelta, timezone
 import re
 import unicodedata
 import xml.etree.ElementTree as ET
@@ -46,12 +47,47 @@ def has_non_turkish_script(value):
             return True
     return False
 
-def programme_is_turkish(programme):
+def programme_is_current(programme, now):
+    """Descarta EPG expirado ou excessivamente distante (ex.: feeds históricos)."""
+    def parse_xmltv(value):
+        value = (value or '').strip()
+        for fmt in ('%Y%m%d%H%M%S %z', '%Y%m%d%H%M%S',
+                    '%Y%m%d%H%M %z', '%Y%m%d%H%M'):
+            try:
+                parsed = datetime.strptime(value, fmt)
+                return parsed.replace(tzinfo=timezone.utc) if parsed.tzinfo is None else parsed.astimezone(timezone.utc)
+            except ValueError:
+                pass
+        return None
+
+    start = parse_xmltv(programme.get('start'))
+    stop = parse_xmltv(programme.get('stop'))
+    return bool(start and stop and stop > start and
+                stop > now - timedelta(hours=6) and
+                start < now + timedelta(days=14))
+
+
+STRICT_LANGUAGE_SOURCES = {
+    'teleonline-multilingue.xml',
+    'antifriz-multilingue.xml',
+    'admuspeh-multilingue.xml',
+    'gcdn-multilingue.xml',
+}
+
+
+def programme_is_turkish(programme, strict_language=False):
     # Não publica programas com idioma explicitamente diferente de turco
     # nem títulos/descrições escritos em japonês, chinês, coreano, cirílico,
     # árabe ou grego. Fontes usadas pelo workflow são específicas da Turquia.
     text_nodes = [node for node in programme.iter()
                   if node is not programme and (node.text or '').strip()]
+    titles = [node for node in text_nodes if node.tag == 'title']
+    descriptions = [node for node in text_nodes if node.tag in ('desc', 'sub-title')]
+    if not titles:
+        return False
+    if strict_language and any(not (node.get('lang') or '').strip().casefold().startswith('tr')
+                               for node in titles + descriptions):
+        return False
     for node in text_nodes:
         if not is_turkish_lang(node.get('lang')):
             return False
@@ -90,6 +126,7 @@ def main():
 
     records = playlist_records(args.playlist)
     source_channels, source_programmes, counts = {}, [], {}
+    now = datetime.now(timezone.utc)
     root_attrs = {}
     for source_path in args.input:
         root = ET.parse(source_path).getroot()
@@ -102,9 +139,12 @@ def main():
             if sid:
                 key = (source_path, sid)
                 source_channels[key] = channel
+        strict_language = Path(source_path).name in STRICT_LANGUAGE_SOURCES
         for programme in root.findall('programme'):
             source_key = (source_path, programme.get('channel'))
-            if not programme_is_turkish(programme):
+            if not programme_is_current(programme, now):
+                continue
+            if not programme_is_turkish(programme, strict_language=strict_language):
                 continue
             source_programmes.append((source_key, programme))
             counts[source_key] = counts.get(source_key, 0) + 1
