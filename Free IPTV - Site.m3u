@@ -471,3 +471,5 @@ https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Infantil",TRT Cocuk
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Infantil",BabyTV (backup 1)
+http://38.44.109.41:8003/play/a0eh
