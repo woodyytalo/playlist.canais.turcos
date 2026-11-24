@@ -2,7 +2,8 @@
 # Atualização de mapeamento XMLTV executada pelo workflow de EPG
 # Canais adicionados do Backup — números originais preservados
 
-#EXTINF:-1 group-title="INFANTIS",029 - BabyTV (backup 1)
+#EXTINF:-1 group-title="INFANTIS" tvg-name="BabyTV (backup 1)",BabyTV (backup 1)
+#EXTVLCOPT:network-caching=5000
 http://138.121.15.230:9002/BABY-TV/index.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11862 V, SR 16666, FEC 2/3
