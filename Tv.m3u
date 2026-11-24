@@ -258,7 +258,7 @@ https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12149 V, SR 27500, FEC 3/4
-#EXTINF:-1 tvg-chno="131" tvg-id="TRT1.tr@SD" tvg-name="TRT 1" group-title="ENTRETENIMENTO" tvg-language="Turkish",TRT 1
+#EXTINF:-1 tvg-chno="131" tvg-id="TRT1.tr@SD" tvg-name="TRT 1" group-title="TRT" tvg-language="Turkish",TRT 1
 #EXTVLCOPT:network-caching=5000
 https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 
@@ -281,7 +281,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/E
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11225 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-id="TRTGenc.tr@SD" tvg-chno="137" tvg-name="TRT Genç" group-title="ENTRETENIMENTO" tvg-language="Turkish",TRT Genç
+#EXTINF:-1 tvg-id="TRTGenc.tr@SD" tvg-chno="137" tvg-name="TRT Genç" group-title="TRT" tvg-language="Turkish",TRT Genç
 #EXTVLCOPT:network-caching=5000
 https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 
