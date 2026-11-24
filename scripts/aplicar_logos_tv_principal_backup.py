@@ -43,8 +43,8 @@ ALIASES = {
 def norm(value: str) -> str:
     value = unicodedata.normalize("NFKD", value or "")
     value = "".join(c for c in value if not unicodedata.combining(c)).lower()
-    value = re.sub(r"\\([^)]*\\)|\\[[^]]*\\]", " ", value)
-    value = re.sub(r"\\b(2160p|1440p|1080p|900p|720p|576p|540p|480p|360p|uhd|fhd|4k|hd|sd)\\b", " ", value)
+    value = re.sub(r"\([^)]*\)|\[[^]]*\]", " ", value)
+    value = re.sub(r"\b(2160p|1440p|1080p|900p|720p|576p|540p|480p|360p|uhd|fhd|4k|hd|sd)\b", " ", value)
     return re.sub(r"[^a-z0-9]", "", value)
 
 def parse_playlist(path: Path):
@@ -53,7 +53,7 @@ def parse_playlist(path: Path):
         if line.lstrip().startswith("#EXTINF"):
             meta = line
         elif meta and line.strip() and not line.lstrip().startswith("#"):
-            attrs = {k.lower(): v for k, v in re.findall(r'([\\w-]+)\\s*=\\s*"([^"]*)"', meta)}
+            attrs = {k.lower(): v for k, v in re.findall(r'([\w-]+)\s*=\s*"([^"]*)"', meta)}
             display = meta.split(",", 1)[1].strip() if "," in meta else ""
             name = attrs.get("tvg-name") or display
             entries.append({
@@ -69,7 +69,7 @@ def parse_playlist(path: Path):
 def local_files_by_backup_index():
     found = {}
     for path in LOGOS.iterdir():
-        m = re.match(r"^\\d{4} - (\\d{4})\\.(png|jpe?g|webp|svg)$", path.name, re.I)
+        m = re.match(r"^\d{4} - (\d{4})\.(png|jpe?g|webp|svg)$", path.name, re.I)
         if m:
             found.setdefault(int(m.group(1)), []).append(path)
     for index in found:
@@ -167,8 +167,8 @@ def main():
             ext_index += 1
             logo = replacements.get(ext_index)
             if logo:
-                if re.search(r'\\btvg-logo\\s*=', line, re.I):
-                    line = re.sub(r'\\btvg-logo\\s*=\\s*"[^"]*"', f'tvg-logo="{logo}"', line, count=1, flags=re.I)
+                if re.search(r'\btvg-logo\s*=', line, re.I):
+                    line = re.sub(r'\btvg-logo\s*=\s*"[^"]*"', f'tvg-logo="{logo}"', line, count=1, flags=re.I)
                 else:
                     line = re.sub(r",", f' tvg-logo="{logo}",', line, count=1)
         updated_lines.append(line)
@@ -176,12 +176,12 @@ def main():
         raise SystemExit(f"Validação falhou: {ext_index} entradas EXTINF.")
     # A única diferença permitida nas linhas EXTINF são os valores tvg-logo.
     def mask(text):
-        return re.sub(r'\\btvg-logo\\s*=\\s*"[^"]*"', 'tvg-logo="__LOGO__"', text, flags=re.I)
+        return re.sub(r'\btvg-logo\s*=\s*"[^"]*"', 'tvg-logo="__LOGO__"', text, flags=re.I)
     old_ext = [x for x in original_lines if x.startswith("#EXTINF:")]
     new_ext = [x for x in updated_lines if x.startswith("#EXTINF:")]
     if len(old_ext) != len(new_ext) or any(mask(a) != mask(b) for a, b in zip(old_ext, new_ext)):
         raise SystemExit("Validação detectou alteração em nome, categoria, ID ou metadados.")
-    PLAYLIST.write_text("\\n".join(updated_lines) + "\\n", encoding="utf-8")
+    PLAYLIST.write_text("\n".join(updated_lines) + "\n", encoding="utf-8")
     print(f"Logos aplicadas: {len(replacements)}/213")
     print(f"Novas imagens baixadas exclusivamente do Backup.m3u: {len(added)}")
     print(f"Sem correspondência no Backup: {len(missing)}")
