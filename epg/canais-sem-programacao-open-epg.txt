@@ -1,8 +1,8 @@
 Relatório XMLTV — epg/guia-open-epg.xml
 Canais na playlist: 213
-Canais com programação real: 72
-Canais sem programação correspondente: 141
-Programas reais copiados: 7975
+Canais com programação real: 73
+Canais sem programação correspondente: 140
+Programas reais copiados: 7888
 
 CANAIS SEM PROGRAMAÇÃO:
 - Lider Haber | ID: liderhaber.local | Categoria: NOTÍCIAS
@@ -18,7 +18,6 @@ CANAIS SEM PROGRAMAÇÃO:
 - Kanal D Drama | ID: KanalDDrama.tr@SD | Categoria: ENTRETENIMENTO
 - Show Max | ID: 8xihgna8cyvdnyd | Categoria: ENTRETENIMENTO
 - Euro Star TV | ID: 76711 | Categoria: ENTRETENIMENTO
-- HT Spor TV | ID: HTSporTV.tr@SD | Categoria: ESPORTES
 - TAY TV | ID: jgxiih7f6yhagpj | Categoria: ESPORTES
 - TJK TV | ID: TJKTV.tr@SD | Categoria: ESPORTES
 - Ekol Sports | ID: ekolsports.local | Categoria: ESPORTES
