@@ -1,475 +1,475 @@
 #EXTM3U
-#EXTINF:-1 group-title="Notícias",24 TV
+#EXTINF:-1 group-title="Notícias",001 - 24 TV
 https://tv.ensonhaber.com/tv24/tv24.m3u8
-#EXTINF:-1 group-title="Notícias",360
+#EXTINF:-1 group-title="Notícias",002 - 360
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
-#EXTINF:-1 group-title="Notícias",A Haber
+#EXTINF:-1 group-title="Notícias",003 - A Haber
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
-#EXTINF:-1 group-title="Esportes",A Spor
+#EXTINF:-1 group-title="Esportes",004 - A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
-#EXTINF:-1 group-title="Geral",A2TV
+#EXTINF:-1 group-title="Geral",005 - A2TV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
-#EXTINF:-1 group-title="Geral",Ada TV
+#EXTINF:-1 group-title="Geral",006 - Ada TV
 https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Aksu TV
+#EXTINF:-1 group-title="Geral",007 - Aksu TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
-#EXTINF:-1 group-title="Religioso",Al-Zahra TV Turkic
+#EXTINF:-1 group-title="Religioso",008 - Al-Zahra TV Turkic
 https://live.al-zahratv.com/live/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Alanya Posta TV
+#EXTINF:-1 group-title="Geral",009 - Alanya Posta TV
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Altas TV
+#EXTINF:-1 group-title="Geral",010 - Altas TV
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Anadolu Net TV
+#EXTINF:-1 group-title="Geral",011 - Anadolu Net TV
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Aras TV
+#EXTINF:-1 group-title="Geral",012 - Aras TV
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
-#EXTINF:-1 group-title="Notícias",AS TV
+#EXTINF:-1 group-title="Notícias",013 - AS TV
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",ATV
+#EXTINF:-1 group-title="Geral",014 - ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
-#EXTINF:-1 group-title="Geral",ATV Alanya
+#EXTINF:-1 group-title="Geral",015 - ATV Alanya
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",ATV Avrupa
+#EXTINF:-1 group-title="Geral",016 - ATV Avrupa
 https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
-#EXTINF:-1 group-title="Automotivo",Automoto la chaine
+#EXTINF:-1 group-title="Automotivo",017 - Automoto la chaine
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/automoto/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Infantil",BabyFirst
+#EXTINF:-1 group-title="Infantil",018 - BabyFirst
 https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
-#EXTINF:-1 group-title="Infantil",BabyTV
+#EXTINF:-1 group-title="Infantil",019 - BabyTV
 https://saran-live.ercdn.net/babytv/index.m3u8
-#EXTINF:-1 group-title="Esportes",beIN Sports 1
+#EXTINF:-1 group-title="Esportes",020 - beIN Sports 1
 https://vg162.adcdsd123321.shop/7.m3u8
-#EXTINF:-1 group-title="Esportes",beIN Sports 1 Turk
+#EXTINF:-1 group-title="Esportes",021 - beIN Sports 1 Turk
 https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F300113394ceebba66c8ad
-#EXTINF:-1 group-title="Geral",Benguturk TV
+#EXTINF:-1 group-title="Geral",022 - Benguturk TV
 https://tv.ensonhaber.com/benguturk/benguturk.m3u8
-#EXTINF:-1 group-title="Geral",Beyaz TV
+#EXTINF:-1 group-title="Geral",023 - Beyaz TV
 https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
-#EXTINF:-1 group-title="Geral",Bir TV
+#EXTINF:-1 group-title="Geral",024 - Bir TV
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Negócios",Bloomberg HT
+#EXTINF:-1 group-title="Negócios",025 - Bloomberg HT
 https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
-#EXTINF:-1 group-title="Geral",Bric ve Satranc TV
+#EXTINF:-1 group-title="Geral",026 - Bric ve Satranc TV
 http://139.162.182.79/live/test/index.m3u8
-#EXTINF:-1 group-title="Geral",BRTV
+#EXTINF:-1 group-title="Geral",027 - BRTV
 https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Bursa TV
+#EXTINF:-1 group-title="Geral",028 - Bursa TV
 https://win1.yayin.com.tr/bursatv/bursatv/playlist.m3u8
-#EXTINF:-1 group-title="Infantil",Cartoon Network
+#EXTINF:-1 group-title="Infantil",029 - Cartoon Network
 http://176.65.153.40:6002/play/a013/index.m3u8
-#EXTINF:-1 group-title="Geral",Cay TV
+#EXTINF:-1 group-title="Geral",030 - Cay TV
 https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Cekmekoy TV
+#EXTINF:-1 group-title="Geral",031 - Cekmekoy TV
 https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
-#EXTINF:-1 group-title="Exterior",Chasse & Peche
+#EXTINF:-1 group-title="Exterior",032 - Chasse & Peche
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/chasse_et_peche/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Educação",Ciftci TV
+#EXTINF:-1 group-title="Educação",033 - Ciftci TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
-#EXTINF:-1 group-title="Negócios",CNBC-e
+#EXTINF:-1 group-title="Negócios",034 - CNBC-e
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
-#EXTINF:-1 group-title="Notícias",CNN Turk
+#EXTINF:-1 group-title="Notícias",035 - CNN Turk
 http://85.117.61.84/cnnturk/index.m3u8
-#EXTINF:-1 group-title="Geral",Deniz Postasi TV
+#EXTINF:-1 group-title="Geral",036 - Deniz Postasi TV
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
-#EXTINF:-1 group-title="Notícias",DHA
+#EXTINF:-1 group-title="Notícias",037 - DHA
 https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
-#EXTINF:-1 group-title="Ciência",Discovery Science Europe
+#EXTINF:-1 group-title="Ciência",038 - Discovery Science Europe
 http://37.49.224.5/stream/9/index.m3u8
-#EXTINF:-1 group-title="Infantil",Disney Jr.
+#EXTINF:-1 group-title="Infantil",039 - Disney Jr.
 https://saran-live.ercdn.net/disneyjunior/index.m3u8
-#EXTINF:-1 group-title="Religioso",Diyanet TV
+#EXTINF:-1 group-title="Religioso",040 - Diyanet TV
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
-#EXTINF:-1 group-title="Religioso",Diyar TV
+#EXTINF:-1 group-title="Religioso",041 - Diyar TV
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
-#EXTINF:-1 group-title="Religioso",Dost TV
+#EXTINF:-1 group-title="Religioso",042 - Dost TV
 https://dost.stream.emsal.im/tv/live.m3u8
-#EXTINF:-1 group-title="Música",Dream Turk
+#EXTINF:-1 group-title="Música",043 - Dream Turk
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 group-title="Entretenimento",Edessa TV
+#EXTINF:-1 group-title="Entretenimento",044 - Edessa TV
 https://canli.edessatv.com/hls/stream.m3u8
-#EXTINF:-1 group-title="Notícias",Ekoturk
+#EXTINF:-1 group-title="Notícias",045 - Ekoturk
 https://cdn.ekoturk.net/hls/master.m3u8
-#EXTINF:-1 group-title="Geral",ERTV
+#EXTINF:-1 group-title="Geral",046 - ERTV
 https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Erzurum Web TV
+#EXTINF:-1 group-title="Geral",047 - Erzurum Web TV
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
-#EXTINF:-1 group-title="Geral",ES TV
+#EXTINF:-1 group-title="Geral",048 - ES TV
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",ETV Kayseri
+#EXTINF:-1 group-title="Geral",049 - ETV Kayseri
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",ETV Manisa
+#EXTINF:-1 group-title="Geral",050 - ETV Manisa
 https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Notícias",24 TV (backup)
+#EXTINF:-1 group-title="Notícias",051 - 24 TV (backup)
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
-#EXTINF:-1 group-title="Notícias",AS TV (backup)
+#EXTINF:-1 group-title="Notícias",052 - AS TV (backup)
 https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Geral",ATV (360p)
+#EXTINF:-1 group-title="Geral",053 - ATV (360p)
 http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
-#EXTINF:-1 group-title="Geral",ATV Alanya (backup)
+#EXTINF:-1 group-title="Geral",054 - ATV Alanya (backup)
 http://stream2.taksimbilisim.com:1935/alanyatv/alanyatv.smil/playlist.m3u8
-#EXTINF:-1 group-title="Infantil",BabyFirst (backup 1)
+#EXTINF:-1 group-title="Infantil",055 - BabyFirst (backup 1)
 http://168.196.127.137:6001/play/a06j/index.m3u8
-#EXTINF:-1 group-title="Infantil",BabyFirst (backup 2)
+#EXTINF:-1 group-title="Infantil",056 - BabyFirst (backup 2)
 http://168.228.44.241:9997/play/a07u/index.m3u8
-#EXTINF:-1 group-title="Infantil",BabyFirst (backup 3)
+#EXTINF:-1 group-title="Infantil",057 - BabyFirst (backup 3)
 http://181.78.106.127:5000/play/a0sa/index.m3u8
-#EXTINF:-1 group-title="Infantil",BabyFirst (backup 4)
+#EXTINF:-1 group-title="Infantil",058 - BabyFirst (backup 4)
 https://jmp2.uk/plu-5ebac49ce4dc8b00078b23bc.m3u8
-#EXTINF:-1 group-title="Infantil",BabyFirst (backup 5)
+#EXTINF:-1 group-title="Infantil",059 - BabyFirst (backup 5)
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
-#EXTINF:-1 group-title="Infantil",BabyTV (backup 1)
+#EXTINF:-1 group-title="Infantil",060 - BabyTV (backup 1)
 http://138.121.15.230:9002/BABY-TV/index.m3u8
-#EXTINF:-1 group-title="Infantil",BabyTV (backup 2)
+#EXTINF:-1 group-title="Infantil",061 - BabyTV (backup 2)
 http://181.78.12.119:16123/play/ch01/index.m3u8
-#EXTINF:-1 group-title="Esportes",beIN Sports 1 Turk (backup)
+#EXTINF:-1 group-title="Esportes",062 - beIN Sports 1 Turk (backup)
 http://57.129.0.61:1990/stream/117/index.m3u8
-#EXTINF:-1 group-title="Notícias",Benguturk TV
+#EXTINF:-1 group-title="Notícias",063 - Benguturk TV
 http://185.234.111.229:8000/play/a05u
-#EXTINF:-1 group-title="Negócios",Bloomberg HT (backup 1)
+#EXTINF:-1 group-title="Negócios",064 - Bloomberg HT (backup 1)
 http://193.123.61.120:3000/kanal/bloomberght
-#EXTINF:-1 group-title="Negócios",Bloomberg HT (backup 2)
+#EXTINF:-1 group-title="Negócios",065 - Bloomberg HT (backup 2)
 https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
-#EXTINF:-1 group-title="Negócios",Bloomberg HT (backup 3)
+#EXTINF:-1 group-title="Negócios",066 - Bloomberg HT (backup 3)
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1
+#EXTINF:-1 group-title="Esportes",067 - Eurosport 1
 http://213.91.179.28:8000/play/a05y
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 1)
+#EXTINF:-1 group-title="Esportes",068 - Eurosport 1 (backup 1)
 http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 2)
+#EXTINF:-1 group-title="Esportes",069 - Eurosport 1 (backup 2)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 3)
+#EXTINF:-1 group-title="Esportes",070 - Eurosport 1 (backup 3)
 http://90.183.52.46:4000/play/a06v/index.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 4)
+#EXTINF:-1 group-title="Esportes",071 - Eurosport 1 (backup 4)
 http://88.212.7.14/live/esp1_hun/index.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 5)
+#EXTINF:-1 group-title="Esportes",072 - Eurosport 1 (backup 5)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_it/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 6)
+#EXTINF:-1 group-title="Esportes",073 - Eurosport 1 (backup 6)
 http://185.228.163.146:8000/play/a03z/index.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 7)
+#EXTINF:-1 group-title="Esportes",074 - Eurosport 1 (backup 7)
 http://89.44.231.73:7000/eurosport
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 8)
+#EXTINF:-1 group-title="Esportes",075 - Eurosport 1 (backup 8)
 https://s7.iptv-24.net/1439/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 9)
+#EXTINF:-1 group-title="Esportes",076 - Eurosport 1 (backup 9)
 http://87.238.211.217:2209/stream/99/index.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 10)
+#EXTINF:-1 group-title="Esportes",077 - Eurosport 1 (backup 10)
 http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 11)
+#EXTINF:-1 group-title="Esportes",078 - Eurosport 1 (backup 11)
 https://vavoo.alwaysdata.net/resolver.php?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F207886293750ec015d3e85
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 12)
+#EXTINF:-1 group-title="Esportes",079 - Eurosport 1 (backup 12)
 https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 1 (backup 13)
+#EXTINF:-1 group-title="Esportes",080 - Eurosport 1 (backup 13)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_en/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 2
+#EXTINF:-1 group-title="Esportes",081 - Eurosport 2
 http://213.91.179.28:8000/play/a04b
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 1)
+#EXTINF:-1 group-title="Esportes",082 - Eurosport 2 (backup 1)
 http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 2)
+#EXTINF:-1 group-title="Esportes",083 - Eurosport 2 (backup 2)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 3)
+#EXTINF:-1 group-title="Esportes",084 - Eurosport 2 (backup 3)
 http://46.244.99.71:8181/stream/74/index.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 4)
+#EXTINF:-1 group-title="Esportes",085 - Eurosport 2 (backup 4)
 http://88.212.7.14/live/esp2_hun/index.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 5)
+#EXTINF:-1 group-title="Esportes",086 - Eurosport 2 (backup 5)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_it/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 6)
+#EXTINF:-1 group-title="Esportes",087 - Eurosport 2 (backup 6)
 http://185.228.163.146:8000/play/a048/index.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 7)
+#EXTINF:-1 group-title="Esportes",088 - Eurosport 2 (backup 7)
 http://89.44.231.73:7000/eurosport2
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 8)
+#EXTINF:-1 group-title="Esportes",089 - Eurosport 2 (backup 8)
 https://s7.iptv-24.net/1452/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 9)
+#EXTINF:-1 group-title="Esportes",090 - Eurosport 2 (backup 9)
 http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 10)
+#EXTINF:-1 group-title="Esportes",091 - Eurosport 2 (backup 10)
 https://andro.mangeinde4.lat/checklist/androstreamlivees2.m3u8
-#EXTINF:-1 group-title="Esportes",Eurosport 2 (backup 11)
+#EXTINF:-1 group-title="Esportes",092 - Eurosport 2 (backup 11)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",FB TV
+#EXTINF:-1 group-title="Esportes",093 - FB TV
 http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
-#EXTINF:-1 group-title="Negócios",Finans Turk TV
+#EXTINF:-1 group-title="Negócios",094 - Finans Turk TV
 https://yayin30.haber100.com/live/finansturk/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Finest TV
+#EXTINF:-1 group-title="Geral",095 - Finest TV
 https://media.finest.tv/hls/live.m3u8
-#EXTINF:-1 group-title="Notícias",Flash Haber TV
+#EXTINF:-1 group-title="Notícias",096 - Flash Haber TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Fortuna TV
+#EXTINF:-1 group-title="Geral",097 - Fortuna TV
 https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Fortuna TV (backup)
+#EXTINF:-1 group-title="Geral",098 - Fortuna TV (backup)
 https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Entretenimento",FX
+#EXTINF:-1 group-title="Entretenimento",099 - FX
 https://saran-live.ercdn.net/fx/index.m3u8
-#EXTINF:-1 group-title="Geral",Guneydogu TV
+#EXTINF:-1 group-title="Geral",100 - Guneydogu TV
 https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Notícias",GZT
+#EXTINF:-1 group-title="Notícias",101 - GZT
 https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
-#EXTINF:-1 group-title="Notícias",Haber Global
+#EXTINF:-1 group-title="Notícias",102 - Haber Global
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
-#EXTINF:-1 group-title="Notícias",Haber61 TV
+#EXTINF:-1 group-title="Notícias",103 - Haber61 TV
 https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
-#EXTINF:-1 group-title="Notícias",Haber61 TV (backup)
+#EXTINF:-1 group-title="Notícias",104 - Haber61 TV (backup)
 https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
-#EXTINF:-1 group-title="Notícias",Haberturk TV
+#EXTINF:-1 group-title="Notícias",105 - Haberturk TV
 https://tv.ensonhaber.com/haberturk/haberturk.m3u8
-#EXTINF:-1 group-title="Notícias",Halk TV
+#EXTINF:-1 group-title="Notícias",106 - Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
-#EXTINF:-1 group-title="Esportes",HTSpor TV
+#EXTINF:-1 group-title="Esportes",107 - HTSpor TV
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
-#EXTINF:-1 group-title="Geral",Hunat TV
+#EXTINF:-1 group-title="Geral",108 - Hunat TV
 https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Hunat TV (backup)
+#EXTINF:-1 group-title="Geral",109 - Hunat TV (backup)
 https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Icel TV
+#EXTINF:-1 group-title="Geral",110 - Icel TV
 https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Notícias",Ilke TV
+#EXTINF:-1 group-title="Notícias",111 - Ilke TV
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
-#EXTINF:-1 group-title="Religioso",Imam Hussein TV 5
+#EXTINF:-1 group-title="Religioso",112 - Imam Hussein TV 5
 http://live.al-zahratv.com/live/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 12
+#EXTINF:-1 group-title="Geral",113 - Kanal 12
 https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 15
+#EXTINF:-1 group-title="Geral",114 - Kanal 15
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 23
+#EXTINF:-1 group-title="Geral",115 - Kanal 23
 https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 23 (backup)
+#EXTINF:-1 group-title="Geral",116 - Kanal 23 (backup)
 https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 26
+#EXTINF:-1 group-title="Geral",117 - Kanal 26
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 3
+#EXTINF:-1 group-title="Geral",118 - Kanal 3
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 3 (backup 1)
+#EXTINF:-1 group-title="Geral",119 - Kanal 3 (backup 1)
 https://waw2.artiyerelmedya.net/kanal3/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 3 (backup 2)
+#EXTINF:-1 group-title="Geral",120 - Kanal 3 (backup 2)
 http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 3 (backup 3)
+#EXTINF:-1 group-title="Geral",121 - Kanal 3 (backup 3)
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 32
+#EXTINF:-1 group-title="Geral",122 - Kanal 32
 https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 33
+#EXTINF:-1 group-title="Geral",123 - Kanal 33
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 34
+#EXTINF:-1 group-title="Geral",124 - Kanal 34
 https://vdo.digitalbox.xyz:3266/live/kanal34tvlive.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 58
+#EXTINF:-1 group-title="Geral",125 - Kanal 58
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 7
+#EXTINF:-1 group-title="Geral",126 - Kanal 7
 https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 7 (backup)
+#EXTINF:-1 group-title="Geral",127 - Kanal 7 (backup)
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
-#EXTINF:-1 group-title="Geral",Kanal 7 Avrupa
+#EXTINF:-1 group-title="Geral",128 - Kanal 7 Avrupa
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal D
+#EXTINF:-1 group-title="Geral",129 - Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
-#EXTINF:-1 group-title="Entretenimento",Kanal D Drama
+#EXTINF:-1 group-title="Entretenimento",130 - Kanal D Drama
 http://190.93.224.42/KANAL-D-DRAMA/index.m3u8
-#EXTINF:-1 group-title="Entretenimento",Kanal D Drama (backup 1)
+#EXTINF:-1 group-title="Entretenimento",131 - Kanal D Drama (backup 1)
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/KanalD.stream/playlist.m3u8
-#EXTINF:-1 group-title="Entretenimento",Kanal D Drama (backup 2)
+#EXTINF:-1 group-title="Entretenimento",132 - Kanal D Drama (backup 2)
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/KanalD_principal_SRT/playlist.m3u8
-#EXTINF:-1 group-title="Entretenimento",Kanal D Drama (backup 3)
+#EXTINF:-1 group-title="Entretenimento",133 - Kanal D Drama (backup 3)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kanal Firat
+#EXTINF:-1 group-title="Geral",134 - Kanal Firat
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
-#EXTINF:-1 group-title="Religioso",Kanal Hayat
+#EXTINF:-1 group-title="Religioso",135 - Kanal Hayat
 https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
-#EXTINF:-1 group-title="Geral",Kanal V
+#EXTINF:-1 group-title="Geral",136 - Kanal V
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kay TV
+#EXTINF:-1 group-title="Geral",137 - Kay TV
 https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kent Turk
+#EXTINF:-1 group-title="Geral",138 - Kent Turk
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kent Turk (backup)
+#EXTINF:-1 group-title="Geral",139 - Kent Turk (backup)
 https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Kocaeli TV
+#EXTINF:-1 group-title="Geral",140 - Kocaeli TV
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Konya Olay TV
+#EXTINF:-1 group-title="Geral",141 - Konya Olay TV
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
-#EXTINF:-1 group-title="Música",Kral Pop TV
+#EXTINF:-1 group-title="Música",142 - Kral Pop TV
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-#EXTINF:-1 group-title="Notícias",KRT
+#EXTINF:-1 group-title="Notícias",143 - KRT
 https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8
-#EXTINF:-1 group-title="Notícias",Kurdistan TV
+#EXTINF:-1 group-title="Notícias",144 - Kurdistan TV
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
-#EXTINF:-1 group-title="Religioso",Lalegul TV
+#EXTINF:-1 group-title="Religioso",145 - Lalegul TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
-#EXTINF:-1 group-title="Religioso",Lalegul TV (backup 1)
+#EXTINF:-1 group-title="Religioso",146 - Lalegul TV (backup 1)
 http://lalegultv.netmedya.net/hls/lalegultv.m3u8
-#EXTINF:-1 group-title="Religioso",Lalegul TV (backup 2)
+#EXTINF:-1 group-title="Religioso",147 - Lalegul TV (backup 2)
 http://lalegultv.netmedya.net/lalegul-tv/lalegultv.stream/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Life TV
+#EXTINF:-1 group-title="Geral",148 - Life TV
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Line TV
+#EXTINF:-1 group-title="Geral",149 - Line TV
 https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Natureza",Love Nature
+#EXTINF:-1 group-title="Natureza",150 - Love Nature
 https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8
-#EXTINF:-1 group-title="Natureza",Love Nature (backup 1)
+#EXTINF:-1 group-title="Natureza",151 - Love Nature (backup 1)
 http://88.212.15.50/live/test_love_nature_uhd_atktv/playlist.m3u8
-#EXTINF:-1 group-title="Natureza",Love Nature (backup 2)
+#EXTINF:-1 group-title="Natureza",152 - Love Nature (backup 2)
 http://88.212.15.50/live/test_lovenature/playlist.m3u8
-#EXTINF:-1 group-title="Natureza",Love Nature (backup 3)
+#EXTINF:-1 group-title="Natureza",153 - Love Nature (backup 3)
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
-#EXTINF:-1 group-title="Natureza",Love Nature (backup 4)
+#EXTINF:-1 group-title="Natureza",154 - Love Nature (backup 4)
 https://bamus-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Natureza",Love Nature (backup 5)
+#EXTINF:-1 group-title="Natureza",155 - Love Nature (backup 5)
 https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8
-#EXTINF:-1 group-title="Natureza",Love Nature (backup 6)
+#EXTINF:-1 group-title="Natureza",156 - Love Nature (backup 6)
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
-#EXTINF:-1 group-title="Natureza",Love Nature (backup 7)
+#EXTINF:-1 group-title="Natureza",157 - Love Nature (backup 7)
 https://vizioaaaa-blueantmedia-usa-vizio-pghll.amagi.tv/playlist/vizioAAAA-blueantmedia-usa-vizio/playlist.m3u8
-#EXTINF:-1 group-title="Natureza",Love Nature (backup 8)
+#EXTINF:-1 group-title="Natureza",158 - Love Nature (backup 8)
 https://amg01515-amg01515c26-xumo-us-4765.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Luys TV
+#EXTINF:-1 group-title="Geral",159 - Luys TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Manas TV
+#EXTINF:-1 group-title="Geral",160 - Manas TV
 http://120.70.60.179:9901/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=0
-#EXTINF:-1 group-title="Geral",Manas TV (backup)
+#EXTINF:-1 group-title="Geral",161 - Manas TV (backup)
 http://212.42.111.152:8080/hls/manas.m3u8
-#EXTINF:-1 group-title="Geral",MaviKaradeniz TV
+#EXTINF:-1 group-title="Geral",162 - MaviKaradeniz TV
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
-#EXTINF:-1 group-title="Geral",MC TV
+#EXTINF:-1 group-title="Geral",163 - MC TV
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 group-title="Geral",Meltem TV
+#EXTINF:-1 group-title="Geral",164 - Meltem TV
 https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Mercan TV
+#EXTINF:-1 group-title="Geral",165 - Mercan TV
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
-#EXTINF:-1 group-title="Infantil",Minika Cocuk
+#EXTINF:-1 group-title="Infantil",166 - Minika Cocuk
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
-#EXTINF:-1 group-title="Infantil",Minika Cocuk (backup)
+#EXTINF:-1 group-title="Infantil",167 - Minika Cocuk (backup)
 http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
-#EXTINF:-1 group-title="Infantil",Minika Go
+#EXTINF:-1 group-title="Infantil",168 - Minika Go
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
-#EXTINF:-1 group-title="Infantil",Minika Go (backup)
+#EXTINF:-1 group-title="Infantil",169 - Minika Go (backup)
 http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
-#EXTINF:-1 group-title="Entretenimento",MovieSmart Turk
+#EXTINF:-1 group-title="Entretenimento",170 - MovieSmart Turk
 http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
-#EXTINF:-1 group-title="Geral",MTurk TV
+#EXTINF:-1 group-title="Geral",171 - MTurk TV
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Entretenimento",MyZen TV
+#EXTINF:-1 group-title="Entretenimento",172 - MyZen TV
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/myzen_tv/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Entretenimento",MyZen TV (backup)
+#EXTINF:-1 group-title="Entretenimento",173 - MyZen TV (backup)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungit/playlist.m3u8
-#EXTINF:-1 group-title="Documentários",National Geographic
+#EXTINF:-1 group-title="Documentários",174 - National Geographic
 https://nord.ayakkabiparti.lol/natgeo/index.m3u8
-#EXTINF:-1 group-title="Documentários",National Geographic (backup)
+#EXTINF:-1 group-title="Documentários",175 - National Geographic (backup)
 https://saran-live.ercdn.net/natgeohd/index.m3u8
-#EXTINF:-1 group-title="Documentários",National Geographic Wild
+#EXTINF:-1 group-title="Documentários",176 - National Geographic Wild
 https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
-#EXTINF:-1 group-title="Documentários",National Geographic Wild (backup)
+#EXTINF:-1 group-title="Documentários",177 - National Geographic Wild (backup)
 https://saran-live.ercdn.net/natgeowild/index.m3u8
-#EXTINF:-1 group-title="Geral",NOW
+#EXTINF:-1 group-title="Geral",178 - NOW
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
-#EXTINF:-1 group-title="Notícias",NTV
+#EXTINF:-1 group-title="Notícias",179 - NTV
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
-#EXTINF:-1 group-title="Música",Number 1 Ask
+#EXTINF:-1 group-title="Música",180 - Number 1 Ask
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
-#EXTINF:-1 group-title="Música",Number 1 Damar
+#EXTINF:-1 group-title="Música",181 - Number 1 Damar
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
-#EXTINF:-1 group-title="Música",Number 1 Dance
+#EXTINF:-1 group-title="Música",182 - Number 1 Dance
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
-#EXTINF:-1 group-title="Música",Number 1 TV
+#EXTINF:-1 group-title="Música",183 - Number 1 TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",Number 1 TV (backup)
+#EXTINF:-1 group-title="Música",184 - Number 1 TV (backup)
 https://mn-nl.mncdn.com/blutv_nr12/live.m3u8
-#EXTINF:-1 group-title="Geral",OlayTurk TV
+#EXTINF:-1 group-title="Geral",185 - OlayTurk TV
 https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
-#EXTINF:-1 group-title="Geral",On4 TV
+#EXTINF:-1 group-title="Geral",186 - On4 TV
 https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Entretenimento",Persiana Turkiye
+#EXTINF:-1 group-title="Entretenimento",187 - Persiana Turkiye
 https://turkhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 group-title="Música",Power Dance
+#EXTINF:-1 group-title="Música",188 - Power Dance
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",Power Love
+#EXTINF:-1 group-title="Música",189 - Power Love
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",Power TV
+#EXTINF:-1 group-title="Música",190 - Power TV
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",Power TV (backup)
+#EXTINF:-1 group-title="Música",191 - Power TV (backup)
 https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
-#EXTINF:-1 group-title="Música",PowerTurk Akustik
+#EXTINF:-1 group-title="Música",192 - PowerTurk Akustik
 https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",PowerTurk Slow
+#EXTINF:-1 group-title="Música",193 - PowerTurk Slow
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",PowerTurk Taptaze
+#EXTINF:-1 group-title="Música",194 - PowerTurk Taptaze
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",PowerTurk TV
+#EXTINF:-1 group-title="Música",195 - PowerTurk TV
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",PowerTurk TV (backup 1)
+#EXTINF:-1 group-title="Música",196 - PowerTurk TV (backup 1)
 https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",PowerTurk TV (backup 2)
+#EXTINF:-1 group-title="Música",197 - PowerTurk TV (backup 2)
 https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",PowerTurk TV (backup 3)
+#EXTINF:-1 group-title="Música",198 - PowerTurk TV (backup 3)
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",RTG TV
+#EXTINF:-1 group-title="Geral",199 - RTG TV
 http://46.53.200.153:7777/play/a00u/index.m3u8
-#EXTINF:-1 group-title="Geral",RTG TV (backup 1)
+#EXTINF:-1 group-title="Geral",200 - RTG TV (backup 1)
 http://stream.mcquack.net/164/index.m3u8
-#EXTINF:-1 group-title="Geral",RTG TV (backup 2)
+#EXTINF:-1 group-title="Geral",201 - RTG TV (backup 2)
 http://31.148.48.15/RTG_HD/index.m3u8
-#EXTINF:-1 group-title="Geral",RTG TV (backup 3)
+#EXTINF:-1 group-title="Geral",202 - RTG TV (backup 3)
 http://31.148.48.15/RTG/index.m3u8
-#EXTINF:-1 group-title="Esportes",S Sport 2
+#EXTINF:-1 group-title="Esportes",203 - S Sport 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
-#EXTINF:-1 group-title="Religioso",Sat 7 Turk
+#EXTINF:-1 group-title="Religioso",204 - Sat 7 Turk
 https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist_dvr.m3u8
-#EXTINF:-1 group-title="Religioso",Sat 7 Turk (backup 1)
+#EXTINF:-1 group-title="Religioso",205 - Sat 7 Turk (backup 1)
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
-#EXTINF:-1 group-title="Religioso",Sat 7 Turk (backup 2)
+#EXTINF:-1 group-title="Religioso",206 - Sat 7 Turk (backup 2)
 https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist.m3u8
-#EXTINF:-1 group-title="Ciência",Science & Vie TV
+#EXTINF:-1 group-title="Ciência",207 - Science & Vie TV
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/science_et_vie/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Religioso",Semerkand TV
+#EXTINF:-1 group-title="Religioso",208 - Semerkand TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
-#EXTINF:-1 group-title="Música",Sercem TV
+#EXTINF:-1 group-title="Música",209 - Sercem TV
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
-#EXTINF:-1 group-title="Geral",Show Turk
+#EXTINF:-1 group-title="Geral",210 - Show Turk
 https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
-#EXTINF:-1 group-title="Notícias",Sozcu TV
+#EXTINF:-1 group-title="Notícias",211 - Sozcu TV
 https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8
-#EXTINF:-1 group-title="Infantil",Spacetoon Turkey
+#EXTINF:-1 group-title="Infantil",212 - Spacetoon Turkey
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
-#EXTINF:-1 group-title="Geral",Star TV
+#EXTINF:-1 group-title="Geral",213 - Star TV
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
-#EXTINF:-1 group-title="Natureza",Stingray Naturescape
+#EXTINF:-1 group-title="Natureza",214 - Stingray Naturescape
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883056
-#EXTINF:-1 group-title="Natureza",Stingray Naturescape (backup 1)
+#EXTINF:-1 group-title="Natureza",215 - Stingray Naturescape (backup 1)
 https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="Natureza",Stingray Naturescape (backup 2)
+#EXTINF:-1 group-title="Natureza",216 - Stingray Naturescape (backup 2)
 https://jmp2.uk/plu-5812bd9f249444e05d09cc4e.m3u8
-#EXTINF:-1 group-title="Geral",Sun RTV
+#EXTINF:-1 group-title="Geral",217 - Sun RTV
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Sun RTV (backup)
+#EXTINF:-1 group-title="Geral",218 - Sun RTV (backup)
 https://tr.socialsmart.tv/suntv/bant1/chunks.m3u8
-#EXTINF:-1 group-title="Notícias",TBMM TV
+#EXTINF:-1 group-title="Notícias",219 - TBMM TV
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
-#EXTINF:-1 group-title="Notícias",Tele 1
+#EXTINF:-1 group-title="Notícias",220 - Tele 1
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
-#EXTINF:-1 group-title="Geral",Tempo TV
+#EXTINF:-1 group-title="Geral",221 - Tempo TV
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
-#EXTINF:-1 group-title="Documentários",TGRT Belgesel
+#EXTINF:-1 group-title="Documentários",222 - TGRT Belgesel
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
-#EXTINF:-1 group-title="Notícias",TGRT Haber
+#EXTINF:-1 group-title="Notícias",223 - TGRT Haber
 https://canli.tgrthaber.com/tgrt.m3u8
-#EXTINF:-1 group-title="Notícias",TGRT Haber (backup)
+#EXTINF:-1 group-title="Notícias",224 - TGRT Haber (backup)
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
-#EXTINF:-1 group-title="Geral",Tivi 6
+#EXTINF:-1 group-title="Geral",225 - Tivi 6
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
-#EXTINF:-1 group-title="Esportes",TJK TV
+#EXTINF:-1 group-title="Esportes",226 - TJK TV
 https://tjktv-live.tjk.org/tjktv.m3u8
-#EXTINF:-1 group-title="Esportes",TJK TV 2
+#EXTINF:-1 group-title="Esportes",227 - TJK TV 2
 https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
-#EXTINF:-1 group-title="Geral",Ton TV
+#EXTINF:-1 group-title="Geral",228 - Ton TV
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
-#EXTINF:-1 group-title="Geral",TRT 1
+#EXTINF:-1 group-title="Geral",229 - TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Geral",TRT 2
+#EXTINF:-1 group-title="Geral",230 - TRT 2
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Geral",TRT 3
+#EXTINF:-1 group-title="Geral",231 - TRT 3
 https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F418740351278f04c94b243
-#EXTINF:-1 group-title="Geral",TRT 3 (backup)
+#EXTINF:-1 group-title="Geral",232 - TRT 3 (backup)
 https://tv-trt3.live.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Geral",TRT Arabi
+#EXTINF:-1 group-title="Geral",233 - TRT Arabi
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Geral",TRT Avaz
+#EXTINF:-1 group-title="Geral",234 - TRT Avaz
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Documentários",TRT Belgesel
+#EXTINF:-1 group-title="Documentários",235 - TRT Belgesel
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Infantil",TRT Cocuk
+#EXTINF:-1 group-title="Infantil",236 - TRT Cocuk
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Infantil",BabyTV (backup 1)
+#EXTINF:-1 group-title="Infantil",237 - BabyTV (backup 1)
 http://38.44.109.41:8003/play/a0eh
