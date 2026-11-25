@@ -1,148 +1,313 @@
 Relatório XMLTV — epg/guia-open-epg.xml
-Canais na playlist: 218
-Canais com programação real: 77
-Canais sem programação correspondente: 141
-Programas reais copiados: 10162
+Canais na playlist: 436
+Canais com programação real: 130
+Canais sem programação correspondente: 306
+Programas reais copiados: 19220
 
 CANAIS SEM PROGRAMAÇÃO:
 - Cartoon Network Türkiye | ID: cartoonnetworkturkiye.local | Categoria: INFANTIS
+- Cartoon Network Türkiye | ID: cartoonnetworkturkiye.local.duplicate2 | Categoria: INFANTIS
 - Spacetoon Türkiye | ID: spacetoonturkiye.local | Categoria: INFANTIS
+- Spacetoon Türkiye | ID: spacetoonturkiye.local.duplicate2 | Categoria: INFANTIS
+- TRT Diyanet Çocuk | ID: TRTDiyanetCocuk.tr@SD.duplicate2 | Categoria: INFANTIS
 - Zarok TV Kurmanji | ID: zaroktvkurmanji.local | Categoria: INFANTIS
+- Zarok TV Kurmanji | ID: zaroktvkurmanji.local.duplicate2 | Categoria: INFANTIS
 - Zarok TV Sorani | ID: zaroktvsorani.local | Categoria: INFANTIS
+- Zarok TV Sorani | ID: zaroktvsorani.local.duplicate2 | Categoria: INFANTIS
 - BabyFirst TV | ID: babyfirsttv.local | Categoria: INFANTIS
+- BabyFirst TV | ID: babyfirsttv.local.duplicate2 | Categoria: INFANTIS
 - Lider Haber | ID: liderhaber.local | Categoria: NOTÍCIAS
+- Lider Haber | ID: liderhaber.local.duplicate2 | Categoria: NOTÍCIAS
 - Bloomberg HT 2 | ID: bloomberght2.local | Categoria: NOTÍCIAS
+- Bloomberg HT 2 | ID: bloomberght2.local.duplicate2 | Categoria: NOTÍCIAS
 - DHA | ID: DHA.tr@SD | Categoria: NOTÍCIAS
+- DHA | ID: DHA.tr@SD.duplicate2 | Categoria: NOTÍCIAS
 - Haber61 TV | ID: Haber61TV.tr@SD | Categoria: NOTÍCIAS
+- Haber61 TV | ID: Haber61TV.tr@SD.duplicate2 | Categoria: NOTÍCIAS
 - İlke TV | ID: IlkeTV.tr@HD | Categoria: NOTÍCIAS
+- İlke TV | ID: IlkeTV.tr@HD.duplicate2 | Categoria: NOTÍCIAS
+- TürkHaber | ID: TurkHaberTV.tr@SD.duplicate2 | Categoria: NOTÍCIAS
+- Sözcü TV | ID: SozcuTV.tr@SD.duplicate2 | Categoria: NOTÍCIAS
 - Ekol TV | ID: 3kluptlla8k8re0 | Categoria: NOTÍCIAS
+- Ekol TV | ID: 3kluptlla8k8re0.duplicate2 | Categoria: NOTÍCIAS
+- GZT | ID: GZT.tr@SD.duplicate2 | Categoria: NOTÍCIAS
+- TYT TÜRK | ID: TYT.TÜRK.tr.duplicate2 | Categoria: NOTÍCIAS
 - Life TV | ID: LifeTV.tr@SD | Categoria: NOTÍCIAS
+- Life TV | ID: LifeTV.tr@SD.duplicate2 | Categoria: NOTÍCIAS
+- KRT | ID: KRT.tr@SD.duplicate2 | Categoria: NOTÍCIAS
+- 360 TV | ID: 360.tr@SD.duplicate2 | Categoria: ENTRETENIMENTO
 - 4U TV | ID: 4UTV.tr@SD | Categoria: ENTRETENIMENTO
+- 4U TV | ID: 4UTV.tr@SD.duplicate2 | Categoria: ENTRETENIMENTO
 - Bi Kanal | ID: bikanal.local | Categoria: ENTRETENIMENTO
+- Bi Kanal | ID: bikanal.local.duplicate2 | Categoria: ENTRETENIMENTO
+- Bir TV | ID: BirTV.tr@SD.duplicate2 | Categoria: ENTRETENIMENTO
+- Euro D | ID: EuroD.tr@SD.duplicate2 | Categoria: ENTRETENIMENTO
 - Kanal 7 Avrupa | ID: Kanal7Avrupa.tr@SD | Categoria: ENTRETENIMENTO
+- Kanal 7 Avrupa | ID: Kanal7Avrupa.tr@SD.duplicate2 | Categoria: ENTRETENIMENTO
 - Kanal D Drama | ID: KanalDDrama.tr@SD | Categoria: ENTRETENIMENTO
+- Kanal D Drama | ID: KanalDDrama.tr@SD.duplicate2 | Categoria: ENTRETENIMENTO
+- NOW | ID: Now.tr.duplicate2 | Categoria: ENTRETENIMENTO
+- TV4 | ID: TV4.tr@SD.duplicate2 | Categoria: ENTRETENIMENTO
+- TRT Genç | ID: TRTGenc.tr@SD.duplicate2 | Categoria: ENTRETENIMENTO
 - CİNE1 | ID: jgskjh5s5asjefn | Categoria: FILMES E SÉRIES
+- CİNE1 | ID: jgskjh5s5asjefn.duplicate2 | Categoria: FILMES E SÉRIES
 - Grand Cinema | ID: GrandCinema.tr | Categoria: FILMES E SÉRIES
+- Grand Cinema | ID: GrandCinema.tr.duplicate2 | Categoria: FILMES E SÉRIES
 - Tabii | ID: TABİİ.tr | Categoria: FILMES E SÉRIES
+- Tabii | ID: TABİİ.tr.duplicate2 | Categoria: FILMES E SÉRIES
 - Arzu Film | ID: arzufilm.local | Categoria: FILMES E SÉRIES
+- Arzu Film | ID: arzufilm.local.duplicate2 | Categoria: FILMES E SÉRIES
 - Dizi TV | ID: dizitv.local | Categoria: FILMES E SÉRIES
+- Dizi TV | ID: dizitv.local.duplicate2 | Categoria: FILMES E SÉRIES
+- TRT EBA Ortaokul | ID: TRTEBA.tr@SD.duplicate2 | Categoria: CULTURA/EDUCAÇÃO
 - Finest TV | ID: FinestTV.de@SD | Categoria: MÚSICA
+- Finest TV | ID: FinestTV.de@SD.duplicate2 | Categoria: MÚSICA
 - 1Mus | ID: 1mus.local | Categoria: MÚSICA
+- 1Mus | ID: 1mus.local.duplicate2 | Categoria: MÚSICA
 - 30A Music | ID: 30amusic.local | Categoria: MÚSICA
+- 30A Music | ID: 30amusic.local.duplicate2 | Categoria: MÚSICA
+- TMB TV | ID: TMBTV.tr.duplicate2 | Categoria: MÚSICA
 - Med Müzik | ID: MedMuzik.tr@SD | Categoria: MÚSICA
+- Med Müzik | ID: MedMuzik.tr@SD.duplicate2 | Categoria: MÚSICA
 - Play TV | ID: playtv.local | Categoria: MÚSICA
+- Play TV | ID: playtv.local.duplicate2 | Categoria: MÚSICA
 - NR1 Aşk | ID: Number1Ask.tr@SD | Categoria: MÚSICA
+- NR1 Aşk | ID: Number1Ask.tr@SD.duplicate2 | Categoria: MÚSICA
 - NR1 Damar | ID: Number1Damar.tr@SD | Categoria: MÚSICA
+- NR1 Damar | ID: Number1Damar.tr@SD.duplicate2 | Categoria: MÚSICA
 - NR1 Dance | ID: Number1Dance.tr@SD | Categoria: MÚSICA
+- NR1 Dance | ID: Number1Dance.tr@SD.duplicate2 | Categoria: MÚSICA
 - Number 1 TV | ID: Number1TV.tr@SD | Categoria: MÚSICA
+- Number 1 TV | ID: Number1TV.tr@SD.duplicate2 | Categoria: MÚSICA
 - Power Dance TV | ID: PowerDance.tr@SD | Categoria: MÚSICA
+- Power Dance TV | ID: PowerDance.tr@SD.duplicate2 | Categoria: MÚSICA
 - Power Love TV | ID: powerlovetv.local | Categoria: MÚSICA
+- Power Love TV | ID: powerlovetv.local.duplicate2 | Categoria: MÚSICA
 - PowerTürk Taptaze | ID: PowerTurkTaptaze.tr@SD | Categoria: MÚSICA
+- PowerTürk Taptaze | ID: PowerTurkTaptaze.tr@SD.duplicate2 | Categoria: MÚSICA
 - KRAL POP | ID: Kral.Pop.Radyo.tr | Categoria: MÚSICA
+- KRAL POP | ID: Kral.Pop.Radyo.tr.duplicate2 | Categoria: MÚSICA
 - NR1 FASHION ONE | ID: nr1fashionone.local | Categoria: MÚSICA
+- NR1 FASHION ONE | ID: nr1fashionone.local.duplicate2 | Categoria: MÚSICA
 - PowerTürk TV | ID: PowerTurkTV.tr@SD | Categoria: MÚSICA
+- PowerTürk TV | ID: PowerTurkTV.tr@SD.duplicate2 | Categoria: MÚSICA
 - KN Music TV | ID: knmusictv.local | Categoria: MÚSICA
+- KN Music TV | ID: knmusictv.local.duplicate2 | Categoria: MÚSICA
 - Dost | ID: dost.local | Categoria: MÚSICA
+- Dost | ID: dost.local.duplicate2 | Categoria: MÚSICA
 - Company TV | ID: companytv.local | Categoria: MÚSICA
+- Company TV | ID: companytv.local.duplicate2 | Categoria: MÚSICA
 - Güçlü TV | ID: guclutv.local | Categoria: MÚSICA
+- Güçlü TV | ID: guclutv.local.duplicate2 | Categoria: MÚSICA
 - Now 70 s | ID: now70s.local | Categoria: MÚSICA
+- Now 70 s | ID: now70s.local.duplicate2 | Categoria: MÚSICA
 - Now 80 s | ID: now80s.local | Categoria: MÚSICA
+- Now 80 s | ID: now80s.local.duplicate2 | Categoria: MÚSICA
 - NOW ROCK | ID: nowrock.local | Categoria: MÚSICA
+- NOW ROCK | ID: nowrock.local.duplicate2 | Categoria: MÚSICA
 - IQ Channel | ID: iqchannel.local | Categoria: MÚSICA
+- IQ Channel | ID: iqchannel.local.duplicate2 | Categoria: MÚSICA
 - TopPop | ID: toppop.local | Categoria: MÚSICA
+- TopPop | ID: toppop.local.duplicate2 | Categoria: MÚSICA
 - Retro Music Television | ID: retromusictelevision.local | Categoria: MÚSICA
+- Retro Music Television | ID: retromusictelevision.local.duplicate2 | Categoria: MÚSICA
+- Power TV (720p) | ID: PowerTV.tr.duplicate2 | Categoria: MÚSICA
 - TAY TV | ID: jgxiih7f6yhagpj | Categoria: ESPORTES
+- TAY TV | ID: jgxiih7f6yhagpj.duplicate2 | Categoria: ESPORTES
 - TJK TV | ID: TJKTV.tr@SD | Categoria: ESPORTES
+- TJK TV | ID: TJKTV.tr@SD.duplicate2 | Categoria: ESPORTES
 - Ekol Sports | ID: ekolsports.local | Categoria: ESPORTES
+- Ekol Sports | ID: ekolsports.local.duplicate2 | Categoria: ESPORTES
+- Çiftçi TV | ID: CiftciTV.tr@SD.duplicate2 | Categoria: ESTILO DE VIDA
 - FASHION ONE | ID: fashionone.local | Categoria: ESTILO DE VIDA
+- FASHION ONE | ID: fashionone.local.duplicate2 | Categoria: ESTILO DE VIDA
 - MOR TV | ID: mortv.local | Categoria: ESTILO DE VIDA
+- MOR TV | ID: mortv.local.duplicate2 | Categoria: ESTILO DE VIDA
 - Fortuna TV | ID: fortunatv.local | Categoria: ESTILO DE VIDA
+- Fortuna TV | ID: fortunatv.local.duplicate2 | Categoria: ESTILO DE VIDA
 - Al Zahra TV Turkic | ID: AlZahraTVTurkic.tr@SD | Categoria: RELIGIOSOS
+- Al Zahra TV Turkic | ID: AlZahraTVTurkic.tr@SD.duplicate2 | Categoria: RELIGIOSOS
 - Diyar TV | ID: DiyarTV.tr@SD | Categoria: RELIGIOSOS
+- Diyar TV | ID: DiyarTV.tr@SD.duplicate2 | Categoria: RELIGIOSOS
 - Dost TV | ID: DostTV.tr@SD | Categoria: RELIGIOSOS
+- Dost TV | ID: DostTV.tr@SD.duplicate2 | Categoria: RELIGIOSOS
+- Meltem TV | ID: MeltemTV.tr@SD.duplicate2 | Categoria: RELIGIOSOS
 - MUKABELE TV | ID: mukabeletv.local | Categoria: RELIGIOSOS
+- MUKABELE TV | ID: mukabeletv.local.duplicate2 | Categoria: RELIGIOSOS
 - Rehber TV | ID: rehbertv.local | Categoria: RELIGIOSOS
+- Rehber TV | ID: rehbertv.local.duplicate2 | Categoria: RELIGIOSOS
 - Sat7 Türk | ID: Sat7Turk.cy@SD | Categoria: RELIGIOSOS
+- Sat7 Türk | ID: Sat7Turk.cy@SD.duplicate2 | Categoria: RELIGIOSOS
 - Sercem TV | ID: SercemTV.tr@HD | Categoria: RELIGIOSOS
+- Sercem TV | ID: SercemTV.tr@HD.duplicate2 | Categoria: RELIGIOSOS
 - MADINAH TV | ID: madinahtv.local | Categoria: RELIGIOSOS
+- MADINAH TV | ID: madinahtv.local.duplicate2 | Categoria: RELIGIOSOS
 - ABN TURKEY | ID: abnturkey.local | Categoria: RELIGIOSOS
+- ABN TURKEY | ID: abnturkey.local.duplicate2 | Categoria: RELIGIOSOS
 - MAKKAH TV | ID: makkahtv.local | Categoria: RELIGIOSOS
+- MAKKAH TV | ID: makkahtv.local.duplicate2 | Categoria: RELIGIOSOS
 - Show Max | ID: 8xihgna8cyvdnyd | Categoria: INTERNACIONAIS
+- Show Max | ID: 8xihgna8cyvdnyd.duplicate2 | Categoria: INTERNACIONAIS
 - Euro Star TV | ID: 76711 | Categoria: INTERNACIONAIS
+- Euro Star TV | ID: 76711.duplicate2 | Categoria: INTERNACIONAIS
 - Mekameleen TV | ID: MekameleenTV.tr@SD | Categoria: INTERNACIONAIS
+- Mekameleen TV | ID: MekameleenTV.tr@SD.duplicate2 | Categoria: INTERNACIONAIS
 - Almahriah TV | ID: AlmahriahTV.tr@SD | Categoria: INTERNACIONAIS
+- Almahriah TV | ID: AlmahriahTV.tr@SD.duplicate2 | Categoria: INTERNACIONAIS
 - Elsharq TV | ID: ElsharqTV.tr@SD | Categoria: INTERNACIONAIS
+- Elsharq TV | ID: ElsharqTV.tr@SD.duplicate2 | Categoria: INTERNACIONAIS
 - Kanal Avrupa | ID: KanalAvrupa.tr | Categoria: INTERNACIONAIS
+- Kanal Avrupa | ID: KanalAvrupa.tr.duplicate2 | Categoria: INTERNACIONAIS
 - Syria TV | ID: 448568 | Categoria: INTERNACIONAIS
+- Syria TV | ID: 448568.duplicate2 | Categoria: INTERNACIONAIS
 - Balkan Türk | ID: balkanturk.local | Categoria: INTERNACIONAIS
+- Balkan Türk | ID: balkanturk.local.duplicate2 | Categoria: INTERNACIONAIS
 - Thaqalayn TV | ID: ThaqalaynTV.tr@SD | Categoria: INTERNACIONAIS
+- Thaqalayn TV | ID: ThaqalaynTV.tr@SD.duplicate2 | Categoria: INTERNACIONAIS
 - RTG International | ID: rtginternational.local | Categoria: INTERNACIONAIS
+- RTG International | ID: rtginternational.local.duplicate2 | Categoria: INTERNACIONAIS
 - MC EU TV | ID: MCTV.de@HD | Categoria: INTERNACIONAIS
+- MC EU TV | ID: MCTV.de@HD.duplicate2 | Categoria: INTERNACIONAIS
 - Persiana Türkiye | ID: PersianaTurkiye.fr@SD | Categoria: INTERNACIONAIS
+- Persiana Türkiye | ID: PersianaTurkiye.fr@SD.duplicate2 | Categoria: INTERNACIONAIS
 - INTV Australia | ID: INTVAustralia.au@SD | Categoria: INTERNACIONAIS
+- INTV Australia | ID: INTVAustralia.au@SD.duplicate2 | Categoria: INTERNACIONAIS
 - İSVİÇRE TV | ID: isvicretv.local | Categoria: INTERNACIONAIS
+- İSVİÇRE TV | ID: isvicretv.local.duplicate2 | Categoria: INTERNACIONAIS
 - JÎN TV | ID: JinTV.nl@SD | Categoria: INTERNACIONAIS
+- JÎN TV | ID: JinTV.nl@SD.duplicate2 | Categoria: INTERNACIONAIS
 - 4U Family (persa) | ID: 4UFamily.tr | Categoria: INTERNACIONAIS
+- 4U Family (persa) | ID: 4UFamily.tr.duplicate2 | Categoria: INTERNACIONAIS
 - Luys TV | ID: LuysTV.tr@SD | Categoria: INTERNACIONAIS
+- Luys TV | ID: LuysTV.tr@SD.duplicate2 | Categoria: INTERNACIONAIS
+- AS TV | ID: ASTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Aksu TV | ID: AksuTV.tr@SD | Categoria: REGIONAIS
+- Aksu TV | ID: AksuTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Alanya Posta TV | ID: AlanyaPostaTV.tr@SD | Categoria: REGIONAIS
+- Alanya Posta TV | ID: AlanyaPostaTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Altas TV | ID: AltasTV.tr@SD | Categoria: REGIONAIS
+- Altas TV | ID: AltasTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Anadolu TV | ID: anadolutv.local | Categoria: REGIONAIS
+- Anadolu TV | ID: anadolutv.local.duplicate2 | Categoria: REGIONAIS
 - ARAS TV | ID: ArasTV.tr@SD | Categoria: REGIONAIS
+- ARAS TV | ID: ArasTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - ATV Alanya | ID: ATVAlanya.tr@SD | Categoria: REGIONAIS
+- ATV Alanya | ID: ATVAlanya.tr@SD.duplicate2 | Categoria: REGIONAIS
 - BRTV Karabük | ID: brtvkarabuk.local | Categoria: REGIONAIS
+- BRTV Karabük | ID: brtvkarabuk.local.duplicate2 | Categoria: REGIONAIS
 - Çay TV | ID: CayTV.tr@SD | Categoria: REGIONAIS
+- Çay TV | ID: CayTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Deniz Postası TV | ID: DenizPostasiTV.tr@SD | Categoria: REGIONAIS
+- Deniz Postası TV | ID: DenizPostasiTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Dim TV | ID: dimtv.local | Categoria: REGIONAIS
+- Dim TV | ID: dimtv.local.duplicate2 | Categoria: REGIONAIS
 - Edessa TV | ID: EdessaTV.tr@SD | Categoria: REGIONAIS
+- Edessa TV | ID: EdessaTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - ER TV Malatya | ID: ertvmalatya.local | Categoria: REGIONAIS
+- ER TV Malatya | ID: ertvmalatya.local.duplicate2 | Categoria: REGIONAIS
 - Erciyes TV | ID: erciyestv.local | Categoria: REGIONAIS
+- Erciyes TV | ID: erciyestv.local.duplicate2 | Categoria: REGIONAIS
 - Erzurum Web TV | ID: ErzurumWebTV.tr@SD | Categoria: REGIONAIS
+- Erzurum Web TV | ID: ErzurumWebTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - ES TV | ID: ESTV.tr@SD | Categoria: REGIONAIS
+- ES TV | ID: ESTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - ETV | ID: ETVKayseri.tr@SD | Categoria: REGIONAIS
+- ETV | ID: ETVKayseri.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Ezgi TV | ID: ezgitv.local | Categoria: REGIONAIS
+- Ezgi TV | ID: ezgitv.local.duplicate2 | Categoria: REGIONAIS
 - FRT TV | ID: KanalFirat.tr@SD | Categoria: REGIONAIS
+- FRT TV | ID: KanalFirat.tr@SD.duplicate2 | Categoria: REGIONAIS
 - GRT Gaziantep TV | ID: grtgazianteptv.local | Categoria: REGIONAIS
+- GRT Gaziantep TV | ID: grtgazianteptv.local.duplicate2 | Categoria: REGIONAIS
 - Güneydoğu TV | ID: GuneydoguTV.tr@SD | Categoria: REGIONAIS
+- Güneydoğu TV | ID: GuneydoguTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Hunat TV | ID: HunatTV.tr@SD | Categoria: REGIONAIS
+- Hunat TV | ID: HunatTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - İçel TV | ID: IcelTV.tr@SD | Categoria: REGIONAIS
+- İçel TV | ID: IcelTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Kardelen TV | ID: KardelenTV.tr | Categoria: REGIONAIS
+- Kardelen TV | ID: KardelenTV.tr.duplicate2 | Categoria: REGIONAIS
 - İzmir Time 35 TV | ID: izmirtime35tv.local | Categoria: REGIONAIS
+- İzmir Time 35 TV | ID: izmirtime35tv.local.duplicate2 | Categoria: REGIONAIS
 - K+ Kayseri | ID: kkayseri.local | Categoria: REGIONAIS
+- K+ Kayseri | ID: kkayseri.local.duplicate2 | Categoria: REGIONAIS
 - Kanal 12 | ID: Kanal12.tr@SD | Categoria: REGIONAIS
+- Kanal 12 | ID: Kanal12.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Kanal 15 | ID: Kanal15.tr@SD | Categoria: REGIONAIS
+- Kanal 15 | ID: Kanal15.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Kanal 19 | ID: kanal19.local | Categoria: REGIONAIS
+- Kanal 19 | ID: kanal19.local.duplicate2 | Categoria: REGIONAIS
+- Kanal 23 | ID: Kanal23.tr@SD.duplicate2 | Categoria: REGIONAIS
+- Kanal 26 Eskişehir | ID: Kanal26.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Kanal 3 | ID: Kanal3.tr@SD | Categoria: REGIONAIS
+- Kanal 3 | ID: Kanal3.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Kanal 32 | ID: Kanal32.tr@SD | Categoria: REGIONAIS
+- Kanal 32 | ID: Kanal32.tr@SD.duplicate2 | Categoria: REGIONAIS
+- Kanal 33 | ID: Kanal33.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Kanal 34 | ID: Kanal34.tr@SD | Categoria: REGIONAIS
+- Kanal 34 | ID: Kanal34.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Kanal 53 | ID: kanal53.local | Categoria: REGIONAIS
+- Kanal 53 | ID: kanal53.local.duplicate2 | Categoria: REGIONAIS
 - Kanal 58 | ID: Kanal58.tr@SD | Categoria: REGIONAIS
-- Kanal Fırat | ID: KanalFirat.tr@SD.duplicate2 | Categoria: REGIONAIS
+- Kanal 58 | ID: Kanal58.tr@SD.duplicate2 | Categoria: REGIONAIS
+- Kanal Fırat | ID: KanalFirat.tr@SD.duplicate3 | Categoria: REGIONAIS
+- Kanal Fırat | ID: KanalFirat.tr@SD.duplicate4 | Categoria: REGIONAIS
+- Kanal V | ID: KanalV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Kay TV | ID: KayTV.tr@SD | Categoria: REGIONAIS
+- Kay TV | ID: KayTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Kayhan TV | ID: kayhantv.local | Categoria: REGIONAIS
+- Kayhan TV | ID: kayhantv.local.duplicate2 | Categoria: REGIONAIS
 - Kent Türk TV | ID: KentTurk.tr@SD | Categoria: REGIONAIS
+- Kent Türk TV | ID: KentTurk.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Kocaeli TV | ID: KocaeliTV.tr@SD | Categoria: REGIONAIS
+- Kocaeli TV | ID: KocaeliTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Konya KTV | ID: konyaktv.local | Categoria: REGIONAIS
+- Konya KTV | ID: konyaktv.local.duplicate2 | Categoria: REGIONAIS
 - Konya Olay TV | ID: KonyaOlayTV.tr@SD | Categoria: REGIONAIS
+- Konya Olay TV | ID: KonyaOlayTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Mercan TV | ID: MercanTV.tr@SD | Categoria: REGIONAIS
+- Mercan TV | ID: MercanTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - MTürk TV | ID: MTurkTV.tr@SD | Categoria: REGIONAIS
+- MTürk TV | ID: MTurkTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Tempo TV | ID: TempoTV.tr@SD | Categoria: REGIONAIS
+- Tempo TV | ID: TempoTV.tr@SD.duplicate2 | Categoria: REGIONAIS
+- Tivi 6 | ID: Tivi6.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Ton TV | ID: TonTV.tr@SD | Categoria: REGIONAIS
+- Ton TV | ID: TonTV.tr@SD.duplicate2 | Categoria: REGIONAIS
+- TV 1 | ID: TV1.tr@SD.duplicate2 | Categoria: REGIONAIS
 - TV 264 | ID: TV264.tr@SD | Categoria: REGIONAIS
+- TV 264 | ID: TV264.tr@SD.duplicate2 | Categoria: REGIONAIS
 - TV 41 | ID: TV41.tr@SD | Categoria: REGIONAIS
+- TV 41 | ID: TV41.tr@SD.duplicate2 | Categoria: REGIONAIS
 - TV 52 | ID: TV52.tr@SD | Categoria: REGIONAIS
+- TV 52 | ID: TV52.tr@SD.duplicate2 | Categoria: REGIONAIS
 - TV DEN | ID: TVDen.tr@SD | Categoria: REGIONAIS
+- TV DEN | ID: TVDen.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Vuslat TV | ID: vuslattv.local | Categoria: REGIONAIS
+- Vuslat TV | ID: vuslattv.local.duplicate2 | Categoria: REGIONAIS
 - Natural TV | ID: NaturalTV.tr@SD | Categoria: REGIONAIS
+- Natural TV | ID: NaturalTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Sun RTV | ID: SunRTV.tr@SD | Categoria: REGIONAIS
+- Sun RTV | ID: SunRTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - TBMM TV | ID: TBMMTV.tr@SD | Categoria: REGIONAIS
+- TBMM TV | ID: TBMMTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - Van 65 TV | ID: Van65TV.tr@SD | Categoria: REGIONAIS
+- Van 65 TV | ID: Van65TV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - YOL TV | ID: YOLTV.de@SD | Categoria: REGIONAIS
+- YOL TV | ID: YOLTV.de@SD.duplicate2 | Categoria: REGIONAIS
 - Kanal Ada | ID: kanalada.local | Categoria: REGIONAIS
+- Kanal Ada | ID: kanalada.local.duplicate2 | Categoria: REGIONAIS
 - Kanal Urfa | ID: KanalUrfa.tr | Categoria: REGIONAIS
+- Kanal Urfa | ID: KanalUrfa.tr.duplicate2 | Categoria: REGIONAIS
 - Trabzon Buyuksehir Belediyesi TV | ID: TrabzonBuyuksehirBelediyesiTV.tr@FHD | Categoria: REGIONAIS
+- Trabzon Buyuksehir Belediyesi TV | ID: TrabzonBuyuksehirBelediyesiTV.tr@FHD.duplicate2 | Categoria: REGIONAIS
 - Urfanatik TV | ID: UrfaNatikTV.tr@SD | Categoria: REGIONAIS
+- Urfanatik TV | ID: UrfaNatikTV.tr@SD.duplicate2 | Categoria: REGIONAIS
 - ETV Manisa | ID: ETVManisa.tr@SD | Categoria: REGIONAIS
+- ETV Manisa | ID: ETVManisa.tr@SD.duplicate2 | Categoria: REGIONAIS
 - MK TV | ID: MaviKaradenizTV.tr@SD | Categoria: REGIONAIS
-- TV Karadeniz | ID: MaviKaradenizTV.tr@SD.duplicate2 | Categoria: REGIONAIS
+- MK TV | ID: MaviKaradenizTV.tr@SD.duplicate2 | Categoria: REGIONAIS
+- TV Karadeniz | ID: MaviKaradenizTV.tr@SD.duplicate3 | Categoria: REGIONAIS
+- TV Karadeniz | ID: MaviKaradenizTV.tr@SD.duplicate4 | Categoria: REGIONAIS
 - Line TV | ID: LineTV.tr@SD | Categoria: REGIONAIS
+- Line TV | ID: LineTV.tr@SD.duplicate2 | Categoria: REGIONAIS
