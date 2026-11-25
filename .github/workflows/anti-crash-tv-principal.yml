@@ -16,7 +16,7 @@ permissions:
   contents: read
 concurrency:
   group: anti-crash-tv-principal
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   verificar:
     runs-on: ubuntu-latest
@@ -37,6 +37,7 @@ jobs:
         continue-on-error: true
         run: python scripts/testar_streams_anti_crash.py Tv.m3u reports/anti-crash/resultado.txt
       - name: Testar alternativas do Backup para canais com falha
+        continue-on-error: true
         run: python scripts/testar_alternativas_backup.py Tv.m3u Backup.m3u
       - name: Publicar relatório de alternativas
         if: always()
