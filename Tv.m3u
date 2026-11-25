@@ -784,7 +784,7 @@ https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-maxheight=720
 #EXTVLCOPT:adaptive-logic=highest
-http://213.91.179.28:8000/play/a05y
+https://vavoo.alwaysdata.net/resolver.php?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F207886293750ec015d3e85
 
 #EXTINF:-1 tvg-name="Eurosport 2" group-title="ESPORTES" tvg-language="Turkish",Eurosport 2
 #EXTVLCOPT:network-caching=5000
