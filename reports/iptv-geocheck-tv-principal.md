@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-25 20:46 UTC
+- Executado em: 2026-11-25 20:54 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **215**
 - URLs únicas: **215**
@@ -9,11 +9,10 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 192 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 194 |
 | FALHA DE CONEXÃO (URLError) | 19 |
-| LINK NÃO ENCONTRADO (404) | 2 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
-| FALHA DE CONEXÃO (TimeoutError) | 1 |
+| LINK NÃO ENCONTRADO (404) | 1 |
 
 ## Detalhamento
 
@@ -47,7 +46,7 @@
 | 26 - Halk TV | \`halktv-live.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 27 - İlke TV | \`stream.ilketv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 28 - NTV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| 29 - TELE1 | \`tele1-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
+| 29 - TELE1 | \`tele1-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 30 - TGRT Haber | \`canli.tgrthaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 31 - TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 32 - TRT World | \`cdn.pishow.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -73,7 +72,7 @@
 | 52 - Kanal 7 Avrupa | \`livetv.radyotvonline.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 53 - Kanal D | \`demiroren.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 54 - Kanal D Drama | \`amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| 55 - NOW | \`uycyyuuzyh.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
+| 55 - NOW | \`uycyyuuzyh.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 56 - Show TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 57 - Star TV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 58 - teve2 | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
