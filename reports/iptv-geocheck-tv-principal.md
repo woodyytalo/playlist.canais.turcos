@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-25 20:04 UTC
+- Executado em: 2026-11-25 20:34 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **215**
 - URLs únicas: **215**
@@ -9,11 +9,11 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 193 |
-| FALHA DE CONEXÃO (URLError) | 17 |
-| FALHA DE CONEXÃO (TimeoutError) | 2 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 192 |
+| FALHA DE CONEXÃO (URLError) | 19 |
 | LINK NÃO ENCONTRADO (404) | 2 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
+| FALHA DE CONEXÃO (TimeoutError) | 1 |
 
 ## Detalhamento
 
@@ -25,7 +25,7 @@
 | 4 - Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 5 - Spacetoon Türkiye | \`live-tr-next.spacetoongo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 6 - TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| 7 - TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 7 - TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 8 - Zarok TV Kurmanji | \`zindikurmanci.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 9 - Zarok TV Sorani | \`zindisorani.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 10 - BabyFirst TV | \`cdn.fast.jwp.services\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -38,7 +38,7 @@
 | 17 - Bloomberg HT 2 | \`tv.ensonhaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 18 - CNBC e | \`hnpsechtsc.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 19 - CNN Türk | \`85.117.61.84\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 20 - DHA | \`603c568fccdf5.streamlock.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 20 - DHA | \`603c568fccdf5.streamlock.net\` | FALHA DE CONEXÃO (URLError) | - |
 | 21 - Ekotürk | \`cdn.ekoturk.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 22 - Flash Haber TV | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 23 - Haber Global | \`tv.ensonhaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -78,7 +78,7 @@
 | 57 - Star TV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 58 - teve2 | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 59 - TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
-| 60 - TV8 | \`rkhubpaomb.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
+| 60 - TV8 | \`rkhubpaomb.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 61 - TV4 | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 62 - TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 63 - CİNE1 | \`canliyayin.cine1.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -90,7 +90,7 @@
 | 69 - TLC | \`s6.hopslan.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 70 - Love Nature | \`mumbai-edge.smartplaytv.in\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 71 - TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 72 - Finest TV | \`media.finest.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 72 - Finest TV | \`media.finest.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | 73 - 1Mus | \`hz1.teleport.cc\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 74 - 30A Music | \`30a-tv.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 75 - Dream Türk | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -163,7 +163,7 @@
 | 142 - JÎN TV | \`live.jintv.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 143 - 4U Family (persa) | \`familyhls.4utv.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 144 - Luys TV | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 145 - TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 145 - TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 146 - TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 147 - TRT Kurdî | \`tv-trtkurdi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 148 - TRT Türk | \`tv-trtturk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
