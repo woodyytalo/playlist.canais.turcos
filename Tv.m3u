@@ -5,6 +5,7 @@
 #EXTVLCOPT:adaptive-logic=highest
 http://138.121.15.230:9002/BABY-TV/index.m3u8
 
+#FREQUÊNCIA: Satélite: a verificar
 #EXTINF:-1 tvg-chno="2" group-title="INFANTIS" tvg-name="BabyTV",2 - BabyTV [480p SD]
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
