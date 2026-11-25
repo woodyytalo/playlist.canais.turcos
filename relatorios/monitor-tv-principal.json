@@ -5,105 +5,117 @@
   "lentos": 3,
   "canais": [
     {
-      "canal": "BabyTV",
+      "canal": "1 - BabyTV",
       "categoria": "INFANTIS",
       "url": "http://138.121.15.230:9002/BABY-TV/index.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 201,
+        "ms": 220,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Cartoon Network Türkiye",
+      "canal": "2 - Cartoon Network Türkiye",
       "categoria": "INFANTIS",
       "url": "http://176.65.153.40:6002/play/a013/index.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 202,
+        "ms": 178,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Minika Çocuk",
+      "canal": "3 - Minika Çocuk",
       "categoria": "INFANTIS",
       "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 838,
+        "ms": 837,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Minika GO",
+      "canal": "4 - Minika GO",
       "categoria": "INFANTIS",
       "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 744,
+        "ms": 768,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Spacetoon Türkiye",
+      "canal": "5 - Spacetoon Türkiye",
       "categoria": "INFANTIS",
       "url": "https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1141,
+        "ms": 1327,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "TRT Çocuk",
+      "canal": "6 - TRT Çocuk",
       "categoria": "INFANTIS",
       "url": "https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8",
       "teste": {
-        "status": "FALHA",
-        "http": 403,
-        "ms": 186,
-        "tipo": "HTTP",
-        "detalhe": "Forbidden"
+        "status": "OK",
+        "http": 200,
+        "ms": 506,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "TRT Diyanet Çocuk",
+      "canal": "7 - TRT Diyanet Çocuk",
       "categoria": "INFANTIS",
       "url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8",
       "teste": {
         "status": "OK",
-        "http": 206,
-        "ms": 400,
+        "http": 200,
+        "ms": 286,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Zarok TV Kurmanji",
+      "canal": "8 - Zarok TV Kurmanji",
       "categoria": "INFANTIS",
       "url": "https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 425,
+        "ms": 423,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Zarok TV Sorani",
+      "canal": "9 - Zarok TV Sorani",
       "categoria": "INFANTIS",
       "url": "https://zindisorani.zaroktv.com.tr/hls/stream.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 625,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "10 - BabyFirst TV",
+      "categoria": "INFANTIS",
+      "url": "https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest/1.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
@@ -113,175 +125,163 @@
       }
     },
     {
-      "canal": "BabyFirst TV",
-      "categoria": "INFANTIS",
-      "url": "https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest/1.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 219,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "24 TV",
+      "canal": "11 - 24 TV",
       "categoria": "NOTÍCIAS",
       "url": "https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 573,
+        "ms": 598,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Lider Haber",
+      "canal": "12 - Lider Haber",
       "categoria": "NOTÍCIAS",
       "url": "http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 274,
+        "ms": 290,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "A Haber",
+      "canal": "13 - A Haber",
       "categoria": "NOTÍCIAS",
       "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 973,
+        "ms": 794,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "A Para",
+      "canal": "14 - A Para",
       "categoria": "NOTÍCIAS",
       "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 898,
+        "ms": 734,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Bengü Türk",
+      "canal": "15 - Bengü Türk",
       "categoria": "NOTÍCIAS",
       "url": "https://tv.ensonhaber.com/benguturk/benguturk_480p.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 518,
+        "ms": 365,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Bloomberg HT",
+      "canal": "16 - Bloomberg HT",
       "categoria": "NOTÍCIAS",
       "url": "https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 961,
+        "ms": 801,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Bloomberg HT 2",
+      "canal": "17 - Bloomberg HT 2",
       "categoria": "NOTÍCIAS",
       "url": "https://tv.ensonhaber.com/bloomberght/bloomberght_480p.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 409,
+        "ms": 413,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "CNBC e",
+      "canal": "18 - CNBC e",
       "categoria": "NOTÍCIAS",
       "url": "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 962,
+        "ms": 1344,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "CNN Türk",
+      "canal": "19 - CNN Türk",
       "categoria": "NOTÍCIAS",
       "url": "http://85.117.61.84/cnnturk/index.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 344,
+        "ms": 363,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "DHA",
+      "canal": "20 - DHA",
       "categoria": "NOTÍCIAS",
       "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 5167,
+        "ms": 5194,
         "tipo": "rede",
         "detalhe": "<urlopen error _ssl.c:1001: The handshake operation timed out>"
       }
     },
     {
-      "canal": "Ekotürk",
+      "canal": "21 - Ekotürk",
       "categoria": "NOTÍCIAS",
       "url": "https://cdn.ekoturk.net/hls/master.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 516,
+        "ms": 501,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Flash Haber TV",
+      "canal": "22 - Flash Haber TV",
       "categoria": "NOTÍCIAS",
       "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 574,
+        "ms": 716,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Haber Global",
+      "canal": "23 - Haber Global",
       "categoria": "NOTÍCIAS",
       "url": "https://tv.ensonhaber.com/haberglobal/haberglobal_480p.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 199,
+        "ms": 136,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Haber61 TV",
+      "canal": "24 - Haber61 TV",
       "categoria": "NOTÍCIAS",
       "url": "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8",
       "teste": {
@@ -293,285 +293,21 @@
       }
     },
     {
-      "canal": "Habertürk",
+      "canal": "25 - Habertürk",
       "categoria": "NOTÍCIAS",
       "url": "https://haberturk.blutv.com/blutv_haberturk_live/live.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 287,
+        "ms": 175,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'haberturk.blutv.com'. (_ssl.c:1018)>"
       }
     },
     {
-      "canal": "Halk TV",
+      "canal": "26 - Halk TV",
       "categoria": "NOTÍCIAS",
       "url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 546,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "İlke TV",
-      "categoria": "NOTÍCIAS",
-      "url": "https://stream.ilketv.com.tr/hls/ilkecanli.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 426,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "NTV",
-      "categoria": "NOTÍCIAS",
-      "url": "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 605,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TELE1",
-      "categoria": "NOTÍCIAS",
-      "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
-      "teste": {
-        "status": "FALHA",
-        "http": 404,
-        "ms": 538,
-        "tipo": "HTTP",
-        "detalhe": "Not Found"
-      }
-    },
-    {
-      "canal": "TGRT Haber",
-      "categoria": "NOTÍCIAS",
-      "url": "https://canli.tgrthaber.com/tgrt.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 420,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TRT Haber",
-      "categoria": "NOTÍCIAS",
-      "url": "https://tv-trthaber.medya.trt.com.tr/master_720.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 462,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TRT World",
-      "categoria": "NOTÍCIAS",
-      "url": "https://cdn.pishow.tv/ott/live/266/266_2.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1021,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TürkHaber",
-      "categoria": "NOTÍCIAS",
-      "url": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
-      "teste": {
-        "status": "FALHA",
-        "http": null,
-        "ms": 196,
-        "tipo": "rede",
-        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
-      }
-    },
-    {
-      "canal": "TV100",
-      "categoria": "NOTÍCIAS",
-      "url": "https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 510,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TV5",
-      "categoria": "NOTÍCIAS",
-      "url": "https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 540,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TVNET",
-      "categoria": "NOTÍCIAS",
-      "url": "https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 279,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Ülke TV",
-      "categoria": "NOTÍCIAS",
-      "url": "https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 434,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Sözcü TV",
-      "categoria": "NOTÍCIAS",
-      "url": "https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 31,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Ekol TV",
-      "categoria": "NOTÍCIAS",
-      "url": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 547,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "GZT",
-      "categoria": "NOTÍCIAS",
-      "url": "https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 316,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TYT TÜRK",
-      "categoria": "NOTÍCIAS",
-      "url": "https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 647,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Life TV",
-      "categoria": "NOTÍCIAS",
-      "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1639,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "KRT",
-      "categoria": "NOTÍCIAS",
-      "url": "https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 18,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "360 TV",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 458,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "4U TV",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://hls.4utv.live/hls/stream.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 466,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "A2",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 781,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "ATV",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 768,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Beyaz TV",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
@@ -581,741 +317,261 @@
       }
     },
     {
-      "canal": "Bi Kanal",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8",
+      "canal": "27 - İlke TV",
+      "categoria": "NOTÍCIAS",
+      "url": "https://stream.ilketv.com.tr/hls/ilkecanli.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 470,
+        "ms": 545,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Bir TV",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8",
+      "canal": "28 - NTV",
+      "categoria": "NOTÍCIAS",
+      "url": "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 606,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "29 - TELE1",
+      "categoria": "NOTÍCIAS",
+      "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 408,
+        "ms": 819,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "EURO D",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 602,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal 7 Avrupa",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8",
+      "canal": "30 - TGRT Haber",
+      "categoria": "NOTÍCIAS",
+      "url": "https://canli.tgrthaber.com/tgrt.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 402,
+        "ms": 419,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Kanal D",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3",
+      "canal": "31 - TRT Haber",
+      "categoria": "NOTÍCIAS",
+      "url": "https://tv-trthaber.medya.trt.com.tr/master_720.m3u8",
       "teste": {
         "status": "OK",
-        "http": 200,
-        "ms": 766,
+        "http": 206,
+        "ms": 358,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Kanal D Drama",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371fb4d7475349d6f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8",
+      "canal": "32 - TRT World",
+      "categoria": "NOTÍCIAS",
+      "url": "https://cdn.pishow.tv/ott/live/266/266_2.m3u8",
       "teste": {
         "status": "OK",
-        "http": 200,
-        "ms": 192,
+        "http": 206,
+        "ms": 630,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "NOW",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
+      "canal": "33 - TürkHaber",
+      "categoria": "NOTÍCIAS",
+      "url": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 5615,
+        "ms": 212,
         "tipo": "rede",
-        "detalhe": "The read operation timed out"
+        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
     },
     {
-      "canal": "Show TV",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3",
+      "canal": "34 - TV100",
+      "categoria": "NOTÍCIAS",
+      "url": "https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 574,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "35 - TV5",
+      "categoria": "NOTÍCIAS",
+      "url": "https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 496,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "36 - TVNET",
+      "categoria": "NOTÍCIAS",
+      "url": "https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
+        "ms": 307,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "37 - Ülke TV",
+      "categoria": "NOTÍCIAS",
+      "url": "https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 436,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "38 - Sözcü TV",
+      "categoria": "NOTÍCIAS",
+      "url": "https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 22,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "39 - Ekol TV",
+      "categoria": "NOTÍCIAS",
+      "url": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 545,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "40 - GZT",
+      "categoria": "NOTÍCIAS",
+      "url": "https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 386,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "41 - TYT TÜRK",
+      "categoria": "NOTÍCIAS",
+      "url": "https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
         "ms": 597,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Star TV",
+      "canal": "42 - Life TV",
+      "categoria": "NOTÍCIAS",
+      "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 928,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "43 - KRT",
+      "categoria": "NOTÍCIAS",
+      "url": "https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 23,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "44 - 360 TV",
       "categoria": "ENTRETENIMENTO",
-      "url": "https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5",
+      "url": "https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8",
       "teste": {
         "status": "OK",
-        "http": 200,
-        "ms": 569,
+        "http": 206,
+        "ms": 514,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "teve2",
+      "canal": "45 - 4U TV",
       "categoria": "ENTRETENIMENTO",
-      "url": "https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8",
+      "url": "https://hls.4utv.live/hls/stream.m3u8",
       "teste": {
         "status": "OK",
-        "http": 200,
-        "ms": 628,
+        "http": 206,
+        "ms": 293,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "TRT 1",
+      "canal": "46 - A2",
       "categoria": "ENTRETENIMENTO",
-      "url": "https://tv-trt1.medya.trt.com.tr/master_480.m3u8",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 179,
+        "ms": 772,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "TV8",
+      "canal": "47 - ATV",
       "categoria": "ENTRETENIMENTO",
-      "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 3776,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TV4",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 359,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TRT Genç",
-      "categoria": "ENTRETENIMENTO",
-      "url": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 408,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "CİNE1",
-      "categoria": "FILMES E SÉRIES",
-      "url": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 697,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Grand Cinema",
-      "categoria": "FILMES E SÉRIES",
-      "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 447,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Tabii",
-      "categoria": "FILMES E SÉRIES",
-      "url": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_360p.m3u8?sid=yoAHas4-h0yTN6NtBHZwpw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=1000000",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 428,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "BBC First Türkiye",
-      "categoria": "FILMES E SÉRIES",
-      "url": "http://88.212.7.14/live/bbc_first/index.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 204,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Arzu Film",
-      "categoria": "FILMES E SÉRIES",
-      "url": "https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 16,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Dizi TV",
-      "categoria": "FILMES E SÉRIES",
-      "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 375,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TLC",
-      "categoria": "DOCUMENTÁRIOS",
-      "url": "https://s6.hopslan.com/tlcX/index.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 321,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Love Nature",
-      "categoria": "DOCUMENTÁRIOS",
-      "url": "https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 990,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TRT EBA Ortaokul",
-      "categoria": "CULTURA/EDUCAÇÃO",
-      "url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 723,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Finest TV",
-      "categoria": "MÚSICA",
-      "url": "https://media.finest.tv/hls/live.m3u8",
-      "teste": {
-        "status": "FALHA",
-        "http": null,
-        "ms": 5234,
-        "tipo": "rede",
-        "detalhe": "<urlopen error timed out>"
-      }
-    },
-    {
-      "canal": "1Mus",
-      "categoria": "MÚSICA",
-      "url": "http://hz1.teleport.cc/HLS/HD.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 203,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "30A Music",
-      "categoria": "MÚSICA",
-      "url": "https://30a-tv.com/music.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 683,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Dream Türk",
-      "categoria": "MÚSICA",
-      "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 592,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TMB TV",
-      "categoria": "MÚSICA",
-      "url": "https://str.yodacdn.net/tmb_tr_app/tracks-v1a1/mono.m3u8?token=tmb_app_token_13579",
-      "teste": {
-        "status": "FALHA",
-        "http": 404,
-        "ms": 871,
-        "tipo": "HTTP",
-        "detalhe": "Not Found"
-      }
-    },
-    {
-      "canal": "Med Müzik",
-      "categoria": "MÚSICA",
-      "url": "http://54.36.110.140/live3/live3.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 184,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Play TV",
-      "categoria": "MÚSICA",
-      "url": "http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/chunklist_w538521591.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 500,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "NR1 Aşk",
-      "categoria": "MÚSICA",
-      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 475,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "NR1 Damar",
-      "categoria": "MÚSICA",
-      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 500,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "NR1 Dance",
-      "categoria": "MÚSICA",
-      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 526,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Number 1 TV",
-      "categoria": "MÚSICA",
-      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 400,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Power Dance TV",
-      "categoria": "MÚSICA",
-      "url": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1619,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Power Love TV",
-      "categoria": "MÚSICA",
-      "url": "https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1455,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "PowerTürk Taptaze",
-      "categoria": "MÚSICA",
-      "url": "http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 248,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TRT Müzik",
-      "categoria": "MÚSICA",
-      "url": "https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1058,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kral Pop",
-      "categoria": "MÚSICA",
-      "url": "http://dygvideo.dygdigital.com/live/hls/kralpop",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 500,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "NR1 Fashion One",
-      "categoria": "MÚSICA",
-      "url": "http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 399,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "PowerTürk TV",
-      "categoria": "MÚSICA",
-      "url": "https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 921,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "KN Music TV",
-      "categoria": "MÚSICA",
-      "url": "https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 443,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Dost",
-      "categoria": "MÚSICA",
-      "url": "https://yayin.santraltr.com/hls/dost.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 251,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Company TV",
-      "categoria": "MÚSICA",
-      "url": "https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/chunklist_w1608519565_b878000_slita.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 337,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Güçlü TV",
-      "categoria": "MÚSICA",
-      "url": "https://yayin.santraltr.com/hls/zeynotv.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 276,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Now 70 s",
-      "categoria": "MÚSICA",
-      "url": "https://lightning-now70s-samsungnz.amagi.tv/playlist480p.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 110,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Now 80 s",
-      "categoria": "MÚSICA",
-      "url": "https://lightning-now80s-samsungnz.amagi.tv/playlist480p.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 184,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "NOW ROCK",
-      "categoria": "MÚSICA",
-      "url": "https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 692,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "IQ Channel",
-      "categoria": "MÚSICA",
-      "url": "https://rtmp.info/iqtv/envivo/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 625,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TopPop",
-      "categoria": "MÚSICA",
-      "url": "https://yayin.santraltr.com/hls/toppop.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 225,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Retro Music Television",
-      "categoria": "MÚSICA",
-      "url": "https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 405,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Power TV (720p)",
-      "categoria": "MÚSICA",
-      "url": "https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1044,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "A Spor",
-      "categoria": "ESPORTES",
-      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
       "teste": {
         "status": "FALHA",
         "http": 502,
-        "ms": 584,
+        "ms": 500,
         "tipo": "HTTP",
         "detalhe": "Bad Gateway"
       }
     },
     {
-      "canal": "FB TV",
-      "categoria": "ESPORTES",
-      "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 488,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "HT Spor TV",
-      "categoria": "ESPORTES",
-      "url": "https://ciner.daioncdn.net/ht-spor/ht-spor_480p.m3u8?ex=0&sid=8wn2p2rpc61m&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 815,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TAY TV",
-      "categoria": "ESPORTES",
-      "url": "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 831,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TJK TV",
-      "categoria": "ESPORTES",
-      "url": "https://tjktv-live.tjk.org/tjktv.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 839,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Ekol Sports",
-      "categoria": "ESPORTES",
-      "url": "https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 459,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Eurosport 1",
-      "categoria": "ESPORTES",
-      "url": "https://vavoo.alwaysdata.net/resolver.php?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F207886293750ec015d3e85",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 961,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Eurosport 2",
-      "categoria": "ESPORTES",
-      "url": "http://213.91.179.28:8000/play/a04b",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 467,
-        "tipo": "HTTP",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Çiftçi TV",
-      "categoria": "ESTILO DE VIDA",
-      "url": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1059,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Fashion One",
-      "categoria": "ESTILO DE VIDA",
-      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+      "canal": "48 - Beyaz TV",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
@@ -1325,45 +581,153 @@
       }
     },
     {
-      "canal": "MOR TV",
-      "categoria": "ESTILO DE VIDA",
-      "url": "https://live.euromediacenter.com/tvmor/index.m3u8",
+      "canal": "49 - Bi Kanal",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 382,
+        "ms": 575,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Fortuna TV",
-      "categoria": "ESTILO DE VIDA",
-      "url": "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8#all",
+      "canal": "50 - Bir TV",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8",
       "teste": {
-        "status": "FALHA",
-        "http": null,
-        "ms": 194,
-        "tipo": "rede",
-        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
+        "status": "OK",
+        "http": 206,
+        "ms": 442,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Al Zahra TV Turkic",
-      "categoria": "RELIGIOSOS",
-      "url": "https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_480p/chunks.m3u8",
+      "canal": "51 - EURO D",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 319,
+        "ms": 648,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Diyanet TV",
-      "categoria": "RELIGIOSOS",
-      "url": "http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
+      "canal": "52 - Kanal 7 Avrupa",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 427,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "53 - Kanal D",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 866,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "54 - Kanal D Drama",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371fb4d7475349d6f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 250,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "55 - NOW",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
+      "teste": {
+        "status": "FALHA",
+        "http": null,
+        "ms": 5506,
+        "tipo": "rede",
+        "detalhe": "The read operation timed out"
+      }
+    },
+    {
+      "canal": "56 - Show TV",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 865,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "57 - Star TV",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 352,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "58 - teve2",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 559,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "59 - TRT 1",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://tv-trt1.medya.trt.com.tr/master_480.m3u8",
+      "teste": {
+        "status": "FALHA",
+        "http": 403,
+        "ms": 203,
+        "tipo": "HTTP",
+        "detalhe": "Forbidden"
+      }
+    },
+    {
+      "canal": "60 - TV8",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 2762,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "61 - TV4",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
@@ -1373,585 +737,729 @@
       }
     },
     {
-      "canal": "Diyar TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 621,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Dost TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://dost.stream.emsal.im/tv/live.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 479,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Lalegül TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://lbl.netmedya.net/hls/lalegultv.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 242,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Meltem TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 751,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "MUKABELE TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.m3u8",
+      "canal": "62 - TRT Genç",
+      "categoria": "ENTRETENIMENTO",
+      "url": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 410,
+        "ms": 1196,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Rehber TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 433,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Sat7 Türk",
-      "categoria": "RELIGIOSOS",
-      "url": "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1027,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Semerkand TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_2.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 585,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Sercem TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://canli.sercemtv.com.tr/hls/0/stream.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 410,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Vav TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8",
+      "canal": "63 - CİNE1",
+      "categoria": "FILMES E SÉRIES",
+      "url": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 393,
+        "ms": 605,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "MADINAH TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 241,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "ABN TURKEY",
-      "categoria": "RELIGIOSOS",
-      "url": "https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8",
+      "canal": "64 - Grand Cinema",
+      "categoria": "FILMES E SÉRIES",
+      "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 61,
+        "ms": 449,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Makkah TV",
-      "categoria": "RELIGIOSOS",
-      "url": "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all",
+      "canal": "65 - Tabii",
+      "categoria": "FILMES E SÉRIES",
+      "url": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_360p.m3u8?sid=yoAHas4-h0yTN6NtBHZwpw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=1000000",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 184,
+        "ms": 373,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Anadolu Net TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8#all",
+      "canal": "66 - BBC First Türkiye",
+      "categoria": "FILMES E SÉRIES",
+      "url": "http://88.212.7.14/live/bbc_first/index.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 208,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "67 - Arzu Film",
+      "categoria": "FILMES E SÉRIES",
+      "url": "https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 783,
+        "ms": 21,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Euro Star TV",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u",
+      "canal": "68 - Dizi TV",
+      "categoria": "FILMES E SÉRIES",
+      "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 496,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "69 - TLC",
+      "categoria": "DOCUMENTÁRIOS",
+      "url": "https://s6.hopslan.com/tlcX/index.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 16,
+        "ms": 304,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Mekameleen TV",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 289,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Almahriah TV",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://starmenajo.com/hls/almahriah/index.m3u8",
+      "canal": "70 - Love Nature",
+      "categoria": "DOCUMENTÁRIOS",
+      "url": "https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 356,
+        "ms": 788,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Elsharq TV",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 321,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal Avrupa",
-      "categoria": "INTERNACIONAIS",
-      "url": "http://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v3a1/mono.m3u8",
+      "canal": "71 - TRT EBA Ortaokul",
+      "categoria": "CULTURA/EDUCAÇÃO",
+      "url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 321,
+        "ms": 836,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Syria TV",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/chunks_dvr.m3u8",
+      "canal": "72 - Finest TV",
+      "categoria": "MÚSICA",
+      "url": "https://media.finest.tv/hls/live.m3u8",
       "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 546,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
+        "status": "FALHA",
+        "http": null,
+        "ms": 5206,
+        "tipo": "rede",
+        "detalhe": "<urlopen error timed out>"
       }
     },
     {
-      "canal": "Balkan Türk",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://live.euromediacenter.com/balkanturktv/index.m3u8",
+      "canal": "73 - 1Mus",
+      "categoria": "MÚSICA",
+      "url": "http://hz1.teleport.cc/HLS/HD.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 384,
+        "ms": 249,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Thaqalayn TV",
-      "categoria": "INTERNACIONAIS",
-      "url": "http://62.60.207.173:8080/hls/thaqalayn/1_2/index.m3u8?tkn=751218219",
+      "canal": "74 - 30A Music",
+      "categoria": "MÚSICA",
+      "url": "https://30a-tv.com/music.m3u8",
       "teste": {
         "status": "OK",
-        "http": 200,
-        "ms": 981,
+        "http": 206,
+        "ms": 747,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "RTG International",
-      "categoria": "INTERNACIONAIS",
-      "url": "http://213.91.179.28:8000/play/a0bw",
+      "canal": "75 - Dream Türk",
+      "categoria": "MÚSICA",
+      "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 793,
+        "ms": 551,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "76 - TMB TV",
+      "categoria": "MÚSICA",
+      "url": "https://str.yodacdn.net/tmb_tr_app/tracks-v1a1/mono.m3u8?token=tmb_app_token_13579",
+      "teste": {
+        "status": "FALHA",
+        "http": 404,
+        "ms": 818,
+        "tipo": "HTTP",
+        "detalhe": "Not Found"
+      }
+    },
+    {
+      "canal": "77 - Med Müzik",
+      "categoria": "MÚSICA",
+      "url": "http://54.36.110.140/live3/live3.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 188,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "78 - Play TV",
+      "categoria": "MÚSICA",
+      "url": "http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/chunklist_w538521591.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 669,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "79 - NR1 Aşk",
+      "categoria": "MÚSICA",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 432,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "80 - NR1 Damar",
+      "categoria": "MÚSICA",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 475,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "81 - NR1 Dance",
+      "categoria": "MÚSICA",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 461,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "82 - Number 1 TV",
+      "categoria": "MÚSICA",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 305,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "83 - Power Dance TV",
+      "categoria": "MÚSICA",
+      "url": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 938,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "84 - Power Love TV",
+      "categoria": "MÚSICA",
+      "url": "https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 893,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "85 - PowerTürk Taptaze",
+      "categoria": "MÚSICA",
+      "url": "http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 509,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "86 - TRT Müzik",
+      "categoria": "MÚSICA",
+      "url": "https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 1280,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "87 - Kral Pop",
+      "categoria": "MÚSICA",
+      "url": "http://dygvideo.dygdigital.com/live/hls/kralpop",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 470,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "88 - NR1 Fashion One",
+      "categoria": "MÚSICA",
+      "url": "http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 235,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "89 - PowerTürk TV",
+      "categoria": "MÚSICA",
+      "url": "https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 1032,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "90 - KN Music TV",
+      "categoria": "MÚSICA",
+      "url": "https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 456,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "91 - Dost",
+      "categoria": "MÚSICA",
+      "url": "https://yayin.santraltr.com/hls/dost.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 233,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "92 - Company TV",
+      "categoria": "MÚSICA",
+      "url": "https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/chunklist_w1608519565_b878000_slita.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 351,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "93 - Güçlü TV",
+      "categoria": "MÚSICA",
+      "url": "https://yayin.santraltr.com/hls/zeynotv.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 257,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "94 - Now 70 s",
+      "categoria": "MÚSICA",
+      "url": "https://lightning-now70s-samsungnz.amagi.tv/playlist480p.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 708,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "95 - Now 80 s",
+      "categoria": "MÚSICA",
+      "url": "https://lightning-now80s-samsungnz.amagi.tv/playlist480p.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 1006,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "96 - NOW ROCK",
+      "categoria": "MÚSICA",
+      "url": "https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 226,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "97 - IQ Channel",
+      "categoria": "MÚSICA",
+      "url": "https://rtmp.info/iqtv/envivo/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 737,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "98 - TopPop",
+      "categoria": "MÚSICA",
+      "url": "https://yayin.santraltr.com/hls/toppop.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 244,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "99 - Retro Music Television",
+      "categoria": "MÚSICA",
+      "url": "https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 449,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "100 - Power TV (720p)",
+      "categoria": "MÚSICA",
+      "url": "https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 1414,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "101 - A Spor",
+      "categoria": "ESPORTES",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+      "teste": {
+        "status": "FALHA",
+        "http": 502,
+        "ms": 587,
+        "tipo": "HTTP",
+        "detalhe": "Bad Gateway"
+      }
+    },
+    {
+      "canal": "102 - FB TV",
+      "categoria": "ESPORTES",
+      "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 541,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "103 - HT Spor TV",
+      "categoria": "ESPORTES",
+      "url": "https://ciner.daioncdn.net/ht-spor/ht-spor_480p.m3u8?ex=0&sid=8wn2p2rpc61m&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 894,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "104 - TAY TV",
+      "categoria": "ESPORTES",
+      "url": "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 894,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "105 - TJK TV",
+      "categoria": "ESPORTES",
+      "url": "https://tjktv-live.tjk.org/tjktv.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 1092,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "106 - Ekol Sports",
+      "categoria": "ESPORTES",
+      "url": "https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 567,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "107 - Eurosport 1",
+      "categoria": "ESPORTES",
+      "url": "https://vavoo.alwaysdata.net/resolver.php?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F207886293750ec015d3e85",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 1053,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "108 - Eurosport 2",
+      "categoria": "ESPORTES",
+      "url": "http://213.91.179.28:8000/play/a04b",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 442,
         "tipo": "HTTP",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "MC EU TV",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 952,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Persiana Türkiye",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://turkhls.persiana.live/hls/stream.m3u8",
+      "canal": "109 - Çiftçi TV",
+      "categoria": "ESTILO DE VIDA",
+      "url": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 447,
+        "ms": 1254,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "INTV Australia",
-      "categoria": "INTERNACIONAIS",
-      "url": "http://tv1.intv.mk:1935/live/intv/index.m3u8",
+      "canal": "110 - Fashion One",
+      "categoria": "ESTILO DE VIDA",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 507,
+        "ms": 543,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "İSVİÇRE TV",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://i41.ozelip.com:3269/hybrid/play.m3u8",
+      "canal": "111 - MOR TV",
+      "categoria": "ESTILO DE VIDA",
+      "url": "https://live.euromediacenter.com/tvmor/index.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 413,
+        "ms": 373,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "JÎN TV",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://live.jintv.org/medialive/jintv.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 755,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "4U Family (persa)",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://familyhls.4utv.live/hls/stream.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 447,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Luys TV",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 682,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TRT Arabi",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 336,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TRT Avaz",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 276,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TRT Kurdî",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 239,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "TRT Türk",
-      "categoria": "INTERNACIONAIS",
-      "url": "https://tv-trtturk.medya.trt.com.tr/master_720.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 420,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "AS TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1320,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Aksu TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1426,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Alanya Posta TV",
-      "categoria": "REGIONAIS",
-      "url": "https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 632,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Altas TV",
-      "categoria": "REGIONAIS",
-      "url": "https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8",
+      "canal": "112 - Fortuna TV",
+      "categoria": "ESTILO DE VIDA",
+      "url": "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8#all",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 200,
+        "ms": 205,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
     },
     {
-      "canal": "ARAS TV",
-      "categoria": "REGIONAIS",
-      "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
+      "canal": "113 - Al Zahra TV Turkic",
+      "categoria": "RELIGIOSOS",
+      "url": "https://ak.imamhussein.live/alzahratvlive/alzahra.smil/alzahrapublish/alzahra_480p/chunks.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 412,
+        "ms": 497,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "ATV Alanya",
-      "categoria": "REGIONAIS",
-      "url": "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8",
+      "canal": "114 - Diyanet TV",
+      "categoria": "RELIGIOSOS",
+      "url": "http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 802,
+        "ms": 425,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "BRTV Karabük",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_brtv/brtv/chunks.m3u8",
+      "canal": "115 - Diyar TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1062,
+        "ms": 928,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Çay TV",
-      "categoria": "REGIONAIS",
-      "url": "https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8",
-      "teste": {
-        "status": "FALHA",
-        "http": null,
-        "ms": 187,
-        "tipo": "rede",
-        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
-      }
-    },
-    {
-      "canal": "Deniz Postası TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
+      "canal": "116 - Dost TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://dost.stream.emsal.im/tv/live.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1553,
+        "ms": 500,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Dim TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
+      "canal": "117 - Lalegül TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://lbl.netmedya.net/hls/lalegultv.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 625,
+        "ms": 238,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Edessa TV",
-      "categoria": "REGIONAIS",
-      "url": "https://canli.edessatv.com/hls/stream.m3u8",
+      "canal": "118 - Meltem TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 782,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "119 - MUKABELE TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist/2.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 812,
+        "ms": 478,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "ER TV Malatya",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8",
+      "canal": "120 - Rehber TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 626,
+        "ms": 401,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Erciyes TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8",
+      "canal": "121 - Sat7 Türk",
+      "categoria": "RELIGIOSOS",
+      "url": "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1054,
+        "ms": 895,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Erzurum Web TV",
-      "categoria": "REGIONAIS",
-      "url": "https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 505,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "ES TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8",
+      "canal": "122 - Semerkand TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_2.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
@@ -1961,57 +1469,345 @@
       }
     },
     {
-      "canal": "ETV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8",
+      "canal": "123 - Sercem TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://canli.sercemtv.com.tr/hls/0/stream.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 944,
+        "ms": 414,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Ezgi TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.euromediacenter.com/ezgitv/index.m3u8",
+      "canal": "124 - Vav TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8",
       "teste": {
         "status": "OK",
-        "http": 206,
-        "ms": 370,
+        "http": 200,
+        "ms": 382,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "GRT Gaziantep TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8",
+      "canal": "125 - MADINAH TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8",
       "teste": {
         "status": "OK",
-        "http": 206,
-        "ms": 1084,
+        "http": 200,
+        "ms": 280,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Güneydoğu TV",
-      "categoria": "REGIONAIS",
-      "url": "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8",
+      "canal": "126 - ABN TURKEY",
+      "categoria": "RELIGIOSOS",
+      "url": "https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8",
       "teste": {
-        "status": "FALHA",
-        "http": null,
-        "ms": 187,
-        "tipo": "rede",
-        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
+        "status": "OK",
+        "http": 206,
+        "ms": 73,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Hunat TV",
+      "canal": "127 - Makkah TV",
+      "categoria": "RELIGIOSOS",
+      "url": "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 383,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "128 - Anadolu Net TV",
       "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8",
+      "url": "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8#all",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 1019,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "129 - Euro Star TV",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 18,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "130 - Mekameleen TV",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 329,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "131 - Almahriah TV",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://starmenajo.com/hls/almahriah/index.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 390,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "132 - Elsharq TV",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 507,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "133 - Kanal Avrupa",
+      "categoria": "INTERNACIONAIS",
+      "url": "http://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v3a1/mono.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 327,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "134 - Syria TV",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_480p/chunks_dvr.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 452,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "135 - Balkan Türk",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://live.euromediacenter.com/balkanturktv/index.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 408,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "136 - Thaqalayn TV",
+      "categoria": "INTERNACIONAIS",
+      "url": "http://62.60.207.173:8080/hls/thaqalayn/1_2/index.m3u8?tkn=751218219",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 650,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "137 - RTG International",
+      "categoria": "INTERNACIONAIS",
+      "url": "http://213.91.179.28:8000/play/a0bw",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 787,
+        "tipo": "HTTP",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "138 - MC EU TV",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 850,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "139 - Persiana Türkiye",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://turkhls.persiana.live/hls/stream.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 476,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "140 - INTV Australia",
+      "categoria": "INTERNACIONAIS",
+      "url": "http://tv1.intv.mk:1935/live/intv/index.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 483,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "141 - İSVİÇRE TV",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://i41.ozelip.com:3269/hybrid/play.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 385,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "142 - JÎN TV",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://live.jintv.org/medialive/jintv.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 579,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "143 - 4U Family (persa)",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://familyhls.4utv.live/hls/stream.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 456,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "144 - Luys TV",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 509,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "145 - TRT Arabi",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 280,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "146 - TRT Avaz",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 170,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "147 - TRT Kurdî",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 351,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "148 - TRT Türk",
+      "categoria": "INTERNACIONAIS",
+      "url": "https://tv-trtturk.medya.trt.com.tr/master_720.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 567,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "149 - AS TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 910,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "150 - Aksu TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 1323,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "151 - Alanya Posta TV",
+      "categoria": "REGIONAIS",
+      "url": "https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
@@ -2021,7 +1817,211 @@
       }
     },
     {
-      "canal": "İçel TV",
+      "canal": "152 - Altas TV",
+      "categoria": "REGIONAIS",
+      "url": "https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8",
+      "teste": {
+        "status": "FALHA",
+        "http": null,
+        "ms": 206,
+        "tipo": "rede",
+        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
+      }
+    },
+    {
+      "canal": "153 - ARAS TV",
+      "categoria": "REGIONAIS",
+      "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 408,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "154 - ATV Alanya",
+      "categoria": "REGIONAIS",
+      "url": "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 848,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "155 - BRTV Karabük",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_brtv/brtv/chunks.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 959,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "156 - Çay TV",
+      "categoria": "REGIONAIS",
+      "url": "https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8",
+      "teste": {
+        "status": "FALHA",
+        "http": null,
+        "ms": 202,
+        "tipo": "rede",
+        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
+      }
+    },
+    {
+      "canal": "157 - Deniz Postası TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 922,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "158 - Dim TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 1309,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "159 - Edessa TV",
+      "categoria": "REGIONAIS",
+      "url": "https://canli.edessatv.com/hls/stream.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 284,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "160 - ER TV Malatya",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 3240,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "161 - Erciyes TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 3500,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "162 - Erzurum Web TV",
+      "categoria": "REGIONAIS",
+      "url": "https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 645,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "163 - ES TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 624,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "164 - ETV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 627,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "165 - Ezgi TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.euromediacenter.com/ezgitv/index.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 409,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "166 - GRT Gaziantep TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 627,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "167 - Güneydoğu TV",
+      "categoria": "REGIONAIS",
+      "url": "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8",
+      "teste": {
+        "status": "FALHA",
+        "http": null,
+        "ms": 206,
+        "tipo": "rede",
+        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
+      }
+    },
+    {
+      "canal": "168 - Hunat TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 629,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "169 - İçel TV",
       "categoria": "REGIONAIS",
       "url": "https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8",
       "teste": {
@@ -2033,273 +2033,33 @@
       }
     },
     {
-      "canal": "Kardelen TV",
+      "canal": "170 - Kardelen TV",
       "categoria": "REGIONAIS",
       "url": "https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 195,
+        "ms": 205,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
     },
     {
-      "canal": "İzmir Time 35 TV",
+      "canal": "171 - İzmir Time 35 TV",
       "categoria": "REGIONAIS",
       "url": "https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 724,
+        "ms": 712,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "K+ Kayseri",
+      "canal": "172 - K+ Kayseri",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 628,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal 12",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 626,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal 15",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1013,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal 19",
-      "categoria": "REGIONAIS",
-      "url": "https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 396,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal 23",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 888,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal 26 Eskişehir",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 792,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal 3",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1336,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal 32",
-      "categoria": "REGIONAIS",
-      "url": "https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8",
-      "teste": {
-        "status": "FALHA",
-        "http": null,
-        "ms": 319,
-        "tipo": "rede",
-        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
-      }
-    },
-    {
-      "canal": "Kanal 33",
-      "categoria": "REGIONAIS",
-      "url": "https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8",
-      "teste": {
-        "status": "FALHA",
-        "http": null,
-        "ms": 208,
-        "tipo": "rede",
-        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
-      }
-    },
-    {
-      "canal": "Kanal 34",
-      "categoria": "REGIONAIS",
-      "url": "https://live.euromediacenter.com/kanal34/index.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 381,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal 53",
-      "categoria": "REGIONAIS",
-      "url": "https://kanal53.ozelip.com:3448/hybrid/play.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 413,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal 58",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 946,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal B",
-      "categoria": "REGIONAIS",
-      "url": "https://tv.kanalb.tr/hls/kanalb/index.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 1727,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal Fırat",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1586,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kanal V",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1593,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kay TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 1023,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kayhan TV",
-      "categoria": "REGIONAIS",
-      "url": "https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 200,
-        "ms": 241,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kent Türk TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 625,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Kocaeli TV",
-      "categoria": "REGIONAIS",
-      "url": "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 401,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Konya KTV",
-      "categoria": "REGIONAIS",
-      "url": "https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/chunklist_w16313685.m3u8",
-      "teste": {
-        "status": "OK",
-        "http": 206,
-        "ms": 636,
-        "tipo": "HLS",
-        "detalhe": "Resposta recebida"
-      }
-    },
-    {
-      "canal": "Konya Olay TV",
-      "categoria": "REGIONAIS",
-      "url": "https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
@@ -2309,277 +2069,517 @@
       }
     },
     {
-      "canal": "Mercan TV",
+      "canal": "173 - Kanal 12",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 3453,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "174 - Kanal 15",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 928,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "175 - Kanal 19",
+      "categoria": "REGIONAIS",
+      "url": "https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 410,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "176 - Kanal 23",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 624,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "177 - Kanal 26 Eskişehir",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 1174,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "178 - Kanal 3",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 926,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "179 - Kanal 32",
+      "categoria": "REGIONAIS",
+      "url": "https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8",
+      "teste": {
+        "status": "FALHA",
+        "http": null,
+        "ms": 221,
+        "tipo": "rede",
+        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
+      }
+    },
+    {
+      "canal": "180 - Kanal 33",
+      "categoria": "REGIONAIS",
+      "url": "https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8",
+      "teste": {
+        "status": "FALHA",
+        "http": null,
+        "ms": 224,
+        "tipo": "rede",
+        "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
+      }
+    },
+    {
+      "canal": "181 - Kanal 34",
+      "categoria": "REGIONAIS",
+      "url": "https://live.euromediacenter.com/kanal34/index.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 399,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "182 - Kanal 53",
+      "categoria": "REGIONAIS",
+      "url": "https://kanal53.ozelip.com:3448/hybrid/play.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 417,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "183 - Kanal 58",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 3193,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "184 - Kanal B",
+      "categoria": "REGIONAIS",
+      "url": "https://tv.kanalb.tr/hls/kanalb/index.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 1713,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "185 - Kanal Fırat",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 1903,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "186 - Kanal V",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 1110,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "187 - Kay TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 2391,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "188 - Kayhan TV",
+      "categoria": "REGIONAIS",
+      "url": "https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 200,
+        "ms": 246,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "189 - Kent Türk TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 889,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "190 - Kocaeli TV",
+      "categoria": "REGIONAIS",
+      "url": "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 438,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "191 - Konya KTV",
+      "categoria": "REGIONAIS",
+      "url": "https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/chunklist_w16313685.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 642,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "192 - Konya Olay TV",
+      "categoria": "REGIONAIS",
+      "url": "https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8",
+      "teste": {
+        "status": "OK",
+        "http": 206,
+        "ms": 773,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
+      }
+    },
+    {
+      "canal": "193 - Mercan TV",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 622,
+        "ms": 810,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "MTürk TV",
+      "canal": "194 - MTürk TV",
       "categoria": "REGIONAIS",
       "url": "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 193,
+        "ms": 213,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
     },
     {
-      "canal": "Tempo TV",
+      "canal": "195 - Tempo TV",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1022,
+        "ms": 659,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Tivi 6",
+      "canal": "196 - Tivi 6",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1030,
+        "ms": 801,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Ton TV",
+      "canal": "197 - Ton TV",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 628,
+        "ms": 813,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "TV 1",
+      "canal": "198 - TV 1",
       "categoria": "REGIONAIS",
       "url": "https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 194,
+        "ms": 210,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
     },
     {
-      "canal": "TV 264",
+      "canal": "199 - TV 264",
       "categoria": "REGIONAIS",
       "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 751,
+        "ms": 560,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "TV 41",
+      "canal": "200 - TV 41",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 635,
+        "ms": 626,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "TV 52",
+      "canal": "201 - TV 52",
       "categoria": "REGIONAIS",
       "url": "https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 195,
+        "ms": 206,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
     },
     {
-      "canal": "TV DEN",
+      "canal": "202 - TV DEN",
       "categoria": "REGIONAIS",
       "url": "http://canli.tvden.com.tr/hls/live.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 838,
+        "ms": 833,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Vuslat TV",
+      "canal": "203 - Vuslat TV",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 975,
+        "ms": 785,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Natural TV",
+      "canal": "204 - Natural TV",
       "categoria": "REGIONAIS",
       "url": "https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 199,
+        "ms": 205,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
     },
     {
-      "canal": "Sun RTV",
+      "canal": "205 - Sun RTV",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 646,
+        "ms": 4066,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "TBMM TV",
+      "canal": "206 - TBMM TV",
       "categoria": "REGIONAIS",
       "url": "https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8",
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 504,
+        "ms": 541,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Van 65 TV",
+      "canal": "207 - Van 65 TV",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 1064,
+        "ms": 773,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "YOL TV",
+      "canal": "208 - YOL TV",
       "categoria": "REGIONAIS",
       "url": "https://live.yoltv.com/hls/stream.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 351,
+        "ms": 383,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Kanal Ada",
+      "canal": "209 - Kanal Ada",
       "categoria": "REGIONAIS",
       "url": "http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 265,
+        "ms": 262,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Kanal Urfa",
+      "canal": "210 - Kanal Urfa",
       "categoria": "REGIONAIS",
       "url": "https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 202,
+        "ms": 211,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
     },
     {
-      "canal": "Trabzon Buyuksehir Belediyesi TV",
+      "canal": "211 - Trabzon Buyuksehir Belediyesi TV",
       "categoria": "REGIONAIS",
       "url": "https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 506,
+        "ms": 503,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Urfanatik TV",
+      "canal": "212 - Urfanatik TV",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 621,
+        "ms": 1284,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "ETV Manisa",
+      "canal": "213 - ETV Manisa",
       "categoria": "REGIONAIS",
       "url": "https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 203,
+        "ms": 201,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
     },
     {
-      "canal": "TV Karadeniz",
+      "canal": "214 - TV Karadeniz",
       "categoria": "REGIONAIS",
       "url": "https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8",
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 628,
+        "ms": 625,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
     },
     {
-      "canal": "Line TV",
+      "canal": "215 - Line TV",
       "categoria": "REGIONAIS",
       "url": "https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8",
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 191,
+        "ms": 202,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
