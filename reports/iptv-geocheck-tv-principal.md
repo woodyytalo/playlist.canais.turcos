@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-25 19:36 UTC
+- Executado em: 2026-11-25 20:04 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **215**
 - URLs únicas: **215**
@@ -9,11 +9,11 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 194 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 193 |
 | FALHA DE CONEXÃO (URLError) | 17 |
 | FALHA DE CONEXÃO (TimeoutError) | 2 |
+| LINK NÃO ENCONTRADO (404) | 2 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
-| LINK NÃO ENCONTRADO (404) | 1 |
 
 ## Detalhamento
 
@@ -24,7 +24,7 @@
 | 3 - Minika Çocuk | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 4 - Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 5 - Spacetoon Türkiye | \`live-tr-next.spacetoongo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 6 - TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 6 - TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 7 - TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 8 - Zarok TV Kurmanji | \`zindikurmanci.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 9 - Zarok TV Sorani | \`zindisorani.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -47,7 +47,7 @@
 | 26 - Halk TV | \`halktv-live.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 27 - İlke TV | \`stream.ilketv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 28 - NTV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| 29 - TELE1 | \`tele1-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 29 - TELE1 | \`tele1-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 30 - TGRT Haber | \`canli.tgrthaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 31 - TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 32 - TRT World | \`cdn.pishow.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
