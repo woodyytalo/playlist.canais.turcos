@@ -18,8 +18,8 @@ import time
 
 PLAYLIST = Path(sys.argv[1] if len(sys.argv) > 1 else "Tv.m3u")
 REPORT = Path(sys.argv[2] if len(sys.argv) > 2 else "reports/anti-crash/resultado.txt")
-TIMEOUT = 20
-ATTEMPTS = 5
+TIMEOUT = 10
+ATTEMPTS = 2
 SAMPLE_BYTES = 65536
 USER_AGENT = "Mozilla/5.0 (compatible; TVPlaylistLinkAudit/2.0)"
 
@@ -110,8 +110,7 @@ def probe(item):
                 "detail": f"{type(exc).__name__}: {str(reason)[:180]}",
             }
 
-        # Repetir também 404: CDNs e proxies podem responder incorretamente
-        # durante uma oscilação. Só classificar após as três tentativas.
+        # Uma repetição curta reduz falsos negativos sem prolongar a auditoria.
         if attempt < ATTEMPTS:
             time.sleep(attempt)
 
@@ -146,7 +145,7 @@ def main() -> int:
         out.write(f"Playlist: {PLAYLIST} | Canais HTTP(S): {len(results)}\n")
         out.write(f"Tentativas por endereço: até {ATTEMPTS} | Timeout por tentativa: {TIMEOUT}s\n")
         out.write("A auditoria é somente leitura: não modifica Tv.m3u e não remove canais.\n")
-        out.write("HTTP 404 só é confirmado após repetir a requisição três vezes.\n\n")
+        out.write("Falhas transitórias são repetidas uma vez antes da classificação final.\n\n")
         out.write("## Resumo\n")
         for category in ("OK", "HTTP_404", "HTTP_410", "HTTP_BLOQUEADO",
                          "HTTP_SERVIDOR", "HTTP_ERRO", "FALHA_REDE", "RESPOSTA_VAZIA"):
