@@ -1,22 +1,24 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-24 23:53 UTC
+- Executado em: 2026-11-25 01:00 UTC
 - Playlist analisada: \`Tv.m3u\`
-- Entradas testadas: **215**
-- URLs únicas: **213**
+- Entradas testadas: **219**
+- URLs únicas: **217**
 
 ## Resumo
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 194 |
-| FALHA DE CONEXÃO (URLError) | 18 |
-| LINK NÃO ENCONTRADO (404) | 3 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 195 |
+| FALHA DE CONEXÃO (URLError) | 20 |
+| LINK NÃO ENCONTRADO (404) | 4 |
 
 ## Detalhamento
 
 | Canal | Host | Resultado | HTTP |
 |---|---|---|---:|
+| BabyTV (backup 1) | \`138.121.15.230\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| Finest TV (288p) [Not 24/7] | \`media.finest.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | 24 TV | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Lider Haber | \`nrttn172.kesintisizyayin.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | A Haber | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -35,7 +37,7 @@
 | Halk TV | \`halktv-live.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | İlke TV | \`stream.ilketv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | NTV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TELE1 | \`tele1-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TELE1 | \`tele1-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | TGRT Haber | \`canli.tgrthaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT World | \`cdn.pishow.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -69,7 +71,7 @@
 | TV8 | \`rkhubpaomb.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Euro Star TV | \`raw.githubusercontent.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TV4 | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | A Spor | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | FB TV | \`1hskrdto.rocketcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | HT Spor TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -178,7 +180,7 @@
 | JÎN TV | \`live.jintv.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 4U Family (persa) | \`familyhls.4utv.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Luys TV | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Kurdî | \`tv-trtkurdi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Türk | \`tv-trtturk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -186,7 +188,7 @@
 | Minika Çocuk | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Spacetoon Türkiye | \`live-tr-next.spacetoongo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Zarok TV Kurmanji | \`zindikurmanci.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Zarok TV Sorani | \`zindisorani.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -232,6 +234,8 @@
 | Fortuna TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | TLC | \`s6.hopslan.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Love Nature | \`mumbai-edge.smartplaytv.in\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| KRT (1080p) | \`raw.githubusercontent.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| Line TV (720p) [Not 24/7] | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 
 ## Observações
 
