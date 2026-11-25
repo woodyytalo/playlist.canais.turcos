@@ -25,7 +25,7 @@ jobs:
       - name: Baixar repositório
         uses: actions/checkout@v4
 
-      - name: Corrigir automaticamente nomes e remover números de catálogo
+      - name: Garantir numeração visível dos canais
         shell: bash
         run: |
           python - <<'PY'
@@ -34,20 +34,20 @@ jobs:
 
           path = Path("Tv.m3u")
           lines = path.read_text(encoding="utf-8").splitlines()
-          changed = 0
+          number = 0
           for i, line in enumerate(lines):
               if not line.startswith("#EXTINF:") or "," not in line:
                   continue
+              number += 1
               prefix, display = line.rsplit(",", 1)
-              # Remove apenas números de catálogo no início do título (ex.: 148 - Canal).
-              # Não altera números que fazem parte do nome (ex.: 1Mus, TV 1, 24 TV).
-              clean = re.sub(r"^\s*\d+\s*[-–—.)]\s*", "", display).strip()
-              if clean != display.strip():
-                  lines[i] = prefix + "," + clean
-                  changed += 1
-          if changed:
-              path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-          print(f"Nomes corrigidos automaticamente: {changed}; títulos sem numeração de catálogo.")
+              name = re.sub(r"^\\s*\\d+\\s*[-–—.)]\\s*", "", display).strip()
+              if re.search(r'\\btvg-chno="[^"]*"', prefix, re.I):
+                  prefix = re.sub(r'\\btvg-chno="[^"]*"', f'tvg-chno="{number}"', prefix, count=1, flags=re.I)
+              else:
+                  prefix = re.sub(r"^#EXTINF:(\\S+)", rf'\\1 tvg-chno="{number}"', prefix, count=1)
+              lines[i] = f"{prefix},{number} - {name}"
+          path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+          print(f"Numeração visível aplicada a {number} canais.")
           PY
 
       - name: Garantir teleguia automático para canais novos
