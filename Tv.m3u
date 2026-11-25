@@ -6,7 +6,7 @@
 http://138.121.15.230:9002/BABY-TV/index.m3u8
 #FREQUÊNCIA: Türksat 4A: 12226 V, SR 27500, FEC 3/4
 
-#EXTINF:-1 tvg-chno="2" tvg-name="Cartoon Network Türkiye" group-title="INFANTIS" tvg-language="Turkish",2 - Cartoon Network Türkiye
+#EXTINF:-1 tvg-id="CartoonNetwork.tr@SD" tvg-chno="2" tvg-name="Cartoon Network Türkiye" group-title="INFANTIS" tvg-language="Turkish",2 - Cartoon Network Türkiye
 #EXTVLCOPT:adaptive-maxheight=720
 #EXTVLCOPT:adaptive-logic=highest
 http://176.65.153.40:6002/play/a013/index.m3u8
@@ -24,7 +24,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8
 #FREQUÊNCIA: Satélite: a verificar
 
-#EXTINF:-1 tvg-chno="5" tvg-name="Spacetoon Türkiye" group-title="INFANTIS" tvg-language="Turkish",5 - Spacetoon Türkiye
+#EXTINF:-1 tvg-id="SpacetoonTurkey.tr@SD" tvg-chno="5" tvg-name="Spacetoon Türkiye" group-title="INFANTIS" tvg-language="Turkish",5 - Spacetoon Türkiye
 #EXTVLCOPT:adaptive-maxheight=720
 #EXTVLCOPT:adaptive-logic=highest
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
@@ -42,7 +42,7 @@ https://tv-trtcocuk.medya.trt.com.tr/master_480.m3u8
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8
 #FREQUÊNCIA: Türksat 6A: 12149 V, SR 27500, FEC 3/4
 
-#EXTINF:-1 tvg-chno="8" tvg-name="Zarok TV Kurmanji" group-title="INFANTIS" tvg-language="Turkish",8 - Zarok TV Kurmanji
+#EXTINF:-1 tvg-id="ZarokTV.tr@SD" tvg-chno="8" tvg-name="Zarok TV Kurmanji" group-title="INFANTIS" tvg-language="Turkish",8 - Zarok TV Kurmanji
 #EXTVLCOPT:adaptive-maxheight=720
 #EXTVLCOPT:adaptive-logic=highest
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
@@ -288,7 +288,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8
 #FREQUÊNCIA: Türksat 5B: 11425 V, SR 30000, FEC 3/4
 
-#EXTINF:-1 tvg-chno="49" tvg-name="Bi Kanal" group-title="ENTRETENIMENTO" tvg-language="Turkish",49 - Bi Kanal
+#EXTINF:-1 tvg-id="BiKanal.tr@SD" tvg-chno="49" tvg-name="Bi Kanal" group-title="ENTRETENIMENTO" tvg-language="Turkish",49 - Bi Kanal
 #EXTVLCOPT:adaptive-maxheight=720
 #EXTVLCOPT:adaptive-logic=highest
 https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
@@ -762,7 +762,7 @@ https://mediaserver.abnvideos.com/streams/turkish__discipleship.m3u8
 https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all
 #FREQUÊNCIA: Satélite: a verificar
 
-#EXTINF:-1 tvg-chno="128" tvg-name="Anadolu Net TV" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" group-title="REGIONAIS",128 - Anadolu Net TV
+#EXTINF:-1 tvg-id="AnadoluNetTV.tr@SD" tvg-chno="128" tvg-name="Anadolu Net TV" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" group-title="REGIONAIS",128 - Anadolu Net TV
 #EXTVLCOPT:adaptive-maxheight=720
 #EXTVLCOPT:adaptive-logic=highest
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8#all
@@ -954,7 +954,7 @@ https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 https://canli.edessatv.com/hls/stream.m3u8
 #FREQUÊNCIA: Türksat 4A: 12345 V, SR 30000, FEC 2/3
 
-#EXTINF:-1 tvg-chno="160" tvg-name="ER TV Malatya" group-title="REGIONAIS" tvg-language="Turkish",160 - ER TV Malatya
+#EXTINF:-1 tvg-id="ERTV.tr@SD" tvg-chno="160" tvg-name="ER TV Malatya" group-title="REGIONAIS" tvg-language="Turkish",160 - ER TV Malatya
 #EXTVLCOPT:adaptive-maxheight=720
 #EXTVLCOPT:adaptive-logic=highest
 https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
