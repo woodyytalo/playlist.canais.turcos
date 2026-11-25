@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-25 22:32 UTC
+- Executado em: 2026-11-25 22:42 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **215**
 - URLs únicas: **215**
@@ -9,10 +9,11 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 190 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 188 |
 | FALHA DE CONEXÃO (URLError) | 19 |
-| LINK NÃO ENCONTRADO (404) | 5 |
+| LINK NÃO ENCONTRADO (404) | 6 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
+| FALHA DE CONEXÃO (TimeoutError) | 1 |
 
 ## Detalhamento
 
@@ -23,7 +24,7 @@
 | 3 - Minika Çocuk | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 4 - Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 5 - Spacetoon Türkiye | \`live-tr-next.spacetoongo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 6 - TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 6 - TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 7 - TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 8 - Zarok TV Kurmanji | \`zindikurmanci.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 9 - Zarok TV Sorani | \`zindisorani.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -46,7 +47,7 @@
 | 26 - Halk TV | \`halktv-live.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 27 - İlke TV | \`stream.ilketv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 28 - NTV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| 29 - TELE1 | \`tele1-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 29 - TELE1 | \`tele1-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 30 - TGRT Haber | \`canli.tgrthaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 31 - TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 32 - TRT World | \`cdn.pishow.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -114,7 +115,7 @@
 | 94 - Now 70 s | \`lightning-now70s-samsungnz.amagi.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 95 - Now 80 s | \`lightning-now80s-samsungnz.amagi.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 96 - NOW ROCK | \`lightning-now90s-samsungnz.amagi.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 97 - IQ Channel | \`rtmp.info\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 97 - IQ Channel | \`rtmp.info\` | FALHA DE CONEXÃO (TimeoutError) | - |
 | 98 - TopPop | \`yayin.santraltr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 99 - Retro Music Television | \`stream.mediawork.cz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 100 - Power TV (480p) | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -162,7 +163,7 @@
 | 142 - JÎN TV | \`live.jintv.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 143 - 4U Family (persa) | \`familyhls.4utv.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 144 - Luys TV | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 145 - TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 145 - TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 146 - TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 147 - TRT Kurdî | \`tv-trtkurdi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 148 - TRT Türk | \`tv-trtturk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
