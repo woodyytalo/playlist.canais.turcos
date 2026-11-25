@@ -1371,5 +1371,6 @@ https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 #EXTINF:-1 tvg-id="KRT.tr@SD" tvg-logo="https://i.imgur.com/9ZKqdQJ.png" group-title="Culture" tvg-name="KRT (1080p)",KRT (1080p)
 #EXTVLCOPT:network-caching=5000
 https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8
-#EXTINF:-1 tvg-id="LineTV.tr@SD" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="General",095 - Line TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="LineTV.tr@SD" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="General" tvg-name="Line TV (720p) [Not 24/7]",Line TV (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
