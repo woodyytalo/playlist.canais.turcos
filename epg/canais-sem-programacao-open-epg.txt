@@ -2,7 +2,7 @@ Relatório XMLTV — epg/guia-open-epg.xml
 Canais na playlist: 219
 Canais com programação real: 76
 Canais sem programação correspondente: 143
-Programas reais copiados: 8013
+Programas reais copiados: 8011
 
 CANAIS SEM PROGRAMAÇÃO:
 - BabyTV (backup 1) | ID: babytvbackup1.local | Categoria: INFANTIS
