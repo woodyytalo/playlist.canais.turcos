@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-25 01:17 UTC
+- Executado em: 2026-11-25 01:19 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **218**
 - URLs únicas: **216**
@@ -188,7 +188,7 @@
 | Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Spacetoon Türkiye | \`live-tr-next.spacetoongo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Zarok TV Kurmanji | \`zindikurmanci.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Zarok TV Sorani | \`zindisorani.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | BabyFirst TV | \`cdn.fast.jwp.services\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
