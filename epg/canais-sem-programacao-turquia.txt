@@ -1,11 +1,12 @@
 Relatório XMLTV — epg/guia-turquia.xml
-Canais na playlist: 216
+Canais na playlist: 217
 Canais com programação real: 75
-Canais sem programação correspondente: 141
-Programas reais copiados: 8077
+Canais sem programação correspondente: 142
+Programas reais copiados: 8074
 
 CANAIS SEM PROGRAMAÇÃO:
 - BabyTV (backup 1) | ID: babytvbackup1.local | Categoria: INFANTIS
+- Finest TV | ID: finesttv.local | Categoria: ESTILO DE VIDA
 - Lider Haber | ID: liderhaber.local | Categoria: NOTÍCIAS
 - Bloomberg HT 2 | ID: bloomberght2.local | Categoria: NOTÍCIAS
 - DHA | ID: DHA.tr@SD | Categoria: NOTÍCIAS
