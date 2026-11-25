@@ -18152,3 +18152,11 @@ http://85.117.61.84/cnnturk/index.m3u8?checkedby:iptvcat.net
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&checkedby:iptvcat.net
 #EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/2AcRKdL.png" group-title="",TÃ¼rkHaber (720p)
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",FB TV
+http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",Line TV (404p) [Not 24/7]
+https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",SPIRIT TV MUSIC
+https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://van65tv.com/assets/images/logo/logo.png" group-title="",Van 65 TV
+https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8?checkedby:iptvcat.net
