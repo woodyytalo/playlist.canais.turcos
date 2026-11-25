@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-25 20:57 UTC
+- Executado em: 2026-11-25 20:58 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **215**
 - URLs únicas: **215**
@@ -9,10 +9,10 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 194 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 190 |
 | FALHA DE CONEXÃO (URLError) | 19 |
+| LINK NÃO ENCONTRADO (404) | 5 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
-| LINK NÃO ENCONTRADO (404) | 1 |
 
 ## Detalhamento
 
@@ -28,7 +28,7 @@
 | 8 - Zarok TV Kurmanji | \`zindikurmanci.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 9 - Zarok TV Sorani | \`zindisorani.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 10 - BabyFirst TV | \`cdn.fast.jwp.services\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 11 - 24 TV | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 11 - 24 TV | \`turkmedya-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 12 - Lider Haber | \`nrttn172.kesintisizyayin.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 13 - A Haber | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 14 - A Para | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -61,7 +61,7 @@
 | 41 - TYT TÜRK | \`tytturk-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 42 - Life TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 43 - KRT | \`raw.githubusercontent.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 44 - 360 TV | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 44 - 360 TV | \`turkmedya-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 45 - 4U TV | \`hls.4utv.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 46 - A2 | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 47 - ATV | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -78,7 +78,7 @@
 | 58 - teve2 | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 59 - TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
 | 60 - TV8 | \`rkhubpaomb.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| 61 - TV4 | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 61 - TV4 | \`turkmedya-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 62 - TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 63 - CİNE1 | \`canliyayin.cine1.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 64 - Grand Cinema | \`gcinemahls.wns.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -117,7 +117,7 @@
 | 97 - IQ Channel | \`rtmp.info\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 98 - TopPop | \`yayin.santraltr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 99 - Retro Music Television | \`stream.mediawork.cz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 100 - Power TV (720p) | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 100 - Power TV (480p) | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 101 - A Spor | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 102 - FB TV | \`1hskrdto.rocketcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 103 - HT Spor TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -223,7 +223,7 @@
 | 203 - Vuslat TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 204 - Natural TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | 205 - Sun RTV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 206 - TBMM TV | \`meclistv-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 206 - TBMM TV | \`meclistv-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 207 - Van 65 TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 208 - YOL TV | \`live.yoltv.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 209 - Kanal Ada | \`145.239.58.133\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
