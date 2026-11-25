@@ -64,7 +64,7 @@ https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest/1.m3u8
 #EXTINF:-1 tvg-id="24TV.tr@SD" tvg-chno="11" tvg-name="24 TV" group-title="NOTÍCIAS" tvg-language="Turkish",11 - 24 TV
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
+https://turkmedya-live.ercdn.net/tv24/tv24_480p.m3u8
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
 
 #EXTINF:-1 tvg-chno="12" tvg-name="Lider Haber" group-title="NOTÍCIAS" tvg-language="Turkish" tvg-id="LiderHaber.tr",12 - Lider Haber
@@ -184,7 +184,7 @@ https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-chno="31" tvg-id="TRTHaber.tr@SD" tvg-name="TRT Haber" group-title="NOTÍCIAS" tvg-language="Turkish",31 - TRT Haber
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
+https://tv-trthaber.medya.trt.com.tr/master_480.m3u8
 #FREQUÊNCIA: Türksat 4A: 12073 V, SR 27500, FEC 3/4
 
 #EXTINF:-1 tvg-chno="32" tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" group-title="NOTÍCIAS" tvg-language="Turkish",32 - TRT World
@@ -262,7 +262,7 @@ https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/k
 #EXTINF:-1 tvg-id="360.tr@SD" tvg-chno="44" tvg-name="360 TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",44 - 360 TV
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+https://turkmedya-live.ercdn.net/tv360/tv360_480p.m3u8
 #FREQUÊNCIA: Satélite: a verificar
 
 #EXTINF:-1 tvg-id="4UTV.tr@SD" tvg-chno="45" tvg-name="4U TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",45 - 4U TV
@@ -340,7 +340,7 @@ https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrA
 #EXTINF:-1 tvg-id="StarTV.tr@SD" tvg-chno="57" tvg-name="Star TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",57 - Star TV
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
+https://dogus.daioncdn.net/startv/startv_480p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
 
 #EXTINF:-1 tvg-chno="58" tvg-id="6vs4sg9183gdxth" tvg-name="teve2" group-title="ENTRETENIMENTO" tvg-language="Turkish",58 - teve2
@@ -358,13 +358,13 @@ https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 #EXTINF:-1 tvg-chno="60" tvg-id="TV8.tr@SD" tvg-name="TV8" group-title="ENTRETENIMENTO" tvg-language="Turkish",60 - TV8
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_480p.m3u8
 #FREQUÊNCIA: Türksat 6A: 12111 V, SR 27500, FEC 3/4
 
 #EXTINF:-1 tvg-id="TV4.tr@SD" tvg-chno="61" tvg-name="TV4" group-title="ENTRETENIMENTO" tvg-language="Turkish",61 - TV4
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
+https://turkmedya-live.ercdn.net/tv4/tv4_480p.m3u8
 #FREQUÊNCIA: Türksat 5B: 11225 V, SR 30000, FEC 3/4
 
 #EXTINF:-1 tvg-id="TRTGenc.tr@SD" tvg-chno="62" tvg-name="TRT Genç" group-title="ENTRETENIMENTO" tvg-language="Turkish",62 - TRT Genç
@@ -574,7 +574,7 @@ https://lightning-now80s-samsungnz.amagi.tv/playlist480p.m3u8
 #EXTINF:-1 tvg-chno="96" tvg-name="NOW ROCK" group-title="MÚSICA" tvg-language="Turkish",96 - NOW ROCK
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
+https://lightning-now90s-samsungnz.amagi.tv/playlist480p.m3u8
 #FREQUÊNCIA: Satélite: a verificar
 
 #EXTINF:-1 tvg-chno="97" group-title="MÚSICA" tvg-name="IQ Channel" tvg-language="Turkish",97 - IQ Channel
@@ -595,7 +595,7 @@ https://yayin.santraltr.com/hls/toppop.m3u8
 https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #FREQUÊNCIA: Türksat 5B: 11225 V, SR 30000, FEC 3/4
 
-#EXTINF:-1 tvg-id="PowerTV.tr" tvg-chno="100" tvg-name="Power TV (720p)" group-title="MÚSICA" tvg-language="Turkish",100 - Power TV (720p)
+#EXTINF:-1 tvg-id="PowerTV.tr" tvg-chno="100" tvg-name="Power TV (480p)" group-title="MÚSICA" tvg-language="Turkish",100 - Power TV (480p)
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
 https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
@@ -874,7 +874,7 @@ https://tv-trtarabi.medya.trt.com.tr/master_480.m3u8
 #EXTINF:-1 tvg-chno="146" tvg-id="TRTAvaz.tr@SD" tvg-name="TRT Avaz" group-title="INTERNACIONAIS" tvg-language="Turkish",146 - TRT Avaz
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
+https://tv-trtavaz.medya.trt.com.tr/master_480.m3u8
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
 
 #EXTINF:-1 tvg-id="TRTKurdi.tr@SD" tvg-chno="147" tvg-name="TRT Kurdî" group-title="INTERNACIONAIS" tvg-language="Turkish",147 - TRT Kurdî
@@ -886,7 +886,7 @@ https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8
 #EXTINF:-1 tvg-chno="148" tvg-id="TRTTurk.tr@SD" tvg-name="TRT Türk" group-title="INTERNACIONAIS" tvg-language="Turkish",148 - TRT Türk
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
+https://tv-trtturk.medya.trt.com.tr/master_480.m3u8
 #FREQUÊNCIA: Satélite: a verificar
 
 #EXTINF:-1 tvg-id="ASTV.tr@SD" tvg-chno="149" tvg-name="AS TV" group-title="REGIONAIS" tvg-language="Turkish",149 - AS TV
@@ -1234,7 +1234,7 @@ https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-chno="206" tvg-name="TBMM TV" group-title="REGIONAIS" tvg-language="Turkish",206 - TBMM TV
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
+https://meclistv-live.ercdn.net/meclistv/meclistv_480p.m3u8
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
 
 #EXTINF:-1 tvg-id="Van65TV.tr@SD" tvg-chno="207" tvg-name="Van 65 TV" group-title="REGIONAIS" tvg-language="Turkish",207 - Van 65 TV
