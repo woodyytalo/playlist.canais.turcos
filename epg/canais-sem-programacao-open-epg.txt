@@ -1,10 +1,11 @@
 Relatório XMLTV — epg/guia-open-epg.xml
-Canais na playlist: 215
+Canais na playlist: 216
 Canais com programação real: 75
-Canais sem programação correspondente: 140
-Programas reais copiados: 8113
+Canais sem programação correspondente: 141
+Programas reais copiados: 8077
 
 CANAIS SEM PROGRAMAÇÃO:
+- BabyTV (backup 1) | ID: babytvbackup1.local | Categoria: INFANTIS
 - Lider Haber | ID: liderhaber.local | Categoria: NOTÍCIAS
 - Bloomberg HT 2 | ID: bloomberght2.local | Categoria: NOTÍCIAS
 - DHA | ID: DHA.tr@SD | Categoria: NOTÍCIAS
