@@ -1,6 +1,6 @@
 # Bot de proxy HLS pela VPN Gate da Turquia
 
-Este modo usa OpenVPN (não WireGuard) e o servidor público turco listado como `vpn418630161.opengw.net`. A listagem consultada informa OpenVPN UDP na porta 1195. Servidores públicos podem mudar de IP, ficar offline ou limitar tráfego; deixe o endpoint definido no perfil `.ovpn` fornecido pelo VPN Gate e valide o país de saída antes de usar.
+Este modo usa OpenVPN (não WireGuard) e o servidor público turco listado como `vpn418630161.opengw.net`. Servidores públicos podem mudar de IP, ficar offline ou limitar tráfego; deixe o endpoint definido no perfil `.ovpn` fornecido pelo VPN Gate e valide o país de saída antes de usar.
 
 ## O que já está preparado
 
