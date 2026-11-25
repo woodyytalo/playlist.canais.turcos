@@ -86,23 +86,6 @@ jobs:
           print("Cabeçalho XMLTV garantido e tvg-name preenchido quando ausente.")
           PY
 
-      - name: Remover configurações fixas de buffer da playlist
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          path = Path("Tv.m3u")
-          lines = path.read_text(encoding="utf-8").splitlines()
-          original = len(lines)
-          lines = [
-              line for line in lines
-              if not line.strip().lower().startswith("#extvlcopt:network-caching=")
-          ]
-          removed = original - len(lines)
-          path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-          print(f"Diretivas fixas de network-caching removidas: {removed}.")
-          PY
-
       - name: Salvar alterações
         shell: bash
         run: |
