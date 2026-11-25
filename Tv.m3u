@@ -284,12 +284,14 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371fb4d7475349d6f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
 #EXTINF:-1 tvg-chno="105" tvg-id="Now.tr" tvg-name="NOW" group-title="ENTRETENIMENTO" tvg-language="Turkish",NOW
+#EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
 #EXTVLCOPT:network-caching=5000
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #FREQUÊNCIA: Türksat 3A: 12729 V, SR 30000, FEC 3/4
 #EXTINF:-1 tvg-chno="119" tvg-id="8xihgna8cyvdnyd" tvg-name="Show Max" group-title="ENTRETENIMENTO" tvg-language="Turkish",Show Max
+#EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
 #EXTVLCOPT:network-caching=5000
@@ -326,6 +328,7 @@ https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #FREQUÊNCIA: Türksat 5B: 11225 V, SR 30000, FEC 3/4
 #EXTINF:-1 tvg-chno="162" tvg-id="76711" tvg-name="Euro Star TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",Euro Star TV
+#EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
 #EXTVLCOPT:network-caching=5000
@@ -394,12 +397,14 @@ http://57.129.0.61:1990/stream/117/index.m3u8
 #FREQUÊNCIA: Satélite: a verificar
 
 #EXTINF:-1 tvg-chno="71" tvg-name="Eurosport 1" group-title="ESPORTES" tvg-language="Turkish",Eurosport 1
+#EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
 #EXTVLCOPT:network-caching=5000
 http://213.91.179.28:8000/play/a05y
 
 #EXTINF:-1 tvg-name="Eurosport 2" group-title="ESPORTES" tvg-language="Turkish",Eurosport 2
+#EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
 #EXTVLCOPT:network-caching=5000
@@ -1293,6 +1298,7 @@ https://lightning-now70s-samsungnz.amagi.tv/playlist480p.m3u8
 https://lightning-now80s-samsungnz.amagi.tv/playlist480p.m3u8
 #FREQUÊNCIA: Satélite: a verificar
 #EXTINF:-1 tvg-chno="200" tvg-name="NOW ROCK" group-title="MÚSICA" tvg-language="Turkish",NOW ROCK
+#EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
 #EXTVLCOPT:network-caching=5000
