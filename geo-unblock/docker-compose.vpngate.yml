@@ -1,0 +1,38 @@
+services:
+  vpn:
+    image: qmcgaw/gluetun:v3
+    container_name: tv-vpngate-turquia
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    volumes:
+      # Coloque o perfil OpenVPN baixado do VPN Gate neste caminho.
+      - ./client.ovpn:/gluetun/custom.conf:ro
+    environment:
+      VPN_SERVICE_PROVIDER: custom
+      VPN_TYPE: openvpn
+      OPENVPN_CUSTOM_CONFIG: /gluetun/custom.conf
+      OPENVPN_USER: ${OPENVPN_USER:-vpn}
+      OPENVPN_PASSWORD: ${OPENVPN_PASSWORD:-vpn}
+      FIREWALL_INPUT_PORTS: "8080"
+      TZ: America/Sao_Paulo
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+  hls-proxy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tv-vpngate-hls-proxy
+    network_mode: "service:vpn"
+    depends_on:
+      - vpn
+    environment:
+      PLAYLIST_PATH: /data/Tv.m3u
+      PORT: "8080"
+      PROXY_SIGNING_KEY: ${PROXY_SIGNING_KEY:?configure uma chave longa no arquivo .env.vpngate}
+    volumes:
+      - ../Tv.m3u:/data/Tv.m3u:ro
+    restart: unless-stopped
