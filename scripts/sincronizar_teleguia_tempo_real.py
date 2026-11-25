@@ -41,9 +41,17 @@ def has_non_turkish_script(value):
     """Detecta sistemas de escrita incompatíveis com a programação turca em alfabeto latino."""
     for char in value or '':
         code = ord(char)
-        if (0x3040 <= code <= 0x30FF or 0x3400 <= code <= 0x9FFF or
-            0xAC00 <= code <= 0xD7AF or 0x0400 <= code <= 0x052F or
-            0x0600 <= code <= 0x06FF or 0x0370 <= code <= 0x03FF):
+        if (0x3040 <= code <= 0x30FF or       # Hiragana e Katakana
+            0x31F0 <= code <= 0x31FF or       # Extensões de Katakana
+            0x3400 <= code <= 0x9FFF or       # Ideogramas CJK
+            0xF900 <= code <= 0xFAFF or       # Ideogramas CJK de compatibilidade
+            0xFF00 <= code <= 0xFFEF or       # Formas de largura cheia/meia largura (inclui Katakana)
+            0x1B000 <= code <= 0x1B16F or     # Suplementos de Kana
+            0x20000 <= code <= 0x2FA1F or     # Ideogramas CJK suplementares
+            0xAC00 <= code <= 0xD7AF or       # Hangul
+            0x0400 <= code <= 0x052F or       # Cirílico
+            0x0600 <= code <= 0x06FF or       # Árabe
+            0x0370 <= code <= 0x03FF):         # Grego
             return True
     return False
 
