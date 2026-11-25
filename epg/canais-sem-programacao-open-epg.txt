@@ -1,11 +1,10 @@
 Relatório XMLTV — epg/guia-open-epg.xml
 Canais na playlist: 218
-Canais com programação real: 76
-Canais sem programação correspondente: 142
-Programas reais copiados: 7980
+Canais com programação real: 77
+Canais sem programação correspondente: 141
+Programas reais copiados: 10162
 
 CANAIS SEM PROGRAMAÇÃO:
-- BabyTV (backup 1) | ID: babytvbackup1.local | Categoria: INFANTIS
 - Cartoon Network Türkiye | ID: cartoonnetworkturkiye.local | Categoria: INFANTIS
 - Spacetoon Türkiye | ID: spacetoonturkiye.local | Categoria: INFANTIS
 - Zarok TV Kurmanji | ID: zaroktvkurmanji.local | Categoria: INFANTIS
@@ -27,7 +26,7 @@ CANAIS SEM PROGRAMAÇÃO:
 - Tabii | ID: TABİİ.tr | Categoria: FILMES E SÉRIES
 - Arzu Film | ID: arzufilm.local | Categoria: FILMES E SÉRIES
 - Dizi TV | ID: dizitv.local | Categoria: FILMES E SÉRIES
-- Finest TV (288p) [Not 24/7] | ID: FinestTV.de@SD | Categoria: MÚSICA
+- Finest TV | ID: FinestTV.de@SD | Categoria: MÚSICA
 - 1Mus | ID: 1mus.local | Categoria: MÚSICA
 - 30A Music | ID: 30amusic.local | Categoria: MÚSICA
 - Med Müzik | ID: MedMuzik.tr@SD | Categoria: MÚSICA
@@ -146,4 +145,4 @@ CANAIS SEM PROGRAMAÇÃO:
 - ETV Manisa | ID: ETVManisa.tr@SD | Categoria: REGIONAIS
 - MK TV | ID: MaviKaradenizTV.tr@SD | Categoria: REGIONAIS
 - TV Karadeniz | ID: MaviKaradenizTV.tr@SD.duplicate2 | Categoria: REGIONAIS
-- Line TV (720p) [Not 24/7] | ID: LineTV.tr@SD | Categoria: REGIONAIS
+- Line TV | ID: LineTV.tr@SD | Categoria: REGIONAIS
