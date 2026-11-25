@@ -41,10 +41,10 @@ jobs:
               number += 1
               prefix, display = line.rsplit(",", 1)
               name = re.sub(r"^\s*\d+\s*[-–—.)]\s*", "", display).strip()
-              if re.search(r'\\btvg-chno="[^"]*"', prefix, re.I):
-                  prefix = re.sub(r'\\btvg-chno="[^"]*"', f'tvg-chno="{number}"', prefix, count=1, flags=re.I)
+              if re.search(r'\btvg-chno="[^"]*"', prefix, re.I):
+                  prefix = re.sub(r'\btvg-chno="[^"]*"', f'tvg-chno="{number}"', prefix, count=1, flags=re.I)
               else:
-                  prefix = re.sub(r"^#EXTINF:(\S+)", rf'\\1 tvg-chno="{number}"', prefix, count=1)
+                  prefix = re.sub(r"^#EXTINF:(\S+)", rf'\1 tvg-chno="{number}"', prefix, count=1)
               lines[i] = f"{prefix},{number} - {name}"
           path.write_text("\n".join(lines) + "\n", encoding="utf-8")
           print(f"Numeração visível aplicada a {number} canais.")
