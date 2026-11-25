@@ -937,7 +937,7 @@ https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#
 # ===== CATEGORIA: INTERNACIONAIS (13 canais) =====
 
 
-#EXTINF:-1 tvg-chno="128" tvg-name="Anadolu Net TV" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" group-title="Anadolu Net TV",Anadolu Net TV
+#EXTINF:-1 tvg-chno="128" tvg-name="Anadolu Net TV" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" group-title="REGIONAIS",Anadolu Net TV
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8#all
 #EXTINF:-1 tvg-chno="129" tvg-id="76711" tvg-name="Euro Star TV" group-title="INTERNACIONAIS" tvg-language="Turkish",Euro Star TV
