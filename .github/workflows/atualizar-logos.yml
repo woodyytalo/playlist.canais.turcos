@@ -86,47 +86,21 @@ jobs:
           print("Cabeçalho XMLTV garantido e tvg-name preenchido quando ausente.")
           PY
 
-      - name: Aplicar buffer e proteção contra interrupções em todos os canais
+      - name: Remover configurações fixas de buffer da playlist
         run: |
           python - <<'PY'
           from pathlib import Path
 
           path = Path("Tv.m3u")
           lines = path.read_text(encoding="utf-8").splitlines()
-          result = []
-          channels = 0
-          i = 0
-
-          while i < len(lines):
-              if not lines[i].startswith("#EXTINF"):
-                  result.append(lines[i])
-                  i += 1
-                  continue
-
-              channels += 1
-              result.append(lines[i])
-              i += 1
-              block = []
-              while i < len(lines) and not lines[i].startswith("#EXTINF"):
-                  block.append(lines[i])
-                  i += 1
-
-              cache_written = False
-              clean_block = []
-              for item in block:
-                  if item.strip().lower().startswith("#extvlcopt:network-caching="):
-                      if not cache_written:
-                          clean_block.append("#EXTVLCOPT:network-caching=5000")
-                          cache_written = True
-                  else:
-                      clean_block.append(item)
-
-              if not cache_written:
-                  clean_block.insert(0, "#EXTVLCOPT:network-caching=5000")
-              result.extend(clean_block)
-
-          path.write_text("\n".join(result) + "\n", encoding="utf-8")
-          print(f"Buffer de 5 segundos aplicado em {channels} canais.")
+          original = len(lines)
+          lines = [
+              line for line in lines
+              if not line.strip().lower().startswith("#extvlcopt:network-caching=")
+          ]
+          removed = original - len(lines)
+          path.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+          print(f"Diretivas fixas de network-caching removidas: {removed}.")
           PY
 
       - name: Salvar alterações
