@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-25 02:40 UTC
+- Executado em: 2026-11-25 02:43 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **218**
 - URLs únicas: **216**
@@ -9,8 +9,8 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 197 |
-| FALHA DE CONEXÃO (URLError) | 17 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 195 |
+| FALHA DE CONEXÃO (URLError) | 19 |
 | LINK NÃO ENCONTRADO (404) | 3 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
 
@@ -24,7 +24,7 @@
 | Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Spacetoon Türkiye | \`live-tr-next.spacetoongo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Zarok TV Kurmanji | \`zindikurmanci.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Zarok TV Sorani | \`zindisorani.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | BabyFirst TV | \`cdn.fast.jwp.services\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -37,7 +37,7 @@
 | Bloomberg HT 2 | \`tv.ensonhaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | CNBC e | \`hnpsechtsc.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | CNN Türk | \`85.117.61.84\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| DHA | \`603c568fccdf5.streamlock.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| DHA | \`603c568fccdf5.streamlock.net\` | FALHA DE CONEXÃO (URLError) | - |
 | Ekotürk | \`cdn.ekoturk.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Flash Haber TV | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Haber Global | \`tv.ensonhaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -76,7 +76,7 @@
 | Show TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Star TV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | teve2 | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TV8 | \`rkhubpaomb.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | TV4 | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
@@ -89,7 +89,7 @@
 | TLC | \`s6.hopslan.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Love Nature | \`mumbai-edge.smartplaytv.in\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-|  | \`media.finest.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+|  | \`media.finest.tv\` | FALHA DE CONEXÃO (URLError) | - |
 | 1Mus | \`hz1.teleport.cc\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 30A Music | \`30a-tv.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Dream Türk | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
