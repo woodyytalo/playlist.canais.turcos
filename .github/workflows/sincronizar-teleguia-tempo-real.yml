@@ -165,7 +165,21 @@ jobs:
           set -euo pipefail
           python3 - <<'PY'
           import xml.etree.ElementTree as ET
-          expected = sum(1 for line in open("Tv.m3u", encoding="utf-8") if line.startswith("#EXTINF:"))
+          import html, re, unicodedata
+          playlist_ids = set()
+          attr_re = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
+          for line in open("Tv.m3u", encoding="utf-8"):
+              if not line.startswith("#EXTINF:"):
+                  continue
+              meta, _, display = line.partition(",")
+              attrs = {k: html.unescape(v) for k, v in attr_re.findall(meta)}
+              name = (attrs.get("tvg-name") or display).strip()
+              channel_id = attrs.get("tvg-id") or unicodedata.normalize("NFKD", name)
+              if not attrs.get("tvg-id"):
+                  channel_id = "".join(c for c in channel_id if not unicodedata.combining(c))
+                  channel_id = re.sub(r"[^a-zA-Z0-9]+", "", channel_id).casefold() + ".local"
+              playlist_ids.add(channel_id)
+          expected = len(playlist_ids)
           for path in ["epg/guia-open-epg.xml", "epg/guia-turquia.xml"]:
               root = ET.parse(path).getroot()
               channels, programmes = root.findall("channel"), root.findall("programme")
