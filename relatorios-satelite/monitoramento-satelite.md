@@ -1,6 +1,6 @@
 # Auditoria de frequencias via satelite
 
-- Gerado em UTC: 2026-11-24T22:30:04+00:00
+- Gerado em UTC: 2026-11-25T08:41:42+00:00
 - Arquivo: dados-satelite/ANOTACAO-CANAIS-FREQUENCIAS.md
 - Fonte: https://tr.canlitv.watch/frekans-bilgileri
 - Resposta HTTP da fonte: OK
