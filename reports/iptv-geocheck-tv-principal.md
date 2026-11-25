@@ -1,18 +1,19 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-25 16:13 UTC
+- Executado em: 2026-11-25 18:07 UTC
 - Playlist analisada: \`Tv.m3u\`
-- Entradas testadas: **216**
-- URLs únicas: **216**
+- Entradas testadas: **215**
+- URLs únicas: **215**
 
 ## Resumo
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 192 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 191 |
 | FALHA DE CONEXÃO (URLError) | 19 |
-| LINK NÃO ENCONTRADO (404) | 4 |
-| FALHA DE CONEXÃO (TimeoutError) | 1 |
+| FALHA DE CONEXÃO (TimeoutError) | 2 |
+| LINK NÃO ENCONTRADO (404) | 2 |
+| ACESSO NEGADO — possível restrição regional ou autorização | 1 |
 
 ## Detalhamento
 
@@ -76,8 +77,8 @@
 | Show TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Star TV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | teve2 | \`live.duhnet.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| TV8 | \`rkhubpaomb.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
+| TV8 | \`rkhubpaomb.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
 | TV4 | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | CİNE1 | \`canliyayin.cine1.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -157,7 +158,7 @@
 | RTG International | \`213.91.179.28\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | MC EU TV | \`rrr.sz.xlcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | Persiana Türkiye | \`turkhls.persiana.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| INTV Australia | \`tv1.intv.mk\` | LINK NÃO ENCONTRADO (404) | 404 |
+| INTV Australia | \`tv1.intv.mk\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | İSVİÇRE TV | \`i41.ozelip.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | JÎN TV | \`live.jintv.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 4U Family (persa) | \`familyhls.4utv.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -170,7 +171,6 @@
 | Aksu TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Alanya Posta TV | \`api-tv3.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | Altas TV | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
-| Anadolu TV | \`vavoo.to\` | LINK NÃO ENCONTRADO (404) | 404 |
 | ARAS TV | \`1.rtmp.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | ATV Alanya | \`cdn-alanyatv.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | BRTV Karabük | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
