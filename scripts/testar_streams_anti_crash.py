@@ -18,8 +18,8 @@ import time
 
 PLAYLIST = Path(sys.argv[1] if len(sys.argv) > 1 else "Tv.m3u")
 REPORT = Path(sys.argv[2] if len(sys.argv) > 2 else "reports/anti-crash/resultado.txt")
-TIMEOUT = 15
-ATTEMPTS = 3
+TIMEOUT = 20
+ATTEMPTS = 5
 SAMPLE_BYTES = 65536
 USER_AGENT = "Mozilla/5.0 (compatible; TVPlaylistLinkAudit/2.0)"
 
@@ -129,7 +129,7 @@ def main() -> int:
         return 2
 
     results = []
-    with ThreadPoolExecutor(max_workers=10) as pool:
+    with ThreadPoolExecutor(max_workers=5) as pool:
         futures = [pool.submit(probe, channel) for channel in channels]
         for future in as_completed(futures):
             results.append(future.result())
