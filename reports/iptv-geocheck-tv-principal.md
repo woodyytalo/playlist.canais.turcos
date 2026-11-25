@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-25 20:54 UTC
+- Executado em: 2026-11-25 20:56 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **215**
 - URLs únicas: **215**
@@ -9,10 +9,10 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| ACESSÍVEL NO AMBIENTE DO TESTE | 194 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 192 |
 | FALHA DE CONEXÃO (URLError) | 19 |
+| LINK NÃO ENCONTRADO (404) | 3 |
 | ACESSO NEGADO — possível restrição regional ou autorização | 1 |
-| LINK NÃO ENCONTRADO (404) | 1 |
 
 ## Detalhamento
 
@@ -23,7 +23,7 @@
 | 3 - Minika Çocuk | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 4 - Minika GO | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 5 - Spacetoon Türkiye | \`live-tr-next.spacetoongo.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 6 - TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 6 - TRT Çocuk | \`tv-trtcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 7 - TRT Diyanet Çocuk | \`tv-trtdiyanetcocuk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 8 - Zarok TV Kurmanji | \`zindikurmanci.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 9 - Zarok TV Sorani | \`zindisorani.zaroktv.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -79,7 +79,7 @@
 | 59 - TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
 | 60 - TV8 | \`rkhubpaomb.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 61 - TV4 | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 62 - TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 62 - TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 63 - CİNE1 | \`canliyayin.cine1.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 64 - Grand Cinema | \`gcinemahls.wns.live\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 65 - Tabii | \`ceokzokgtd.erbvr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -106,7 +106,7 @@
 | 86 - TRT Müzik | \`stream8.cinerama.uz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 87 - Kral Pop | \`dygvideo.dygdigital.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 88 - NR1 Fashion One | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 89 - PowerTürk TV | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 89 - PowerTürk TV | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 90 - KN Music TV | \`cdn4.yayin.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 91 - Dost | \`yayin.santraltr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 92 - Company TV | \`5929b138b139d.streamlock.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -117,7 +117,7 @@
 | 97 - IQ Channel | \`rtmp.info\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 98 - TopPop | \`yayin.santraltr.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 99 - Retro Music Television | \`stream.mediawork.cz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 100 - Power TV (720p) | \`live.artidijitalmedya.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 100 - Power TV (720p) | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 101 - A Spor | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 102 - FB TV | \`1hskrdto.rocketcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 103 - HT Spor TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
