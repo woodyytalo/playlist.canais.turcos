@@ -168,16 +168,64 @@ jobs:
           import html, re, unicodedata
           playlist_ids = set()
           attr_re = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
+          def clean_name(value):
+              value = re.sub(r'^\s*(?:TR|TURKEY|TURKIYE)\s*[:|/-]\s*', '', value or '', flags=re.I)
+              value = re.sub(r'\s*(?:HD|SD|FHD|UHD|4K)\s*
+          for path in ["epg/guia-open-epg.xml", "epg/guia-turquia.xml"]:
+              root = ET.parse(path).getroot()
+              channels, programmes = root.findall("channel"), root.findall("programme")
+              ids = {c.get("id") for c in channels}
+              if len(channels) != expected:
+                  raise SystemExit(f"{path}: {len(channels)} de {expected} canais; publicação cancelada.")
+              if not programmes or any(p.get("channel") not in ids for p in programmes):
+                  raise SystemExit(f"{path}: programação vazia ou referência inválida.")
+              sem_programacao = expected - sum(1 for c in channels if any(p.get("channel") == c.get("id") for p in programmes))
+              print(f"{path}: {len(channels)} canais, {len(programmes)} programas reais, {sem_programacao} canais sem programação.")
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A epg/
+          if git diff --cached --quiet; then
+            echo "EPGs sem alterações."
+          else
+            git commit -m "Adiciona Open-EPG Turkey e combina programação"
+            git push
+          fi
+, '', value, flags=re.I)
+              value = re.sub(r'\s*\[(?:360|480)\s*SD\]\s*
+          for path in ["epg/guia-open-epg.xml", "epg/guia-turquia.xml"]:
+              root = ET.parse(path).getroot()
+              channels, programmes = root.findall("channel"), root.findall("programme")
+              ids = {c.get("id") for c in channels}
+              if len(channels) != expected:
+                  raise SystemExit(f"{path}: {len(channels)} de {expected} canais; publicação cancelada.")
+              if not programmes or any(p.get("channel") not in ids for p in programmes):
+                  raise SystemExit(f"{path}: programação vazia ou referência inválida.")
+              sem_programacao = expected - sum(1 for c in channels if any(p.get("channel") == c.get("id") for p in programmes))
+              print(f"{path}: {len(channels)} canais, {len(programmes)} programas reais, {sem_programacao} canais sem programação.")
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A epg/
+          if git diff --cached --quiet; then
+            echo "EPGs sem alterações."
+          else
+            git commit -m "Adiciona Open-EPG Turkey e combina programação"
+            git push
+          fi
+, '', value, flags=re.I)
+              value = re.sub(r'^\s*\d+\s*-\s*', '', value)
+              value = unicodedata.normalize("NFKD", value)
+              value = "".join(c for c in value if not unicodedata.combining(c))
+              value = value.casefold().replace("&", " and ")
+              return re.sub(r"[^a-z0-9]+", "", value)
           for line in open("Tv.m3u", encoding="utf-8"):
               if not line.startswith("#EXTINF:"):
                   continue
               meta, _, display = line.partition(",")
               attrs = {k: html.unescape(v) for k, v in attr_re.findall(meta)}
               name = (attrs.get("tvg-name") or display).strip()
-              channel_id = attrs.get("tvg-id") or unicodedata.normalize("NFKD", name)
-              if not attrs.get("tvg-id"):
-                  channel_id = "".join(c for c in channel_id if not unicodedata.combining(c))
-                  channel_id = re.sub(r"[^a-zA-Z0-9]+", "", channel_id).casefold() + ".local"
+              channel_id = attrs.get("tvg-id") or clean_name(name) + ".local"
               playlist_ids.add(channel_id)
           expected = len(playlist_ids)
           for path in ["epg/guia-open-epg.xml", "epg/guia-turquia.xml"]:
