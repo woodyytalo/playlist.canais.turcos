@@ -4,6 +4,8 @@
 
 #EXTINF:-1 group-title="INFANTIS" tvg-name="BabyTV",
 #EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:adaptive-maxheight=480
+#EXTVLCOPT:adaptive-logic=highest
 http://138.121.15.230:9002/BABY-TV/index.m3u8
 
 #EXTINF:-1 tvg-chno="26" tvg-name="Cartoon Network Türkiye" group-title="INFANTIS" tvg-language="Turkish",Cartoon Network Türkiye
@@ -269,6 +271,8 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #FREQUÊNCIA: Türksat 4A: 12458 V, SR 30000, FEC 2/3
 #EXTINF:-1 tvg-id="KRT.tr@SD" tvg-logo="https://i.imgur.com/9ZKqdQJ.png" group-title="NOTÍCIAS" tvg-name="KRT",
 #EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:adaptive-maxheight=480
+#EXTVLCOPT:adaptive-logic=highest
 https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8
 #EXTINF:-1 tvg-id="360.tr@SD" tvg-chno="3" tvg-name="360 TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",360 TV
 #EXTVLCOPT:adaptive-maxheight=480
@@ -452,6 +456,8 @@ https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="FinestTV.de@SD" tvg-logo="https://i.imgur.com/1uoP10V.png" group-title="MÚSICA" tvg-name="Finest TV",
 #EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:adaptive-maxheight=480
+#EXTVLCOPT:adaptive-logic=highest
 https://media.finest.tv/hls/live.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11862 V, SR 16666, FEC 2/3
@@ -1365,4 +1371,6 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 
 #EXTINF:-1 tvg-id="LineTV.tr@SD" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="REGIONAIS" tvg-name="Line TV",
 #EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:adaptive-maxheight=480
+#EXTVLCOPT:adaptive-logic=highest
 https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
