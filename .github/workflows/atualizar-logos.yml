@@ -38,19 +38,14 @@ jobs:
           for i, line in enumerate(lines):
               if not line.startswith("#EXTINF:") or "," not in line:
                   continue
+              number += 1
               prefix, display = line.rsplit(",", 1)
               name = re.sub(r"^\s*\d+\s*[-–—.)]\s*", "", display).strip()
-              # As opções 360p e 480p do mesmo canal compartilham o mesmo número.
-              if name.endswith("[480p SD]"):
-                  channel_number = number
-              else:
-                  number += 1
-                  channel_number = number
               if re.search(r'\btvg-chno="[^"]*"', prefix, re.I):
-                  prefix = re.sub(r'\btvg-chno="[^"]*"', f'tvg-chno="{channel_number}"', prefix, count=1, flags=re.I)
+                  prefix = re.sub(r'\btvg-chno="[^"]*"', f'tvg-chno="{number}"', prefix, count=1, flags=re.I)
               else:
-                  prefix = re.sub(r"^#EXTINF:(\S+)", rf'\1 tvg-chno="{channel_number}"', prefix, count=1)
-              lines[i] = f"{prefix},{channel_number} - {name}"
+                  prefix = re.sub(r"^#EXTINF:(\S+)", rf'\1 tvg-chno="{number}"', prefix, count=1)
+              lines[i] = f"{prefix},{number} - {name}"
           path.write_text("\n".join(lines) + "\n", encoding="utf-8")
           print(f"Numeração visível aplicada a {number} canais.")
           PY
