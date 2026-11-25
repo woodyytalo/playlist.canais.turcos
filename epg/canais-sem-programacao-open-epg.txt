@@ -2,11 +2,11 @@ Relatório XMLTV — epg/guia-open-epg.xml
 Canais na playlist: 219
 Canais com programação real: 76
 Canais sem programação correspondente: 143
-Programas reais copiados: 8044
+Programas reais copiados: 8013
 
 CANAIS SEM PROGRAMAÇÃO:
 - BabyTV (backup 1) | ID: babytvbackup1.local | Categoria: INFANTIS
-- Finest TV (288p) [Not 24/7] | ID: FinestTV.de@SD | Categoria: Music
+- Finest TV (288p) [Not 24/7] | ID: FinestTV.de@SD | Categoria: MÚSICA
 - Lider Haber | ID: liderhaber.local | Categoria: NOTÍCIAS
 - Bloomberg HT 2 | ID: bloomberght2.local | Categoria: NOTÍCIAS
 - DHA | ID: DHA.tr@SD | Categoria: NOTÍCIAS
