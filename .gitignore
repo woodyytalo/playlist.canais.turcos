@@ -1,0 +1,6 @@
+# Segredos e perfis VPN locais
+geo-unblock/.env
+geo-unblock/.env.*
+!geo-unblock/.env.example
+!geo-unblock/.env.vpngate.example
+geo-unblock/client.ovpn
