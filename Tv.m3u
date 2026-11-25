@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-tr.xml" x-tvg-url="https://iptv-epg.org/files/epg-tr.xml"
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="1" group-title="INFANTIS" tvg-name="BabyTV",1 - BabyTV
+#EXTINF:-1 tvg-chno="1" tvg-id="BABY.TV.tr" group-title="INFANTIS" tvg-name="BabyTV",1 - BabyTV
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
 http://138.121.15.230:9002/BABY-TV/index.m3u8
@@ -642,7 +642,7 @@ https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 https://vavoo.alwaysdata.net/resolver.php?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F207886293750ec015d3e85
 
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-chno="108" tvg-name="Eurosport 2" group-title="ESPORTES" tvg-language="Turkish",108 - Eurosport 2
+#EXTINF:-1 tvg-chno="108" tvg-name="Eurosport 2" tvg-id="Spor_EuroSport2" group-title="ESPORTES" tvg-language="Turkish",108 - Eurosport 2
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
 http://213.91.179.28:8000/play/a04b
