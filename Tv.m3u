@@ -6,7 +6,7 @@
 #EXTVLCOPT:network-caching=5000
 http://138.121.15.230:9002/BABY-TV/index.m3u8
 
-#EXTINF:-1 group-title="ESTILO DE VIDA" tvg-name="Finest TV",Finest TV
+#EXTINF:-1 group-title="ESTILO DE VIDA",099 - Finest TV
 #EXTVLCOPT:network-caching=5000
 https://media.finest.tv/hls/live.m3u8
 
