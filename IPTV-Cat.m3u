@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-tr.xml" x-tvg-url="https://iptv-epg.org/files/epg-tr.xml"
 #EXTINF:-1 tvg-name="1TV GEO" group-title="INTERNACIONAIS",1TV GEO
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
