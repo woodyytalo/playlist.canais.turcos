@@ -1219,13 +1219,6 @@ https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 #EXTVLCOPT:network-caching=5000
 https://live.euromediacenter.com/ezgitv/index.m3u8
 #FREQUÊNCIA: Türksat 5B: 11425 V, SR 30000, FEC 3/4
-#EXTINF:-1 tvg-id="KanalFirat.tr@SD" tvg-chno="55" tvg-name="FRT TV" group-title="REGIONAIS" tvg-language="Turkish",FRT TV
-#EXTVLCOPT:adaptive-maxheight=480
-#EXTVLCOPT:adaptive-maxheight=720
-#EXTVLCOPT:adaptive-logic=highest
-#EXTVLCOPT:network-caching=5000
-https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
-#FREQUÊNCIA: Satélite: a verificar
 #EXTINF:-1 tvg-chno="57" tvg-name="GRT Gaziantep TV" group-title="REGIONAIS" tvg-language="Turkish",GRT Gaziantep TV
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-maxheight=720
@@ -1562,16 +1555,6 @@ https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m
 #EXTVLCOPT:network-caching=5000
 https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 #FREQUÊNCIA: Satélite: a verificar
-#EXTINF:-1 tvg-id="MaviKaradenizTV.tr@SD" tvg-chno="205" group-title="REGIONAIS" tvg-name="MK TV" tvg-language="Turkish",MK TV
-#EXTVLCOPT:adaptive-maxheight=480
-#EXTVLCOPT:adaptive-maxheight=720
-#EXTVLCOPT:adaptive-logic=highest
-#EXTVLCOPT:network-caching=5000
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
-
-#FREQUÊNCIA: Satélite: a verificar
-
-
 #EXTINF:-1 tvg-id="MaviKaradenizTV.tr@SD" tvg-chno="151" tvg-name="TV Karadeniz" group-title="REGIONAIS" tvg-language="Turkish",TV Karadeniz
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-maxheight=720
