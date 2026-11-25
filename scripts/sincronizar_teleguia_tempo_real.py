@@ -104,8 +104,10 @@ def programme_is_turkish(programme, strict_language=False):
     return True
 
 def playlist_records(path):
-    records = []
-    id_counts = {}
+    # As variantes 480/720 do mesmo canal compartilham tvg-id. No XMLTV,
+    # cada identidade deve aparecer uma única vez; assim ambas consultam o
+    # mesmo canal e recebem exatamente a mesma programação.
+    records_by_id = {}
     for line in Path(path).read_text(encoding='utf-8').splitlines():
         if not line.startswith('#EXTINF:'):
             continue
@@ -113,16 +115,26 @@ def playlist_records(path):
         a = attrs(meta)
         display = display.strip()
         name = (a.get('tvg-name') or display).strip()
+        channel_id = a.get('tvg-id') or clean_name(name) + '.local'
         names = {clean_name(name), clean_name(display)}
         names.discard('')
-        channel_id = a.get('tvg-id') or clean_name(name) + '.local'
-        id_counts[channel_id] = id_counts.get(channel_id, 0) + 1
-        if id_counts[channel_id] > 1:
-            channel_id = f'{channel_id}.duplicate{id_counts[channel_id]}'
-        records.append((channel_id, name, names, a.get('tvg-logo', ''), a.get('group-title', '')))
-    if not records:
+        if channel_id not in records_by_id:
+            records_by_id[channel_id] = {
+                'name': name,
+                'names': set(),
+                'logo': a.get('tvg-logo', ''),
+                'category': a.get('group-title', ''),
+            }
+        record = records_by_id[channel_id]
+        record['names'].update(names)
+        if not record['logo'] and a.get('tvg-logo'):
+            record['logo'] = a['tvg-logo']
+        if not record['category'] and a.get('group-title'):
+            record['category'] = a['group-title']
+    if not records_by_id:
         raise SystemExit('Nenhum canal #EXTINF encontrado na playlist.')
-    return records
+    return [(channel_id, item['name'], item['names'], item['logo'], item['category'])
+            for channel_id, item in records_by_id.items()]
 
 def main():
     ap = argparse.ArgumentParser()
