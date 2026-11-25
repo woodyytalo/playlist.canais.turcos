@@ -1,6 +1,6 @@
 # Bot de proxy HLS pela VPN Gate da Turquia
 
-Este modo usa OpenVPN (não WireGuard) e o servidor público turco listado como `vpn849808880.opengw.net`. A listagem consultada informa OpenVPN UDP na porta 1195. Servidores públicos podem mudar de IP, ficar offline ou limitar tráfego; deixe o endpoint definido no perfil `.ovpn` fornecido pelo VPN Gate e valide o país de saída antes de usar.
+Este modo usa OpenVPN (não WireGuard) e o servidor público turco listado como `vpn418630161.opengw.net`. A listagem consultada informa OpenVPN UDP na porta 1195. Servidores públicos podem mudar de IP, ficar offline ou limitar tráfego; deixe o endpoint definido no perfil `.ovpn` fornecido pelo VPN Gate e valide o país de saída antes de usar.
 
 ## O que já está preparado
 
@@ -11,7 +11,7 @@ Este modo usa OpenVPN (não WireGuard) e o servidor público turco listado como 
 ## O que falta para ativar
 
 1. Uma VPS Linux ligada continuamente, com Docker Compose e `/dev/net/tun`.
-2. Baixar o perfil OpenVPN `.ovpn` do servidor `vpn849808880.opengw.net` no VPN Gate/VPNHub. A página VPNHub exige compartilhar a página para liberar o arquivo; não é necessário publicar o perfil no GitHub.
+2. Baixar o perfil OpenVPN `.ovpn` atualizado do servidor `vpn418630161.opengw.net` diretamente na página de detalhes do VPN Gate. Use a porta e os parâmetros que vierem dentro do perfil; não fixe uma porta antiga manualmente. A página VPNHub exige compartilhar a página para liberar o arquivo; não é necessário publicar o perfil no GitHub.
 3. Colocar o arquivo baixado em `geo-unblock/client.ovpn` na VPS. Não faça commit dele.
 4. Copiar `.env.vpngate.example` para `.env.vpngate` e gerar uma chave de assinatura:
    `openssl rand -hex 32`
