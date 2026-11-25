@@ -287,14 +287,12 @@ https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-#EXTVLCOPT:network-caching=5000
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #FREQUÊNCIA: Türksat 3A: 12729 V, SR 30000, FEC 3/4
 #EXTINF:-1 tvg-chno="119" tvg-id="8xihgna8cyvdnyd" tvg-name="Show Max" group-title="ENTRETENIMENTO" tvg-language="Turkish",Show Max
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-#EXTVLCOPT:network-caching=5000
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_480p.m3u8
 #FREQUÊNCIA: Türksat 4A: 12303 V, SR 27500, FEC 3/4
 #EXTINF:-1 tvg-chno="120" tvg-id="pvr08e5grfsebfw" tvg-name="Show TV" group-title="ENTRETENIMENTO" tvg-language="Turkish",Show TV
@@ -331,7 +329,6 @@ https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-#EXTVLCOPT:network-caching=5000
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
 
 #FREQUÊNCIA: Türksat 6A: 12111 V, SR 27500, FEC 3/4
@@ -400,14 +397,12 @@ http://57.129.0.61:1990/stream/117/index.m3u8
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-#EXTVLCOPT:network-caching=5000
 http://213.91.179.28:8000/play/a05y
 
 #EXTINF:-1 tvg-name="Eurosport 2" group-title="ESPORTES" tvg-language="Turkish",Eurosport 2
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-#EXTVLCOPT:network-caching=5000
 http://213.91.179.28:8000/play/a04b
 # ===== CATEGORIA: REGIONAIS (68 canais) =====
 
@@ -1301,7 +1296,6 @@ https://lightning-now80s-samsungnz.amagi.tv/playlist480p.m3u8
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-logic=highest
-#EXTVLCOPT:network-caching=5000
 https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8
 #FREQUÊNCIA: Satélite: a verificar
 #EXTINF:-1 tvg-chno="202" group-title="MÚSICA" tvg-name="IQ Channel" tvg-language="Turkish",IQ Channel
