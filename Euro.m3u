@@ -1,83 +1,136 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/ahmethascelik/epghost/main/xmltv.xml,https://epg.pw/api/epg.xml?channel_id=55758,https://tvprofil.net/xmltv/epg_tvprofil.net.xml"
 #EXTINF:-1 tvg-id="fc29p3wbp8wkgo4" tvg-name="A2" group-title="ENTRETENIMENTO",A2
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A2.m3u
+
 #EXTINF:-1 tvg-id="m0abaihy7vla6ma" tvg-name="NOW" group-title="ENTRETENIMENTO",NOW
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/NOW.m3u
+
 #EXTINF:-1 tvg-id="8xihgna8cyvdnyd" tvg-name="Show Max" group-title="ENTRETENIMENTO",Show Max
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Show_Max.m3u
+
 #EXTINF:-1 tvg-id="6vs4sg9183gdxth" tvg-name="Teve2" group-title="ENTRETENIMENTO",Teve2
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Teve2.m3u
+
 #EXTINF:-1 tvg-name="Arzu Film" group-title="Filmes e Séries",Arzu Film
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Arzu_Film.m3u
+
 #EXTINF:-1 tvg-name="Aşk-ı Memnu" group-title="Filmes e Séries",Aşk-ı Memnu
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Ask-i_Memnu.m3u
+
 #EXTINF:-1 tvg-name="Kemal Sunal 1" group-title="Filmes e Séries",Kemal Sunal 1
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kemal_Sunal_1.m3u
+
 #EXTINF:-1 tvg-name="Kemal Sunal 2" group-title="Filmes e Séries",Kemal Sunal 2
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kemal_Sunal_2.m3u
+
 #EXTINF:-1 tvg-name="Kurtlar Vadisi Pusu" group-title="Filmes e Séries",Kurtlar Vadisi Pusu
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kurtar_Vadisi_Pusu.m3u
+
 #EXTINF:-1 tvg-name="Euro Star TV" group-title="Internacionais",Euro Star TV
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Euro_Star_TV.m3u
+
 #EXTINF:-1 tvg-id="Kanal7.tr" tvg-name="Kanal 7 Avrupa" group-title="Internacionais",Kanal 7 Avrupa
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_7_Avrupa.m3u
+
 #EXTINF:-1 tvg-id="55758" tvg-name="Euro D" group-title="Internacionais",Kanal Euro D
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Kanal_Euro_D.m3u
+
 #EXTINF:-1 tvg-id="ql8qf4vb46o1h7t" tvg-name="A Haber" group-title="NOTÍCIAS",A Haber
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Haber.m3u
+
 #EXTINF:-1 tvg-id="8yfvm8ak2t1qoe6" tvg-name="A Para" group-title="NOTÍCIAS",A Para
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Para.m3u
+
 #EXTINF:-1 tvg-id="9b7ltozvb9c333g" tvg-name="24 TV" group-title="NOTÍCIAS",24 TV
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/24_TV.m3u
+
 #EXTINF:-1 tvg-id="4nu4fjjhm0y6wqm" tvg-name="Bloomberg HT" group-title="NOTÍCIAS",Bloomberg HT
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bloomberg_HT.m3u
+
 #EXTINF:-1 tvg-id="ah7mr9ol040kp3b" tvg-name="CNN Türk" group-title="NOTÍCIAS",CNN Türk
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/CNN_Turk.m3u
+
 #EXTINF:-1 tvg-id="bwmpobxuqn2pz87" tvg-name="Haber Global" group-title="NOTÍCIAS",Haber Global
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Haber_Global.m3u
+
 #EXTINF:-1 tvg-id="nyz5s8p798n9cqg" tvg-name="NTV" group-title="NOTÍCIAS",NTV
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/NTV.m3u
+
 #EXTINF:-1 tvg-id="5zoe73avn97ggnt" tvg-name="Sözcü TV" group-title="NOTÍCIAS",Sözcü TV
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Sozcu_TV.m3u
+
 #EXTINF:-1 tvg-id="qz2fp61itc8xm4g" tvg-name="TGRT Haber" group-title="NOTÍCIAS",TGRT Haber
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TGRT_Haber.m3u
+
 #EXTINF:-1 tvg-id="in3p7jng04mr97m" tvg-name="TRT Haber" group-title="NOTÍCIAS",TRT Haber
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TRT_Haber.m3u
+
 #EXTINF:-1 tvg-id="5i5mds6ap6h7m7w" tvg-name="TV100" group-title="NOTÍCIAS",TV100
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TV100.m3u
+
 #EXTINF:-1 tvg-id="njoweqtgl6xngkj" tvg-name="TVNET" group-title="NOTÍCIAS",TVNET
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TVNET.m3u
+
 #EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-name="A Spor" group-title="ESPORTES",A Spor
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Spor.m3u
+
 #EXTINF:-1 tvg-id="kazwkgx73ijjqob" tvg-name="beIN Sports Haberler" group-title="ESPORTES",beIN Sports Haberler
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Bein_Sports_Haberler.m3u
 
+
 #EXTINF:-1 tvg-id="kanal-d.movie" tvg-name="Kanal D Drama" group-title="ENTRETENIMENTO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-ajustadas/kanalddrama.png",Kanal D Drama
+#EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb543d19796c64869fd43b60cef341a8f93d1fde1d6988693eb5518975d30b0a8cb9f2c0bb4ebe7508cc4bd97c0b6c075c7a991088781c95d828f9576079112698cdb319b8a33131247d871b0a82502c279c1c23a667027cdaec6879ef5f904c75df6c940c2c54a8a81bf23607efb010bb7d3ab375ea40a7fb08107600259589b7aeb689c5c0ea1cbb8d690dd77005b29d22989645f8eaf561a53ed93ca848c1c3ef8ecd10a0b6bb53f365b366e939f79032371fb4d7475349d6f1fad9af1258bd2b8d63/12/848x480_1686360/index.m3u8
