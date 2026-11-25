@@ -1,8 +1,8 @@
 Relatório XMLTV — epg/guia-open-epg.xml
-Canais na playlist: 219
+Canais na playlist: 218
 Canais com programação real: 76
-Canais sem programação correspondente: 143
-Programas reais copiados: 8011
+Canais sem programação correspondente: 142
+Programas reais copiados: 8004
 
 CANAIS SEM PROGRAMAÇÃO:
 - BabyTV (backup 1) | ID: babytvbackup1.local | Categoria: INFANTIS
@@ -18,12 +18,11 @@ CANAIS SEM PROGRAMAÇÃO:
 - Bi Kanal | ID: bikanal.local | Categoria: ENTRETENIMENTO
 - Kanal 7 Avrupa | ID: Kanal7Avrupa.tr@SD | Categoria: ENTRETENIMENTO
 - Kanal D Drama | ID: KanalDDrama.tr@SD | Categoria: ENTRETENIMENTO
-- Show Max | ID: 8xihgna8cyvdnyd | Categoria: ENTRETENIMENTO
-- Euro Star TV | ID: 76711 | Categoria: ENTRETENIMENTO
+- Show Max | ID: 8xihgna8cyvdnyd | Categoria: INTERNACIONAIS
+- Euro Star TV | ID: 76711 | Categoria: INTERNACIONAIS
 - TAY TV | ID: jgxiih7f6yhagpj | Categoria: ESPORTES
 - TJK TV | ID: TJKTV.tr@SD | Categoria: ESPORTES
 - Ekol Sports | ID: ekolsports.local | Categoria: ESPORTES
-- beIN Sports 1 Turk | ID: beINSports1Turk.tr@SD | Categoria: ESPORTES
 - Aksu TV | ID: AksuTV.tr@SD | Categoria: REGIONAIS
 - Alanya Posta TV | ID: AlanyaPostaTV.tr@SD | Categoria: REGIONAIS
 - Altas TV | ID: AltasTV.tr@SD | Categoria: REGIONAIS
