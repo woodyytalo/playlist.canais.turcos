@@ -6,7 +6,11 @@ Programas reais copiados: 7989
 
 CANAIS SEM PROGRAMAÇÃO:
 - BabyTV (backup 1) | ID: babytvbackup1.local | Categoria: INFANTIS
-- Finest TV (288p) [Not 24/7] | ID: FinestTV.de@SD | Categoria: MÚSICA
+- Cartoon Network Türkiye | ID: cartoonnetworkturkiye.local | Categoria: INFANTIS
+- Spacetoon Türkiye | ID: spacetoonturkiye.local | Categoria: INFANTIS
+- Zarok TV Kurmanji | ID: zaroktvkurmanji.local | Categoria: INFANTIS
+- Zarok TV Sorani | ID: zaroktvsorani.local | Categoria: INFANTIS
+- BabyFirst TV | ID: babyfirsttv.local | Categoria: INFANTIS
 - Lider Haber | ID: liderhaber.local | Categoria: NOTÍCIAS
 - Bloomberg HT 2 | ID: bloomberght2.local | Categoria: NOTÍCIAS
 - DHA | ID: DHA.tr@SD | Categoria: NOTÍCIAS
@@ -18,11 +22,69 @@ CANAIS SEM PROGRAMAÇÃO:
 - Bi Kanal | ID: bikanal.local | Categoria: ENTRETENIMENTO
 - Kanal 7 Avrupa | ID: Kanal7Avrupa.tr@SD | Categoria: ENTRETENIMENTO
 - Kanal D Drama | ID: KanalDDrama.tr@SD | Categoria: ENTRETENIMENTO
-- Show Max | ID: 8xihgna8cyvdnyd | Categoria: INTERNACIONAIS
-- Euro Star TV | ID: 76711 | Categoria: INTERNACIONAIS
+- CİNE1 | ID: jgskjh5s5asjefn | Categoria: FILMES E SÉRIES
+- Grand Cinema | ID: GrandCinema.tr | Categoria: FILMES E SÉRIES
+- Tabii | ID: TABİİ.tr | Categoria: FILMES E SÉRIES
+- Arzu Film | ID: arzufilm.local | Categoria: FILMES E SÉRIES
+- Dizi TV | ID: dizitv.local | Categoria: FILMES E SÉRIES
+- Finest TV (288p) [Not 24/7] | ID: FinestTV.de@SD | Categoria: MÚSICA
+- 1Mus | ID: 1mus.local | Categoria: MÚSICA
+- 30A Music | ID: 30amusic.local | Categoria: MÚSICA
+- Med Müzik | ID: MedMuzik.tr@SD | Categoria: MÚSICA
+- Play TV | ID: playtv.local | Categoria: MÚSICA
+- NR1 Aşk | ID: Number1Ask.tr@SD | Categoria: MÚSICA
+- NR1 Damar | ID: Number1Damar.tr@SD | Categoria: MÚSICA
+- NR1 Dance | ID: Number1Dance.tr@SD | Categoria: MÚSICA
+- Number 1 TV | ID: Number1TV.tr@SD | Categoria: MÚSICA
+- Power Dance TV | ID: PowerDance.tr@SD | Categoria: MÚSICA
+- Power Love TV | ID: powerlovetv.local | Categoria: MÚSICA
+- PowerTürk Taptaze | ID: PowerTurkTaptaze.tr@SD | Categoria: MÚSICA
+- KRAL POP | ID: Kral.Pop.Radyo.tr | Categoria: MÚSICA
+- NR1 FASHION ONE | ID: nr1fashionone.local | Categoria: MÚSICA
+- PowerTürk TV | ID: PowerTurkTV.tr@SD | Categoria: MÚSICA
+- KN Music TV | ID: knmusictv.local | Categoria: MÚSICA
+- Dost | ID: dost.local | Categoria: MÚSICA
+- Company TV | ID: companytv.local | Categoria: MÚSICA
+- Güçlü TV | ID: guclutv.local | Categoria: MÚSICA
+- Now 70 s | ID: now70s.local | Categoria: MÚSICA
+- Now 80 s | ID: now80s.local | Categoria: MÚSICA
+- NOW ROCK | ID: nowrock.local | Categoria: MÚSICA
+- IQ Channel | ID: iqchannel.local | Categoria: MÚSICA
+- TopPop | ID: toppop.local | Categoria: MÚSICA
+- Retro Music Television | ID: retromusictelevision.local | Categoria: MÚSICA
 - TAY TV | ID: jgxiih7f6yhagpj | Categoria: ESPORTES
 - TJK TV | ID: TJKTV.tr@SD | Categoria: ESPORTES
 - Ekol Sports | ID: ekolsports.local | Categoria: ESPORTES
+- FASHION ONE | ID: fashionone.local | Categoria: ESTILO DE VIDA
+- MOR TV | ID: mortv.local | Categoria: ESTILO DE VIDA
+- Fortuna TV | ID: fortunatv.local | Categoria: ESTILO DE VIDA
+- Al Zahra TV Turkic | ID: AlZahraTVTurkic.tr@SD | Categoria: RELIGIOSOS
+- Diyar TV | ID: DiyarTV.tr@SD | Categoria: RELIGIOSOS
+- Dost TV | ID: DostTV.tr@SD | Categoria: RELIGIOSOS
+- MUKABELE TV | ID: mukabeletv.local | Categoria: RELIGIOSOS
+- Rehber TV | ID: rehbertv.local | Categoria: RELIGIOSOS
+- Sat7 Türk | ID: Sat7Turk.cy@SD | Categoria: RELIGIOSOS
+- Sercem TV | ID: SercemTV.tr@HD | Categoria: RELIGIOSOS
+- MADINAH TV | ID: madinahtv.local | Categoria: RELIGIOSOS
+- ABN TURKEY | ID: abnturkey.local | Categoria: RELIGIOSOS
+- MAKKAH TV | ID: makkahtv.local | Categoria: RELIGIOSOS
+- Show Max | ID: 8xihgna8cyvdnyd | Categoria: INTERNACIONAIS
+- Euro Star TV | ID: 76711 | Categoria: INTERNACIONAIS
+- Mekameleen TV | ID: MekameleenTV.tr@SD | Categoria: INTERNACIONAIS
+- Almahriah TV | ID: AlmahriahTV.tr@SD | Categoria: INTERNACIONAIS
+- Elsharq TV | ID: ElsharqTV.tr@SD | Categoria: INTERNACIONAIS
+- Kanal Avrupa | ID: KanalAvrupa.tr | Categoria: INTERNACIONAIS
+- Syria TV | ID: 448568 | Categoria: INTERNACIONAIS
+- Balkan Türk | ID: balkanturk.local | Categoria: INTERNACIONAIS
+- Thaqalayn TV | ID: ThaqalaynTV.tr@SD | Categoria: INTERNACIONAIS
+- RTG International | ID: rtginternational.local | Categoria: INTERNACIONAIS
+- MC EU TV | ID: MCTV.de@HD | Categoria: INTERNACIONAIS
+- Persiana Türkiye | ID: PersianaTurkiye.fr@SD | Categoria: INTERNACIONAIS
+- INTV Australia | ID: INTVAustralia.au@SD | Categoria: INTERNACIONAIS
+- İSVİÇRE TV | ID: isvicretv.local | Categoria: INTERNACIONAIS
+- JÎN TV | ID: JinTV.nl@SD | Categoria: INTERNACIONAIS
+- 4U Family (persa) | ID: 4UFamily.tr | Categoria: INTERNACIONAIS
+- Luys TV | ID: LuysTV.tr@SD | Categoria: INTERNACIONAIS
 - Aksu TV | ID: AksuTV.tr@SD | Categoria: REGIONAIS
 - Alanya Posta TV | ID: AlanyaPostaTV.tr@SD | Categoria: REGIONAIS
 - Altas TV | ID: AltasTV.tr@SD | Categoria: REGIONAIS
@@ -84,66 +146,4 @@ CANAIS SEM PROGRAMAÇÃO:
 - ETV Manisa | ID: ETVManisa.tr@SD | Categoria: REGIONAIS
 - MK TV | ID: MaviKaradenizTV.tr@SD | Categoria: REGIONAIS
 - TV Karadeniz | ID: MaviKaradenizTV.tr@SD.duplicate2 | Categoria: REGIONAIS
-- Al Zahra TV Turkic | ID: AlZahraTVTurkic.tr@SD | Categoria: RELIGIOSOS
-- Diyar TV | ID: DiyarTV.tr@SD | Categoria: RELIGIOSOS
-- Dost TV | ID: DostTV.tr@SD | Categoria: RELIGIOSOS
-- MUKABELE TV | ID: mukabeletv.local | Categoria: RELIGIOSOS
-- Rehber TV | ID: rehbertv.local | Categoria: RELIGIOSOS
-- Sat7 Türk | ID: Sat7Turk.cy@SD | Categoria: RELIGIOSOS
-- Sercem TV | ID: SercemTV.tr@HD | Categoria: RELIGIOSOS
-- MADINAH TV | ID: madinahtv.local | Categoria: RELIGIOSOS
-- ABN TURKEY | ID: abnturkey.local | Categoria: RELIGIOSOS
-- MAKKAH TV | ID: makkahtv.local | Categoria: RELIGIOSOS
-- Mekameleen TV | ID: MekameleenTV.tr@SD | Categoria: INTERNACIONAIS
-- Almahriah TV | ID: AlmahriahTV.tr@SD | Categoria: INTERNACIONAIS
-- Elsharq TV | ID: ElsharqTV.tr@SD | Categoria: INTERNACIONAIS
-- Kanal Avrupa | ID: KanalAvrupa.tr | Categoria: INTERNACIONAIS
-- Syria TV | ID: 448568 | Categoria: INTERNACIONAIS
-- Balkan Türk | ID: balkanturk.local | Categoria: INTERNACIONAIS
-- Thaqalayn TV | ID: ThaqalaynTV.tr@SD | Categoria: INTERNACIONAIS
-- RTG International | ID: rtginternational.local | Categoria: INTERNACIONAIS
-- MC EU TV | ID: MCTV.de@HD | Categoria: INTERNACIONAIS
-- Persiana Türkiye | ID: PersianaTurkiye.fr@SD | Categoria: INTERNACIONAIS
-- INTV Australia | ID: INTVAustralia.au@SD | Categoria: INTERNACIONAIS
-- İSVİÇRE TV | ID: isvicretv.local | Categoria: INTERNACIONAIS
-- JÎN TV | ID: JinTV.nl@SD | Categoria: INTERNACIONAIS
-- 4U Family (persa) | ID: 4UFamily.tr | Categoria: INTERNACIONAIS
-- Luys TV | ID: LuysTV.tr@SD | Categoria: INTERNACIONAIS
-- Cartoon Network Türkiye | ID: cartoonnetworkturkiye.local | Categoria: INFANTIS
-- Spacetoon Türkiye | ID: spacetoonturkiye.local | Categoria: INFANTIS
-- Zarok TV Kurmanji | ID: zaroktvkurmanji.local | Categoria: INFANTIS
-- Zarok TV Sorani | ID: zaroktvsorani.local | Categoria: INFANTIS
-- BabyFirst TV | ID: babyfirsttv.local | Categoria: INFANTIS
-- CİNE1 | ID: jgskjh5s5asjefn | Categoria: FILMES E SÉRIES
-- Grand Cinema | ID: GrandCinema.tr | Categoria: FILMES E SÉRIES
-- Tabii | ID: TABİİ.tr | Categoria: FILMES E SÉRIES
-- Arzu Film | ID: arzufilm.local | Categoria: FILMES E SÉRIES
-- Dizi TV | ID: dizitv.local | Categoria: FILMES E SÉRIES
-- 1Mus | ID: 1mus.local | Categoria: MÚSICA
-- 30A Music | ID: 30amusic.local | Categoria: MÚSICA
-- Med Müzik | ID: MedMuzik.tr@SD | Categoria: MÚSICA
-- Play TV | ID: playtv.local | Categoria: MÚSICA
-- NR1 Aşk | ID: Number1Ask.tr@SD | Categoria: MÚSICA
-- NR1 Damar | ID: Number1Damar.tr@SD | Categoria: MÚSICA
-- NR1 Dance | ID: Number1Dance.tr@SD | Categoria: MÚSICA
-- Number 1 TV | ID: Number1TV.tr@SD | Categoria: MÚSICA
-- Power Dance TV | ID: PowerDance.tr@SD | Categoria: MÚSICA
-- Power Love TV | ID: powerlovetv.local | Categoria: MÚSICA
-- PowerTürk Taptaze | ID: PowerTurkTaptaze.tr@SD | Categoria: MÚSICA
-- KRAL POP | ID: Kral.Pop.Radyo.tr | Categoria: MÚSICA
-- NR1 FASHION ONE | ID: nr1fashionone.local | Categoria: MÚSICA
-- PowerTürk TV | ID: PowerTurkTV.tr@SD | Categoria: MÚSICA
-- KN Music TV | ID: knmusictv.local | Categoria: MÚSICA
-- Dost | ID: dost.local | Categoria: MÚSICA
-- Company TV | ID: companytv.local | Categoria: MÚSICA
-- Güçlü TV | ID: guclutv.local | Categoria: MÚSICA
-- Now 70 s | ID: now70s.local | Categoria: MÚSICA
-- Now 80 s | ID: now80s.local | Categoria: MÚSICA
-- NOW ROCK | ID: nowrock.local | Categoria: MÚSICA
-- IQ Channel | ID: iqchannel.local | Categoria: MÚSICA
-- TopPop | ID: toppop.local | Categoria: MÚSICA
-- Retro Music Television | ID: retromusictelevision.local | Categoria: MÚSICA
-- FASHION ONE | ID: fashionone.local | Categoria: ESTILO DE VIDA
-- MOR TV | ID: mortv.local | Categoria: ESTILO DE VIDA
-- Fortuna TV | ID: fortunatv.local | Categoria: ESTILO DE VIDA
-- Line TV (720p) [Not 24/7] | ID: LineTV.tr@SD | Categoria: General
+- Line TV (720p) [Not 24/7] | ID: LineTV.tr@SD | Categoria: REGIONAIS
