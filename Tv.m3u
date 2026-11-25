@@ -6,7 +6,7 @@
 #EXTVLCOPT:network-caching=5000
 http://138.121.15.230:9002/BABY-TV/index.m3u8
 
-#EXTINF:-1 tvg-id="FinestTV.de@SD" tvg-logo="https://i.imgur.com/1uoP10V.png" group-title="Music" tvg-name="Finest TV (288p) [Not 24/7]",Finest TV (288p) [Not 24/7]
+#EXTINF:-1 tvg-id="FinestTV.de@SD" tvg-logo="https://i.imgur.com/1uoP10V.png" group-title="MÚSICA" tvg-name="Finest TV (288p) [Not 24/7]",Finest TV (288p) [Not 24/7]
 #EXTVLCOPT:network-caching=5000
 https://media.finest.tv/hls/live.m3u8
 
