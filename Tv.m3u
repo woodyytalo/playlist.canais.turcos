@@ -2,7 +2,7 @@
 # Atualização de mapeamento XMLTV executada pelo workflow de EPG
 # Canais adicionados do Backup — números originais preservados
 
-#EXTINF:-1 group-title="INFANTIS" tvg-name="BabyTV",
+#EXTINF:-1 group-title="INFANTIS" tvg-name="BabyTV",BabyTV
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-maxheight=720
@@ -311,7 +311,7 @@ https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8
 #EXTVLCOPT:network-caching=5000
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #FREQUÊNCIA: Türksat 4A: 12458 V, SR 30000, FEC 2/3
-#EXTINF:-1 tvg-id="KRT.tr@SD" tvg-logo="https://i.imgur.com/9ZKqdQJ.png" group-title="NOTÍCIAS" tvg-name="KRT",
+#EXTINF:-1 tvg-id="KRT.tr@SD" tvg-logo="https://i.imgur.com/9ZKqdQJ.png" group-title="NOTÍCIAS" tvg-name="KRT",KRT
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-maxheight=720
@@ -525,7 +525,7 @@ https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 #FREQUÊNCIA: Türksat 4A: 11794 V, SR 30000, FEC 3/4
 
 
-#EXTINF:-1 tvg-id="FinestTV.de@SD" tvg-logo="https://i.imgur.com/1uoP10V.png" group-title="MÚSICA" tvg-name="Finest TV",
+#EXTINF:-1 tvg-id="FinestTV.de@SD" tvg-logo="https://i.imgur.com/1uoP10V.png" group-title="MÚSICA" tvg-name="Finest TV",Finest TV
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-maxheight=720
@@ -1584,7 +1584,7 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 # ===== CATEGORIA: MÚSICA (28 canais) =====
 
 
-#EXTINF:-1 tvg-id="LineTV.tr@SD" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="REGIONAIS" tvg-name="Line TV",
+#EXTINF:-1 tvg-id="LineTV.tr@SD" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="REGIONAIS" tvg-name="Line TV",Line TV
 #EXTVLCOPT:network-caching=5000
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:adaptive-maxheight=720
