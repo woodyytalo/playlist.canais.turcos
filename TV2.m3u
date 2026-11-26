@@ -15,7 +15,7 @@ https://hls.4utv.live/hls/stream.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+https://trkvz-live.daioncdn.net/ahaber/ahaber.m3u8
 
 #EXTINF:-1 tvg-id="ASpor.tr@SD" group-title="ESPORTES",A Spor (1080p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -358,7 +358,7 @@ https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+https://tv.ensonhaber.com/tv/tr/haberglobal/index.m3u8
 
 #EXTINF:-1 tvg-id="Haber61TV.tr@SD" group-title="NOTÍCIAS",Haber61 TV (720p) [Not 24/7]
 #EXTVLCOPT:adaptive-maxheight=360
@@ -636,7 +636,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+https://h125.artiyerelmedya.net/mavikaradeniz/bant1/chunks.m3u8
 
 #EXTINF:-1 tvg-id="MedMuzik.tr@SD" group-title="MÚSICA",Med Muzik (1080p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -1223,7 +1223,7 @@ https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+https://tv.ensonhaber.com/tv/tr/tvnet/index.m3u8
 
 #EXTINF:-1 tvg-id="UlkeTV.tr@SD" group-title="NOTÍCIAS",Ulke TV
 #EXTVLCOPT:adaptive-maxheight=360
