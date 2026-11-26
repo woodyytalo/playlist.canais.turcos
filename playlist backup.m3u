@@ -1125,7 +1125,7 @@ https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTMuzik.tr@SD",TRT Müzik (720p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -1137,19 +1137,19 @@ https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://corestream.siteyaptim.live/trt-spor/index.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-id="TRTSporYildiz.tr@SD",TRT Spor Yildiz (1440p) [Geo-blocked]
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTTurk.tr@SD",TRT Turk (540p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://r.eu.cdn-redge.media/livehls/oeu/mt/live/trt_turk/live.livx/playlist.m3u8
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTTurk.tr@SD",TRT Türk (720p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -1161,20 +1161,20 @@ https://tv-trtturk.medya.trt.com.tr/master.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD",TRT World (576p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://cdn.pishow.tv/ott/live/266/master.m3u8
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD",TRT World (576p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-https://fta.ektv.in/live/416/master.m3u8
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD",TRT World (1080p) [Not 24/7]
 #EXTVLCOPT:adaptive-maxheight=360
