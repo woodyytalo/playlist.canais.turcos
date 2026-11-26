@@ -129,7 +129,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/T
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TRT_Haber.m3u
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="5i5mds6ap6h7m7w" tvg-name="TV100" group-title="NOTÍCIAS",TV100
 #EXTVLCOPT:adaptive-maxheight=360
