@@ -254,7 +254,7 @@ https://tv-trthaber.medya.trt.com.tr/master_480.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://cdn.pishow.tv/ott/live/266/266_2_480p.m3u8
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12092 H, SR 27500, FEC 5/6
 
@@ -686,7 +686,7 @@ http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://stream8.cinerama.uz/1208/tracks-v1a1/mono_480p.m3u8
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12015 H, SR 27500, FEC 3/4
 
