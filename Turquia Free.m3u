@@ -1149,7 +1149,7 @@ http://181.78.106.127:5000/play/a0sa/index.m3u8
 #EXTVLCOPT:network-caching=6000
 https://jmp2.uk/plu-5ebac49ce4dc8b00078b23bc.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",192 - BabyTV
+#EXTINF:-1 tvg-id="r8096pfnpfuk6af" group-title="Canais adicionais",192 - BabyTV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1167,7 +1167,7 @@ http://138.121.15.230:9002/BABY-TV/index.m3u8
 #EXTVLCOPT:network-caching=6000
 http://181.78.12.119:16123/play/ch01/index.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",195 - beIN Sports 1
+#EXTINF:-1 tvg-id="26jgkrkwnm8i0nc" group-title="Canais adicionais",195 - beIN Sports 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1215,7 +1215,7 @@ http://37.49.224.5/stream/9/index.m3u8
 #EXTVLCOPT:network-caching=6000
 http://82.78.243.219:45739/play/a01p/index.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",203 - Eurosport 1
+#EXTINF:-1 tvg-id="y923gh68shk17yg" group-title="Canais adicionais",203 - Eurosport 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1293,7 +1293,7 @@ https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8
 #EXTVLCOPT:network-caching=6000
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_en/live.livx/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",216 - Eurosport 2
+#EXTINF:-1 tvg-id="06egvxmyr7v63rt" group-title="Canais adicionais",216 - Eurosport 2
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1443,7 +1443,7 @@ http://lalegultv.netmedya.net/hls/lalegultv.m3u8
 #EXTVLCOPT:network-caching=6000
 http://lalegultv.netmedya.net/lalegul-tv/lalegultv.stream/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",241 - Love Nature
+#EXTINF:-1 tvg-id="dbd4aka7iu29rko" group-title="Canais adicionais",241 - Love Nature
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1599,7 +1599,7 @@ https://jmp2.uk/plu-5812bd9f249444e05d09cc4e.m3u8
 #EXTVLCOPT:network-caching=6000
 https://tr.socialsmart.tv/suntv/bant1/chunks.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",267 - TGRT Haber (backup)
+#EXTINF:-1 tvg-id="qz2fp61itc8xm4g" group-title="Canais adicionais",267 - TGRT Haber (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
