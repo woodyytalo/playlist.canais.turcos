@@ -5544,3 +5544,21 @@ http://stream.tvcdn.net/eglence/kultur-sanat-tv.m3u8
 
 #EXTINF:-1 tvg-name="Belgesel TV" group-title="Belgesel TV",Belgesel TV
 http://stream.tvcdn.net/eglence/belgesel-tv.m3u8
+
+#EXTINF:-1 tvg-id="BodrumBelediyesiWebTV.tr" tvg-name="Bodrum Belediyesi Web TV" group-title="Bodrum Belediyesi Web TV",Bodrum Belediyesi Web TV
+https://win2.yayin.com.tr/bodrumbeltv/bodrumbeltv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Dersim62TV.tr" tvg-logo="https://i.imgur.com/LxrAST2.jpeg" tvg-name="Dersim62 TV" group-title="Dersim62 TV",Dersim62 TV
+http://live.arkumedia.com:1935/dersim62tv/dersim62tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ElmasTV.tr" tvg-name="Elmas TV" group-title="Elmas TV",Elmas TV
+https://5be5d840359c6.streamlock.net/elmas67tv/elmas67tv/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="OgunTV.tr" tvg-name="Ogün TV" group-title="Ogün TV",Ogün TV
+https://s01.vpis.io/ogun/ogun.m3u8
+
+#EXTINF:-1 tvg-id="SabanTV.tr" tvg-name="Şaban TV" group-title="Şaban TV",Şaban TV
+http://145.239.37.125:20458/sabantv3/sabantv3/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SariyerTV.tr" tvg-name="Sarıyer TV" group-title="Sarıyer TV",Sarıyer TV
+http://s01.vpis.io/sariyer/sariyer.m3u8
