@@ -496,7 +496,7 @@ http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8
 http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/playlist.m3u8
 
 # ===== LIKE GECKO) CHROME/130.0.0.0 SAFARI/537.36" GROUP-TITLE="LIKE GECKO) CHROME/130.0.0.0 SAFARI/537.36&QUOT; GROUP-TITLE=&QUOT;NOTÍCIAS&QUOT;,BBC EARTH TURKIYE",BBC EARTH TURKIYE =====
-#EXTINF:-1 tvg-id="BBCEarth.uk@Turkiye" tvg-logo="https://i.imgur.com/nGSsUd4.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="like Gecko) Chrome/130.0.0.0 Safari/537.36' group-title='like Gecko) Chrome/130.0.0.0 Safari/537.36&quot; group-title=&quot;like Gecko) Chrome/130.0.0.0 Safari/537.36&quot; group-title=&quot;Notícias&quot;,BBC Earth Turkiye&quot;,BBC Earth Turkiye',BBC Earth Turkiye",BBC Earth Turkiye
+#EXTINF:-1 tvg-id="BBCEarth.uk@Turkiye" tvg-logo="https://i.imgur.com/nGSsUd4.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="BBC Earth Turkiye",BBC Earth Turkiye
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://nord.ayakkabiparti.lol/bbc/index.m3u8
 
@@ -3030,12 +3030,12 @@ https://dnx8nkmlprapr.cloudfront.net/out/v1/c9e1c183395d4d29a9fa34ecdef4163b/mas
 https://fms.premio.link/fishingtv/playlist.m3u8
 
 # ===== LIKE GECKO) CHROME/130.0.0.0 SAFARI/537.36" GROUP-TITLE="LIKE GECKO) CHROME/130.0.0.0 SAFARI/537.36&QUOT; GROUP-TITLE=&QUOT;DOCUMENTÁRIOS&QUOT;,NATIONAL GEOGRAPHIC (TURKIYE)",NATIONAL GEOGRAPHIC (TURKIYE) =====
-#EXTINF:-1 tvg-id="NationalGeographic.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="like Gecko) Chrome/130.0.0.0 Safari/537.36' group-title='like Gecko) Chrome/130.0.0.0 Safari/537.36&quot; group-title=&quot;like Gecko) Chrome/130.0.0.0 Safari/537.36&quot; group-title=&quot;Documentários&quot;,National Geographic (Turkiye)&quot;,National Geographic (Turkiye)',National Geographic (Turkiye)",National Geographic (Turkiye)
+#EXTINF:-1 tvg-id="NationalGeographic.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="National Geographic (Turkiye)",National Geographic (Turkiye)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://nord.ayakkabiparti.lol/natgeo/index.m3u8
 
 # ===== LIKE GECKO) CHROME/130.0.0.0 SAFARI/537.36" GROUP-TITLE="LIKE GECKO) CHROME/130.0.0.0 SAFARI/537.36&QUOT; GROUP-TITLE=&QUOT;DOCUMENTÁRIOS&QUOT;,NATIONAL GEOGRAPHIC WILD (TURKIYE)",NATIONAL GEOGRAPHIC WILD (TURKIYE) =====
-#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="like Gecko) Chrome/130.0.0.0 Safari/537.36' group-title='like Gecko) Chrome/130.0.0.0 Safari/537.36&quot; group-title=&quot;like Gecko) Chrome/130.0.0.0 Safari/537.36&quot; group-title=&quot;Documentários&quot;,National Geographic Wild (Turkiye)&quot;,National Geographic Wild (Turkiye)',National Geographic Wild (Turkiye)",National Geographic Wild (Turkiye)
+#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="National Geographic Wild (Turkiye)",National Geographic Wild (Turkiye)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
 
@@ -3414,7 +3414,7 @@ https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 https://dogus-live.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8
 
 # ===== LIKE GECKO CHROME/76.0.3809.25 SAFARI/537.36" TVG-NAME="POWER TURK (720P) [NOT 24/7]" GROUP-TITLE="LIKE GECKO CHROME/76.0.3809.25 SAFARI/537.36&QUOT; TVG-NAME=&QUOT;POWER TURK (720P) [NOT 24/7]&QUOT; GROUP-TITLE=&QUOT;MÚSICA&QUOT;,POWER TURK (720P) [NOT 24/7]",POWER TURK (720P) [NOT 24/7] =====
-#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-logo="https://i.imgur.com/9OPoXQG.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" tvg-name="Power Turk (720p) [Not 24/7]" group-title="like Gecko Chrome/76.0.3809.25 Safari/537.36' tvg-name='Power Turk (720p) [Not 24/7]' group-title='like Gecko Chrome/76.0.3809.25 Safari/537.36&quot; tvg-name=&quot;Power Turk (720p) [Not 24/7]&quot; group-title=&quot;like Gecko Chrome/76.0.3809.25 Safari/537.36&quot; tvg-name=&quot;Power Turk (720p) [Not 24/7]&quot; group-title=&quot;Música&quot;,Power Turk (720p) [Not 24/7]&quot;,Power Turk (720p) [Not 24/7]',Power Turk (720p) [Not 24/7]",Power Turk (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-logo="https://i.imgur.com/9OPoXQG.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" tvg-name="Power Turk (720p) [Not 24/7]" group-title="Power Turk (720p) [Not 24/7]",Power Turk (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8
 
@@ -3930,7 +3930,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-sams
 http://yerelmedya.tv:1935/kanalv/bant1/playlist.m3u8
 
 # ===== LIKE GECKO) CHROME/124.0.0.0 SAFARI/537.36" TVG-NAME="KANAL D DRAMA (1080P)" GROUP-TITLE="LIKE GECKO) CHROME/124.0.0.0 SAFARI/537.36&QUOT; TVG-NAME=&QUOT;KANAL D DRAMA (1080P)&QUOT; GROUP-TITLE=&QUOT;FILMES E SÉRIES&QUOT;,KANAL D DRAMA (1080P)",KANAL D DRAMA (1080P) =====
-#EXTINF:-1 tvg-id="KanalDDrama.tr@SD" tvg-logo="https://i.imgur.com/WIeZMKT.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" tvg-name="Kanal D Drama (1080p)" group-title="like Gecko) Chrome/124.0.0.0 Safari/537.36' tvg-name='Kanal D Drama (1080p)' group-title='like Gecko) Chrome/124.0.0.0 Safari/537.36&quot; tvg-name=&quot;Kanal D Drama (1080p)&quot; group-title=&quot;like Gecko) Chrome/124.0.0.0 Safari/537.36&quot; tvg-name=&quot;Kanal D Drama (1080p)&quot; group-title=&quot;Filmes e Séries&quot;,Kanal D Drama (1080p)&quot;,Kanal D Drama (1080p)',Kanal D Drama (1080p)",Kanal D Drama (1080p)
+#EXTINF:-1 tvg-id="KanalDDrama.tr@SD" tvg-logo="https://i.imgur.com/WIeZMKT.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" tvg-name="Kanal D Drama (1080p)" group-title="Kanal D Drama (1080p)",Kanal D Drama (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/KanalD.stream/playlist.m3u8
 
@@ -4500,7 +4500,7 @@ https://hls.4utv.live/hls/stream.m3u8
 https://hls.4utv.live/hls/stream.m3u8
 
 # ===== 5 HD" GROUP-TITLE="5 HD&QUOT; GROUP-TITLE=&QUOT;GERAL&QUOT;,4K TR: TV8,5 HD",4K TR: TV8,5 HD =====
-#EXTINF:-1 tvg-name="4K TR: TV8,5 HD" group-title="5 HD' group-title='5 HD&quot; group-title=&quot;5 HD&quot; group-title=&quot;Geral&quot;,4K TR: TV8,5 HD&quot;,4K TR: TV8,5 HD',4K TR: TV8,5 HD",4K TR: TV8,5 HD
+#EXTINF:-1 tvg-name="4K TR: TV8,5 HD" group-title="5 HD",4K TR: TV8,5 HD
 https://kool.ws/vavoo-iptv/play/18867436247890d4c5bd71
 
 # ===== 64 KARE ULKESI =====
@@ -7320,17 +7320,17 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 https://waw2.artiyerelmedya.net/lifetv/bant1/playlist.m3u8
 
 # ===== LIKE GECKO CHROME/76.0.3809.25 SAFARI/537.36" TVG-NAME="24 TV (1080P)" GROUP-TITLE="LIKE GECKO CHROME/76.0.3809.25 SAFARI/537.36&QUOT; TVG-NAME=&QUOT;24 TV (1080P)&QUOT; GROUP-TITLE=&QUOT;GERAL&QUOT;,24 TV (1080P)",24 TV (1080P) =====
-#EXTINF:-1 tvg-id="24TV.tr@SD" tvg-logo="https://i.imgur.com/8FO41es.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" tvg-name="24 TV (1080p)" group-title="like Gecko Chrome/76.0.3809.25 Safari/537.36' tvg-name='24 TV (1080p)' group-title='like Gecko Chrome/76.0.3809.25 Safari/537.36&quot; tvg-name=&quot;24 TV (1080p)&quot; group-title=&quot;like Gecko Chrome/76.0.3809.25 Safari/537.36&quot; tvg-name=&quot;24 TV (1080p)&quot; group-title=&quot;Geral&quot;,24 TV (1080p)&quot;,24 TV (1080p)',24 TV (1080p)",24 TV (1080p)
+#EXTINF:-1 tvg-id="24TV.tr@SD" tvg-logo="https://i.imgur.com/8FO41es.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" tvg-name="24 TV (1080p)" group-title="24 TV (1080p)",24 TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8
 
 # ===== LIKE GECKO) CHROME/149.0.0.0 SAFARI/537.3" GROUP-TITLE="LIKE GECKO) CHROME/149.0.0.0 SAFARI/537.3&QUOT; GROUP-TITLE=&QUOT;GERAL&QUOT;,RTG INT.",RTG INT. =====
-#EXTINF:-1 tvg-id="RTGint.ru@SD" tvg-logo="https://i.imgur.com/ZpUNou4.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="like Gecko) Chrome/149.0.0.0 Safari/537.3' group-title='like Gecko) Chrome/149.0.0.0 Safari/537.3&quot; group-title=&quot;like Gecko) Chrome/149.0.0.0 Safari/537.3&quot; group-title=&quot;Geral&quot;,RTG int.&quot;,RTG int.',RTG int.",RTG int.
+#EXTINF:-1 tvg-id="RTGint.ru@SD" tvg-logo="https://i.imgur.com/ZpUNou4.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="RTG int.",RTG int.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://213.91.179.28:8000/play/a0bw
 
 # ===== CNBC EUROPE (480P)" USER-AGENT="MOZILLA/5.0 (IPHONE; CPU IPHONE OS 12_2 LIKE MAC OS X) APPLEWEBKIT/605.1.15 (KHTML, LIKE GECKO) MOBILE/15E148",CNBC EUROPE (480P) =====
-#EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/B6sfpDa.png" group-title="like Gecko) Mobile/15E148&quot;,CNBC Europe (480p)' user-agent='Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',CNBC Europe (480p)" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",CNBC Europe (480p)
+#EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/B6sfpDa.png" group-title="CNBC Europe (480p)" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",CNBC Europe (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s65/index.m3u8
 
