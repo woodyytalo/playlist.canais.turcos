@@ -5113,3 +5113,207 @@ https://kool.ws/vavoo-iptv/play/2655157451b1786586fd0c
 
 #EXTINF:-1 tvg-name="ZONGULDAK KANAL Z" group-title="ZONGULDAK KANAL Z",ZONGULDAK KANAL Z
 https://kool.ws/vavoo-iptv/play/1467834090ec77c1def93a
+
+#EXTINF:-1 tvg-name="Haber Türk" group-title="Haber Türk",Haber Türk
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
+
+#EXTINF:-1 tvg-name="Meclis TV" group-title="Meclis TV",Meclis TV
+https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
+
+#EXTINF:-1 tvg-name="Bodrum Kent TV" group-title="Bodrum Kent TV",Bodrum Kent TV
+https://edge2.taksimbilisim.com/bodrumkenttv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Erciyes TV" group-title="Erciyes TV",Erciyes TV
+https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="İçel TV" group-title="İçel TV",İçel TV
+https://edge1.taksimbilisim.com/iceltv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kanal Plus" group-title="Kanal Plus",Kanal Plus
+https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Karadeniz TV" group-title="Karadeniz TV",Karadeniz TV
+https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8
+
+#EXTINF:-1 tvg-name="Ruha TV" group-title="Ruha TV",Ruha TV
+https://ruhatv.radyotelekom.com.tr:3515/live/ruhatvlive.m3u8
+
+#EXTINF:-1 tvg-name="Telenews" group-title="Telenews",Telenews
+https://cdn-telenews.yayin.com.tr/telenews/tracks-v1a1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Trakya Türk" group-title="Trakya Türk",Trakya Türk
+https://live.euromediacenter.com/trakyaturk/tracks-v1a1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Documentary+" group-title="Documentary+",Documentary+
+https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Asharq Documentary" group-title="Asharq Documentary",Asharq Documentary
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-name="Al Jazeera English" group-title="Al Jazeera English",Al Jazeera English
+https://live-hls-web-aje-fa.getaj.net/AJE/index.m3u8
+
+#EXTINF:-1 tvg-name="Al Jazeera Arabic" group-title="Al Jazeera Arabic",Al Jazeera Arabic
+https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+
+#EXTINF:-1 tvg-name="Al Arabiya" group-title="Al Arabiya",Al Arabiya
+https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="NHK World-Japan" group-title="NHK World-Japan",NHK World-Japan
+https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
+
+#EXTINF:-1 tvg-name="Arirang TV" group-title="Arirang TV",Arirang TV
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="CGTN" group-title="CGTN",CGTN
+https://english-livebkali.cgtn.com/live/encgtn.m3u8
+
+#EXTINF:-1 tvg-name="Asharq News" group-title="Asharq News",Asharq News
+https://live-news.asharq.com/asharq.m3u8
+
+#EXTINF:-1 tvg-name="Sky News Arabia" group-title="Sky News Arabia",Sky News Arabia
+https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
+
+#EXTINF:-1 tvg-name="Spacetoon Arabic" group-title="Spacetoon Arabic",Spacetoon Arabic
+https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8
+
+#EXTINF:-1 tvg-name="Yu-Gi-Oh! Channel (English)" group-title="Yu-Gi-Oh! Channel (English)",Yu-Gi-Oh! Channel (English)
+https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Toonami Aftermath" group-title="Toonami Aftermath",Toonami Aftermath
+http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+
+#EXTINF:-1 tvg-name="FRT TV" group-title="FRT TV",FRT TV
+https://edge1.taksimbilisim.com/frttv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Lider Haber" group-title="Lider Haber",Lider Haber
+http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8
+
+#EXTINF:-1 tvg-name="MC EU TV" group-title="MC EU TV",MC EU TV
+https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8
+
+#EXTINF:-1 tvg-name="Discovering China" group-title="Discovering China",Discovering China
+https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Terra Mater WILD" group-title="Terra Mater WILD",Terra Mater WILD
+https://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Ahi TV Kirsehir" group-title="Ahi TV Kirsehir",Ahi TV Kirsehir
+http://yayin3.canlitv.com:1935/canlitv/ahitv/chunklist.m3u8
+
+#EXTINF:-1 tvg-name="Akilli TV" group-title="Akilli TV",Akilli TV
+https://stream41.radyotelekom.com.tr/stream/m3u8/a5a7e883a71429fe9e605bb5d25d6185/chunklist_w895929071.m3u8
+
+#EXTINF:-1 tvg-name="ASTV" group-title="ASTV",ASTV
+https://waw2.artiyerelmedya.net/astv/bant1/chunks.m3u8
+
+#EXTINF:-1 tvg-name="ATR Kırım Tatar" group-title="ATR Kırım Tatar",ATR Kırım Tatar
+http://stream.atr.ua/atr//live/index.m3u8
+
+#EXTINF:-1 tvg-name="Av TV" group-title="Av TV",Av TV
+http://195.142.1.213:1935/avtv/avtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Besiktas Web TV" group-title="Besiktas Web TV",Besiktas Web TV
+https://s01.vpis.io/besiktas/besiktas.m3u8
+
+#EXTINF:-1 tvg-name="Beykent TV" group-title="Beykent TV",Beykent TV
+https://beykenttv.arsivnet.net/P62039948/beykenttv/chunklist_w1942204286.m3u8
+
+#EXTINF:-1 tvg-name="Bitlis TV" group-title="Bitlis TV",Bitlis TV
+https://59cba4d34b678.streamlock.net/canlitv/bitlistv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="BLT Turk" group-title="BLT Turk",BLT Turk
+https://waw2.artiyerelmedya.net/bltturk/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="DIM TV" group-title="DIM TV",DIM TV
+https://waw2.artiyerelmedya.net/dimtv/bant1/chunks.m3u8
+
+#EXTINF:-1 tvg-name="DRT TV" group-title="DRT TV",DRT TV
+https://broadcasttr.com:446/drt/bant1/chunklist_w172830844.m3u8?hash=ff9087a17e9ff7a7a214048d240d21c0
+
+#EXTINF:-1 tvg-name="Ege A Turk TV" group-title="Ege A Turk TV",Ege A Turk TV
+https://5be5d840359c6.streamlock.net/egeaturktv/egeaturktv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ELIT TV Isvicre" group-title="ELIT TV Isvicre",ELIT TV Isvicre
+https://cdn.yayin.com.tr/TVEM/TVEM/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Ert Sah TV" group-title="Ert Sah TV",Ert Sah TV
+http://win20.yayin.com.tr/ertsahtv/ertsahtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Euro Genc" group-title="Euro Genc",Euro Genc
+https://dcunilive258-lh.akamaihd.net/i/dclive_1@126972/master.m3u8
+
+#EXTINF:-1 tvg-name="EURO D HD" group-title="EURO D HD",EURO D HD
+https://xrklj56s.rocketcdn.com/eurostar.stream_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-name="Gaziantep Olay Tv" group-title="Gaziantep Olay Tv",Gaziantep Olay Tv
+https://waw2.artiyerelmedya.net/olaytv/bant1/chunks.m3u8?hash=ff9087a17e9ff7a7a214048d240d21c0
+
+#EXTINF:-1 tvg-name="Guneydoğu TV" group-title="Guneydoğu TV",Guneydoğu TV
+http://stream2.taksimbilisim.com:1935/gtv/bant1/chunklist.m3u8
+
+#EXTINF:-1 tvg-name="GSTV" group-title="GSTV",GSTV
+https://owifavo5.rocketcdn.com/gstv/gstv.smil/chunklist_b496000_sltur.m3u8
+
+#EXTINF:-1 tvg-name="Istanbul Metropolitan Municipality" group-title="Istanbul Metropolitan Municipality",Istanbul Metropolitan Municipality
+http://wowza.istweb.tv:1935/dp/istanbul2/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kanal Alanya" group-title="Kanal Alanya",Kanal Alanya
+https://broadcasttr.com:446/kanala/bant1/chunklist_w343770598.m3u8?hash=2ed1974639ec674a33ed440298136dcd
+
+#EXTINF:-1 tvg-name="Kanal Ege" group-title="Kanal Ege",Kanal Ege
+https://59cba4d34b678.streamlock.net/canlitv/kanalege/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kent Deha TV" group-title="Kent Deha TV",Kent Deha TV
+https://waw2.artiyerelmedya.net/dehatv/bant1/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Kent TV" group-title="Kent TV",Kent TV
+https://waw2.artiyerelmedya.net/38kenttv/bant1/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Kral TV" group-title="Kral TV",Kral TV
+https://0ajuu84p.rocketcdn.com/kraltv_720/chunklist.m3u8
+
+#EXTINF:-1 tvg-name="Lale TV Kırım Tatar" group-title="Lale TV Kırım Tatar",Lale TV Kırım Tatar
+http://stream.atr.ua/lale//live/index.m3u8
+
+#EXTINF:-1 tvg-name="Mar TV" group-title="Mar TV",Mar TV
+http://marmaratv.canliyayin.org/P324353563/marmaratv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Mavi Karadeniz TV" group-title="Mavi Karadeniz TV",Mavi Karadeniz TV
+https://waw2.artiyerelmedya.net/mavikaradeniz/bant1/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Med Muzîk" group-title="Med Muzîk",Med Muzîk
+http://137.74.205.201/live3/mm-3mbps.m3u8
+
+#EXTINF:-1 tvg-name="Meteoroloji TV" group-title="Meteoroloji TV",Meteoroloji TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtfgdbkwkjllolive/broadcast_5b1673b7c36b7.smil/chunklist_b200000.m3u8
+
+#EXTINF:-1 tvg-name="Rudaw" group-title="Rudaw",Rudaw
+https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sinop Yildiz TV" group-title="Sinop Yildiz TV",Sinop Yildiz TV
+https://s01.vpis.io/sinopyildiz/sinopyildiz.m3u8
+
+#EXTINF:-1 tvg-name="tivi TÜRK" group-title="tivi TÜRK",tivi TÜRK
+https://stream.tiviturk.de/live/tiviturk.m3u8
+
+#EXTINF:-1 tvg-name="TLC TR" group-title="TLC TR",TLC TR
+https://pa9agxjg.rocketcdn.com/tlctv.smil/index.m3u8
+
+#EXTINF:-1 tvg-name="TV 35" group-title="TV 35",TV 35
+https://59cba4d34b678.streamlock.net/canlitv/tv35/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TV A" group-title="TV A",TV A
+https://waw2.artiyerelmedya.net/tva/bant1/chunks.m3u8?hash=2ed1974639ec674a33ed440298136dcd
+
+#EXTINF:-1 tvg-name="UçanKuş TV" group-title="UçanKuş TV",UçanKuş TV
+https://ucankus-live.cdnnew.com/ucankus/ucankus.m3u8
+
+#EXTINF:-1 tvg-name="Vizyon TV" group-title="Vizyon TV",Vizyon TV
+https://cdn-vizyontv.yayin.com.tr/vizyontv/vizyontv/chunklist_w446475982.m3u8
+
+#EXTINF:-1 tvg-name="VTV" group-title="VTV",VTV
+https://waw2.artiyerelmedya.net/kanalv/bant1/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Yesilyurt TV" group-title="Yesilyurt TV",Yesilyurt TV
+https://waw1.artiyerelmedya.net/yesilyurttv/bant1/chunks.m3u8?hash=2ed1974639ec674a33ed440298136dcd
