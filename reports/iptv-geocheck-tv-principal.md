@@ -1,6 +1,6 @@
 # Relatório IPTV GeoCheck — canais turcos
 
-- Executado em: 2026-11-26 18:41 UTC
+- Executado em: 2026-11-26 18:55 UTC
 - Playlist analisada: \`Tv.m3u\`
 - Entradas testadas: **215**
 - URLs únicas: **215**
@@ -9,15 +9,14 @@
 
 | Resultado | Quantidade |
 |---|---:|
-| LINK NÃO ENCONTRADO (404) | 116 |
-| ACESSÍVEL NO AMBIENTE DO TESTE | 69 |
+| LINK NÃO ENCONTRADO (404) | 113 |
+| ACESSÍVEL NO AMBIENTE DO TESTE | 70 |
 | FALHA DE CONEXÃO (URLError) | 19 |
-| ACESSO NEGADO — possível restrição regional ou autorização | 3 |
-| ERRO HTTP 502 | 3 |
-| ERRO HTTP 500 | 2 |
+| ACESSO NEGADO — possível restrição regional ou autorização | 8 |
+| ERRO HTTP 502 | 2 |
 | ERRO HTTP 400 | 1 |
+| ERRO HTTP 500 | 1 |
 | ERRO HTTP 503 | 1 |
-| FALHA DE CONEXÃO (TimeoutError) | 1 |
 
 ## Detalhamento
 
@@ -33,7 +32,7 @@
 | 8 - Zarok TV Kurmanji | \`zindikurmanci.zaroktv.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 9 - Zarok TV Sorani | \`zindisorani.zaroktv.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 10 - BabyFirst TV | \`cdn.fast.jwp.services\` | LINK NÃO ENCONTRADO (404) | 404 |
-| 11 - 24 TV | \`turkmedya-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
+| 11 - 24 TV | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 12 - Lider Haber | \`nrttn172.kesintisizyayin.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 13 - A Haber | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 14 - A Para | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
@@ -41,22 +40,22 @@
 | 16 - Bloomberg HT | \`mumbai-edge.smartplaytv.in\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 17 - Bloomberg HT 2 | \`tv.ensonhaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 18 - CNBC e | \`hnpsechtsc.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| 19 - CNN Türk | \`85.117.61.84\` | LINK NÃO ENCONTRADO (404) | 404 |
+| 19 - CNN Türk | \`live.duhnet.tv\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
 | 20 - DHA | \`603c568fccdf5.streamlock.net\` | FALHA DE CONEXÃO (URLError) | - |
 | 21 - Ekotürk | \`cdn.ekoturk.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 22 - Flash Haber TV | \`b01c02nl.mediatriple.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 23 - Haber Global | \`tv.ensonhaber.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 24 - Haber61 TV | \`cdn-haber61tv.yayin.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
-| 25 - Habertürk | \`haberturk.blutv.com\` | FALHA DE CONEXÃO (URLError) | - |
-| 26 - Halk TV | \`halktv-live.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 25 - Habertürk | \`ciner-live.daioncdn.net\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
+| 26 - Halk TV | \`halktv-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 27 - İlke TV | \`stream.ilketv.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
-| 28 - NTV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 28 - NTV | \`dogus-live.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 29 - TELE1 | \`tele1-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 30 - TGRT Haber | \`canli.tgrthaber.com\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 31 - TRT Haber | \`tv-trthaber.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 32 - TRT World | \`cdn.pishow.tv\` | LINK NÃO ENCONTRADO (404) | 404 |
+| 32 - TRT World | \`tv-trtworld.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 33 - TürkHaber | \`edge1.socialsmart.tv\` | FALHA DE CONEXÃO (URLError) | - |
-| 34 - TV100 | \`ensonhaber-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
+| 34 - TV100 | \`tv100-live.daioncdn.net\` | FALHA DE CONEXÃO (URLError) | - |
 | 35 - TV5 | \`ip252.ozelip.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 36 - TVNET | \`tvnet-live.lg.mncdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 37 - Ülke TV | \`livetv.radyotvonline.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -66,23 +65,23 @@
 | 41 - TYT TÜRK | \`tytturk-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 42 - Life TV | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 43 - KRT | \`raw.githubusercontent.com\` | LINK NÃO ENCONTRADO (404) | 404 |
-| 44 - 360 TV | \`turkmedya-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
+| 44 - 360 TV | \`turkmedya-live.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 45 - 4U TV | \`hls.4utv.live\` | LINK NÃO ENCONTRADO (404) | 404 |
-| 46 - A2 | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| 47 - ATV | \`rnttwmjcin.turknet.ercdn.net\` | FALHA DE CONEXÃO (TimeoutError) | - |
+| 46 - A2 | \`trkvz-live.daioncdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
+| 47 - ATV | \`trkvz-live.daioncdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 48 - Beyaz TV | \`beyaztv-live.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 49 - Bi Kanal | \`bikanal-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 50 - Bir TV | \`edge.taksimbilisim.com\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 51 - EURO D | \`live.duhnet.tv\` | ERRO HTTP 500 | 500 |
 | 52 - Kanal 7 Avrupa | \`livetv.radyotvonline.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
-| 53 - Kanal D | \`demiroren.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 53 - Kanal D | \`demiroren-live.daioncdn.net\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
 | 54 - Kanal D Drama | \`amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 55 - NOW | \`uycyyuuzyh.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 56 - Show TV | \`ciner-live.daioncdn.net\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
-| 57 - Star TV | \`dogus.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| 58 - teve2 | \`live.duhnet.tv\` | ERRO HTTP 500 | 500 |
+| 57 - Star TV | \`dogus-live.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
+| 58 - teve2 | \`demiroren-live.daioncdn.net\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
 | 59 - TRT 1 | \`tv-trt1.medya.trt.com.tr\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
-| 60 - TV8 | \`rkhubpaomb.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 60 - TV8 | \`tv8-live.daioncdn.net\` | ACESSO NEGADO — possível restrição regional ou autorização | 403 |
 | 61 - TV4 | \`turkmedya-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 62 - TRT Genç | \`tv-trtgenc.medya.trt.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 63 - CİNE1 | \`canliyayin.cine1.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
@@ -91,7 +90,7 @@
 | 66 - BBC First Türkiye | \`88.212.7.14\` | ERRO HTTP 503 | 503 |
 | 67 - Arzu Film | \`raw.githubusercontent.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 68 - Dizi TV | \`playlist.fasttvcdn.com\` | LINK NÃO ENCONTRADO (404) | 404 |
-| 69 - TLC | \`s6.hopslan.com\` | LINK NÃO ENCONTRADO (404) | 404 |
+| 69 - TLC | \`dogus-live.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 70 - Love Nature | \`mumbai-edge.smartplaytv.in\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 71 - TRT EBA Ortaokul | \`tv-e-okul01.medya.trt.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 72 - Finest TV | \`media.finest.tv\` | FALHA DE CONEXÃO (URLError) | - |
@@ -108,7 +107,7 @@
 | 83 - Power Dance TV | \`livetv.powerapp.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 84 - Power Love TV | \`listen.powerapp.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 85 - PowerTürk Taptaze | \`livetv.powerapp.com.tr\` | LINK NÃO ENCONTRADO (404) | 404 |
-| 86 - TRT Müzik | \`stream8.cinerama.uz\` | LINK NÃO ENCONTRADO (404) | 404 |
+| 86 - TRT Müzik | \`tv-trtmuzik.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 87 - Kral Pop | \`dygvideo.dygdigital.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 88 - NR1 Fashion One | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 89 - PowerTürk TV | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
@@ -123,13 +122,13 @@
 | 98 - TopPop | \`yayin.santraltr.com\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 99 - Retro Music Television | \`stream.mediawork.cz\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 100 - Power TV (480p) | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
-| 101 - A Spor | \`rnttwmjcin.turknet.ercdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 101 - A Spor | \`trkvz-live.daioncdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 102 - FB TV | \`1hskrdto.rocketcdn.com\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 103 - HT Spor TV | \`ciner.daioncdn.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 104 - TAY TV | \`duhnet.hipodrom.com\` | ERRO HTTP 502 | 502 |
 | 105 - TJK TV | \`tjktv-live.tjk.org\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 106 - Ekol Sports | \`ekoltv-live.ercdn.net\` | LINK NÃO ENCONTRADO (404) | 404 |
-| 107 - Eurosport 1 | \`vavoo.alwaysdata.net\` | ERRO HTTP 502 | 502 |
+| 107 - Eurosport 1 | \`vavoo.alwaysdata.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 108 - Eurosport 2 | \`213.91.179.28\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
 | 109 - Çiftçi TV | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 110 - Fashion One | \`b01c02nl.mediatriple.net\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
@@ -168,7 +167,7 @@
 | 143 - 4U Family (persa) | \`familyhls.4utv.live\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 144 - Luys TV | \`b01c02nl.mediatriple.net\` | LINK NÃO ENCONTRADO (404) | 404 |
 | 145 - TRT Arabi | \`tv-trtarabi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
-| 146 - TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 200 |
+| 146 - TRT Avaz | \`tv-trtavaz.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 147 - TRT Kurdî | \`tv-trtkurdi.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 148 - TRT Türk | \`tv-trtturk.medya.trt.com.tr\` | ACESSÍVEL NO AMBIENTE DO TESTE | 206 |
 | 149 - AS TV | \`live.artidijitalmedya.com\` | LINK NÃO ENCONTRADO (404) | 404 |
