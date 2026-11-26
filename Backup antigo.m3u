@@ -616,7 +616,7 @@ http://95.174.71.114:80/TR-ATV/index.m3u8
 https://tgn.bozztv.com/trn03/gt-atv-tv/index.m3u8
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="205" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 205 - ATV
-https://trkvz.daioncdn.net/atv/atv.m3u8?app=d5eb593f-39d9-4b01-9cfd-4748e8332cf0
+https://trkvz.daioncdn.net/atv/atv_480p.m3u8?app=d5eb593f-39d9-4b01-9cfd-4748e8332cf0
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="206" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 206 - ATV
 https://ythls-v3.onrender.com/channel/UCUVZ7T_kwkxDOGFcDlFI-hg.m3u8
@@ -643,7 +643,7 @@ https://new.cache-stream.workers.dev/stream/UCUVZ7T_kwkxDOGFcDlFI-hg/live.m3u8
 https://ythls.armelin.one/channel/UCUVZ7T_kwkxDOGFcDlFI-hg.m3u8
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="214" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 214 - ATV
-https://trkvz-beta.daioncdn.net/atv/atv.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
+https://trkvz-beta.daioncdn.net/atv/atv_480p.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="215" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 215 - ATV
 https://yayin2.canlitv.fun/livetv/atv.stream/playlist.m3u8
@@ -658,19 +658,19 @@ https://live20.bozztv.com/gin-36bay4/gt-atv-tv3/playlist.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="219" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 219 - ATV
-https://trkvz.daioncdn.net/atv/atv.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
+https://trkvz.daioncdn.net/atv/atv_480p.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="220" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 220 - ATV
-https://trkvz-dev.daioncdn.net/atv/atv.m3u8?app=8672c3cb-70f1-4686-9158-cc03a23c6b0f
+https://trkvz-dev.daioncdn.net/atv/atv_480p.m3u8?app=8672c3cb-70f1-4686-9158-cc03a23c6b0f
 
 #EXTINF:-1 tvg-name="ATV" tvg-chno="221" tvg-id="2zkzbuscxwyjc4k" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 221 - ATV
 http://116.202.238.88/ATV_TR/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 tvg-chno="222" tvg-id="2zkzbuscxwyjc4k" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 222 - ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8#all
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8#all
 
 #EXTINF:-1 tvg-chno="223" tvg-id="2zkzbuscxwyjc4k" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 223 - ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8#top50
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8#top50
 
 #EXTINF:-1 tvg-chno="224" tvg-id="2zkzbuscxwyjc4k" tvg-name="ATV" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 224 - ATV
 https://trkvz-live.daioncdn.net/atv/atv.m3u8
@@ -697,7 +697,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/atvcanli-
 http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8?checkedby:iptvcat.net
 
 #EXTINF:0 tvg-id="2zkzbuscxwyjc4k" tvg-name="ATV" tvg-chno="232" tvg-country="TR" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 232 - ATV (720p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8?checkedby:iptvcat.net
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8?checkedby:iptvcat.net
 
 #EXTINF:0 tvg-id="2zkzbuscxwyjc4k" tvg-name="ATV" tvg-chno="233" tvg-country="TR" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 233 - ATV (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8?checkedby:iptvcat.net
@@ -804,7 +804,7 @@ https://x.canlitvapp.com/aspor/index.m3u8
 http://116.202.238.88/ASPOR_TR/index.m3u8
 
 #EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-chno="267" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 267 - A SPOR
-https://trkvz.daioncdn.net/aspor/aspor.m3u8?ce=3&app=45f847c4-04e8-419a-a561-2ebf87084765
+https://trkvz.daioncdn.net/aspor/aspor_480p.m3u8?ce=3&app=45f847c4-04e8-419a-a561-2ebf87084765
 
 #EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-chno="268" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 268 - A SPOR
 https://ythlsgo.onrender.com/video/SzLuO_PW43A.m3u8
@@ -819,7 +819,7 @@ https://raw.githubusercontent.com/rideordie16/YouTube/main/spor/aspor.m3u8
 https://ythls.armelin.one/channel/UCJElRTCNEmLemgirqvsW63Q.m3u8
 
 #EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-chno="272" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 272 - A SPOR
-https://trkvz-beta.daioncdn.net/aspor/aspor.m3u8?app=45f847c4-04e8-419a-a561-2ebf87084765
+https://trkvz-beta.daioncdn.net/aspor/aspor_480p.m3u8?app=45f847c4-04e8-419a-a561-2ebf87084765
 
 #EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-name="A Spor" tvg-chno="273" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 273 - A Spor
 https://tgn.bozztv.com/dvrfl05/gin-aspor/tracks-v1a1/mono.m3u8
@@ -831,10 +831,10 @@ http://hdtvizle.ru/14452/71930/71968/aspor1.m3u8
 http://origin2.live.web.tv.streamprovider.net/streams/a6784af7d08a9c91dbfa0e4eab17e3bf_live_0_0/index.m3u8
 
 #EXTINF:-1 tvg-chno="276" tvg-id="v25znppc6itjprw" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 276 - A Spor
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8#all
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8#all
 
 #EXTINF:-1 tvg-chno="277" tvg-id="v25znppc6itjprw" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 277 - A Spor
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8#top50
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8#top50
 
 #EXTINF:-1 tvg-chno="278" tvg-id="v25znppc6itjprw" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 278 - A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
@@ -849,7 +849,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/aspor-can
 https://c.fulltvizle.com/aspor/index.m3u8
 
 #EXTINF:0 tvg-id="v25znppc6itjprw" tvg-name="A Spor" tvg-chno="282" tvg-country="TR" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 282 - A Spor (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8?checkedby:iptvcat.net
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8?checkedby:iptvcat.net
 
 #EXTINF:-1 tvg-chno="283" tvg-name="A SPOR FHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 283 - A SPOR FHD
 https://vavoo.to/vavoo-iptv/play/911836506e50aacc3a9e9
@@ -4901,10 +4901,10 @@ http://stream.tvcdn.net/cocuk-egitim/minika-cocuk.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8
 
 #EXTINF:-1 tvg-chno="1631" tvg-id="52hjq0o16nwpdnq" tvg-name="Minika Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/minika-cocuk-tr.png" group-title="MINIKA", 1631 - Minika Çocuk
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8#all
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8#all
 
 #EXTINF:-1 tvg-chno="1632" tvg-id="52hjq0o16nwpdnq" tvg-name="Minika Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/minika-cocuk-tr.png" group-title="MINIKA", 1632 - Minika Çocuk
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8#top50
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8#top50
 
 #EXTINF:-1 tvg-chno="1633" tvg-id="52hjq0o16nwpdnq" tvg-name="Minika Çocuk" tvg-logo="https://i.imgur.com/VCywMTv.png" group-title="MINIKA", 1633 - Minika Çocuk
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
@@ -4913,7 +4913,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3
 https://antalya.tvizlehd.com/live/minikacocuk.m3u8
 
 #EXTINF:-1 tvg-id="52hjq0o16nwpdnq" tvg-chno="1635" tvg-name="Minika Çocuk" tvg-logo="https://i.ibb.co/L8ftBdN/minikacocuk.png" group-title="MINIKA", 1635 - MİNİKA ÇOCUK (backoff)
-https://trkvz.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8?app=web&ce=3
+https://trkvz.daioncdn.net/minikago_cocuk/minikago_cocuk_480p.m3u8?app=web&ce=3
 
 #EXTINF:-1 tvg-id="52hjq0o16nwpdnq" tvg-chno="1636" tvg-name="Minika Çocuk" tvg-logo="https://i.ibb.co/L8ftBdN/minikacocuk.png" group-title="MINIKA", 1636 - MİNİKA ÇOCUK (offline)
 http://trn10.tulix.tv/gt-minikacocuk/index.m3u8
@@ -4934,10 +4934,10 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8
 http://tgn.bozztv.com/dvrfl05/gin-minikago/index.m3u8
 
 #EXTINF:-1 tvg-chno="1642" tvg-id="phekqx3pyw2wiiq" tvg-name="Minika GO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/102-Minika-GO-039a0d48e2.png" group-title="MINIKA", 1642 - Minika Go
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8#all
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8#all
 
 #EXTINF:-1 tvg-chno="1643" tvg-id="phekqx3pyw2wiiq" tvg-name="Minika GO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/102-Minika-GO-039a0d48e2.png" group-title="MINIKA", 1643 - Minika Go
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8#top50
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8#top50
 
 #EXTINF:-1 tvg-chno="1644" tvg-id="phekqx3pyw2wiiq" tvg-name="Minika GO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/102-Minika-GO-039a0d48e2.png" group-title="MINIKA", 1644 - Minika Go
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
@@ -4949,7 +4949,7 @@ http://missing
 http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 
 #EXTINF:-1 tvg-id="phekqx3pyw2wiiq" tvg-chno="1647" tvg-name="Minika GO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/102-Minika-GO-039a0d48e2.png" group-title="MINIKA", 1647 - MİNİKA GO (backoff)
-https://trkvz.daioncdn.net/minikago/minikago.m3u8?app=web&ce=3
+https://trkvz.daioncdn.net/minikago/minikago_480p.m3u8?app=web&ce=3
 
 #EXTINF:-1 tvg-id="phekqx3pyw2wiiq" tvg-chno="1648" tvg-name="Minika GO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/102-Minika-GO-039a0d48e2.png" group-title="MINIKA", 1648 - MİNİKA GO (offline)
 http://trn10.tulix.tv/gt-minikago/index.m3u8
@@ -4967,7 +4967,7 @@ http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/48485734-0654-4b80-b067-311b435
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/6a0d3998-c4d4-4e44-b65b-bf9ac0ad7adb.m3u
 
 #EXTINF:0 tvg-chno="1653" tvg-country="TR" tvg-logo="" group-title="MINIKA", 1653 - Minika Cocuk (720p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8?checkedby:iptvcat.net
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8?checkedby:iptvcat.net
 
 #EXTINF:-1 tvg-name="MK TV" tvg-chno="1654" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/205-MK-TV-073ee34817.png" group-title="MK TV", 1654 - MK TV
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
