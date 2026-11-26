@@ -1,0 +1,39 @@
+#EXTM3U
+# Compilado de canais turcos públicos encontrados nas listas de origem.
+# Categorias e canais ordenados alfabeticamente.
+# Fontes: ztps/iptv e Tahir2020/TR_Avrupa.
+# Links temporários, URLs com credenciais e itens VOD não foram incluídos.
+
+#EXTINF:-1 tvg-name="A2" group-title="Entretenimento",A2
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
+#EXTINF:-1 tvg-name="Kanal Euro D" group-title="Entretenimento",Kanal Euro D
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+#EXTINF:-1 tvg-name="NOW" group-title="Entretenimento",NOW
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+#EXTINF:-1 tvg-name="Show Max" group-title="Entretenimento",Show Max
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_1080p.m3u8
+#EXTINF:-1 tvg-name="Teve2" group-title="Entretenimento",Teve2
+https://demiroren.daioncdn.net/teve2/teve2_1080p.m3u8?&sid=8a5c11fnaetz&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd&ce=3
+
+#EXTINF:-1 tvg-name="TRT Cocuk" group-title="Infantil",TRT Cocuk
+https://tv-trtcocuk.live.trt.com.tr/master.m3u8?checkedby:iptvcat.com
+
+#EXTINF:-1 tvg-name="A Haber" group-title="Notícias",A Haber
+http://213.172.73.133:8081/nimble_live/9076_A_Haber_HD/playlist.m3u8
+#EXTINF:-1 tvg-name="CNN Türk" group-title="Notícias",CNN Türk
+https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8
+#EXTINF:-1 tvg-name="NTV" group-title="Notícias",NTV
+https://dogus-live.daioncdn.net/ntv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-name="TRT Haber" group-title="Notícias",TRT Haber
+https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 7 Avrupa" group-title="Variedades",Kanal 7 Avrupa
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal D" group-title="Variedades",Kanal D
+https://demiroren-live.daioncdn.net/kanald/kanald.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-name="Star TV" group-title="Variedades",Star TV
+https://dogus-live.daioncdn.net/startv/startv_720p.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-name="TRT 1" group-title="Variedades",TRT 1
+https://tv-trt1.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="TV 8" group-title="Variedades",TV 8
+https://tv8-live.daioncdn.net/tv8/tv8_720p.m3u8
