@@ -7724,7 +7724,7 @@ http://176.65.146.123:6001/play/a027/index.m3u8
 https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2571" Yedek="https://tgn.bozztv.com/dvrfl05/gin-trtspor2/playlist.m3u8" Yedek2="https://217.30.11.74/e/350.m3u8" Yedek3="http://176.65.146.123:6001/play/a02g/index.m3u8" tvg-id="TRT SPOR YILDIZ.tr" tvg-logo="https://tv.kolaytv.org/trt-spor-yildiz.png" group-title="TRT", 2571 - TRT SPOR YILDIZ
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2572" tvg-name="TRT SPOR YILDIZ" tvg-id="TRTSporYildiz.tr" tvg-logo="https://i.ibb.co/YRgKcDn/trt-spor-yildiz.png" group-title="TRT", 2572 - TRT SPOR YILDIZ
 https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8
@@ -7983,13 +7983,13 @@ https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2657" tvg-name="TRT SPOR YILDIZ" tvg-logo="https://i.ibb.co/YRgKcDn/trt-spor-yildiz.png" group-title="TRT", 2657 - TRT SPOR YILDIZ
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2658" tvg-name="TRT SPOR YILDIZ" tvg-logo="https://logo.huhu.to/logo?c=93054202.png" group-title="TRT", 2658 - TRT SPOR YILDIZ
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2659" tvg-name="TRT SPOR YILDIZ" tvg-logo="https://i.ibb.co/YRgKcDn/trt-spor-yildiz.png" group-title="TRT", 2659 - TRT SPOR YILDIZ
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2660" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trtsporyildiz.png" group-title="TRT", 2660 - TRT Spor Yıldız
 https://tv-trt-spor-yildiz.medya.trt.com.tr/master_720.m3u8
@@ -8004,16 +8004,16 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8#top50
 https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2664" tvg-name="TRT SPOR YILDIZ HD" tvg-logo="https://logo.huhu.to/logo?c=1423845809.png" group-title="TRT", 2664 - TRT SPOR YILDIZ HD
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2665" tvg-name="TRT SPOR YILDIZ HEVC" group-title="TRT", 2665 - TRT SPOR YILDIZ HEVC
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2666" tvg-id="TRT Spor Yildiz" tvg-name="TRT Spor Yildiz" tvg-language="Turkish" tvg-logo="https://i.ibb.co/FBzsCSY/trtsporyildiz.jpg" group-title="TRT", 2666 - TRT Spor Yildiz
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2667" tvg-id="TRTSporYildiz.tr@SD" tvg-logo="https://i.ibb.co/YRgKcDn/trt-spor-yildiz.png" group-title="TRT", 2667 - TRT Spor Yildiz (1440p) [Geo-blocked]
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2668" tvg-name="TRT SPOR2 YILDIZ" tvg-logo="https://i.ibb.co/ky3qVPc/trtspory2.png" group-title="TRT", 2668 - TRT SPOR2 YILDIZ
 http://live.artofknot.com:5080/proxy/channel?url=https://tv-trtspor2.medya.trt.com.tr/master.m3u8
@@ -8055,10 +8055,10 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2681" tvg-name="TRT YILDIZ HD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/trtsporyildiz.png" group-title="TRT", 2681 - TRT YILDIZ HD
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2682" tvg-name="TRT YILDIZ UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/trtsporyildiz.png" group-title="TRT", 2682 - TRT YILDIZ UHD
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2683" tvg-name="TRT 3 SPOR HD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/trtspo3.png" group-title="TRT", 2683 - TRT 3 SPOR HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/a4d4ac8d-2b93-478d-9103-68ac4ee22d5e.m3u
