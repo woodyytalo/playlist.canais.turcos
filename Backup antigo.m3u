@@ -616,7 +616,7 @@ http://95.174.71.114:80/TR-ATV/index.m3u8
 https://tgn.bozztv.com/trn03/gt-atv-tv/index.m3u8
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="205" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 205 - ATV
-https://trkvz.daioncdn.net/atv/atv_480p.m3u8?app=d5eb593f-39d9-4b01-9cfd-4748e8332cf0
+https://trkvz.daioncdn.net/atv/atv.m3u8?app=d5eb593f-39d9-4b01-9cfd-4748e8332cf0
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="206" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 206 - ATV
 https://ythls-v3.onrender.com/channel/UCUVZ7T_kwkxDOGFcDlFI-hg.m3u8
@@ -643,7 +643,7 @@ https://new.cache-stream.workers.dev/stream/UCUVZ7T_kwkxDOGFcDlFI-hg/live.m3u8
 https://ythls.armelin.one/channel/UCUVZ7T_kwkxDOGFcDlFI-hg.m3u8
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="214" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 214 - ATV
-https://trkvz-beta.daioncdn.net/atv/atv_480p.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
+https://trkvz-beta.daioncdn.net/atv/atv.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="215" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 215 - ATV
 https://yayin2.canlitv.fun/livetv/atv.stream/playlist.m3u8
@@ -658,10 +658,10 @@ https://live20.bozztv.com/gin-36bay4/gt-atv-tv3/playlist.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="219" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 219 - ATV
-https://trkvz.daioncdn.net/atv/atv_480p.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
+https://trkvz.daioncdn.net/atv/atv.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
 
 #EXTINF:-1 tvg-id="2zkzbuscxwyjc4k" tvg-chno="220" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 220 - ATV
-https://trkvz-dev.daioncdn.net/atv/atv_480p.m3u8?app=8672c3cb-70f1-4686-9158-cc03a23c6b0f
+https://trkvz-dev.daioncdn.net/atv/atv.m3u8?app=8672c3cb-70f1-4686-9158-cc03a23c6b0f
 
 #EXTINF:-1 tvg-name="ATV" tvg-chno="221" tvg-id="2zkzbuscxwyjc4k" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 221 - ATV
 http://116.202.238.88/ATV_TR/tracks-v1a1/index.m3u8
@@ -804,7 +804,7 @@ https://x.canlitvapp.com/aspor/index.m3u8
 http://116.202.238.88/ASPOR_TR/index.m3u8
 
 #EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-chno="267" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 267 - A SPOR
-https://trkvz.daioncdn.net/aspor/aspor_480p.m3u8?ce=3&app=45f847c4-04e8-419a-a561-2ebf87084765
+https://trkvz.daioncdn.net/aspor/aspor.m3u8?ce=3&app=45f847c4-04e8-419a-a561-2ebf87084765
 
 #EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-chno="268" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 268 - A SPOR
 https://ythlsgo.onrender.com/video/SzLuO_PW43A.m3u8
@@ -819,7 +819,7 @@ https://raw.githubusercontent.com/rideordie16/YouTube/main/spor/aspor.m3u8
 https://ythls.armelin.one/channel/UCJElRTCNEmLemgirqvsW63Q.m3u8
 
 #EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-chno="272" tvg-name="A Spor" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 272 - A SPOR
-https://trkvz-beta.daioncdn.net/aspor/aspor_480p.m3u8?app=45f847c4-04e8-419a-a561-2ebf87084765
+https://trkvz-beta.daioncdn.net/aspor/aspor.m3u8?app=45f847c4-04e8-419a-a561-2ebf87084765
 
 #EXTINF:-1 tvg-id="v25znppc6itjprw" tvg-name="A Spor" tvg-chno="273" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 273 - A Spor
 https://tgn.bozztv.com/dvrfl05/gin-aspor/tracks-v1a1/mono.m3u8
@@ -4913,7 +4913,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3
 https://antalya.tvizlehd.com/live/minikacocuk.m3u8
 
 #EXTINF:-1 tvg-id="52hjq0o16nwpdnq" tvg-chno="1635" tvg-name="Minika Çocuk" tvg-logo="https://i.ibb.co/L8ftBdN/minikacocuk.png" group-title="MINIKA", 1635 - MİNİKA ÇOCUK (backoff)
-https://trkvz.daioncdn.net/minikago_cocuk/minikago_cocuk_480p.m3u8?app=web&ce=3
+https://trkvz.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8?app=web&ce=3
 
 #EXTINF:-1 tvg-id="52hjq0o16nwpdnq" tvg-chno="1636" tvg-name="Minika Çocuk" tvg-logo="https://i.ibb.co/L8ftBdN/minikacocuk.png" group-title="MINIKA", 1636 - MİNİKA ÇOCUK (offline)
 http://trn10.tulix.tv/gt-minikacocuk/index.m3u8
@@ -4949,7 +4949,7 @@ http://missing
 http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 
 #EXTINF:-1 tvg-id="phekqx3pyw2wiiq" tvg-chno="1647" tvg-name="Minika GO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/102-Minika-GO-039a0d48e2.png" group-title="MINIKA", 1647 - MİNİKA GO (backoff)
-https://trkvz.daioncdn.net/minikago/minikago_480p.m3u8?app=web&ce=3
+https://trkvz.daioncdn.net/minikago/minikago.m3u8?app=web&ce=3
 
 #EXTINF:-1 tvg-id="phekqx3pyw2wiiq" tvg-chno="1648" tvg-name="Minika GO" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/102-Minika-GO-039a0d48e2.png" group-title="MINIKA", 1648 - MİNİKA GO (offline)
 http://trn10.tulix.tv/gt-minikago/index.m3u8
