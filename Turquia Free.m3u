@@ -1095,19 +1095,19 @@ https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://live.yoltv.com/hls/stream.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",183 - 24 TV
+#EXTINF:-1 tvg-id="24TV.tr" group-title="Canais adicionais",183 - 24 TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",184 - AS TV (backup)
+#EXTINF:-1 tvg-id="ASTV.tr" group-title="Canais adicionais",184 - AS TV (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",185 - ATV (360p)
+#EXTINF:-1 tvg-id="ATV.tr" group-title="Canais adicionais",185 - ATV (360p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1179,25 +1179,25 @@ https://vg162.adcdsd123321.shop/7.m3u8
 #EXTVLCOPT:network-caching=6000
 http://57.129.0.61:1990/stream/117/index.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",197 - Benguturk TV (backup)
+#EXTINF:-1 tvg-id="BenguturkTV.tr" group-title="Canais adicionais",197 - Benguturk TV (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://tv.ensonhaber.com/benguturk/benguturk.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",198 - Bloomberg HT (backup 1)
+#EXTINF:-1 tvg-id="BloombergHT.tr" group-title="Canais adicionais",198 - Bloomberg HT (backup 1)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 http://193.123.61.120:3000/kanal/bloomberght
 
-#EXTINF:-1 group-title="Canais adicionais",199 - Bloomberg HT (backup 2)
+#EXTINF:-1 tvg-id="BloombergHT.tr" group-title="Canais adicionais",199 - Bloomberg HT (backup 2)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",200 - Bloomberg HT (backup 3)
+#EXTINF:-1 tvg-id="BloombergHT.tr" group-title="Canais adicionais",200 - Bloomberg HT (backup 3)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1377,7 +1377,7 @@ https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",230 - Kanal 23 (backup)
+#EXTINF:-1 tvg-id="Kanal23.tr" group-title="Canais adicionais",230 - Kanal 23 (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1401,7 +1401,7 @@ http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",234 - Kanal 7 (backup)
+#EXTINF:-1 tvg-id="Kanal7.tr" group-title="Canais adicionais",234 - Kanal 7 (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1491,13 +1491,13 @@ https://amg01515-amg01515c26-xumo-us-4765.playouts.now.amagi.tv/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 http://120.70.60.179:9901/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=0
 
-#EXTINF:-1 group-title="Canais adicionais",249 - Minika Cocuk (backup)
+#EXTINF:-1 tvg-id="MinikaCocuk.tr" group-title="Canais adicionais",249 - Minika Cocuk (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",250 - Minika Go (backup)
+#EXTINF:-1 tvg-id="MinikaGo.tr" group-title="Canais adicionais",250 - Minika Go (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1509,43 +1509,43 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 #EXTVLCOPT:network-caching=6000
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungit/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",252 - National Geographic (backup)
+#EXTINF:-1 tvg-id="NationalGeographic.tr" group-title="Canais adicionais",252 - National Geographic (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://saran-live.ercdn.net/natgeohd/index.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",253 - National Geographic Wild (backup)
+#EXTINF:-1 tvg-id="NationalGeographicWild.tr" group-title="Canais adicionais",253 - National Geographic Wild (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://saran-live.ercdn.net/natgeowild/index.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",254 - Number 1 TV (backup)
+#EXTINF:-1 tvg-id="Number1TV.tr" group-title="Canais adicionais",254 - Number 1 TV (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://mn-nl.mncdn.com/blutv_nr12/live.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",255 - Power TV (backup)
+#EXTINF:-1 tvg-id="PowerTV.tr" group-title="Canais adicionais",255 - Power TV (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",256 - PowerTurk TV
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="Canais adicionais",256 - PowerTurk TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",257 - PowerTurk TV (backup 1)
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="Canais adicionais",257 - PowerTurk TV (backup 1)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",258 - PowerTurk TV (backup 2)
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="Canais adicionais",258 - PowerTurk TV (backup 2)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1605,13 +1605,13 @@ https://tr.socialsmart.tv/suntv/bant1/chunks.m3u8
 #EXTVLCOPT:network-caching=6000
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",268 - TRT 3 (backup)
+#EXTINF:-1 tvg-id="TRT3.tr" group-title="Canais adicionais",268 - TRT 3 (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://tv-trt3.live.trt.com.tr/master.m3u8
 
-#EXTINF:-1 group-title="Canais adicionais",269 - TRT Diyanet Cocuk
+#EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr" group-title="Canais adicionais",269 - TRT Diyanet Cocuk
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
