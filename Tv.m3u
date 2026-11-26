@@ -86,7 +86,7 @@ https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest/1_480p.m3u
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://turkmedya-live.ercdn.net/tv24/tv24_480p.m3u8
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
 
@@ -150,7 +150,7 @@ https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-http://85.117.61.84/cnnturk/index_480p.m3u8
+https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11425 V, SR 30000, FEC 3/4
 
@@ -198,7 +198,7 @@ https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://haberturk.blutv.com/blutv_haberturk_live/live_480p.m3u8
+https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12380 V, SR 27500, FEC 3/4 / Türksat 5B: 11225 V, SR 30000, FEC 3/4
 
@@ -206,7 +206,7 @@ https://haberturk.blutv.com/blutv_haberturk_live/live_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://halktv-live.daioncdn.net/halktv/halktv_480p.m3u8
+https://halktv-live.ercdn.net/halktv/halktv.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12303 V, SR 27500, FEC 3/4 / Türksat 4A: 11845 V, SR 10833, FEC 2/3
 
@@ -222,7 +222,7 @@ https://stream.ilketv.com.tr/hls/ilkecanli_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://dogus.daioncdn.net/ntv/ntv_480p.m3u8?app=ntv_web
+https://dogus-live.daioncdn.net/ntv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 3A: 12729 V, SR 30000, FEC 2/3
 
@@ -270,7 +270,7 @@ https://edge1.socialsmart.tv/turkhaber/bant1/playlist_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://ensonhaber-live.ercdn.net/tv100/tv100_480p.m3u8
+https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 11862 V, SR 16666, FEC 2/3
 
@@ -350,7 +350,7 @@ https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/k
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://turkmedya-live.ercdn.net/tv360/tv360_480p.m3u8
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
 
@@ -366,7 +366,7 @@ https://hls.4utv.live/hls/stream_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_480p.m3u8
+https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12265 V, SR 27500, FEC 3/4
 
@@ -374,7 +374,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
+https://trkvz-live.daioncdn.net/atv/atv.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
 
@@ -382,7 +382,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 
 #FREQUÊNCIA: Türksat 5B: 11425 V, SR 30000, FEC 3/4
 
@@ -422,7 +422,7 @@ https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://demiroren.daioncdn.net/kanald/kanald_480p.m3u8?app=kanald_web&ce=3
+https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
 
 #FREQUÊNCIA: Satélite: a verificar
 
@@ -454,7 +454,7 @@ https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://dogus.daioncdn.net/startv/startv_480p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
+https://dogus-live.daioncdn.net/startv/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
 
@@ -462,7 +462,7 @@ https://dogus.daioncdn.net/startv/startv_480p.m3u8?app=a20ac41e-bdc3-4aa1-934d-2
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist_480p.m3u8
+https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12149 V, SR 27500, FEC 3/4
 
@@ -478,7 +478,7 @@ https://tv-trt1.medya.trt.com.tr/master_480.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_480p.m3u8
+https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 
 #FREQUÊNCIA: Türksat 6A: 12111 V, SR 27500, FEC 3/4
 
@@ -550,7 +550,7 @@ https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0_480p
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://s6.hopslan.com/tlcX/index_480p.m3u8
+https://dogus-live.daioncdn.net/tlc/playlist.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12245 H, SR 27500, FEC 5/6
 
@@ -806,7 +806,7 @@ https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist_480p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
+https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 
 #FREQUÊNCIA: Türksat 4A: 12207 H, SR 27500, FEC 3/4
 
