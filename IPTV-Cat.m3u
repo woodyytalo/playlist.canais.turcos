@@ -17,7 +17,7 @@ https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
 #EXTVLCOPT:network-caching=6000
 https://trkvz-live.daioncdn.net/ahaber/ahaber.m3u8
 
-#EXTINF:-1 tvg-name="A Spor (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A-Spor-90983d0fe6.svg" group-title="ESPORTES",A Spor (1080p)
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A Spor (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/A-Spor-90983d0fe6.svg" group-title="ESPORTES",A Spor (1080p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -395,7 +395,7 @@ https://live.kanal7.com/live/kanal7LiveDesktop/index.m3u8
 #EXTVLCOPT:network-caching=6000
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Kanal D (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-D-c2076937fc.svg" group-title="ENTRETENIMENTO",Kanal D (1080p)
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="Kanal D (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Kanal-D-c2076937fc.svg" group-title="ENTRETENIMENTO",Kanal D (1080p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -527,7 +527,7 @@ https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTVLCOPT:network-caching=6000
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 
-#EXTINF:-1 tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NTV-696b247b98.svg" group-title="NOTÍCIAS",NTV
+#EXTINF:-1 tvg-id="NTV.tr" tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/NTV-696b247b98.svg" group-title="NOTÍCIAS",NTV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -683,7 +683,7 @@ https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/s
 #EXTVLCOPT:network-caching=6000
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 
-#EXTINF:-1 tvg-name="Star TV (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Star-TV-9a953173d0.svg" group-title="ENTRETENIMENTO",Star TV (720p)
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-name="Star TV (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Star-TV-9a953173d0.svg" group-title="ENTRETENIMENTO",Star TV (720p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -713,7 +713,7 @@ https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 #EXTVLCOPT:network-caching=6000
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
 
-#EXTINF:-1 tvg-name="TGRT Haber (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TGRT-Haber-289a30928d.svg" group-title="NOTÍCIAS",TGRT Haber (720p)
+#EXTINF:-1 tvg-id="TGRTHaber.tr" tvg-name="TGRT Haber (720p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TGRT-Haber-289a30928d.svg" group-title="NOTÍCIAS",TGRT Haber (720p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -725,7 +725,7 @@ https://canli.tgrthaber.com/tgrt.m3u8
 #EXTVLCOPT:network-caching=6000
 https://tjktv-live.tjk.org/tjktv.m3u8
 
-#EXTINF:-1 tvg-name="TRT Müzik" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-M-zik-279ada7c87.svg" group-title="MÚSICA",TRT Müzik
+#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-name="TRT Müzik" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-M-zik-279ada7c87.svg" group-title="MÚSICA",TRT Müzik
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
