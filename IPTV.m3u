@@ -1,23 +1,23 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-tr.xml" x-tvg-url="https://iptv-epg.org/files/epg-tr.xml"
-#EXTINF:-1 group-title="NOTÍCIAS",001 - 24 TV
+#EXTINF:-1 tvg-id="24TV.tr" group-title="NOTÍCIAS",001 - 24 TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",002 - 24 TV (backup)
+#EXTINF:-1 tvg-id="24TV.tr" group-title="NOTÍCIAS",002 - 24 TV (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
-#EXTINF:-1 group-title="ENTRETENIMENTO",003 - 360
+#EXTINF:-1 tvg-id="360.tr" group-title="ENTRETENIMENTO",003 - 360
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",004 - A Haber
+#EXTINF:-1 tvg-id="AHaber.tr" group-title="NOTÍCIAS",004 - A Haber
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -29,7 +29,7 @@ https://trkvz-live.daioncdn.net/ahaber/ahaber.m3u8
 #EXTVLCOPT:network-caching=6000
 https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 
-#EXTINF:-1 group-title="ENTRETENIMENTO",006 - A2TV
+#EXTINF:-1 tvg-id="A2TV.tr" group-title="ENTRETENIMENTO",006 - A2TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -77,25 +77,25 @@ https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u
 #EXTVLCOPT:network-caching=6000
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",014 - AS TV
+#EXTINF:-1 tvg-id="ASTV.tr" group-title="REGIONAIS",014 - AS TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",015 - AS TV (backup)
+#EXTINF:-1 tvg-id="ASTV.tr" group-title="REGIONAIS",015 - AS TV (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8
 
-#EXTINF:-1 group-title="ENTRETENIMENTO",016 - ATV
+#EXTINF:-1 tvg-id="ATV.tr" group-title="ENTRETENIMENTO",016 - ATV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://trkvz-live.daioncdn.net/atv/atv.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",017 - ATV (360p)
+#EXTINF:-1 tvg-id="ATV.tr" group-title="REGIONAIS",017 - ATV (360p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -203,19 +203,19 @@ https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavo
 #EXTVLCOPT:network-caching=6000
 http://57.129.0.61:1990/stream/117/index.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",035 - Benguturk TV
+#EXTINF:-1 tvg-id="BenguturkTV.tr" group-title="NOTÍCIAS",035 - Benguturk TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 http://185.234.111.229:8000/play/a05u
 
-#EXTINF:-1 group-title="NOTÍCIAS",036 - Benguturk TV (backup)
+#EXTINF:-1 tvg-id="BenguturkTV.tr" group-title="NOTÍCIAS",036 - Benguturk TV (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://tv.ensonhaber.com/benguturk/benguturk.m3u8
 
-#EXTINF:-1 group-title="ENTRETENIMENTO",037 - Beyaz TV
+#EXTINF:-1 tvg-id="BeyazTV.tr" group-title="ENTRETENIMENTO",037 - Beyaz TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -227,25 +227,25 @@ https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTVLCOPT:network-caching=6000
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",039 - Bloomberg HT
+#EXTINF:-1 tvg-id="BloombergHT.tr" group-title="NOTÍCIAS",039 - Bloomberg HT
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",040 - Bloomberg HT (backup 1)
+#EXTINF:-1 tvg-id="BloombergHT.tr" group-title="NOTÍCIAS",040 - Bloomberg HT (backup 1)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 http://193.123.61.120:3000/kanal/bloomberght
 
-#EXTINF:-1 group-title="NOTÍCIAS",041 - Bloomberg HT (backup 2)
+#EXTINF:-1 tvg-id="BloombergHT.tr" group-title="NOTÍCIAS",041 - Bloomberg HT (backup 2)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",042 - Bloomberg HT (backup 3)
+#EXTINF:-1 tvg-id="BloombergHT.tr" group-title="NOTÍCIAS",042 - Bloomberg HT (backup 3)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -269,7 +269,7 @@ https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://win1.yayin.com.tr/bursatv/bursatv/playlist.m3u8
 
-#EXTINF:-1 group-title="INFANTIS",046 - Cartoon Network
+#EXTINF:-1 tvg-id="CartoonNetwork.tr" group-title="INFANTIS",046 - Cartoon Network
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -293,7 +293,7 @@ https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlis
 #EXTVLCOPT:network-caching=6000
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/chasse_et_peche/live.livx/playlist.m3u8
 
-#EXTINF:-1 group-title="ESTILO DE VIDA",050 - Ciftci TV
+#EXTINF:-1 tvg-id="CiftciTV.tr" group-title="ESTILO DE VIDA",050 - Ciftci TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -311,7 +311,7 @@ https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 #EXTVLCOPT:network-caching=6000
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",053 - CNN Turk
+#EXTINF:-1 tvg-id="CNNTurk.tr" group-title="NOTÍCIAS",053 - CNN Turk
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -335,13 +335,13 @@ https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 http://37.49.224.5/stream/9/index.m3u8
 
-#EXTINF:-1 group-title="INFANTIS",057 - Disney Jr.
+#EXTINF:-1 tvg-id="DisneyJr.tr" group-title="INFANTIS",057 - Disney Jr.
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://saran-live.ercdn.net/disneyjunior/index.m3u8
 
-#EXTINF:-1 group-title="RELIGIOSOS",058 - Diyanet TV
+#EXTINF:-1 tvg-id="DiyanetTV.tr" group-title="RELIGIOSOS",058 - Diyanet TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -359,7 +359,7 @@ https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://dost.stream.emsal.im/tv/live.m3u8
 
-#EXTINF:-1 group-title="MÚSICA",061 - Dream Turk
+#EXTINF:-1 tvg-id="DreamTurk.tr" group-title="MÚSICA",061 - Dream Turk
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -371,7 +371,7 @@ https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://canli.edessatv.com/hls/stream.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",063 - Ekoturk
+#EXTINF:-1 tvg-id="Ekoturk.tr" group-title="NOTÍCIAS",063 - Ekoturk
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -575,7 +575,7 @@ https://andro.mangeinde4.lat/checklist/androstreamlivees2.m3u8
 #EXTVLCOPT:network-caching=6000
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8
 
-#EXTINF:-1 group-title="ESPORTES",097 - FB TV
+#EXTINF:-1 tvg-id="FBTV.tr" group-title="ESPORTES",097 - FB TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -593,7 +593,7 @@ https://yayin30.haber100.com/live/finansturk/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://media.finest.tv/hls/live.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",100 - Flash Haber TV
+#EXTINF:-1 tvg-id="FlashHaberTV.tr" group-title="NOTÍCIAS",100 - Flash Haber TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -611,7 +611,7 @@ https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
 
-#EXTINF:-1 group-title="FILMES E SÉRIES",103 - FX
+#EXTINF:-1 tvg-id="FX.tr" group-title="FILMES E SÉRIES",103 - FX
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -623,13 +623,13 @@ https://saran-live.ercdn.net/fx/index.m3u8
 #EXTVLCOPT:network-caching=6000
 https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",105 - GZT
+#EXTINF:-1 tvg-id="GZT.tr" group-title="NOTÍCIAS",105 - GZT
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",106 - Haber Global
+#EXTINF:-1 tvg-id="HaberGlobal.tr" group-title="NOTÍCIAS",106 - Haber Global
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -647,19 +647,19 @@ https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
 #EXTVLCOPT:network-caching=6000
 https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",109 - Haberturk TV
+#EXTINF:-1 tvg-id="HaberturkTV.tr" group-title="NOTÍCIAS",109 - Haberturk TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",110 - Halk TV
+#EXTINF:-1 tvg-id="HalkTV.tr" group-title="NOTÍCIAS",110 - Halk TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://halktv-live.ercdn.net/halktv/halktv.m3u8
 
-#EXTINF:-1 group-title="ESPORTES",111 - HTSpor TV
+#EXTINF:-1 tvg-id="HTSporTV.tr" group-title="ESPORTES",111 - HTSpor TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -707,19 +707,19 @@ https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",119 - Kanal 23
+#EXTINF:-1 tvg-id="Kanal23.tr" group-title="REGIONAIS",119 - Kanal 23
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",120 - Kanal 23 (backup)
+#EXTINF:-1 tvg-id="Kanal23.tr" group-title="REGIONAIS",120 - Kanal 23 (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",121 - Kanal 26
+#EXTINF:-1 tvg-id="Kanal26.tr" group-title="REGIONAIS",121 - Kanal 26
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -755,7 +755,7 @@ https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",127 - Kanal 33
+#EXTINF:-1 tvg-id="Kanal33.tr" group-title="REGIONAIS",127 - Kanal 33
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -773,13 +773,13 @@ https://vdo.digitalbox.xyz:3266/live/kanal34tvlive.m3u8
 #EXTVLCOPT:network-caching=6000
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
 
-#EXTINF:-1 group-title="ENTRETENIMENTO",130 - Kanal 7
+#EXTINF:-1 tvg-id="Kanal7.tr" group-title="ENTRETENIMENTO",130 - Kanal 7
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://live.kanal7.com/live/kanal7LiveDesktop/index.m3u8
 
-#EXTINF:-1 group-title="ENTRETENIMENTO",131 - Kanal 7 (backup)
+#EXTINF:-1 tvg-id="Kanal7.tr" group-title="ENTRETENIMENTO",131 - Kanal 7 (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -833,7 +833,7 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 #EXTVLCOPT:network-caching=6000
 https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",140 - Kanal V
+#EXTINF:-1 tvg-id="KanalV.tr" group-title="REGIONAIS",140 - Kanal V
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -875,7 +875,7 @@ https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m
 #EXTVLCOPT:network-caching=6000
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",147 - KRT
+#EXTINF:-1 tvg-id="KRT.tr" group-title="NOTÍCIAS",147 - KRT
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1001,7 +1001,7 @@ https://h125.artiyerelmedya.net/mavikaradeniz/bant1/chunks.m3u8
 #EXTVLCOPT:network-caching=6000
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
 
-#EXTINF:-1 group-title="RELIGIOSOS",168 - Meltem TV
+#EXTINF:-1 tvg-id="MeltemTV.tr" group-title="RELIGIOSOS",168 - Meltem TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1013,25 +1013,25 @@ https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 
-#EXTINF:-1 group-title="INFANTIS",170 - Minika Cocuk
+#EXTINF:-1 tvg-id="MinikaCocuk.tr" group-title="INFANTIS",170 - Minika Cocuk
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 
-#EXTINF:-1 group-title="INFANTIS",171 - Minika Cocuk (backup)
+#EXTINF:-1 tvg-id="MinikaCocuk.tr" group-title="INFANTIS",171 - Minika Cocuk (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 
-#EXTINF:-1 group-title="INFANTIS",172 - Minika Go
+#EXTINF:-1 tvg-id="MinikaGo.tr" group-title="INFANTIS",172 - Minika Go
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 
-#EXTINF:-1 group-title="INFANTIS",173 - Minika Go (backup)
+#EXTINF:-1 tvg-id="MinikaGo.tr" group-title="INFANTIS",173 - Minika Go (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1061,31 +1061,31 @@ https://r.eu.cdn-redge.media/livehls/oeu/mt/live/myzen_tv/live.livx/playlist.m3u
 #EXTVLCOPT:network-caching=6000
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungit/playlist.m3u8
 
-#EXTINF:-1 group-title="DOCUMENTÁRIOS",178 - National Geographic
+#EXTINF:-1 tvg-id="NationalGeographic.tr" group-title="DOCUMENTÁRIOS",178 - National Geographic
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://nord.ayakkabiparti.lol/natgeo/index.m3u8
 
-#EXTINF:-1 group-title="DOCUMENTÁRIOS",179 - National Geographic (backup)
+#EXTINF:-1 tvg-id="NationalGeographic.tr" group-title="DOCUMENTÁRIOS",179 - National Geographic (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://saran-live.ercdn.net/natgeohd/index.m3u8
 
-#EXTINF:-1 group-title="DOCUMENTÁRIOS",180 - National Geographic Wild
+#EXTINF:-1 tvg-id="NationalGeographicWild.tr" group-title="DOCUMENTÁRIOS",180 - National Geographic Wild
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
 
-#EXTINF:-1 group-title="DOCUMENTÁRIOS",181 - National Geographic Wild (backup)
+#EXTINF:-1 tvg-id="NationalGeographicWild.tr" group-title="DOCUMENTÁRIOS",181 - National Geographic Wild (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://saran-live.ercdn.net/natgeowild/index.m3u8
 
-#EXTINF:-1 group-title="ENTRETENIMENTO",182 - NOW
+#EXTINF:-1 tvg-id="NOW.tr" group-title="ENTRETENIMENTO",182 - NOW
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1103,7 +1103,7 @@ https://dogus-live.daioncdn.net/ntv/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
 
-#EXTINF:-1 group-title="MÚSICA",185 - Number 1 Damar
+#EXTINF:-1 tvg-id="Number1Damar.tr" group-title="MÚSICA",185 - Number 1 Damar
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1115,13 +1115,13 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198
 #EXTVLCOPT:network-caching=6000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
 
-#EXTINF:-1 group-title="MÚSICA",187 - Number 1 TV
+#EXTINF:-1 tvg-id="Number1TV.tr" group-title="MÚSICA",187 - Number 1 TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="MÚSICA",188 - Number 1 TV (backup)
+#EXTINF:-1 tvg-id="Number1TV.tr" group-title="MÚSICA",188 - Number 1 TV (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1157,13 +1157,13 @@ https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",194 - Power TV
+#EXTINF:-1 tvg-id="PowerTV.tr" group-title="REGIONAIS",194 - Power TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",195 - Power TV (backup)
+#EXTINF:-1 tvg-id="PowerTV.tr" group-title="REGIONAIS",195 - Power TV (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1187,25 +1187,25 @@ https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="MÚSICA",199 - PowerTurk TV
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="MÚSICA",199 - PowerTurk TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="MÚSICA",200 - PowerTurk TV (backup 1)
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="MÚSICA",200 - PowerTurk TV (backup 1)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="MÚSICA",201 - PowerTurk TV (backup 2)
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="MÚSICA",201 - PowerTurk TV (backup 2)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="MÚSICA",202 - PowerTurk TV (backup 3)
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" group-title="MÚSICA",202 - PowerTurk TV (backup 3)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1235,7 +1235,7 @@ http://31.148.48.15/RTG_HD/index.m3u8
 #EXTVLCOPT:network-caching=6000
 http://31.148.48.15/RTG/index.m3u8
 
-#EXTINF:-1 group-title="ESPORTES",207 - S Sport 2
+#EXTINF:-1 tvg-id="SSport2.tr" group-title="ESPORTES",207 - S Sport 2
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1265,7 +1265,7 @@ https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/science_et_vie/live.livx/playlist.m3u8
 
-#EXTINF:-1 group-title="RELIGIOSOS",212 - Semerkand TV
+#EXTINF:-1 tvg-id="SemerkandTV.tr" group-title="RELIGIOSOS",212 - Semerkand TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1283,13 +1283,13 @@ https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 #EXTVLCOPT:network-caching=6000
 https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",215 - Sozcu TV
+#EXTINF:-1 tvg-id="SozcuTV.tr" group-title="NOTÍCIAS",215 - Sozcu TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8
 
-#EXTINF:-1 group-title="INFANTIS",216 - Spacetoon Turkey
+#EXTINF:-1 tvg-id="SpacetoonTurkey.tr" group-title="INFANTIS",216 - Spacetoon Turkey
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1337,7 +1337,7 @@ https://tr.socialsmart.tv/suntv/bant1/chunks.m3u8
 #EXTVLCOPT:network-caching=6000
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
 
-#EXTINF:-1 group-title="NOTÍCIAS",224 - Tele 1
+#EXTINF:-1 tvg-id="Tele1.tr" group-title="NOTÍCIAS",224 - Tele 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1367,7 +1367,7 @@ https://canli.tgrthaber.com/tgrt.m3u8
 #EXTVLCOPT:network-caching=6000
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",229 - Tivi 6
+#EXTINF:-1 tvg-id="Tivi6.tr" group-title="REGIONAIS",229 - Tivi 6
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1397,25 +1397,25 @@ https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",234 - TRT 2
+#EXTINF:-1 tvg-id="TRT2.tr" group-title="REGIONAIS",234 - TRT 2
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://tv-trt2.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",235 - TRT 3
+#EXTINF:-1 tvg-id="TRT3.tr" group-title="REGIONAIS",235 - TRT 3
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F418740351278f04c94b243
 
-#EXTINF:-1 group-title="REGIONAIS",236 - TRT 3 (backup)
+#EXTINF:-1 tvg-id="TRT3.tr" group-title="REGIONAIS",236 - TRT 3 (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
 https://tv-trt3.live.trt.com.tr/master.m3u8
 
-#EXTINF:-1 group-title="INTERNACIONAIS",237 - TRT Arabi
+#EXTINF:-1 tvg-id="TRTArabi.tr" group-title="INTERNACIONAIS",237 - TRT Arabi
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1427,7 +1427,7 @@ https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTVLCOPT:network-caching=6000
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 group-title="DOCUMENTÁRIOS",239 - TRT Belgesel
+#EXTINF:-1 tvg-id="TRTBelgesel.tr" group-title="DOCUMENTÁRIOS",239 - TRT Belgesel
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -1439,7 +1439,7 @@ https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTVLCOPT:network-caching=6000
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 group-title="INFANTIS",241 - TRT Diyanet Cocuk
+#EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr" group-title="INFANTIS",241 - TRT Diyanet Cocuk
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
