@@ -7678,7 +7678,7 @@ https://vavoo.to/vavoo-iptv/play/375599442073736b876622
 #EXTINF:-1 tvg-chno="1534" tvg-logo="https://www.lyngsat.com/logo/tv/mm/m2o_it_tv.png" group-title="M2O TV DJ STATION", 1534 - M2O TV DJ STATION
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://streamcdnb2-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b2428000.m3u8
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="1535" tvg-name="MADINAH TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/184-MADINAH-TV-7d10e449b9.png" group-title="MADINAH TV", 1535 - MADINAH TV
 #EXTVLCOPT:adaptive-maxheight=360
