@@ -1,78 +1,678 @@
 #EXTM3U
-# Compilado de canais de todas as playlists publicas identificadas nos repositorios de origem.
-# Fontes: iptv-org/iptv streams/tr.m3u; itasli/TURKTV index.m3u; ztps/iptv playlist.m3u; canais adicionais da compilacao anterior.
-# Categorias e canais em ordem alfabetica; duplicatas de nomes consolidadas.
-# Excluidos VOD, imagens, URLs com credenciais/tokens e manifestos temporarios assinados.
+# Compilado ampliado de canais turcos de playlists publicas do GitHub.
+# Fontes: versao anterior; iptv-turk-tr/iptv; kodlama155-ctrl/tv; GithubSMK/TV-lists; omerdenizhan/IPTV-M3U.
+# Nomes dos canais preservados/normalizados; categorias e canais em ordem alfabetica.
+# Excluidos URLs com credenciais ou tokens aparentes e entradas de radio/VOD.
 
+# Documentários (34)
+#EXTINF:-1 tvg-name="24 KITCHEN" group-title="Documentários",24 KITCHEN
+https://kool.ws/vavoo-iptv/play/329569928726734a4497dc
+#EXTINF:-1 tvg-name="ANIMAL PLANET" group-title="Documentários",ANIMAL PLANET
+https://kool.ws/vavoo-iptv/play/3913298991ebe0634b3649
 #EXTINF:-1 tvg-name="BLUTV BELGESEL" group-title="Documentários",BLUTV BELGESEL
 https://d1grcygon2cylc.cloudfront.net/out/v1/39e430e8c1ce4a8d8176c7be8c743529/index.m3u8
+#EXTINF:-1 tvg-name="CGTN Documentary" group-title="Documentários",CGTN Documentary
+https://mn-nl.mncdn.com/dogusdyg_drone/cgtn/playlist.m3u8
+#EXTINF:-1 tvg-name="DA VINCI" group-title="Documentários",DA VINCI
+https://kool.ws/vavoo-iptv/play/41034540643b582da308f
+#EXTINF:-1 tvg-name="DISCOVERY CHANNEL" group-title="Documentários",DISCOVERY CHANNEL
+https://kool.ws/vavoo-iptv/play/4017734592f45fd8456678
+#EXTINF:-1 tvg-name="DISCOVERY ID" group-title="Documentários",DISCOVERY ID
+https://kool.ws/vavoo-iptv/play/20954040600611bde9e160
+#EXTINF:-1 tvg-name="DISCOVERY IDX" group-title="Documentários",DISCOVERY IDX
+https://kool.ws/vavoo-iptv/play/9700986623c97a7651f69
+#EXTINF:-1 tvg-name="DISCOVERY SCIENCE" group-title="Documentários",DISCOVERY SCIENCE
+https://kool.ws/vavoo-iptv/play/10132204470a3c3b52576d
+#EXTINF:-1 tvg-name="DISCOVERY WORLD" group-title="Documentários",DISCOVERY WORLD
+https://kool.ws/vavoo-iptv/play/3624002307d3a1f474d7ce
 #EXTINF:-1 tvg-id="DMAX" tvg-name="DMAX" group-title="Documentários",DMAX
 https://mn-nl.mncdn.com/blutv_dmax_dvr/live_720p2000000/index.m3u8
+#EXTINF:-1 tvg-name="DMAX HEVC" group-title="Documentários",DMAX HEVC
+https://kool.ws/vavoo-iptv/play/3928493138c10993284095
+#EXTINF:-1 tvg-name="DOCUBOX" group-title="Documentários",DOCUBOX
+https://kool.ws/vavoo-iptv/play/26690245101fd09556fb3d
+#EXTINF:-1 tvg-name="HISTORY" group-title="Documentários",HISTORY
+https://kool.ws/vavoo-iptv/play/420748756258a17d4693fc
 #EXTINF:-1 tvg-name="INVESTIGATION DISCOVERY" group-title="Documentários",INVESTIGATION DISCOVERY
 https://dnx8nkmlprapr.cloudfront.net/out/v1/c9e1c183395d4d29a9fa34ecdef4163b/master.m3u8
+#EXTINF:-1 tvg-name="Love Nature" group-title="Documentários",Love Nature
+https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
+#EXTINF:-1 tvg-name="NAT GEO WILD" group-title="Documentários",NAT GEO WILD
+https://kool.ws/vavoo-iptv/play/332065496847e1d2ff5743
+#EXTINF:-1 tvg-name="NATIONAL GEOGRAPHIC" group-title="Documentários",NATIONAL GEOGRAPHIC
+https://kool.ws/vavoo-iptv/play/10783553250ea885deefe4
+#EXTINF:-1 tvg-name="National Geographic" group-title="Documentários",National Geographic
+https://saran-live.ercdn.net/natgeohd/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" tvg-name="National Geographic Wild" group-title="Documentários",National Geographic Wild
 https://saran-live.ercdn.net/natgeowild/index.m3u8
+#EXTINF:-1 tvg-name="NUMBER ONE FM YABANCI M ZIK BURDA" group-title="Documentários",NUMBER ONE FM YABANCI M ZIK BURDA
+https://kool.ws/vavoo-iptv/play/3916966300e4e588958124
+#EXTINF:-1 tvg-name="PAL STATION YABANCI M ZIK" group-title="Documentários",PAL STATION YABANCI M ZIK
+https://kool.ws/vavoo-iptv/play/42015485361f438f2db763
+#EXTINF:-1 tvg-name="Tarim TV" group-title="Documentários",Tarim TV
+https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/master.m3u8
 #EXTINF:-1 tvg-id="TGRT Belgesel" tvg-name="TGRT Belgesel" group-title="Documentários",TGRT Belgesel
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/chunklist_b600000.m3u8
 #EXTINF:-1 tvg-id="TGRTBelgesel.tr@SD" tvg-name="TGRT Belgesel TV" group-title="Documentários",TGRT Belgesel TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TLC" tvg-name="TLC" group-title="Documentários",TLC
 https://mn-nl.mncdn.com/blutv_tlc_dvr/live_720p2000000/index.m3u8
+#EXTINF:-1 tvg-name="TLC TV" group-title="Documentários",TLC TV
+https://kool.ws/vavoo-iptv/play/328164178659cf433d3442
 #EXTINF:-1 tvg-id="TRTBelgesel.tr@SD" tvg-name="TRT Belgesel" group-title="Documentários",TRT Belgesel
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT BELGESEL HEVC" group-title="Documentários",TRT BELGESEL HEVC
+https://kool.ws/vavoo-iptv/play/33409970269ccb83ea274e
+#EXTINF:-1 tvg-name="TRT BELGESEL RAW" group-title="Documentários",TRT BELGESEL RAW
+https://kool.ws/vavoo-iptv/play/8368266978a2a0a7326d3
+#EXTINF:-1 tvg-name="VIASAT EXPLORE" group-title="Documentários",VIASAT EXPLORE
+https://kool.ws/vavoo-iptv/play/1451950581e94c106d97f3
+#EXTINF:-1 tvg-name="VIASAT HISTORY HEVC" group-title="Documentários",VIASAT HISTORY HEVC
+https://kool.ws/vavoo-iptv/play/1165670263945583e36e19
 #EXTINF:-1 tvg-id="ViasatHistory.tr@SD" tvg-name="Viasat History" group-title="Documentários",Viasat History
 https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
+#EXTINF:-1 tvg-name="YABAN" group-title="Documentários",YABAN
+https://kool.ws/vavoo-iptv/play/3338159581a989d003ec5a
 
+# Entretenimento (361)
+#EXTINF:-1 tvg-name="24" group-title="Entretenimento",24
+https://kool.ws/vavoo-iptv/play/19981681222fca08eb4e83
+#EXTINF:-1 tvg-name="24 RAW" group-title="Entretenimento",24 RAW
+https://kool.ws/vavoo-iptv/play/536029186d3e964e7e9db
+#EXTINF:-1 tvg-name="360" group-title="Entretenimento",360
+https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+#EXTINF:-1 tvg-name="360 RAW" group-title="Entretenimento",360 RAW
+https://kool.ws/vavoo-iptv/play/17026451919e48523c30db
+#EXTINF:-1 tvg-name="64 KARE ULKESI" group-title="Entretenimento",64 KARE ULKESI
+https://kool.ws/vavoo-iptv/play/384200326272e556e601b9
+#EXTINF:-1 tvg-name="A2" group-title="Entretenimento",A2
+https://kool.ws/vavoo-iptv/play/201905527745e40d41f657
+#EXTINF:-1 tvg-name="A2 HEVC" group-title="Entretenimento",A2 HEVC
+https://kool.ws/vavoo-iptv/play/128957614556bfb7e20bde
+#EXTINF:-1 tvg-name="A2 RAW" group-title="Entretenimento",A2 RAW
+https://kool.ws/vavoo-iptv/play/19057497795e890277f212
+#EXTINF:-1 tvg-name="A2 TV" group-title="Entretenimento",A2 TV
+https://kool.ws/vavoo-iptv/play/1835847966e01d08f3ea1f
+#EXTINF:-1 tvg-name="AGRO TV" group-title="Entretenimento",AGRO TV
+https://kool.ws/vavoo-iptv/play/163358782054d9002fa0b0
+#EXTINF:-1 tvg-name="AHMET KAYA" group-title="Entretenimento",AHMET KAYA
+https://kool.ws/vavoo-iptv/play/29298467541e1d36e1991
+#EXTINF:-1 tvg-name="ANADOLU DERNEK TV" group-title="Entretenimento",ANADOLU DERNEK TV
+https://kool.ws/vavoo-iptv/play/4274827801d7c79d4e1a26
+#EXTINF:-1 tvg-name="ANADOLU TV" group-title="Entretenimento",ANADOLU TV
+https://kool.ws/vavoo-iptv/play/1917558455120761543969
+#EXTINF:-1 tvg-name="ANAKKALE BOĞAZ TV" group-title="Entretenimento",ANAKKALE BOĞAZ TV
+https://kool.ws/vavoo-iptv/play/1943578223ce7cc4b1c284
+#EXTINF:-1 tvg-name="ANAKKALE TON TV" group-title="Entretenimento",ANAKKALE TON TV
+https://kool.ws/vavoo-iptv/play/4250561695aeafaa1af43b
+#EXTINF:-1 tvg-name="ANGRY BIRDS" group-title="Entretenimento",ANGRY BIRDS
+https://kool.ws/vavoo-iptv/play/40635964179eb6e60f85f9
+#EXTINF:-1 tvg-name="ANIMATION 1" group-title="Entretenimento",ANIMATION 1
+https://kool.ws/vavoo-iptv/play/7274274379cbbe0c37b06
+#EXTINF:-1 tvg-name="ANIMAUX" group-title="Entretenimento",ANIMAUX
+https://kool.ws/vavoo-iptv/play/2103702130b5451883e2a7
+#EXTINF:-1 tvg-name="ANLIURFA KANAL URFA" group-title="Entretenimento",ANLIURFA KANAL URFA
+https://kool.ws/vavoo-iptv/play/7548683513f8b3f808009
+#EXTINF:-1 tvg-name="APARA" group-title="Entretenimento",APARA
+https://kool.ws/vavoo-iptv/play/9314064096e814315889b
+#EXTINF:-1 tvg-name="ARKADAG" group-title="Entretenimento",ARKADAG
+https://kool.ws/vavoo-iptv/play/3293739828abfaa3f52b7a
+#EXTINF:-1 tvg-name="ATV Alanya" group-title="Entretenimento",ATV Alanya
+http://stream2.taksimbilisim.com:1935/alanyatv/alanyatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" tvg-name="ATV Avrupa" group-title="Entretenimento",ATV Avrupa
 https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
+#EXTINF:-1 tvg-name="ATV Avrupa" group-title="Entretenimento",ATV Avrupa
+https://streamer2.nexgen.bz/ATV/index.m3u8
+#EXTINF:-1 tvg-name="ATV EUROPA" group-title="Entretenimento",ATV EUROPA
+https://kool.ws/vavoo-iptv/play/9008513956c6b4eb4e05
+#EXTINF:-1 tvg-name="ATV HD (H265)" group-title="Entretenimento",ATV HD (H265)
+https://kool.ws/vavoo-iptv/play/129909794290450d5e2d1
+#EXTINF:-1 tvg-name="ATV HEVC" group-title="Entretenimento",ATV HEVC
+https://kool.ws/vavoo-iptv/play/35111504916c34560a3894
+#EXTINF:-1 tvg-name="ATV RAW" group-title="Entretenimento",ATV RAW
+https://kool.ws/vavoo-iptv/play/962169494c61eb5a2ee2f
+#EXTINF:-1 tvg-name="BAHA" group-title="Entretenimento",BAHA
+https://kool.ws/vavoo-iptv/play/10449476678873dec140d6
+#EXTINF:-1 tvg-name="BARBAROS TV" group-title="Entretenimento",BARBAROS TV
+https://kool.ws/vavoo-iptv/play/1519411021283d08ac01c6
+#EXTINF:-1 tvg-name="BARBIE ANIMATION 2" group-title="Entretenimento",BARBIE ANIMATION 2
+https://kool.ws/vavoo-iptv/play/280573123054a8c61dd62
+#EXTINF:-1 tvg-name="BBC EARTH" group-title="Entretenimento",BBC EARTH
+https://kool.ws/vavoo-iptv/play/2618455562938e9a0e0faf
+#EXTINF:-1 tvg-name="BEIN 1" group-title="Entretenimento",BEIN 1
+https://kool.ws/vavoo-iptv/play/3692337241ec1b0872b06e
+#EXTINF:-1 tvg-name="BEIN 1 FEED" group-title="Entretenimento",BEIN 1 FEED
+https://kool.ws/vavoo-iptv/play/1363827223a1c98515d612
+#EXTINF:-1 tvg-name="BEIN BOX OFFICE 1" group-title="Entretenimento",BEIN BOX OFFICE 1
+https://kool.ws/vavoo-iptv/play/29307461023dd1f85985b0
+#EXTINF:-1 tvg-name="BEIN BOX OFFICE 2" group-title="Entretenimento",BEIN BOX OFFICE 2
+https://kool.ws/vavoo-iptv/play/391012970274e1f1b46029
+#EXTINF:-1 tvg-name="BEIN GURME" group-title="Entretenimento",BEIN GURME
+https://kool.ws/vavoo-iptv/play/361703541447c2d8cea904
+#EXTINF:-1 tvg-name="BEIN IZ" group-title="Entretenimento",BEIN IZ
+https://kool.ws/vavoo-iptv/play/16912230784a73b11d66ed
+#EXTINF:-1 tvg-name="BEIN SPOTS1" group-title="Entretenimento",BEIN SPOTS1
+https://kool.ws/vavoo-iptv/play/143239535a2e3c23c1d16
+#EXTINF:-1 tvg-name="BEN 10 TV" group-title="Entretenimento",BEN 10 TV
+https://kool.ws/vavoo-iptv/play/3270480503ae6e3f607164
+#EXTINF:-1 tvg-name="BENGÜTÜRK TV" group-title="Entretenimento",BENGÜTÜRK TV
+https://tv.ensonhaber.com/benguturk/benguturk.m3u8
+#EXTINF:-1 tvg-name="Berat TV" group-title="Entretenimento",Berat TV
+https://cdn-berattv.yayin.com.tr/berattv/berattv/playlist.m3u8
+#EXTINF:-1 tvg-name="BEST AKSIYON" group-title="Entretenimento",BEST AKSIYON
+https://kool.ws/vavoo-iptv/play/40086029281eab28e64579
+#EXTINF:-1 tvg-name="BEST ANIMASYON" group-title="Entretenimento",BEST ANIMASYON
+https://kool.ws/vavoo-iptv/play/182242511854592ad20a83
+#EXTINF:-1 tvg-name="BEST BILIMKURGU" group-title="Entretenimento",BEST BILIMKURGU
+https://kool.ws/vavoo-iptv/play/1566323467670298603f5b
+#EXTINF:-1 tvg-name="BEST HABABAM SINIFI" group-title="Entretenimento",BEST HABABAM SINIFI
+https://kool.ws/vavoo-iptv/play/4228481876db7dd6acf5b
+#EXTINF:-1 tvg-name="BEST IMBD" group-title="Entretenimento",BEST IMBD
+https://kool.ws/vavoo-iptv/play/19675163050cdefd6160c5
+#EXTINF:-1 tvg-name="BEST KORKU" group-title="Entretenimento",BEST KORKU
+https://kool.ws/vavoo-iptv/play/2298271695faed3c96249f
+#EXTINF:-1 tvg-name="BEST LOCA 1" group-title="Entretenimento",BEST LOCA 1
+https://kool.ws/vavoo-iptv/play/1063857052f07e2eec0c52
+#EXTINF:-1 tvg-name="BEST LOCA 2" group-title="Entretenimento",BEST LOCA 2
+https://kool.ws/vavoo-iptv/play/20264594681bd1479ca3f0
+#EXTINF:-1 tvg-name="BEST LOCA 3" group-title="Entretenimento",BEST LOCA 3
+https://kool.ws/vavoo-iptv/play/116873446031ff5e217441
+#EXTINF:-1 tvg-name="BEST NETFLIX" group-title="Entretenimento",BEST NETFLIX
+https://kool.ws/vavoo-iptv/play/35317279904b909276b540
+#EXTINF:-1 tvg-name="BEST SAVAS" group-title="Entretenimento",BEST SAVAS
+https://kool.ws/vavoo-iptv/play/13586163859ba90852bd44
+#EXTINF:-1 tvg-name="BEST TURK" group-title="Entretenimento",BEST TURK
+https://kool.ws/vavoo-iptv/play/11961982805779396d2f21
+#EXTINF:-1 tvg-name="BEST WESTERN" group-title="Entretenimento",BEST WESTERN
+https://kool.ws/vavoo-iptv/play/1324126222234c1f7f8a74
+#EXTINF:-1 tvg-name="BEST YESILCAM" group-title="Entretenimento",BEST YESILCAM
+https://kool.ws/vavoo-iptv/play/36523472636e2b2a3ca9ec
+#EXTINF:-1 tvg-name="BEYAZ HD+" group-title="Entretenimento",BEYAZ HD+
+https://kool.ws/vavoo-iptv/play/1020985035552180fe7152
+#EXTINF:-1 tvg-name="BEYAZ TV HEVC" group-title="Entretenimento",BEYAZ TV HEVC
+https://kool.ws/vavoo-iptv/play/15107839012fa9f66fac00
+#EXTINF:-1 tvg-name="BEYAZ TV RAW" group-title="Entretenimento",BEYAZ TV RAW
+https://kool.ws/vavoo-iptv/play/34349646843bc2da28db11
+#EXTINF:-1 tvg-name="BILGILENDIRME" group-title="Entretenimento",BILGILENDIRME
+https://kool.ws/vavoo-iptv/play/2224047651b7df1fd1adc5
 #EXTINF:-1 tvg-id="BiKanal.tr@SD" tvg-name="Bi Kanal" group-title="Entretenimento",Bi Kanal
 https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
+#EXTINF:-1 tvg-name="Bizimev TV" group-title="Entretenimento",Bizimev TV
+https://mn-nl.mncdn.com/blutv_bizimev/bizimev_sd.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Bloomberg HT" group-title="Entretenimento",Bloomberg HT
+https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
+#EXTINF:-1 tvg-name="BOOBA TV" group-title="Entretenimento",BOOBA TV
+https://kool.ws/vavoo-iptv/play/2703864948c3ea529a2063
+#EXTINF:-1 tvg-name="BRT 1" group-title="Entretenimento",BRT 1
+https://kool.ws/vavoo-iptv/play/2793254316da8e310eaaf8
+#EXTINF:-1 tvg-name="BRT 1 RAW" group-title="Entretenimento",BRT 1 RAW
+https://kool.ws/vavoo-iptv/play/2667659514909fbe1801e3
+#EXTINF:-1 tvg-name="BRT 2" group-title="Entretenimento",BRT 2
+https://kool.ws/vavoo-iptv/play/37894122206a5d105c20d3
+#EXTINF:-1 tvg-name="BRT 2 RAW" group-title="Entretenimento",BRT 2 RAW
+https://kool.ws/vavoo-iptv/play/2794224703b2cc3f4b330e
+#EXTINF:-1 tvg-name="BULMACA KULESI" group-title="Entretenimento",BULMACA KULESI
+https://kool.ws/vavoo-iptv/play/910953672551cfa880ee0
+#EXTINF:-1 tvg-name="Bursa TV" group-title="Entretenimento",Bursa TV
+https://cdn-bursatv.yayin.com.tr/bursatv/bursatv/playlist.m3u8
+#EXTINF:-1 tvg-name="CAILLOU TV" group-title="Entretenimento",CAILLOU TV
+https://kool.ws/vavoo-iptv/play/24628387059d91397376ea
+#EXTINF:-1 tvg-name="Can TV" group-title="Entretenimento",Can TV
+http://canbroadcast.com:7000/canlican/tv.m3u8
+#EXTINF:-1 tvg-name="CBEEBIES" group-title="Entretenimento",CBEEBIES
+https://kool.ws/vavoo-iptv/play/267285118531e87b6ae01d
+#EXTINF:-1 tvg-name="CHICKY TV" group-title="Entretenimento",CHICKY TV
+https://kool.ws/vavoo-iptv/play/940839479e2753e3433f5
+#EXTINF:-1 tvg-name="CILGIN ORMAN TV" group-title="Entretenimento",CILGIN ORMAN TV
+https://kool.ws/vavoo-iptv/play/3892774129e556db3be974
+#EXTINF:-1 tvg-name="Çiftçi TV" group-title="Entretenimento",Çiftçi TV
+http://stream.taksimbilisim.com:1935/ciftcitv/smil:ciftcitv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="D Ğ N TV (GERMANY)" group-title="Entretenimento",D Ğ N TV (GERMANY)
+https://kool.ws/vavoo-iptv/play/2660902091c248c72d0cd6
+#EXTINF:-1 tvg-name="DENIZ POSTASI TV" group-title="Entretenimento",DENIZ POSTASI TV
+https://kool.ws/vavoo-iptv/play/183207521594fc65b3f956
+#EXTINF:-1 tvg-name="DINAMIK AKSIYON" group-title="Entretenimento",DINAMIK AKSIYON
+https://kool.ws/vavoo-iptv/play/2337350974aa27a20a6514
+#EXTINF:-1 tvg-name="DINAMIK ANIMASYON" group-title="Entretenimento",DINAMIK ANIMASYON
+https://kool.ws/vavoo-iptv/play/231764826926671978818a
+#EXTINF:-1 tvg-name="DINAMIK BILIMKURGU" group-title="Entretenimento",DINAMIK BILIMKURGU
+https://kool.ws/vavoo-iptv/play/8847660680807874b7aa4
+#EXTINF:-1 tvg-name="DINAMIK IMBD" group-title="Entretenimento",DINAMIK IMBD
+https://kool.ws/vavoo-iptv/play/541406431f598c1d4030c
+#EXTINF:-1 tvg-name="DINAMIK KORKU" group-title="Entretenimento",DINAMIK KORKU
+https://kool.ws/vavoo-iptv/play/4329132861bddbfa6bb96
+#EXTINF:-1 tvg-name="DINAMIK TURK" group-title="Entretenimento",DINAMIK TURK
+https://kool.ws/vavoo-iptv/play/306993094f3cd5715860a
+#EXTINF:-1 tvg-name="DINAMIK VIZYON" group-title="Entretenimento",DINAMIK VIZYON
+https://kool.ws/vavoo-iptv/play/3331045719b0c99b128adf
+#EXTINF:-1 tvg-name="DINAMIK WESTERN" group-title="Entretenimento",DINAMIK WESTERN
+https://kool.ws/vavoo-iptv/play/7269150727f343c6d0f13
+#EXTINF:-1 tvg-name="DİM TV" group-title="Entretenimento",DİM TV
+https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
+#EXTINF:-1 tvg-name="DORU TV" group-title="Entretenimento",DORU TV
+https://kool.ws/vavoo-iptv/play/999352745436d793f30dc
+#EXTINF:-1 tvg-name="DUCU BOX" group-title="Entretenimento",DUCU BOX
+https://kool.ws/vavoo-iptv/play/1107525733e42b6c7abd3
+#EXTINF:-1 tvg-name="EBA TV ILKOKUL" group-title="Entretenimento",EBA TV ILKOKUL
+https://kool.ws/vavoo-iptv/play/33161891950c14c113ca86
+#EXTINF:-1 tvg-name="EBA TV LISE" group-title="Entretenimento",EBA TV LISE
+https://kool.ws/vavoo-iptv/play/361456541062c1025d3d2b
+#EXTINF:-1 tvg-name="EBA TV ORTAOKUL" group-title="Entretenimento",EBA TV ORTAOKUL
+https://kool.ws/vavoo-iptv/play/375152762211b2a1adeae9
+#EXTINF:-1 tvg-name="EKIN T RK TV" group-title="Entretenimento",EKIN T RK TV
+https://kool.ws/vavoo-iptv/play/6574952728e780b291cc7
+#EXTINF:-1 tvg-name="EKIN TURK" group-title="Entretenimento",EKIN TURK
+https://kool.ws/vavoo-iptv/play/666401379556f17cdcc8c
+#EXTINF:-1 tvg-name="ELIF VE ARKADASLARI" group-title="Entretenimento",ELIF VE ARKADASLARI
+https://kool.ws/vavoo-iptv/play/3515455741a6f5d78304a1
+#EXTINF:-1 tvg-name="ELIFIN RUYASI" group-title="Entretenimento",ELIFIN RUYASI
+https://kool.ws/vavoo-iptv/play/399108163294dea6002810
+#EXTINF:-1 tvg-name="Elsharq TV" group-title="Entretenimento",Elsharq TV
+https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
+#EXTINF:-1 tvg-name="ERCIS TV" group-title="Entretenimento",ERCIS TV
+https://kool.ws/vavoo-iptv/play/29014575503efc1f62c0c9
+#EXTINF:-1 tvg-name="ERTV" group-title="Entretenimento",ERTV
+https://kool.ws/vavoo-iptv/play/221836468186fc17b1865
+#EXTINF:-1 tvg-name="ESK EH R KANAL 26" group-title="Entretenimento",ESK EH R KANAL 26
+https://kool.ws/vavoo-iptv/play/409014197869da0d767e2b
 #EXTINF:-1 tvg-id="EuroD.tr@SD" tvg-name="Euro D" group-title="Entretenimento",Euro D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+#EXTINF:-1 tvg-name="EURO STAR" group-title="Entretenimento",EURO STAR
+https://kool.ws/vavoo-iptv/play/1827094680ef16ad2f8b38
+#EXTINF:-1 tvg-name="EuroStar TV" group-title="Entretenimento",EuroStar TV
+https://canlitvulusal.xyz/live/eurostar/index.m3u8
+#EXTINF:-1 tvg-name="FASHION TV" group-title="Entretenimento",FASHION TV
+https://kool.ws/vavoo-iptv/play/348214914537ec7e902850
+#EXTINF:-1 tvg-name="Fashion One TV" group-title="Entretenimento",Fashion One TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
+#EXTINF:-1 tvg-name="FASIL NEVIZADE GECELERI" group-title="Entretenimento",FASIL NEVIZADE GECELERI
+https://kool.ws/vavoo-iptv/play/3597878428da15fa9fa57e
+#EXTINF:-1 tvg-name="FERDI TAYFUR" group-title="Entretenimento",FERDI TAYFUR
+https://kool.ws/vavoo-iptv/play/2308263834c742823cc4ac
+#EXTINF:-1 tvg-name="FINEST TV" group-title="Entretenimento",FINEST TV
+https://kool.ws/vavoo-iptv/play/2663765748ad351c6aadb3
+#EXTINF:-1 tvg-name="FLASH TV" group-title="Entretenimento",FLASH TV
+https://kool.ws/vavoo-iptv/play/268701784160a0471a069f
+#EXTINF:-1 tvg-name="FOX" group-title="Entretenimento",FOX
+https://kool.ws/vavoo-iptv/play/14539175875ea1ccde8ce
+#EXTINF:-1 tvg-name="FOX CRIME HEVC" group-title="Entretenimento",FOX CRIME HEVC
+https://kool.ws/vavoo-iptv/play/31503810386e1be804a835
+#EXTINF:-1 tvg-name="GABBY" group-title="Entretenimento",GABBY
+https://kool.ws/vavoo-iptv/play/120360101317419d96022b
+#EXTINF:-1 tvg-name="GIZEMLER DIYARI" group-title="Entretenimento",GIZEMLER DIYARI
+https://kool.ws/vavoo-iptv/play/137618031334f1d315d6c4
+#EXTINF:-1 tvg-name="GLOBAL BOX COMEDY" group-title="Entretenimento",GLOBAL BOX COMEDY
+https://kool.ws/vavoo-iptv/play/18280597356594959726c2
+#EXTINF:-1 tvg-name="GLOBAL BOX FANTASTIC" group-title="Entretenimento",GLOBAL BOX FANTASTIC
+https://kool.ws/vavoo-iptv/play/155746504623fb5cc3759d
+#EXTINF:-1 tvg-name="GLOBAL BOX KEMAL SUNAL" group-title="Entretenimento",GLOBAL BOX KEMAL SUNAL
+https://kool.ws/vavoo-iptv/play/4275446197442fb43a2e5e
+#EXTINF:-1 tvg-name="GLOBAL BOX KORKU" group-title="Entretenimento",GLOBAL BOX KORKU
+https://kool.ws/vavoo-iptv/play/562681030e6f16337d442
+#EXTINF:-1 tvg-name="GLOBAL BOX VIZYON" group-title="Entretenimento",GLOBAL BOX VIZYON
+https://kool.ws/vavoo-iptv/play/29601128085573d4f48ee8
+#EXTINF:-1 tvg-name="GLOBAL BOX YE IL AM" group-title="Entretenimento",GLOBAL BOX YE IL AM
+https://kool.ws/vavoo-iptv/play/2046943434abdeefd99cc9
+#EXTINF:-1 tvg-name="GLOBAL BOX YERLI" group-title="Entretenimento",GLOBAL BOX YERLI
+https://kool.ws/vavoo-iptv/play/23222622101ba7812517d7
+#EXTINF:-1 tvg-name="Gonca TV" group-title="Entretenimento",Gonca TV
+https://edge1.socialsmart.tv/goncatv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="GRT" group-title="Entretenimento",GRT
+https://live.artidijitalmedya.com/artidijital_grt/grt1/playlist.m3u8
+#EXTINF:-1 tvg-name="GRT TV" group-title="Entretenimento",GRT TV
+https://kool.ws/vavoo-iptv/play/257753427816f6887294b8
+#EXTINF:-1 tvg-name="HAPSUU TV" group-title="Entretenimento",HAPSUU TV
+https://kool.ws/vavoo-iptv/play/22112092316dd6bbadb8b7
+#EXTINF:-1 tvg-name="HASAN VE HUSEYIN" group-title="Entretenimento",HASAN VE HUSEYIN
+https://kool.ws/vavoo-iptv/play/36148289175cd8b190c841
+#EXTINF:-1 tvg-name="HEIDI" group-title="Entretenimento",HEIDI
+https://kool.ws/vavoo-iptv/play/283434169125bc54938165
+#EXTINF:-1 tvg-name="Helwa TV" group-title="Entretenimento",Helwa TV
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dzflix/helwa.m3u8
+#EXTINF:-1 tvg-name="HORROR 1" group-title="Entretenimento",HORROR 1
+https://kool.ws/vavoo-iptv/play/36119753125c0620550bed
+#EXTINF:-1 tvg-name="HORROR 2" group-title="Entretenimento",HORROR 2
+https://kool.ws/vavoo-iptv/play/15061057158ff2a8dd9cee
+#EXTINF:-1 tvg-name="HORROR 3" group-title="Entretenimento",HORROR 3
+https://kool.ws/vavoo-iptv/play/2507102701b39115b2ed04
+#EXTINF:-1 tvg-name="HORROR 4" group-title="Entretenimento",HORROR 4
+https://kool.ws/vavoo-iptv/play/26787391882b7e6269672b
+#EXTINF:-1 tvg-name="HORROR 5" group-title="Entretenimento",HORROR 5
+https://kool.ws/vavoo-iptv/play/139252951413a076a7b3ed
+#EXTINF:-1 tvg-name="HRT" group-title="Entretenimento",HRT
+https://kool.ws/vavoo-iptv/play/2826493312357d40edbc08
+#EXTINF:-1 tvg-name="HRT AKDENIZ TV" group-title="Entretenimento",HRT AKDENIZ TV
+https://kool.ws/vavoo-iptv/play/4223430509a4cfa811948c
+#EXTINF:-1 tvg-name="Hunat TV" group-title="Entretenimento",Hunat TV
+https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
+#EXTINF:-1 tvg-name="HZ OMER" group-title="Entretenimento",HZ OMER
+https://kool.ws/vavoo-iptv/play/340307369a956333926c8
+#EXTINF:-1 tvg-name="IBB TV" group-title="Entretenimento",IBB TV
+https://npserver1.ibb.gov.tr/webtv/webtv_wowza1/playlist.m3u8
+#EXTINF:-1 tvg-name="IBRAHIM ERKAL" group-title="Entretenimento",IBRAHIM ERKAL
+https://kool.ws/vavoo-iptv/play/30359255549449efd1c487
+#EXTINF:-1 tvg-name="IBRAHIM TATLISES" group-title="Entretenimento",IBRAHIM TATLISES
+https://kool.ws/vavoo-iptv/play/2135559174caad0ed8bffc
+#EXTINF:-1 tvg-name="Icel TV" group-title="Entretenimento",Icel TV
+http://stream.taksimbilisim.com:1935/iceltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="IDMAN TV" group-title="Entretenimento",IDMAN TV
+https://kool.ws/vavoo-iptv/play/2368422760ba45ce579307
+#EXTINF:-1 tvg-name="ISVI RE VIZYON TV" group-title="Entretenimento",ISVI RE VIZYON TV
+https://kool.ws/vavoo-iptv/play/16767374902e45f8713ca0
+#EXTINF:-1 tvg-name="ITFAYECI SAM" group-title="Entretenimento",ITFAYECI SAM
+https://kool.ws/vavoo-iptv/play/9380153280c48b3769351
+#EXTINF:-1 tvg-name="IZ TV" group-title="Entretenimento",IZ TV
+https://kool.ws/vavoo-iptv/play/3847791361fc30e8aeff33
+#EXTINF:-1 tvg-name="KADIRGA TV" group-title="Entretenimento",KADIRGA TV
+https://kool.ws/vavoo-iptv/play/2093940826f764b66f64f5
 #EXTINF:-1 tvg-id="Kanal12.tr@SD" tvg-name="Kanal 12" group-title="Entretenimento",Kanal 12
 https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal15.tr@SD" tvg-name="Kanal 15" group-title="Entretenimento",Kanal 15
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal23.tr@SD" tvg-name="Kanal 23" group-title="Entretenimento",Kanal 23
 https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
+#EXTINF:-1 tvg-name="Kanal 23" group-title="Entretenimento",Kanal 23
+https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
+#EXTINF:-1 tvg-name="KANAL 24" group-title="Entretenimento",KANAL 24
+https://kool.ws/vavoo-iptv/play/4179564147cef11bb1db33
 #EXTINF:-1 tvg-id="Kanal26.tr@SD" tvg-name="Kanal 26" group-title="Entretenimento",Kanal 26
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal3.tr@SD" tvg-name="Kanal 3" group-title="Entretenimento",Kanal 3
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal 3" group-title="Entretenimento",Kanal 3
+http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal32.tr@SD" tvg-name="Kanal 32" group-title="Entretenimento",Kanal 32
 https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal33.tr@SD" tvg-name="Kanal 33" group-title="Entretenimento",Kanal 33
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal 33" group-title="Entretenimento",Kanal 33
+http://stream.taksimbilisim.com:1935/kanal33/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal34.tr@SD" tvg-name="Kanal 34" group-title="Entretenimento",Kanal 34
 https://vdo.digitalbox.xyz:3266/live/kanal34tvlive.m3u8
+#EXTINF:-1 tvg-name="KANAL 360" group-title="Entretenimento",KANAL 360
+https://kool.ws/vavoo-iptv/play/348853224424490830f4fe
+#EXTINF:-1 tvg-name="KANAL 360 HEVC" group-title="Entretenimento",KANAL 360 HEVC
+https://kool.ws/vavoo-iptv/play/335705245336ec860488ed
+#EXTINF:-1 tvg-name="Kanal 38" group-title="Entretenimento",Kanal 38
+http://yayin3.canlitv.com:1935/live/kanal38/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal58.tr@SD" tvg-name="KANAL 58" group-title="Entretenimento",KANAL 58
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
+#EXTINF:-1 tvg-name="KANAL 58" group-title="Entretenimento",KANAL 58
+https://edge1.socialsmart.tv/kanal58/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal 68" group-title="Entretenimento",Kanal 68
+https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal7.tr@SD" tvg-name="Kanal 7" group-title="Entretenimento",Kanal 7
 https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8
+#EXTINF:-1 tvg-name="Kanal 7" group-title="Entretenimento",Kanal 7
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 #EXTINF:-1 tvg-id="Kanal7Avrupa.tr@SD" tvg-name="Kanal 7 Avrupa" group-title="Entretenimento",Kanal 7 Avrupa
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
+#EXTINF:-1 tvg-name="KANAL 7 EUROPA" group-title="Entretenimento",KANAL 7 EUROPA
+https://kool.ws/vavoo-iptv/play/326498336471980dd56f67
+#EXTINF:-1 tvg-name="KANAL 7 HEVC" group-title="Entretenimento",KANAL 7 HEVC
+https://kool.ws/vavoo-iptv/play/3897412802d4338ee87b0a
+#EXTINF:-1 tvg-name="KANAL 7 RAW" group-title="Entretenimento",KANAL 7 RAW
+https://kool.ws/vavoo-iptv/play/817959285c682bf3e522b
+#EXTINF:-1 tvg-name="KANAL AVRUPA" group-title="Entretenimento",KANAL AVRUPA
+https://kool.ws/vavoo-iptv/play/1096791444308425496108
+#EXTINF:-1 tvg-name="Kanal B" group-title="Entretenimento",Kanal B
+http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr@SD" tvg-name="Kanal D" group-title="Entretenimento",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
+#EXTINF:-1 tvg-name="KANAL D HD (H265)" group-title="Entretenimento",KANAL D HD (H265)
+https://kool.ws/vavoo-iptv/play/13713062708ede849035ef
+#EXTINF:-1 tvg-name="KANAL D HEVC" group-title="Entretenimento",KANAL D HEVC
+https://kool.ws/vavoo-iptv/play/41138222975f1bf462585f
+#EXTINF:-1 tvg-name="KANAL D RAW" group-title="Entretenimento",KANAL D RAW
+https://kool.ws/vavoo-iptv/play/4193250917a1b264cec859
 #EXTINF:-1 tvg-id="KanalFirat.tr@SD" tvg-name="Kanal Firat" group-title="Entretenimento",Kanal Firat
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal Urfa" group-title="Entretenimento",Kanal Urfa
+https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="KANAL URFA" group-title="Entretenimento",KANAL URFA
+https://kool.ws/vavoo-iptv/play/847659673132d7ebf20cd
 #EXTINF:-1 tvg-id="KanalV.tr@SD" tvg-name="Kanal V" group-title="Entretenimento",Kanal V
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal Z" group-title="Entretenimento",Kanal Z
+https://live.artidijitalmedya.com/artidijital_kanalz/kanalz/playlist.m3u8
+#EXTINF:-1 tvg-name="KARADENIZ BRTV" group-title="Entretenimento",KARADENIZ BRTV
+https://kool.ws/vavoo-iptv/play/1846780399d742807cb82e
+#EXTINF:-1 tvg-name="Kardelen TV" group-title="Entretenimento",Kardelen TV
+https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="Kay TV" group-title="Entretenimento",Kay TV
+https://live.artidijitalmedya.com/artidijital_kaytv/kaytv1/playlist.m3u8
+#EXTINF:-1 tvg-name="KELOGLAN TV" group-title="Entretenimento",KELOGLAN TV
+https://kool.ws/vavoo-iptv/play/4644476933bb028f5c20f
+#EXTINF:-1 tvg-name="KENT TÜRK" group-title="Entretenimento",KENT TÜRK
+https://kool.ws/vavoo-iptv/play/3962582829ee477739be5f
+#EXTINF:-1 tvg-name="Kent Türk TV" group-title="Entretenimento",Kent Türk TV
+https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8
+#EXTINF:-1 tvg-name="KON TV" group-title="Entretenimento",KON TV
+https://kool.ws/vavoo-iptv/play/862610701d8d72799d50e
+#EXTINF:-1 tvg-name="KOSTEBEKGILLER TV" group-title="Entretenimento",KOSTEBEKGILLER TV
+https://kool.ws/vavoo-iptv/play/277878129786cfb72a8e2e
+#EXTINF:-1 tvg-name="KOZA TV" group-title="Entretenimento",KOZA TV
+https://kool.ws/vavoo-iptv/play/1047804470f83375a3863a
+#EXTINF:-1 tvg-name="KÖY TV" group-title="Entretenimento",KÖY TV
+https://kool.ws/vavoo-iptv/play/870320507489feac51e9a
 #EXTINF:-1 tvg-id="KRT.tr@SD" tvg-name="KRT" group-title="Entretenimento",KRT
 https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8
+#EXTINF:-1 tvg-name="KUDUS TV" group-title="Entretenimento",KUDUS TV
+https://kool.ws/vavoo-iptv/play/211438405134cf6d8a4129
+#EXTINF:-1 tvg-name="KUKULI TV" group-title="Entretenimento",KUKULI TV
+https://kool.ws/vavoo-iptv/play/2594585028d7c222e3966a
+#EXTINF:-1 tvg-name="LEYLEK KARDES" group-title="Entretenimento",LEYLEK KARDES
+https://kool.ws/vavoo-iptv/play/528021399004e91a38c73
+#EXTINF:-1 tvg-name="LIMON ZEYTIN" group-title="Entretenimento",LIMON ZEYTIN
+https://kool.ws/vavoo-iptv/play/4190426847132e27b0c524
+#EXTINF:-1 tvg-name="M TÜRK TV" group-title="Entretenimento",M TÜRK TV
+https://kool.ws/vavoo-iptv/play/375599442073736b876622
+#EXTINF:-1 tvg-name="MAHSUN KIRMIZIGUL" group-title="Entretenimento",MAHSUN KIRMIZIGUL
+https://kool.ws/vavoo-iptv/play/23872380735387e7ce8a3f
+#EXTINF:-1 tvg-name="MASAL TV" group-title="Entretenimento",MASAL TV
+https://kool.ws/vavoo-iptv/play/517032049b283af7f868b
+#EXTINF:-1 tvg-name="MAVI KARADENIZ" group-title="Entretenimento",MAVI KARADENIZ
+https://kool.ws/vavoo-iptv/play/385468935030b3686d0215
+#EXTINF:-1 tvg-name="MAVI KARADENIZ TV" group-title="Entretenimento",MAVI KARADENIZ TV
+https://kool.ws/vavoo-iptv/play/35988771778ded729aa251
 #EXTINF:-1 tvg-id="MaviKaradenizTV.tr@SD" tvg-name="MaviKaradeniz" group-title="Entretenimento",MaviKaradeniz
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+#EXTINF:-1 tvg-name="MAX" group-title="Entretenimento",MAX
+https://kool.ws/vavoo-iptv/play/8162972206833140ccc15
+#EXTINF:-1 tvg-name="MAX 007" group-title="Entretenimento",MAX 007
+https://kool.ws/vavoo-iptv/play/2857813786727202097e05
+#EXTINF:-1 tvg-name="MAX AKSIYON" group-title="Entretenimento",MAX AKSIYON
+https://kool.ws/vavoo-iptv/play/3207486934d626b3be1e79
+#EXTINF:-1 tvg-name="MAX AKSIYON 2" group-title="Entretenimento",MAX AKSIYON 2
+https://kool.ws/vavoo-iptv/play/37218055905af42d5ff2b
+#EXTINF:-1 tvg-name="MAX ANIMASYON 1" group-title="Entretenimento",MAX ANIMASYON 1
+https://kool.ws/vavoo-iptv/play/3343751751a8a8c7e5eb70
+#EXTINF:-1 tvg-name="MAX GOLD" group-title="Entretenimento",MAX GOLD
+https://kool.ws/vavoo-iptv/play/3268174995a93718bba188
+#EXTINF:-1 tvg-name="MAX PREMIER" group-title="Entretenimento",MAX PREMIER
+https://kool.ws/vavoo-iptv/play/858266837de2519924a62
+#EXTINF:-1 tvg-name="MAX TURK" group-title="Entretenimento",MAX TURK
+https://kool.ws/vavoo-iptv/play/12222724817c6557a8a82e
+#EXTINF:-1 tvg-name="MAX VIZYON 2" group-title="Entretenimento",MAX VIZYON 2
+https://kool.ws/vavoo-iptv/play/2779630479c620a8ca663e
+#EXTINF:-1 tvg-name="MAX VIZYON 3" group-title="Entretenimento",MAX VIZYON 3
+https://kool.ws/vavoo-iptv/play/2563629631cb03dcc2d823
+#EXTINF:-1 tvg-name="MAX VIZYON 4" group-title="Entretenimento",MAX VIZYON 4
+https://kool.ws/vavoo-iptv/play/720191023e621b43c1e7b
+#EXTINF:-1 tvg-name="MC EU" group-title="Entretenimento",MC EU
+https://kool.ws/vavoo-iptv/play/3849971860320774e59c07
+#EXTINF:-1 tvg-name="MC TV" group-title="Entretenimento",MC TV
+https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
+#EXTINF:-1 tvg-name="MGC TV" group-title="Entretenimento",MGC TV
+https://kool.ws/vavoo-iptv/play/2591544773260cb2042fa3
+#EXTINF:-1 tvg-name="MIMOCAN TV" group-title="Entretenimento",MIMOCAN TV
+https://kool.ws/vavoo-iptv/play/2175768896e5f35d5d7b27
+#EXTINF:-1 tvg-name="MINICA GO" group-title="Entretenimento",MINICA GO
+https://kool.ws/vavoo-iptv/play/26085199068ccbb304eaff
+#EXTINF:-1 tvg-name="Milyon TV" group-title="Entretenimento",Milyon TV
+https://sosyoapp-live.cdnnew.com/sosyo/buraya-bir-isim-verin.m3u8
+#EXTINF:-1 tvg-name="MONTAG & FREITAG BULLI" group-title="Entretenimento",MONTAG & FREITAG BULLI
+https://kool.ws/vavoo-iptv/play/2862980701594d8f54db77
+#EXTINF:-1 tvg-name="Natural TV" group-title="Entretenimento",Natural TV
+https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="NICK JR HD" group-title="Entretenimento",NICK JR HD
+https://kool.ws/vavoo-iptv/play/70716309912fd7c8b433e
+#EXTINF:-1 tvg-name="NICK JUNIOR" group-title="Entretenimento",NICK JUNIOR
+https://kool.ws/vavoo-iptv/play/1384991998bbb9bc709eb1
+#EXTINF:-1 tvg-name="NILOYA HD+" group-title="Entretenimento",NILOYA HD+
+https://kool.ws/vavoo-iptv/play/692811579f95ab595b603
+#EXTINF:-1 tvg-name="NILOYA TV" group-title="Entretenimento",NILOYA TV
+https://kool.ws/vavoo-iptv/play/2728276611484869add9bb
 #EXTINF:-1 tvg-id="NOW.tr@SD" tvg-name="NOW" group-title="Entretenimento",NOW
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+#EXTINF:-1 tvg-name="NOW TV" group-title="Entretenimento",NOW TV
+http://116.202.238.88/FOXTV_TR/index.m3u8
+#EXTINF:-1 tvg-name="NOW TV HD (H265)" group-title="Entretenimento",NOW TV HD (H265)
+https://kool.ws/vavoo-iptv/play/9989683045db00316f92d
+#EXTINF:-1 tvg-name="NOW TV HEVC" group-title="Entretenimento",NOW TV HEVC
+https://kool.ws/vavoo-iptv/play/117018314962b4e9489718
+#EXTINF:-1 tvg-name="NOW TV RAW" group-title="Entretenimento",NOW TV RAW
+https://kool.ws/vavoo-iptv/play/2769713183b7a2cf8dde9b
+#EXTINF:-1 tvg-name="NR 1" group-title="Entretenimento",NR 1
+https://kool.ws/vavoo-iptv/play/40212870138b09cd70432d
+#EXTINF:-1 tvg-name="NTV" group-title="Entretenimento",NTV
+https://dogus-live.daioncdn.net/ntv/ntv.m3u8
+#EXTINF:-1 tvg-name="OLAY TURK" group-title="Entretenimento",OLAY TURK
+https://kool.ws/vavoo-iptv/play/382635550866de8297148
+#EXTINF:-1 tvg-name="ON 4" group-title="Entretenimento",ON 4
+https://kool.ws/vavoo-iptv/play/2257593699129a3958d39e
+#EXTINF:-1 tvg-name="On 6" group-title="Entretenimento",On 6
+https://live.artidijitalmedya.com/artidijital_kanal16/kanal16/playlist.m3u8
+#EXTINF:-1 tvg-name="OUTDOOR" group-title="Entretenimento",OUTDOOR
+https://kool.ws/vavoo-iptv/play/17362928703b87a6c8217
+#EXTINF:-1 tvg-name="Öncü TV" group-title="Entretenimento",Öncü TV
+https://edge1.socialsmart.tv/oncurtv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="PATRON BEBEK" group-title="Entretenimento",PATRON BEBEK
+https://kool.ws/vavoo-iptv/play/2480284806a1aedf279a25
+#EXTINF:-1 tvg-name="PAW PETROL" group-title="Entretenimento",PAW PETROL
+https://kool.ws/vavoo-iptv/play/1801427716cdcb87ac5fef
+#EXTINF:-1 tvg-name="PEPEE TV" group-title="Entretenimento",PEPEE TV
+https://kool.ws/vavoo-iptv/play/2502633157e4cecb0b9c9c
+#EXTINF:-1 tvg-name="PEPPA PIG" group-title="Entretenimento",PEPPA PIG
+https://kool.ws/vavoo-iptv/play/26637368499dd5e608e02c
+#EXTINF:-1 tvg-name="Persiana Turkiye" group-title="Entretenimento",Persiana Turkiye
+https://turkhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-name="PIJAMA MASKE" group-title="Entretenimento",PIJAMA MASKE
+https://kool.ws/vavoo-iptv/play/341391505826b3fd5edda6
+#EXTINF:-1 tvg-name="PIJAMA MASKELILER TV" group-title="Entretenimento",PIJAMA MASKELILER TV
+https://kool.ws/vavoo-iptv/play/10250618615799907394b
+#EXTINF:-1 tvg-name="PIRIL TV" group-title="Entretenimento",PIRIL TV
+https://kool.ws/vavoo-iptv/play/16567203849c653dfcba8b
+#EXTINF:-1 tvg-name="PISI TV" group-title="Entretenimento",PISI TV
+https://kool.ws/vavoo-iptv/play/349052544410354f05ef9
+#EXTINF:-1 tvg-name="PISI TV (BACKUP)" group-title="Entretenimento",PISI TV (BACKUP)
+https://kool.ws/vavoo-iptv/play/201547123838d9856084ec
+#EXTINF:-1 tvg-name="POKEMON" group-title="Entretenimento",POKEMON
+https://kool.ws/vavoo-iptv/play/11691035975409e65ccbdf
+#EXTINF:-1 tvg-name="POKEMON TV" group-title="Entretenimento",POKEMON TV
+https://kool.ws/vavoo-iptv/play/7315857755d4bda0ebfec
+#EXTINF:-1 tvg-name="Power Turk" group-title="Entretenimento",Power Turk
+https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="RAFADAN TAYFA" group-title="Entretenimento",RAFADAN TAYFA
+https://kool.ws/vavoo-iptv/play/28347595794ed594f88740
+#EXTINF:-1 tvg-name="REDBOX TURKCE POP" group-title="Entretenimento",REDBOX TURKCE POP
+https://kool.ws/vavoo-iptv/play/2387657693a0888f6e12b2
+#EXTINF:-1 tvg-name="REDBULL TV" group-title="Entretenimento",REDBULL TV
+https://kool.ws/vavoo-iptv/play/3839151666edd74f1c6236
+#EXTINF:-1 tvg-name="REHBER TV" group-title="Entretenimento",REHBER TV
+https://kool.ws/vavoo-iptv/play/1959665596c53ccefb734a
+#EXTINF:-1 tvg-name="RUMELI TV" group-title="Entretenimento",RUMELI TV
+https://kool.ws/vavoo-iptv/play/399798825472229f330730
+#EXTINF:-1 tvg-name="RUYA TRENI" group-title="Entretenimento",RUYA TRENI
+https://kool.ws/vavoo-iptv/play/28980136277243b68661a6
+#EXTINF:-1 tvg-name="SAT 7 TURK" group-title="Entretenimento",SAT 7 TURK
+https://kool.ws/vavoo-iptv/play/237609064654251acc3bd9
+#EXTINF:-1 tvg-name="SELDA BAGCAN" group-title="Entretenimento",SELDA BAGCAN
+https://kool.ws/vavoo-iptv/play/245160041554c8e8517107
+#EXTINF:-1 tvg-name="SERCE KUS TV" group-title="Entretenimento",SERCE KUS TV
+https://kool.ws/vavoo-iptv/play/2244768338fefc6006bad
+#EXTINF:-1 tvg-name="SHOW HD (H265)" group-title="Entretenimento",SHOW HD (H265)
+https://kool.ws/vavoo-iptv/play/3537232978db7b25368a4b
 #EXTINF:-1 tvg-name="Show Max" group-title="Entretenimento",Show Max
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_1080p.m3u8
+#EXTINF:-1 tvg-name="SHOW T RK EUROPA" group-title="Entretenimento",SHOW T RK EUROPA
+https://kool.ws/vavoo-iptv/play/6059298215f8d058d8877
 #EXTINF:-1 tvg-id="ShowTurk.tr@SD" tvg-name="Show Turk" group-title="Entretenimento",Show Turk
 https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
+#EXTINF:-1 tvg-name="SHOW TV HEVC" group-title="Entretenimento",SHOW TV HEVC
+https://kool.ws/vavoo-iptv/play/37476469073149a4f729bc
+#EXTINF:-1 tvg-name="SHOW TV RAW" group-title="Entretenimento",SHOW TV RAW
+https://kool.ws/vavoo-iptv/play/33174058547853caa0e516
+#EXTINF:-1 tvg-name="SHOWMAX" group-title="Entretenimento",SHOWMAX
+https://kool.ws/vavoo-iptv/play/1197572527f8384c637ae4
+#EXTINF:-1 tvg-name="SIFIR TV" group-title="Entretenimento",SIFIR TV
+https://kool.ws/vavoo-iptv/play/155328876347a2cbbc72a9
+#EXTINF:-1 tvg-name="SIRINLER TV (BACKUP)" group-title="Entretenimento",SIRINLER TV (BACKUP)
+https://kool.ws/vavoo-iptv/play/1556019396cbe671ed73f4
+#EXTINF:-1 tvg-name="SL NILOYA" group-title="Entretenimento",SL NILOYA
+https://kool.ws/vavoo-iptv/play/3491525845a8862ff934e0
+#EXTINF:-1 tvg-name="SONER ARICA" group-title="Entretenimento",SONER ARICA
+https://kool.ws/vavoo-iptv/play/625665056a20f68791854
+#EXTINF:-1 tvg-name="STAR HD" group-title="Entretenimento",STAR HD
+https://kool.ws/vavoo-iptv/play/32098928635d489700268f
+#EXTINF:-1 tvg-name="STAR HD (H265)" group-title="Entretenimento",STAR HD (H265)
+https://kool.ws/vavoo-iptv/play/113412438222c1fe60b23d
+#EXTINF:-1 tvg-name="STAR TV HEVC" group-title="Entretenimento",STAR TV HEVC
+https://kool.ws/vavoo-iptv/play/1386325794720c26c4132
+#EXTINF:-1 tvg-name="STAR TV RAW" group-title="Entretenimento",STAR TV RAW
+https://kool.ws/vavoo-iptv/play/395479001546efe8f75dd3
+#EXTINF:-1 tvg-name="Sun RTV" group-title="Entretenimento",Sun RTV
+https://tr.socialsmart.tv/suntv/bant1/chunks.m3u8
+#EXTINF:-1 tvg-name="SUN TV" group-title="Entretenimento",SUN TV
+https://kool.ws/vavoo-iptv/play/3122863032b740767c3962
+#EXTINF:-1 tvg-name="T RK E POP" group-title="Entretenimento",T RK E POP
+https://kool.ws/vavoo-iptv/play/27868531047ce3c7e0c624
+#EXTINF:-1 tvg-name="TARIH TV" group-title="Entretenimento",TARIH TV
+https://kool.ws/vavoo-iptv/play/3856957052050da882aa10
+#EXTINF:-1 tvg-name="Tatlises TV" group-title="Entretenimento",Tatlises TV
+https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/playlist.m3u8
+#EXTINF:-1 tvg-name="TAVSAN MOMO" group-title="Entretenimento",TAVSAN MOMO
+https://kool.ws/vavoo-iptv/play/2292336979752459c08202
+#EXTINF:-1 tvg-name="TAY TV" group-title="Entretenimento",TAY TV
+https://kool.ws/vavoo-iptv/play/1534287048d3b84ea2e278
+#EXTINF:-1 tvg-name="TELEGRAM GRUP LINKI" group-title="Entretenimento",TELEGRAM GRUP LINKI
+https://kool.ws/vavoo-iptv/play/1110088936411930c810bd
+#EXTINF:-1 tvg-name="TEVE 2" group-title="Entretenimento",TEVE 2
+https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
+#EXTINF:-1 tvg-name="TEVE 2 HEVC" group-title="Entretenimento",TEVE 2 HEVC
+https://kool.ws/vavoo-iptv/play/1333128393a9d21f4d5773
 #EXTINF:-1 tvg-name="Teve2" group-title="Entretenimento",Teve2
 https://demiroren.daioncdn.net/teve2/teve2_1080p.m3u8?&sid=8a5c11fnaetz&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd&ce=3
+#EXTINF:-1 tvg-name="TEVE2 RAW" group-title="Entretenimento",TEVE2 RAW
+https://kool.ws/vavoo-iptv/play/2773252030692bf456c601
+#EXTINF:-1 tvg-name="TGRT Europe" group-title="Entretenimento",TGRT Europe
+https://tv.ensonhaber.com/tv/tr/tgrteu/index.m3u8
+#EXTINF:-1 tvg-name="TIVI TÜRK" group-title="Entretenimento",TIVI TÜRK
+https://kool.ws/vavoo-iptv/play/7021579547bba092a6b21
 #EXTINF:-1 tvg-id="Tivi6.tr@SD" tvg-name="Tivi 6" group-title="Entretenimento",Tivi 6
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:-1 tvg-name="TMB" group-title="Entretenimento",TMB
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-tv.m3u8
+#EXTINF:-1 tvg-name="TMB TV" group-title="Entretenimento",TMB TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/tmb-azerbaycan.m3u8
+#EXTINF:-1 tvg-name="TOM & JERRY" group-title="Entretenimento",TOM & JERRY
+https://kool.ws/vavoo-iptv/play/410018565922373c7100a2
+#EXTINF:-1 tvg-name="Toprak TV" group-title="Entretenimento",Toprak TV
+https://59cba4d34b678.streamlock.net/canlitv/topraktv/playlist.m3u8
+#EXTINF:-1 tvg-name="Trabzon Buyuksehir Belediyesi TV" group-title="Entretenimento",Trabzon Buyuksehir Belediyesi TV
+https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8
+#EXTINF:-1 tvg-name="Trakya Türk TV" group-title="Entretenimento",Trakya Türk TV
+https://live.artidijitalmedya.com/artidijital_trakyaturk/trakyaturk/playlist.m3u8
+#EXTINF:-1 tvg-name="TRANSFORMERS" group-title="Entretenimento",TRANSFORMERS
+https://kool.ws/vavoo-iptv/play/3939293866accaed151ad9
+#EXTINF:-1 tvg-name="TROL AVCILARI" group-title="Entretenimento",TROL AVCILARI
+https://kool.ws/vavoo-iptv/play/368305124494c3549411d4
+#EXTINF:-1 tvg-name="TRT" group-title="Entretenimento",TRT
+https://kool.ws/vavoo-iptv/play/3317656516b0224418b6a8
 #EXTINF:-1 tvg-id="TRT1.tr@HD" tvg-name="TRT 1" group-title="Entretenimento",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT 1 HEVC" group-title="Entretenimento",TRT 1 HEVC
+https://kool.ws/vavoo-iptv/play/194373112d73ddb5898a4
 #EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-name="TRT 2" group-title="Entretenimento",TRT 2
 https://tv-trt2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRT3.tr@SD" tvg-name="TRT 3" group-title="Entretenimento",TRT 3
@@ -81,37 +681,290 @@ https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavo
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTAvaz.tr@SD" tvg-name="TRT Avaz" group-title="Entretenimento",TRT Avaz
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT EBA" group-title="Entretenimento",TRT EBA
+https://kool.ws/vavoo-iptv/play/3681071746569ac21b544f
 #EXTINF:-1 tvg-id="TRTGenc.tr@SD" tvg-name="TRT Genc" group-title="Entretenimento",TRT Genc
 https://tv-trtgenc.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT KURD" group-title="Entretenimento",TRT KURD
+https://kool.ws/vavoo-iptv/play/1216632307df2afc1919fa
+#EXTINF:-1 tvg-name="TRT KURDI RAW" group-title="Entretenimento",TRT KURDI RAW
+https://kool.ws/vavoo-iptv/play/3640225965ac2c2232abef
 #EXTINF:-1 tvg-id="TRTKurdi.tr@SD" tvg-name="TRT Kurdî" group-title="Entretenimento",TRT Kurdî
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT T RK" group-title="Entretenimento",TRT T RK
+https://kool.ws/vavoo-iptv/play/35084774810a78b091aa35
 #EXTINF:-1 tvg-id="TRTTurk.tr@SD" tvg-name="TRT Turk" group-title="Entretenimento",TRT Turk
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/trt_turk/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-name="TRT TURK HEVC" group-title="Entretenimento",TRT TURK HEVC
+https://kool.ws/vavoo-iptv/play/1619096863c7e11f78a1b0
+#EXTINF:-1 tvg-name="TRT TURK RAW" group-title="Entretenimento",TRT TURK RAW
+https://kool.ws/vavoo-iptv/play/4095879853e79f376bf5ca
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" group-title="Entretenimento",TRT World
 https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8
+#EXTINF:-1 tvg-name="TRT World" group-title="Entretenimento",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT WORLD HEVC" group-title="Entretenimento",TRT WORLD HEVC
+https://kool.ws/vavoo-iptv/play/39856151173297a4afd524
+#EXTINF:-1 tvg-name="TRT WORLD RAW" group-title="Entretenimento",TRT WORLD RAW
+https://kool.ws/vavoo-iptv/play/4076064178a12cbf89249a
+#EXTINF:-1 tvg-name="TRT2 RAW" group-title="Entretenimento",TRT2 RAW
+https://kool.ws/vavoo-iptv/play/21895121eeea9f4b76d9
 #EXTINF:-1 tvg-id="TurksatTanitim.tr@SD" tvg-name="Turksat Tanitim" group-title="Entretenimento",Turksat Tanitim
 http://176.65.153.26:6004/play/a02s/index.m3u8
+#EXTINF:-1 tvg-name="TV 100 HEVC" group-title="Entretenimento",TV 100 HEVC
+https://kool.ws/vavoo-iptv/play/3271096410d07fb733747f
+#EXTINF:-1 tvg-name="TV 38" group-title="Entretenimento",TV 38
+https://59cba4d34b678.streamlock.net/live/tv38/playlist.m3u8
+#EXTINF:-1 tvg-name="TV 4" group-title="Entretenimento",TV 4
+https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
+#EXTINF:-1 tvg-name="TV 41" group-title="Entretenimento",TV 41
+http://stream.taksimbilisim.com:1935/tv41/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="TV 5" group-title="Entretenimento",TV 5
+https://kool.ws/vavoo-iptv/play/12213538441d78d3ba3c7
+#EXTINF:-1 tvg-name="TV 52" group-title="Entretenimento",TV 52
+http://stream.taksimbilisim.com:1935/tv52/smil:tv52.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="TV 8" group-title="Entretenimento",TV 8
+https://tv8-live.daioncdn.net/tv8/tv8.m3u8
+#EXTINF:-1 tvg-name="TV 8 HD (H265)" group-title="Entretenimento",TV 8 HD (H265)
+https://kool.ws/vavoo-iptv/play/329802627004ee30bd6aa0
+#EXTINF:-1 tvg-name="TV 8 HEVC" group-title="Entretenimento",TV 8 HEVC
+https://kool.ws/vavoo-iptv/play/1662562034e8a914e62dce
+#EXTINF:-1 tvg-name="TV 8 INT" group-title="Entretenimento",TV 8 INT
+https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788
+#EXTINF:-1 tvg-name="TV 8 INTERNATIONAL" group-title="Entretenimento",TV 8 INTERNATIONAL
+https://kool.ws/vavoo-iptv/play/3546432682c60db460810f
+#EXTINF:-1 tvg-name="TV 8.5" group-title="Entretenimento",TV 8.5
+https://kool.ws/vavoo-iptv/play/140923760a991ad56397
 #EXTINF:-1 tvg-id="TVDen.tr@SD" tvg-name="TV Den" group-title="Entretenimento",TV Den
 http://canli.tvden.com.tr/hls/live.m3u8
+#EXTINF:-1 tvg-name="TV NET" group-title="Entretenimento",TV NET
+https://kool.ws/vavoo-iptv/play/1225673773af8c29391e81
 #EXTINF:-1 tvg-id="TV4.tr@SD" tvg-name="TV4" group-title="Entretenimento",TV4
 https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+#EXTINF:-1 tvg-name="TV8" group-title="Entretenimento",TV8
+https://kool.ws/vavoo-iptv/play/2693299013444c726b1ee4
+#EXTINF:-1 tvg-name="TV8 5 RAW" group-title="Entretenimento",TV8 5 RAW
+https://kool.ws/vavoo-iptv/play/241220593740c7258ef669
 #EXTINF:-1 tvg-id="TV8 INT" tvg-name="TV8 INT" group-title="Entretenimento",TV8 INT
 https://mn-nl.mncdn.com/blutv_tv8_int2/live.m3u8
+#EXTINF:-1 tvg-name="TV8 RAW" group-title="Entretenimento",TV8 RAW
+https://kool.ws/vavoo-iptv/play/199101032472d01db313b0
 #EXTINF:-1 tvg-id="TV8.5" tvg-name="TV8.5" group-title="Entretenimento",TV8.5
 https://mn-nl.mncdn.com/blutv_tv8_52/live.m3u8
+#EXTINF:-1 tvg-name="TVDEN TV" group-title="Entretenimento",TVDEN TV
+https://kool.ws/vavoo-iptv/play/3524690612e75743431c37
+#EXTINF:-1 tvg-name="TYT Turk" group-title="Entretenimento",TYT Turk
+https://cdn-tytturk.yayin.com.tr/tytturk/index.m3u8
+#EXTINF:-1 tvg-name="ULTRA IMBD" group-title="Entretenimento",ULTRA IMBD
+https://kool.ws/vavoo-iptv/play/15664461228f5c7a25a520
+#EXTINF:-1 tvg-name="ULTRA KEMAL SUNAL" group-title="Entretenimento",ULTRA KEMAL SUNAL
+https://kool.ws/vavoo-iptv/play/317434201637fa05adb599
+#EXTINF:-1 tvg-name="ULTRA KORKU" group-title="Entretenimento",ULTRA KORKU
+https://kool.ws/vavoo-iptv/play/356356254709757fc813c5
+#EXTINF:-1 tvg-name="UR FANATIK TV" group-title="Entretenimento",UR FANATIK TV
+https://kool.ws/vavoo-iptv/play/6396593594335b4483732
+#EXTINF:-1 tvg-name="Üniversite TV" group-title="Entretenimento",Üniversite TV
+https://vdo.digitalbox.xyz:3986/live/unitvlive.m3u8
+#EXTINF:-1 tvg-name="ÜÜ TV Üsküdar Üniversitesi TV" group-title="Entretenimento",ÜÜ TV Üsküdar Üniversitesi TV
+https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8
+#EXTINF:-1 tvg-name="V TV" group-title="Entretenimento",V TV
+https://serdar.tiviplayer.com/player/m3u8/65aae71c9b93f0965aaed3a92660d98b/65aae71c9b93f0965aaed3a92660d98b.m3u8
+#EXTINF:-1 tvg-name="VATAN TV" group-title="Entretenimento",VATAN TV
+https://kool.ws/vavoo-iptv/play/32821815116af88acacbb6
+#EXTINF:-1 tvg-name="VIYANA TV" group-title="Entretenimento",VIYANA TV
+https://kool.ws/vavoo-iptv/play/344251480556f9e5db0f41
+#EXTINF:-1 tvg-name="VIZYON 58" group-title="Entretenimento",VIZYON 58
+https://kool.ws/vavoo-iptv/play/32753266152c4857a77a87
+#EXTINF:-1 tvg-name="Vive Kanal D Drama" group-title="Entretenimento",Vive Kanal D Drama
+https://thema-vivekanald-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Vizyon 58 TV" group-title="Entretenimento",Vizyon 58 TV
+https://live.artidijitalmedya.com/artidijital_vizyon58/vizyon58/playlist.m3u8
+#EXTINF:-1 tvg-name="WAKFU" group-title="Entretenimento",WAKFU
+https://kool.ws/vavoo-iptv/play/54557664023a53669f0a8
+#EXTINF:-1 tvg-name="X NOSTALJI T RK E KLASIK" group-title="Entretenimento",X NOSTALJI T RK E KLASIK
+https://kool.ws/vavoo-iptv/play/1767757052f44dee90b42b
+#EXTINF:-1 tvg-name="YESILCAM" group-title="Entretenimento",YESILCAM
+https://kool.ws/vavoo-iptv/play/15843353838096cf65cb7d
+#EXTINF:-1 tvg-name="YILDIZ KIZ" group-title="Entretenimento",YILDIZ KIZ
+https://kool.ws/vavoo-iptv/play/12401366196105d6b0425b
+#EXTINF:-1 tvg-name="YILDIZ TILBE" group-title="Entretenimento",YILDIZ TILBE
+https://kool.ws/vavoo-iptv/play/4050722013efecdc85c9b
+#EXTINF:-1 tvg-name="YILDIZ TV EN" group-title="Entretenimento",YILDIZ TV EN
+https://kool.ws/vavoo-iptv/play/18243160161485b6b186e7
+#EXTINF:-1 tvg-name="YOL TV" group-title="Entretenimento",YOL TV
+https://live.yoltv.com/hls/stream.m3u8
+#EXTINF:-1 tvg-name="ZARA" group-title="Entretenimento",ZARA
+https://kool.ws/vavoo-iptv/play/86164523287041869577b
+#EXTINF:-1 tvg-name="ZERRIN OZER" group-title="Entretenimento",ZERRIN OZER
+https://kool.ws/vavoo-iptv/play/2655157451b1786586fd0c
 
+# Esportes (93)
 #EXTINF:-1 tvg-id="ASpor.tr@SD" tvg-name="A Spor" group-title="Esportes",A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 tvg-name="A SPOR HEVC" group-title="Esportes",A SPOR HEVC
+https://kool.ws/vavoo-iptv/play/28805292086eedfe83d038
+#EXTINF:-1 tvg-name="A SPOR RAW" group-title="Esportes",A SPOR RAW
+https://kool.ws/vavoo-iptv/play/2777121053574bf4d1b799
+#EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Esportes",BEIN SPORTS 1
+https://kool.ws/vavoo-iptv/play/300113394ceebba66c8ad
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 50 FPS" group-title="Esportes",BEIN SPORTS 1 50 FPS
+https://kool.ws/vavoo-iptv/play/13524210538e192d878d20
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 FEED" group-title="Esportes",BEIN SPORTS 1 FEED
+https://kool.ws/vavoo-iptv/play/2729088606df69156b1eda
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 H265" group-title="Esportes",BEIN SPORTS 1 H265
+https://kool.ws/vavoo-iptv/play/24034250314fd9aa349685
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 HD (TURKEY)" group-title="Esportes",BEIN SPORTS 1 HD (TURKEY)
+https://kool.ws/vavoo-iptv/play/5934938605e361d7e0ff0
 #EXTINF:-1 tvg-id="beINSports1Turk.tr@SD" tvg-name="beIN Sports 1 Turk" group-title="Esportes",beIN Sports 1 Turk
 https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F300113394ceebba66c8ad
+#EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Esportes",BEIN SPORTS 2
+https://kool.ws/vavoo-iptv/play/1447241506bdccfad8b85c
+#EXTINF:-1 tvg-name="BEIN SPORTS 3" group-title="Esportes",BEIN SPORTS 3
+https://kool.ws/vavoo-iptv/play/179745960216563080394f
+#EXTINF:-1 tvg-name="BEIN SPORTS 4" group-title="Esportes",BEIN SPORTS 4
+https://kool.ws/vavoo-iptv/play/3640906370384c4c528e99
+#EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(KUTU)" group-title="Esportes",BEIN SPORTS 4K FEED(KUTU)
+https://kool.ws/vavoo-iptv/play/267105889a25a483e5e80
+#EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(UYDU)" group-title="Esportes",BEIN SPORTS 4K FEED(UYDU)
+https://kool.ws/vavoo-iptv/play/1536730627bbf8f95ca477
+#EXTINF:-1 tvg-name="BEIN SPORTS 5" group-title="Esportes",BEIN SPORTS 5
+https://kool.ws/vavoo-iptv/play/3831757618ff599ed6d68c
+#EXTINF:-1 tvg-name="BEIN SPORTS 720P FEED" group-title="Esportes",BEIN SPORTS 720P FEED
+https://kool.ws/vavoo-iptv/play/499485497d6131f47417d
+#EXTINF:-1 tvg-name="BEIN SPORTS 8K FEED" group-title="Esportes",BEIN SPORTS 8K FEED
+https://kool.ws/vavoo-iptv/play/2113462398d8dd57a8ea73
+#EXTINF:-1 tvg-name="BEIN SPORTS FEED (OZEL FEED YAYIN)" group-title="Esportes",BEIN SPORTS FEED (OZEL FEED YAYIN)
+https://kool.ws/vavoo-iptv/play/1453692314f52730c50395
+#EXTINF:-1 tvg-name="BEIN SPORTS HABER" group-title="Esportes",BEIN SPORTS HABER
+https://kool.ws/vavoo-iptv/play/1197336000e1b7dd01506d
+#EXTINF:-1 tvg-name="BEIN SPORTS HABER RAW" group-title="Esportes",BEIN SPORTS HABER RAW
+https://kool.ws/vavoo-iptv/play/164663282518e6179f90af
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1" group-title="Esportes",BEIN SPORTS MAX 1
+https://kool.ws/vavoo-iptv/play/1221587067c43d5b265b10
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2" group-title="Esportes",BEIN SPORTS MAX 2
+https://kool.ws/vavoo-iptv/play/25896823596a84e43dd09
+#EXTINF:-1 tvg-name="EKOL SPOR" group-title="Esportes",EKOL SPOR
+https://kool.ws/vavoo-iptv/play/814969642ed05792517e0
+#EXTINF:-1 tvg-name="Ekol Sports" group-title="Esportes",Ekol Sports
+https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
+#EXTINF:-1 tvg-name="EUROSPORT 1" group-title="Esportes",EUROSPORT 1
+https://kool.ws/vavoo-iptv/play/207886293750ec015d3e85
+#EXTINF:-1 tvg-name="EUROSPORT 2" group-title="Esportes",EUROSPORT 2
+https://kool.ws/vavoo-iptv/play/41172279629184f8c9c408
+#EXTINF:-1 tvg-name="EUROSPORT1" group-title="Esportes",EUROSPORT1
+https://kool.ws/vavoo-iptv/play/3793200644fd418f955402
+#EXTINF:-1 tvg-name="EUROSPORT2" group-title="Esportes",EUROSPORT2
+https://kool.ws/vavoo-iptv/play/1821942247abefa6aae14b
+#EXTINF:-1 tvg-name="EXXEN SPOR 1" group-title="Esportes",EXXEN SPOR 1
+https://kool.ws/vavoo-iptv/play/20245689820af9ca3911b8
+#EXTINF:-1 tvg-name="EXXEN SPORTS 1" group-title="Esportes",EXXEN SPORTS 1
+https://kool.ws/vavoo-iptv/play/11882580665f12f932d6c9
+#EXTINF:-1 tvg-name="EXXEN SPORTS 2" group-title="Esportes",EXXEN SPORTS 2
+https://kool.ws/vavoo-iptv/play/24320962ff3ce3209657
+#EXTINF:-1 tvg-name="EXXEN TV" group-title="Esportes",EXXEN TV
+https://kool.ws/vavoo-iptv/play/1944695268eb5e2a66f22
+#EXTINF:-1 tvg-name="EXXEN TV SPOR 1" group-title="Esportes",EXXEN TV SPOR 1
+https://kool.ws/vavoo-iptv/play/1208369995ee56db60c6cb
+#EXTINF:-1 tvg-name="EXXEN TV SPOR 1 720P" group-title="Esportes",EXXEN TV SPOR 1 720P
+https://kool.ws/vavoo-iptv/play/3333902867e8eeb6c13355
+#EXTINF:-1 tvg-name="EXXEN TV SPOR 1 FEED" group-title="Esportes",EXXEN TV SPOR 1 FEED
+https://kool.ws/vavoo-iptv/play/10914039127b6d2cb4f9b1
+#EXTINF:-1 tvg-name="EXXEN TV SPOR 2" group-title="Esportes",EXXEN TV SPOR 2
+https://kool.ws/vavoo-iptv/play/3377046146a9c27858fc04
+#EXTINF:-1 tvg-name="EXXEN TV SPOR 3" group-title="Esportes",EXXEN TV SPOR 3
+https://kool.ws/vavoo-iptv/play/851841067026eb6346001
+#EXTINF:-1 tvg-name="EXXEN TV SPOR 4" group-title="Esportes",EXXEN TV SPOR 4
+https://kool.ws/vavoo-iptv/play/21626092115c96093842ed
+#EXTINF:-1 tvg-name="EXXEN TV SPOR 5" group-title="Esportes",EXXEN TV SPOR 5
+https://kool.ws/vavoo-iptv/play/3179734411cc8e59810aba
+#EXTINF:-1 tvg-name="EXXEN TV SPOR 6" group-title="Esportes",EXXEN TV SPOR 6
+https://kool.ws/vavoo-iptv/play/4196835163f7f34378737d
+#EXTINF:-1 tvg-name="EXXEN TV SPOR 7" group-title="Esportes",EXXEN TV SPOR 7
+https://kool.ws/vavoo-iptv/play/3343300331c5663b93a430
+#EXTINF:-1 tvg-name="EXXEN TV SPOR 8" group-title="Esportes",EXXEN TV SPOR 8
+https://kool.ws/vavoo-iptv/play/11590782026618befbb16b
 #EXTINF:-1 tvg-id="FBTV.tr@SD" tvg-name="FB TV" group-title="Esportes",FB TV
 http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="GEM Sport" group-title="Esportes",GEM Sport
+https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8
+#EXTINF:-1 tvg-name="HT SPOR" group-title="Esportes",HT SPOR
+https://kool.ws/vavoo-iptv/play/2773338492aa94862b5b31
 #EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-name="HTSpor TV" group-title="Esportes",HTSpor TV
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 tvg-name="NBA TV" group-title="Esportes",NBA TV
+https://kool.ws/vavoo-iptv/play/5455481338d50b246e682
+#EXTINF:-1 tvg-name="S SPORT" group-title="Esportes",S SPORT
+https://kool.ws/vavoo-iptv/play/21232735984a3f0b463d66
 #EXTINF:-1 tvg-id="SSport2.tr@SD" tvg-name="S Sport 2" group-title="Esportes",S Sport 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
+#EXTINF:-1 tvg-name="S SPORT+4 MAC SAATI" group-title="Esportes",S SPORT+4 MAC SAATI
+https://kool.ws/vavoo-iptv/play/1507829436cb5aa4fb5b34
+#EXTINF:-1 tvg-name="S-SPORT 1" group-title="Esportes",S-SPORT 1
+https://kool.ws/vavoo-iptv/play/3531762195c7260405eaad
+#EXTINF:-1 tvg-name="S-SPORT PLUS" group-title="Esportes",S-SPORT PLUS
+https://kool.ws/vavoo-iptv/play/403604621968c940720735
+#EXTINF:-1 tvg-name="S-SPORT PLUS 1 MACZAMANI" group-title="Esportes",S-SPORT PLUS 1 MACZAMANI
+https://kool.ws/vavoo-iptv/play/3526620942f8fbdb0fb7ad
+#EXTINF:-1 tvg-name="S-SPORT PLUS 2 MACZAMANI" group-title="Esportes",S-SPORT PLUS 2 MACZAMANI
+https://kool.ws/vavoo-iptv/play/327670923957be380e0892
+#EXTINF:-1 tvg-name="S-SPORT PLUS 3 MACZAMANI" group-title="Esportes",S-SPORT PLUS 3 MACZAMANI
+https://kool.ws/vavoo-iptv/play/20587004472af839207827
+#EXTINF:-1 tvg-name="S-SPORT+1 MAC SAATI" group-title="Esportes",S-SPORT+1 MAC SAATI
+https://kool.ws/vavoo-iptv/play/2559756791dcf166140367
+#EXTINF:-1 tvg-name="S-SPORT+2 MAC SAATI" group-title="Esportes",S-SPORT+2 MAC SAATI
+https://kool.ws/vavoo-iptv/play/2314183566dbbab2892d05
+#EXTINF:-1 tvg-name="S-SPORTS 1" group-title="Esportes",S-SPORTS 1
+https://kool.ws/vavoo-iptv/play/3202905239f7c8981cff1
+#EXTINF:-1 tvg-name="S-SPORTS 2" group-title="Esportes",S-SPORTS 2
+https://kool.ws/vavoo-iptv/play/26439990320f2e0b009aff
+#EXTINF:-1 tvg-name="SPOR SMART" group-title="Esportes",SPOR SMART
+https://kool.ws/vavoo-iptv/play/3159604752e1cba547bb
+#EXTINF:-1 tvg-name="SPOR SMART 2" group-title="Esportes",SPOR SMART 2
+https://kool.ws/vavoo-iptv/play/90716509593fd6426951b
+#EXTINF:-1 tvg-name="SPOR SMART HEVC" group-title="Esportes",SPOR SMART HEVC
+https://kool.ws/vavoo-iptv/play/3445708926e6195304f00c
 #EXTINF:-1 tvg-id="Sports TV" tvg-name="Sports TV" group-title="Esportes",Sports TV
 https://mn-nl.mncdn.com/blutv_sportstv2/live_720p2000000kbps/index.m3u8
+#EXTINF:-1 tvg-name="Sports TV" group-title="Esportes",Sports TV
+https://live.sportstv.com.tr/hls/low/sportstv.m3u8
+#EXTINF:-1 tvg-name="TABII SPOR" group-title="Esportes",TABII SPOR
+https://kool.ws/vavoo-iptv/play/1844863271513a413a321
+#EXTINF:-1 tvg-name="TABII SPOR 1" group-title="Esportes",TABII SPOR 1
+https://kool.ws/vavoo-iptv/play/10977951419d3dfac60f92
+#EXTINF:-1 tvg-name="TABII SPOR 1 720P" group-title="Esportes",TABII SPOR 1 720P
+https://kool.ws/vavoo-iptv/play/36659147631b81d08d6c82
+#EXTINF:-1 tvg-name="TABII SPOR 2" group-title="Esportes",TABII SPOR 2
+https://kool.ws/vavoo-iptv/play/11426114102c71664711c
+#EXTINF:-1 tvg-name="TABII SPOR 3" group-title="Esportes",TABII SPOR 3
+https://kool.ws/vavoo-iptv/play/10013463414fd5f0938a50
+#EXTINF:-1 tvg-name="TABII SPOR 4" group-title="Esportes",TABII SPOR 4
+https://kool.ws/vavoo-iptv/play/2307885365b7f1828e97ba
+#EXTINF:-1 tvg-name="TABII SPOR 5" group-title="Esportes",TABII SPOR 5
+https://kool.ws/vavoo-iptv/play/3035603077ef0df0e5da67
+#EXTINF:-1 tvg-name="TABII SPOR 6" group-title="Esportes",TABII SPOR 6
+https://kool.ws/vavoo-iptv/play/40820967253b1d74e19a7f
+#EXTINF:-1 tvg-name="Tabii Spor 6" group-title="Esportes",Tabii Spor 6
+https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TIVIBU SPOR 1" group-title="Esportes",TIVIBU SPOR 1
+https://kool.ws/vavoo-iptv/play/25659723389efdd2098be1
+#EXTINF:-1 tvg-name="TIVIBU SPOR 2" group-title="Esportes",TIVIBU SPOR 2
+https://kool.ws/vavoo-iptv/play/37466838109fc1c67c228d
+#EXTINF:-1 tvg-name="TIVIBU SPOR 3" group-title="Esportes",TIVIBU SPOR 3
+https://kool.ws/vavoo-iptv/play/37949240505288959ad99c
+#EXTINF:-1 tvg-name="TIVIBU SPOR 4" group-title="Esportes",TIVIBU SPOR 4
+https://kool.ws/vavoo-iptv/play/1343303170fbfea75b9f15
+#EXTINF:-1 tvg-name="TIVIBU SPOR 5" group-title="Esportes",TIVIBU SPOR 5
+https://kool.ws/vavoo-iptv/play/163038510f87c95f99d11
+#EXTINF:-1 tvg-name="TIVIBU SPOR RAW" group-title="Esportes",TIVIBU SPOR RAW
+https://kool.ws/vavoo-iptv/play/1406262118fb4f653061f6
+#EXTINF:-1 tvg-name="TIVIBUSPOR 1" group-title="Esportes",TIVIBUSPOR 1
+https://kool.ws/vavoo-iptv/play/289665874444b8f4f2d451
+#EXTINF:-1 tvg-name="TIVIBUSPOR 2" group-title="Esportes",TIVIBUSPOR 2
+https://kool.ws/vavoo-iptv/play/25026063331fd9c2bab71e
+#EXTINF:-1 tvg-name="TIVIBUSPOR 3" group-title="Esportes",TIVIBUSPOR 3
+https://kool.ws/vavoo-iptv/play/21863899508f19a672f26d
+#EXTINF:-1 tvg-name="TIVIBUSPOR SPOR" group-title="Esportes",TIVIBUSPOR SPOR
+https://kool.ws/vavoo-iptv/play/36535158588fee46401238
 #EXTINF:-1 tvg-id="Tivibu Spor" tvg-name="Tivibu Spor" group-title="Esportes",Tivibu Spor
 http://dl1.webtv.ttnet.com.tr/konf/mob/web16009.isml/QualityLevels(1564000)/manifest(format=m3u8-aapl).m3u8
 #EXTINF:-1 tvg-id="TJKTV.tr@SD" tvg-name="TJK TV" group-title="Esportes",TJK TV
@@ -120,32 +973,212 @@ https://tjktv-live.tjk.org/tjktv.m3u8
 https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
 #EXTINF:-1 tvg-id="TRTSpor.tr@SD" tvg-name="TRT Spor" group-title="Esportes",TRT Spor
 https://corestream.siteyaptim.live/trt-spor/index.m3u8
+#EXTINF:-1 tvg-name="TRT Spor" group-title="Esportes",TRT Spor
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT SPOR RAW" group-title="Esportes",TRT SPOR RAW
+https://kool.ws/vavoo-iptv/play/601788690f9e0a5148c48
+#EXTINF:-1 tvg-name="TRT SPOR YILDIZ HEVC" group-title="Esportes",TRT SPOR YILDIZ HEVC
+https://kool.ws/vavoo-iptv/play/114501523d11f5030113f
+#EXTINF:-1 tvg-name="TRT SPOR YILDIZ RAW" group-title="Esportes",TRT SPOR YILDIZ RAW
+https://kool.ws/vavoo-iptv/play/268929752745bb1e55d52a
 #EXTINF:-1 tvg-id="TRTSporYildiz.tr@SD" tvg-name="TRT Spor Yildiz" group-title="Esportes",TRT Spor Yildiz
 https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
+#EXTINF:-1 tvg-name="TRT Spor Yildiz" group-title="Esportes",TRT Spor Yildiz
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
+# Filmes e séries (69)
+#EXTINF:-1 tvg-name="ARENA BOX ACTION" group-title="Filmes e séries",ARENA BOX ACTION
+https://kool.ws/vavoo-iptv/play/28537307030aac03ac9f83
+#EXTINF:-1 tvg-name="BBC First" group-title="Filmes e séries",BBC First
+http://88.212.7.14/live/bbc_first/index.m3u8
+#EXTINF:-1 tvg-name="BEIN MOVIES ACTION" group-title="Filmes e séries",BEIN MOVIES ACTION
+https://kool.ws/vavoo-iptv/play/18734781311354b28a35dd
+#EXTINF:-1 tvg-name="BEIN MOVIES ACTION 2" group-title="Filmes e séries",BEIN MOVIES ACTION 2
+https://kool.ws/vavoo-iptv/play/26173183867663c6c36018
+#EXTINF:-1 tvg-name="BEIN MOVIES PREMIERE" group-title="Filmes e séries",BEIN MOVIES PREMIERE
+https://kool.ws/vavoo-iptv/play/94298722454d1a7fefabb
+#EXTINF:-1 tvg-name="BEIN MOVIES PREMIERE 2" group-title="Filmes e séries",BEIN MOVIES PREMIERE 2
+https://kool.ws/vavoo-iptv/play/22440690938318303270a5
+#EXTINF:-1 tvg-name="BEIN MOVIES STARS" group-title="Filmes e séries",BEIN MOVIES STARS
+https://kool.ws/vavoo-iptv/play/250091316466da3ef72786
+#EXTINF:-1 tvg-name="BEIN MOVIES TURK" group-title="Filmes e séries",BEIN MOVIES TURK
+https://kool.ws/vavoo-iptv/play/33905759489e0915a21ca8
+#EXTINF:-1 tvg-name="BEIN SERIES 1" group-title="Filmes e séries",BEIN SERIES 1
+https://kool.ws/vavoo-iptv/play/2190922298d7f7ef0a716a
+#EXTINF:-1 tvg-name="BEIN SERIES 2" group-title="Filmes e séries",BEIN SERIES 2
+https://kool.ws/vavoo-iptv/play/33086937382c63181dc831
+#EXTINF:-1 tvg-name="BEIN SERIES 3" group-title="Filmes e séries",BEIN SERIES 3
+https://kool.ws/vavoo-iptv/play/4166418778d126ec592afc
+#EXTINF:-1 tvg-name="BEIN SERIES 4" group-title="Filmes e séries",BEIN SERIES 4
+https://kool.ws/vavoo-iptv/play/1249271114781b9186b725
+#EXTINF:-1 tvg-name="BEST DRAM" group-title="Filmes e séries",BEST DRAM
+https://kool.ws/vavoo-iptv/play/4099015608239c33b463bc
+#EXTINF:-1 tvg-name="BEST KOMEDI" group-title="Filmes e séries",BEST KOMEDI
+https://kool.ws/vavoo-iptv/play/17233265984e83c5ef5947
+#EXTINF:-1 tvg-name="BEST SALON 1" group-title="Filmes e séries",BEST SALON 1
+https://kool.ws/vavoo-iptv/play/2585357317352fbfd92833
+#EXTINF:-1 tvg-name="BEST SALON 2" group-title="Filmes e séries",BEST SALON 2
+https://kool.ws/vavoo-iptv/play/37198947412070cf7796ed
+#EXTINF:-1 tvg-name="BEST SALON 3" group-title="Filmes e séries",BEST SALON 3
+https://kool.ws/vavoo-iptv/play/37723339252eec59344208
 #EXTINF:-1 tvg-id="Cine1.tr@SD" tvg-name="Cine 1" group-title="Filmes e séries",Cine 1
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
 #EXTINF:-1 tvg-id="Cine5 TV" tvg-name="Cine5 TV" group-title="Filmes e séries",Cine5 TV
 https://host.onlineradyotv.net:8081/cine5/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="DINAMIK DRAM" group-title="Filmes e séries",DINAMIK DRAM
+https://kool.ws/vavoo-iptv/play/2706562550a39918648f3c
+#EXTINF:-1 tvg-name="DINAMIK KOMEDI" group-title="Filmes e séries",DINAMIK KOMEDI
+https://kool.ws/vavoo-iptv/play/1764108510f341d0b9b2b3
+#EXTINF:-1 tvg-name="DIZISMART MAX" group-title="Filmes e séries",DIZISMART MAX
+https://kool.ws/vavoo-iptv/play/1165201807c63adbefc9d9
+#EXTINF:-1 tvg-name="DIZISMART PREMIUM" group-title="Filmes e séries",DIZISMART PREMIUM
+https://kool.ws/vavoo-iptv/play/1195429280e03f87d3589d
+#EXTINF:-1 tvg-name="DREAM BOX ACTION" group-title="Filmes e séries",DREAM BOX ACTION
+https://kool.ws/vavoo-iptv/play/37613920139dff0571ebd1
+#EXTINF:-1 tvg-name="DREAM DRAM" group-title="Filmes e séries",DREAM DRAM
+https://kool.ws/vavoo-iptv/play/3548409764f53722499655
+#EXTINF:-1 tvg-name="DREAM KOMEDI" group-title="Filmes e séries",DREAM KOMEDI
+https://kool.ws/vavoo-iptv/play/330122636235999c4a5f41
+#EXTINF:-1 tvg-name="EPIC DRAMA" group-title="Filmes e séries",EPIC DRAMA
+https://kool.ws/vavoo-iptv/play/6782616930c5115ad7507
+#EXTINF:-1 tvg-name="FIX CINEMA ACTION" group-title="Filmes e séries",FIX CINEMA ACTION
+https://kool.ws/vavoo-iptv/play/140294889322f1c6411b3
+#EXTINF:-1 tvg-name="FIX CINEMA BILM KURGU" group-title="Filmes e séries",FIX CINEMA BILM KURGU
+https://kool.ws/vavoo-iptv/play/2480231926f2f22c708b52
+#EXTINF:-1 tvg-name="FIX CINEMA COMEDY" group-title="Filmes e séries",FIX CINEMA COMEDY
+https://kool.ws/vavoo-iptv/play/4140720869cce516830b81
+#EXTINF:-1 tvg-name="FIX CINEMA DRAM" group-title="Filmes e séries",FIX CINEMA DRAM
+https://kool.ws/vavoo-iptv/play/28307635919edc269b7898
+#EXTINF:-1 tvg-name="FIX CINEMA FANTASTIC" group-title="Filmes e séries",FIX CINEMA FANTASTIC
+https://kool.ws/vavoo-iptv/play/245974733236c199cd8233
+#EXTINF:-1 tvg-name="FIX CINEMA KORKU" group-title="Filmes e séries",FIX CINEMA KORKU
+https://kool.ws/vavoo-iptv/play/277891079147ee107a816f
+#EXTINF:-1 tvg-name="FIX CINEMA MACERA" group-title="Filmes e séries",FIX CINEMA MACERA
+https://kool.ws/vavoo-iptv/play/29580754430ca9027bad74
+#EXTINF:-1 tvg-name="FIX CINEMA NETFLIX" group-title="Filmes e séries",FIX CINEMA NETFLIX
+https://kool.ws/vavoo-iptv/play/32169858008c38299c49bf
+#EXTINF:-1 tvg-name="FIX CINEMA YERLI" group-title="Filmes e séries",FIX CINEMA YERLI
+https://kool.ws/vavoo-iptv/play/239201347a28a02eb2603
+#EXTINF:-1 tvg-name="FIX CINEMA YESILCAM" group-title="Filmes e séries",FIX CINEMA YESILCAM
+https://kool.ws/vavoo-iptv/play/411086166261597686dd33
 #EXTINF:-1 tvg-id="FX.tr@HD" tvg-name="FX" group-title="Filmes e séries",FX
 https://saran-live.ercdn.net/fx/index.m3u8
+#EXTINF:-1 tvg-name="GEM Pixel" group-title="Filmes e séries",GEM Pixel
+https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
+#EXTINF:-1 tvg-name="GLOBAL BOX ACTION" group-title="Filmes e séries",GLOBAL BOX ACTION
+https://kool.ws/vavoo-iptv/play/2456232539a0f9283d418b
+#EXTINF:-1 tvg-name="GLOBAL BOX DRAM" group-title="Filmes e séries",GLOBAL BOX DRAM
+https://kool.ws/vavoo-iptv/play/1040144724c843e127b1f8
+#EXTINF:-1 tvg-name="Grand Cinema" group-title="Filmes e séries",Grand Cinema
+https://gcinemahls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="KanalDDrama.tr@SD" tvg-name="Kanal D Drama" group-title="Filmes e séries",Kanal D Drama
 http://190.93.224.42/KANAL-D-DRAMA/index.m3u8
+#EXTINF:-1 tvg-name="KINGBOX ACTION" group-title="Filmes e séries",KINGBOX ACTION
+https://kool.ws/vavoo-iptv/play/3186688793d82687fd0609
+#EXTINF:-1 tvg-name="MOVIESMART CLASSIC" group-title="Filmes e séries",MOVIESMART CLASSIC
+https://kool.ws/vavoo-iptv/play/1337239933e2da7f068f8a
 #EXTINF:-1 tvg-id="MovieSmartTurk.tr@SD" tvg-name="MovieSmart Turk" group-title="Filmes e séries",MovieSmart Turk
 http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
+#EXTINF:-1 tvg-name="S NEMA 1002" group-title="Filmes e séries",S NEMA 1002
+https://kool.ws/vavoo-iptv/play/1076643856c5c88735393f
+#EXTINF:-1 tvg-name="S NEMA A LE" group-title="Filmes e séries",S NEMA A LE
+https://kool.ws/vavoo-iptv/play/698495811d90e484ca252
+#EXTINF:-1 tvg-name="S NEMA A LE 2" group-title="Filmes e séries",S NEMA A LE 2
+https://kool.ws/vavoo-iptv/play/30005947634e6b4664fb0b
+#EXTINF:-1 tvg-name="S NEMA AKS YON 2" group-title="Filmes e séries",S NEMA AKS YON 2
+https://kool.ws/vavoo-iptv/play/344071158009740df4a222
+#EXTINF:-1 tvg-name="S NEMA KOMED" group-title="Filmes e séries",S NEMA KOMED
+https://kool.ws/vavoo-iptv/play/4407749499b6c2037cd18
+#EXTINF:-1 tvg-name="S NEMA TV" group-title="Filmes e séries",S NEMA TV
+https://kool.ws/vavoo-iptv/play/2780830033f62b9d4a4669
+#EXTINF:-1 tvg-name="S NEMA TV 1001" group-title="Filmes e séries",S NEMA TV 1001
+https://kool.ws/vavoo-iptv/play/27613851667b0cf470c1d7
+#EXTINF:-1 tvg-name="S NEMA TV 2" group-title="Filmes e séries",S NEMA TV 2
+https://kool.ws/vavoo-iptv/play/295060524599a0e2494fd
+#EXTINF:-1 tvg-name="S NEMA TV AKS YON" group-title="Filmes e séries",S NEMA TV AKS YON
+https://kool.ws/vavoo-iptv/play/2246993811df5da1c0152b
+#EXTINF:-1 tvg-name="S NEMA YERL" group-title="Filmes e séries",S NEMA YERL
+https://kool.ws/vavoo-iptv/play/18971594736fd7a4c68deb
+#EXTINF:-1 tvg-name="S NEMA YERL 2" group-title="Filmes e séries",S NEMA YERL 2
+https://kool.ws/vavoo-iptv/play/397160342723f52ab76e2e
+#EXTINF:-1 tvg-name="SALON 1" group-title="Filmes e séries",SALON 1
+https://kool.ws/vavoo-iptv/play/12165418955d92bd545267
+#EXTINF:-1 tvg-name="SALON 10" group-title="Filmes e séries",SALON 10
+https://kool.ws/vavoo-iptv/play/5066363042e45f28224c8
+#EXTINF:-1 tvg-name="SALON 12" group-title="Filmes e séries",SALON 12
+https://kool.ws/vavoo-iptv/play/1545056109d1f5f1225760
+#EXTINF:-1 tvg-name="SALON 14" group-title="Filmes e séries",SALON 14
+https://kool.ws/vavoo-iptv/play/25915983146f2f8e1e61c9
+#EXTINF:-1 tvg-name="SALON 16" group-title="Filmes e séries",SALON 16
+https://kool.ws/vavoo-iptv/play/36300148716d4630336614
+#EXTINF:-1 tvg-name="SALON 17" group-title="Filmes e séries",SALON 17
+https://kool.ws/vavoo-iptv/play/351772937233d26096292
+#EXTINF:-1 tvg-name="SALON 19" group-title="Filmes e séries",SALON 19
+https://kool.ws/vavoo-iptv/play/25015099ab9477fb2b92
+#EXTINF:-1 tvg-name="SALON 3" group-title="Filmes e séries",SALON 3
+https://kool.ws/vavoo-iptv/play/3828385424290f2ed403d4
+#EXTINF:-1 tvg-name="SALON 6" group-title="Filmes e séries",SALON 6
+https://kool.ws/vavoo-iptv/play/1112014302812e8b249160
+#EXTINF:-1 tvg-name="SALON 7" group-title="Filmes e séries",SALON 7
+https://kool.ws/vavoo-iptv/play/2397961536f15ee4d58fca
+#EXTINF:-1 tvg-name="SALON 9" group-title="Filmes e séries",SALON 9
+https://kool.ws/vavoo-iptv/play/26072799868f66d346f7b8
+#EXTINF:-1 tvg-name="ULTRA KOMEDI" group-title="Filmes e séries",ULTRA KOMEDI
+https://kool.ws/vavoo-iptv/play/353794604875208baceee0
 
+# Infantil (32)
+#EXTINF:-1 tvg-name="BABY TV" group-title="Infantil",BABY TV
+https://kool.ws/vavoo-iptv/play/27516589959a967260542d
+#EXTINF:-1 tvg-name="BabyFirst" group-title="Infantil",BabyFirst
+https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
+#EXTINF:-1 tvg-name="BABYTV" group-title="Infantil",BABYTV
+https://kool.ws/vavoo-iptv/play/175831345619066ec797e8
+#EXTINF:-1 tvg-name="BOOMERANG" group-title="Infantil",BOOMERANG
+https://kool.ws/vavoo-iptv/play/3510107618b4bd2dc6657d
 #EXTINF:-1 tvg-id="CartoonNetwork.tr@SD" tvg-name="Cartoon Network" group-title="Infantil",Cartoon Network
 http://176.65.153.40:6002/play/a013/index.m3u8
+#EXTINF:-1 tvg-name="COCUK 1" group-title="Infantil",COCUK 1
+https://kool.ws/vavoo-iptv/play/204606561e2a864b42de1
+#EXTINF:-1 tvg-name="COCUK 2" group-title="Infantil",COCUK 2
+https://kool.ws/vavoo-iptv/play/21934273300186e4b0974f
+#EXTINF:-1 tvg-name="COCUK 3" group-title="Infantil",COCUK 3
+https://kool.ws/vavoo-iptv/play/1310133020ac356e7be28a
+#EXTINF:-1 tvg-name="ÇOCUK SMART" group-title="Infantil",ÇOCUK SMART
+https://kool.ws/vavoo-iptv/play/1884291733f97af60f283a
+#EXTINF:-1 tvg-name="DA VINC KIDS" group-title="Infantil",DA VINC KIDS
+https://kool.ws/vavoo-iptv/play/3983067532b2b6b5e2298f
+#EXTINF:-1 tvg-name="DISNEY CHANNEL" group-title="Infantil",DISNEY CHANNEL
+https://kool.ws/vavoo-iptv/play/3578544716a4cc42d03dcd
+#EXTINF:-1 tvg-name="DISNEY JUNIOR" group-title="Infantil",DISNEY JUNIOR
+https://kool.ws/vavoo-iptv/play/6492287228e9a72f932b5
+#EXTINF:-1 tvg-name="DISNEY XD" group-title="Infantil",DISNEY XD
+https://kool.ws/vavoo-iptv/play/34228536805e87ad5629aa
 #EXTINF:-1 tvg-id="DisneyJr.tr@SD" tvg-name="Disney Jr." group-title="Infantil",Disney Jr.
 https://saran-live.ercdn.net/disneyjunior/index.m3u8
+#EXTINF:-1 tvg-name="DUCK TV" group-title="Infantil",DUCK TV
+https://kool.ws/vavoo-iptv/play/1709129189f694bdd416ac
+#EXTINF:-1 tvg-name="ILAHI COCUK TV" group-title="Infantil",ILAHI COCUK TV
+https://kool.ws/vavoo-iptv/play/40159240758445efc955c
+#EXTINF:-1 tvg-name="M N KA GO" group-title="Infantil",M N KA GO
+https://kool.ws/vavoo-iptv/play/1230912428fed514f6312b
+#EXTINF:-1 tvg-name="M N KA OCUK" group-title="Infantil",M N KA OCUK
+https://kool.ws/vavoo-iptv/play/248538205948705e1eeee
 #EXTINF:-1 tvg-id="MinikaCocuk.tr@SD" tvg-name="Minika Cocuk" group-title="Infantil",Minika Cocuk
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 #EXTINF:-1 tvg-id="MinikaGo.tr@SD" tvg-name="Minika Go" group-title="Infantil",Minika Go
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
+#EXTINF:-1 tvg-name="NICKELODEON" group-title="Infantil",NICKELODEON
+https://kool.ws/vavoo-iptv/play/3029254675256aa43dc772
+#EXTINF:-1 tvg-name="NICKTOONS" group-title="Infantil",NICKTOONS
+https://kool.ws/vavoo-iptv/play/988691374172058ef3d50
+#EXTINF:-1 tvg-name="SMART COCUK" group-title="Infantil",SMART COCUK
+https://kool.ws/vavoo-iptv/play/81357489557fd83fc1e55
 #EXTINF:-1 tvg-id="SpacetoonTurkey.tr@SD" tvg-name="Spacetoon Turkey" group-title="Infantil",Spacetoon Turkey
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 #EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Cocuk" group-title="Infantil",TRT Cocuk
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT COCUK RAW" group-title="Infantil",TRT COCUK RAW
+https://kool.ws/vavoo-iptv/play/3979837190d92f4a65c83b
 #EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr@SD" tvg-name="TRT Diyanet Çocuk" group-title="Infantil",TRT Diyanet Çocuk
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTEBAIlkokul.tr@SD" tvg-name="TRT EBA Ilkokul" group-title="Infantil",TRT EBA Ilkokul
@@ -154,23 +1187,106 @@ https://tv-e-okul00.medya.trt.com.tr/master.m3u8
 https://tv-e-okul02.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTEBA.tr@SD" tvg-name="TRT EBA Ortaokul" group-title="Infantil",TRT EBA Ortaokul
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT OCUK" group-title="Infantil",TRT OCUK
+https://kool.ws/vavoo-iptv/play/30291805064bacb8a4036d
 #EXTINF:-1 tvg-id="ZarokTV.tr@SD" tvg-name="Zarok TV" group-title="Infantil",Zarok TV
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 
+# Música (64)
+#EXTINF:-1 tvg-name="AKUSTIK" group-title="Música",AKUSTIK
+https://kool.ws/vavoo-iptv/play/3728553873d44cfc7c12c6
+#EXTINF:-1 tvg-name="DREAM AKSIYON" group-title="Música",DREAM AKSIYON
+https://kool.ws/vavoo-iptv/play/151464353675c87d7e86f2
+#EXTINF:-1 tvg-name="DREAM ANIMASYON" group-title="Música",DREAM ANIMASYON
+https://kool.ws/vavoo-iptv/play/3968360733afa6795a0a87
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 1" group-title="Música",DREAM BEIN OFFICE 1
+https://kool.ws/vavoo-iptv/play/2759159211bf8b5c4a304d
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 10" group-title="Música",DREAM BEIN OFFICE 10
+https://kool.ws/vavoo-iptv/play/385304349522b5e6fe1462
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 2" group-title="Música",DREAM BEIN OFFICE 2
+https://kool.ws/vavoo-iptv/play/382239321182403c667cfc
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 3" group-title="Música",DREAM BEIN OFFICE 3
+https://kool.ws/vavoo-iptv/play/373642004344d287985a44
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 4" group-title="Música",DREAM BEIN OFFICE 4
+https://kool.ws/vavoo-iptv/play/1821762267544ae2fe57ce
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 5" group-title="Música",DREAM BEIN OFFICE 5
+https://kool.ws/vavoo-iptv/play/1375062891fd10d8fd2891
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 6" group-title="Música",DREAM BEIN OFFICE 6
+https://kool.ws/vavoo-iptv/play/374714811264e77de4f16
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 7" group-title="Música",DREAM BEIN OFFICE 7
+https://kool.ws/vavoo-iptv/play/7249326193e69ecc36187
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 8" group-title="Música",DREAM BEIN OFFICE 8
+https://kool.ws/vavoo-iptv/play/28419726988ea14fc81958
+#EXTINF:-1 tvg-name="DREAM BEIN OFFICE 9" group-title="Música",DREAM BEIN OFFICE 9
+https://kool.ws/vavoo-iptv/play/2483365482c48056254ba2
+#EXTINF:-1 tvg-name="DREAM BOX-SET" group-title="Música",DREAM BOX-SET
+https://kool.ws/vavoo-iptv/play/855745980e86f566e4e12
+#EXTINF:-1 tvg-name="DREAM KEMAL SUNAL" group-title="Música",DREAM KEMAL SUNAL
+https://kool.ws/vavoo-iptv/play/95010505e71c34846cce
+#EXTINF:-1 tvg-name="DREAM KORKU" group-title="Música",DREAM KORKU
+https://kool.ws/vavoo-iptv/play/263155556411d21a29172d
+#EXTINF:-1 tvg-name="DREAM LOCA 1" group-title="Música",DREAM LOCA 1
+https://kool.ws/vavoo-iptv/play/263575868806b9d7bd7df4
+#EXTINF:-1 tvg-name="DREAM LOCA 2" group-title="Música",DREAM LOCA 2
+https://kool.ws/vavoo-iptv/play/3669624496050e9be68346
+#EXTINF:-1 tvg-name="DREAM LOCA 3" group-title="Música",DREAM LOCA 3
+https://kool.ws/vavoo-iptv/play/3889835776671d9bb9a169
+#EXTINF:-1 tvg-name="DREAM NETFLIX" group-title="Música",DREAM NETFLIX
+https://kool.ws/vavoo-iptv/play/1713907990c1517cdc70d9
+#EXTINF:-1 tvg-name="DREAM SAVAS" group-title="Música",DREAM SAVAS
+https://kool.ws/vavoo-iptv/play/1155291490dfd6964261e6
+#EXTINF:-1 tvg-name="DREAM T RK" group-title="Música",DREAM T RK
+https://kool.ws/vavoo-iptv/play/42666830256873dd1e7fac
+#EXTINF:-1 tvg-name="DREAM TURK (BACKUP)" group-title="Música",DREAM TURK (BACKUP)
+https://kool.ws/vavoo-iptv/play/25570906953e78b3acadc6
 #EXTINF:-1 tvg-id="DreamTurk.tr@SD" tvg-name="Dream Türk" group-title="Música",Dream Türk
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+#EXTINF:-1 tvg-name="DREAM TV" group-title="Música",DREAM TV
+https://kool.ws/vavoo-iptv/play/1383473435135cf669b662
+#EXTINF:-1 tvg-name="DREAM WESTERN" group-title="Música",DREAM WESTERN
+https://kool.ws/vavoo-iptv/play/41988499024059e546ac2f
+#EXTINF:-1 tvg-name="FM TV" group-title="Música",FM TV
+https://kool.ws/vavoo-iptv/play/425386382940c3dc27dbf2
+#EXTINF:-1 tvg-name="KN Music TV" group-title="Música",KN Music TV
+https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="KRAL POP" group-title="Música",KRAL POP
+http://dygvideo.dygdigital.com/live/hls/kralpop
 #EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-name="KRAL Pop TV" group-title="Música",KRAL Pop TV
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 tvg-name="MAYMUNLAR KRALI KONG" group-title="Música",MAYMUNLAR KRALI KONG
+https://kool.ws/vavoo-iptv/play/1536461938d9be774c0522
 #EXTINF:-1 tvg-id="MedMuzik.tr@SD" tvg-name="Med Muzik" group-title="Música",Med Muzik
 http://54.36.110.140/live3/live3.m3u8
+#EXTINF:-1 tvg-name="MTV LIVE" group-title="Música",MTV LIVE
+https://kool.ws/vavoo-iptv/play/41780715606f8ffc7fa3f
+#EXTINF:-1 tvg-name="NR1" group-title="Música",NR1
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
+#EXTINF:-1 tvg-name="NR1 DAMAR" group-title="Música",NR1 DAMAR
+https://kool.ws/vavoo-iptv/play/2432556224e96906513616
+#EXTINF:-1 tvg-name="NR1 FASHION ONE" group-title="Música",NR1 FASHION ONE
+http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
+#EXTINF:-1 tvg-name="NR1 TURK" group-title="Música",NR1 TURK
+https://kool.ws/vavoo-iptv/play/3548270931d42334c67c35
+#EXTINF:-1 tvg-name="NUMBER 1" group-title="Música",NUMBER 1
+https://kool.ws/vavoo-iptv/play/30669012188fcbf131218
 #EXTINF:-1 tvg-id="Number1Ask.tr@SD" tvg-name="Number 1 Ask" group-title="Música",Number 1 Ask
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
 #EXTINF:-1 tvg-id="Number1Damar.tr@SD" tvg-name="Number 1 Damar" group-title="Música",Number 1 Damar
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
 #EXTINF:-1 tvg-id="Number1Dance.tr@SD" tvg-name="Number 1 Dance" group-title="Música",Number 1 Dance
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
+#EXTINF:-1 tvg-name="NUMBER 1 TURK" group-title="Música",NUMBER 1 TURK
+https://kool.ws/vavoo-iptv/play/3441764529c61d112317f
 #EXTINF:-1 tvg-id="Number1TV.tr@SD" tvg-name="Number 1 TV" group-title="Música",Number 1 TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="NUMBER1 TURK" group-title="Música",NUMBER1 TURK
+https://kool.ws/vavoo-iptv/play/40428875846b4e812374d1
+#EXTINF:-1 tvg-name="Number1 Türk TV" group-title="Música",Number1 Türk TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="NUMBER1 TV" group-title="Música",NUMBER1 TV
+https://kool.ws/vavoo-iptv/play/152660259946902d02c5c6
+#EXTINF:-1 tvg-name="POWER" group-title="Música",POWER
+https://kool.ws/vavoo-iptv/play/23667904081b95cae45de4
 #EXTINF:-1 tvg-id="PowerDance.tr@SD" tvg-name="Power Dance" group-title="Música",Power Dance
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerLove.tr@SD" tvg-name="Power Love" group-title="Música",Power Love
@@ -185,63 +1301,184 @@ https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTV.tr@SD" tvg-name="Power TV" group-title="Música",Power TV
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="POWERTURK AKUSTIK" group-title="Música",POWERTURK AKUSTIK
+https://kool.ws/vavoo-iptv/play/3696281560e74fe1226862
+#EXTINF:-1 tvg-name="POWERTURK SLOW" group-title="Música",POWERTURK SLOW
+https://kool.ws/vavoo-iptv/play/3988461826ba353178d1f
+#EXTINF:-1 tvg-name="POWERTURK TAPTAZE" group-title="Música",POWERTURK TAPTAZE
+https://kool.ws/vavoo-iptv/play/152810673925021b5bd6b2
 #EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-name="PowerTurk TV" group-title="Música",PowerTurk TV
 https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Stingray Naturescape" group-title="Música",Stingray Naturescape
+https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-name="TATLISES TV" group-title="Música",TATLISES TV
+https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/chunks.m3u8
+#EXTINF:-1 tvg-name="TRT M Z K" group-title="Música",TRT M Z K
+https://kool.ws/vavoo-iptv/play/970382162286220f5fa39
+#EXTINF:-1 tvg-name="TRT MUZIK RAW" group-title="Música",TRT MUZIK RAW
+https://kool.ws/vavoo-iptv/play/433581315c4ec59f78e92
 #EXTINF:-1 tvg-id="TRTMuzik.tr@SD" tvg-name="TRT Muzik" group-title="Música",TRT Muzik
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="VINTAGE MUSIC" group-title="Música",VINTAGE MUSIC
+https://kool.ws/vavoo-iptv/play/344040122633a0c3af886a
 
+# Natureza (2)
+#EXTINF:-1 tvg-name="Woman TV" group-title="Natureza",Woman TV
+https://embedlp.becdn.net/womantv.m3u8
 #EXTINF:-1 tvg-id="YABAN TV" tvg-name="YABAN TV" group-title="Natureza",YABAN TV
 https://59cba4d34b678.streamlock.net/live1/yabantv/playlist.m3u8
 
+# Notícias (74)
+#EXTINF:-1 tvg-name="24 HABER HD+" group-title="Notícias",24 HABER HD+
+https://kool.ws/vavoo-iptv/play/3828793616b62b9cc5834c
 #EXTINF:-1 tvg-id="AHaber.tr@SD" tvg-name="A Haber" group-title="Notícias",A Haber
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+#EXTINF:-1 tvg-name="A HABER HEVC" group-title="Notícias",A HABER HEVC
+https://kool.ws/vavoo-iptv/play/3766846723a124db6f6244
+#EXTINF:-1 tvg-name="A HABER RAW" group-title="Notícias",A HABER RAW
+https://kool.ws/vavoo-iptv/play/2511732024145ccd20a5d3
+#EXTINF:-1 tvg-name="A NEWS" group-title="Notícias",A NEWS
+https://kool.ws/vavoo-iptv/play/8121316298dfb2ba1be71
+#EXTINF:-1 tvg-name="A NEWS RAW" group-title="Notícias",A NEWS RAW
+https://kool.ws/vavoo-iptv/play/3415462105074dc2b1d646
+#EXTINF:-1 tvg-name="A Para" group-title="Notícias",A Para
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8
+#EXTINF:-1 tvg-name="A PARA RAW" group-title="Notícias",A PARA RAW
+https://kool.ws/vavoo-iptv/play/4202445834678957f05238
+#EXTINF:-1 tvg-name="A Türk Izmir" group-title="Notícias",A Türk Izmir
+https://vdo.digitalbox.xyz:3807/stream/play.m3u8
+#EXTINF:-1 tvg-name="AA Live" group-title="Notícias",AA Live
+https://mtulqxgomrllive.mediatriple.net/mtulqxgomrllive/broadcast_59f9c0c785b88.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="AK T TV" group-title="Notícias",AK T TV
+https://kool.ws/vavoo-iptv/play/344558568784e9a5583953
+#EXTINF:-1 tvg-name="BENG T RK" group-title="Notícias",BENG T RK
+https://kool.ws/vavoo-iptv/play/2702376790ed1b5502281a
+#EXTINF:-1 tvg-name="BENGU TURK" group-title="Notícias",BENGU TURK
+https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8
 #EXTINF:-1 tvg-id="BenguturkTV.tr@SD" tvg-name="Benguturk TV" group-title="Notícias",Benguturk TV
 http://185.234.111.229:8000/play/a05u
 #EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-name="Bloomberg HT" group-title="Notícias",Bloomberg HT
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 #EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-name="BloombergHT" group-title="Notícias",BloombergHT
 https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
+#EXTINF:-1 tvg-name="BLOOMBERGHT RAW" group-title="Notícias",BLOOMBERGHT RAW
+https://kool.ws/vavoo-iptv/play/35781502601487862e9ea4
+#EXTINF:-1 tvg-name="Bursa AS TV" group-title="Notícias",Bursa AS TV
+https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="CNBCe.tr@SD" tvg-name="CNBC-e" group-title="Notícias",CNBC-e
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+#EXTINF:-1 tvg-name="CNN T RK" group-title="Notícias",CNN T RK
+https://kool.ws/vavoo-iptv/play/2056768647bd7eb3f3cf70
+#EXTINF:-1 tvg-name="CNN T RK HEVC" group-title="Notícias",CNN T RK HEVC
+https://kool.ws/vavoo-iptv/play/2311285186e1b48c06b6ab
+#EXTINF:-1 tvg-name="CNN T RK RAW" group-title="Notícias",CNN T RK RAW
+https://kool.ws/vavoo-iptv/play/3583754923288bb21bc8bc
 #EXTINF:-1 tvg-id="CNNTurk.tr@SD" tvg-name="CNN Turk" group-title="Notícias",CNN Turk
 http://85.117.61.84/cnnturk/index.m3u8
+#EXTINF:-1 tvg-name="Deha TV" group-title="Notícias",Deha TV
+https://live.artidijitalmedya.com/artidijital_dehatv/dehatv/playlist.m3u8
 #EXTINF:-1 tvg-id="DHA.tr@SD" tvg-name="DHA" group-title="Notícias",DHA
 https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
+#EXTINF:-1 tvg-name="EKOL TV" group-title="Notícias",EKOL TV
+https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 #EXTINF:-1 tvg-id="Ekoturk.tr@SD" tvg-name="Ekoturk" group-title="Notícias",Ekoturk
 https://cdn.ekoturk.net/hls/master.m3u8
 #EXTINF:-1 tvg-id="FinansTurkTV.tr@SD" tvg-name="Finans Turk TV" group-title="Notícias",Finans Turk TV
 https://yayin30.haber100.com/live/finansturk/playlist.m3u8
 #EXTINF:-1 tvg-id="FlashHaberTV.tr@SD" tvg-name="Flash Haber TV" group-title="Notícias",Flash Haber TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="GLOBAL HABER" group-title="Notícias",GLOBAL HABER
+https://kool.ws/vavoo-iptv/play/1224377838995614ed0843
+#EXTINF:-1 tvg-name="GURBET24 TV" group-title="Notícias",GURBET24 TV
+https://kool.ws/vavoo-iptv/play/55116964941a7acb8360
 #EXTINF:-1 tvg-id="GZT.tr@SD" tvg-name="GZT" group-title="Notícias",GZT
 https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
+#EXTINF:-1 tvg-name="HABER 61" group-title="Notícias",HABER 61
+https://kool.ws/vavoo-iptv/play/292300494652c302afd5d5
 #EXTINF:-1 tvg-id="HaberGlobal.tr@SD" tvg-name="Haber Global" group-title="Notícias",Haber Global
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+#EXTINF:-1 tvg-name="HABER TURK" group-title="Notícias",HABER TURK
+https://kool.ws/vavoo-iptv/play/2360854158813051c3c887
+#EXTINF:-1 tvg-name="HABER TURK HEVC" group-title="Notícias",HABER TURK HEVC
+https://kool.ws/vavoo-iptv/play/1857563183bcf218ac2da8
 #EXTINF:-1 tvg-id="Haber61TV.tr@SD" tvg-name="Haber61 TV" group-title="Notícias",Haber61 TV
 https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
+#EXTINF:-1 tvg-name="Haber61 TV" group-title="Notícias",Haber61 TV
+https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="HABERGLOBAL" tvg-name="HABERGLOBAL" group-title="Notícias",HABERGLOBAL
 https://mn-nl.mncdn.com/blutv_haberglobal_dvr/live_720p2000000/index.m3u8
+#EXTINF:-1 tvg-name="HABERT RK" group-title="Notícias",HABERT RK
+https://kool.ws/vavoo-iptv/play/4253369376912583d237b6
 #EXTINF:-1 tvg-id="HABERTURK" tvg-name="HABERTURK" group-title="Notícias",HABERTURK
 https://mn-nl.mncdn.com/blutv_haberturk_dvr/live_720p2000000/index.m3u8
+#EXTINF:-1 tvg-name="HABERTURK RAW" group-title="Notícias",HABERTURK RAW
+https://kool.ws/vavoo-iptv/play/2129890787bca734ae3a3c
 #EXTINF:-1 tvg-id="HaberturkTV.tr@SD" tvg-name="Habertürk TV" group-title="Notícias",Habertürk TV
 https://tv.ensonhaber.com/haberturk/haberturk.m3u8
+#EXTINF:-1 tvg-name="KRT TV" group-title="Notícias",KRT TV
+https://kool.ws/vavoo-iptv/play/3266397146eeea3bece51d
+#EXTINF:-1 tvg-name="Kudüs TV" group-title="Notícias",Kudüs TV
+https://yayin.kudustv.com/981680400/kudustv/playlist.m3u8
+#EXTINF:-1 tvg-name="LIDER HABER" group-title="Notícias",LIDER HABER
+https://kool.ws/vavoo-iptv/play/70369886837bb68700663
+#EXTINF:-1 tvg-name="LİDER HABER TV" group-title="Notícias",LİDER HABER TV
+http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/playlist.m3u8
+#EXTINF:-1 tvg-name="LKE TV" group-title="Notícias",LKE TV
+https://kool.ws/vavoo-iptv/play/1839766333cbe160b34439
+#EXTINF:-1 tvg-name="MEDYA HABER" group-title="Notícias",MEDYA HABER
+https://kool.ws/vavoo-iptv/play/22309682628a9ba731b044
 #EXTINF:-1 tvg-id="NTV.tr@SD" tvg-name="NTV" group-title="Notícias",NTV
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
+#EXTINF:-1 tvg-name="NTV HABER" group-title="Notícias",NTV HABER
+https://kool.ws/vavoo-iptv/play/12204176595f082e0b0497
+#EXTINF:-1 tvg-name="NTV HABER HEVC" group-title="Notícias",NTV HABER HEVC
+https://kool.ws/vavoo-iptv/play/17128499338be117e18642
+#EXTINF:-1 tvg-name="NTV RAW" group-title="Notícias",NTV RAW
+https://kool.ws/vavoo-iptv/play/2862710352d0c07152cd12
+#EXTINF:-1 tvg-name="ON Medya Haber" group-title="Notícias",ON Medya Haber
+http://live.arkumedia.com:1935/marmaratv/marmaratv/playlist.m3u8
+#EXTINF:-1 tvg-name="S ZC SZC TV" group-title="Notícias",S ZC SZC TV
+https://kool.ws/vavoo-iptv/play/24669057008c1d07812ce0
+#EXTINF:-1 tvg-name="SOZCU SZC TV" group-title="Notícias",SOZCU SZC TV
+https://kool.ws/vavoo-iptv/play/1098172953a40c7864dfeb
 #EXTINF:-1 tvg-id="SozcuTV.tr@SD" tvg-name="Sozcu TV" group-title="Notícias",Sozcu TV
 https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8
+#EXTINF:-1 tvg-name="SZC" group-title="Notícias",SZC
+https://kool.ws/vavoo-iptv/play/2036794972b992547192b9
 #EXTINF:-1 tvg-id="Tele1.tr@SD" tvg-name="Tele 1" group-title="Notícias",Tele 1
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 tvg-id="TGRTHaber.tr@SD" tvg-name="TGRT Haber" group-title="Notícias",TGRT Haber
 https://canli.tgrthaber.com/tgrt.m3u8
+#EXTINF:-1 tvg-name="TGRT Haber" group-title="Notícias",TGRT Haber
+https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="TGRT HABER HEVC" group-title="Notícias",TGRT HABER HEVC
+https://kool.ws/vavoo-iptv/play/1355881287ef2e990a9c27
 #EXTINF:-1 tvg-id="24TV.tr@SD" tvg-name="TR24 TV" group-title="Notícias",TR24 TV
 https://tv.ensonhaber.com/tv24/tv24.m3u8
 #EXTINF:-1 tvg-id="TRTHaber.tr@SD" tvg-name="TRT Haber" group-title="Notícias",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT HABER HEVC" group-title="Notícias",TRT HABER HEVC
+https://kool.ws/vavoo-iptv/play/20579655530debfaed90ec
+#EXTINF:-1 tvg-name="TRT HABER RAW" group-title="Notícias",TRT HABER RAW
+https://kool.ws/vavoo-iptv/play/9310866570238353d89b
 #EXTINF:-1 tvg-id="TurkHaberTV.tr@SD" tvg-name="TürkHaber" group-title="Notícias",TürkHaber
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="TÜRKHABER TV" group-title="Notícias",TÜRKHABER TV
+https://kool.ws/vavoo-iptv/play/2012038243cd78e54611e8
+#EXTINF:-1 tvg-name="TV 100" group-title="Notícias",TV 100
+https://tv100.daioncdn.net/tv100/tv100_1080p.m3u8?app=web
+#EXTINF:-1 tvg-name="TV100" group-title="Notícias",TV100
+https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
+#EXTINF:-1 tvg-name="TV5" group-title="Notícias",TV5
+https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNET.tr@SD" tvg-name="TVNET" group-title="Notícias",TVNET
 https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1 tvg-name="ULKETV" group-title="Notícias",ULKETV
+https://kool.ws/vavoo-iptv/play/32033343438cc3c5fe5041
+#EXTINF:-1 tvg-name="Ulusal Kanal" group-title="Notícias",Ulusal Kanal
+https://internettv.guventechnology.com/hls/ulusaltv/index.m3u8
 
+# Regionais (103)
 #EXTINF:-1 tvg-id="24 TV" tvg-name="24 TV" group-title="Regionais",24 TV
 https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/chunklist_b896000.m3u8
 #EXTINF:-1 tvg-id="360.tr@SD" tvg-name="360 TV" group-title="Regionais",360 TV
@@ -250,12 +1487,20 @@ https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 https://hls.4utv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="A2TV.tr@SD" tvg-name="A2TV" group-title="Regionais",A2TV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
+#EXTINF:-1 tvg-name="ADA TV" group-title="Regionais",ADA TV
+https://kool.ws/vavoo-iptv/play/42259617152e399e6d2ef0
+#EXTINF:-1 tvg-name="ADIYAMAN MERCAN TV" group-title="Regionais",ADIYAMAN MERCAN TV
+https://kool.ws/vavoo-iptv/play/3055235391a02f432de784
 #EXTINF:-1 tvg-id="AfroturkTV.tr@SD" tvg-name="Afroturk TV" group-title="Regionais",Afroturk TV
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="AFYON T RK TV" group-title="Regionais",AFYON T RK TV
+https://kool.ws/vavoo-iptv/play/145755891783da06dac9f
 #EXTINF:-1 tvg-id="Afyon Türk TV" tvg-name="Afyon Türk TV" group-title="Regionais",Afyon Türk TV
 https://5be5d840359c6.streamlock.net/afyonturktv/afyonturktv/playlist.m3u8
 #EXTINF:-1 tvg-id="Akit TV" tvg-name="Akit TV" group-title="Regionais",Akit TV
 https://akittv-live.ercdn.net/akittv/akittv_720p.m3u8
+#EXTINF:-1 tvg-name="AKSARAY KANAL 68" group-title="Regionais",AKSARAY KANAL 68
+https://kool.ws/vavoo-iptv/play/9558066722545d9635261
 #EXTINF:-1 tvg-id="AksuTV.tr@SD" tvg-name="Aksu TV" group-title="Regionais",Aksu TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlanyaPostaTV.tr@SD" tvg-name="Alanya Posta TV" group-title="Regionais",Alanya Posta TV
@@ -266,8 +1511,12 @@ https://starmenajo.com/hls/almahriah/index.m3u8
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="AnadoluNetTV.tr@SD" tvg-name="Anadolu Net TV" group-title="Regionais",Anadolu Net TV
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
+#EXTINF:-1 tvg-name="ANTALYA KANAL V" group-title="Regionais",ANTALYA KANAL V
+https://kool.ws/vavoo-iptv/play/19407670052f2ca6260436
 #EXTINF:-1 tvg-id="ArasTV.tr@SD" tvg-name="ARAS TV" group-title="Regionais",ARAS TV
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="AS TV BURSA" group-title="Regionais",AS TV BURSA
+https://kool.ws/vavoo-iptv/play/1889158339289b18ba407c
 #EXTINF:-1 tvg-id="ATV.tr@SD" tvg-name="ATV" group-title="Regionais",ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 tvg-id="ATVAlanya.tr@SD" tvg-name="ATV Alanya" group-title="Regionais",ATV Alanya
@@ -288,24 +1537,44 @@ https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
 https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="CiftciTV.tr@SD" tvg-name="Çiftçi TV" group-title="Regionais",Çiftçi TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
+#EXTINF:-1 tvg-name="DENIZLI DEHA TV" group-title="Regionais",DENIZLI DEHA TV
+https://kool.ws/vavoo-iptv/play/23018905930073141351c
 #EXTINF:-1 tvg-id="DenizPostasiTV.tr@SD" tvg-name="Deniz Postası TV" group-title="Regionais",Deniz Postası TV
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 tvg-id="DiyarTV.tr@SD" tvg-name="Diyar TV" group-title="Regionais",Diyar TV
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
+#EXTINF:-1 tvg-name="DURSUN AL ERZINCANLI" group-title="Regionais",DURSUN AL ERZINCANLI
+https://kool.ws/vavoo-iptv/play/2838364281c66447dda010
 #EXTINF:-1 tvg-id="EdessaTV.tr@SD" tvg-name="Edessa TV" group-title="Regionais",Edessa TV
 https://canli.edessatv.com/hls/stream.m3u8
+#EXTINF:-1 tvg-name="EDIRNE ETV" group-title="Regionais",EDIRNE ETV
+https://kool.ws/vavoo-iptv/play/658726604ae88a8e690ef
+#EXTINF:-1 tvg-name="EGE ILE GAGA" group-title="Regionais",EGE ILE GAGA
+https://kool.ws/vavoo-iptv/play/36508969020f6d070f25ea
+#EXTINF:-1 tvg-name="EGE TURK TV" group-title="Regionais",EGE TURK TV
+https://kool.ws/vavoo-iptv/play/4225938876155a05d54219
+#EXTINF:-1 tvg-name="ELAZIG KANAL 23" group-title="Regionais",ELAZIG KANAL 23
+https://kool.ws/vavoo-iptv/play/350404585796b6d306497a
+#EXTINF:-1 tvg-name="ELAZIG KANAL FIRAT" group-title="Regionais",ELAZIG KANAL FIRAT
+https://kool.ws/vavoo-iptv/play/634397776501ceff80d97
 #EXTINF:-1 tvg-id="ERTV.tr@SD" tvg-name="Er TV" group-title="Regionais",Er TV
 https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
 #EXTINF:-1 tvg-id="ErzurumWebTV.tr@SD" tvg-name="Erzurum Web TV" group-title="Regionais",Erzurum Web TV
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 #EXTINF:-1 tvg-id="ESTV.tr@SD" tvg-name="ES TV" group-title="Regionais",ES TV
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
+#EXTINF:-1 tvg-name="ES TV (ESKISEHIR)" group-title="Regionais",ES TV (ESKISEHIR)
+https://kool.ws/vavoo-iptv/play/1670462361617c4d6f0099
 #EXTINF:-1 tvg-id="ETVKayseri.tr@SD" tvg-name="ETV Kayseri" group-title="Regionais",ETV Kayseri
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 #EXTINF:-1 tvg-id="ETVManisa.tr@SD" tvg-name="ETV Manisa" group-title="Regionais",ETV Manisa
 https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="FortunaTV.tr@HD" tvg-name="Fortuna TV" group-title="Regionais",Fortuna TV
 https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="GAZIANTEP GRT TV" group-title="Regionais",GAZIANTEP GRT TV
+https://kool.ws/vavoo-iptv/play/28430116980561d04db9e1
+#EXTINF:-1 tvg-name="GAZIANTEP OLAY TV" group-title="Regionais",GAZIANTEP OLAY TV
+https://kool.ws/vavoo-iptv/play/24135369173688afe711d0
 #EXTINF:-1 tvg-id="GuneydoguTV.tr@SD" tvg-name="Guneydogu TV" group-title="Regionais",Guneydogu TV
 https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="HalkTV.tr@SD" tvg-name="Halk TV" group-title="Regionais",Halk TV
@@ -316,10 +1585,24 @@ https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8
 https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="IlkeTV.tr@HD" tvg-name="Ilke TV" group-title="Regionais",Ilke TV
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
+#EXTINF:-1 tvg-name="KAHRAMANMARA AKSU TV" group-title="Regionais",KAHRAMANMARA AKSU TV
+https://kool.ws/vavoo-iptv/play/1716018058bd4b2efcbfe2
 #EXTINF:-1 tvg-id="KayTV.tr@SD" tvg-name="Kay TV" group-title="Regionais",Kay TV
 https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
+#EXTINF:-1 tvg-name="KAYSERI KAY TV" group-title="Regionais",KAYSERI KAY TV
+https://kool.ws/vavoo-iptv/play/1680483887afbf5bdf5ab
+#EXTINF:-1 tvg-name="KAYSERI KENT TV" group-title="Regionais",KAYSERI KENT TV
+https://kool.ws/vavoo-iptv/play/161664882db20229c6558
+#EXTINF:-1 tvg-name="KAYSERI OLAY T RK TV" group-title="Regionais",KAYSERI OLAY T RK TV
+https://kool.ws/vavoo-iptv/play/2071472807593f1d194a5a
 #EXTINF:-1 tvg-id="KentTurk.tr@SD" tvg-name="Kent Türk TV" group-title="Regionais",Kent Türk TV
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
+#EXTINF:-1 tvg-name="KIBRIS GENÇ TV" group-title="Regionais",KIBRIS GENÇ TV
+https://kool.ws/vavoo-iptv/play/311547741928e82131a818
+#EXTINF:-1 tvg-name="KIBRIS KANAL T" group-title="Regionais",KIBRIS KANAL T
+https://kool.ws/vavoo-iptv/play/506213824a8ea2f79b5e0
+#EXTINF:-1 tvg-name="KIBRIS TV" group-title="Regionais",KIBRIS TV
+https://kool.ws/vavoo-iptv/play/6319306667939f9fe7402
 #EXTINF:-1 tvg-id="KocaeliTV.tr@SD" tvg-name="Kocaeli TV" group-title="Regionais",Kocaeli TV
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="KonyaOlayTV.tr@SD" tvg-name="Konya Olay TV" group-title="Regionais",Konya Olay TV
@@ -336,8 +1619,12 @@ https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
 https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
 #EXTINF:-1 tvg-id="MercanTV.tr@SD" tvg-name="Mercan TV" group-title="Regionais",Mercan TV
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
+#EXTINF:-1 tvg-name="MERSIN EL TV" group-title="Regionais",MERSIN EL TV
+https://kool.ws/vavoo-iptv/play/1480015488d6661e191760
 #EXTINF:-1 tvg-id="MTurkTV.tr@SD" tvg-name="MTürk TV" group-title="Regionais",MTürk TV
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="MUSLUM GURSES" group-title="Regionais",MUSLUM GURSES
+https://kool.ws/vavoo-iptv/play/1953745495384d5f996a8
 #EXTINF:-1 tvg-id="NaturalTV.tr@SD" tvg-name="Natural TV" group-title="Regionais",Natural TV
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="OlayTurkTV.tr@SD" tvg-name="Olay Türk TV Kayseri" group-title="Regionais",Olay Türk TV Kayseri
@@ -352,8 +1639,12 @@ https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec
 http://139.162.182.79/live/test/index.m3u8
 #EXTINF:-1 tvg-id="SercemTV.tr@HD" tvg-name="Sercem TV" group-title="Regionais",Sercem TV
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="SEZEN AKSU" group-title="Regionais",SEZEN AKSU
+https://kool.ws/vavoo-iptv/play/256280452446a20320e0a2
 #EXTINF:-1 tvg-id="Show TV" tvg-name="Show TV" group-title="Regionais",Show TV
 https://mn-nl.mncdn.com/blutv_showtv2/live.m3u8
+#EXTINF:-1 tvg-name="SIVAS VIZYON 58 TV" group-title="Regionais",SIVAS VIZYON 58 TV
+https://kool.ws/vavoo-iptv/play/716793106eede08a41963
 #EXTINF:-1 tvg-id="StarTV.tr@SD" tvg-name="Star TV" group-title="Regionais",Star TV
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
 #EXTINF:-1 tvg-id="SunRTV.tr@SD" tvg-name="Sun RTV" group-title="Regionais",Sun RTV
@@ -366,6 +1657,8 @@ https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 #EXTINF:-1 tvg-name="Torba TV" group-title="Regionais",Torba TV
 https://59cba4d34b678.streamlock.net/canlitv/torbatv/playlist.m3u8
+#EXTINF:-1 tvg-name="TUNCELI DERSIM 62 TV" group-title="Regionais",TUNCELI DERSIM 62 TV
+https://kool.ws/vavoo-iptv/play/9421802182c74dba9e1e6
 #EXTINF:-1 tvg-id="TV1.tr@SD" tvg-name="TV 1" group-title="Regionais",TV 1
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="24TV.tr@SD" tvg-name="TV 24" group-title="Regionais",TV 24
@@ -380,27 +1673,39 @@ https://canli.tv42.com.tr/memfs/d936e417-c4bd-4d42-89a2-02f289892d1d.m3u8
 https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV8.tr@SD" tvg-name="TV 8" group-title="Regionais",TV 8
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 tvg-name="TV KAYSERI" group-title="Regionais",TV KAYSERI
+https://kool.ws/vavoo-iptv/play/2378683302a90688067b08
 #EXTINF:-1 tvg-id="UlkeTV.tr@SD" tvg-name="Ulke TV" group-title="Regionais",Ulke TV
 http://217.174.229.138:8000/play/a0el
 #EXTINF:-1 tvg-id="UrfaNatikTV.tr@SD" tvg-name="Urfa Natik TV" group-title="Regionais",Urfa Natik TV
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
 #EXTINF:-1 tvg-id="Van65TV.tr@SD" tvg-name="Van 65 TV" group-title="Regionais",Van 65 TV
 https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
+#EXTINF:-1 tvg-name="YENI KOCAELI TV" group-title="Regionais",YENI KOCAELI TV
+https://kool.ws/vavoo-iptv/play/758663570c267cae815eb
+#EXTINF:-1 tvg-name="ZONGULDAK KANAL Z" group-title="Regionais",ZONGULDAK KANAL Z
+https://kool.ws/vavoo-iptv/play/1467834090ec77c1def93a
 
+# Religiosos (11)
+#EXTINF:-1 tvg-name="Al Rafidain" group-title="Religiosos",Al Rafidain
+https://arrafidain.tvplayer.online/arrafidaintv/source/playlist.m3u8
 #EXTINF:-1 tvg-id="AlZahraTVTurkic.tr@SD" tvg-name="Al-Zahra TV Turkic" group-title="Religiosos",Al-Zahra TV Turkic
 https://live.al-zahratv.com/live/playlist.m3u8
 #EXTINF:-1 tvg-id="DiyanetTV.tr@SD" tvg-name="Diyanet TV" group-title="Religiosos",Diyanet TV
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="DostTV.tr@SD" tvg-name="Dost TV" group-title="Religiosos",Dost TV
 https://dost.stream.emsal.im/tv/live.m3u8
+#EXTINF:-1 tvg-name="Imam Hussein TV 5" group-title="Religiosos",Imam Hussein TV 5
+http://live.al-zahratv.com/live/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalHayat.tr@SD" tvg-name="Kanal Hayat" group-title="Religiosos",Kanal Hayat
 https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
 #EXTINF:-1 tvg-id="LalegulTV.tr@SD" tvg-name="Lalegul TV" group-title="Religiosos",Lalegul TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1 tvg-name="Lalegül TV" group-title="Religiosos",Lalegül TV
+http://lalegultv.netmedya.net/hls/lalegultv.m3u8
 #EXTINF:-1 tvg-id="Sat7Turk.cy@SD" tvg-name="Sat7 Türk" group-title="Religiosos",Sat7 Türk
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 #EXTINF:-1 tvg-id="SemerkandTV.tr@SD" tvg-name="Semerkand TV" group-title="Religiosos",Semerkand TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="VavTV.tr@SD" tvg-name="Vav TV" group-title="Religiosos",Vav TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
-
