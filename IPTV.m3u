@@ -743,7 +743,7 @@ https://waw2.artiyerelmedya.net/kanal3/bant1/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8
 
-#EXTINF:-1 group-title="REGIONAIS",125 - Kanal 3 (backup 3)
+#EXTINF:-1 tvg-id="Kanal33.tr" group-title="REGIONAIS",125 - Kanal 3 (backup 3)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
