@@ -1,13 +1,23 @@
 #EXTM3U
-# Compilado ampliado de canais turcos publicados em playlists públicas do GitHub.
-# Fonte principal: iptv-org/iptv (streams/tr.m3u); preservados também canais adicionais da versão anterior.
-# Duplicatas por canal removidas; categorias e nomes ordenados alfabeticamente.
-# Apenas canais lineares; VOD e links manifestamente temporários/assinados foram excluídos.
+# Compilado de canais de todas as playlists publicas identificadas nos repositorios de origem.
+# Fontes: iptv-org/iptv streams/tr.m3u; itasli/TURKTV index.m3u; ztps/iptv playlist.m3u; canais adicionais da compilacao anterior.
+# Categorias e canais em ordem alfabetica; duplicatas de nomes consolidadas.
+# Excluidos VOD, imagens, URLs com credenciais/tokens e manifestos temporarios assinados.
 
+#EXTINF:-1 tvg-name="BLUTV BELGESEL" group-title="Documentários",BLUTV BELGESEL
+https://d1grcygon2cylc.cloudfront.net/out/v1/39e430e8c1ce4a8d8176c7be8c743529/index.m3u8
+#EXTINF:-1 tvg-id="DMAX" tvg-name="DMAX" group-title="Documentários",DMAX
+https://mn-nl.mncdn.com/blutv_dmax_dvr/live_720p2000000/index.m3u8
+#EXTINF:-1 tvg-name="INVESTIGATION DISCOVERY" group-title="Documentários",INVESTIGATION DISCOVERY
+https://dnx8nkmlprapr.cloudfront.net/out/v1/c9e1c183395d4d29a9fa34ecdef4163b/master.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" tvg-name="National Geographic Wild" group-title="Documentários",National Geographic Wild
 https://saran-live.ercdn.net/natgeowild/index.m3u8
+#EXTINF:-1 tvg-id="TGRT Belgesel" tvg-name="TGRT Belgesel" group-title="Documentários",TGRT Belgesel
+https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/chunklist_b600000.m3u8
 #EXTINF:-1 tvg-id="TGRTBelgesel.tr@SD" tvg-name="TGRT Belgesel TV" group-title="Documentários",TGRT Belgesel TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TLC" tvg-name="TLC" group-title="Documentários",TLC
+https://mn-nl.mncdn.com/blutv_tlc_dvr/live_720p2000000/index.m3u8
 #EXTINF:-1 tvg-id="TRTBelgesel.tr@SD" tvg-name="TRT Belgesel" group-title="Documentários",TRT Belgesel
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="ViasatHistory.tr@SD" tvg-name="Viasat History" group-title="Documentários",Viasat History
@@ -85,6 +95,10 @@ http://176.65.153.26:6004/play/a02s/index.m3u8
 http://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 tvg-id="TV4.tr@SD" tvg-name="TV4" group-title="Entretenimento",TV4
 https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+#EXTINF:-1 tvg-id="TV8 INT" tvg-name="TV8 INT" group-title="Entretenimento",TV8 INT
+https://mn-nl.mncdn.com/blutv_tv8_int2/live.m3u8
+#EXTINF:-1 tvg-id="TV8.5" tvg-name="TV8.5" group-title="Entretenimento",TV8.5
+https://mn-nl.mncdn.com/blutv_tv8_52/live.m3u8
 
 #EXTINF:-1 tvg-id="ASpor.tr@SD" tvg-name="A Spor" group-title="Esportes",A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
@@ -96,8 +110,10 @@ http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
 #EXTINF:-1 tvg-id="SSport2.tr@SD" tvg-name="S Sport 2" group-title="Esportes",S Sport 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
-#EXTINF:-1 tvg-id="BricveSatrancTV.tr@SD" tvg-name="Satranç TV" group-title="Esportes",Satranç TV
-http://139.162.182.79/live/test/index.m3u8
+#EXTINF:-1 tvg-id="Sports TV" tvg-name="Sports TV" group-title="Esportes",Sports TV
+https://mn-nl.mncdn.com/blutv_sportstv2/live_720p2000000kbps/index.m3u8
+#EXTINF:-1 tvg-id="Tivibu Spor" tvg-name="Tivibu Spor" group-title="Esportes",Tivibu Spor
+http://dl1.webtv.ttnet.com.tr/konf/mob/web16009.isml/QualityLevels(1564000)/manifest(format=m3u8-aapl).m3u8
 #EXTINF:-1 tvg-id="TJKTV.tr@SD" tvg-name="TJK TV" group-title="Esportes",TJK TV
 https://tjktv-live.tjk.org/tjktv.m3u8
 #EXTINF:-1 tvg-id="TJKTV2.tr@SD" tvg-name="TJK TV 2" group-title="Esportes",TJK TV 2
@@ -109,6 +125,8 @@ https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
 
 #EXTINF:-1 tvg-id="Cine1.tr@SD" tvg-name="Cine 1" group-title="Filmes e séries",Cine 1
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
+#EXTINF:-1 tvg-id="Cine5 TV" tvg-name="Cine5 TV" group-title="Filmes e séries",Cine5 TV
+https://host.onlineradyotv.net:8081/cine5/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="FX.tr@HD" tvg-name="FX" group-title="Filmes e séries",FX
 https://saran-live.ercdn.net/fx/index.m3u8
 #EXTINF:-1 tvg-id="KanalDDrama.tr@SD" tvg-name="Kanal D Drama" group-title="Filmes e séries",Kanal D Drama
@@ -172,6 +190,9 @@ https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTMuzik.tr@SD" tvg-name="TRT Muzik" group-title="Música",TRT Muzik
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-id="YABAN TV" tvg-name="YABAN TV" group-title="Natureza",YABAN TV
+https://59cba4d34b678.streamlock.net/live1/yabantv/playlist.m3u8
+
 #EXTINF:-1 tvg-id="AHaber.tr@SD" tvg-name="A Haber" group-title="Notícias",A Haber
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
 #EXTINF:-1 tvg-id="BenguturkTV.tr@SD" tvg-name="Benguturk TV" group-title="Notícias",Benguturk TV
@@ -198,6 +219,10 @@ https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
 #EXTINF:-1 tvg-id="Haber61TV.tr@SD" tvg-name="Haber61 TV" group-title="Notícias",Haber61 TV
 https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
+#EXTINF:-1 tvg-id="HABERGLOBAL" tvg-name="HABERGLOBAL" group-title="Notícias",HABERGLOBAL
+https://mn-nl.mncdn.com/blutv_haberglobal_dvr/live_720p2000000/index.m3u8
+#EXTINF:-1 tvg-id="HABERTURK" tvg-name="HABERTURK" group-title="Notícias",HABERTURK
+https://mn-nl.mncdn.com/blutv_haberturk_dvr/live_720p2000000/index.m3u8
 #EXTINF:-1 tvg-id="HaberturkTV.tr@SD" tvg-name="Habertürk TV" group-title="Notícias",Habertürk TV
 https://tv.ensonhaber.com/haberturk/haberturk.m3u8
 #EXTINF:-1 tvg-id="NTV.tr@SD" tvg-name="NTV" group-title="Notícias",NTV
@@ -217,6 +242,8 @@ https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNET.tr@SD" tvg-name="TVNET" group-title="Notícias",TVNET
 https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
 
+#EXTINF:-1 tvg-id="24 TV" tvg-name="24 TV" group-title="Regionais",24 TV
+https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/chunklist_b896000.m3u8
 #EXTINF:-1 tvg-id="360.tr@SD" tvg-name="360 TV" group-title="Regionais",360 TV
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 #EXTINF:-1 tvg-id="4UTV.tr@SD" tvg-name="4U TV" group-title="Regionais",4U TV
@@ -225,6 +252,10 @@ https://hls.4utv.live/hls/stream.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 #EXTINF:-1 tvg-id="AfroturkTV.tr@SD" tvg-name="Afroturk TV" group-title="Regionais",Afroturk TV
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="Afyon Türk TV" tvg-name="Afyon Türk TV" group-title="Regionais",Afyon Türk TV
+https://5be5d840359c6.streamlock.net/afyonturktv/afyonturktv/playlist.m3u8
+#EXTINF:-1 tvg-id="Akit TV" tvg-name="Akit TV" group-title="Regionais",Akit TV
+https://akittv-live.ercdn.net/akittv/akittv_720p.m3u8
 #EXTINF:-1 tvg-id="AksuTV.tr@SD" tvg-name="Aksu TV" group-title="Regionais",Aksu TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlanyaPostaTV.tr@SD" tvg-name="Alanya Posta TV" group-title="Regionais",Alanya Posta TV
@@ -317,8 +348,12 @@ https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
 https://patitv.radyotelekomtv.com:3958/live/patitvlive.m3u8
 #EXTINF:-1 tvg-id="QafTV.tr@SD" tvg-name="Qaf TV" group-title="Regionais",Qaf TV
 https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8
+#EXTINF:-1 tvg-id="BricveSatrancTV.tr@SD" tvg-name="Satranç TV" group-title="Regionais",Satranç TV
+http://139.162.182.79/live/test/index.m3u8
 #EXTINF:-1 tvg-id="SercemTV.tr@HD" tvg-name="Sercem TV" group-title="Regionais",Sercem TV
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
+#EXTINF:-1 tvg-id="Show TV" tvg-name="Show TV" group-title="Regionais",Show TV
+https://mn-nl.mncdn.com/blutv_showtv2/live.m3u8
 #EXTINF:-1 tvg-id="StarTV.tr@SD" tvg-name="Star TV" group-title="Regionais",Star TV
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
 #EXTINF:-1 tvg-id="SunRTV.tr@SD" tvg-name="Sun RTV" group-title="Regionais",Sun RTV
