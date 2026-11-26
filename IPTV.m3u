@@ -3,7 +3,7 @@
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://tv.ensonhaber.com/tv24/tv24.m3u8
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
 #EXTINF:-1 group-title="NOTÍCIAS",002 - 24 TV (backup)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -27,13 +27,13 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 
 #EXTINF:-1 group-title="ENTRETENIMENTO",006 - A2TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
+https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8
 
 #EXTINF:-1 group-title="ENTRETENIMENTO",007 - Ada TV
 #EXTVLCOPT:adaptive-maxheight=360
@@ -93,13 +93,13 @@ https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+https://trkvz-live.daioncdn.net/atv/atv.m3u8
 
 #EXTINF:-1 group-title="REGIONAIS",017 - ATV (360p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
+https://trkvz-live.daioncdn.net/atv/atv.m3u8
 
 #EXTINF:-1 group-title="REGIONAIS",018 - ATV Alanya
 #EXTVLCOPT:adaptive-maxheight=360
@@ -219,7 +219,7 @@ https://tv.ensonhaber.com/benguturk/benguturk.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 
 #EXTINF:-1 group-title="ENTRETENIMENTO",038 - Bir TV
 #EXTVLCOPT:adaptive-maxheight=360
@@ -315,7 +315,7 @@ https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-http://85.117.61.84/cnnturk/index.m3u8
+https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8
 
 #EXTINF:-1 group-title="REGIONAIS",054 - Deniz Postasi TV
 #EXTVLCOPT:adaptive-maxheight=360
@@ -651,13 +651,13 @@ https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://tv.ensonhaber.com/haberturk/haberturk.m3u8
+https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8
 
 #EXTINF:-1 group-title="NOTÍCIAS",110 - Halk TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+https://halktv-live.ercdn.net/halktv/halktv.m3u8
 
 #EXTINF:-1 group-title="ESPORTES",111 - HTSpor TV
 #EXTVLCOPT:adaptive-maxheight=360
@@ -777,13 +777,13 @@ https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8
+https://live.kanal7.com/live/kanal7LiveDesktop/index.m3u8
 
 #EXTINF:-1 group-title="ENTRETENIMENTO",131 - Kanal 7 (backup)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
+https://live.kanal7.com/live/kanal7LiveDesktop/index.m3u8
 
 #EXTINF:-1 group-title="ENTRETENIMENTO",132 - Kanal 7 Avrupa
 #EXTVLCOPT:adaptive-maxheight=360
@@ -795,7 +795,7 @@ https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
+https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
 
 #EXTINF:-1 group-title="ENTRETENIMENTO",134 - Kanal D Drama
 #EXTVLCOPT:adaptive-maxheight=360
@@ -1095,7 +1095,7 @@ https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
+https://dogus-live.daioncdn.net/ntv/playlist.m3u8
 
 #EXTINF:-1 group-title="MÚSICA",184 - Number 1 Ask
 #EXTVLCOPT:adaptive-maxheight=360
@@ -1299,7 +1299,7 @@ https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
+https://dogus-live.daioncdn.net/startv/playlist.m3u8
 
 #EXTINF:-1 group-title="DOCUMENTÁRIOS",218 - Stingray Naturescape
 #EXTVLCOPT:adaptive-maxheight=360
