@@ -10358,7 +10358,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/showtv-ca
 #EXTINF:-1 tvg-name="Show TV" tvg-chno="2070" tvg-id="pvr08e5grfsebfw" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/120-Show-TV-664ea07c5f.png" group-title="SHOW", 2070 - Show TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
+https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 
 #EXTINF:-1 tvg-id="pvr08e5grfsebfw" tvg-chno="2071" tvg-name="Show TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/120-Show-TV-664ea07c5f.png" group-title="SHOW", 2071 - SHOW TV
 #EXTVLCOPT:adaptive-maxheight=360
@@ -10378,12 +10378,12 @@ https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 #EXTINF:-1 tvg-name="Show TV" tvg-chno="2074" tvg-id="pvr08e5grfsebfw" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/120-Show-TV-664ea07c5f.png" group-title="SHOW", 2074 - SHOW TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
+https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 
 #EXTINF:-1 tvg-chno="2075" tvg-id="pvr08e5grfsebfw" tvg-name="Show TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/120-Show-TV-664ea07c5f.png" group-title="SHOW", 2075 - Show TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://ciner.daioncdn.net/showtv/showtv_480p.m3u8?ex=10800&st=PrvlqPbfycfpqXrrAT00VQ&sid=8x3q7613oi7i&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
+https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 
 #EXTINF:-1 tvg-chno="2076" tvg-id="pvr08e5grfsebfw" tvg-name="Show TV" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/120-Show-TV-664ea07c5f.png" group-title="SHOW", 2076 - Show TV
 #EXTVLCOPT:adaptive-maxheight=360
@@ -10413,7 +10413,7 @@ https://canlitvulusal.xyz/live/showturk/index.m3u8
 #EXTINF:-1 tvg-chno="2081" tvg-id="SHOW TV.tr" tvg-name="SHOW TV.tr" tvg-logo="https://i.ibb.co/BrGNZJ4/showtv.png" group-title="SHOW", 2081 - SHOW
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://ciner.daioncdn.net/showtv/showtv.m3u8?app=showtv_web
+https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 
 #EXTINF:-1 tvg-chno="2082" tvg-name="SHOW" tvg-logo="https://i.ibb.co/BrGNZJ4/showtv.png" group-title="SHOW", 2082 - SHOW
 #EXTVLCOPT:adaptive-maxheight=360
