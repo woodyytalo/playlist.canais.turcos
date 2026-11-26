@@ -15,7 +15,7 @@ https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+https://trkvz-live.daioncdn.net/ahaber/ahaber.m3u8
 
 #EXTINF:-1 tvg-id="ASpor.tr@SD" tvg-logo="https://i.imgur.com/ZhkZzLf.png" tvg-language="Turkish" group-title="Sports",A Spor SD (1080p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -441,7 +441,7 @@ http://canli.tvden.com.tr/hls/live.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+https://tv.ensonhaber.com/tv/tr/tvnet/index.m3u8
 
 #EXTINF:-1 tvg-id="UrfaNatikTV.tr@SD" tvg-logo="https://i.imgur.com/8KO0uxn.png" tvg-language="Turkish" group-title="Undefined",Urfa Natik TV (720p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -627,7 +627,7 @@ https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+https://h125.artiyerelmedya.net/mavikaradeniz/bant1/chunks.m3u8
 
 #EXTINF:-1 tvg-id="MercanTV.tr@SD" tvg-logo="https://i.imgur.com/3CWV8bS.png" tvg-language="Turkish" group-title="Türkiye",Mercan TV (576p) [Not 24/7]
 #EXTVLCOPT:adaptive-maxheight=360
