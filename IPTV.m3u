@@ -21,7 +21,7 @@ https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+https://trkvz-live.daioncdn.net/ahaber/ahaber.m3u8
 
 #EXTINF:-1 group-title="ESPORTES",005 - A Spor
 #EXTVLCOPT:adaptive-maxheight=360
@@ -633,7 +633,7 @@ https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+https://tv.ensonhaber.com/tv/tr/haberglobal/index.m3u8
 
 #EXTINF:-1 group-title="NOTÍCIAS",107 - Haber61 TV
 #EXTVLCOPT:adaptive-maxheight=360
@@ -993,7 +993,7 @@ http://212.42.111.152:8080/hls/manas.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+https://h125.artiyerelmedya.net/mavikaradeniz/bant1/chunks.m3u8
 
 #EXTINF:-1 group-title="REGIONAIS",167 - MC TV
 #EXTVLCOPT:adaptive-maxheight=360
