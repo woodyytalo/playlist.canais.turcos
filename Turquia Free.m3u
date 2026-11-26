@@ -978,7 +978,7 @@ https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTTurk.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png" group-title="Undefined",164 - TRT Turk (720p)
 #EXTVLCOPT:adaptive-maxheight=360
