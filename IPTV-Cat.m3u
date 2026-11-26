@@ -729,7 +729,7 @@ https://tjktv-live.tjk.org/tjktv.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT Spor (720p)" group-title="ESPORTES",TRT Spor (720p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -747,13 +747,13 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://cdn.pishow.tv/ott/live/266/master.m3u8
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT World — link 2" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TRT-World-9383987b9a.svg" group-title="INTERNACIONAIS",TRT World — link 2
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://fta.ektv.in/live/416/master.m3u8
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TV 24 (720p)" group-title="NOTÍCIAS" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/24-TV-9175c1becd.svg",TV 24 (720p)
 #EXTVLCOPT:adaptive-maxheight=360
