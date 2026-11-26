@@ -5592,3 +5592,43 @@ https://cdn-cine5tv.yayin.com.tr/cine5tv/cine5tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CINE1" group-title="CINE1",CINE1
 https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
+
+# Canais incorporados de Canais-Turcos-Novos.m3u — entradas com URL ainda não presente
+#EXTINF:-1 group-title="Haber" tvg-logo="https://i.imgur.com/6tWCzTp.png",kodlama155-ctrl • A News
+#EXTVLCOPT:http-referrer=https://www.anews.com.tr/webtv/live-broadcast
+#EXTVLCOPT:http-referer=https://www.anews.com.tr/webtv/live-broadcast
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.anews.com.tr/webtv/live-broadcast"}
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://www.anews.com.tr/webtv/live-broadcast
+https://trkvz-live.ercdn.net/anewshd/anewshd.m3u8?st=Qi3DwfDY8i8blKQjv6d8aQ&e=1795735855
+#EXTINF:-1 group-title="Dini" tvg-logo="https://i.imgur.com/jw0gB8L.png",kodlama155-ctrl • VAV TV
+#EXTVLCOPT:http-referrer=https://www.vavtv.com.tr/canli-yayin
+#EXTVLCOPT:http-referer=https://www.vavtv.com.tr/canli-yayin
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.vavtv.com.tr/canli-yayin"}
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://www.vavtv.com.tr/canli-yayin
+https://trkvz-live.ercdn.net/vavtv/vavtv.m3u8?st=HMXJX1I9YgFLpNAMLNu5JQ&e=1795735863
+#EXTINF:-1 group-title="Uluslararası" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-avrupa-tr.png",kodlama155-ctrl • ATV Avrupa
+#EXTVLCOPT:http-referrer=https://www.atvavrupa.tv/canli-yayin
+#EXTVLCOPT:http-referer=https://www.atvavrupa.tv/canli-yayin
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.atvavrupa.tv/canli-yayin"}
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://www.atvavrupa.tv/canli-yayin
+https://trkvz-live.ercdn.net/atvavrupa/atvavrupa.m3u8?st=NAIlJAQ4HL7hrn1FTOG_2A&e=1795735846
+#EXTINF:-1 tvg-id="beINSports1Turk.tr@SD",iptv-org • beIN Sports 1 Turk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://57.129.0.61:1990/stream/117/index.m3u8
+#EXTINF:-1 tvg-id="BloombergHT.tr@SD",iptv-org • Bloomberg HT
+http://193.123.61.120:3000/kanal/bloomberght
+#EXTINF:-1 tvg-id="KanalDDrama.tr@SD",iptv-org • Kanal D Drama (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/KanalD_principal_SRT/playlist.m3u8
+#EXTINF:-1 tvg-id="Sat7Turk.cy@SD",iptv-org • Sat7 Türk (1080p)
+https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TRTTurk.tr@SD",iptv-org • TRT Turk (540p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/trt_turk/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr@SD",iptv-org • TRT World (576p)
+https://cdn.pishow.tv/ott/live/266/master.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr@SD",iptv-org • TRT World (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/416/master.m3u8
