@@ -3841,7 +3841,7 @@ https://vavoo.to/vavoo-iptv/play/361456541062c1025d3d2b
 #EXTINF:-1 tvg-chno="767" tvg-name="EBA TV ORTAOKUL" tvg-logo="https://logo.huhu.to/logo?c=3751527622.png" group-title="EBA TV ORTAOKUL", 767 - EBA TV ORTAOKUL
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/375152762211b2a1adeae9
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="768" tvg-name="Edessa TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/042-Edessa-TV-0dcc8793ec.png" group-title="Edessa TV", 768 - EDESSA TV
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12340,27 +12340,27 @@ https://vavoo.to/vavoo-iptv/play/368305124494c3549411d4
 #EXTINF:-1 tvg-id="in3p7jng04mr97m" tvg-chno="2466" tvg-name="TRT Haber" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2466 - TRT Haber
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trthaber-canli
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="in3p7jng04mr97m" tvg-chno="2467" tvg-name="TRT Haber" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2467 - TRT HABER
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/2003703357957a75b3c760
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="in3p7jng04mr97m" tvg-chno="2468" tvg-name="TRT Haber" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2468 - TRT HABER
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/9310866570238353d89b
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="in3p7jng04mr97m" tvg-chno="2469" tvg-name="TRT Haber" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2469 - TRT HABER
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://ensonhaber-live.ercdn.net/trthaber/trthaber.m3u8
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="in3p7jng04mr97m" tvg-chno="2470" tvg-name="TRT Haber" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2470 - TRT HABER
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://tv.ensonhaber.com/trthaber/trthaber.m3u8
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="in3p7jng04mr97m" tvg-name="TRT Haber" tvg-chno="2471" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2471 - TRT Haber
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12395,67 +12395,67 @@ https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2477" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2477 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trt1-canli-hd-izle
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT 1" tvg-chno="2478" tvg-id="af0zo9et4xguwsk" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2478 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trt.daioncdn.net/trt-1/master_480p.m3u8?&sid=6mxtrw74fwk5&app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2&ce=2
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2479" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2479 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/2041026135d10f9c36ff66
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2480" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2480 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/2346924541149e465206c7
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2481" tvg-id="af0zo9et4xguwsk" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2481 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://dsmartgo-live.ercdn.net/dsmartgo/trt1/trt1.isml/trt1.m3u8
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2482" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2482 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trt.daioncdn.net/trt-1/master.m3u8?app=web
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2483" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2483 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trt.daioncdn.net/trt-1/master.m3u8?app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2484" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2484 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trt.daioncdn.net/trt-1/master.m3u8?app=e435840d-2653-45a3-afef-082d4ea998f3
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2485" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2485 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://116.202.238.88/TRT1_TR/index.m3u8
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2486" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2486 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://95.174.71.114:80/TR-TRT1/index.m3u8
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2487" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2487 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://helga.iptv2022.com/sh/trt_1/index.m3u8
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2488" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2488 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trn03.tulix.tv/gt-trt1-tveu/playlist.m3u8
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="af0zo9et4xguwsk" tvg-chno="2489" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2489 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://trn03.tulix.tv/gt-trt1-tveu/tracks-v1a1/mono.m3u8
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2490" tvg-name="TRT 1" tvg-id="af0zo9et4xguwsk" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2490 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12481,12 +12481,12 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8#top50
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #https://tv-trt1.medya.trt.com.tr/master_720.m3u8
-https://blutv-test-live.ercdn.net/test/trt1_480p.m3u8
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2495" tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" tvg-id="af0zo9et4xguwsk" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2495 - TRT 1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trt.daioncdn.net/trt-1/master_480p.m3u8?app=web
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT 1" tvg-chno="2496" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" tvg-id="af0zo9et4xguwsk" group-title="TRT", 2496 - TRT 1 (1440p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12496,22 +12496,22 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="ybv52n8pldp0lfq" tvg-chno="2497" tvg-name="TRT Çocuk" tvg-logo="https://i.ibb.co/mbvwYMB/trt-cocuk.png" group-title="TRT", 2497 - TRT Çocuk
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trtcocuk-canli
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT Çocuk" tvg-chno="2498" Yedek="http://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8" Yedek2="http://185.234.111.229:8000/play/a00b" Yedek3="https://trn03.tulix.tv/gt-trtcocuk/index.m3u8" Yedek4="https://helga.iptv2022.com/sh/trt_cocuk/tracks-v4a1/mono.ts.m3u8?filter.tracks=a1v1v2v3v4" tvg-id="ybv52n8pldp0lfq" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/23/TRT_çocuk_logo.png" group-title="TRT", 2498 - TRT COCUK
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trn03.tulix.tv/gt-trtcocuk/index.m3u8
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="ybv52n8pldp0lfq" tvg-chno="2499" tvg-name="TRT Çocuk" tvg-logo="https://logo.huhu.to/logo?c=685794830.png" group-title="TRT", 2499 - TRT COCUK
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/6857948301fe52b3221a3
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="ybv52n8pldp0lfq" tvg-chno="2500" tvg-name="TRT Çocuk" tvg-logo="https://i.ibb.co/mbvwYMB/trt-cocuk.png" group-title="TRT", 2500 - TRT COCUK
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/3979837190d92f4a65c83b
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="ybv52n8pldp0lfq" tvg-chno="2501" tvg-name="TRT Çocuk" tvg-logo="https://i.ibb.co/YjkMYbF/trtcocuk21a.png" group-title="TRT", 2501 - TRT ÇOCUK
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12546,7 +12546,7 @@ https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-chno="2507" tvg-name="TRT Diyanet Çocuk" tvg-logo="https://logo.huhu.to/logo?c=1101849390.png" group-title="TRT", 2507 - TRT DIYANET COCUK
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/1101849390824792e0390b
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT Diyanet Çocuk" tvg-chno="2508" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trtdiyanet.png" group-title="TRT", 2508 - TRT Diyanet Çocuk
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12571,7 +12571,7 @@ https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="2512" tvg-name="TRT Diyanet Çocuk" tvg-language="Turkish" tvg-country="TR" tvg-id="CizgiFilm_TRTDiyanet" tvg-logo="http://assets.tvcdn.net/dba05bf2-9d24-4d20-bc6c-f54a2b60ef7f.png" group-title="TRT", 2512 - TRT Diyanet Çocuk
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://stream.tvcdn.net/cocuk-egitim/trt-diyanet-cocuk.m3u8
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2513" tvg-name="TRT EBA Ortaokul" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/136-TRT-EBA-Ortaokul-8952fd59e4.png" group-title="TRT", 2513 - TRT EBA Ortaokul
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12586,22 +12586,22 @@ https://tv-e-okul01.medya.trt.com.tr/master_480p.m3u8
 #EXTINF:-1 tvg-id="18ws4yk42js588h" tvg-chno="2515" tvg-name="TRT Müzik" group-title="TRT", 2515 - TRT Müzik
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trtmuzik-canli
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="18ws4yk42js588h" tvg-chno="2516" tvg-name="TRT Müzik" tvg-logo="https://logo.huhu.to/logo?c=2332789634.png" group-title="TRT", 2516 - TRT MUZIK
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/23327896342ed3e26f9f31
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="18ws4yk42js588h" tvg-chno="2517" tvg-name="TRT Müzik" group-title="TRT", 2517 - TRT MUZIK
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/433581315c4ec59f78e92
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT Müzik" tvg-chno="2518" tvg-id="18ws4yk42js588h" group-title="TRT", 2518 - TRT Muzik
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://stream8.cinerama.uz/1208/tracks-v1a1/mono_480p.m3u8
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="18ws4yk42js588h" tvg-name="TRT Müzik" tvg-chno="2519" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trtmuzik.png" group-title="TRT", 2519 - TRT Müzik
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12646,22 +12646,22 @@ https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="p6sz5lndgfas2r9" tvg-chno="2527" tvg-name="TRT Avaz" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/133-TRT-Avaz-801dd07aff.png" group-title="TRT", 2527 - TRT Avaz
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trtavaz-canli
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="p6sz5lndgfas2r9" tvg-chno="2528" tvg-name="TRT Avaz" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/133-TRT-Avaz-801dd07aff.png" group-title="TRT", 2528 - TRT AVAZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/2990410352438976430a38
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="p6sz5lndgfas2r9" tvg-chno="2529" tvg-name="TRT Avaz" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/133-TRT-Avaz-801dd07aff.png" group-title="TRT", 2529 - TRT AVAZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/248133980972fe7049de85
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="p6sz5lndgfas2r9" tvg-chno="2530" tvg-name="TRT Avaz" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/133-TRT-Avaz-801dd07aff.png" group-title="TRT", 2530 - TRT AVAZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/691149597dd82bfd95545
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="p6sz5lndgfas2r9" tvg-name="TRT Avaz" tvg-chno="2531" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/133-TRT-Avaz-801dd07aff.png" group-title="TRT", 2531 - TRT Avaz
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12691,7 +12691,7 @@ https://tv-trtgenc.medya.trt.com.tr/master_480p.m3u8
 #EXTINF:-1 tvg-chno="2536" tvg-name="TRT Kurdî" group-title="TRT", 2536 - TRT Kürdi
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trtkurdi-canli
+https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT Kurdî" tvg-chno="2537" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trtkurdi.png" group-title="TRT", 2537 - TRT Kurdî
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12711,7 +12711,7 @@ https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="2540" tvg-name="TRT Kurdî" group-title="TRT", 2540 - TRT KURDI
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/3640225965ac2c2232abef
+https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2541" tvg-name="TRT Kurdî" tvg-language="Kurdish" tvg-country="IR" tvg-id="TRT_Kurdi" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/14812637.png" group-title="TRT", 2541 - TRT Kürdi
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12721,17 +12721,17 @@ https://tv-trtkurdi.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="xe24vekaidpsql3" tvg-chno="2542" tvg-name="TRT Türk" tvg-logo="https://i.ibb.co/zN1BK38/trt-turk.png" group-title="TRT", 2542 - TRT Türk
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trtturk-canli
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="xe24vekaidpsql3" tvg-chno="2543" tvg-name="TRT Türk" tvg-logo="https://logo.huhu.to/logo?c=4098093256.png" group-title="TRT", 2543 - TRT TURK
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/409809325606dced407ba1
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="xe24vekaidpsql3" tvg-chno="2544" tvg-name="TRT Türk" tvg-logo="https://logo.huhu.to/logo?c=4095879853.png" group-title="TRT", 2544 - TRT TURK
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/4095879853e79f376bf5ca
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2545" tvg-name="TRT Türk" tvg-id="xe24vekaidpsql3" tvg-logo="https://i.ibb.co/zN1BK38/trt-turk.png" group-title="TRT", 2545 - TRT TURK
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12756,22 +12756,22 @@ https://tv-trtturk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="j1x67766q1lr7r6" tvg-chno="2549" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2549 - TRT World
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trtworldcanli
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:0 tvg-id="j1x67766q1lr7r6" tvg-name="TRT World" tvg-chno="2550" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2550 - TRT WORLD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://46.47.113.35:4002/trtworld.ts
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="j1x67766q1lr7r6" tvg-chno="2551" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2551 - TRT WORLD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/3203147403a3de72a3f660
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="j1x67766q1lr7r6" tvg-chno="2552" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2552 - TRT WORLD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/4076064178a12cbf89249a
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="j1x67766q1lr7r6" tvg-name="TRT World" tvg-chno="2553" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2553 - TRT World
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12781,17 +12781,17 @@ https://tv-trtworld.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="TRT World" tvg-chno="2554" tvg-id="j1x67766q1lr7r6" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2554 - TRT World (576p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://cdn.pishow.tv/ott/live/266/master.m3u8
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT World" tvg-chno="2555" tvg-id="j1x67766q1lr7r6" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2555 - TRT World (576p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://fta.ektv.in/live/416/master.m3u8
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT World" tvg-chno="2556" tvg-id="j1x67766q1lr7r6" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2556 - TRT World (720p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT World" tvg-chno="2557" tvg-id="j1x67766q1lr7r6" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2557 - TRT World (1080p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12801,17 +12801,17 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:0 tvg-id="j1x67766q1lr7r6" tvg-name="TRT World" tvg-chno="2558" tvg-country="TR" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2558 - TRT World (576p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://cdn.pishow.tv/ott/live/266/master.m3u8?checkedby:iptvcat.net
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2559" Yedek="https://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8" Yedek2="https://canlitvulusal.xyz/live/trtbelgesel/index.m3u8" Yedek3="" tvg-id="TRT BELGESEL HD.tr" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTAv3CFSoF-CswpDf6HEnAekqOLmQ_t002VrW-MN1iHEWFXK4XtDG_Hm6g7f8by6bBGBI&usqp=CAU" group-title="TRT", 2559 - TRT BELGESEL
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://canlitvulusal.xyz/live/trtbelgesel/index.m3u8
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2560" tvg-name="TRT 2" tvg-logo="https://i.ibb.co/0JcxnSL/trt-2.png" group-title="TRT", 2560 - TRT 2
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trt2canlihd
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2561" tvg-name="TRT Arapça" group-title="TRT", 2561 - TRT Arapça
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12821,37 +12821,37 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trtarapca
 #EXTINF:-1 tvg-chno="2562" tvg-name="TRT Belgesel" tvg-logo="https://i.ibb.co/MkvY46q/trt-belgesel.png" group-title="TRT", 2562 - TRT Belgesel
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trtbelgesel-canli
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2563" tvg-name="TRT Eba Tv İlkokul" group-title="TRT", 2563 - TRT Eba Tv İlkokul
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/eba-tv-ilkokul
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2564" tvg-name="TRT Eba Tv Lise" group-title="TRT", 2564 - TRT Eba Tv Lise
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/eba-tv-lise
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2565" tvg-name="TRT Eba Tv Ortaokul" group-title="TRT", 2565 - TRT Eba Tv Ortaokul
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/eba-tv-ortaokul
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2566" tvg-name="TRT Spor" tvg-logo="https://i.ibb.co/WxD4PLG/trt-spor.png" group-title="TRT", 2566 - TRT Spor
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trtsporcanli-hd
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2567" tvg-name="TRT Spor Yıldız" group-title="TRT", 2567 - TRT Spor Yıldız
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/trtsporyildiz-canlii
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2568" tvg-id="TRTTurk.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/512px-TRT_T%C3%BCrk_logo.svg.png" group-title="TRT", 2568 - TRT Turk SD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://viamotionhsi.netplus.ch/live/eds/trtturk/browser-dash/trtturk.mpd
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2569" Yedek="https://trn03.tulix.tv/gt-trt4k/index.m3u8" Yedek2="http://rhsbjv7k.tvclub.xyz/iptv/8PLFKPYLLMZ9GW/4001/index.m3u8" Yedek3="http://108.181.123.99:8070/live/test_acct/ohbo1veifa4AhD/1810.ts" Yedek4="http://176.65.146.123:6001/play/a027/index.m3u8" tvg-id="TRT 4K.tr" tvg-logo="https://icdn.ensonhaber.com/crop/1060x795/resimler/diger/kok/2021/06/16/IMG20210616050051.jpg" group-title="TRT", 2569 - TRT 4K
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12861,12 +12861,12 @@ http://176.65.146.123:6001/play/a027/index.m3u8
 #EXTINF:-1 tvg-chno="2570" Yedek="http://185.234.111.229:8000/play/a00e" Yedek2="https://helga.iptv2022.com/sh/trt_spor/tracks-v3a1/mono.m3u8?filter.tracks=a1v1v2v3v4" Yedek3="https://taraftariumtr2.site/proxy.php?url=https://k0.b4c8d3e9f1a2b7c5d81.cfd/yayintrtspor.m3u8" Yedek4="http://31.222.206.98/8827/tracks-v1a1/mono.ts.m3u8?token=test" Yedek5="https://trn03.tulix.tv/gt-trtspor1/index.m3u8" Yedek6="http://176.65.146.123:6001/play/a01k/index.m3u8" tvg-id="TRT SPOR HD.tr" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNu1KowYW0Ywy_-lMPzCvLGBMUaNIUAUIcwGGX1iLjHzhRclixpxWjf4lLG9QeYDPg754&usqp=CAU" group-title="TRT", 2570 - TRT SPOR
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://176.65.146.123:6001/play/a01k/index.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2571" Yedek="https://tgn.bozztv.com/dvrfl05/gin-trtspor2/playlist.m3u8" Yedek2="https://217.30.11.74/e/350.m3u8" Yedek3="http://176.65.146.123:6001/play/a02g/index.m3u8" tvg-id="TRT SPOR YILDIZ.tr" tvg-logo="https://tv.kolaytv.org/trt-spor-yildiz.png" group-title="TRT", 2571 - TRT SPOR YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://176.65.146.123:6001/play/a02g/index.m3u8
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2572" tvg-name="TRT SPOR YILDIZ" tvg-id="TRTSporYildiz.tr" tvg-logo="https://i.ibb.co/YRgKcDn/trt-spor-yildiz.png" group-title="TRT", 2572 - TRT SPOR YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12891,47 +12891,47 @@ http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/66a6e733-8800-42b1-a030-3a2d826
 #EXTINF:-1 tvg-chno="2576" tvg-name="TRT 1 4K" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2576 - TRT 1 4K
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/30598377924b88d34eee32
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2577" tvg-name="TRT 1 FHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2577 - TRT 1 FHD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/406666682989012326c7f
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2578" tvg-name="TRT 1 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2578 - TRT 1 HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/787a6f9f-0337-4634-9d49-3d2b94ce5b86.m3u
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2579" tvg-name="TRT 1 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2579 - TRT 1 HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/1762199258e25181300f62
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2580" tvg-name="TRT 1 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2580 - TRT 1 HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/1221669131f90e763b2bbf
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2581" tvg-name="TRT 1 HEVC" tvg-logo="https://logo.huhu.to/logo?c=194373112.png" group-title="TRT", 2581 - TRT 1 HEVC
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/194373112d73ddb5898a4
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2582" tvg-id="TRT1.tr" tvg-name="TRT 1 HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trt1.png" group-title="TRT", 2582 - TRT 1 HQ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/05ef32a4-827d-4e20-87f8-37892492aec6.m3u
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2583" tvg-name="TRT 1 SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2583 - TRT 1 SD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/566281043a6ce1d13e4fc
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2584" tvg-name="TRT 1 UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2584 - TRT 1 UHD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/df50ee79-aff9-4983-941b-fc985ac34143.m3u
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2585" tvg-logo="https://www.trt1.com.tr/public/logo/d60ab555-f948-464a-a139-df5410d2a7b5/TRT-1-Yeni-40px.png" group-title="TRT", 2585 - TRT 1 HD Yedek
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12941,7 +12941,7 @@ https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="2586" tvg-name="TRT 2" tvg-logo="https://logo.huhu.to/logo?c=1040706695.png" group-title="TRT", 2586 - TRT 2
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/10407066957b9356f79511
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2587" tvg-name="TRT 2" tvg-id="TRT.2.HD.tr" tvg-logo="https://i.ibb.co/0JcxnSL/trt-2.png" group-title="TRT", 2587 - TRT 2
 #EXTVLCOPT:adaptive-maxheight=360
@@ -12976,17 +12976,17 @@ https://tv-trt2.medya.trt.com.tr/master.m3u8#belgesel
 #EXTINF:-1 tvg-chno="2593" tvg-name="TRT 2 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/trt2.png" group-title="TRT", 2593 - TRT 2 HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/58e211f5-109b-45ef-a331-61bde172676d.m3u
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2594" tvg-name="TRT 2 HD" group-title="TRT", 2594 - TRT 2 HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/38843190334c7e81c1c6fc
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2595" tvg-name="TRT 2 UHD" group-title="TRT", 2595 - TRT 2 UHD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/200530513284b4baa30873
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2596" tvg-logo="https://i.imgur.com/JrWFwBd.png" tvg-id="TRT3.tr" group-title="TRT", 2596 - TRT 3
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13006,12 +13006,12 @@ https://tv-trt3.live.trt.com.tr/master.m3u8#all
 #EXTINF:-1 tvg-chno="2599" tvg-name="TRT BELGESEL" tvg-logo="https://logo.huhu.to/logo?c=599757405.png" group-title="TRT", 2599 - TRT BELGESEL
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/59975740553631f8c458f
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2600" tvg-name="TRT BELGESEL" tvg-logo="https://logo.huhu.to/logo?c=836826697.png" group-title="TRT", 2600 - TRT BELGESEL
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/8368266978a2a0a7326d3
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2601" tvg-id="TRT BELGESEL HD.tr" tvg-name="TRT BELGESEL HD.tr" tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="TRT", 2601 - TRT BELGESEL
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13021,7 +13021,7 @@ https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="2602" tvg-name="TRT BELGESEL" tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="TRT", 2602 - TRT BELGESEL
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://d2xwn494f2lep.cloudfront.net/v1/master/80dbfc318ab6b980679b32095ba497236de6d2f9/TRT-Belgesel/master.m3u8
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2603" tvg-name="TRT BELGESEL" tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="TRT", 2603 - TRT BELGESEL
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13057,32 +13057,32 @@ https://tv-trtbelgesel.live.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-chno="2609" tvg-name="TRT BELGESEL HD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/trtbelgesel.png" group-title="TRT", 2609 - TRT BELGESEL HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/656ebd7c-b56e-4439-90ba-3311d1fcb46c.m3u
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2610" tvg-name="TRT BELGESEL HD" group-title="TRT", 2610 - TRT BELGESEL HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/786973656b665fa8beb18
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2611" tvg-name="TRT BELGESEL HD+" group-title="TRT", 2611 - TRT BELGESEL HD+
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/2661394868c382749f3f0e
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2612" tvg-name="TRT BELGESEL HEVC" tvg-logo="https://logo.huhu.to/logo?c=3340997026.png" group-title="TRT", 2612 - TRT BELGESEL HEVC
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/33409970269ccb83ea274e
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2613" tvg-name="TRT COCUK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/cocuk/trtcocuk.png" group-title="TRT", 2613 - TRT COCUK HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/6506d8b2-01f1-44c2-810a-a5e014e4e184.m3u
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2614" tvg-name="TRT EBA" tvg-logo="https://logo.huhu.to/logo?c=3681071746.png" group-title="TRT", 2614 - TRT EBA
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/3681071746569ac21b544f
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2615" tvg-logo="https://i.imgur.com/CRBfZi4.png" tvg-id="TRTEBAIlkokul.tr" group-title="TRT", 2615 - TRT EBA Ilkokul (720p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13107,32 +13107,32 @@ https://tv-e-okul02.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="2619" tvg-name="TRT EBA TV" tvg-logo="https://i.ibb.co/8g20RBH/ebatek.png" group-title="TRT", 2619 - TRT EBA TV
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://ebao.blutv.com/blutv_ebao2/live.m3u8
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2620" tvg-name="TRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2620 - TRT HABER HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/a0631923-ae82-4e23-88e8-1fdee7e8b137.m3u
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2621" tvg-name="TRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2621 - TRT HABER HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/6036516388b222edb706e
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2622" tvg-name="TRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2622 - TRT HABER HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/2579401878b96c047d58b3
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2623" tvg-name="TRT HABER HEVC" tvg-logo="https://logo.huhu.to/logo?c=2057965553.png" group-title="TRT", 2623 - TRT HABER HEVC
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/20579655530debfaed90ec
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2624" tvg-name="TRT HABER UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2624 - TRT HABER UHD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/e90213bc-45f5-46b6-941a-d4b12030278b.m3u
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2625" tvg-name="TRT KURD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/139-TRT-Kurd-9efccd8883.png" group-title="TRT", 2625 - TRT KURD
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13147,17 +13147,17 @@ https://vavoo.to/vavoo-iptv/play/970382162286220f5fa39
 #EXTINF:-1 tvg-chno="2627" tvg-name="TRT MUZIK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png" group-title="TRT", 2627 - TRT MUZIK HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/ed328250-059a-4ee6-890c-5fd46f7f4bd2.m3u
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2628" tvg-name="TRT MUZIK HD+" group-title="TRT", 2628 - TRT MUZIK HD+
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/3063329534c891d2af3f0f
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2629" tvg-name="TRT MUZIK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png" group-title="TRT", 2629 - TRT MUZIK UHD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/572658d0-7441-4034-9a83-9a842ef5498f.m3u
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2630" tvg-name="TRT OCUK HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/134-TRT-ocuk-f8d8ab405b.png" group-title="TRT", 2630 - TRT OCUK HD
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13177,32 +13177,32 @@ https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-chno="2633" tvg-name="TRT SPOR" tvg-logo="https://logo.huhu.to/logo?c=2114335424.png" group-title="TRT", 2633 - TRT SPOR
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/21143354242548e3a116d2
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2634" tvg-name="TRT SPOR" tvg-logo="https://logo.huhu.to/logo?c=601788690.png" group-title="TRT", 2634 - TRT SPOR
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/601788690f9e0a5148c48
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2635" tvg-name="TRT SPOR" tvg-logo="https://i.ibb.co/3WmLjwG/trtspor22c.png" group-title="TRT", 2635 - TRT SPOR
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trn03.tulix.tv/gt-trt-spor1/playlist.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2636" tvg-name="TRT SPOR" tvg-logo="https://i.ibb.co/3WmLjwG/trtspor22c.png" group-title="TRT", 2636 - TRT SPOR
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://162.212.179.33:80/dvrfl05/gin-trtspor/playlist.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2637" tvg-name="TRT SPOR" tvg-logo="https://i.ibb.co/3WmLjwG/trtspor22c.png" group-title="TRT", 2637 - TRT SPOR
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trn03.tulix.tv/gt-trtspor-1/playlist.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2638" tvg-name="TRT SPOR" tvg-logo="https://i.ibb.co/3WmLjwG/trtspor22c.png" group-title="TRT", 2638 - TRT SPOR
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://test.dreamboxserver.net/trtspor/index.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2639" tvg-name="TRT SPOR" tvg-logo="https://i.ibb.co/3WmLjwG/trtspor22c.png" group-title="TRT", 2639 - TRT SPOR
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13217,7 +13217,7 @@ http://live.artofknot.com:5080/proxy/channel?url=https://tv-trtspor1.medya.trt.c
 #EXTINF:-1 tvg-chno="2641" tvg-name="TRT SPOR" tvg-logo="https://i.ibb.co/3WmLjwG/trtspor22c.png" group-title="TRT", 2641 - TRT SPOR
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trt.daioncdn.net/trtspor/master.m3u8?app=web
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2642" tvg-logo="https://i.ibb.co/WxD4PLG/trt-spor.png" group-title="TRT", 2642 - TRT Spor
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13247,47 +13247,47 @@ https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="2647" tvg-id="TRT Spor" tvg-name="TRT Spor" tvg-language="Turkish" tvg-logo="https://i.ibb.co/DktF0DL/trtspor.png" group-title="TRT", 2647 - TRT Spor
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://mn-nl.mncdn.com/blutv_trtspor2/live.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2648" tvg-name="TRT Spor"tvg-id="Spor_TRT"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png":http-referrer="":http-user-agent="" tvg-logo="https://i.ibb.co/WxD4PLG/trt-spor.png" group-title="TRT", 2648 - TRT Spor
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://tgn.bozztv.com/dvrfl05/gin-trtspor/tracks-v1a1/mono.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2649" tvg-id="TRTSpor.tr@SD" tvg-logo="https://i.ibb.co/WxD4PLG/trt-spor.png" group-title="TRT", 2649 - TRT Spor (720p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://corestream.siteyaptim.live/trt-spor/index.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2650" tvg-name="TRT SPOR [geo-blocked]" tvg-logo="https://i.ibb.co/3WmLjwG/trtspor22c.png" group-title="TRT", 2650 - TRT SPOR [geo-blocked]
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trt.daioncdn.net/trtspor/master.m3u8?app=9b65474e-8197-4899-aabb-321fcf6dd9eb
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2651" tvg-name="TRT SPOR FHD" tvg-logo="https://logo.huhu.to/logo?c=2952828245.png" group-title="TRT", 2651 - TRT SPOR FHD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/2952828245a3c08be2c885
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2652" tvg-name="TRT SPOR HD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/trtspor.png" group-title="TRT", 2652 - TRT SPOR HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/74255873-8072-4f0f-884d-3a603072bdb3.m3u
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2653" tvg-name="TRT SPOR HD" group-title="TRT", 2653 - TRT SPOR HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/22629699381f94fcd9dbe6
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2654" tvg-name="TRT SPOR HD" tvg-logo="https://logo.huhu.to/logo?c=312904614.png" group-title="TRT", 2654 - TRT SPOR HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/312904614dc748b02d86a
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2655" tvg-name="TRT SPOR UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/trtspor.png" group-title="TRT", 2655 - TRT SPOR UHD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/8a5f372f-59a9-4fe2-af11-adf72e216039.m3u
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2656" tvg-logo="https://i.imgur.com/ysKteM8.png" group-title="TRT", 2656 - TRT Spor 2
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13297,17 +13297,17 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="2657" tvg-name="TRT SPOR YILDIZ" tvg-logo="https://i.ibb.co/YRgKcDn/trt-spor-yildiz.png" group-title="TRT", 2657 - TRT SPOR YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/2750507083b8337c6b6616
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2658" tvg-name="TRT SPOR YILDIZ" tvg-logo="https://logo.huhu.to/logo?c=93054202.png" group-title="TRT", 2658 - TRT SPOR YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/930542029ffe0c297ec0
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2659" tvg-name="TRT SPOR YILDIZ" tvg-logo="https://i.ibb.co/YRgKcDn/trt-spor-yildiz.png" group-title="TRT", 2659 - TRT SPOR YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/268929752745bb1e55d52a
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2660" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trtsporyildiz.png" group-title="TRT", 2660 - TRT Spor Yıldız
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13327,27 +13327,27 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8#top50
 #EXTINF:-1 tvg-chno="2663" tvg-name="TRT Spor Yıldız"tvg-id="Spor_SporYildiz"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png":http-referrer="":http-user-agent="" group-title="TRT", 2663 - TRT Spor Yıldız
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://tgn.bozztv.com/dvrfl05/gin-trtspor2/tracks-v1a1/mono.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2664" tvg-name="TRT SPOR YILDIZ HD" tvg-logo="https://logo.huhu.to/logo?c=1423845809.png" group-title="TRT", 2664 - TRT SPOR YILDIZ HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/14238458092c57f9e072fb
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2665" tvg-name="TRT SPOR YILDIZ HEVC" group-title="TRT", 2665 - TRT SPOR YILDIZ HEVC
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/114501523d11f5030113f
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2666" tvg-id="TRT Spor Yildiz" tvg-name="TRT Spor Yildiz" tvg-language="Turkish" tvg-logo="https://i.ibb.co/FBzsCSY/trtsporyildiz.jpg" group-title="TRT", 2666 - TRT Spor Yildiz
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://mn-nl.mncdn.com/blutv_trtsporyildiz/live.m3u8
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2667" tvg-id="TRTSporYildiz.tr@SD" tvg-logo="https://i.ibb.co/YRgKcDn/trt-spor-yildiz.png" group-title="TRT", 2667 - TRT Spor Yildiz (1440p) [Geo-blocked]
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2668" tvg-name="TRT SPOR2 YILDIZ" tvg-logo="https://i.ibb.co/ky3qVPc/trtspory2.png" group-title="TRT", 2668 - TRT SPOR2 YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13357,27 +13357,27 @@ http://live.artofknot.com:5080/proxy/channel?url=https://tv-trtspor2.medya.trt.c
 #EXTINF:-1 tvg-chno="2669" tvg-name="TRT SPOR2 YILDIZ" tvg-logo="https://i.ibb.co/ky3qVPc/trtspory2.png" group-title="TRT", 2669 - TRT SPOR2 YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://78.128.125.60:9980/play/a01s/index.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2670" tvg-name="TRT SPOR2 YILDIZ" tvg-logo="https://i.ibb.co/ky3qVPc/trtspory2.png" group-title="TRT", 2670 - TRT SPOR2 YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://test.dreamboxserver.net/trtsporyildiz/index.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2671" tvg-name="TRT SPOR2 YILDIZ" tvg-logo="https://i.ibb.co/ky3qVPc/trtspory2.png" group-title="TRT", 2671 - TRT SPOR2 YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://162.212.179.33:80/dvrfl05/gin-trtspor2/playlist.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2672" tvg-name="TRT SPOR2 YILDIZ" tvg-logo="https://i.ibb.co/ky3qVPc/trtspory2.png" group-title="TRT", 2672 - TRT SPOR2 YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trn03.tulix.tv/gt-trtspor2/playlist.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2673" tvg-name="TRT SPOR2 YILDIZ" tvg-logo="https://i.ibb.co/ky3qVPc/trtspory2.png" group-title="TRT", 2673 - TRT SPOR2 YILDIZ
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?&app=2c6690bb-4021-4292-8ddc-c93a3cf04a3a
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2674" tvg-name="TRT T RK" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/143-TRT-T-rk-200ab99142.png" group-title="TRT", 2674 - TRT T RK
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13387,12 +13387,12 @@ https://vavoo.to/vavoo-iptv/play/35084774810a78b091aa35
 #EXTINF:-1 tvg-chno="2675" tvg-id="TRTTurk.tr" tvg-name="TRT TURK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/trtturk.png" group-title="TRT", 2675 - TRT TURK HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/1f3f9277-e733-4b64-b3c5-14ed80bc54d6.m3u
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2676" tvg-name="TRT TURK HEVC" tvg-logo="https://logo.huhu.to/logo?c=1619096863.png" group-title="TRT", 2676 - TRT TURK HEVC
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/1619096863c7e11f78a1b0
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2677" tvg-logo="https://i.ibb.co/4ntLXmKw/N5-EVE5b0-SFu6-Uwcg-AJVxxw.webp" group-title="TRT", 2677 - TRT Türkü
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13402,27 +13402,27 @@ https://rd-trtturku.medya.trt.com.tr/master_128.m3u8
 #EXTINF:-1 tvg-chno="2678" tvg-name="TRT WORLD HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2678 - TRT WORLD HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/18871ea5-c01d-4cad-9ac5-69975e8fb079.m3u
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2679" tvg-id="TRTWorld.tr@HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/144-TRT-World-d4b36434b2.png" group-title="TRT", 2679 - TRT World HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2680" tvg-name="TRT WORLD HEVC" tvg-logo="https://logo.huhu.to/logo?c=3985615117.png" group-title="TRT", 2680 - TRT WORLD HEVC
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/39856151173297a4afd524
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2681" tvg-name="TRT YILDIZ HD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/trtsporyildiz.png" group-title="TRT", 2681 - TRT YILDIZ HD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/b4cca88e-d96b-4576-8e1b-51530c306df9.m3u
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2682" tvg-name="TRT YILDIZ UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/trtsporyildiz.png" group-title="TRT", 2682 - TRT YILDIZ UHD
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/2081f7ae-f4d3-421e-94e8-81f02269827f.m3u
+https://tv-trtsporyildiz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2683" tvg-name="TRT 3 SPOR HD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/trtspo3.png" group-title="TRT", 2683 - TRT 3 SPOR HD
 #EXTVLCOPT:adaptive-maxheight=360
@@ -13437,12 +13437,12 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8?checkedby:iptvcat.net
 #EXTINF:-1 tvg-chno="2685" Yedek="http://89.187.191.41/TRT-1-HD-TR/video.m3u8" Yedek2="http://89.34.226.39:8080/live/test_acct/ohbo1veifa4AhD/507.ts" Yedek3="https://tv-trt1.medya.trt.com.tr/master_1080.m3u8" Yedek4="http://95.174.71.114/TR-TRT1/index.m3u8" Yedek5="http://89.36.94.225:80/956bassem/BHrMOpKtyb/1643" Yedek6="https://trt.daioncdn.net/trt-1/master_1080p.m3u8?app=web" Yedek7="http://185.234.111.229:8000/play/a00c" Yedek8="https://217.30.11.74/e/200.m3u8" Yedek9="http://194.76.0.61:8070/live/test_acct/ohbo1veifa4AhD/507.ts" tvg-id="TRT1 HD.tr" Yedek10="https://helga.iptv2022.com/sh/trt_1/tracks-v4a1/mono.m3u8?filter.tracks=a1v1v2v3v4" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT1", 2685 - TRT1
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-http://89.187.191.41/TRT-1-HD-TR/video.m3u8
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2686" tvg-name="TRT2" tvg-logo="https://i.ibb.co/0JcxnSL/trt-2.png" group-title="TRT2", 2686 - TRT2
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
-https://vavoo.to/vavoo-iptv/play/21895121eeea9f4b76d9
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2687" tvg-name="TRT3 SPOR [offline]" tvg-logo="https://i.ibb.co/M9kWXzt/trt3spor22c.png" group-title="TRT3 SPOR", 2687 - TRT3 SPOR [offline]
 #EXTVLCOPT:adaptive-maxheight=360
