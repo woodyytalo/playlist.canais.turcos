@@ -21,7 +21,7 @@ https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+https://trkvz-live.daioncdn.net/ahaber/ahaber.m3u8
 
 #EXTINF:-1 tvg-id="ASpor.tr@SD" tvg-logo="https://i.imgur.com/ZhkZzLf.png" group-title="Sports",005 - A Spor SD (1080p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -369,7 +369,7 @@ https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+https://tv.ensonhaber.com/tv/tr/haberglobal/index.m3u8
 
 #EXTINF:-1 tvg-id="HaberturkTV.tr@SD" tvg-logo="https://i.imgur.com/6Tw3rUp.png" group-title="News",063 - Haberturk TV (720p) [Not 24/7]
 #EXTVLCOPT:adaptive-maxheight=360
@@ -597,7 +597,7 @@ http://212.42.111.152:8080/hls/manas.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+https://h125.artiyerelmedya.net/mavikaradeniz/bant1/chunks.m3u8
 
 #EXTINF:-1 tvg-id="MCTV.de@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/c/ca/MC_TV_logosu.png" group-title="Entertainment",101 - MC TV (720p)
 #EXTVLCOPT:adaptive-maxheight=360
@@ -1050,7 +1050,7 @@ http://canli.tvden.com.tr/hls/live.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+https://tv.ensonhaber.com/tv/tr/tvnet/index.m3u8
 
 #EXTINF:-1 tvg-id="UlkeTV.tr@SD" tvg-logo="https://i.imgur.com/wdWR7Qk.png" group-title="Undefined",176 - Ulke TV
 #EXTVLCOPT:adaptive-maxheight=360
