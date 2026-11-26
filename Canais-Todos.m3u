@@ -5529,3 +5529,18 @@ https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
 https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" group-title="NHK World-Japan HD (1080p) [Geo-blocked]",NHK World-Japan HD (1080p) [Geo-blocked]
 https://nhk.lls.pbs.org/index.m3u8
+
+#EXTINF:-1 tvg-name="DHA Canlı 1" group-title="DHA Canlı 1",DHA Canlı 1
+http://stream.tvcdn.net/haber/dha-canli-1.m3u8
+
+#EXTINF:-1 tvg-name="DHA Canlı 2" group-title="DHA Canlı 2",DHA Canlı 2
+http://stream.tvcdn.net/haber/dha-canli-2.m3u8
+
+#EXTINF:-1 tvg-name="Finans Türk" group-title="Finans Türk",Finans Türk
+http://stream.tvcdn.net/ekonomi/finans-turk.m3u8
+
+#EXTINF:-1 tvg-name="Kültür Sanat TV" group-title="Kültür Sanat TV",Kültür Sanat TV
+http://stream.tvcdn.net/eglence/kultur-sanat-tv.m3u8
+
+#EXTINF:-1 tvg-name="Belgesel TV" group-title="Belgesel TV",Belgesel TV
+http://stream.tvcdn.net/eglence/belgesel-tv.m3u8
