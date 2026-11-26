@@ -5562,3 +5562,33 @@ http://145.239.37.125:20458/sabantv3/sabantv3/playlist.m3u8
 
 #EXTINF:-1 tvg-id="SariyerTV.tr" tvg-name="Sarıyer TV" group-title="Sarıyer TV",Sarıyer TV
 http://s01.vpis.io/sariyer/sariyer.m3u8
+
+#EXTINF:-1 tvg-name="Arabesk TV" group-title="Arabesk TV",Arabesk TV
+https://zaplacanlitv.com/arabesk-tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Büyük Alanya TV" group-title="Büyük Alanya TV",Büyük Alanya TV
+https://zaplacanlitv.com/buyuk-alanya-tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ART Amasya TV" group-title="ART Amasya TV",ART Amasya TV
+https://zaplacanlitv.com/art-amasya-tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Plus Music TV" group-title="Plus Music TV",Plus Music TV
+https://zaplacanlitv.com/plus-music-tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Artvin Medya TV" group-title="Artvin Medya TV",Artvin Medya TV
+https://zaplacanlitv.com/artvin-medya-tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Refahiye TV" group-title="Refahiye TV",Refahiye TV
+https://zaplacanlitv.com/refahiyetv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kıbrıs Güneş Tv" group-title="Kıbrıs Güneş Tv",Kıbrıs Güneş Tv
+https://zaplacanlitv.com/kibris-gunes-tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Pamukkale TV" group-title="Pamukkale TV",Pamukkale TV
+https://zaplacanlitv.com/pamukkaletv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="CINE5 TV" group-title="CINE5 TV",CINE5 TV
+https://cdn-cine5tv.yayin.com.tr/cine5tv/cine5tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="CINE1" group-title="CINE1",CINE1
+https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
