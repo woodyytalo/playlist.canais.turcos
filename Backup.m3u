@@ -851,16 +851,16 @@ https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 #EXTINF:0 tvg-id="v25znppc6itjprw" tvg-name="A Spor" tvg-chno="282" tvg-country="TR" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 282 - A Spor (1080p)
 https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 
-#EXTINF:-1 tvg-chno="283" tvg-name="A SPOR FHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 283 - A SPOR FHD
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-chno="283" tvg-name="A SPOR FHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 283 - A SPOR FHD
 https://vavoo.to/vavoo-iptv/play/911836506e50aacc3a9e9
 
-#EXTINF:-1 tvg-chno="284" tvg-name="A SPOR HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 284 - A SPOR HD
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-chno="284" tvg-name="A SPOR HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 284 - A SPOR HD
 https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 
-#EXTINF:-1 tvg-chno="285" tvg-name="A SPOR HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 285 - A SPOR HD
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-chno="285" tvg-name="A SPOR HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 285 - A SPOR HD
 https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 
-#EXTINF:-1 tvg-chno="286" tvg-name="A SPOR HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 286 - A SPOR HD
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-chno="286" tvg-name="A SPOR HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 286 - A SPOR HD
 https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 
 #EXTINF:-1 tvg-chno="287" tvg-name="A SPOR HEVC" group-title="ATV", 287 - A SPOR HEVC
@@ -869,7 +869,7 @@ https://vavoo.to/vavoo-iptv/play/28805292086eedfe83d038
 #EXTINF:-1 tvg-chno="288" tvg-name="A SPOR HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/aspor.png" group-title="ATV", 288 - A SPOR HQ
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/6ff6a2e9-372a-40fe-a4c8-20a0e91c8f91.m3u
 
-#EXTINF:-1 tvg-chno="289" tvg-name="A SPOR UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 289 - A SPOR UHD
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-chno="289" tvg-name="A SPOR UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/007-A-Spor-8fb3457320.png" group-title="ATV", 289 - A SPOR UHD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/6a9f295e-2899-4aad-ac72-fd45d8848a10.m3u
 
 #EXTINF:-1 tvg-chno="290" tvg-logo="https://www.lyngsat.com/logo/tv/aa/a_spor_tr.png" group-title="ATV", 290 - A SPOR - TR
@@ -4027,16 +4027,16 @@ http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/KanalD_principal_SRT/playlist.m3u8
 #EXTINF:-1 tvg-chno="1339" tvg-id="EuroD.tr@SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/050-EURO-D-43558222f9.png" group-title="KANAL D", 1339 - Euro D SD
 https://viamotionhsi.netplus.ch/live/eds/eurod/browser-dash/eurod.mpd
 
-#EXTINF:-1 tvg-chno="1340" tvg-name="KANAL D FHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1340 - KANAL D FHD
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-chno="1340" tvg-name="KANAL D FHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1340 - KANAL D FHD
 https://vavoo.to/vavoo-iptv/play/1781656098069f8c014f2b
 
-#EXTINF:-1 tvg-chno="1341" tvg-name="KANAL D HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1341 - KANAL D HD
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-chno="1341" tvg-name="KANAL D HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1341 - KANAL D HD
 https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
 
-#EXTINF:-1 tvg-chno="1342" tvg-name="KANAL D HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1342 - KANAL D HD
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-chno="1342" tvg-name="KANAL D HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1342 - KANAL D HD
 https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
 
-#EXTINF:-1 tvg-chno="1343" tvg-name="KANAL D HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1343 - KANAL D HD
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-chno="1343" tvg-name="KANAL D HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1343 - KANAL D HD
 https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
 
 #EXTINF:-1 tvg-chno="1344" tvg-name="KANAL D HD (H265)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1344 - KANAL D HD (H265)
@@ -4048,10 +4048,10 @@ https://vavoo.to/vavoo-iptv/play/41138222975f1bf462585f
 #EXTINF:-1 tvg-chno="1346" tvg-name="KANAL D HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanald.png" group-title="KANAL D", 1346 - KANAL D HQ
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/09c65780-4e4e-4139-b5f4-c77c2fc5ea96.m3u
 
-#EXTINF:-1 tvg-chno="1347" tvg-name="KANAL D SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1347 - KANAL D SD
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-chno="1347" tvg-name="KANAL D SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1347 - KANAL D SD
 https://vavoo.to/vavoo-iptv/play/712040085633ac28facb4
 
-#EXTINF:-1 tvg-chno="1348" tvg-name="KANAL D UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1348 - KANAL D UHD
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-chno="1348" tvg-name="KANAL D UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/084-Kanal-D-702e437388.png" group-title="KANAL D", 1348 - KANAL D UHD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/e9e9e2ab-8830-4d76-9f2c-9f612eb9f85a.m3u
 
 #EXTINF:-1 tvg-chno="1349" tvg-id="KanalDDrama.tr@SD" tvg-logo="https://i.imgur.com/WIeZMKT.png" group-title="KANAL D", 1349 - Vive Kanal D Drama (1080p)
@@ -5344,16 +5344,16 @@ https://dogus-live.daioncdn.net/ntv/playlist.m3u8
 #EXTINF:-1 tvg-name="NTV" tvg-chno="1778" tvg-id="nyz5s8p798n9cqg" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" group-title="NTV", 1778 - NTV (720p)
 https://dogus-live.daioncdn.net/ntv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="1779" tvg-name="NTV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" group-title="NTV", 1779 - NTV HD
+#EXTINF:-1 tvg-id="NTV.tr" tvg-chno="1779" tvg-name="NTV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" group-title="NTV", 1779 - NTV HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/100b0317-1c11-4a8b-b74c-1cf1f03eb86e.m3u
 
-#EXTINF:-1 tvg-chno="1780" tvg-name="NTV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" group-title="NTV", 1780 - NTV HD
+#EXTINF:-1 tvg-id="NTV.tr" tvg-chno="1780" tvg-name="NTV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" group-title="NTV", 1780 - NTV HD
 https://vavoo.to/vavoo-iptv/play/2073292907cc209d200015
 
-#EXTINF:-1 tvg-chno="1781" tvg-name="NTV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" group-title="NTV", 1781 - NTV HD
+#EXTINF:-1 tvg-id="NTV.tr" tvg-chno="1781" tvg-name="NTV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" group-title="NTV", 1781 - NTV HD
 https://vavoo.to/vavoo-iptv/play/3194104127c78eba51ffc7
 
-#EXTINF:-1 tvg-chno="1782" tvg-name="NTV SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" group-title="NTV", 1782 - NTV SD
+#EXTINF:-1 tvg-id="NTV.tr" tvg-chno="1782" tvg-name="NTV SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/109-NTV-e202cedf75.png" group-title="NTV", 1782 - NTV SD
 https://vavoo.to/vavoo-iptv/play/36146942472ee484dac88b
 
 #EXTINF:-1 tvg-chno="1783" tvg-name="NTV HABER HD" tvg-logo="https://logo.huhu.to/logo?c=1220417659.png" group-title="NTV", 1783 - NTV HABER HD
@@ -6553,22 +6553,22 @@ https://217.30.11.74/e/3031.m3u8
 #EXTINF:-1 tvg-chno="2181" tvg-name="STANBUL FM T RK E POP" group-title="STANBUL FM T RK E POP", 2181 - STANBUL FM T RK E POP
 https://vavoo.to/vavoo-iptv/play/24113000874a63d83f38c1
 
-#EXTINF:-1 tvg-chno="2182" tvg-name="Star TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2182 - Star Tv
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-chno="2182" tvg-name="Star TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2182 - Star Tv
 https://dogus-live.daioncdn.net/startv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Star TV" tvg-chno="2183" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2183 - STAR TV
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-name="Star TV" tvg-chno="2183" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2183 - STAR TV
 https://dogus-live.daioncdn.net/startv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Star TV" tvg-chno="2184" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2184 - STAR TV
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-name="Star TV" tvg-chno="2184" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2184 - STAR TV
 https://dogus-live.daioncdn.net/startv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="2185" tvg-name="Star TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2185 - STAR TV
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-chno="2185" tvg-name="Star TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2185 - STAR TV
 https://dogus-live.daioncdn.net/startv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="2186" tvg-name="Star TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2186 - STAR TV
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-chno="2186" tvg-name="Star TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2186 - STAR TV
 https://dogus-live.daioncdn.net/startv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Star TV" tvg-chno="2187" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2187 - Star TV
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-name="Star TV" tvg-chno="2187" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2187 - Star TV
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://www.startv.com.tr/"}
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://www.startv.com.tr/
 https://dogus-live.daioncdn.net/startv/playlist.m3u8
@@ -6630,16 +6630,16 @@ https://vavoo.to/vavoo-iptv/play/113412438222c1fe60b23d
 #EXTINF:-1 tvg-chno="2206" tvg-name="STAR HD SD" tvg-logo="https://logo.huhu.to/logo?c=3209892863.png" group-title="STAR", 2206 - STAR HD SD
 https://vavoo.to/vavoo-iptv/play/32098928635d489700268f
 
-#EXTINF:-1 tvg-chno="2207" tvg-name="STAR TV FHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2207 - STAR TV FHD
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-chno="2207" tvg-name="STAR TV FHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2207 - STAR TV FHD
 https://vavoo.to/vavoo-iptv/play/20200351284d2f7e268665
 
-#EXTINF:-1 tvg-chno="2208" tvg-name="STAR TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2208 - STAR TV HD
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-chno="2208" tvg-name="STAR TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2208 - STAR TV HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/eee14005-6d67-4c76-a51d-cfc8b6ff2748.m3u
 
-#EXTINF:-1 tvg-chno="2209" tvg-name="STAR TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2209 - STAR TV HD
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-chno="2209" tvg-name="STAR TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2209 - STAR TV HD
 https://vavoo.to/vavoo-iptv/play/219297129315c074c03f8e
 
-#EXTINF:-1 tvg-chno="2210" tvg-name="STAR TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2210 - STAR TV HD
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-chno="2210" tvg-name="STAR TV HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2210 - STAR TV HD
 https://vavoo.to/vavoo-iptv/play/272055669263af9be64671
 
 #EXTINF:-1 tvg-chno="2211" tvg-name="STAR TV HEVC" group-title="STAR", 2211 - STAR TV HEVC
@@ -6648,7 +6648,7 @@ https://vavoo.to/vavoo-iptv/play/1386325794720c26c4132
 #EXTINF:-1 tvg-chno="2212" tvg-id="StarTV.tr" tvg-name="STAR TV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/startv.png" group-title="STAR", 2212 - STAR TV HQ
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/d4cddc47-b636-4c78-959c-d187ac7d58aa.m3u
 
-#EXTINF:-1 tvg-chno="2213" tvg-name="STAR TV UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2213 - STAR TV UHD
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-chno="2213" tvg-name="STAR TV UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/122-Star-TV-2887e41c6d.png" group-title="STAR", 2213 - STAR TV UHD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/f48624e2-6cd3-46c1-8d49-0a3acdc0b6f7.m3u
 
 #EXTINF:-1 tvg-chno="2214" tvg-name="Euro Star" tvg-logo="https://i.ibb.co/CbdPSX6/euro-star.png" group-title="STAR", 2214 - Euro Star
@@ -7074,19 +7074,19 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe45
 #EXTINF:-1 tvg-chno="2354" tvg-id="TGRTHaber.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="TGRT", 2354 - TGRT HABER HD
 https://canli.tgrthaber.com/tgrt.m3u8
 
-#EXTINF:-1 tvg-chno="2355" tvg-name="TGRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="TGRT", 2355 - TGRT HABER HD
+#EXTINF:-1 tvg-id="TGRTHaber.tr" tvg-chno="2355" tvg-name="TGRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="TGRT", 2355 - TGRT HABER HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/d0097654-2f97-4959-8459-15e7b6939810.m3u
 
-#EXTINF:-1 tvg-chno="2356" tvg-name="TGRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="TGRT", 2356 - TGRT HABER HD
+#EXTINF:-1 tvg-id="TGRTHaber.tr" tvg-chno="2356" tvg-name="TGRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="TGRT", 2356 - TGRT HABER HD
 https://vavoo.to/vavoo-iptv/play/190715470454a282dd6577
 
-#EXTINF:-1 tvg-chno="2357" tvg-name="TGRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="TGRT", 2357 - TGRT HABER HD
+#EXTINF:-1 tvg-id="TGRTHaber.tr" tvg-chno="2357" tvg-name="TGRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="TGRT", 2357 - TGRT HABER HD
 https://vavoo.to/vavoo-iptv/play/28143924587b833f07f3fe
 
 #EXTINF:-1 tvg-chno="2358" tvg-name="TGRT HABER HEVC" group-title="TGRT", 2358 - TGRT HABER HEVC
 https://vavoo.to/vavoo-iptv/play/1355881287ef2e990a9c27
 
-#EXTINF:-1 tvg-chno="2359" tvg-name="TGRT HABER UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="TGRT", 2359 - TGRT HABER UHD
+#EXTINF:-1 tvg-id="TGRTHaber.tr" tvg-chno="2359" tvg-name="TGRT HABER UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/127-TGRT-Haber-2c5b798c04.png" group-title="TGRT", 2359 - TGRT HABER UHD
 https://vavoo.to/vavoo-iptv/play/356274005436ab338d23af
 
 #EXTINF:-1 tvg-chno="2360" tvg-name="TGRT EU" tvg-logo="https://i.ibb.co/kMM9hwR/tgrt-eu.png" group-title="TGRT", 2360 - TGRT EU
@@ -7618,10 +7618,10 @@ https://tv-trtgenc.medya.trt.com.tr/master.m3u8#all
 #EXTINF:-1 tvg-chno="2535" tvg-name="TRT Genç" tvg-logo="https://i.imgur.com/fCHQYWS.png" group-title="TRT", 2535 - TRT Genc
 https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2536" tvg-name="TRT Kurdî" group-title="TRT", 2536 - TRT Kürdi
+#EXTINF:-1 tvg-id="TRTKurdi.tr" tvg-chno="2536" tvg-name="TRT Kurdî" group-title="TRT", 2536 - TRT Kürdi
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-name="TRT Kurdî" tvg-chno="2537" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trtkurdi.png" group-title="TRT", 2537 - TRT Kurdî
+#EXTINF:-1 tvg-id="TRTKurdi.tr" tvg-name="TRT Kurdî" tvg-chno="2537" tvg-logo="https://www.trt.com.tr/Content/Images/Channel/trtkurdi.png" group-title="TRT", 2537 - TRT Kurdî
 https://tv-trt-kurdi.medya.trt.com.tr/master_720.m3u8
 
 #EXTINF:-1 tvg-chno="2538" tvg-id="TRT.KURDİ.tr" tvg-name="TRT Kurdî" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-kurdi-tr.png" group-title="TRT", 2538 - TRT Kurdî
@@ -7630,7 +7630,7 @@ https://tv-trtkurdi.medya.trt.com.tr/master.m3u8#all
 #EXTINF:-1 tvg-chno="2539" tvg-id="TRT.KURDİ.tr" tvg-name="TRT Kurdî" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-kurdi-tr.png" group-title="TRT", 2539 - TRT Kurdî
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2540" tvg-name="TRT Kurdî" group-title="TRT", 2540 - TRT KURDI
+#EXTINF:-1 tvg-id="TRTKurdi.tr" tvg-chno="2540" tvg-name="TRT Kurdî" group-title="TRT", 2540 - TRT KURDI
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2541" tvg-name="TRT Kurdî" tvg-language="Kurdish" tvg-country="IR" tvg-id="TRT_Kurdi" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/14812637.png" group-title="TRT", 2541 - TRT Kürdi
@@ -7738,19 +7738,19 @@ https://mn-nl.mncdn.com/blutv_trt4k/live.m3u8
 #EXTINF:-1 tvg-chno="2575" tvg-name="TRT 4K UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trt4k.png" group-title="TRT", 2575 - TRT 4K UHD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/66a6e733-8800-42b1-a030-3a2d826c874c.m3u
 
-#EXTINF:-1 tvg-chno="2576" tvg-name="TRT 1 4K" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2576 - TRT 1 4K
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-chno="2576" tvg-name="TRT 1 4K" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2576 - TRT 1 4K
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2577" tvg-name="TRT 1 FHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2577 - TRT 1 FHD
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-chno="2577" tvg-name="TRT 1 FHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2577 - TRT 1 FHD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2578" tvg-name="TRT 1 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2578 - TRT 1 HD
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-chno="2578" tvg-name="TRT 1 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2578 - TRT 1 HD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2579" tvg-name="TRT 1 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2579 - TRT 1 HD
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-chno="2579" tvg-name="TRT 1 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2579 - TRT 1 HD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2580" tvg-name="TRT 1 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2580 - TRT 1 HD
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-chno="2580" tvg-name="TRT 1 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2580 - TRT 1 HD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2581" tvg-name="TRT 1 HEVC" tvg-logo="https://logo.huhu.to/logo?c=194373112.png" group-title="TRT", 2581 - TRT 1 HEVC
@@ -7759,10 +7759,10 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="2582" tvg-id="TRT1.tr" tvg-name="TRT 1 HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trt1.png" group-title="TRT", 2582 - TRT 1 HQ
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2583" tvg-name="TRT 1 SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2583 - TRT 1 SD
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-chno="2583" tvg-name="TRT 1 SD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2583 - TRT 1 SD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2584" tvg-name="TRT 1 UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2584 - TRT 1 UHD
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-chno="2584" tvg-name="TRT 1 UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/131-TRT-1-04c9c16fb7.png" group-title="TRT", 2584 - TRT 1 UHD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2585" tvg-logo="https://www.trt1.com.tr/public/logo/d60ab555-f948-464a-a139-df5410d2a7b5/TRT-1-Yeni-40px.png" group-title="TRT", 2585 - TRT 1 HD Yedek
@@ -7850,7 +7850,7 @@ https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="2612" tvg-name="TRT BELGESEL HEVC" tvg-logo="https://logo.huhu.to/logo?c=3340997026.png" group-title="TRT", 2612 - TRT BELGESEL HEVC
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2613" tvg-name="TRT COCUK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/cocuk/trtcocuk.png" group-title="TRT", 2613 - TRT COCUK HD
+#EXTINF:-1 tvg-id="TRTCocuk.tr" tvg-chno="2613" tvg-name="TRT COCUK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/cocuk/trtcocuk.png" group-title="TRT", 2613 - TRT COCUK HD
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTEBA.tr" tvg-chno="2614" tvg-name="TRT EBA" tvg-logo="https://logo.huhu.to/logo?c=3681071746.png" group-title="TRT", 2614 - TRT EBA
@@ -7871,19 +7871,19 @@ https://tv-e-okul02.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="2619" tvg-name="TRT EBA TV" tvg-logo="https://i.ibb.co/8g20RBH/ebatek.png" group-title="TRT", 2619 - TRT EBA TV
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2620" tvg-name="TRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2620 - TRT HABER HD
+#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-chno="2620" tvg-name="TRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2620 - TRT HABER HD
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2621" tvg-name="TRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2621 - TRT HABER HD
+#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-chno="2621" tvg-name="TRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2621 - TRT HABER HD
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2622" tvg-name="TRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2622 - TRT HABER HD
+#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-chno="2622" tvg-name="TRT HABER HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2622 - TRT HABER HD
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2623" tvg-name="TRT HABER HEVC" tvg-logo="https://logo.huhu.to/logo?c=2057965553.png" group-title="TRT", 2623 - TRT HABER HEVC
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2624" tvg-name="TRT HABER UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2624 - TRT HABER UHD
+#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-chno="2624" tvg-name="TRT HABER UHD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/138-TRT-Haber-5848a16d07.png" group-title="TRT", 2624 - TRT HABER UHD
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2625" tvg-name="TRT KURD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/139-TRT-Kurd-9efccd8883.png" group-title="TRT", 2625 - TRT KURD
@@ -7892,13 +7892,13 @@ https://vavoo.to/vavoo-iptv/play/1216632307df2afc1919fa
 #EXTINF:-1 tvg-chno="2626" tvg-name="TRT M Z K" group-title="TRT", 2626 - TRT M Z K
 https://vavoo.to/vavoo-iptv/play/970382162286220f5fa39
 
-#EXTINF:-1 tvg-chno="2627" tvg-name="TRT MUZIK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png" group-title="TRT", 2627 - TRT MUZIK HD
+#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-chno="2627" tvg-name="TRT MUZIK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png" group-title="TRT", 2627 - TRT MUZIK HD
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2628" tvg-name="TRT MUZIK HD+" group-title="TRT", 2628 - TRT MUZIK HD+
+#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-chno="2628" tvg-name="TRT MUZIK HD+" group-title="TRT", 2628 - TRT MUZIK HD+
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-chno="2629" tvg-name="TRT MUZIK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png" group-title="TRT", 2629 - TRT MUZIK UHD
+#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-chno="2629" tvg-name="TRT MUZIK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png" group-title="TRT", 2629 - TRT MUZIK UHD
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-chno="2630" tvg-name="TRT OCUK HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/134-TRT-ocuk-f8d8ab405b.png" group-title="TRT", 2630 - TRT OCUK HD
