@@ -38,7 +38,7 @@ http://185.234.111.229:8000/play/a059
 https://vavoo.to/vavoo-iptv/play/38229012391e140a7f75ba
 
 #EXTINF:-1 tvg-chno="13" tvg-name="24 TV" tvg-id="24.HD.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/001-24-TV-77bac50729.png" group-title="24 TV", 13 - 24 TV
-https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
+https://turkmedya-live.ercdn.net/tv24/tv24_480p.m3u8
 
 #EXTINF:-1 tvg-chno="14" tvg-id="24.TV.tr" tvg-name="24 TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/001-24-TV-77bac50729.png" group-title="24 TV", 14 - 24 TV
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8#all
@@ -113,7 +113,7 @@ https://vavoo.to/vavoo-iptv/play/473300573b9945e4c1fe4
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 
 #EXTINF:-1 tvg-name="360 TV" tvg-chno="38" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/003-360-TV-dfe13f5e49.png" group-title="360 TV", 38 - 360 TV
-https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8
+https://turkmedya-live.ercdn.net/tv360/tv360_480p.m3u8
 
 #EXTINF:-1 tvg-name="360 TV" tvg-chno="39" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/003-360-TV-dfe13f5e49.png" tvg-id="360.tr" group-title="360 TV", 39 - 360 TV (720p)
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
@@ -479,7 +479,7 @@ https://c.fulltvizle.com/ahaber/index.m3u8
 https://canlitvulusal.xyz/live/ahaber/index.m3u8
 
 #EXTINF:-1 tvg-chno="160" tvg-name="A Haber" tvg-id="ql8qf4vb46o1h7t" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/005-A-Haber-822786c766.png" group-title="ATV", 160 - A HABER
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_480p.m3u8
 
 #EXTINF:-1 tvg-chno="161" tvg-id="ql8qf4vb46o1h7t" tvg-name="A Haber" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/005-A-Haber-822786c766.png" group-title="ATV", 161 - A Haber
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8#all
@@ -685,7 +685,7 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
 
 #EXTINF:-1 tvg-name="ATV" tvg-chno="228" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" tvg-id="2zkzbuscxwyjc4k" group-title="ATV", 228 - ATV (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
 
 #EXTINF:-1 tvg-chno="229" tvg-name="ATV [youtube-src]" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 229 - ATV [youtube-src]
 https://youtu.be/1KXZDgP9W5E
@@ -700,7 +700,7 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8?checkedby:iptvc
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8?checkedby:iptvcat.net
 
 #EXTINF:0 tvg-id="2zkzbuscxwyjc4k" tvg-name="ATV" tvg-chno="233" tvg-country="TR" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/017-ATV-9fdcc8139e.png" group-title="ATV", 233 - ATV (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8?checkedby:iptvcat.net
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8?checkedby:iptvcat.net
 
 #EXTINF:-1 tvg-chno="234" tvg-name="A2 HD" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/008-A2-471abed9b9.png" group-title="ATV", 234 - A2 HD
 http://europlayiptv.de/live/alinihsan/da9Cmdy3n2/b20484c4-742b-4024-992c-0ecbdaad70ea.m3u
@@ -1229,7 +1229,7 @@ https://vavoo.to/vavoo-iptv/play/36523472636e2b2a3ca9ec
 https://vavoo.to/vavoo-iptv/play/1020985035552180fe7152
 
 #EXTINF:-1 tvg-chno="408" tvg-id="edf3lp61qexxxhl" tvg-name="Beyaz TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/020-Beyaz-TV-8103c07996.png" group-title="BEYAZ TV", 408 - Beyaz TV
-https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_480p.m3u8
 
 #EXTINF:-1 tvg-id="edf3lp61qexxxhl" tvg-chno="409" tvg-name="Beyaz TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/020-Beyaz-TV-8103c07996.png" group-title="BEYAZ TV", 409 - BEYAZ TV
 https://vavoo.to/vavoo-iptv/play/34182375310e960a426e1c
@@ -3290,7 +3290,7 @@ https://halktvdvr.blutv.com/blutv_halktv2_dvr/live.m3u8
 https://halktv.daioncdn.net/halktv/halktv.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609
 
 #EXTINF:-1 tvg-chno="1094" tvg-name="Halk TV" tvg-id="d1exl1gxity48nl" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="Halk TV", 1094 - Halk TV
-https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8
+https://halktv-live.daioncdn.net/halktv/halktv_480p.m3u8
 
 #EXTINF:-1 tvg-id="d1exl1gxity48nl" tvg-name="Halk TV" tvg-chno="1095" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/061-Halk-TV-91adc445e7.png" group-title="Halk TV", 1095 - Halk TV
 https://halktv.blutv.com/blutv_halktv_live/live.m3u8
@@ -6730,7 +6730,7 @@ https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8#all
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8
 
 #EXTINF:-1 tvg-chno="2240" tvg-id="tabii TV.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Tabii_logo.svg/1024px-Tabii_logo.svg.png" group-title="TABII", 2240 - TABII TV
-https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8?sid=IUlyczhCBES7nvvwJSIycw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=2800000
+https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_480p.m3u8?sid=yoAHas4-h0yTN6NtBHZwpw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=1000000
 
 #EXTINF:-1 tvg-chno="2241" tvg-name="TABII SPOR" group-title="TABII", 2241 - TABII SPOR
 https://vavoo.to/vavoo-iptv/play/1844863271513a413a321
@@ -6940,7 +6940,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tele1-can
 https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8
 
 #EXTINF:-1 tvg-id="2m3k6xyjyek7djr" tvg-name="TELE1" tvg-chno="2310" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/124-TELE1-8e64cd614b.png" group-title="TELE 1", 2310 - TELE1
-https://tele1-live.ercdn.net/tele1/tele1_1080p.m3u8
+https://tele1-live.ercdn.net/tele1/tele1_480p.m3u8
 
 #EXTINF:-1 tvg-chno="2311" tvg-id="Haber_Tele1" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/124-TELE1-8e64cd614b.png" group-title="TELE 1", 2311 - Tele 1
 https://ythls.kekikakademi.org/youtube/channel/UCoHnRpOS5rL62jTmSDO5Npw.m3u8
@@ -7204,13 +7204,13 @@ https://vavoo.to/vavoo-iptv/play/3887658051a11c1211af1b
 https://new.cache-stream.workers.dev/stream/kDvc4MSsnyI/live.m3u8
 
 #EXTINF:-1 tvg-name="TJK TV" tvg-chno="2398" tvg-id="TJKTV.tr" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/129-TJK-TV-3159cccbdd.png" group-title="TJK TV", 2398 - TJK TV
-https://tjktv-live.tjk.org/tjktv_1080p.m3u8
+https://tjktv-live.tjk.org/tjktv_480p.m3u8
 
 #EXTINF:-1 tvg-chno="2399" tvg-name="TJK TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/129-TJK-TV-3159cccbdd.png" group-title="TJK TV", 2399 - TJK TV
-https://tjktv-live.tjk.org/tjktv_1080p.m3u8#all
+https://tjktv-live.tjk.org/tjktv_480p.m3u8#all
 
 #EXTINF:-1 tvg-chno="2400" tvg-name="TJK TV" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/129-TJK-TV-3159cccbdd.png" group-title="TJK TV", 2400 - TJK TV
-https://tjktv-live.tjk.org/tjktv_1080p.m3u8#top50
+https://tjktv-live.tjk.org/tjktv_480p.m3u8#top50
 
 #EXTINF:-1 tvg-name="TJK TV" tvg-chno="2401" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/129-TJK-TV-3159cccbdd.png" tvg-id="TJKTV.tr@SD" group-title="TJK TV", 2401 - TJK TV (1080p)
 https://tjktv-live.tjk.org/tjktv.m3u8
@@ -8343,7 +8343,7 @@ https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tv-52
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/tv8-canliizle
 
 #EXTINF:-1 tvg-chno="2777" tvg-id="TV8.tr" tvg-name="TV 8" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/155-TV8-9794eeaf04.png" group-title="TV8", 2777 - TV 8
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_480p.m3u8
 
 #EXTINF:-1 tvg-chno="2778" tvg-name="TV 8" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/assets/logos/155-TV8-9794eeaf04.png" group-title="TV8", 2778 - TV 8
 https://vavoo.to/vavoo-iptv/play/429230692196156e882cb4
