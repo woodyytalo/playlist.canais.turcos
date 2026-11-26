@@ -113,7 +113,7 @@ https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 #EXTVLCOPT:network-caching=6000
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="CNBC-e" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/CNBC-e-19e4621c78.svg" group-title="NOTÍCIAS",CNBC-e
+#EXTINF:-1 tvg-id="pr3t0gzb7bxbc27" tvg-name="CNBC-e" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/CNBC-e-19e4621c78.svg" group-title="NOTÍCIAS",CNBC-e
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -461,7 +461,7 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #EXTVLCOPT:network-caching=6000
 https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Luys TV (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Luys-TV-63e8b7d14b.svg" group-title="REGIONAIS",Luys TV (1080p)
+#EXTINF:-1 tvg-id="85vcygdgu27fg6o" tvg-name="Luys TV (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/Luys-TV-63e8b7d14b.svg" group-title="REGIONAIS",Luys TV (1080p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -737,7 +737,7 @@ https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTVLCOPT:network-caching=6000
 https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-name="TRT Spor Yıldız (720p)" group-title="ESPORTES",TRT Spor Yıldız (720p)
+#EXTINF:-1 tvg-id="1yyvuttcurbkcnr" tvg-name="TRT Spor Yıldız (720p)" group-title="ESPORTES",TRT Spor Yıldız (720p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
@@ -761,7 +761,7 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTVLCOPT:network-caching=6000
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
-#EXTINF:-1 tvg-name="TV 264 (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-264-e60d7f8e86.svg" group-title="REGIONAIS",TV 264 (1080p)
+#EXTINF:-1 tvg-id="imohs5fyptw23ih" tvg-name="TV 264 (1080p)" tvg-logo="https://raw.githubusercontent.com/woodyytalo/playlist.canais.turcos/github/workflows/atualizar-logos.yml/logos-turcas-catalogo/tv-principal-svg/TV-264-e60d7f8e86.svg" group-title="REGIONAIS",TV 264 (1080p)
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
