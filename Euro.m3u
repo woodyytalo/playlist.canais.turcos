@@ -3,7 +3,7 @@
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A2.m3u
+https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8
 
 #EXTINF:-1 tvg-id="m0abaihy7vla6ma" tvg-name="NOW" group-title="ENTRETENIMENTO",NOW
 #EXTVLCOPT:adaptive-maxheight=360
@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/S
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/Teve2.m3u
+https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
 
 #EXTINF:-1 tvg-name="Arzu Film" group-title="Filmes e Séries",Arzu Film
 #EXTVLCOPT:adaptive-maxheight=360
@@ -87,7 +87,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/24_TV.m3u
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
 #EXTINF:-1 tvg-id="4nu4fjjhm0y6wqm" tvg-name="Bloomberg HT" group-title="NOTÍCIAS",Bloomberg HT
 #EXTVLCOPT:adaptive-maxheight=360
@@ -99,7 +99,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/B
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/CNN_Turk.m3u
+https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8
 
 #EXTINF:-1 tvg-id="bwmpobxuqn2pz87" tvg-name="Haber Global" group-title="NOTÍCIAS",Haber Global
 #EXTVLCOPT:adaptive-maxheight=360
@@ -111,7 +111,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/H
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/NTV.m3u
+https://dogus-live.daioncdn.net/ntv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="5zoe73avn97ggnt" tvg-name="Sözcü TV" group-title="NOTÍCIAS",Sözcü TV
 #EXTVLCOPT:adaptive-maxheight=360
@@ -135,7 +135,7 @@ https://tv-trthaber.medya.trt.com.tr/master.m3u8
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/TV100.m3u
+https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
 
 #EXTINF:-1 tvg-id="njoweqtgl6xngkj" tvg-name="TVNET" group-title="NOTÍCIAS",TVNET
 #EXTVLCOPT:adaptive-maxheight=360
@@ -147,7 +147,7 @@ https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/T
 #EXTVLCOPT:adaptive-maxheight=360
 #EXTVLCOPT:adaptive-maxheight=480
 #EXTVLCOPT:network-caching=6000
-https://raw.githubusercontent.com/Tahir2020/TR_Avrupa/refs/heads/main/playlist/A_Spor.m3u
+https://trkvz-live.daioncdn.net/aspor/aspor.m3u8
 
 #EXTINF:-1 tvg-id="kazwkgx73ijjqob" tvg-name="beIN Sports Haberler" group-title="ESPORTES",beIN Sports Haberler
 #EXTVLCOPT:adaptive-maxheight=360
