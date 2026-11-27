@@ -726,7 +726,7 @@ http://yayin3.canlitv.com:1935/canlitv/ahitv/chunklist.m3u8
 https://kool.ws/vavoo-iptv/play/29298467541e1d36e1991
 # ===== AK T TV =====
 
-#EXTINF:-1 tvg-name="AK T TV" group-title="AK T TV",AK T TV
+#EXTINF:-1 tvg-name="AK T TV" group-title="AKIT TV",AK T TV
 https://kool.ws/vavoo-iptv/play/344558568784e9a5583953
 # ===== AKILLI TV =====
 
@@ -2718,7 +2718,7 @@ https://kool.ws/vavoo-iptv/play/396367809728cc9e22209f
 https://kool.ws/vavoo-iptv/play/4108765291d43a8a0a8088
 # ===== DISNEY JR HD+ =====
 
-#EXTINF:-1 tvg-name="DISNEY JR HD+" group-title="DISNEY JR HD+",DISNEY JR HD+
+#EXTINF:-1 tvg-name="DISNEY JR HD+" group-title="DISNEY JR HD",DISNEY JR HD+
 https://kool.ws/vavoo-iptv/play/1772892321058f7001d327
 # ===== DISNEY JR. =====
 
@@ -2802,11 +2802,11 @@ https://kool.ws/vavoo-iptv/play/791616758a9307c539baa
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
 # ===== EPIC DRAMA =====
 
-#EXTINF:-1 tvg-name="DIZISMART MAX" group-title="DIZISMART MAX",DIZISMART MAX
+#EXTINF:-1 tvg-name="DIZISMART MAX" group-title="DIZI SMART MAX",DIZISMART MAX
 https://kool.ws/vavoo-iptv/play/1165201807c63adbefc9d9
 # ===== DIZISMART PREMIUM =====
 
-#EXTINF:-1 tvg-name="DIZISMART PREMIUM" group-title="DIZISMART PREMIUM",DIZISMART PREMIUM
+#EXTINF:-1 tvg-name="DIZISMART PREMIUM" group-title="DIZI SMART PREMIUM",DIZISMART PREMIUM
 https://kool.ws/vavoo-iptv/play/1195429280e03f87d3589d
 # ===== DOCUBOX =====
 
@@ -5646,7 +5646,7 @@ https://broadcasttr.com:446/linetv/bant1/playlist.m3u8
 https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
 # ===== LKE TV =====
 
-#EXTINF:-1 tvg-name="LKE TV" group-title="LKE TV",LKE TV
+#EXTINF:-1 tvg-name="LKE TV" group-title="Ilke TV",LKE TV
 https://kool.ws/vavoo-iptv/play/1839766333cbe160b34439
 # ===== LUYS TV =====
 
@@ -5665,7 +5665,7 @@ https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 https://kool.ws/vavoo-iptv/play/3309481234d6bfa8dd5880
 # ===== LOVE NATURE HD+ =====
 
-#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=1078222172.png" tvg-name="LOVE NATURE HD+" group-title="LOVE NATURE HD+",LOVE NATURE HD+
+#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=1078222172.png" tvg-name="LOVE NATURE HD+" group-title="LOVE NATURE HD",LOVE NATURE HD+
 https://kool.ws/vavoo-iptv/play/10782221721cd1db332b6b
 # ===== NAT GEO WILD =====
 
@@ -6107,7 +6107,7 @@ https://kool.ws/vavoo-iptv/play/1999823186f9934d6d684a
 https://kool.ws/vavoo-iptv/play/1519237116daf8e783a22b
 # ===== NAT GEO WILD HD+ =====
 
-#EXTINF:-1 tvg-name="NAT GEO WILD HD+" group-title="NAT GEO WILD HD+",NAT GEO WILD HD+
+#EXTINF:-1 tvg-name="NAT GEO WILD HD+" group-title="NAT GEO WILD HD",NAT GEO WILD HD+
 https://kool.ws/vavoo-iptv/play/124345657e7d701408114
 # ===== NATIONAL GEOGRAPHIC =====
 
@@ -7044,7 +7044,7 @@ https://kool.ws/vavoo-iptv/play/391881588210ea08f92125
 https://kool.ws/vavoo-iptv/play/28980136277243b68661a6
 # ===== S ZC SZC TV =====
 
-#EXTINF:-1 tvg-name="S NEMA 1002" group-title="S NEMA 1002",S NEMA 1002
+#EXTINF:-1 tvg-name="S NEMA 1002" group-title="SINEMA 1002",S NEMA 1002
 https://kool.ws/vavoo-iptv/play/1076643856c5c88735393f
 # ===== S NEMA A LE =====
 
@@ -7052,19 +7052,19 @@ https://kool.ws/vavoo-iptv/play/1076643856c5c88735393f
 https://kool.ws/vavoo-iptv/play/698495811d90e484ca252
 # ===== S NEMA A LE 2 =====
 
-#EXTINF:-1 tvg-name="S NEMA A LE 2" group-title="S NEMA A LE 2",S NEMA A LE 2
+#EXTINF:-1 tvg-name="S NEMA A LE 2" group-title="SINEMA AILE 2",S NEMA A LE 2
 https://kool.ws/vavoo-iptv/play/30005947634e6b4664fb0b
 # ===== S NEMA AKS YON 2 =====
 
-#EXTINF:-1 tvg-name="S NEMA AKS YON 2" group-title="S NEMA AKS YON 2",S NEMA AKS YON 2
+#EXTINF:-1 tvg-name="S NEMA AKS YON 2" group-title="SINEMA AKSIYON 2",S NEMA AKS YON 2
 https://kool.ws/vavoo-iptv/play/344071158009740df4a222
 # ===== S NEMA KOMED =====
 
-#EXTINF:-1 tvg-name="S NEMA KOMED" group-title="S NEMA KOMED",S NEMA KOMED
+#EXTINF:-1 tvg-name="S NEMA KOMED" group-title="SINEMA KOMEDI",S NEMA KOMED
 https://kool.ws/vavoo-iptv/play/4407749499b6c2037cd18
 # ===== S NEMA TV =====
 
-#EXTINF:-1 tvg-name="S NEMA TV" group-title="S NEMA TV",S NEMA TV
+#EXTINF:-1 tvg-name="S NEMA TV" group-title="SINEMA TV",S NEMA TV
 https://kool.ws/vavoo-iptv/play/2780830033f62b9d4a4669
 # ===== S NEMA TV 1001 =====
 
@@ -10031,7 +10031,7 @@ https://tv-trtbelgesel.live.trt.com.tr/master.m3u8
 https://d2xwn494f2lep.cloudfront.net/v1/master/80dbfc318ab6b980679b32095ba497236de6d2f9/TRT-Belgesel/master.m3u8
 # ===== TRT BELGESEL HD+ =====
 
-#EXTINF:-1 tvg-name="TRT BELGESEL HD+" group-title="TRT BELGESEL HD+",TRT BELGESEL HD+
+#EXTINF:-1 tvg-name="TRT BELGESEL HD+" group-title="TRT BELGESEL HD",TRT BELGESEL HD+
 https://kool.ws/vavoo-iptv/play/2661394868c382749f3f0e
 # ===== TRT BELGESEL HEVC =====
 
