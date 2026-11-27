@@ -1020,10 +1020,10 @@ https://tv.ensonhaber.com/benguturk/benguturk.m3u8#all
 #EXTINF:-1 tvg-id="BENGÜ.TÜRK.tr" tvg-name="Bengütürk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bengu-turk-tr.png" group-title="Bengütürk TV",0333 - Bengütürk TV
 https://tv.ensonhaber.com/benguturk/benguturk.m3u8#top50
 
-#EXTINF:-1 tvg-id="BenguturkTV.tr" tvg-name="BENGÜTÜRK TV (720p) [Not 24/7]" group-title="BENGÜTÜRK TV (720p) [Not 24/7]",0334 - BENGÜTÜRK TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="BenguturkTV.tr" tvg-name="BENGÜTÜRK TV (720p) [Not 24/7]" group-title="Benguturk TV (1080p)",0334 - BENGÜTÜRK TV (720p) [Not 24/7]
 https://tv.ensonhaber.com/benguturk/benguturk.m3u8
 
-#EXTINF:-1 tvg-id="BENGUTURKTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="BENGÜTÜRK TV (720p) [Not 24/7]",0334 - BENGÜTÜRK TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="BENGUTURKTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="Benguturk TV (1080p)",0334 - BENGÜTÜRK TV (720p) [Not 24/7]
 https://tv.ensonhaber.com/tv/tr/benguturk/index.m3u8
 
 #EXTINF:-1 tvg-id="BenguturkTV.tr@SD" tvg-logo="https://i.imgur.com/p3ON1oX.png" tvg-name="Benguturk TV (1080p)" group-title="Benguturk TV (1080p)",0335 - Benguturk TV (1080p)
@@ -1122,10 +1122,10 @@ https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-id="BeyazTV.tr@SD" tvg-name="BEYAZ TV" group-title="BEYAZ TV",0361 - BEYAZ TV
 https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
 
-#EXTINF:-1 tvg-id="BeyazTV.tr@SD" tvg-logo="https://i.imgur.com/uykIdML.png" tvg-name="Beyaz TV (720p) [Not 24/7]" group-title="Beyaz TV (720p) [Not 24/7]",0362 - Beyaz TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="BeyazTV.tr@SD" tvg-logo="https://i.imgur.com/uykIdML.png" tvg-name="Beyaz TV (720p) [Not 24/7]" group-title="Beyaz TV (1080p)",0362 - Beyaz TV (720p) [Not 24/7]
 https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
 
-#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/Msq17kK/beyaztv.png" group-title="Beyaz TV (720p) [Not 24/7]",0362 - Beyaz TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/Msq17kK/beyaztv.png" group-title="Beyaz TV (1080p)",0362 - Beyaz TV (720p) [Not 24/7]
 https://tv.ensonhaber.com/tv/tr/beyaztv/index.m3u8
 
 #EXTINF:-1 tvg-id="BeyazTV.tr@SD" tvg-logo="https://i.imgur.com/uykIdML.png" tvg-name="Beyaz TV (1080p)" group-title="Beyaz TV (1080p)",0363 - Beyaz TV (1080p)
@@ -1473,7 +1473,7 @@ https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 #EXTINF:-1 tvg-name="Çiftçi TV" tvg-logo="https://i.imgur.com/CLzP4vL.png" group-title="Çiftçi TV",0440 - Çiftçi TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8#all
 
-#EXTINF:-1 tvg-id="CiftciTV.tr" tvg-name="Çiftçi TV (720p) [Not 24/7]" group-title="Çiftçi TV (720p) [Not 24/7]",0441 - Çiftçi TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="CiftciTV.tr" tvg-name="Çiftçi TV (720p) [Not 24/7]" group-title="Çiftçi TV (1080p) [Not 24/7]",0441 - Çiftçi TV (720p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="CiftciTV.tr@SD" tvg-logo="https://i.imgur.com/CLzP4vL.png" tvg-name="Çiftçi TV (1080p) [Not 24/7]" group-title="Çiftçi TV (1080p) [Not 24/7]",0442 - Çiftçi TV (1080p) [Not 24/7]
@@ -3430,10 +3430,10 @@ https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 #EXTINF:-1 tvg-name="Kanal 3" tvg-logo="https://i.imgur.com/eXErSv0.png" group-title="Kanal 3",0926 - Kanal 3
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8#all
 
-#EXTINF:-1 tvg-id="Kanal3.tr@SD" tvg-logo="https://i.imgur.com/eXErSv0.png" tvg-name="Kanal 3 (720p) [Not 24/7]" group-title="Kanal 3 (720p) [Not 24/7]",0927 - Kanal 3 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="Kanal3.tr@SD" tvg-logo="https://i.imgur.com/eXErSv0.png" tvg-name="Kanal 3 (720p) [Not 24/7]" group-title="Kanal 3 (1080p) [Not 24/7]",0927 - Kanal 3 (720p) [Not 24/7]
 http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Kanal3.tr@SD" tvg-logo="https://i.imgur.com/eXErSv0.png" tvg-name="Kanal 3 (720p) [Not 24/7]" group-title="Kanal 3 (720p) [Not 24/7]",0927 - Kanal 3 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="Kanal3.tr@SD" tvg-logo="https://i.imgur.com/eXErSv0.png" tvg-name="Kanal 3 (720p) [Not 24/7]" group-title="Kanal 3 (1080p) [Not 24/7]",0927 - Kanal 3 (720p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Kanal3.tr@SD" tvg-logo="https://i.imgur.com/eXErSv0.png" tvg-name="Kanal 3 (1080p) [Not 24/7]" group-title="Kanal 3 (1080p) [Not 24/7]",0928 - Kanal 3 (1080p) [Not 24/7]
@@ -3667,10 +3667,10 @@ https://kool.ws/vavoo-iptv/play/28027024539d984983ade4
 #EXTINF:-1 tvg-name="KANAL 58" tvg-logo="https://i.imgur.com/Rgc66sv.png" group-title="KANAL 58",0964 - KANAL 58
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8#all
 
-#EXTINF:-1 tvg-id="" tvg-name="KANAL 58 (720p) [Not 24/7]" group-title="KANAL 58 (720p) [Not 24/7]",0965 - KANAL 58 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="" tvg-name="KANAL 58 (720p) [Not 24/7]" group-title="KANAL 58 (1080p) [Not 24/7]",0965 - KANAL 58 (720p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-country="TR" tvg-language="" tvg-logo="" group-title="KANAL 58 (720p) [Not 24/7]",0965 - KANAL 58 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="" tvg-country="TR" tvg-language="" tvg-logo="" group-title="KANAL 58 (1080p) [Not 24/7]",0965 - KANAL 58 (720p) [Not 24/7]
 https://broadcasttr.com:446/kanal58/bant1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Kanal58.tr@SD" tvg-logo="https://i.imgur.com/Rgc66sv.png" tvg-name="KANAL 58 (1080p) [Not 24/7]" group-title="KANAL 58 (1080p) [Not 24/7]",0966 - KANAL 58 (1080p) [Not 24/7]
@@ -3939,7 +3939,7 @@ https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8
 #EXTINF:-1 tvg-id="KentTurk.tr@SD" tvg-name="Kent Türk TV" group-title="Kent Türk TV",1023 - Kent Türk TV
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="KentTurk.tr" tvg-name="Kent Türk TV (720p) [Not 24/7]" group-title="Kent Türk TV (720p) [Not 24/7]",1024 - Kent Türk TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="KentTurk.tr" tvg-name="Kent Türk TV (720p) [Not 24/7]" group-title="Kent Türk TV (1080p) [Not 24/7]",1024 - Kent Türk TV (720p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="KentTurk.tr" tvg-name="Kent Türk TV (1080p) [Not 24/7]" group-title="Kent Türk TV (1080p) [Not 24/7]",1025 - Kent Türk TV (1080p) [Not 24/7]
@@ -4158,10 +4158,10 @@ https://lbl.netmedya.net/hls/lalegultv.m3u8#all
 #EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=1088149850.png" tvg-name="Lalegül TV" group-title="Lalegül TV",1066 - Lalegül TV
 https://kool.ws/vavoo-iptv/play/108814985093ce0bbbf5d6
 
-#EXTINF:-1 tvg-id="LalegulTV.tr@SD" tvg-logo="https://i.imgur.com/wwCysFs.png" tvg-name="Lalegül TV (720p) [Not 24/7]" group-title="Lalegül TV (720p) [Not 24/7]",1067 - Lalegül TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="LalegulTV.tr@SD" tvg-logo="https://i.imgur.com/wwCysFs.png" tvg-name="Lalegül TV (720p) [Not 24/7]" group-title="Lalegul TV (1080p)",1067 - Lalegül TV (720p) [Not 24/7]
 http://lalegultv.netmedya.net/hls/lalegultv.m3u8
 
-#EXTINF:-1 tvg-id="LalegulTV.tr@SD" tvg-logo="https://i.imgur.com/wwCysFs.png" tvg-name="Lalegül TV (720p) [Not 24/7]" group-title="Lalegül TV (720p) [Not 24/7]",1067 - Lalegül TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="LalegulTV.tr@SD" tvg-logo="https://i.imgur.com/wwCysFs.png" tvg-name="Lalegül TV (720p) [Not 24/7]" group-title="Lalegul TV (1080p)",1067 - Lalegül TV (720p) [Not 24/7]
 http://lalegultv.netmedya.net/lalegul-tv/lalegultv.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="LalegulTV.tr" tvg-name="Lalegul TV (1080p)" group-title="Lalegul TV (1080p)",1068 - Lalegul TV (1080p)
@@ -4209,7 +4209,7 @@ https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="LINETV.tr" tvg-name="Line TV" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="Line TV",1075 - Line TV
 https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8#all
 
-#EXTINF:-1 tvg-id="LineTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="Line TV (404p) [Not 24/7]",1076 - Line TV (404p) [Not 24/7]
+#EXTINF:-1 tvg-id="LineTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="Line TV (720p) [Not 24/7]",1076 - Line TV (404p) [Not 24/7]
 https://broadcasttr.com:446/linetv/bant1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="LineTV.tr" tvg-name="Line TV (720p) [Not 24/7]" group-title="Line TV (720p) [Not 24/7]",1077 - Line TV (720p) [Not 24/7]
@@ -5113,7 +5113,7 @@ https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Power Turk" group-title="Power Turk",1295 - Power Turk
 https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-logo="https://i.imgur.com/9OPoXQG.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" tvg-name="Power Turk (720p) [Not 24/7]" group-title="Power Turk (720p) [Not 24/7]",1296 - Power Turk (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-logo="https://i.imgur.com/9OPoXQG.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" tvg-name="Power Turk (720p) [Not 24/7]" group-title="Power Turk (1080p) [Not 24/7]",1296 - Power Turk (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8
 
@@ -8247,7 +8247,7 @@ https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8
 #EXTINF:-1 tvg-name="TRT World" group-title="TRT World",2040 - TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="TRT World (720p) [Not 24/7]",2041 - TRT World (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="TRT World (1080p) [Not 24/7]",2041 - TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World (1080p) [Not 24/7]" group-title="TRT World (1080p) [Not 24/7]",2042 - TRT World (1080p) [Not 24/7]
