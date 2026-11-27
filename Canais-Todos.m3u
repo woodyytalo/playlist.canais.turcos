@@ -1,3 +1,23 @@
+#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=93054202.png" tvg-name="TRT SPOR YILDIZ" group-title="TRT Spor Yıldız",TRT Spor Yıldız
+https://kool.ws/vavoo-iptv/play/930542029ffe0c297ec0
+#EXTINF:-1 tvg-name="TRT SPOR YILDIZ" group-title="TRT Spor Yıldız",TRT Spor Yıldız
+https://kool.ws/vavoo-iptv/play/2081577417310aa2d344e3
+#EXTINF:-1 tvg-id="TRT Spor Yildiz" tvg-language="Turkish" tvg-logo="https://i.ibb.co/FBzsCSY/trtsporyildiz.jpg" tvg-name="TRT Spor Yıldız" group-title="TRT Spor Yıldız",TRT Spor Yıldız
+https://mn-nl.mncdn.com/blutv_trtsporyildiz/live.m3u8
+#EXTINF:-1 tvg-id="TRTSporYildiz.tr@SD" tvg-name="TRT Spor Yıldız" group-title="TRT Spor Yıldız",TRT Spor Yıldız
+https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
+#EXTINF:-1 tvg-name="TRT Spor Yıldız" group-title="TRT Spor Yıldız",TRT Spor Yıldız
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-spor-yildiz-tr.png" group-title="TRT Spor Yıldız",TRT Spor Yıldız
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8#all
+#EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-spor-yildiz-tr.png" group-title="TRT Spor Yıldız",TRT Spor Yıldız
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8#top50
+#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=744021843.png" tvg-name="KANAL FIRAT" group-title="Kanal Fırat",Kanal Fırat
+https://kool.ws/vavoo-iptv/play/7440218437e242db07f3d
+#EXTINF:-1 tvg-id="KanalFirat.tr@SD" tvg-name="Kanal Fırat" group-title="Kanal Fırat",Kanal Fırat
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
+#EXTINF:-1 tvg-name="Kanal Fırat" tvg-logo="https://i.imgur.com/3o8Rokp.png" group-title="Kanal Fırat",Kanal Fırat
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8#all
 #EXTM3U
 # Playlist ampliada com canais das fontes originais do GitHub.
 # Cada canal foi colocado em uma categoria com o mesmo nome do canal.
@@ -5105,12 +5125,8 @@ https://kool.ws/vavoo-iptv/play/712040085633ac28facb4
 https://59cba4d34b678.streamlock.net/canlitv/kanalege/playlist.m3u8
 # ===== KANAL FIRAT =====
 
-#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=744021843.png" tvg-name="KANAL FIRAT" group-title="Kanal Fırat",Kanal Fırat
-https://kool.ws/vavoo-iptv/play/7440218437e242db07f3d
 # ===== KANAL FIRAT =====
 
-#EXTINF:-1 tvg-id="KanalFirat.tr@SD" tvg-name="Kanal Fırat" group-title="Kanal Fırat",Kanal Fırat
-https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 # ===== KANAL FIRAT (720P) [NOT 24/7] =====
 
 #EXTINF:-1 tvg-id="KanalFirat.tr" tvg-name="Kanal Firat (720p) [Not 24/7]" group-title="Kanal Firat (720p) [Not 24/7]",Kanal Firat (720p) [Not 24/7]
@@ -5121,8 +5137,6 @@ https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u
 https://waw2.artiyerelmedya.net/kanalfirat/bant1/playlist.m3u8
 # ===== KANAL HAYAT =====
 
-#EXTINF:-1 tvg-name="Kanal Fırat" tvg-logo="https://i.imgur.com/3o8Rokp.png" group-title="Kanal Fırat",Kanal Fırat
-https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8#all
 
 #EXTINF:-1 tvg-name="KANAL HAYAT" tvg-logo="https://logo.huhu.to/logo?c=897076110.png" group-title="Kanal Hayat",Kanal Hayat
 https://kool.ws/vavoo-iptv/play/897076110f2f104884685
@@ -10333,23 +10347,13 @@ https://kool.ws/vavoo-iptv/play/601788690f9e0a5148c48
 https://trtspordvr.blutv.com/blutv_trtspor_dvr/live.m3u8
 # ===== TRT SPOR YILDIZ =====
 
-#EXTINF:-1 tvg-logo="https://logo.huhu.to/logo?c=93054202.png" tvg-name="TRT SPOR YILDIZ" group-title="TRT Spor Yıldız",TRT Spor Yıldız
-https://kool.ws/vavoo-iptv/play/930542029ffe0c297ec0
 # ===== TRT SPOR YILDIZ =====
 
-#EXTINF:-1 tvg-name="TRT SPOR YILDIZ" group-title="TRT Spor Yıldız",TRT Spor Yıldız
-https://kool.ws/vavoo-iptv/play/2081577417310aa2d344e3
 
-#EXTINF:-1 tvg-id="TRT Spor Yildiz" tvg-language="Turkish" tvg-logo="https://i.ibb.co/FBzsCSY/trtsporyildiz.jpg" tvg-name="TRT Spor Yıldız" group-title="TRT Spor Yıldız",TRT Spor Yıldız
-https://mn-nl.mncdn.com/blutv_trtsporyildiz/live.m3u8
 # ===== TRT SPOR YILDIZ =====
 
-#EXTINF:-1 tvg-id="TRTSporYildiz.tr@SD" tvg-name="TRT Spor Yıldız" group-title="TRT Spor Yıldız",TRT Spor Yıldız
-https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
 # ===== TRT SPOR YILDIZ =====
 
-#EXTINF:-1 tvg-name="TRT Spor Yıldız" group-title="TRT Spor Yıldız",TRT Spor Yıldız
-https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 # ===== TRT SPOR YILDIZ (1080P) [GEO-BLOCKED] =====
 
 #EXTINF:-1 tvg-id="TRTSporYildiz.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png" tvg-name="TRT Spor Yildiz (1080p) [Geo-blocked]" group-title="TRT Spor Yildiz (1080p) [Geo-blocked]",TRT Spor Yildiz (1080p) [Geo-blocked]
@@ -10372,11 +10376,7 @@ https://kool.ws/vavoo-iptv/play/114501523d11f5030113f
 https://kool.ws/vavoo-iptv/play/268929752745bb1e55d52a
 # ===== 4K TR: BABYTV =====
 
-#EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-spor-yildiz-tr.png" group-title="TRT Spor Yıldız",TRT Spor Yıldız
-https://tv-trtspor2.medya.trt.com.tr/master.m3u8#all
 
-#EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-spor-yildiz-tr.png" group-title="TRT Spor Yıldız",TRT Spor Yıldız
-https://tv-trtspor2.medya.trt.com.tr/master.m3u8#top50
 
 #EXTINF:-1 tvg-name="TRT T RK" group-title="TRT T RK",TRT T RK
 https://kool.ws/vavoo-iptv/play/35084774810a78b091aa35
