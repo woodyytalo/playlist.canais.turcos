@@ -1,8 +1,8 @@
 {
   "total": 215,
-  "validos": 67,
-  "falhas": 148,
-  "lentos": 5,
+  "validos": 69,
+  "falhas": 146,
+  "lentos": 3,
   "canais": [
     {
       "canal": "1 - BabyTV",
@@ -11,7 +11,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 190,
+        "ms": 312,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -23,7 +23,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 177,
+        "ms": 176,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -35,7 +35,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 911,
+        "ms": 903,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -47,7 +47,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 710,
+        "ms": 789,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -59,7 +59,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 2177,
+        "ms": 2911,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -71,7 +71,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 498,
+        "ms": 379,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -82,8 +82,8 @@
       "url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_480.m3u8",
       "teste": {
         "status": "OK",
-        "http": 200,
-        "ms": 582,
+        "http": 206,
+        "ms": 402,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -95,7 +95,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 419,
+        "ms": 431,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -107,7 +107,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 438,
+        "ms": 430,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -119,7 +119,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 366,
+        "ms": 265,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -131,7 +131,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 540,
+        "ms": 555,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -155,7 +155,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 438,
+        "ms": 523,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -167,7 +167,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 872,
+        "ms": 766,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -179,7 +179,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 300,
+        "ms": 417,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -191,7 +191,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 780,
+        "ms": 781,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -203,7 +203,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 213,
+        "ms": 227,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -215,7 +215,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 928,
+        "ms": 936,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -227,7 +227,7 @@
       "teste": {
         "status": "FALHA",
         "http": 403,
-        "ms": 552,
+        "ms": 583,
         "tipo": "HTTP",
         "detalhe": "Forbidden"
       }
@@ -239,7 +239,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 5160,
+        "ms": 5142,
         "tipo": "rede",
         "detalhe": "<urlopen error _ssl.c:1001: The handshake operation timed out>"
       }
@@ -251,7 +251,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 483,
+        "ms": 453,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -263,7 +263,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 618,
+        "ms": 713,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -275,7 +275,7 @@
       "teste": {
         "status": "FALHA",
         "http": 500,
-        "ms": 106,
+        "ms": 124,
         "tipo": "HTTP",
         "detalhe": "Internal Server Error"
       }
@@ -287,7 +287,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 492,
+        "ms": 493,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -299,7 +299,7 @@
       "teste": {
         "status": "FALHA",
         "http": 403,
-        "ms": 438,
+        "ms": 549,
         "tipo": "HTTP",
         "detalhe": "Forbidden"
       }
@@ -311,7 +311,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1215,
+        "ms": 1133,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -323,7 +323,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 418,
+        "ms": 427,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -335,7 +335,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 663,
+        "ms": 730,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -347,7 +347,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1345,
+        "ms": 911,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -359,7 +359,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 293,
+        "ms": 413,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -371,7 +371,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 360,
+        "ms": 386,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -383,7 +383,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 228,
+        "ms": 489,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -395,7 +395,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 202,
+        "ms": 196,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -407,7 +407,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 132,
+        "ms": 97,
         "tipo": "rede",
         "detalhe": "<urlopen error [Errno -2] Name or service not known>"
       }
@@ -419,7 +419,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 528,
+        "ms": 487,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -431,7 +431,7 @@
       "teste": {
         "status": "FALHA",
         "http": 500,
-        "ms": 197,
+        "ms": 130,
         "tipo": "HTTP",
         "detalhe": "Internal Server Error"
       }
@@ -443,7 +443,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 435,
+        "ms": 441,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -455,7 +455,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 49,
+        "ms": 51,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -467,7 +467,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 778,
+        "ms": 653,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -479,7 +479,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 285,
+        "ms": 297,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -491,7 +491,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 4061,
+        "ms": 819,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -503,7 +503,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1582,
+        "ms": 1187,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -515,7 +515,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 43,
+        "ms": 53,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -527,7 +527,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 460,
+        "ms": 458,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -539,7 +539,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 461,
+        "ms": 450,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -551,7 +551,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 396,
+        "ms": 402,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -563,7 +563,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 549,
+        "ms": 449,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -575,7 +575,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 452,
+        "ms": 562,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -587,7 +587,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 995,
+        "ms": 954,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -599,7 +599,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 403,
+        "ms": 409,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -611,7 +611,7 @@
       "teste": {
         "status": "FALHA",
         "http": 500,
-        "ms": 4546,
+        "ms": 3262,
         "tipo": "HTTP",
         "detalhe": "Internal Server Error"
       }
@@ -623,7 +623,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 492,
+        "ms": 436,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -635,7 +635,7 @@
       "teste": {
         "status": "FALHA",
         "http": 403,
-        "ms": 401,
+        "ms": 397,
         "tipo": "HTTP",
         "detalhe": "Forbidden"
       }
@@ -647,7 +647,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 223,
+        "ms": 259,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -659,7 +659,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 4735,
+        "ms": 721,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -671,7 +671,7 @@
       "teste": {
         "status": "FALHA",
         "http": 403,
-        "ms": 333,
+        "ms": 442,
         "tipo": "HTTP",
         "detalhe": "Forbidden"
       }
@@ -683,7 +683,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 573,
+        "ms": 420,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -695,7 +695,7 @@
       "teste": {
         "status": "FALHA",
         "http": 403,
-        "ms": 449,
+        "ms": 454,
         "tipo": "HTTP",
         "detalhe": "Forbidden"
       }
@@ -705,11 +705,11 @@
       "categoria": "ENTRETENIMENTO",
       "url": "https://tv-trt1.medya.trt.com.tr/master_480.m3u8",
       "teste": {
-        "status": "FALHA",
-        "http": 403,
-        "ms": 218,
-        "tipo": "HTTP",
-        "detalhe": "Forbidden"
+        "status": "OK",
+        "http": 200,
+        "ms": 390,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
       }
     },
     {
@@ -719,7 +719,7 @@
       "teste": {
         "status": "FALHA",
         "http": 403,
-        "ms": 429,
+        "ms": 459,
         "tipo": "HTTP",
         "detalhe": "Forbidden"
       }
@@ -731,7 +731,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 904,
+        "ms": 881,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -743,7 +743,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1600,
+        "ms": 1791,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -755,7 +755,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 764,
+        "ms": 560,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -767,7 +767,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 451,
+        "ms": 450,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -779,7 +779,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 704,
+        "ms": 647,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -791,7 +791,7 @@
       "teste": {
         "status": "FALHA",
         "http": 503,
-        "ms": 211,
+        "ms": 216,
         "tipo": "HTTP",
         "detalhe": "Service Unavailable"
       }
@@ -803,7 +803,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 16,
+        "ms": 103,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -815,7 +815,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 382,
+        "ms": 383,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -827,7 +827,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 499,
+        "ms": 448,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -839,7 +839,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 762,
+        "ms": 848,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -851,7 +851,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1496,
+        "ms": 2011,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -863,7 +863,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 5225,
+        "ms": 5232,
         "tipo": "rede",
         "detalhe": "<urlopen error timed out>"
       }
@@ -875,7 +875,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 205,
+        "ms": 238,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -887,7 +887,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 8839,
+        "ms": 3436,
         "tipo": "HTTP",
         "detalhe": "Resposta recebida"
       }
@@ -898,10 +898,10 @@
       "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist_480p.m3u8",
       "teste": {
         "status": "FALHA",
-        "http": 404,
-        "ms": 457,
-        "tipo": "HTTP",
-        "detalhe": "Not Found"
+        "http": null,
+        "ms": 5370,
+        "tipo": "rede",
+        "detalhe": "The read operation timed out"
       }
     },
     {
@@ -911,7 +911,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 916,
+        "ms": 865,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -923,7 +923,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 183,
+        "ms": 213,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -935,7 +935,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 525,
+        "ms": 581,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -947,7 +947,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 489,
+        "ms": 569,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -959,7 +959,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 366,
+        "ms": 349,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -971,7 +971,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 498,
+        "ms": 687,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -983,7 +983,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 683,
+        "ms": 623,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -995,7 +995,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1583,
+        "ms": 1450,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1007,7 +1007,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1587,
+        "ms": 1168,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1019,7 +1019,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1205,
+        "ms": 888,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1031,7 +1031,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 720,
+        "ms": 859,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1043,7 +1043,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 396,
+        "ms": 433,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1055,7 +1055,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 481,
+        "ms": 427,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1067,7 +1067,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1359,
+        "ms": 615,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1079,7 +1079,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 538,
+        "ms": 535,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1091,7 +1091,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 249,
+        "ms": 259,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1103,7 +1103,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 344,
+        "ms": 339,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1115,7 +1115,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 216,
+        "ms": 215,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1127,7 +1127,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 192,
+        "ms": 869,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1139,7 +1139,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 786,
+        "ms": 202,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1151,7 +1151,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 741,
+        "ms": 377,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1163,7 +1163,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 270,
+        "ms": 592,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1175,7 +1175,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 199,
+        "ms": 215,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1187,7 +1187,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 441,
+        "ms": 417,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1199,7 +1199,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 3884,
+        "ms": 1575,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1211,7 +1211,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 368,
+        "ms": 417,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1223,7 +1223,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 518,
+        "ms": 537,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1235,7 +1235,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 892,
+        "ms": 986,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1247,7 +1247,7 @@
       "teste": {
         "status": "FALHA",
         "http": 502,
-        "ms": 5163,
+        "ms": 3369,
         "tipo": "HTTP",
         "detalhe": "Bad Gateway"
       }
@@ -1259,7 +1259,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 703,
+        "ms": 525,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1271,7 +1271,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 747,
+        "ms": 774,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1283,7 +1283,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 1111,
+        "ms": 1046,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1295,7 +1295,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 435,
+        "ms": 442,
         "tipo": "HTTP",
         "detalhe": "Resposta recebida"
       }
@@ -1307,7 +1307,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 751,
+        "ms": 614,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1319,7 +1319,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 528,
+        "ms": 554,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1331,7 +1331,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 396,
+        "ms": 392,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1343,7 +1343,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 204,
+        "ms": 196,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -1355,7 +1355,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 417,
+        "ms": 363,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1367,7 +1367,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 433,
+        "ms": 538,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1379,7 +1379,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1385,
+        "ms": 904,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1391,7 +1391,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 478,
+        "ms": 489,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1403,7 +1403,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 222,
+        "ms": 214,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1415,7 +1415,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 756,
+        "ms": 757,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1427,7 +1427,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 266,
+        "ms": 388,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1439,7 +1439,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 489,
+        "ms": 537,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1451,7 +1451,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 622,
+        "ms": 1011,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1463,7 +1463,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 539,
+        "ms": 605,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1475,7 +1475,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 403,
+        "ms": 416,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1487,7 +1487,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 403,
+        "ms": 373,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1499,7 +1499,7 @@
       "teste": {
         "status": "FALHA",
         "http": 400,
-        "ms": 312,
+        "ms": 389,
         "tipo": "HTTP",
         "detalhe": "Bad Request"
       }
@@ -1511,7 +1511,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 75,
+        "ms": 76,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1523,7 +1523,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 386,
+        "ms": 499,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1535,7 +1535,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1578,
+        "ms": 614,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1547,7 +1547,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 19,
+        "ms": 96,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1559,7 +1559,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 297,
+        "ms": 340,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1571,7 +1571,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 342,
+        "ms": 355,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1583,7 +1583,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 495,
+        "ms": 556,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1595,7 +1595,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 323,
+        "ms": 322,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1607,7 +1607,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 629,
+        "ms": 452,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1619,7 +1619,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 384,
+        "ms": 405,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1629,11 +1629,11 @@
       "categoria": "INTERNACIONAIS",
       "url": "http://62.60.207.173:8080/hls/thaqalayn/1_2/index_480p.m3u8?tkn=751218219",
       "teste": {
-        "status": "FALHA",
-        "http": null,
-        "ms": 5162,
-        "tipo": "rede",
-        "detalhe": "timed out"
+        "status": "OK",
+        "http": 200,
+        "ms": 925,
+        "tipo": "HLS",
+        "detalhe": "Resposta recebida"
       }
     },
     {
@@ -1655,7 +1655,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 894,
+        "ms": 1068,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1667,7 +1667,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 445,
+        "ms": 436,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1679,7 +1679,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 438,
+        "ms": 452,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1691,7 +1691,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 413,
+        "ms": 412,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1703,7 +1703,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 749,
+        "ms": 683,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1715,7 +1715,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 444,
+        "ms": 272,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1727,7 +1727,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1069,
+        "ms": 713,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1739,7 +1739,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 118,
+        "ms": 207,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1750,8 +1750,8 @@
       "url": "https://tv-trtavaz.medya.trt.com.tr/master_480.m3u8",
       "teste": {
         "status": "OK",
-        "http": 206,
-        "ms": 328,
+        "http": 200,
+        "ms": 266,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1763,7 +1763,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 184,
+        "ms": 434,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1775,7 +1775,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 324,
+        "ms": 404,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1787,7 +1787,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 918,
+        "ms": 1185,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1799,7 +1799,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1423,
+        "ms": 888,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1811,7 +1811,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 630,
+        "ms": 643,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1823,7 +1823,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 207,
+        "ms": 200,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -1835,7 +1835,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 413,
+        "ms": 417,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1847,7 +1847,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 617,
+        "ms": 633,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1859,7 +1859,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 926,
+        "ms": 1030,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1871,7 +1871,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 208,
+        "ms": 194,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -1883,7 +1883,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 899,
+        "ms": 716,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1895,7 +1895,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 624,
+        "ms": 1406,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1907,7 +1907,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 311,
+        "ms": 297,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1919,7 +1919,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1411,
+        "ms": 904,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1931,7 +1931,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1198,
+        "ms": 1042,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1943,7 +1943,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 632,
+        "ms": 633,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -1955,7 +1955,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 617,
+        "ms": 619,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1967,7 +1967,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 615,
+        "ms": 1002,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -1991,7 +1991,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1029,
+        "ms": 1037,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2003,7 +2003,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 207,
+        "ms": 199,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2015,7 +2015,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1566,
+        "ms": 1011,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2027,7 +2027,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 210,
+        "ms": 192,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2039,7 +2039,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 225,
+        "ms": 201,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2051,7 +2051,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 570,
+        "ms": 707,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2063,7 +2063,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 616,
+        "ms": 1195,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2075,7 +2075,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1548,
+        "ms": 886,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2087,7 +2087,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1037,
+        "ms": 1262,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2099,7 +2099,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 362,
+        "ms": 390,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2111,7 +2111,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1192,
+        "ms": 1410,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2123,7 +2123,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 994,
+        "ms": 654,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2135,7 +2135,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 608,
+        "ms": 908,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2147,7 +2147,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 206,
+        "ms": 195,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2159,7 +2159,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 216,
+        "ms": 201,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2171,7 +2171,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 401,
+        "ms": 358,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2183,7 +2183,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 391,
+        "ms": 418,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2195,7 +2195,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 615,
+        "ms": 612,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2219,7 +2219,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 615,
+        "ms": 1273,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2231,7 +2231,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 616,
+        "ms": 1436,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2243,7 +2243,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1275,
+        "ms": 745,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2255,7 +2255,7 @@
       "teste": {
         "status": "OK",
         "http": 200,
-        "ms": 247,
+        "ms": 235,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2267,7 +2267,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 609,
+        "ms": 613,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2279,7 +2279,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 392,
+        "ms": 412,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2291,7 +2291,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 631,
+        "ms": 627,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2303,7 +2303,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 619,
+        "ms": 612,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2315,7 +2315,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 617,
+        "ms": 1396,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2327,7 +2327,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 205,
+        "ms": 195,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2339,7 +2339,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1459,
+        "ms": 1009,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2351,7 +2351,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 616,
+        "ms": 1391,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2363,7 +2363,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1060,
+        "ms": 1279,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2387,7 +2387,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 681,
+        "ms": 656,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2399,7 +2399,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 609,
+        "ms": 615,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2411,7 +2411,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 203,
+        "ms": 198,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2423,7 +2423,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1023,
+        "ms": 832,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2435,7 +2435,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 616,
+        "ms": 611,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2447,7 +2447,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 203,
+        "ms": 188,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2459,7 +2459,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1320,
+        "ms": 1336,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2471,7 +2471,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 654,
+        "ms": 778,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2483,7 +2483,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 1222,
+        "ms": 613,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2495,7 +2495,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 377,
+        "ms": 368,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2507,7 +2507,7 @@
       "teste": {
         "status": "OK",
         "http": 206,
-        "ms": 263,
+        "ms": 264,
         "tipo": "HLS",
         "detalhe": "Resposta recebida"
       }
@@ -2519,7 +2519,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 212,
+        "ms": 195,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2531,7 +2531,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 507,
+        "ms": 496,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2543,7 +2543,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 623,
+        "ms": 1052,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2555,7 +2555,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 209,
+        "ms": 204,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
@@ -2567,7 +2567,7 @@
       "teste": {
         "status": "FALHA",
         "http": 404,
-        "ms": 618,
+        "ms": 613,
         "tipo": "HTTP",
         "detalhe": "Not Found"
       }
@@ -2579,7 +2579,7 @@
       "teste": {
         "status": "FALHA",
         "http": null,
-        "ms": 216,
+        "ms": 195,
         "tipo": "rede",
         "detalhe": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'edge1.socialsmart.tv'. (_ssl.c:1018)>"
       }
