@@ -48,3 +48,11 @@ https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8?checkedby:iptvcat.
 https://list.iptvcat.net/assets/videos/lazycat-iptvcat.net.mp4
 #EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",UR FANATiK TV YEDEK
 https://edge1.socialsmart.tv/urfanatiktv/bant1/chunks.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",Edessa TV (1080p)
+https://canli.edessatv.com/hls/stream.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="https://i.imgur.com/3o8Rokp.png" group-title="",Kanal Firat (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",Power TV (720p)
+https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="",TV 41 (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8?checkedby:iptvcat.net
