@@ -8965,3 +8965,306 @@ https://kool.ws/vavoo-iptv/play/1467834090ec77c1def93a
 
 #EXTINF:-1 tvg-name="Teve2" group-title="IPTV Cat",1478 - Teve2
 https://teve2.daioncdn.net/teve2/teve2.m3u8?app=web
+
+#EXTINF:-1 tvg-name="24 TV" group-title="IPTV Cat",0010 - 24 TV
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+
+#EXTINF:-1 tvg-name="A Haber" group-title="IPTV Cat",0021 - A Haber
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+
+#EXTINF:-1 tvg-name="A Spor" group-title="IPTV Cat",0031 - A Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+
+#EXTINF:-1 tvg-name="A2TV" group-title="IPTV Cat",0046 - A2TV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
+
+#EXTINF:-1 tvg-name="ATV" group-title="IPTV Cat",0129 - ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+
+#EXTINF:-1 tvg-name="Aksu TV" group-title="IPTV Cat",0066 - Aksu TV
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Alanya Posta TV" group-title="IPTV Cat",0083 - Alanya Posta TV
+https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Almahriah TV" group-title="IPTV Cat",0086 - Almahriah TV
+https://starmenajo.com/hls/almahriah/index.m3u8
+
+#EXTINF:-1 tvg-name="Altas TV" group-title="IPTV Cat",0089 - Altas TV
+https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Anadolu Net TV" group-title="IPTV Cat",0095 - Anadolu Net TV
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Bir TV" group-title="IPTV Cat",0281 - Bir TV
+https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Bloomberg HT" group-title="IPTV Cat",0287 - Bloomberg HT
+https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
+
+#EXTINF:-1 tvg-name="Bursa AS TV" group-title="IPTV Cat",0318 - Bursa AS TV
+https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="CNBC-e" group-title="IPTV Cat",0412 - CNBC-e
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+
+#EXTINF:-1 tvg-name="CNN Türk" group-title="IPTV Cat",2192 - CNN Türk
+http://85.117.61.84/cnnturk/index.m3u8
+
+#EXTINF:-1 tvg-name="Cartoon Network" group-title="IPTV Cat",0330 - Cartoon Network
+http://176.65.153.40:6002/play/a013/index.m3u8
+
+#EXTINF:-1 tvg-name="Çay TV" group-title="IPTV Cat",2193 - Çay TV
+https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Deniz Postası TV" group-title="IPTV Cat",0434 - Deniz Postası TV
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Diyanet TV" group-title="IPTV Cat",0471 - Diyanet TV
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Diyar TV" group-title="IPTV Cat",0474 - Diyar TV
+https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Dost TV" group-title="IPTV Cat",2194 - Dost TV
+https://dost.stream.emsal.im/tv/live.m3u8
+
+#EXTINF:-1 tvg-name="Dream Türk" group-title="IPTV Cat",2195 - Dream Türk
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ES TV" group-title="IPTV Cat",0589 - ES TV
+https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ETV Kayseri" group-title="IPTV Cat",0593 - ETV Kayseri
+https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ETV Manisa" group-title="IPTV Cat",0595 - ETV Manisa
+https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Edessa TV" group-title="IPTV Cat",0535 - Edessa TV
+https://canli.edessatv.com/hls/stream.m3u8
+
+#EXTINF:-1 tvg-name="Ekotürk" group-title="IPTV Cat",2196 - Ekotürk
+https://cdn.ekoturk.net/hls/master.m3u8
+
+#EXTINF:-1 tvg-name="Euro D" group-title="IPTV Cat",0599 - Euro D
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+
+#EXTINF:-1 tvg-name="FB TV" group-title="IPTV Cat",0645 - FB TV
+http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Finans Turk TV" group-title="IPTV Cat",0654 - Finans Turk TV
+https://yayin30.haber100.com/live/finansturk/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Flash Haber TV" group-title="IPTV Cat",0669 - Flash Haber TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Fortuna TV" group-title="IPTV Cat",0674 - Fortuna TV
+https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="GZT" group-title="IPTV Cat",0747 - GZT
+https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Güneydoğu TV" group-title="IPTV Cat",2197 - Güneydoğu TV
+https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Haber61 TV" group-title="IPTV Cat",0759 - Haber61 TV
+https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
+
+#EXTINF:-1 tvg-name="Halk TV" group-title="IPTV Cat",0769 - Halk TV
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+
+#EXTINF:-1 tvg-name="HTSpor TV" group-title="IPTV Cat",0796 - HTSpor TV
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+
+#EXTINF:-1 tvg-name="İçel TV" group-title="IPTV Cat",2198 - İçel TV
+https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 3" group-title="IPTV Cat",0835 - Kanal 3
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 7" group-title="IPTV Cat",0838 - Kanal 7
+https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 7 Avrupa" group-title="IPTV Cat",0841 - Kanal 7 Avrupa
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 15" group-title="IPTV Cat",0851 - Kanal 15
+https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 23" group-title="IPTV Cat",0854 - Kanal 23
+https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 26" group-title="IPTV Cat",0860 - Kanal 26
+https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 33" group-title="IPTV Cat",0864 - Kanal 33
+https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 58" group-title="IPTV Cat",2199 - Kanal 58
+https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kanal D" group-title="IPTV Cat",0887 - Kanal D
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
+
+#EXTINF:-1 tvg-name="Kanal Fırat" group-title="IPTV Cat",0900 - Kanal Fırat
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kent Türk" group-title="IPTV Cat",2200 - Kent Türk
+https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Konya Olay TV" group-title="IPTV Cat",0949 - Konya Olay TV
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Kral Pop TV" group-title="IPTV Cat",0959 - Kral Pop TV
+https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="KRT" group-title="IPTV Cat",0965 - KRT
+https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8
+
+#EXTINF:-1 tvg-name="Life TV" group-title="IPTV Cat",0981 - Life TV
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Line TV" group-title="IPTV Cat",0984 - Line TV
+https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Luys TV" group-title="IPTV Cat",0990 - Luys TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="MTürk TV" group-title="IPTV Cat",2201 - MTürk TV
+https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="MaviKaradeniz" group-title="IPTV Cat",1003 - MaviKaradeniz
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Med Müzik" group-title="IPTV Cat",2202 - Med Müzik
+http://54.36.110.140/live3/live3.m3u8
+
+#EXTINF:-1 tvg-name="Mercan TV" group-title="IPTV Cat",1040 - Mercan TV
+https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Minika Çocuk" group-title="IPTV Cat",1052 - Minika Çocuk
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
+
+#EXTINF:-1 tvg-name="Minika Go" group-title="IPTV Cat",1055 - Minika Go
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
+
+#EXTINF:-1 tvg-name="NOW" group-title="IPTV Cat",1102 - NOW
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+
+#EXTINF:-1 tvg-name="NTV" group-title="IPTV Cat",1122 - NTV
+https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
+
+#EXTINF:-1 tvg-name="Number 1 Damar" group-title="IPTV Cat",1135 - Number 1 Damar
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Number 1 Dance" group-title="IPTV Cat",1137 - Number 1 Dance
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Number 1 TV" group-title="IPTV Cat",1141 - Number 1 TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Persiana Türkiye" group-title="IPTV Cat",2203 - Persiana Türkiye
+https://turkhls.persiana.live/hls/stream.m3u8
+
+#EXTINF:-1 tvg-name="Power Dance" group-title="IPTV Cat",1195 - Power Dance
+https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Power Love" group-title="IPTV Cat",1200 - Power Love
+https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Power TV" group-title="IPTV Cat",1215 - Power TV
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="PowerTürk Akustik" group-title="IPTV Cat",2204 - PowerTürk Akustik
+https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="PowerTürk Slow" group-title="IPTV Cat",2205 - PowerTürk Slow
+https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="PowerTürk Taptaze" group-title="IPTV Cat",2206 - PowerTürk Taptaze
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="PowerTürk TV" group-title="IPTV Cat",2207 - PowerTürk TV
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sat7 Türk" group-title="IPTV Cat",2208 - Sat7 Türk
+https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sercem TV" group-title="IPTV Cat",1337 - Sercem TV
+https://canli.sercemtv.com.tr/hls/0/stream.m3u8
+
+#EXTINF:-1 tvg-name="Sözcü TV" group-title="IPTV Cat",1393 - Sözcü TV
+https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8
+
+#EXTINF:-1 tvg-name="Spacetoon Turkey" group-title="IPTV Cat",1396 - Spacetoon Turkey
+https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
+
+#EXTINF:-1 tvg-name="Star TV" group-title="IPTV Cat",1411 - Star TV
+https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
+
+#EXTINF:-1 tvg-name="Sun RTV" group-title="IPTV Cat",1419 - Sun RTV
+https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TBMM TV" group-title="IPTV Cat",1460 - TBMM TV
+https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+
+#EXTINF:-1 tvg-name="TGRT Haber" group-title="IPTV Cat",1488 - TGRT Haber
+https://canli.tgrthaber.com/tgrt.m3u8
+
+#EXTINF:-1 tvg-name="TJK TV" group-title="IPTV Cat",1519 - TJK TV
+https://tjktv-live.tjk.org/tjktv.m3u8
+
+#EXTINF:-1 tvg-name="TRT 3" group-title="IPTV Cat",1976 - TRT 3
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F418740351278f04c94b243
+
+#EXTINF:-1 tvg-name="TRT Müzik" group-title="IPTV Cat",2014 - TRT Müzik
+https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-name="TRT World" group-title="IPTV Cat",2040 - TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-name="TV4" group-title="IPTV Cat",2099 - TV4
+https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+
+#EXTINF:-1 tvg-name="TV 41" group-title="IPTV Cat",2075 - TV 41
+http://stream.taksimbilisim.com:1935/tv41/bant1/TV41.m3u8
+
+#EXTINF:-1 tvg-name="TV 52" group-title="IPTV Cat",2079 - TV 52
+https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TV 264" group-title="IPTV Cat",2087 - TV 264
+https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Tempo TV" group-title="IPTV Cat",1472 - Tempo TV
+https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Tivi 6" group-title="IPTV Cat",1496 - Tivi 6
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Ton TV" group-title="IPTV Cat",1532 - Ton TV
+https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TürkHaber" group-title="IPTV Cat",2209 - TürkHaber
+https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Urfa Natik TV" group-title="IPTV Cat",2136 - Urfa Natik TV
+https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Van 65 TV" group-title="IPTV Cat",2142 - Van 65 TV
+https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Vav TV" group-title="IPTV Cat",2145 - Vav TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Vuslat TV" group-title="IPTV Cat",2210 - Vuslat TV
+https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Zarok TV" group-title="IPTV Cat",2188 - Zarok TV
+https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
+
+#EXTINF:-1 tvg-name="Çiftçi TV" group-title="IPTV Cat",0350 - Çiftçi TV
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="beIN Sports 1 Türk" group-title="IPTV Cat",2211 - beIN Sports 1 Türk
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F300113394ceebba66c8ad
