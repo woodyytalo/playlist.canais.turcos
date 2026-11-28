@@ -8962,3 +8962,6 @@ https://kool.ws/vavoo-iptv/play/2655157451b1786586fd0c
 
 #EXTINF:-1 tvg-name="ZONGULDAK KANAL Z" group-title="ZONGULDAK KANAL Z",2191 - ZONGULDAK KANAL Z
 https://kool.ws/vavoo-iptv/play/1467834090ec77c1def93a
+
+#EXTINF:-1 tvg-name="Teve2" group-title="IPTV Cat",1478 - Teve2
+https://teve2.daioncdn.net/teve2/teve2.m3u8?app=web
